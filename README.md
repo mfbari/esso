@@ -1,5 +1,5 @@
 ## Source code for the 'Energy Smart SFC Orchestrator (ESSO)' paper
-
+---
 ### Heuristics
 
 #### Embedding
@@ -8,6 +8,7 @@
 
 #### Consolidation
 
+---
 ### CPLEX 
 
 CPLEX studio path: `/opt/ibm/ILOG/CPLEX_Studio125/`  
