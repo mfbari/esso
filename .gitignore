@@ -1,2 +1,6 @@
 # vim temp files
 *.swp
+
+# binries
+esso_cplex
+runsim
