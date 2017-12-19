@@ -10,8 +10,8 @@
 
 ### CPLEX 
 
-CPLEX studio path: `/opt/ibm/ILOG/CPLEX_Studio125/`.
-Source code: `esso_cplex.cpp`
-Compile: `make cplex`
-Run: `./esso_cplex`
+CPLEX studio path: `/opt/ibm/ILOG/CPLEX_Studio125/`.  
+Source code: `esso_cplex.cpp`  
+Compile: `make cplex`  
+Run: `./esso_cplex`  
 
