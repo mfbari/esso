@@ -1,0 +1,13 @@
+<node-count> <edge-count>
+.
+.
+.
+<node-id> <co2-emission/kWh> <0/1:has renewables>
+.
+.
+.
+<edge-u> <edge-v> <latency> <capacity in mbps>
+.
+.
+.
+
