@@ -149,16 +149,20 @@ int main(int argc, char **argv) {
       vector<int>(time_instance_count, 0));
 
   
-  int sfc_count{0};
+  int sfc_count{0}, current_sfc{0};
   int ingress_co, egress_co, ttl, flavor_count, flavor_id, delay;
   for (int i = 0; i < time_instance_count; ++i) {
     ftin >> sfc_count;
     for (int j = 0; j < sfc_count; ++j) {
       ftin >> ingress_co >> egress_co >> ttl >> flavor_count;
+      for (int k = 0; k < ttl; ++k) {
+        sfc_active[current_sfc][i] = 1;
+      }
       for (int k = 0; k < flavor_count; ++k) {
         ftin >> flavor_id;
       }
       ftin >> bandwidth >> delay;
+      ++current_sfc;
     }
   }
 
