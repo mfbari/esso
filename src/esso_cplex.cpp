@@ -155,14 +155,15 @@ int main(int argc, char **argv) {
     ftin >> sfc_count;
     for (int j = 0; j < sfc_count; ++j) {
       ftin >> ingress_co >> egress_co >> ttl >> flavor_count;
+      sfc_arrival[current_sfc][i] = 1;
+      sfc_departure[current_sfc][i+ttl] = 1;
       for (int k = 0; k < ttl; ++k) {
-        sfc_active[current_sfc][i] = 1;
+        sfc_active[current_sfc++][i+k] = 1;
       }
       for (int k = 0; k < flavor_count; ++k) {
         ftin >> flavor_id;
       }
       ftin >> bandwidth >> delay;
-      ++current_sfc;
     }
   }
 
