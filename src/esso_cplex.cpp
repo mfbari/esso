@@ -164,7 +164,6 @@ int main(int argc, char **argv) {
         ftin >> flavor_id;
       }
       ftin >> bandwidth >> delay;
-      ++current_sfc;
     }
   }
 
