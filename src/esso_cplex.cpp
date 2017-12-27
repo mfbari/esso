@@ -27,6 +27,17 @@ struct node_info {
     cpu_capacity(cpu_capacity), per_cpu_power(per_cpu_power) {}
 };
 
+struct sfc_request {
+  int vnf_count;
+  int ingress_co, egress_co;
+  int ttl;
+  vector<int> vnf_flavors;
+  vector<int> cpu_reqs;
+  double latency;
+  double bandwidth;
+};
+using sfc_request_set = vector<sfc_request>;
+
 int main(int argc, char **argv) {
 
   int co_count, co_id, node_count, edge_count;
@@ -95,24 +106,24 @@ int main(int argc, char **argv) {
   bool use_one_path = true;
   izlib::iz_path_list phy_paths;
   /*
-  for (int u = 0; u < node_count; ++u) {
-    for (int v = 0; v < node_count; ++v) {
-      if (u != v && node_infos[u].node_category == 'c' &&
-          node_infos[v].node_category == 'c') {
-        // both u and v are servers, and u != v
-        if (use_one_path) {
-          izlib::iz_path path;
-          topo.shortest_path(u, v, path);
-          phy_paths.push_back(path);
-        }
-        else {
-          izlib::iz_path_list paths;
-          topo.k_shortest_paths(u, v, phy_k, paths); 
-          phy_paths.insert(phy_paths.end(), paths.begin(), paths.end());
-        }
-      }
-    }
-    cout << u << " done." << '\r' << flush;
+     for (int u = 0; u < node_count; ++u) {
+     for (int v = 0; v < node_count; ++v) {
+     if (u != v && node_infos[u].node_category == 'c' &&
+     node_infos[v].node_category == 'c') {
+  // both u and v are servers, and u != v
+  if (use_one_path) {
+  izlib::iz_path path;
+  topo.shortest_path(u, v, path);
+  phy_paths.push_back(path);
+  }
+  else {
+  izlib::iz_path_list paths;
+  topo.k_shortest_paths(u, v, phy_k, paths); 
+  phy_paths.insert(phy_paths.end(), paths.begin(), paths.end());
+  }
+  }
+  }
+  cout << u << " done." << '\r' << flush;
   }
   cout << endl;
   cout << "total paths: " << phy_paths.size() << endl;
@@ -124,18 +135,33 @@ int main(int argc, char **argv) {
   vector<vector<vector<int>>> path_to_edge(phy_paths.size(),
       vector<vector<int>>(node_count, vector<int>(node_count, 0)));
   /*
-  for (int i = 0; i < phy_paths.size(); ++i) {
-    for (auto& edge : topo.path_edges(phy_paths[i])) {
-      path_to_edge[i][edge.u][edge.v] = 1;
-      path_to_edge[i][edge.v][edge.u] = 1;
-      if (node_infos[edge.u].node_category == 's') 
-        path_to_switch[i][edge.u] = 1;
-      if (node_infos[edge.v].node_category == 's') 
-        path_to_switch[i][edge.v] = 1;
-    }
-  }
-  */
+     for (int i = 0; i < phy_paths.size(); ++i) {
+     for (auto& edge : topo.path_edges(phy_paths[i])) {
+     path_to_edge[i][edge.u][edge.v] = 1;
+     path_to_edge[i][edge.v][edge.u] = 1;
+     if (node_infos[edge.u].node_category == 's') 
+     path_to_switch[i][edge.u] = 1;
+     if (node_infos[edge.v].node_category == 's') 
+     path_to_switch[i][edge.v] = 1;
+     }
+     }
+     */
 
+  // read the vnfinfo.dat file for flavor_id to cpu_count
+  vector<int> flavor_cpu;
+  {
+    fstream fvin("vnfinfo.dat");
+    int type_count, flavor_count, dummy_int, cpu_count;
+    string dummy_str;
+    fvin >> type_count;
+    for (int k = 0; k < type_count; ++k) fvin >> dummy_int >> dummy_str;
+    fvin >> flavor_count;
+    for(int i = 0; i < flavor_count; ++i) {
+      fvin >> dummy_int >> dummy_int >> cpu_count >> dummy_int;
+      flavor_cpu.push_back(cpu_count);
+    }
+    fvin.close();
+  }
   // read sfc data
   fstream ftin("timeslots.dat");
   int total_sfc_count{0}, time_instance_count{0};
@@ -148,22 +174,31 @@ int main(int argc, char **argv) {
   vector<vector<int>> sfc_departure(total_sfc_count, 
       vector<int>(time_instance_count, 0));
 
-  
+  vector<sfc_request_set> time_instances_sfcs(time_instance_count);
+  // read the timeslots.dat file for sfc requests and 
+  // populate the active, arrival, departure events
+  // and store the sfc requests in matrix I
+
   int sfc_count{0}, current_sfc{0};
-  int ingress_co, egress_co, ttl, flavor_count, flavor_id, delay;
+  int flavor_id;
   for (int i = 0; i < time_instance_count; ++i) {
     ftin >> sfc_count;
+    time_instances_sfcs[i].resize(sfc_count);
     for (int j = 0; j < sfc_count; ++j) {
-      ftin >> ingress_co >> egress_co >> ttl >> flavor_count;
+      sfc_request sfc_req;
+      ftin >> sfc_req.ingress_co >> sfc_req.egress_co >> sfc_req.ttl >> 
+        sfc_req.vnf_count;
       sfc_arrival[current_sfc][i] = 1;
-      sfc_departure[current_sfc][i+ttl] = 1;
-      for (int k = 0; k < ttl; ++k) {
+      sfc_departure[current_sfc][i+sfc_req.ttl] = 1;
+      for (int k = 0; k < sfc_req.ttl; ++k) {
         sfc_active[current_sfc][i+k] = 1;
       }
-      for (int k = 0; k < flavor_count; ++k) {
+      for (int k = 0; k < sfc_req.vnf_count; ++k) {
         ftin >> flavor_id;
+        sfc_req.vnf_flavors.push_back(flavor_id);
+        sfc_req.cpu_reqs.push_back(flavor_cpu[flavor_id]);
       }
-      ftin >> bandwidth >> delay;
+      ftin >> sfc_req.bandwidth >> sfc_req.latency;
     }
   }
 
