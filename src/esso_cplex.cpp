@@ -161,6 +161,48 @@ void read_time_instance_data(const string& filename,
   fin.close();
 }
 
+void calculate_physical_paths(const int& node_count, 
+    const vector<node_info>& node_infos, 
+    const int& phy_k, const bool& use_one_path,
+    izlib::iz_topology& topo, izlib::iz_path_list& phy_paths,
+    vector<vector<int>>& path_to_switch, 
+    vector<vector<vector<int>>>& path_to_edge) {
+  for (int u = 0; u < node_count; ++u) {
+    for (int v = 0; v < node_count; ++v) {
+      if (u != v && node_infos[u].node_category == 'c' &&
+          node_infos[v].node_category == 'c') {
+        // both u and v are servers, and u != v
+        if (use_one_path) {
+          izlib::iz_path path;
+          topo.shortest_path(u, v, path);
+          phy_paths.push_back(path);
+        }
+        else {
+          izlib::iz_path_list paths;
+          topo.k_shortest_paths(u, v, phy_k, paths); 
+          phy_paths.insert(phy_paths.end(), paths.begin(), paths.end());
+        }
+      }
+    }
+    cout << u << " done." << '\r' << flush;
+  }
+  cout << endl;
+  cout << "total paths: " << phy_paths.size() << endl;
+  path_to_switch.resize(phy_paths.size(), vector<int>(node_count, 0));
+  path_to_edge.resize(phy_paths.size(), vector<vector<int>>(node_count, 
+      vector<int>(node_count, 0)));
+  for (size_t i = 0; i < phy_paths.size(); ++i) {
+    for (auto& edge : topo.path_edges(phy_paths[i])) {
+      path_to_edge[i][edge.u][edge.v] = 1;
+      path_to_edge[i][edge.v][edge.u] = 1;
+      if (node_infos[edge.u].node_category == 's') 
+        path_to_switch[i][edge.u] = 1;
+      if (node_infos[edge.v].node_category == 's') 
+        path_to_switch[i][edge.v] = 1;
+    }
+  }
+}
+
 int main(int argc, char **argv) {
 
   // filenames for reading in input
@@ -186,47 +228,14 @@ int main(int argc, char **argv) {
   constexpr int phy_k = 3;
   bool use_one_path = true;
   izlib::iz_path_list phy_paths;
-  /*
-     for (int u = 0; u < node_count; ++u) {
-     for (int v = 0; v < node_count; ++v) {
-     if (u != v && node_infos[u].node_category == 'c' &&
-     node_infos[v].node_category == 'c') {
-  // both u and v are servers, and u != v
-  if (use_one_path) {
-  izlib::iz_path path;
-  topo.shortest_path(u, v, path);
-  phy_paths.push_back(path);
-  }
-  else {
-  izlib::iz_path_list paths;
-  topo.k_shortest_paths(u, v, phy_k, paths); 
-  phy_paths.insert(phy_paths.end(), paths.begin(), paths.end());
-  }
-  }
-  }
-  cout << u << " done." << '\r' << flush;
-  }
-  cout << endl;
-  cout << "total paths: " << phy_paths.size() << endl;
-  */
-
   //path to switch and path to edge mapping
-  vector<vector<int>> path_to_switch(phy_paths.size(),
-      vector<int>(node_count, 0));
-  vector<vector<vector<int>>> path_to_edge(phy_paths.size(),
-      vector<vector<int>>(node_count, vector<int>(node_count, 0)));
-  /*
-     for (int i = 0; i < phy_paths.size(); ++i) {
-     for (auto& edge : topo.path_edges(phy_paths[i])) {
-     path_to_edge[i][edge.u][edge.v] = 1;
-     path_to_edge[i][edge.v][edge.u] = 1;
-     if (node_infos[edge.u].node_category == 's') 
-     path_to_switch[i][edge.u] = 1;
-     if (node_infos[edge.v].node_category == 's') 
-     path_to_switch[i][edge.v] = 1;
-     }
-     }
-     */
+  vector<vector<int>> path_to_switch;
+  vector<vector<vector<int>>> path_to_edge;
+  calculate_physical_paths(node_count, 
+      node_infos,
+      phy_k, use_one_path,
+      topo, phy_paths,
+      path_to_switch, path_to_edge);
 
   // read the vnfinfo.dat file for flavor_id to cpu_count
   vector<int> flavor_cpu;
