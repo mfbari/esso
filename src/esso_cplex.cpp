@@ -38,16 +38,18 @@ struct sfc_request {
 };
 using sfc_request_set = vector<sfc_request>;
 
-int main(int argc, char **argv) {
-
-  int co_count, co_id, node_count, edge_count;
-  vector<int> servers, switches;
-  vector<node_info> node_infos;
-  fstream fin("phy_inf_cplex.dat");
+void read_physical_infrastucture_data(const string& filename, 
+    int& co_count, int& node_count, int& edge_count, 
+    vector<int>& servers, vector<int>& switches,
+    vector<node_info>& node_infos, 
+    vector<vector<double>>& renewable_energy, 
+    vector<double>& carbon_per_watt,
+    izlib::iz_topology& topo) {
+  fstream fin(filename);
+  int co_id;
   fin >> co_count;
-  vector<vector<double>> renewable_energy(co_count,
-      vector<double>(time_inst_count));
-  vector<double> carbon_per_watt(time_inst_count);
+  renewable_energy.resize(co_count, vector<double>(time_inst_count));
+  carbon_per_watt.resize(time_inst_count);
   // read renewable energy data from file
   for (int i = 0; i < co_count; ++i) {
     fin >> co_id;
@@ -92,15 +94,94 @@ int main(int argc, char **argv) {
   }
   // read the links
   int node_u, node_v, bandwidth, latency;
-  izlib::iz_topology topo;
   topo.init(node_count);
   for (int i = 0; i < edge_count; ++i) {
     fin >> node_u >> node_v >> type >> bandwidth >> latency;
     topo.add_edge(node_u, node_v, latency, bandwidth);
   }
+  fin.close();
+}
+
+void read_vnf_info_data(const string& filename, vector<int>& flavor_cpu) {
+  fstream fin("vnfinfo.dat");
+  int type_count, flavor_count, dummy_int, cpu_count;
+  string dummy_str;
+  fin >> type_count;
+  for (int k = 0; k < type_count; ++k) fin >> dummy_int >> dummy_str;
+  fin >> flavor_count;
+  for(int i = 0; i < flavor_count; ++i) {
+    fin >> dummy_int >> dummy_int >> cpu_count >> dummy_int;
+    flavor_cpu.push_back(cpu_count);
+  }
+  fin.close();
+}
+
+void read_time_instance_data(const string& filename, 
+    const vector<int>& flavor_cpu,
+    int& total_sfc_count, int& time_instance_count, 
+    vector<vector<int>>& sfc_active, 
+    vector<vector<int>>& sfc_arrival,
+    vector<vector<int>>& sfc_departure,
+    vector<sfc_request_set>& time_instances_sfcs) {
+  // read sfc data
+  fstream fin(filename);
+  fin >> total_sfc_count >> time_instance_count;
+
+  sfc_active.resize(total_sfc_count, vector<int>(time_instance_count, 0));
+  sfc_arrival.resize(total_sfc_count, vector<int>(time_instance_count, 0));
+  sfc_departure.resize(total_sfc_count, vector<int>(time_instance_count, 0));
+  time_instances_sfcs.resize(time_instance_count);
+  // read the timeslots.dat file for sfc requests and 
+  // populate the active, arrival, departure events
+  // and store the sfc requests in time_instances_sfcs 
+
+  int sfc_count{0}, current_sfc{0};
+  int flavor_id;
+  for (int i = 0; i < time_instance_count; ++i) {
+    fin >> sfc_count;
+    time_instances_sfcs[i].resize(sfc_count);
+    for (int j = 0; j < sfc_count; ++j) {
+      sfc_request sfc_req;
+      fin >> sfc_req.ingress_co >> sfc_req.egress_co >> sfc_req.ttl >> 
+        sfc_req.vnf_count;
+      sfc_arrival[current_sfc][i] = 1;
+      sfc_departure[current_sfc][i+sfc_req.ttl] = 1;
+      for (int k = 0; k < sfc_req.ttl; ++k) {
+        sfc_active[current_sfc][i+k] = 1;
+      }
+      for (int k = 0; k < sfc_req.vnf_count; ++k) {
+        fin >> flavor_id;
+        sfc_req.vnf_flavors.push_back(flavor_id);
+        sfc_req.cpu_reqs.push_back(flavor_cpu[flavor_id]);
+      }
+      fin >> sfc_req.bandwidth >> sfc_req.latency;
+    }
+  }
 
   fin.close();
+}
 
+int main(int argc, char **argv) {
+
+  // filenames for reading in input
+  string phy_inf_filename = "phy_inf_cplex.dat";
+  string vnf_info_filename = "vnfinfo.dat";
+  string time_instance_filename = "timeslots.dat";
+
+  // variables representing physical infrastucture
+  int co_count, node_count, edge_count;
+  vector<int> servers, switches;
+  vector<node_info> node_infos;
+  vector<vector<double>> renewable_energy;
+  vector<double> carbon_per_watt;
+  izlib::iz_topology topo;
+  read_physical_infrastucture_data(phy_inf_filename, 
+      co_count, node_count, edge_count,
+      servers, switches,
+      node_infos,
+      renewable_energy, 
+      carbon_per_watt,
+      topo);
   // physical paths
   constexpr int phy_k = 3;
   bool use_one_path = true;
@@ -149,60 +230,19 @@ int main(int argc, char **argv) {
 
   // read the vnfinfo.dat file for flavor_id to cpu_count
   vector<int> flavor_cpu;
-  {
-    fstream fvin("vnfinfo.dat");
-    int type_count, flavor_count, dummy_int, cpu_count;
-    string dummy_str;
-    fvin >> type_count;
-    for (int k = 0; k < type_count; ++k) fvin >> dummy_int >> dummy_str;
-    fvin >> flavor_count;
-    for(int i = 0; i < flavor_count; ++i) {
-      fvin >> dummy_int >> dummy_int >> cpu_count >> dummy_int;
-      flavor_cpu.push_back(cpu_count);
-    }
-    fvin.close();
-  }
+  read_vnf_info_data(vnf_info_filename, flavor_cpu);
+
   // read sfc data
-  fstream ftin("timeslots.dat");
   int total_sfc_count{0}, time_instance_count{0};
-  ftin >> total_sfc_count >> time_instance_count;
-
-  vector<vector<int>> sfc_active(total_sfc_count, 
-      vector<int>(time_instance_count, 0));
-  vector<vector<int>> sfc_arrival(total_sfc_count, 
-      vector<int>(time_instance_count, 0));
-  vector<vector<int>> sfc_departure(total_sfc_count, 
-      vector<int>(time_instance_count, 0));
-
-  vector<sfc_request_set> time_instances_sfcs(time_instance_count);
-  // read the timeslots.dat file for sfc requests and 
-  // populate the active, arrival, departure events
-  // and store the sfc requests in matrix I
-
-  int sfc_count{0}, current_sfc{0};
-  int flavor_id;
-  for (int i = 0; i < time_instance_count; ++i) {
-    ftin >> sfc_count;
-    time_instances_sfcs[i].resize(sfc_count);
-    for (int j = 0; j < sfc_count; ++j) {
-      sfc_request sfc_req;
-      ftin >> sfc_req.ingress_co >> sfc_req.egress_co >> sfc_req.ttl >> 
-        sfc_req.vnf_count;
-      sfc_arrival[current_sfc][i] = 1;
-      sfc_departure[current_sfc][i+sfc_req.ttl] = 1;
-      for (int k = 0; k < sfc_req.ttl; ++k) {
-        sfc_active[current_sfc][i+k] = 1;
-      }
-      for (int k = 0; k < sfc_req.vnf_count; ++k) {
-        ftin >> flavor_id;
-        sfc_req.vnf_flavors.push_back(flavor_id);
-        sfc_req.cpu_reqs.push_back(flavor_cpu[flavor_id]);
-      }
-      ftin >> sfc_req.bandwidth >> sfc_req.latency;
-    }
-  }
-
-  ftin.close();
+  vector<vector<int>> sfc_active;
+  vector<vector<int>> sfc_arrival;
+  vector<vector<int>> sfc_departure;
+  vector<sfc_request_set> time_instances_sfcs;
+  read_time_instance_data(time_instance_filename, 
+      flavor_cpu,
+      total_sfc_count, time_instance_count,
+      sfc_active, sfc_arrival, sfc_departure,
+      time_instances_sfcs);
 
   IloEnv env;
   try {
