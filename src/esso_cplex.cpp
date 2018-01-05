@@ -205,17 +205,24 @@ void calculate_physical_paths(const int& node_count,
 
 int main(int argc, char **argv) {
 
-  // filenames for reading in input
+  // filenames for reading in the inputs
   string phy_inf_filename = "phy_inf_cplex.dat";
   string vnf_info_filename = "vnfinfo.dat";
   string time_instance_filename = "timeslots.dat";
 
   // variables representing physical infrastucture
   int co_count, node_count, edge_count;
+  // these two vectors contain the node_ids for the 
+  // servers and switches
   vector<int> servers, switches;
+  // this vector contains all info for the nodes
   vector<node_info> node_infos;
   vector<vector<double>> renewable_energy;
+  // carbon/watt at the COs
   vector<double> carbon_per_watt;
+  // topo represents the entire topology of the 
+  // physical infrastructure. It is used to compute
+  // the k-shortest paths between the servers
   izlib::iz_topology topo;
   read_physical_infrastucture_data(phy_inf_filename, 
       co_count, node_count, edge_count,
@@ -224,11 +231,14 @@ int main(int argc, char **argv) {
       renewable_energy, 
       carbon_per_watt,
       topo);
-  // physical paths
+  // compute the physical paths
+  // k
   constexpr int phy_k = 3;
   bool use_one_path = true;
+  // phy_paths holds all the paths, this is used for embedding
   izlib::iz_path_list phy_paths;
-  //path to switch and path to edge mapping
+  // path to switch and path to edge mapping
+  // these are used for the constraints in the model
   vector<vector<int>> path_to_switch;
   vector<vector<vector<int>>> path_to_edge;
   calculate_physical_paths(node_count, 
@@ -238,14 +248,19 @@ int main(int argc, char **argv) {
       path_to_switch, path_to_edge);
 
   // read the vnfinfo.dat file for flavor_id to cpu_count
+  // this is the flavor -> cpu mapping
   vector<int> flavor_cpu;
   read_vnf_info_data(vnf_info_filename, flavor_cpu);
 
   // read sfc data
+  // sfcs are numbered across time instances
   int total_sfc_count{0}, time_instance_count{0};
+  // the following vectors represent active, arrival, and departure
+  // event for the sfc across time instances
   vector<vector<int>> sfc_active;
   vector<vector<int>> sfc_arrival;
   vector<vector<int>> sfc_departure;
+  // mapping between time instance and sfc
   vector<sfc_request_set> time_instances_sfcs;
   read_time_instance_data(time_instance_filename, 
       flavor_cpu,
