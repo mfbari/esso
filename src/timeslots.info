@@ -4,7 +4,9 @@
 # the last one or more timeinstance(s) will contain 0 sfc requests
 # they represent time instances for sfc expiries.
 
-...
+[
 <sfc-count in timeinstance i>
+[
 <ingress-co> <egress-co> <ttl> <flavor-count> ...<flavor-id> ... <bandwidth> <max-delay>
-...
+]
+]
