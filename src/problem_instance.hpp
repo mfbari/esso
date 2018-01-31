@@ -80,21 +80,22 @@ struct problem_instance {
 
   int time_slot_count() {return time_slots.size();}
 
-  void read_input(const problem_input& prob_input) {
-    read_vnf_info_file(prob_input.vnf_info_filename);
-    read_time_slot_file(prob_input.time_slot_filename);
+  bool read_input(const problem_input& prob_input) {
+    return read_vnf_info_file(prob_input.vnf_info_filename) &&
+    read_time_slot_file(prob_input.time_slot_filename) &&
     read_topology_file(prob_input.topology_filename);
   }
 
-  void read_topology_file(const string& filename) {
+  bool read_topology_file(const string& filename) {
     fstream fin(filename.c_str());
     if (!fin) {
       cout << "ERROR: failes to open topology file" << endl;
+      return false;
     }
-    fstream fgc("greencap.dat");
+    fstream fgc("../data/greencap.dat");
     if (!fgc) {
       cout << "ERROR: failed to open greencap.dat" << endl;
-      return;
+      return false;
     }
     int node_count{0}, edge_count{0};
     fin >> node_count >> edge_count;
@@ -121,13 +122,14 @@ struct problem_instance {
     }
     fin.close();
     fgc.close();
+    return true;
   }
 
-  void read_time_slot_file(const string& filename) {
+  bool read_time_slot_file(const string& filename) {
     fstream fin(filename.c_str());
     if (!fin) {
       cout << "ERROR: failed to open timeslot file" << endl;
-      return;
+      return false;
     }
     int time_slot_count{0};
     fin >> time_slot_count;
@@ -151,13 +153,14 @@ struct problem_instance {
       time_slots.emplace_back(sfc_req_set);
     }
     fin.close();
+    return true;
   }    
 
-  void read_vnf_info_file(const string& filename) {
+  bool read_vnf_info_file(const string& filename) {
     fstream fin(filename.c_str());
     if (!fin) {
       cout << "ERROR: failed to open vnfinfo file" << endl;
-      return;
+      return false;
     }
     int type_count{0};
     fin >> type_count;
@@ -175,6 +178,7 @@ struct problem_instance {
       vnf_flavors.emplace_back(vnf_flavor(flavor_id, type_id, cpus, delay));
     }
     fin.close();
+    return true;
   }
 };
 

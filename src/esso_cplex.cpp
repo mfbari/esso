@@ -11,7 +11,7 @@ constexpr int time_inst_count = 24;
 //typedef IloArray<IloIntVarArray> IloIntVarArray2D;
 using IloIntVarArray2D = IloArray<IloIntVarArray>;
 using IloIntVarArray3D = IloArray<IloIntVarArray2D>;
-using IloIntVarArray4d = IloArray<IloIntVarArray3D>;
+using IloIntVarArray4D = IloArray<IloIntVarArray3D>;
 
 struct node_info {
   int node_id, co_id;
@@ -127,9 +127,9 @@ void read_time_instance_data(const string& filename,
   fstream fin(filename);
   fin >> total_sfc_count >> time_instance_count;
 
-  sfc_active.resize(total_sfc_count, vector<int>(time_instance_count, 0));
-  sfc_arrival.resize(total_sfc_count, vector<int>(time_instance_count, 0));
-  sfc_departure.resize(total_sfc_count, vector<int>(time_instance_count, 0));
+  sfc_active.resize(total_sfc_count);
+  sfc_arrival.resize(total_sfc_count);
+  sfc_departure.resize(total_sfc_count);
   time_instances_sfcs.resize(time_instance_count);
   // read the timeslots.dat file for sfc requests and 
   // populate the active, arrival, departure events
@@ -139,6 +139,9 @@ void read_time_instance_data(const string& filename,
   int flavor_id;
   for (int i = 0; i < time_instance_count; ++i) {
     fin >> sfc_count;
+    sfc_active[i].resize(sfc_count, 0);
+    sfc_arrival[i].resize(sfc_count, 0);
+    sfc_departure[i].resize(sfc_count, 0);
     time_instances_sfcs[i].resize(sfc_count);
     for (int j = 0; j < sfc_count; ++j) {
       sfc_request sfc_req;
@@ -190,7 +193,7 @@ void calculate_physical_paths(const int& node_count,
   cout << "total paths: " << phy_paths.size() << endl;
   path_to_switch.resize(phy_paths.size(), vector<int>(node_count, 0));
   path_to_edge.resize(phy_paths.size(), vector<vector<int>>(node_count, 
-      vector<int>(node_count, 0)));
+        vector<int>(node_count, 0)));
   for (size_t i = 0; i < phy_paths.size(); ++i) {
     for (auto& edge : topo.path_edges(phy_paths[i])) {
       path_to_edge[i][edge.u][edge.v] = 1;
@@ -271,8 +274,37 @@ int main(int argc, char **argv) {
   IloEnv env;
   try {
     IloModel model(env);
+    IloCplex cplex(model);
 
     cout << "cplex code ..." << endl;
+    // decision variable x, indices: t, i, n, _n
+    IloIntVarArray4D x(env, time_instance_count);
+    for (int t = 0; t < time_instance_count; ++t) {
+      x[t] = IloIntVarArray3D(env, time_instances_sfcs[t].size());
+      for (int i = 0; i < time_instances_sfcs[t].size(); ++i) {
+        x[t][i] = IloIntVarArray2D(env, 
+            time_instances_sfcs[t][i].vnf_count+2);
+        for (int n = 0; n < time_instances_sfcs[t][i].vnf_count+2; ++n) {
+          x[t][i][n] = IloIntVarArray(env, phy_paths.size(), 0, 1);
+        }
+      }
+    }
+    // decision variable y, indices: t, i, l, _p
+    IloIntVarArray4D y(env, time_instance_count);
+    for (int t = 0; t < time_instance_count; ++t) {
+      y[t] = IloIntVarArray3D(env, time_instances_sfcs[t].size());
+      for (int i = 0; i < time_instances_sfcs[t].size(); ++i) {
+        y[t][i] = IloIntVarArray2D(env, 
+            time_instances_sfcs[t][i].vnf_count+1);
+        for (int l = 0; l < time_instances_sfcs[t][i].vnf_count+1; ++l) {
+          y[t][i][l] = IloIntVarArray(env, servers.size(), 0, 1);
+        }
+      }
+    }
+
+    // x and y should be equal to the active when summed over all 
+    // servers and vnf nodes
+    
 
   }
   catch (IloException& e) {
