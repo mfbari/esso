@@ -1,5 +1,6 @@
 # vim temp files
 *.swp
+*.swo
 
 # binries
 esso_cplex
