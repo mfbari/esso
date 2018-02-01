@@ -11,3 +11,8 @@ Makefile
 
 # tags for vim
 tags
+
+# runtime dataset files
+src/data/*/n_sfc_t*
+src/data/*/x_sfc_t*
+
