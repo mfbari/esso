@@ -67,8 +67,22 @@ if __name__ == "__main__":
     #print sfc_in_events
     #print sfc_out_events
 
-    active_sfcs = set()
+    x_sfcs = set()
     for t in range(timeslot_count):
-        active_sfcs = active_sfcs.difference(sfc_out_events[t])
-        print t, sfc_in_events[t], active_sfcs
-        active_sfcs = active_sfcs.union(sfc_in_events[t])
+        x_sfcs = x_sfcs.difference(sfc_out_events[t])
+        # x_sfcs represent alive sfcs that arrived between [0,t)
+        # --- start code for simulation
+        print t, sfc_in_events[t], x_sfcs
+        # write files for c++/CPLEX code
+        fn = open(os.path.join(dataset_path, 'n_sfc_t' + str(t)), 'w')
+        for s in sfc_in_events[t]:
+            fn.write(" ".join(sfcs[s]) + "\n")
+        fn.close()
+        fx = open(os.path.join(dataset_path, 'x_sfc_t' + str(t)), 'w')
+        for s in x_sfcs:
+            fx.write(" ".join(sfcs[s]) + "\n")
+        fx.close()
+        # invoke c++/CPLEX code 
+        # how to represent mapping?
+        # --- end code for simulation
+        x_sfcs = x_sfcs.union(sfc_in_events[t])
