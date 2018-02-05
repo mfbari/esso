@@ -3,6 +3,7 @@
 #include <string>
 
 #include "iz_topology.hpp"
+#include "stop_watch.hpp"
 
 ILOSTLBEGIN
 
@@ -38,7 +39,7 @@ struct sfc_request {
 };
 using sfc_request_set = vector<sfc_request>;
 
-void read_physical_infrastucture_data(const string& filename, 
+void read_res_topology_data(const string& filename, 
     int& co_count, int& node_count, int& edge_count, 
     vector<int>& servers, vector<int>& switches,
     vector<node_info>& node_infos, 
@@ -206,12 +207,97 @@ void calculate_physical_paths(const int& node_count,
   }
 }
 
+void read_path_data(const string& path_switch_filename,
+    const string& path_edge_filename,
+    const int node_count, 
+    vector<vector<int>>& path_to_switch,
+    vector<vector<vector<int>>>& path_to_edge,
+    vector<int>& path_src, vector<int>& path_dst) {
+  fstream fin(path_switch_filename);
+  int path_count;
+  fin >> path_count;
+  // resize the vectors
+  path_to_switch.resize(path_count, vector<int>(node_count, 0));
+  path_to_edge.resize(path_count, vector<vector<int>>(node_count, 
+        vector<int>(node_count, 0)));
+  path_src.resize(path_count, -1);
+  path_dst.resize(path_count, -1);
+  // read data
+  int s, d, n, sw;
+  for (int i = 0; i < path_count; ++i) {
+    fin >> s >> d >> n;
+    path_src[i] = s;
+    path_dst[i] = d;
+    for (int j = 0; j < n; ++j) {
+      fin >> sw;
+      path_to_switch[i][sw] = 1;
+    }
+  }
+  fin.close();
+  fin.open(path_edge_filename);
+  fin >> path_count;
+  for (int i = 0; i < path_count; ++i) {
+    fin >> s >> d >> n;
+    int u, v;
+    fin >> u;
+    for (int j = 0; j < n; ++j) {
+      fin >> v;
+      path_to_edge[i][u][v] = 1;
+      path_to_edge[i][v][u] = 1;
+      u = v;
+    }
+  }
+  fin.close();
+}
+
+void read_n_sfc_data(const string& n_sfc_filename, 
+    sfc_request_set& n_sfcs) {
+  fstream fin(n_sfc_filename);
+  int n, cpu_count;
+  fin >> n;
+  for (int i = 0; i < n; ++i) {
+    sfc_request sfc_req;
+    fin >> sfc_req.ingress_co >> sfc_req.egress_co >> sfc_req.ttl >> 
+      sfc_req.vnf_count;
+    for (int k = 0; k < sfc_req.vnf_count; ++k) {
+      fin >> cpu_count;
+      sfc_req.cpu_reqs.push_back(cpu_count);
+      fin >> sfc_req.bandwidth >> sfc_req.latency;
+    }
+    n_sfcs.push_back(sfc_req);
+  }
+  fin.close();
+}
+
+void read_x_sfc_data(const string& x_sfc_filename, 
+    sfc_request_set& x_sfcs) {
+  ofstream fin(x_sfc_filename);
+  // TODO: how to represent mapping
+
+
+  fin.close();
+}
+
 int main(int argc, char **argv) {
 
+  // check args for correnct format
+  if (argc != 6) {
+    cout << "usage: ./esso_cplex.o <path-to res_topology.dat> " <<
+      "<path-to path_switch.dat> <path-to path_edge.dat> " <<
+      "<path-to n_sfc_tn.dat> <path-to x_sfc_tn.dat>" << endl;
+    exit(-1);
+  }
   // filenames for reading in the inputs
-  string phy_inf_filename = "phy_inf_cplex.dat";
-  string vnf_info_filename = "vnfinfo.dat";
-  string time_instance_filename = "timeslots.dat";
+  auto& res_topology_filename = argv[1];
+  auto& path_switch_filename= argv[2];
+  auto& path_edge_filename = argv[3];
+  auto& n_sfc_filename = argv[4];
+  auto& x_sfc_filename = argv[5];
+  //string phy_inf_filename = "phy_inf_cplex.dat";
+  //string vnf_info_filename = "vnfinfo.dat";
+  //string time_instance_filename = "timeslots.dat";
+
+  stop_watch sw;
 
   // variables representing physical infrastucture
   int co_count, node_count, edge_count;
@@ -227,60 +313,74 @@ int main(int argc, char **argv) {
   // physical infrastructure. It is used to compute
   // the k-shortest paths between the servers
   izlib::iz_topology topo;
-  read_physical_infrastucture_data(phy_inf_filename, 
+  sw.start();
+  read_res_topology_data(res_topology_filename, 
       co_count, node_count, edge_count,
       servers, switches,
       node_infos,
       renewable_energy, 
       carbon_per_watt,
       topo);
+  sw.stop();
+  cout << "res_topology.dat read in " << sw << endl;
   // compute the physical paths
   // k
-  constexpr int phy_k = 3;
-  bool use_one_path = true;
+  //constexpr int phy_k = 3;
+  //bool use_one_path = true;
   // phy_paths holds all the paths, this is used for embedding
-  izlib::iz_path_list phy_paths;
+  //izlib::iz_path_list phy_paths;
   // path to switch and path to edge mapping
   // these are used for the constraints in the model
   vector<vector<int>> path_to_switch;
   vector<vector<vector<int>>> path_to_edge;
-  calculate_physical_paths(node_count, 
-      node_infos,
-      phy_k, use_one_path,
-      topo, phy_paths,
-      path_to_switch, path_to_edge);
-
+  vector<int> path_src, path_dst;
+  sw.start();
+  read_path_data(path_switch_filename, path_edge_filename,
+      node_count, path_to_switch, path_to_edge,
+      path_src, path_dst);
+  sw.stop();
+  cout << "path_* read in " << sw << endl;
   // read the vnfinfo.dat file for flavor_id to cpu_count
   // this is the flavor -> cpu mapping
-  vector<int> flavor_cpu;
-  read_vnf_info_data(vnf_info_filename, flavor_cpu);
+  //vector<int> flavor_cpu;
+  //read_vnf_info_data(vnf_info_filename, flavor_cpu);
+
+  // read n_sfc_tn file
+  sfc_request_set n_sfcs, x_sfcs;
+  sw.start();
+  read_n_sfc_data(n_sfc_filename, n_sfcs);
+  read_x_sfc_data(x_sfc_filename, x_sfcs);
+  sw.stop();
+  cout << "n_sfc read in " << sw << endl;
+
 
   // read sfc data
   // sfcs are numbered across time instances
-  int total_sfc_count{0}, time_instance_count{0};
+  //int total_sfc_count{0}, time_instance_count{0};
   // the following vectors represent active, arrival, and departure
   // event for the sfc across time instances
-  vector<vector<int>> sfc_active;
-  vector<vector<int>> sfc_arrival;
-  vector<vector<int>> sfc_departure;
+  //vector<vector<int>> sfc_active;
+  //vector<vector<int>> sfc_arrival;
+  //vector<vector<int>> sfc_departure;
   // mapping between time instance and sfc
-  vector<sfc_request_set> time_instances_sfcs;
-  read_time_instance_data(time_instance_filename, 
-      flavor_cpu,
-      total_sfc_count, time_instance_count,
-      sfc_active, sfc_arrival, sfc_departure,
-      time_instances_sfcs);
+  //vector<sfc_request_set> time_instances_sfcs;
+  //read_time_instance_data(time_instance_filename, 
+  //    flavor_cpu,
+  //    total_sfc_count, time_instance_count,
+  //    sfc_active, sfc_arrival, sfc_departure,
+  //    time_instances_sfcs);
 
   IloEnv env;
   try {
     IloModel model(env);
     IloCplex cplex(model);
 
-    cout << "cplex code ..." << endl;
+    cout << "---------cplex---------" << endl;
+    /*
     // decision variable x, indices: t, i, n, _n
-    IloIntVarArray4D x(env, time_instance_count);
+    IloIntVarArray3D x(env, time_instance_count);
     for (int t = 0; t < time_instance_count; ++t) {
-      x[t] = IloIntVarArray3D(env, time_instances_sfcs[t].size());
+      x[t] = IloIntVarArray2D(env, time_instances_sfcs[t].size());
       for (int i = 0; i < time_instances_sfcs[t].size(); ++i) {
         x[t][i] = IloIntVarArray2D(env, 
             time_instances_sfcs[t][i].vnf_count+2);
@@ -301,7 +401,7 @@ int main(int argc, char **argv) {
         }
       }
     }
-
+    */
     // x and y should be equal to the active when summed over all 
     // servers and vnf nodes
     
@@ -316,5 +416,6 @@ int main(int argc, char **argv) {
   }
 
   env.end();
+  cout << "---------cplex---------" << endl;
   return 0;
 }
