@@ -3,8 +3,8 @@
 *.swo
 
 # binries
-esso_cplex
-runsim
+esso_cplex.o
+esso_heuristic.o
 
 # Makefile
 Makefile
@@ -13,6 +13,8 @@ Makefile
 tags
 
 # runtime dataset files
-src/data/*/n_sfc_t*
-src/data/*/x_sfc_t*
+data/*/n_sfc_t*
+data/*/x_sfc_t*
 
+# runs folder
+runs
