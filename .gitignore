@@ -7,7 +7,7 @@ esso_cplex.o
 esso_heuristic.o
 
 # Makefile
-Makefile
+#Makefile
 
 # tags for vim
 tags
@@ -16,5 +16,13 @@ tags
 data/*/n_sfc_t*
 data/*/x_sfc_t*
 
-# runs folder
-runs
+# everything inside runs folder
+runs/*
+!runs/README.md
+
+# temp files
+command
+debug
+
+# log files
+*.log
