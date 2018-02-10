@@ -42,7 +42,10 @@ def read_timeslots_file(dataset_path):
             for s in range(t_sfc_count):
                 sfc_in[t].add(sfc_id)
                 values = [x for x in f.readline().split()]  
-                ttl = int(values[2])
+                # convert from flavor-id to cpu-count
+                values[5:-2] = [str(vnf_flavor_to_cpu[int(x)]['cpu_count'])
+                                    for x in values[5:-2]]
+                ttl = int(values[3])
                 sfc_out[t+ttl].add(sfc_id)
                 sfcs.append(values)
                 sfc_id += 1
@@ -89,13 +92,19 @@ if __name__ == '__main__':
         pass
 
     # copy data files to the run folder
-    shutil.copy(os.path.join(dataset_path, 'path_switch.dat'), run_path)
-    shutil.copy(os.path.join(dataset_path, 'path_edge.dat'), run_path)
+    shutil.copy(os.path.join(dataset_path, 'paths.dat'), run_path)
     shutil.copyfile(os.path.join(dataset_path, 'init_topology.dat'), 
                     os.path.join(run_path,'res_topology.dat'))
 
+    # construct make and exe str
+    make_str = 'make cplex'
+    exe_file = 'esso_cplex.o'
+    if args.tabusearch:
+        make_str = 'make heuristic'
+        exe_file = 'esso_heuristic.o'
+
     # build executable
-    make_log = open('make_log.log', 'a')
+    make_log = open(make_str, 'w')
     make_process = subprocess.Popen("make cplex", shell=True,
                     stdout=make_log, stderr=make_log)
     if make_process.wait() != 0:
@@ -103,10 +112,11 @@ if __name__ == '__main__':
         exit()
 
     # copy the executable to the run folder
-    shutil.copy('esso_cplex.o', run_path)
+    shutil.copy(exe_file, run_path)
 
     # read input files
     read_vnf_types_file(dataset_path)
+    #print vnf_flavor_to_cpu
     
     read_timeslots_file(dataset_path)
 
@@ -118,7 +128,7 @@ if __name__ == '__main__':
         # x_sfcs represent alive sfcs that arrived between [0,t)
         # --- --- start code for simulation
         print t, sfc_in[t], x_sfcs
-        # write files for c++/CPLEX code
+        # write files for cplex/heuristic code
         with open(os.path.join(run_path, 'n_sfc_t' + str(t)), 'w') as f:
             f.write(str(len(sfc_in[t])) + "\n")
             for s in sfc_in[t]:
@@ -127,7 +137,7 @@ if __name__ == '__main__':
             f.write(str(len(x_sfcs)) + "\n")
             for s in x_sfcs:
                 f.write(" ".join(sfcs[s]) + "\n")
-        # invoke c++/CPLEX code 
+        # invoke cplex/heuristic code 
         # how to represent mapping?
         # --- --- end code for simulation
         x_sfcs = x_sfcs.union(sfc_in[t])

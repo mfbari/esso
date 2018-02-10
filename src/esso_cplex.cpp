@@ -28,6 +28,10 @@ struct node_info {
     cpu_capacity(cpu_capacity), per_cpu_power(per_cpu_power) {}
 };
 
+struct edge {
+  int u, v;
+};
+
 struct sfc_request {
   int vnf_count;
   int ingress_co, egress_co;
@@ -36,6 +40,8 @@ struct sfc_request {
   vector<int> cpu_reqs;
   double latency;
   double bandwidth;
+  int node_count() {return vnf_count + 2;}
+  int edge_count() {return vnf_count + 1;}
 };
 using sfc_request_set = vector<sfc_request>;
 
@@ -78,7 +84,7 @@ void read_res_topology_data(const string& filename,
         fin >> sleep_power >> base_power >> cpu_count >> per_cpu_power;
         node_infos.emplace_back(node_id, co_id, type, 
             sleep_power, base_power, 
-            per_cpu_power, cpu_count);
+            cpu_count, per_cpu_power);
         break;
 
       case 's': 
@@ -103,149 +109,37 @@ void read_res_topology_data(const string& filename,
   fin.close();
 }
 
-void read_vnf_info_data(const string& filename, vector<int>& flavor_cpu) {
-  fstream fin("vnfinfo.dat");
-  int type_count, flavor_count, dummy_int, cpu_count;
-  string dummy_str;
-  fin >> type_count;
-  for (int k = 0; k < type_count; ++k) fin >> dummy_int >> dummy_str;
-  fin >> flavor_count;
-  for(int i = 0; i < flavor_count; ++i) {
-    fin >> dummy_int >> dummy_int >> cpu_count >> dummy_int;
-    flavor_cpu.push_back(cpu_count);
+void read_path_data(const string& paths_filename,
+    const int node_count, int& path_count, 
+    vector<vector<int>>& path_nodes,
+    vector<vector<int>>& path_switches,
+    vector<vector<vector<int>>>& edge_to_path) {
+  fstream fin(paths_filename);
+  if (!fin) {
+    cerr << "Failed to open paths.dat" << endl;
+    exit(-1);
   }
-  fin.close();
-}
-
-void read_time_instance_data(const string& filename, 
-    const vector<int>& flavor_cpu,
-    int& total_sfc_count, int& time_instance_count, 
-    vector<vector<int>>& sfc_active, 
-    vector<vector<int>>& sfc_arrival,
-    vector<vector<int>>& sfc_departure,
-    vector<sfc_request_set>& time_instances_sfcs) {
-  // read sfc data
-  fstream fin(filename);
-  fin >> total_sfc_count >> time_instance_count;
-
-  sfc_active.resize(total_sfc_count);
-  sfc_arrival.resize(total_sfc_count);
-  sfc_departure.resize(total_sfc_count);
-  time_instances_sfcs.resize(time_instance_count);
-  // read the timeslots.dat file for sfc requests and 
-  // populate the active, arrival, departure events
-  // and store the sfc requests in time_instances_sfcs 
-
-  int sfc_count{0}, current_sfc{0};
-  int flavor_id;
-  for (int i = 0; i < time_instance_count; ++i) {
-    fin >> sfc_count;
-    sfc_active[i].resize(sfc_count, 0);
-    sfc_arrival[i].resize(sfc_count, 0);
-    sfc_departure[i].resize(sfc_count, 0);
-    time_instances_sfcs[i].resize(sfc_count);
-    for (int j = 0; j < sfc_count; ++j) {
-      sfc_request sfc_req;
-      fin >> sfc_req.ingress_co >> sfc_req.egress_co >> sfc_req.ttl >> 
-        sfc_req.vnf_count;
-      sfc_arrival[current_sfc][i] = 1;
-      sfc_departure[current_sfc][i+sfc_req.ttl] = 1;
-      for (int k = 0; k < sfc_req.ttl; ++k) {
-        sfc_active[current_sfc][i+k] = 1;
-      }
-      for (int k = 0; k < sfc_req.vnf_count; ++k) {
-        fin >> flavor_id;
-        sfc_req.vnf_flavors.push_back(flavor_id);
-        sfc_req.cpu_reqs.push_back(flavor_cpu[flavor_id]);
-      }
-      fin >> sfc_req.bandwidth >> sfc_req.latency;
-    }
-  }
-
-  fin.close();
-}
-
-void calculate_physical_paths(const int& node_count, 
-    const vector<node_info>& node_infos, 
-    const int& phy_k, const bool& use_one_path,
-    izlib::iz_topology& topo, izlib::iz_path_list& phy_paths,
-    vector<vector<int>>& path_to_switch, 
-    vector<vector<vector<int>>>& path_to_edge) {
-  for (int u = 0; u < node_count; ++u) {
-    for (int v = 0; v < node_count; ++v) {
-      if (u != v && node_infos[u].node_category == 'c' &&
-          node_infos[v].node_category == 'c') {
-        // both u and v are servers, and u != v
-        if (use_one_path) {
-          izlib::iz_path path;
-          topo.shortest_path(u, v, path);
-          phy_paths.push_back(path);
-        }
-        else {
-          izlib::iz_path_list paths;
-          topo.k_shortest_paths(u, v, phy_k, paths); 
-          phy_paths.insert(phy_paths.end(), paths.begin(), paths.end());
-        }
-      }
-    }
-    cout << u << " done." << '\r' << flush;
-  }
-  cout << endl;
-  cout << "total paths: " << phy_paths.size() << endl;
-  path_to_switch.resize(phy_paths.size(), vector<int>(node_count, 0));
-  path_to_edge.resize(phy_paths.size(), vector<vector<int>>(node_count, 
-        vector<int>(node_count, 0)));
-  for (size_t i = 0; i < phy_paths.size(); ++i) {
-    for (auto& edge : topo.path_edges(phy_paths[i])) {
-      path_to_edge[i][edge.u][edge.v] = 1;
-      path_to_edge[i][edge.v][edge.u] = 1;
-      if (node_infos[edge.u].node_category == 's') 
-        path_to_switch[i][edge.u] = 1;
-      if (node_infos[edge.v].node_category == 's') 
-        path_to_switch[i][edge.v] = 1;
-    }
-  }
-}
-
-void read_path_data(const string& path_switch_filename,
-    const string& path_edge_filename,
-    const int node_count, 
-    vector<vector<int>>& path_to_switch,
-    vector<vector<vector<int>>>& path_to_edge,
-    vector<int>& path_src, vector<int>& path_dst) {
-  fstream fin(path_switch_filename);
-  int path_count;
   fin >> path_count;
   // resize the vectors
-  path_to_switch.resize(path_count, vector<int>(node_count, 0));
-  path_to_edge.resize(path_count, vector<vector<int>>(node_count, 
-        vector<int>(node_count, 0)));
-  path_src.resize(path_count, -1);
-  path_dst.resize(path_count, -1);
+  path_nodes.resize(path_count, vector<int>());
+  path_switches.resize(path_count, vector<int>());
+  edge_to_path.resize(node_count, vector<vector<int>>(node_count, 
+        vector<int>()));
   // read data
-  int s, d, n, sw;
+  int id, n, u, v;
   for (int i = 0; i < path_count; ++i) {
-    fin >> s >> d >> n;
-    path_src[i] = s;
-    path_dst[i] = d;
-    for (int j = 0; j < n; ++j) {
-      fin >> sw;
-      path_to_switch[i][sw] = 1;
-    }
-  }
-  fin.close();
-  fin.open(path_edge_filename);
-  fin >> path_count;
-  for (int i = 0; i < path_count; ++i) {
-    fin >> s >> d >> n;
-    int u, v;
-    fin >> u;
-    for (int j = 0; j < n; ++j) {
+    fin >> id >> n >> u;
+    path_nodes[i].push_back(u);
+    for (int j = 1; j < n; ++j) {
       fin >> v;
-      path_to_edge[i][u][v] = 1;
-      path_to_edge[i][v][u] = 1;
+      path_nodes[i].push_back(v);
+      edge_to_path[u][v].push_back(i);
+      edge_to_path[v][u].push_back(i);
       u = v;
     }
+    fin >> n; // switch-count
+    path_switches[i].resize(n);
+    for (auto& s : path_switches[i]) fin >> s;
   }
   fin.close();
 }
@@ -253,17 +147,17 @@ void read_path_data(const string& path_switch_filename,
 void read_n_sfc_data(const string& n_sfc_filename, 
     sfc_request_set& n_sfcs) {
   fstream fin(n_sfc_filename);
-  int n, cpu_count;
+  int id, n, cpu_count;
   fin >> n;
   for (int i = 0; i < n; ++i) {
     sfc_request sfc_req;
-    fin >> sfc_req.ingress_co >> sfc_req.egress_co >> sfc_req.ttl >> 
-      sfc_req.vnf_count;
+    fin >> id >> sfc_req.ingress_co >> sfc_req.egress_co >> 
+        sfc_req.ttl >> sfc_req.vnf_count;
     for (int k = 0; k < sfc_req.vnf_count; ++k) {
       fin >> cpu_count;
       sfc_req.cpu_reqs.push_back(cpu_count);
-      fin >> sfc_req.bandwidth >> sfc_req.latency;
     }
+    fin >> sfc_req.bandwidth >> sfc_req.latency;
     n_sfcs.push_back(sfc_req);
   }
   fin.close();
@@ -281,21 +175,17 @@ void read_x_sfc_data(const string& x_sfc_filename,
 int main(int argc, char **argv) {
 
   // check args for correnct format
-  if (argc != 6) {
+  if (argc != 5) {
     cout << "usage: ./esso_cplex.o <path-to res_topology.dat> " <<
-      "<path-to path_switch.dat> <path-to path_edge.dat> " <<
-      "<path-to n_sfc_tn.dat> <path-to x_sfc_tn.dat>" << endl;
+      "<path-to paths.dat> <path-to n_sfc_tn.dat> " << 
+      "<path-to x_sfc_tn.dat>" << endl;
     exit(-1);
   }
   // filenames for reading in the inputs
   auto& res_topology_filename = argv[1];
-  auto& path_switch_filename= argv[2];
-  auto& path_edge_filename = argv[3];
-  auto& n_sfc_filename = argv[4];
-  auto& x_sfc_filename = argv[5];
-  //string phy_inf_filename = "phy_inf_cplex.dat";
-  //string vnf_info_filename = "vnfinfo.dat";
-  //string time_instance_filename = "timeslots.dat";
+  auto& paths_filename= argv[2];
+  auto& n_sfc_filename = argv[3];
+  auto& x_sfc_filename = argv[4];
 
   stop_watch sw;
 
@@ -331,13 +221,14 @@ int main(int argc, char **argv) {
   //izlib::iz_path_list phy_paths;
   // path to switch and path to edge mapping
   // these are used for the constraints in the model
-  vector<vector<int>> path_to_switch;
-  vector<vector<vector<int>>> path_to_edge;
-  vector<int> path_src, path_dst;
+  int path_count {0};
+  vector<vector<int>> path_nodes;
+  vector<vector<int>> path_switches;
+  vector<vector<vector<int>>> edge_to_path;
   sw.start();
-  read_path_data(path_switch_filename, path_edge_filename,
-      node_count, path_to_switch, path_to_edge,
-      path_src, path_dst);
+  read_path_data(paths_filename, 
+      node_count, path_count,
+      path_nodes, path_switches, edge_to_path);
   sw.stop();
   cout << "path_* read in " << sw << endl;
   // read the vnfinfo.dat file for flavor_id to cpu_count
@@ -376,35 +267,169 @@ int main(int argc, char **argv) {
     IloCplex cplex(model);
 
     cout << "---------cplex---------" << endl;
-    /*
-    // decision variable x, indices: t, i, n, _n
-    IloIntVarArray3D x(env, time_instance_count);
-    for (int t = 0; t < time_instance_count; ++t) {
-      x[t] = IloIntVarArray2D(env, time_instances_sfcs[t].size());
-      for (int i = 0; i < time_instances_sfcs[t].size(); ++i) {
-        x[t][i] = IloIntVarArray2D(env, 
-            time_instances_sfcs[t][i].vnf_count+2);
-        for (int n = 0; n < time_instances_sfcs[t][i].vnf_count+2; ++n) {
-          x[t][i][n] = IloIntVarArray(env, phy_paths.size(), 0, 1);
+    // decision variable x, indices: i, n, _n
+    IloIntVarArray3D x(env, n_sfcs.size());
+    for (int i = 0; i < n_sfcs.size(); ++i) {
+      x[i] = IloIntVarArray2D(env, n_sfcs[i].node_count());
+      for (int n = 0; n < n_sfcs[i].node_count(); ++n) {
+        x[i][n] = IloIntVarArray(env, servers.size(), 0, 1);
+      }
+    } 
+    // decision variable y, indices: i, l, _p
+    IloIntVarArray3D y(env, n_sfcs.size());
+    for (int i = 0; i < n_sfcs.size(); ++i) {
+      y[i] = IloIntVarArray2D(env, n_sfcs[i].edge_count());
+      for (int l = 0; l < n_sfcs[i].edge_count(); ++l) {
+        y[i][l] = IloIntVarArray(env, path_count, 0, 1);
+      }
+    } 
+    // derived vairable z
+    IloIntVarArray z(env, servers.size(), 0, 1);
+
+    //=========Constraint=========//
+    // x and y should be equal to 1 when summed over all 
+    // servers and physical paths
+    for (int i = 0; i < n_sfcs.size(); ++i) {
+      for (int n = 0; n < n_sfcs[i].node_count(); ++n) {
+        IloExpr x__n(env);
+        for (int _n = 0; _n < servers.size(); ++_n) {
+          x__n += x[i][n][_n];
+        }
+        model.add(x__n == 1);
+      }
+    }
+    for (int i = 0; i < n_sfcs.size(); ++i) {
+      for (int l = 0; l < n_sfcs[i].edge_count(); ++l) {
+        IloExpr y__p(env);
+        for (int _p = 0; _p < path_count; ++_p) {
+          y__p += y[i][l][_p];
+        }
+        model.add(y__p == 1);
+      }
+    }
+
+    //=========Constraint=========//
+    // z[_n] whether a server _n is active or not
+    for (int _n = 0; _n < servers.size(); ++_n) {
+      IloExpr sum(env);
+      for (int i = 0; i < n_sfcs.size(); ++i) {
+        for (int n = 0; n < n_sfcs[i].node_count(); ++n) {
+          sum += x[i][n][_n];
+        }
+      }
+      model.add(z[_n] <= sum);
+      model.add(IloIfThen(env, sum > 0, z[_n] == 1));
+    }
+
+    //=========Constraint=========//
+    // capacity constraint for server
+    for (int _n = 0; _n < servers.size(); ++_n) {
+      IloExpr allocated_cpu(env);
+      for (int i = 0; i < n_sfcs.size(); ++i) {
+        // n = 0 is the ingress co
+        // n = n_sfcs[i].node_count()-1 is the egress co
+        for (int n = 1; n < n_sfcs[i].node_count() - 1; ++n) {
+          allocated_cpu += x[i][n][_n] * n_sfcs[i].cpu_reqs[n-1];
+        }
+      }
+      model.add(allocated_cpu <= node_infos[servers[_n]].cpu_capacity);
+    }
+    // capacity constraint for edge
+    for (int u = 0; u < node_count; ++u) {
+      for (int v = 0; v < node_count; ++v) {
+        if (u != v) {
+          IloExpr allocated_capacity(env);
+          for (int i = 0; i < n_sfcs.size(); ++i) {
+            for (int l = 0; l < n_sfcs[i].edge_count(); ++l) {
+              for (int _p: edge_to_path[u][v]) {
+                allocated_capacity += y[i][l][_p] * n_sfcs[i].bandwidth;
+              }
+            }
+          }
+          model.add(allocated_capacity <= topo.residual(u, v));
         }
       }
     }
-    // decision variable y, indices: t, i, l, _p
-    IloIntVarArray4D y(env, time_instance_count);
-    for (int t = 0; t < time_instance_count; ++t) {
-      y[t] = IloIntVarArray3D(env, time_instances_sfcs[t].size());
-      for (int i = 0; i < time_instances_sfcs[t].size(); ++i) {
-        y[t][i] = IloIntVarArray2D(env, 
-            time_instances_sfcs[t][i].vnf_count+1);
-        for (int l = 0; l < time_instances_sfcs[t][i].vnf_count+1; ++l) {
-          y[t][i][l] = IloIntVarArray(env, servers.size(), 0, 1);
+               
+    //=========Constraint=========//
+    // max delay constraint for sfc
+    for (int i = 0; i < n_sfcs.size(); ++i) {
+      IloExpr delay(env);
+      for (int l = 0; l < n_sfcs[i].edge_count(); ++l) {
+        for (int _p = 0; _p < path_count; ++_p) {
+          int u = path_nodes[_p].front(), v;
+          for (int j = 1; j < path_nodes[_p].size(); ++j) {
+            v = path_nodes[_p][j];
+            delay += y[i][l][_p] * topo.latency(u, v);
+            u = v;
+          }
         }
       }
+      model.add(delay <= n_sfcs[i].latency);
     }
-    */
-    // x and y should be equal to the active when summed over all 
-    // servers and vnf nodes
     
+    //=========Objective=========//
+    IloExpr objective(env);
+    // minimize the number of active servers
+    IloExpr cost(env);
+    for (int _n = 0; _n < servers.size(); ++_n) {
+      cost += z[_n];
+    }
+
+    objective += cost;
+
+    /*Objective --> model*/
+    model.add(objective >= 0);
+    model.add(IloMinimize(env, objective));
+
+    //=========Solver=========//
+    IloTimer timer(env);
+    timer.restart();
+
+    const IloInt time_limit_seconds = 60*60; // 1 hour
+    const IloNum relative_gap = 0.001; // 0.1% gap with optimal
+
+    cplex.setParam(IloCplex::TiLim, time_limit_seconds);
+    cplex.setParam(IloCplex::EpGap, relative_gap);
+    cplex.setParam(IloCplex::PreDual, true);
+
+    if(!cplex.solve()) {
+      timer.stop();
+      cout << "could not solve ILP!" << endl;
+      cout << "status: " << cplex.getStatus() << endl;
+      throw(-1);
+    }
+
+    timer.stop();
+    cout << "ILP solved in " << timer.getTime() << endl;
+    cout << "Objective value = " << cplex.getObjValue() << endl;
+
+    // get value for x
+    for (int i = 0; i < n_sfcs.size(); ++i) {
+      for (int n = 0; n < n_sfcs[i].node_count(); ++n) {
+        cout << "x[" << i << "][" << n << "] = ";
+        for (int _n = 0; _n < servers.size(); ++_n) {
+          if (cplex.getValue(x[i][n][_n] == 1)) {
+            cout << _n << " ";
+          }
+        }
+        cout << endl;
+      }
+    }
+    cout << "---------" << endl;
+    // get value for y
+    for (int i = 0; i < n_sfcs.size(); ++i) {
+      for (int l = 0; l < n_sfcs[i].edge_count(); ++l) {
+        cout << "y[" << i << "][" << l << "] = ";
+        for (int _p = 0; _p < path_count; ++_p) {
+          if (cplex.getValue(y[i][l][_p] == 1)) {
+            cout << _p << " ";
+          }
+        }
+        cout << endl;
+      }
+    }  
+
 
   }
   catch (IloException& e) {
