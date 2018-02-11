@@ -3,8 +3,7 @@
 *.swo
 
 # binries
-esso_cplex.o
-esso_heuristic.o
+*.o
 
 # tags for vim
 tags
