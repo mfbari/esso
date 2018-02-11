@@ -1,6 +1,6 @@
 ## co_topology.dat
 
-Network topology for CO level network
+Network topology for the CO level (or inter-CO) network
 
 ````python
 <node-count> <edge-count>

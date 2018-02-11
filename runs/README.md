@@ -1,6 +1,6 @@
 ## res_topology.dat
 
-Residual resource and topology for the entire newtwork, i.e., inter-CO and intra-CO. This file is generated/updated by `run_simulation.py` after each timeslot.
+Residual resource and topology info for the entire newtwork, i.e., inter-CO and intra-CO. This file is generated/updated by `run_simulation.py` after each timeslot. 
 
 ```python
 <co-count>
