@@ -51,7 +51,7 @@ Contains SFC request specification for timeslots
 #for each timeslot in (0, timeslot-count]
 <sfc-count for timeslot t>
 # for each sfc in (0, t.sfc-count]
-<ingress-co> <egress-co> <ttl> <vnf-count> [... <vnf-cpu-requirement> ...] <bandwidth> <max-delay>
+<sfc-id> <ingress-co> <egress-co> <ttl> <vnf-count> [... <vnf-cpu-requirement> ...] <bandwidth> <max-delay>
 
 
 ````
