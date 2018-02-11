@@ -11,6 +11,7 @@ tags
 # runtime dataset files
 data/*/n_sfc_t*
 data/*/x_sfc_t*
+data/*/paths.dat
 
 # everything inside runs folder
 runs/*
