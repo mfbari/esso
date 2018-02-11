@@ -104,8 +104,8 @@ if __name__ == '__main__':
         exe_file = 'esso_heuristic.o'
 
     # build executable
-    make_log = open(make_str, 'w')
-    make_process = subprocess.Popen("make cplex", shell=True,
+    make_log = open('make.log', 'w')
+    make_process = subprocess.Popen(make_str, shell=True,
                     stdout=make_log, stderr=make_log)
     if make_process.wait() != 0:
         print "error: make failed"
