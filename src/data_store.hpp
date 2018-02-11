@@ -5,8 +5,7 @@
 #include <string>
 #include <iostream>
 #include <fstream>
-
-#include "iz_topology.hpp"
+#include <unordered_map>
 
 using namespace std;
 
@@ -27,11 +26,21 @@ struct node_info {
     node_id(node_id), co_id(co_id), node_category(node_category),
     sleep_power(sleep_power), base_power(base_power),
     cpu_capacity(cpu_capacity), per_cpu_power(per_cpu_power) {}
+  bool is_server() {return node_category == 'c';}
 };
 
 // not used yet
-struct edge {
+struct edge_info {
   int u, v;
+  int capacity, latency;
+  edge_info(int u = -1, int v = -1, 
+      int c = -1, int l = -1) :
+    u(u), v(v), capacity(c), latency(l) {
+  }
+  bool is_valid() {
+    return u != -1 && v != -1 && 
+      capacity != -1 && latency != -1;
+  }
 };
 
 struct sfc_request {
@@ -56,6 +65,7 @@ struct data_store {
   // these two vectors contain the node_ids for the
   // servers and switches
   std::vector<int> servers, switches;
+  std::unordered_map<int, int> server_id_to_index;
   // this vector contains all info for the nodes
   std::vector<node_info> node_infos;
   // vector<vector> for 24 renewable energy data for each co
@@ -65,7 +75,7 @@ struct data_store {
   // topo represents the entire topology of the
   // physical infrastructure. It is used to track
   // delay and bandwidth usage
-  izlib::iz_topology topo;
+  vector<vector<edge_info>> topo;
   // path to node and switch & edge to path mappings
   // these are used for the constraints in the cplex model
   std::vector<std::vector<int>> path_nodes;
@@ -73,8 +83,6 @@ struct data_store {
   std::vector<std::vector<std::vector<int>>> edge_to_path;
   // contain the new and pre-existing sfcs
   sfc_request_set n_sfcs, x_sfcs;
-
-  data_store();
 
   //=========primary function to process input=========//
   void read_input(int argc, char **argv);
@@ -85,7 +93,7 @@ struct data_store {
       std::vector<node_info>& node_infos,
       std::vector<std::vector<double>>& renewable_energy,
       std::vector<double>& carbon_per_watt,
-      izlib::iz_topology& topo);
+      std::vector<vector<edge_info>>& topo);
   void read_path_data(const std::string& paths_filename,
       const int node_count, int& path_count,
       std::vector<std::vector<int>>& path_nodes,
@@ -95,11 +103,8 @@ struct data_store {
         sfc_request_set& n_sfcs);
     void read_x_sfc_data(const std::string& x_sfc_filename,
         sfc_request_set& x_sfcs);
+    int path_latency(int _p);
 };
-
-data_store::data_store() : 
-  topo {izlib::iz_topology{}} {
-}
 
 void data_store::read_input(int argc, char **argv) {
   // check args for correct format
@@ -137,7 +142,7 @@ void data_store::read_res_topology_data(const string& filename,
     vector<node_info>& node_infos,
     vector<vector<double>>& renewable_energy,
     vector<double>& carbon_per_watt,
-    izlib::iz_topology& topo) {
+    vector<vector<edge_info>>& topo) {
   fstream fin(filename);
   int co_id;
   fin >> co_count;
@@ -157,7 +162,6 @@ void data_store::read_res_topology_data(const string& filename,
   }
 
   fin >> node_count >> edge_count;
-  cout << node_count << " " << edge_count << endl;
   // read the nodes
   int node_id, cpu_count;
   char type;
@@ -166,6 +170,7 @@ void data_store::read_res_topology_data(const string& filename,
     fin >> node_id >> type >> co_id;
     switch(type) {
       case 'c':
+        server_id_to_index[node_id] = servers.size();
         servers.push_back(node_id);
         fin >> sleep_power >> base_power >> cpu_count >> per_cpu_power;
         node_infos.emplace_back(node_id, co_id, type,
@@ -186,11 +191,12 @@ void data_store::read_res_topology_data(const string& filename,
     }
   }
   // read the links
-  int node_u, node_v, bandwidth, latency;
-  topo.init(node_count);
+  topo.resize(node_count, vector<edge_info>(node_count));
+  int node_u, node_v, capacity, latency;
   for (int i = 0; i < edge_count; ++i) {
-    fin >> node_u >> node_v >> type >> bandwidth >> latency;
-    topo.add_edge(node_u, node_v, latency, bandwidth);
+    fin >> node_u >> node_v >> type >> capacity >> latency;
+    topo[node_u][node_v] = move(edge_info{
+        node_u, node_v, capacity, latency});
   }
   fin.close();
 }
@@ -257,4 +263,16 @@ void data_store::read_x_sfc_data(const string& x_sfc_filename,
 
   fin.close();
 }
+
+int data_store::path_latency(int _p) {
+  int latency{0}, u{path_nodes[_p].front()}, v;
+  for (int i = 1; i < path_nodes[_p].size(); ++i) {
+    v = path_nodes[_p].at(i);
+    if (u == v) continue;
+    latency += topo[u][v].latency;
+    u = v;
+  }
+  return latency;
+}
+
 #endif
