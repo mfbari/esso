@@ -240,9 +240,11 @@ namespace izlib {
   int iz_topology::latency(int u, int v) const {
     assert(u >= 0 && u < node_count);
     assert(v >= 0 && v < node_count);
-    std::tie(u, v) = std::minmax({u,v});
+    //std::tie(u, v) = std::minmax({u,v});
+    if (u > v) std::swap(u, v);
     auto edge_itr = adj_matrix[u].find(v);
-    if (edge_itr == adj_matrix[u].end()) return std::numeric_limits<int>::max();
+    if (edge_itr == adj_matrix[u].end()) 
+      return std::numeric_limits<int>::max();
     return edge_itr->second.latency;
   }
 
