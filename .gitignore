@@ -6,9 +6,6 @@
 esso_cplex.o
 esso_heuristic.o
 
-# Makefile
-#Makefile
-
 # tags for vim
 tags
 
