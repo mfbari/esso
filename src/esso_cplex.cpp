@@ -11,7 +11,7 @@ using IloIntVarArray4D = IloArray<IloIntVarArray3D>;
 int main(int argc, char **argv) {
 
   data_store ds;
-  ds.read_input(argv);
+  ds.read_input(argc, argv);
 
   IloEnv env;
   try {
