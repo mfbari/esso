@@ -17,7 +17,7 @@ const char* join_path(string& dir, const string& file) {
 bool write_init_topology(string& dataset_dir, 
     problem_instance& prob_inst,
     izlib::iz_topology& topo, 
-    vector<char>& node_info, int& server_count) {
+    vector<char>& node_info, vector<int>& server_ids) {
   cout << "Generating init_topology.dat ... ";
   ofstream fout(join_path(dataset_dir, "init_topology.dat"));
   if (!fout) {
@@ -51,7 +51,6 @@ bool write_init_topology(string& dataset_dir,
   int node_id{0}; // node_id for the merged graph
   fout << total_node_count << " " << total_edge_count << endl;
   //fout << cos.size() << " " << inter_co_topo.edge_count << endl;
-  server_count = 0;
   for (auto& co : cos) {
     // output the switches 
     for (int i = 0; i < co.server_ids[0]; ++i) {
@@ -62,10 +61,10 @@ bool write_init_topology(string& dataset_dir,
         co.intra_nodes[i]->base_power << endl;
     }
     // now the servers
-    server_count += co.server_ids.size();
     for (auto i : co.server_ids) {
       id_map[co.id][i] = node_id;
       node_info[node_id] = 'c';
+      server_ids.push_back(node_id);
       auto server_ptr = dynamic_pointer_cast<esso_server>(
           co.intra_nodes[i]);
       fout << node_id++ << " c " << co.id << " " <<
@@ -109,7 +108,7 @@ bool write_init_topology(string& dataset_dir,
 }
 
 bool write_path_link(string& dataset_dir, izlib::iz_topology& topo, 
-    const vector<char>& node_info, int server_count,
+    const vector<char>& node_info, vector<int> server_ids,
     bool use_one_path = true, int phy_k = 3) {
   auto node_count = node_info.size();
   izlib::iz_path_list phy_paths;
@@ -136,11 +135,13 @@ bool write_path_link(string& dataset_dir, izlib::iz_topology& topo,
   cout << "total paths: " << phy_paths.size() << endl;
 
   // write to file
+  int server_count = server_ids.size();
   ofstream fout(join_path(dataset_dir, "paths.dat"));
   fout << phy_paths.size() + server_count << endl;
   // insert dummy paths for in-server embedding
-  for (int i = 0; i < server_count; ++i) {
-    fout << i << " 2 " << i << " " << i << " 0" << endl;
+  for (int i = 0; i < server_ids.size(); ++i) {
+    fout << i << " 2 " << server_ids[i] << " " 
+        << server_ids[i] << " 0" << endl;
   }
   // now the actual paths
   for (size_t i = 0; i < phy_paths.size(); ++i) {
@@ -172,10 +173,10 @@ bool process_dataset(string& dataset_dir) {
     // if all input files read successfully, then ...
     izlib::iz_topology topo; // holds the entire topology (inter-co + intra-co)
     vector<char> node_info; // to differentiate between server & switch
-    int server_count;
+    vector<int> server_ids;
     return write_init_topology(dataset_dir, prob_inst, topo, 
-        node_info, server_count) &&
-      write_path_link(dataset_dir, topo, node_info, server_count);
+        node_info, server_ids) &&
+      write_path_link(dataset_dir, topo, node_info, server_ids);
   }
   // error reading input file(s)
   return false;

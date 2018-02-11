@@ -214,7 +214,7 @@ int main(int argc, char **argv) {
     }
 
     timer.stop();
-    cout << "ILP solved in " << timer.getTime() << endl;
+    cout << "ILP solved in " << timer.getTime() << " sec" << endl;
     cout << "Objective value = " << cplex.getObjValue() << endl;
 
     // get value for x
