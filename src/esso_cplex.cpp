@@ -44,6 +44,9 @@ int main(int argc, char **argv) {
     }
     // derived vairable z
     IloIntVarArray z(env, ds.node_count, 0, 1);
+    // dereived varaible q
+    // servers.size() added to include the self-loops inside servers
+    IloIntVarArray q(env, ds.edge_count, 0, 1);
 
     //=========Constraint=========//
     // x and y should be equal to 1 when summed over all
@@ -83,6 +86,27 @@ int main(int argc, char **argv) {
       }
       model.add(z[_n] <= sum);
       model.add(IloIfThen(env, sum > 0, z[_n] == 1));
+    }
+    // q[_l] whether a physical link is active of not
+    int _l{0}, u, v;
+    // add the in-server self-loop edges
+    //vector<pair<int, int>> edges = ds.edges;
+    //for (int n : ds.servers) {
+    //  edges.push_back(make_pair(n, n));
+    //}
+    for (auto& p : ds.edges) {
+      tie(u, v) = p;
+      IloExpr sum(env);
+      for (int _p : ds.edge_to_path[u][v]) {
+        for (int i = 0; i < ds.n_sfcs.size(); ++i) {
+          for (int l = 0; l < ds.n_sfcs[i].edge_count(); ++l) {
+            sum += y[i][l][_p];
+          }
+        }
+      }
+      //model.add(q[_l] <= sum);
+      model.add(IloIfThen(env, sum > 0, q[_l] == 1));
+      ++_l;
     }
 
     //=========Constraint=========//
@@ -150,8 +174,6 @@ int main(int argc, char **argv) {
     for (int i = 0; i < ds.n_sfcs.size(); ++i) {
       for (int l = 0; l < ds.n_sfcs[i].edge_count(); ++l) {
         for (int _p = 0; _p < ds.path_count; ++_p) {
-          //cout << "i:" << i << " l:" << l << " _p:" << _p; 
-          //cout << " _s(_p):" << _s(_p) << " _d(_p):" << _d(_p) << endl;
           model.add(y[i][l][_p] <= x[i][s(l)][_s(_p)]);
           model.add(y[i][l][_p] <= x[i][d(l)][_d(_p)]);
         }
@@ -188,7 +210,9 @@ int main(int argc, char **argv) {
     for (int _n = 0; _n < ds.node_count; ++_n) {
       cost += z[_n];
     }
-
+    for (int _l = 0; _l < ds.edge_count; ++_l) {
+      cost += q[_l];
+    }
     objective += cost;
 
     /*Objective --> model*/

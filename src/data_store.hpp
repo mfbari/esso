@@ -76,6 +76,8 @@ struct data_store {
   // physical infrastructure. It is used to track
   // delay and bandwidth usage
   vector<vector<edge_info>> topo;
+  // edges represents all edges in the topo
+  vector<pair<int, int>> edges;
   // path to node and switch & edge to path mappings
   // these are used for the constraints in the cplex model
   std::vector<std::vector<int>> path_nodes;
@@ -197,6 +199,7 @@ void data_store::read_res_topology_data(const string& filename,
     fin >> node_u >> node_v >> type >> capacity >> latency;
     topo[node_u][node_v] = move(edge_info{
         node_u, node_v, capacity, latency});
+    edges.push_back(make_pair(node_u, node_v));
   }
   fin.close();
 }
