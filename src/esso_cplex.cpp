@@ -14,7 +14,7 @@ int main(int argc, char **argv) {
   data_store ds;
   ds.read_input(argc, argv);
 
-  // define lamda function to access source and destination
+  // define lambda function to access source and destination
   auto _s = [&ds](int _p) {return ds.path_nodes[_p].front();};
   auto _d = [&ds](int _p) {return ds.path_nodes[_p].back();};
   auto s = [](int l) {return l;};
