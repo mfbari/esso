@@ -44,9 +44,10 @@ int main(int argc, char **argv) {
     }
     // derived vairable z
     IloIntVarArray z(env, ds.node_count, 0, 1);
-    // dereived varaible q
-    // servers.size() added to include the self-loops inside servers
+    // derived varaible q
     IloIntVarArray q(env, ds.edge_count, 0, 1);
+    // derived variable w
+    IloIntVarArray w(env, ds.switches.size(), 0, 1);
 
     //=========Constraint=========//
     // x and y should be equal to 1 when summed over all
@@ -87,7 +88,7 @@ int main(int argc, char **argv) {
       model.add(z[_n] <= sum);
       model.add(IloIfThen(env, sum > 0, z[_n] == 1));
     }
-    // q[_l] whether a physical link is active of not
+    // q[_l] whether a physical link is active or not
     int _l{0}, u, v;
     // add the in-server self-loop edges
     //vector<pair<int, int>> edges = ds.edges;
@@ -107,6 +108,20 @@ int main(int argc, char **argv) {
       //model.add(q[_l] <= sum);
       model.add(IloIfThen(env, sum > 0, q[_l] == 1));
       ++_l;
+    }
+    // w[_s] whether a switch is active or not
+    int si{0};
+    for (auto& sw_paths : ds.switch_to_path) {
+      IloExpr sum(env);
+      for (int _p : sw_paths.second) {
+        for (int i = 0; i < ds.n_sfcs.size(); ++i) {
+          for (int l = 0; l < ds.n_sfcs[i].edge_count(); ++l) {
+            sum += y[i][l][_p];
+          }
+        }
+      }
+      model.add(IloIfThen(env, sum > 0, w[si] == 1));
+      ++si;
     }
 
     //=========Constraint=========//
@@ -212,6 +227,9 @@ int main(int argc, char **argv) {
     }
     for (int _l = 0; _l < ds.edge_count; ++_l) {
       cost += q[_l];
+    }
+    for (int _s; _s < ds.switches.size(); ++_s) {
+      cost += w[_s];
     }
     objective += cost;
 

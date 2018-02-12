@@ -6,6 +6,7 @@
 #include <iostream>
 #include <fstream>
 #include <unordered_map>
+#include <set>
 
 using namespace std;
 
@@ -83,6 +84,7 @@ struct data_store {
   std::vector<std::vector<int>> path_nodes;
   std::vector<std::vector<int>> path_switches;
   std::vector<std::vector<std::vector<int>>> edge_to_path;
+  std::unordered_map<int, set<int>> switch_to_path;
   // contain the new and pre-existing sfcs
   sfc_request_set n_sfcs, x_sfcs;
 
@@ -234,7 +236,10 @@ void data_store::read_path_data(const string& paths_filename,
     }
     fin >> n; // switch-count
     path_switches[i].resize(n);
-    for (auto& s : path_switches[i]) fin >> s;
+    for (auto& s : path_switches[i]) {
+      fin >> s;
+      switch_to_path[s].insert(i);
+    }
   }
   fin.close();
 }
