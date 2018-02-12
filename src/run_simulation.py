@@ -22,8 +22,8 @@ def read_vnf_types_file(dataset_path):
         flavor_count = int(f.readline())
         for line in f.readlines():
             fid, tid, cpu, pd = [int(x) for x in line.split()]
-            vnf_flavor_to_cpu[fid] = {'type_id':tid, 
-                                      'cpu_count':cpu, 
+            vnf_flavor_to_cpu[fid] = {'type_id':tid,
+                                      'cpu_count':cpu,
                                       'proc_delay': pd}
 
 def read_timeslots_file(dataset_path):
@@ -56,16 +56,18 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('path', help = "path to dataset folder")
     group = parser.add_mutually_exclusive_group(required=True)
-    group.add_argument('-c', '--cplex', action='store_true', 
+    group.add_argument('-c', '--cplex', action='store_true',
                         help="run CPLEX code")
-    group.add_argument('-t', '--tabusearch', action='store_true', 
+    group.add_argument('-t', '--tabusearch', action='store_true',
                         help="run tabu search code")
     parser.add_argument('-i', '--id', required=True,
                         help="unique id for this run")
     parser.add_argument('-r', '--replace', action='store_true',
                         help="replace existing run dir")
+    parser.add_argument('-d', '--dryrun', action='store_true',
+                        help="only generate data")
     args = parser.parse_args()
-    
+
     # path to the dataset and run folder
     dataset_path = args.path
     run_path = '../runs/'
@@ -92,8 +94,8 @@ if __name__ == '__main__':
         pass
 
     # copy data files to the run folder
-    shutil.copy(os.path.join(dataset_path, 'paths.dat'), run_path) 
-    shutil.copyfile(os.path.join(dataset_path, 'init_topology.dat'), 
+    shutil.copy(os.path.join(dataset_path, 'paths.dat'), run_path)
+    shutil.copyfile(os.path.join(dataset_path, 'init_topology.dat'),
                     os.path.join(run_path,'res_topology.dat'))
 
     # copy the executable to the run folder
@@ -105,27 +107,44 @@ if __name__ == '__main__':
     # read input files
     read_vnf_types_file(dataset_path)
     #print vnf_flavor_to_cpu
-    
+
     read_timeslots_file(dataset_path)
 
     # main simulation loop
     # x_sfcs: sfcs that can be considered for migration at a time instance
     x_sfcs = set()
+    # change path to the run folder
+    cdir = os.getcwd()
+    os.chdir(run_path)
     for t in range(timeslot_count):
         x_sfcs = x_sfcs.difference(sfc_out[t])
         # x_sfcs represent alive sfcs that arrived between [0,t)
         # --- --- start code for simulation
-        print t, sfc_in[t], x_sfcs
+        print "timeslot:", t, "n_sfc:", sfc_in[t], "x_sfc:", x_sfcs
         # write files for cplex/heuristic code
-        with open(os.path.join(run_path, 'n_sfc_t' + str(t)), 'w') as f:
+        n_sfc_filename = 'n_sfc_t' + str(t)
+        with open(n_sfc_filename, 'w') as f:
             f.write(str(len(sfc_in[t])) + "\n")
             for s in sfc_in[t]:
                 f.write(" ".join(sfcs[s]) + "\n")
-        with open(os.path.join(run_path, 'x_sfc_t' + str(t)), 'w') as f:
+        x_sfc_filename = 'x_sfc_t' + str(t)
+        with open(x_sfc_filename, 'w') as f:
             f.write(str(len(x_sfcs)) + "\n")
             for s in x_sfcs:
                 f.write(" ".join(sfcs[s]) + "\n")
-        # invoke cplex/heuristic code 
-        # how to represent mapping?
-        # --- --- end code for simulation
+        # invoke cplex/heuristic code if not dryrun
+        if not args.dryrun:
+            with open('run.log', 'w') as exe_log:
+                exe_path = './esso_cplex.o res_topology.dat paths.dat ' + \
+                            n_sfc_filename + ' ' + x_sfc_filename
+                exe_proc = subprocess.Popen(exe_path, shell=True,
+                            stdout=exe_log, stderr=exe_log)
+                if exe_proc.wait() != 0:
+                    print 'failed to execute code'
+                    exit()
+        # end of cplex/heuristic code execution
         x_sfcs = x_sfcs.union(sfc_in[t])
+        # --- --- end code for simulation
+
+    # change pwd to esso/src
+    os.chdir(cdir)
