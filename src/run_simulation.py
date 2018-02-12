@@ -96,23 +96,11 @@ if __name__ == '__main__':
     shutil.copyfile(os.path.join(dataset_path, 'init_topology.dat'), 
                     os.path.join(run_path,'res_topology.dat'))
 
-    # construct make and exe str
-    make_str = 'make cplex'
-    exe_file = 'esso_cplex.o'
-    if args.tabusearch:
-        make_str = 'make heuristic'
-        exe_file = 'esso_heuristic.o'
-
-    # build executable
-    make_log = open('make.log', 'w')
-    make_process = subprocess.Popen(make_str, shell=True,
-                    stdout=make_log, stderr=make_log)
-    if make_process.wait() != 0:
-        print "error: make failed"
-        exit()
-
     # copy the executable to the run folder
-    shutil.copy(exe_file, run_path)
+    if args.cplex:
+        shutil.copy('esso_cplex.o', run_path)
+    else:
+        shutil.copy('esso_heuristic.o', run_path)
 
     # read input files
     read_vnf_types_file(dataset_path)
