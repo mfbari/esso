@@ -114,7 +114,7 @@ struct esso_co {
     carbon(carbon), border_router{0} {
     // create the internal network of one core switch, two aggregate
     // switch, four tor switch, and five servers (all in idle state) 
-    int node_count = 27;
+    int node_count = 9;
     intra_topo.init(node_count);
     int core_switch = add_switch();
     // add aggregate switches and link to core switch
@@ -124,7 +124,7 @@ struct esso_co {
       add_intra_edge(core_switch, agsw, 1, 100000);
     }
     // add tor switches and link them to the aggregate switches
-    vector<int> tor_switches(4);
+    vector<int> tor_switches(2);
     for (auto& trsw : tor_switches) {
       trsw = add_switch();
       for (const auto& agsw : aggr_switches) {
@@ -198,7 +198,7 @@ struct esso_co {
 
   // add count number of servers to the switch with switch_id
   // using the default parameters for each server
-  void add_servers_to_switch(int switch_id, int count = 5) {
+  void add_servers_to_switch(int switch_id, int count = 2) {
     for (int i = 0; i < count; ++i) {
       int server_id = add_server();
       add_server_info(server_id);
