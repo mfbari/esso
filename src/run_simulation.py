@@ -5,6 +5,7 @@ import os
 import argparse
 import subprocess
 import shutil
+from timeit import default_timer as timer
 
 vnf_flavor_to_cpu = {}
 sfcs = []
@@ -137,11 +138,15 @@ if __name__ == '__main__':
             with open('run.log', 'w') as exe_log:
                 exe_path = './esso_cplex.o res_topology.dat paths.dat ' + \
                             n_sfc_filename + ' ' + x_sfc_filename
+                print "executing optimizer...",
+                sys.stdout.flush()
+                start = timer()
                 exe_proc = subprocess.Popen(exe_path, shell=True,
                             stdout=exe_log, stderr=exe_log)
                 if exe_proc.wait() != 0:
                     print 'failed to execute code'
                     exit()
+                print "took", (timer()-start), "sec."
         # end of cplex/heuristic code execution
         x_sfcs = x_sfcs.union(sfc_in[t])
         # --- --- end code for simulation
