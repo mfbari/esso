@@ -41,7 +41,7 @@ def read_timeslots_file(dataset_path):
             t_sfc_count = int(f.readline())
             for s in range(t_sfc_count):
                 sfc_in[t].add(sfc_id)
-                values = [x for x in f.readline().split()]  
+                values = [x for x in f.readline().split()]
                 # convert from flavor-id to cpu-count
                 values[5:-2] = [str(vnf_flavor_to_cpu[int(x)]['cpu_count'])
                                     for x in values[5:-2]]
@@ -92,7 +92,7 @@ if __name__ == '__main__':
         pass
 
     # copy data files to the run folder
-    shutil.copy(os.path.join(dataset_path, 'paths.dat'), run_path)
+    shutil.copy(os.path.join(dataset_path, 'paths.dat'), run_path) 
     shutil.copyfile(os.path.join(dataset_path, 'init_topology.dat'), 
                     os.path.join(run_path,'res_topology.dat'))
 

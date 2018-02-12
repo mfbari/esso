@@ -265,10 +265,20 @@ void data_store::read_n_sfc_data(const string& n_sfc_filename,
 
 void data_store::read_x_sfc_data(const string& x_sfc_filename,
     sfc_request_set& x_sfcs) {
-  ofstream fin(x_sfc_filename);
-  // TODO: how to represent mapping
-
-
+  fstream fin(x_sfc_filename);
+  int id, n, cpu_count;
+  fin >> n;
+  for (int i = 0; i < n; ++i) {
+    sfc_request sfc_req;
+    fin >> id >> sfc_req.ingress_co >> sfc_req.egress_co >>
+        sfc_req.ttl >> sfc_req.vnf_count;
+    for (int k = 0; k < sfc_req.vnf_count; ++k) {
+      fin >> cpu_count;
+      sfc_req.cpu_reqs.push_back(cpu_count);
+    }
+    fin >> sfc_req.bandwidth >> sfc_req.latency;
+    x_sfcs.push_back(sfc_req);
+  }
   fin.close();
 }
 
