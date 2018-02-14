@@ -90,11 +90,6 @@ int main(int argc, char **argv) {
     }
     // q[_l] whether a physical link is active or not
     int _l{0}, u, v;
-    // add the in-server self-loop edges
-    //vector<pair<int, int>> edges = ds.edges;
-    //for (int n : ds.servers) {
-    //  edges.push_back(make_pair(n, n));
-    //}
     for (auto& p : ds.edges) {
       tie(u, v) = p;
       IloExpr sum(env);
