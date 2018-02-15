@@ -247,7 +247,7 @@ int main(int argc, char **argv) {
     timer.stop();
     //cout << "ILP solved in " << timer.getTime() << " sec" << endl;
     //cout << "Objective value = " << cplex.getObjValue() << endl;
-    cout << "200 " << sfc << " ";
+    cout << "200 " << sfc << " " << cplex.getObjValue() << " ";
 
     // get value for x
     cout << sfc.node_count() << " ";
