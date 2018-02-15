@@ -250,8 +250,8 @@ int main(int argc, char **argv) {
     cout << "200 " << sfc << " " << cplex.getObjValue() << " ";
 
     // get value for x
-    cout << sfc.node_count() << " ";
-    for (int n = 0; n < sfc.node_count(); ++n) {
+    cout << sfc.vnf_count << " ";
+    for (int n = 1; n < sfc.node_count() - 1; ++n) {
       //cout << "x[" << n << "] = ";
       for (int _n = 0; _n < ds.node_count; ++_n) {
         if (cplex.getValue(x[n][_n] == 1)) {
@@ -263,20 +263,22 @@ int main(int argc, char **argv) {
     }
     //cout << "---" << endl;
     // get value for y
-    cout << sfc.edge_count() << " ";
+    vector<int> alledges;
     for (int l = 0; l < sfc.edge_count(); ++l) {
       //cout << "y[" << l << "] = ";
       for (int _p = 0; _p < ds.path_count; ++_p) {
         if (cplex.getValue(y[l][_p] == 1)) {
           //cout << _p << ": ";
-          //copy(ds.path_nodes[_p].begin(), ds.path_nodes[_p].end(),
-          //    ostream_iterator<int>(cout, " "));
+          copy(ds.path_nodes[_p].begin(), ds.path_nodes[_p].end(),
+              back_inserter(alledges));
           //cout << "l:" << ds.path_latency(_p) << " ";
-          cout << _p << " ";
         }
       }
       //cout << endl;
     }
+    cout << alledges.size() - 1 << " ";
+    copy(alledges.begin(), alledges.end(), 
+        ostream_iterator<int>(cout, " "));
     //cout << "---" << endl;
     cout << endl;
   }
