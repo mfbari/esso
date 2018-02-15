@@ -134,17 +134,16 @@ struct data_store {
 
 void data_store::read_input(int argc, char **argv) {
   // check args for correct format
-  if (argc != 5) {
+  if (argc != 3) {
     cout << "usage: ./esso_cplex.o <path-to res_topology.dat> " <<
-      "<path-to paths.dat> <path-to n_sfc_tn.dat> " <<
-      "<path-to x_sfc_tn.dat>" << endl;
+      "<path-to paths.dat>" << endl;
     exit(-1);
   }
   // filenames for reading in the inputs
   auto& res_topology_filename = argv[1];
   auto& paths_filename= argv[2];
-  auto& n_sfc_filename = argv[3];
-  auto& x_sfc_filename = argv[4];
+  //auto& n_sfc_filename = argv[3];
+  //auto& x_sfc_filename = argv[4];
 
   read_res_topology_data(res_topology_filename,
       co_count, node_count, edge_count,
@@ -158,8 +157,8 @@ void data_store::read_input(int argc, char **argv) {
       node_count, path_count,
       path_nodes, path_switches, edge_to_path);
 
-  read_n_sfc_data(n_sfc_filename, n_sfcs);
-  read_x_sfc_data(x_sfc_filename, x_sfcs);
+  //read_n_sfc_data(n_sfc_filename, n_sfcs);
+  //read_x_sfc_data(x_sfc_filename, x_sfcs);
 }
 
 void data_store::read_res_topology_data(const string& filename,
