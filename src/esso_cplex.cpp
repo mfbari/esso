@@ -26,10 +26,12 @@ int main(int argc, char **argv) {
     IloCplex cplex(model);
 
     sfc_request sfc;
-    int embd_cost;
-    cin >> sfc >> embd_cost;
+    int current_cost;
+    // migrate if there is migration_threshold * 100 % 
+    // cost reduction due to migration
+    double migration_threshold; 
+    cin >> sfc >> current_cost >> migration_threshold;
 
-    cout << "---------cplex---------" << endl;
     // decision variable x, indices: n, _n
     IloIntVarArray2D x(env, sfc.node_count());
     for (int n = 0; n < sfc.node_count(); ++n) {
@@ -189,9 +191,8 @@ int main(int argc, char **argv) {
       }
     }
 
-    //=========Objective=========//
-    IloExpr objective(env);
-    // minimize the number of active servers
+    //=========Constraint=========//
+    // minimize the number of active servers, switches, edges
     IloExpr cost(env);
     for (int _n = 0; _n < ds.node_count; ++_n) {
       cost += z[_n];
@@ -202,7 +203,18 @@ int main(int argc, char **argv) {
     for (int _s; _s < ds.switches.size(); ++_s) {
       cost += w[_s];
     }
-    objective += cost;
+
+    // this constraint is only added for pre-existing sfcs
+    // a negative current_cost indicate new sfc
+    // zero and positive current_cost indicate pre-existing sfc
+    if (current_cost >= 0) {
+      model.add(cost <= (1 - migration_threshold) * current_cost);
+    }
+
+
+    //=========Objective=========//
+    IloExpr objective(env);
+    objective = cost;
 
     /*Objective --> model*/
     model.add(objective >= 0);
@@ -215,46 +227,58 @@ int main(int argc, char **argv) {
     const IloInt time_limit_seconds = 60*60; // 1 hour
     const IloNum relative_gap = 0.001; // 0.1% gap with optimal
 
+    cplex.setOut(env.getNullStream());
     cplex.setParam(IloCplex::TiLim, time_limit_seconds);
     cplex.setParam(IloCplex::EpGap, relative_gap);
     cplex.setParam(IloCplex::PreDual, true);
 
     if(!cplex.solve()) {
       timer.stop();
-      cout << "could not solve ILP!" << endl;
-      cout << "status: " << cplex.getStatus() << endl;
+      if (cplex.getStatus() == IloAlgorithm::Infeasible) {
+        cout << "404 " << sfc << endl;
+      }
+      else { 
+        cerr << "could not solve ILP!" << endl;
+        cerr << "status: " << cplex.getStatus() << endl;
+      }
       throw(-1);
     }
 
     timer.stop();
-    cout << "ILP solved in " << timer.getTime() << " sec" << endl;
-    cout << "Objective value = " << cplex.getObjValue() << endl;
+    //cout << "ILP solved in " << timer.getTime() << " sec" << endl;
+    //cout << "Objective value = " << cplex.getObjValue() << endl;
+    cout << "200 " << sfc << " ";
 
     // get value for x
+    cout << sfc.node_count() << " ";
     for (int n = 0; n < sfc.node_count(); ++n) {
-      cout << "x[" << n << "] = ";
+      //cout << "x[" << n << "] = ";
       for (int _n = 0; _n < ds.node_count; ++_n) {
         if (cplex.getValue(x[n][_n] == 1)) {
-          cout << ds.node_infos[_n].co_id << ":" << _n << " ";
+          //cout << ds.node_infos[_n].co_id << ":" << _n << " ";
+          cout << _n << " ";
         }
       }
-      cout << endl;
+      //cout << endl;
     }
-    cout << "---" << endl;
+    //cout << "---" << endl;
     // get value for y
+    cout << sfc.edge_count() << " ";
     for (int l = 0; l < sfc.edge_count(); ++l) {
-      cout << "y[" << l << "] = ";
+      //cout << "y[" << l << "] = ";
       for (int _p = 0; _p < ds.path_count; ++_p) {
         if (cplex.getValue(y[l][_p] == 1)) {
-          cout << _p << ": ";
-          copy(ds.path_nodes[_p].begin(), ds.path_nodes[_p].end(),
-              ostream_iterator<int>(cout, " "));
-          cout << "l:" << ds.path_latency(_p) << " ";
+          //cout << _p << ": ";
+          //copy(ds.path_nodes[_p].begin(), ds.path_nodes[_p].end(),
+          //    ostream_iterator<int>(cout, " "));
+          //cout << "l:" << ds.path_latency(_p) << " ";
+          cout << _p << " ";
         }
       }
-      cout << endl;
+      //cout << endl;
     }
-    cout << "---" << endl;
+    //cout << "---" << endl;
+    cout << endl;
   }
   catch (IloException& e) {
     cerr << "Concert expection: " << e << endl;
@@ -265,6 +289,5 @@ int main(int argc, char **argv) {
   }
 
   env.end();
-  cout << "---------cplex---------" << endl;
   return 0;
 }
