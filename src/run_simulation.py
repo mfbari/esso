@@ -7,6 +7,36 @@ import subprocess
 import shutil
 from timeit import default_timer as timer
 
+class essosfc:
+    def __init__(self):
+        self.cec = -1 # current embedding cost
+        pass
+
+    # reads data for an SFC from a stream that 
+    # provides a readline() function
+    def read(self, strm):
+        self.sfc_data = [int(x) for x in strm.readline().split()]
+        #self.id = self.sfc_data[0]
+        #self.ingress_co, self.egress_co = self.sfc_data[1:3]
+        #self.ttl = self.sfc_data[3]
+        #self.vnf_count = self.sfc_data[4]
+        #self.cpu_counts = self.sfc_data[5:-2]
+        #self.bandwidth, self.latency = self.sfc_data[-2:]
+
+    def ttl(self):
+        return self.sfc_data[3]
+
+    def id(self):
+        return self.sfc_data[0]
+
+    def dec_ttl(self):
+        self.sfc_data[3] -= 1
+        if self.sfc_data[3] < 0:
+            raise ValueError('Negative TTL')
+
+    def __str__(self):
+        return " ".join([str(x) for x in self.sfc_data])
+
 vnf_flavor_to_cpu = {}
 sfcs = []
 sfc_in = [set()]
@@ -37,19 +67,25 @@ def read_timeslots_file(dataset_path):
         timeslot_count = int(f.readline())
         sfc_in = [set() for t in range(timeslot_count)]
         sfc_out = [set() for t in range(timeslot_count)]
-        sfc_id = 0
         for t in range(timeslot_count):
             t_sfc_count = int(f.readline())
             for s in range(t_sfc_count):
-                sfc_in[t].add(sfc_id)
-                values = [x for x in f.readline().split()]
+
+                ###############################
+                #values = [x for x in f.readline().split()]
                 # convert from flavor-id to cpu-count
-                values[5:-2] = [str(vnf_flavor_to_cpu[int(x)]['cpu_count'])
-                                    for x in values[5:-2]]
-                ttl = int(values[3])
-                sfc_out[t+ttl].add(sfc_id)
-                sfcs.append(values)
-                sfc_id += 1
+                #values[5:-2] = [str(vnf_flavor_to_cpu[int(x)]['cpu_count'])
+                #                    for x in values[5:-2]]
+                #ttl = int(values[3])
+                #sfc_out[t+ttl].add(sfc_id)
+                ###############################
+
+                sfc = essosfc()
+                sfc.read(f)
+                sfc_in[t].add(sfc.id())
+                sfc_out[t+sfc.ttl()].add(sfc.id())
+
+                sfcs.append(sfc)
 
 if __name__ == '__main__':
 
@@ -67,15 +103,22 @@ if __name__ == '__main__':
                         help="replace existing run dir")
     parser.add_argument('-d', '--dryrun', action='store_true',
                         help="only generate data")
+    parser.add_argument('-m', '--migthr', type=float, default=0.3,
+                        help='migration threshold')
     args = parser.parse_args()
+
+    # set the migration_threshold
+    migration_threshold = args.migthr
 
     # path to the dataset and run folder
     dataset_path = args.path
     run_path = '../runs/'
     if args.cplex:
         run_path += 'c_'
+        executable = 'esso_cplex.o'
     else:
-        run_path += 't_'
+        run_path += 'h_'
+        executable = 'esso_heuristic.o'
     run_path += args.id
 
     # check whether dataset folder exists
@@ -127,26 +170,44 @@ if __name__ == '__main__':
         with open(n_sfc_filename, 'w') as f:
             f.write(str(len(sfc_in[t])) + "\n")
             for s in sfc_in[t]:
-                f.write(" ".join(sfcs[s]) + "\n")
+                f.write(str(sfcs[s]) + "\n")
         x_sfc_filename = 'x_sfc_t' + str(t)
         with open(x_sfc_filename, 'w') as f:
             f.write(str(len(x_sfcs)) + "\n")
             for s in x_sfcs:
-                f.write(" ".join(sfcs[s]) + "\n")
+                f.write(str(sfcs[s]) + "\n")
         # invoke cplex/heuristic code if not dryrun
         if not args.dryrun:
             with open('run.log', 'w') as exe_log:
-                exe_path = './esso_cplex.o res_topology.dat paths.dat ' + \
-                            n_sfc_filename + ' ' + x_sfc_filename
-                print "executing optimizer...",
+                exe_path = './' + executable + ' res_topology.dat paths.dat'
                 sys.stdout.flush()
-                start = timer()
-                exe_proc = subprocess.Popen(exe_path, shell=True,
-                            stdout=exe_log, stderr=exe_log)
-                if exe_proc.wait() != 0:
-                    print 'failed to execute code'
-                    exit()
-                print "took", (timer()-start), "sec."
+                #start = timer()
+                ts_sfcs = list(sfc_in[t])
+                ts_sfcs.extend(list(x_sfcs))
+                for s in ts_sfcs:
+                    exe_proc = subprocess.Popen(exe_path, shell=True,
+                            stdout=subprocess.PIPE,
+                            stdin=subprocess.PIPE,
+                            stderr=exe_log)
+                    if s in sfc_in[t]: 
+                        mt = 0.0
+                    else:
+                        mt = migration_threshold
+                    stdin_str = str(sfcs[s]) + ' ' + \
+                        str(sfcs[s].cec) + ' ' + \
+                        str(mt) + '\n'
+                    #print stdin_str
+                    exe_proc.stdin.write(stdin_str)
+                    result = exe_proc.communicate()[0]
+                    result_values = [int(x) for x in result.split()]
+                    if result_values[0] == 200:
+                        sfcs[s].cec = result_values[8+result_values[5]]
+                    exe_proc.stdin.close()
+                    print result.strip()
+                    if exe_proc.wait() != 0:
+                        print 'failed to execute code'
+                        exit()
+                #print "took", (timer()-start), "sec."
         # end of cplex/heuristic code execution
         x_sfcs = x_sfcs.union(sfc_in[t])
         # --- --- end code for simulation
