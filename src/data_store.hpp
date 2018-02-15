@@ -45,7 +45,7 @@ struct edge_info {
 };
 
 struct sfc_request {
-  int vnf_count;
+  int id, vnf_count;
   int ingress_co, egress_co;
   int ttl;
   std::vector<int> vnf_flavors;
@@ -54,9 +54,31 @@ struct sfc_request {
   double bandwidth;
   int node_count() {return vnf_count + 2;}
   int edge_count() {return vnf_count + 1;}
+  friend istream& operator>>(istream& is, sfc_request& sfc_req);
 };
 using sfc_request_set = std::vector<sfc_request>;
 
+istream& operator>>(istream& is, sfc_request& sfc_req) {
+    is >> sfc_req.id >> sfc_req.ingress_co >> sfc_req.egress_co >>
+        sfc_req.ttl >> sfc_req.vnf_count;
+    for (int k = 0, cpu_count; k < sfc_req.vnf_count; ++k) {
+      is >> cpu_count;
+      sfc_req.cpu_reqs.push_back(cpu_count);
+    }
+    is >> sfc_req.bandwidth >> sfc_req.latency;
+    return is;
+}
+
+ostream& operator<<(ostream& out, const sfc_request& sfc_req) {
+  out << sfc_req.id << " " << sfc_req.ingress_co << " " << 
+    sfc_req.egress_co << " " << sfc_req.ttl << " " << 
+    sfc_req.vnf_count << " ";
+  for (const auto& v : sfc_req.cpu_reqs) {
+    out << v << " ";
+  }
+  out << sfc_req.bandwidth << " " << sfc_req.latency;
+  return out;
+}
 //=========the main data_store=========//
 
 struct data_store {
@@ -292,5 +314,6 @@ int data_store::path_latency(int _p) {
   }
   return latency;
 }
+
 
 #endif
