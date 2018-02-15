@@ -25,22 +25,20 @@ int main(int argc, char **argv) {
     IloModel model(env);
     IloCplex cplex(model);
 
+    sfc_request sfc;
+    int embd_cost;
+    cin >> sfc >> embd_cost;
+
     cout << "---------cplex---------" << endl;
-    // decision variable x, indices: i, n, _n
-    IloIntVarArray3D x(env, ds.n_sfcs.size());
-    for (int i = 0; i < ds.n_sfcs.size(); ++i) {
-      x[i] = IloIntVarArray2D(env, ds.n_sfcs[i].node_count());
-      for (int n = 0; n < ds.n_sfcs[i].node_count(); ++n) {
-        x[i][n] = IloIntVarArray(env, ds.node_count, 0, 1);
-      }
+    // decision variable x, indices: n, _n
+    IloIntVarArray2D x(env, sfc.node_count());
+    for (int n = 0; n < sfc.node_count(); ++n) {
+      x[n] = IloIntVarArray(env, ds.node_count, 0, 1);
     }
-    // decision variable y, indices: i, l, _p
-    IloIntVarArray3D y(env, ds.n_sfcs.size());
-    for (int i = 0; i < ds.n_sfcs.size(); ++i) {
-      y[i] = IloIntVarArray2D(env, ds.n_sfcs[i].edge_count());
-      for (int l = 0; l < ds.n_sfcs[i].edge_count(); ++l) {
-        y[i][l] = IloIntVarArray(env, ds.path_count, 0, 1);
-      }
+    // decision variable y, indices: l, _p
+    IloIntVarArray2D y(env, sfc.edge_count());
+    for (int l = 0; l < sfc.edge_count(); ++l) {
+      y[l] = IloIntVarArray(env, ds.path_count, 0, 1);
     }
     // derived vairable z
     IloIntVarArray z(env, ds.node_count, 0, 1);
@@ -52,38 +50,32 @@ int main(int argc, char **argv) {
     //=========Constraint=========//
     // x and y should be equal to 1 when summed over all
     // servers and physical paths
-    for (int i = 0; i < ds.n_sfcs.size(); ++i) {
-      for (int n = 0; n < ds.n_sfcs[i].node_count(); ++n) {
-        IloExpr x__n(env);
-        for (int _n = 0; _n < ds.node_count; ++_n) {
-          if (ds.node_infos[_n].is_server()) {
-            x__n += x[i][n][_n];
-          }
-          else {
-            model.add(x[i][n][_n] == 0);
-          }
+    for (int n = 0; n < sfc.node_count(); ++n) {
+      IloExpr x__n(env);
+      for (int _n = 0; _n < ds.node_count; ++_n) {
+        if (ds.node_infos[_n].is_server()) {
+          x__n += x[n][_n];
         }
-        model.add(x__n == 1);
+        else {
+          model.add(x[n][_n] == 0);
+        }
       }
+      model.add(x__n == 1);
     }
-    for (int i = 0; i < ds.n_sfcs.size(); ++i) {
-      for (int l = 0; l < ds.n_sfcs[i].edge_count(); ++l) {
-        IloExpr y__p(env);
-        for (int _p = 0; _p < ds.path_count; ++_p) {
-          y__p += y[i][l][_p];
-        }
-        model.add(y__p == 1);
+    for (int l = 0; l < sfc.edge_count(); ++l) {
+      IloExpr y__p(env);
+      for (int _p = 0; _p < ds.path_count; ++_p) {
+        y__p += y[l][_p];
       }
+      model.add(y__p == 1);
     }
 
     //=========Constraint=========//
     // z[_n] whether a server _n is active or not
     for (int _n = 0; _n < ds.node_count; ++_n) {
       IloExpr sum(env);
-      for (int i = 0; i < ds.n_sfcs.size(); ++i) {
-        for (int n = 0; n < ds.n_sfcs[i].node_count(); ++n) {
-          sum += x[i][n][_n];
-        }
+      for (int n = 0; n < sfc.node_count(); ++n) {
+        sum += x[n][_n];
       }
       model.add(z[_n] <= sum);
       model.add(IloIfThen(env, sum > 0, z[_n] == 1));
@@ -94,10 +86,8 @@ int main(int argc, char **argv) {
       tie(u, v) = p;
       IloExpr sum(env);
       for (int _p : ds.edge_to_path[u][v]) {
-        for (int i = 0; i < ds.n_sfcs.size(); ++i) {
-          for (int l = 0; l < ds.n_sfcs[i].edge_count(); ++l) {
-            sum += y[i][l][_p];
-          }
+        for (int l = 0; l < sfc.edge_count(); ++l) {
+          sum += y[l][_p];
         }
       }
       //model.add(q[_l] <= sum);
@@ -109,10 +99,8 @@ int main(int argc, char **argv) {
     for (auto& sw_paths : ds.switch_to_path) {
       IloExpr sum(env);
       for (int _p : sw_paths.second) {
-        for (int i = 0; i < ds.n_sfcs.size(); ++i) {
-          for (int l = 0; l < ds.n_sfcs[i].edge_count(); ++l) {
-            sum += y[i][l][_p];
-          }
+        for (int l = 0; l < sfc.edge_count(); ++l) {
+          sum += y[l][_p];
         }
       }
       model.add(IloIfThen(env, sum > 0, w[si] == 1));
@@ -124,12 +112,10 @@ int main(int argc, char **argv) {
     for (int _n = 0; _n < ds.node_count; ++_n) {
       if (ds.node_infos[_n].is_server()) {
         IloExpr allocated_cpu(env);
-        for (int i = 0; i < ds.n_sfcs.size(); ++i) {
-          // n = 0 is the ingress co
-          // n = n_sfcs[i].node_count()-1 is the egress co
-          for (int n = 1; n < ds.n_sfcs[i].node_count() - 1; ++n) {
-            allocated_cpu += x[i][n][_n] * ds.n_sfcs[i].cpu_reqs[n-1];
-          }
+        // n = 0 is the ingress co
+        // n = sfc.node_count()-1 is the egress co
+        for (int n = 1; n < sfc.node_count() - 1; ++n) {
+          allocated_cpu += x[n][_n] * sfc.cpu_reqs[n-1];
         }
         model.add(allocated_cpu <= ds.node_infos[_n].cpu_capacity);
       }
@@ -139,11 +125,9 @@ int main(int argc, char **argv) {
       for (int v = 0; v < ds.node_count; ++v) {
         if (u != v) {
           IloExpr allocated_capacity(env);
-          for (int i = 0; i < ds.n_sfcs.size(); ++i) {
-            for (int l = 0; l < ds.n_sfcs[i].edge_count(); ++l) {
-              for (int _p: ds.edge_to_path[u][v]) {
-                allocated_capacity += y[i][l][_p] * ds.n_sfcs[i].bandwidth;
-              }
+          for (int l = 0; l < sfc.edge_count(); ++l) {
+            for (int _p: ds.edge_to_path[u][v]) {
+              allocated_capacity += y[l][_p] * sfc.bandwidth;
             }
           }
           if (ds.topo[u][v].is_valid()) {
@@ -155,63 +139,55 @@ int main(int argc, char **argv) {
 
     //=========Constraint=========//
     // max delay constraint for sfc
-    for (int i = 0; i < ds.n_sfcs.size(); ++i) {
-      IloExpr delay(env);
-      for (int l = 0; l < ds.n_sfcs[i].edge_count(); ++l) {
-        for (int _p = 0; _p < ds.path_count; ++_p) {
-          // skip intra-server self-loops
-          if (ds.path_nodes[_p].size() == 2) continue; 
-          // actual paths
-          int u = ds.path_nodes[_p].front(), v;
-          for (int j = 1; j < ds.path_nodes[_p].size(); ++j) {
-            v = ds.path_nodes[_p][j];
-            if (ds.topo[u][v].is_valid()){
-              delay += y[i][l][_p] * ds.topo[u][v].latency;
-            }
-            else {
-              cout << "invalid edge is path" << endl;
-              exit(-1);
-            }
-            u = v;
+    IloExpr delay(env);
+    for (int l = 0; l < sfc.edge_count(); ++l) {
+      for (int _p = 0; _p < ds.path_count; ++_p) {
+        // skip intra-server self-loops
+        if (ds.path_nodes[_p].size() == 2) continue; 
+        // actual paths
+        int u = ds.path_nodes[_p].front(), v;
+        for (int j = 1; j < ds.path_nodes[_p].size(); ++j) {
+          v = ds.path_nodes[_p][j];
+          if (ds.topo[u][v].is_valid()){
+            delay += y[l][_p] * ds.topo[u][v].latency;
           }
+          else {
+            cout << "invalid edge is path" << endl;
+            exit(-1);
+          }
+          u = v;
         }
       }
-      model.add(delay <= ds.n_sfcs[i].latency);
     }
+    model.add(delay <= sfc.latency);
 
     //=========Constraint=========//
     // flow conservation 
-    for (int i = 0; i < ds.n_sfcs.size(); ++i) {
-      for (int l = 0; l < ds.n_sfcs[i].edge_count(); ++l) {
-        for (int _p = 0; _p < ds.path_count; ++_p) {
-          model.add(y[i][l][_p] <= x[i][s(l)][_s(_p)]);
-          model.add(y[i][l][_p] <= x[i][d(l)][_d(_p)]);
-        }
+    for (int l = 0; l < sfc.edge_count(); ++l) {
+      for (int _p = 0; _p < ds.path_count; ++_p) {
+        model.add(y[l][_p] <= x[s(l)][_s(_p)]);
+        model.add(y[l][_p] <= x[d(l)][_d(_p)]);
       }
     }
 
     //=========Constraint=========//
     // placement constraint for CO
-    for (int i = 0; i < ds.n_sfcs.size(); ++i) {
-      for (int _n = 0; _n < ds.node_count; ++_n) {
-        if (ds.node_infos[_n].is_server()) {
-          if (ds.node_infos[_n].co_id == ds.n_sfcs[i].ingress_co) {
-            model.add(x[i][0][_n] <= 1);
-          }
-          else {
-            model.add(x[i][0][_n] == 0);
-          }
-          if (ds.node_infos[_n].co_id == ds.n_sfcs[i].egress_co) {
-            model.add(x[i][ds.n_sfcs[i].node_count()-1][_n] <= 1);
-          }
-          else {
-            model.add(x[i][ds.n_sfcs[i].node_count()-1][_n] == 0);
-          }
+    for (int _n = 0; _n < ds.node_count; ++_n) {
+      if (ds.node_infos[_n].is_server()) {
+        if (ds.node_infos[_n].co_id == sfc.ingress_co) {
+          model.add(x[0][_n] <= 1);
+        }
+        else {
+          model.add(x[0][_n] == 0);
+        }
+        if (ds.node_infos[_n].co_id == sfc.egress_co) {
+          model.add(x[sfc.node_count()-1][_n] <= 1);
+        }
+        else {
+          model.add(x[sfc.node_count()-1][_n] == 0);
         }
       }
     }
-
-    
 
     //=========Objective=========//
     IloExpr objective(env);
@@ -255,36 +231,30 @@ int main(int argc, char **argv) {
     cout << "Objective value = " << cplex.getObjValue() << endl;
 
     // get value for x
-    for (int i = 0; i < ds.n_sfcs.size(); ++i) {
-      for (int n = 0; n < ds.n_sfcs[i].node_count(); ++n) {
-        cout << "x[" << i << "][" << n << "] = ";
-        for (int _n = 0; _n < ds.node_count; ++_n) {
-          if (cplex.getValue(x[i][n][_n] == 1)) {
-            cout << ds.node_infos[_n].co_id << ":" << _n << " ";
-          }
+    for (int n = 0; n < sfc.node_count(); ++n) {
+      cout << "x[" << n << "] = ";
+      for (int _n = 0; _n < ds.node_count; ++_n) {
+        if (cplex.getValue(x[n][_n] == 1)) {
+          cout << ds.node_infos[_n].co_id << ":" << _n << " ";
         }
-        cout << endl;
       }
-      cout << "---" << endl;
+      cout << endl;
     }
+    cout << "---" << endl;
     // get value for y
-    for (int i = 0; i < ds.n_sfcs.size(); ++i) {
-      for (int l = 0; l < ds.n_sfcs[i].edge_count(); ++l) {
-        cout << "y[" << i << "][" << l << "] = ";
-        for (int _p = 0; _p < ds.path_count; ++_p) {
-          if (cplex.getValue(y[i][l][_p] == 1)) {
-            cout << _p << ": ";
-            copy(ds.path_nodes[_p].begin(), ds.path_nodes[_p].end(),
-                ostream_iterator<int>(cout, " "));
-            cout << "l:" << ds.path_latency(_p) << " ";
-          }
+    for (int l = 0; l < sfc.edge_count(); ++l) {
+      cout << "y[" << l << "] = ";
+      for (int _p = 0; _p < ds.path_count; ++_p) {
+        if (cplex.getValue(y[l][_p] == 1)) {
+          cout << _p << ": ";
+          copy(ds.path_nodes[_p].begin(), ds.path_nodes[_p].end(),
+              ostream_iterator<int>(cout, " "));
+          cout << "l:" << ds.path_latency(_p) << " ";
         }
-        cout << endl;
       }
-      cout << "---" << endl;
+      cout << endl;
     }
-
-
+    cout << "---" << endl;
   }
   catch (IloException& e) {
     cerr << "Concert expection: " << e << endl;
