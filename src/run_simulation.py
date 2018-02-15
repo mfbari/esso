@@ -6,8 +6,12 @@ import argparse
 import subprocess
 import shutil
 from timeit import default_timer as timer
+from collections import defaultdict
 
-class essosfc:
+class essobject:
+    pass
+
+class esso_sfc:
     def __init__(self):
         self.cec = -1 # current embedding cost
         pass
@@ -16,12 +20,8 @@ class essosfc:
     # provides a readline() function
     def read(self, strm):
         self.sfc_data = [int(x) for x in strm.readline().split()]
-        #self.id = self.sfc_data[0]
-        #self.ingress_co, self.egress_co = self.sfc_data[1:3]
-        #self.ttl = self.sfc_data[3]
-        #self.vnf_count = self.sfc_data[4]
-        #self.cpu_counts = self.sfc_data[5:-2]
-        #self.bandwidth, self.latency = self.sfc_data[-2:]
+        self.sfc_data[5:-2] = [int(vnf_flavor_to_cpu[int(x)]['cpu_count'])
+                        for x in self.sfc_data[5:-2]]
 
     def ttl(self):
         return self.sfc_data[3]
@@ -37,12 +37,91 @@ class essosfc:
     def __str__(self):
         return " ".join([str(x) for x in self.sfc_data])
 
+class esso_object:
+    def __init__(self, data):
+        self.data = data
+
+    def __str__(self):
+        return self.data
+
+class esso_server:
+    def __init__(self, data):
+        self.data_val = data.split()
+        self.data_val[5] = int(self.data_val[5])
+
+    def dec_cpu_count(self, val):
+        self.data_val[5] -= val
+
+    def __str__(self):
+        return " ".join([str(x) for x in self.data_val])
+
+class esso_edge:
+    def __init__(self, data):
+        self.data_val = data.split()
+        self.data_val[3] = int(self.data_val[3])
+
+    def dec_bandwidth(self, val):
+        self.data_val[3] -= val
+
+    def __str__(self):
+        return " ".join(str(x) for x in self.data_val)
+
 vnf_flavor_to_cpu = {}
 sfcs = []
 sfc_in = [set()]
 sfc_out = [set()]
 sfc_count = 0
 timeslot_count = 0
+co_list = []
+node_list = []
+edge_list = []
+edge_dir = defaultdict(lambda: defaultdict(int))
+
+def update_write_topology_file(t, mapping):
+    if mapping:
+        mv = [int(x) for x in mapping.split()]
+        if mv[0] == 200:
+            vc = mv[5]
+            cpus = mv[6:6+vc]
+            servers = mv[10+vc:10+2*vc]
+            bw = mv[6+vc]
+            edges = mv[11+2*vc:]
+            for i in range(vc):
+                node_list[servers[i]].dec_cpu_count(cpus[i])
+            u = edges[0]
+            for v in edges[1:]:
+                edge_list[edge_dir[u][v]].dec_bandwidth(bw)
+
+    with open('res_topology_'+str(t)+'.dat', 'w') as f:
+        f.write(str(len(co_list)) + '\n')
+        for co in co_list:
+            f.write(str(co) + '\n')
+        f.write(str(len(node_list)) + ' ' + str(len(edge_list)) + '\n')
+        for node in node_list:
+            f.write(str(node) + '\n')
+        for edge in edge_list:
+            f.write(str(edge) + '\n')
+
+def read_topology_file(dataset_path):
+    with open(os.path.join(dataset_path, 'init_topology.dat')) as f:
+        co_count = int(f.readline())
+        for c in range(co_count):
+            co = esso_object(f.readline())
+            co_list.append(co)
+        node_count, edge_count = [int(x) for x in f.readline().split()]
+        for n in range(node_count):
+            line = f.readline()
+            values = line.split()
+            if values[1] == "c":
+                node_list.append(esso_server(line))
+            else:
+                node_list.append(esso_object(line))
+        for e in range(edge_count):
+            line = f.readline()
+            values = line.split()
+            u, v = values[:2]
+            edge_dir[u][v] = len(edge_list)
+            edge_list.append(esso_edge(line))
 
 def read_vnf_types_file(dataset_path):
     with open(os.path.join(dataset_path, "vnf_types.dat")) as f:
@@ -80,7 +159,7 @@ def read_timeslots_file(dataset_path):
                 #sfc_out[t+ttl].add(sfc_id)
                 ###############################
 
-                sfc = essosfc()
+                sfc = esso_sfc()
                 sfc.read(f)
                 sfc_in[t].add(sfc.id())
                 sfc_out[t+sfc.ttl()].add(sfc.id())
@@ -139,8 +218,8 @@ if __name__ == '__main__':
 
     # copy data files to the run folder
     shutil.copy(os.path.join(dataset_path, 'paths.dat'), run_path)
-    shutil.copyfile(os.path.join(dataset_path, 'init_topology.dat'),
-                    os.path.join(run_path,'res_topology.dat'))
+    #shutil.copyfile(os.path.join(dataset_path, 'init_topology.dat'),
+    #                os.path.join(run_path,'res_topology_0.dat'))
 
     # copy the executable to the run folder
     if args.cplex:
@@ -153,6 +232,9 @@ if __name__ == '__main__':
     #print vnf_flavor_to_cpu
 
     read_timeslots_file(dataset_path)
+
+    read_topology_file(dataset_path)
+    update_write_topology_file(0, None)
 
     # main simulation loop
     # x_sfcs: sfcs that can be considered for migration at a time instance
@@ -179,7 +261,9 @@ if __name__ == '__main__':
         # invoke cplex/heuristic code if not dryrun
         if not args.dryrun:
             with open('run.log', 'w') as exe_log:
-                exe_path = './' + executable + ' res_topology.dat paths.dat'
+                topo_filename = 'res_topology_' + str(t) + '.dat'
+                exe_path = './' + executable + ' ' + \
+                    topo_filename + ' paths.dat'
                 sys.stdout.flush()
                 #start = timer()
                 ts_sfcs = list(sfc_in[t])
@@ -189,7 +273,7 @@ if __name__ == '__main__':
                             stdout=subprocess.PIPE,
                             stdin=subprocess.PIPE,
                             stderr=exe_log)
-                    if s in sfc_in[t]: 
+                    if s in sfc_in[t]:
                         mt = 0.0
                     else:
                         mt = migration_threshold
@@ -198,15 +282,16 @@ if __name__ == '__main__':
                         str(mt) + '\n'
                     #print stdin_str
                     exe_proc.stdin.write(stdin_str)
-                    result = exe_proc.communicate()[0]
-                    result_values = [int(x) for x in result.split()]
-                    if result_values[0] == 200:
-                        sfcs[s].cec = result_values[8+result_values[5]]
+                    mapping = exe_proc.communicate()[0]
+                    mapping_values = [int(x) for x in mapping.split()]
+                    if mapping_values[0] == 200:
+                        sfcs[s].cec = mapping_values[8+mapping_values[5]]
                     exe_proc.stdin.close()
-                    print result.strip()
+                    print mapping.strip()
                     if exe_proc.wait() != 0:
                         print 'failed to execute code'
                         exit()
+                    update_write_topology_file(t+1, mapping)
                 #print "took", (timer()-start), "sec."
         # end of cplex/heuristic code execution
         x_sfcs = x_sfcs.union(sfc_in[t])
