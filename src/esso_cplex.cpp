@@ -214,7 +214,29 @@ int main(int argc, char **argv) {
 
     //=========Objective=========//
     IloExpr objective(env);
-    objective = cost;
+    // server power
+    for (int _n = 0; _n < ds.node_count; ++_n) {
+      if (ds.node_infos[_n].is_server()) {
+        objective += z[_n] * ds.node_infos[_n].base_power + 
+          (1 - z[_n]) * ds.node_infos[_n].sleep_power;
+      }
+    }
+    IloExpr cpu_power(env);
+    for (int _n = 0; _n < ds.node_count; ++_n) {
+      if (ds.node_infos[_n].is_server()) {
+        for (int n = 1; n < sfc.node_count() - 1; ++n) {
+          cpu_power += x[n][_n] * (sfc.cpu_reqs[n-1] * 
+              ds.node_infos[_n].per_cpu_power);
+        }
+      }
+    }
+    objective += cpu_power;
+    // switch power
+    for (int _s; _s < ds.switches.size(); ++_s) {
+      objective += w[_s] * ds.node_infos[ds.switches[_s]].base_power +
+        (1 - w[_s]) * ds.node_infos[ds.switches[_s]].sleep_power;
+    }
+    // edge power
 
     /*Objective --> model*/
     model.add(objective >= 0);
