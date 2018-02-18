@@ -23,7 +23,7 @@ Initial topology for the entire newtwork, i.e., inter-CO and intra-CO. This file
 <node-id> <co-id> <'c'/'s'> <sleep-energy> <base-energy> <per-cpu-energy> <cpu-count> 
 # c: compute/server, s: switch, last two data are for servers
 # for each edge in (0, edge-count]
-<node-id> <node-id> <'b'/'i'> <link-cap> <link-delay> 
+<edge-id> <node-id> <node-id> <'b'/'i'> <link-cap> <link-delay> 
 # b: backbone edge, i: intra-CO edge
 ````
 
