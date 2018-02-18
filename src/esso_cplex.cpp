@@ -26,7 +26,7 @@ int main(int argc, char **argv) {
     IloCplex cplex(model);
 
     sfc_request sfc;
-    int current_cost;
+    double current_cost;
     // migrate if there is migration_threshold * 100 % 
     // cost reduction due to migration
     double migration_threshold; 
@@ -76,29 +76,26 @@ int main(int argc, char **argv) {
     // z[_n] whether a server _n is active or not
     for (int _n = 0; _n < ds.node_count; ++_n) {
       IloExpr sum(env);
-      for (int n = 0; n < sfc.node_count(); ++n) {
+      for (int n = 1; n < sfc.node_count() - 1; ++n) {
         sum += x[n][_n];
       }
       model.add(z[_n] <= sum);
       model.add(IloIfThen(env, sum > 0, z[_n] == 1));
     }
     // q[_l] whether a physical link is active or not
-    int _l{0}, u, v;
-    for (auto& p : ds.edges) {
-      tie(u, v) = p;
+    for (int _l = 0; _l < ds.edge_count; ++_l) {
       IloExpr sum(env);
-      for (int _p : ds.edge_to_path[u][v]) {
+      for (int _p : ds.edges[_l].paths) {
         for (int l = 0; l < sfc.edge_count(); ++l) {
           sum += y[l][_p];
         }
       }
       //model.add(q[_l] <= sum);
       model.add(IloIfThen(env, sum > 0, q[_l] == 1));
-      ++_l;
     }
     // w[_s] whether a switch is active or not
     int si{0};
-    for (auto& sw_paths : ds.switch_to_path) {
+    for (auto& sw_paths : ds.switch_to_paths) {
       IloExpr sum(env);
       for (int _p : sw_paths.second) {
         for (int l = 0; l < sfc.edge_count(); ++l) {
@@ -123,20 +120,14 @@ int main(int argc, char **argv) {
       }
     }
     // capacity constraint for edge
-    for (int u = 0; u < ds.node_count; ++u) {
-      for (int v = 0; v < ds.node_count; ++v) {
-        if (u != v) {
-          IloExpr allocated_capacity(env);
-          for (int l = 0; l < sfc.edge_count(); ++l) {
-            for (int _p: ds.edge_to_path[u][v]) {
-              allocated_capacity += y[l][_p] * sfc.bandwidth;
-            }
-          }
-          if (ds.topo[u][v].is_valid()) {
-            model.add(allocated_capacity <= ds.topo[u][v].capacity);
-          }
+    for (auto& edge : ds.edges) {
+      IloExpr allocated_capacity(env);
+      for (int l = 0; l < sfc.edge_count(); ++l) {
+        for (int _p: edge.paths) {
+          allocated_capacity += y[l][_p] * sfc.bandwidth;
         }
       }
+      model.add(allocated_capacity <= edge.capacity);
     }
 
     //=========Constraint=========//
@@ -147,17 +138,8 @@ int main(int argc, char **argv) {
         // skip intra-server self-loops
         if (ds.path_nodes[_p].size() == 2) continue; 
         // actual paths
-        int u = ds.path_nodes[_p].front(), v;
-        for (int j = 1; j < ds.path_nodes[_p].size(); ++j) {
-          v = ds.path_nodes[_p][j];
-          if (ds.topo[u][v].is_valid()){
-            delay += y[l][_p] * ds.topo[u][v].latency;
-          }
-          else {
-            cout << "invalid edge is path" << endl;
-            exit(-1);
-          }
-          u = v;
+        for (int _l : ds.path_edge_ids[_p]) {
+            delay += y[l][_p] * ds.edges[_l].latency;
         }
       }
     }
@@ -200,7 +182,7 @@ int main(int argc, char **argv) {
     for (int _l = 0; _l < ds.edge_count; ++_l) {
       cost += q[_l];
     }
-    for (int _s; _s < ds.switches.size(); ++_s) {
+    for (int _s; _s < ds.switch_count; ++_s) {
       cost += w[_s];
     }
 
@@ -237,6 +219,35 @@ int main(int argc, char **argv) {
         (1 - w[_s]) * ds.node_infos[ds.switches[_s]].sleep_power;
     }
     // edge power
+    for (auto& edge : ds.edges) {
+      IloExpr allocated_capacity(env);
+      for (int l = 0; l < sfc.edge_count(); ++l) {
+        for (int _p: edge.paths) {
+          if (ds.path_nodes[_p].size() > 2) { // skip server self-loops 
+            allocated_capacity += y[l][_p] * sfc.bandwidth;
+          }
+        }
+      }
+      objective += allocated_capacity * 0.006;
+      /*
+      objective += 0.001 * IloPiecewiseLinear(allocated_capacity, 
+        0.0,
+        IloNumArray(env, 10, 
+          0.1, 0.1,
+          1.1, 1.1, 
+          10.1 ,10.1,
+          100.1, 100.1,
+          1000.1, 1000.1), 
+        IloNumArray(env, 10, 
+          0.0, 1.0,
+          1.0, 3.0,
+          3.0, 6.0, 
+          6.0, 10.0,
+          10.0, 18.0),
+        0.0);
+      */
+    }
+
 
     /*Objective --> model*/
     model.add(objective >= 0);
@@ -271,12 +282,16 @@ int main(int argc, char **argv) {
     //cout << "Objective value = " << cplex.getObjValue() << endl;
     cout << "200 " << sfc << " " << cplex.getObjValue() << " ";
 
+    //for (int _n = 0; _n < ds.node_count; ++_n) {
+    //  cout << _n << ":" << cplex.getValue(z[_n]) << " ";
+    //}
+    //cout << endl;
     // get value for x
     cout << sfc.vnf_count << " ";
     for (int n = 1; n < sfc.node_count() - 1; ++n) {
       //cout << "x[" << n << "] = ";
       for (int _n = 0; _n < ds.node_count; ++_n) {
-        if (cplex.getValue(x[n][_n] == 1)) {
+        if (cplex.getValue(x[n][_n]) == 1) {
           //cout << ds.node_infos[_n].co_id << ":" << _n << " ";
           cout << _n << " ";
         }
@@ -289,7 +304,7 @@ int main(int argc, char **argv) {
     for (int l = 0; l < sfc.edge_count(); ++l) {
       //cout << "y[" << l << "] = ";
       for (int _p = 0; _p < ds.path_count; ++_p) {
-        if (cplex.getValue(y[l][_p] == 1)) {
+        if (cplex.getValue(y[l][_p]) == 1) {
           //cout << _p << ": ";
           copy(ds.path_nodes[_p].begin(), ds.path_nodes[_p].end(),
               back_inserter(alledges));
@@ -303,6 +318,33 @@ int main(int argc, char **argv) {
         ostream_iterator<int>(cout, " "));
     //cout << "---" << endl;
     cout << endl;
+    /*
+    for (auto& edge : ds.edges) {
+      cout << edge.u << "->" << edge.v << " ";
+      IloExpr cap(env);
+      for (int l = 0; l < sfc.edge_count(); ++l) {
+        for (int _p: edge.paths) {
+          cap += sfc.bandwidth * y[l][_p];
+        }
+      }
+      cout << cplex.getValue(cap) << " ";
+      cout << cplex.getValue(IloPiecewiseLinear(cap, 
+        0.0,
+        IloNumArray(env, 10, 
+          0.1, 0.1,
+          1.1, 1.1, 
+          10.1 ,10.1,
+          100.1, 100.1,
+          1000.1, 1000.1), 
+        IloNumArray(env, 10, 
+          0.0, 1.0,
+          1.0, 3.0,
+          3.0, 6.0, 
+          6.0, 10.0,
+          10.0, 18.0),
+        0.0)) << endl;
+    }
+    */
   }
   catch (IloException& e) {
     cerr << "Concert expection: " << e << endl;
