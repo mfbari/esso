@@ -8,12 +8,18 @@ import shutil
 from timeit import default_timer as timer
 from collections import defaultdict
 
+def int_or_float(s):
+    try:
+        return int(s)
+    except ValueError:
+        return float(s)
+
 class essobject:
     pass
 
 class esso_sfc:
     def __init__(self):
-        self.cec = -1 # current embedding cost
+        self.cec = -1.0 # current embedding cost
         pass
 
     # reads data for an SFC from a stream that 
@@ -21,7 +27,7 @@ class esso_sfc:
     def read(self, strm):
         self.sfc_data = [int(x) for x in strm.readline().split()]
         self.sfc_data[5:-2] = [int(vnf_flavor_to_cpu[int(x)]['cpu_count'])
-                        for x in self.sfc_data[5:-2]]
+                for x in self.sfc_data[5:-2]]
 
     def ttl(self):
         return self.sfc_data[3]
@@ -39,29 +45,32 @@ class esso_sfc:
 
 class esso_object:
     def __init__(self, data):
-        self.data = data
+        self.data = data.strip()
 
     def __str__(self):
         return self.data
 
 class esso_server:
+    cpu_idx = 5
     def __init__(self, data):
         self.data_val = data.split()
-        self.data_val[5] = int(self.data_val[5])
+        self.data_val[esso_server.cpu_idx] = int(
+                self.data_val[esso_server.cpu_idx])
 
     def dec_cpu_count(self, val):
-        self.data_val[5] -= val
+        self.data_val[esso_server.cpu_idx] -= val
 
     def __str__(self):
         return " ".join([str(x) for x in self.data_val])
 
 class esso_edge:
+    bw_idx = 4
     def __init__(self, data):
         self.data_val = data.split()
-        self.data_val[3] = int(self.data_val[3])
+        self.data_val[esso_edge.bw_idx] = int(self.data_val[esso_edge.bw_idx])
 
     def dec_bandwidth(self, val):
-        self.data_val[3] -= val
+        self.data_val[esso_edge.bw_idx] -= val
 
     def __str__(self):
         return " ".join(str(x) for x in self.data_val)
@@ -79,7 +88,7 @@ edge_dir = defaultdict(lambda: defaultdict(int))
 
 def update_write_topology_file(t, mapping):
     if mapping:
-        mv = [int(x) for x in mapping.split()]
+        mv = [int_or_float(x) for x in mapping.split()]
         if mv[0] == 200:
             vc = mv[5]
             cpus = mv[6:6+vc]
@@ -119,7 +128,7 @@ def read_topology_file(dataset_path):
         for e in range(edge_count):
             line = f.readline()
             values = line.split()
-            u, v = values[:2]
+            u, v = values[1:3]
             edge_dir[u][v] = len(edge_list)
             edge_list.append(esso_edge(line))
 
@@ -133,8 +142,8 @@ def read_vnf_types_file(dataset_path):
         for line in f.readlines():
             fid, tid, cpu, pd = [int(x) for x in line.split()]
             vnf_flavor_to_cpu[fid] = {'type_id':tid,
-                                      'cpu_count':cpu,
-                                      'proc_delay': pd}
+                    'cpu_count':cpu,
+                    'proc_delay': pd}
 
 def read_timeslots_file(dataset_path):
     global sfc_count
@@ -173,17 +182,17 @@ if __name__ == '__main__':
     parser.add_argument('path', help = "path to dataset folder")
     group = parser.add_mutually_exclusive_group(required=True)
     group.add_argument('-c', '--cplex', action='store_true',
-                        help="run CPLEX code")
+            help="run CPLEX code")
     group.add_argument('-t', '--tabusearch', action='store_true',
-                        help="run tabu search code")
+            help="run tabu search code")
     parser.add_argument('-i', '--id', required=True,
-                        help="unique id for this run")
+            help="unique id for this run")
     parser.add_argument('-r', '--replace', action='store_true',
-                        help="replace existing run dir")
+            help="replace existing run dir")
     parser.add_argument('-d', '--dryrun', action='store_true',
-                        help="only generate data")
+            help="only generate data")
     parser.add_argument('-m', '--migthr', type=float, default=0.3,
-                        help='migration threshold')
+            help='migration threshold')
     args = parser.parse_args()
 
     # set the migration_threshold
@@ -234,7 +243,6 @@ if __name__ == '__main__':
     read_timeslots_file(dataset_path)
 
     read_topology_file(dataset_path)
-    update_write_topology_file(0, None)
 
     # main simulation loop
     # x_sfcs: sfcs that can be considered for migration at a time instance
@@ -242,6 +250,7 @@ if __name__ == '__main__':
     # change path to the run folder
     cdir = os.getcwd()
     os.chdir(run_path)
+    update_write_topology_file(0, None)
     for t in range(timeslot_count):
         x_sfcs = x_sfcs.difference(sfc_out[t])
         # x_sfcs represent alive sfcs that arrived between [0,t)
@@ -263,7 +272,7 @@ if __name__ == '__main__':
             with open('run.log', 'w') as exe_log:
                 topo_filename = 'res_topology_' + str(t) + '.dat'
                 exe_path = './' + executable + ' ' + \
-                    topo_filename + ' paths.dat'
+                        topo_filename + ' paths.dat'
                 sys.stdout.flush()
                 #start = timer()
                 ts_sfcs = list(sfc_in[t])
@@ -278,12 +287,13 @@ if __name__ == '__main__':
                     else:
                         mt = migration_threshold
                     stdin_str = str(sfcs[s]) + ' ' + \
-                        str(sfcs[s].cec) + ' ' + \
-                        str(mt) + '\n'
+                            str(sfcs[s].cec) + ' ' + \
+                            str(mt) + '\n'
                     #print stdin_str
                     exe_proc.stdin.write(stdin_str)
                     mapping = exe_proc.communicate()[0]
-                    mapping_values = [int(x) for x in mapping.split()]
+                    #print mapping.strip()
+                    mapping_values = [int_or_float(x) for x in mapping.split()]
                     if mapping_values[0] == 200:
                         sfcs[s].cec = mapping_values[8+mapping_values[5]]
                     exe_proc.stdin.close()
