@@ -76,12 +76,13 @@ bool write_init_topology(string& dataset_dir,
   }
   // initialize topo
   topo.init(total_node_count);
+  int edge_id{0};
   // output inter co edges
   for (auto& e : inter_co_topo.edges()) {
-    fout << id_map[e.u][0] << " " << id_map[e.v][0] << " b " << 
-      e.capacity << " " << e.latency << endl;
-    fout << id_map[e.v][0] << " " << id_map[e.u][0] << " b " << 
-      e.capacity << " " << e.latency << endl;
+    fout << edge_id++ << " " << id_map[e.u][0] << " " << id_map[e.v][0] << 
+      " b " << e.capacity << " " << e.latency << endl;
+    fout << edge_id++ << " " << id_map[e.v][0] << " " << id_map[e.u][0] << 
+      " b " << e.capacity << " " << e.latency << endl;
     topo.add_edge(id_map[e.u][0], id_map[e.v][0], e.latency, e.capacity);
     topo.add_edge(id_map[e.v][0], id_map[e.u][0], e.latency, e.capacity);
   }
@@ -89,10 +90,12 @@ bool write_init_topology(string& dataset_dir,
   for (auto& co : cos) {
     // output edges
     for (auto& e : co.intra_topo.edges()) {
-      fout << id_map[co.id][e.u] << " " << id_map[co.id][e.v] << 
-        " i " << e.capacity << " " << e.latency << endl;
-      fout << id_map[co.id][e.v] << " " << id_map[co.id][e.u] << 
-        " i " << e.capacity << " " << e.latency << endl;
+      fout << edge_id++ << " " << id_map[co.id][e.u] << " " << 
+        id_map[co.id][e.v] << " i " << e.capacity << " " << 
+        e.latency << endl;
+      fout << edge_id++ << " " << id_map[co.id][e.v] << " " << 
+        id_map[co.id][e.u] << " i " << e.capacity << " " << 
+        e.latency << endl;
       topo.add_edge(id_map[co.id][e.u], id_map[co.id][e.v], 
           e.latency, e.capacity);
       topo.add_edge(id_map[co.id][e.v], id_map[co.id][e.u], 

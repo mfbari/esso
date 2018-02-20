@@ -28,6 +28,24 @@ This file is used to list the nodes (and switches) on a path.
 # node-ids include both switch and server ids. The switch-ids are included again to simplify data processing.
 ```
 
+## Input/Output of Optimizer
+
+Optimizer = cplex/heuristic
+
+INPUT:
+````python
+<sfc-id> <ingress-co> <egress-co> <ttl> <vnf-count> [... <vnf-cpu-requirement> ...] <bandwidth> <max-delay> <prev-cost> <migration-threshold>
+````
+
+`prev-cost = -1` indicates a new SFC. The `migration-threshold` **must be provided** even when `prev-cost` is -1.
+`migration-thresold` must be between `(0, 1)`. A `migration-thresold` of 0.3 means that an SFC will be migrated only when the new emebdding reduces the cost by at least 30%.
+
+OUTPUT:
+````python
+<sfc-id> <ingress-co> <egress-co> <ttl> <vnf-count> [... <vnf-cpu-requirement> ...] <bandwidth> <max-delay> <cost> <node-count> [...<node-id>...] <path-count> [...<node-count-4-path-1> [...<node-id>...]...]
+````
+here `node-count` is always equal to `vnf-count`. The following `node-id`s specify the servers where the VNFs will be embedded. `path-count` is the number of paths, which is equal to the number of links in the SFC (i.e., `vnf-count + 1`). Then for each path, the number of nodes in a path (`node-count-4-path-n`) is listed, followed by the id of the nodes. 
+
 ## n_sfc_t`x`
 
 New SFCs for timeslot `x`, `x` $\in$ `(0, timeslot-count]`

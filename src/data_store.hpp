@@ -7,6 +7,7 @@
 #include <fstream>
 #include <unordered_map>
 #include <set>
+#include <map>
 
 using namespace std;
 
@@ -30,22 +31,22 @@ struct node_info {
   bool is_server() {return node_category == 'c';}
 };
 
-// not used yet
 struct edge_info {
-  int u, v;
+  int id, u, v;
+  char type;
   int capacity, latency;
-  edge_info(int u = -1, int v = -1, 
-      int c = -1, int l = -1) :
-    u(u), v(v), capacity(c), latency(l) {
+  vector<int> paths; // path-ids that include this edge
+  edge_info(int id = -1, int u = -1, int v = -1, 
+      char t = 'i', int c = -1, int l = -1) :
+    id(id), u(u), v(v), type(t), capacity(c), latency(l) {
   }
   bool is_valid() {
-    return u != -1 && v != -1 && 
-      capacity != -1 && latency != -1;
+    return id != -1; 
   }
 };
 
 struct sfc_request {
-  int vnf_count;
+  int id, vnf_count;
   int ingress_co, egress_co;
   int ttl;
   std::vector<int> vnf_flavors;
@@ -54,15 +55,38 @@ struct sfc_request {
   double bandwidth;
   int node_count() {return vnf_count + 2;}
   int edge_count() {return vnf_count + 1;}
+  friend istream& operator>>(istream& is, sfc_request& sfc_req);
 };
 using sfc_request_set = std::vector<sfc_request>;
 
+istream& operator>>(istream& is, sfc_request& sfc_req) {
+    is >> sfc_req.id >> sfc_req.ingress_co >> sfc_req.egress_co >>
+        sfc_req.ttl >> sfc_req.vnf_count;
+    for (int k = 0, cpu_count; k < sfc_req.vnf_count; ++k) {
+      is >> cpu_count;
+      sfc_req.cpu_reqs.push_back(cpu_count);
+    }
+    is >> sfc_req.bandwidth >> sfc_req.latency;
+    return is;
+}
+
+ostream& operator<<(ostream& out, const sfc_request& sfc_req) {
+  out << sfc_req.id << " " << sfc_req.ingress_co << " " << 
+    sfc_req.egress_co << " " << sfc_req.ttl << " " << 
+    sfc_req.vnf_count << " ";
+  for (const auto& v : sfc_req.cpu_reqs) {
+    out << v << " ";
+  }
+  out << sfc_req.bandwidth << " " << sfc_req.latency;
+  return out;
+}
 //=========the main data_store=========//
 
 struct data_store {
   //=========variables to represent the inputs=========//
   // variables representing physical infrastucture
-  int co_count, node_count, edge_count, path_count;
+  int co_count, node_count, server_count, switch_count, 
+      edge_count, path_count;
   // these two vectors contain the node_ids for the
   // servers and switches
   std::vector<int> servers, switches;
@@ -73,36 +97,26 @@ struct data_store {
   std::vector<std::vector<double>> renewable_energy;
   // carbon/watt at the COs
   std::vector<double> carbon_per_watt;
-  // topo represents the entire topology of the
-  // physical infrastructure. It is used to track
-  // delay and bandwidth usage
-  vector<vector<edge_info>> topo;
-  // edges represents all edges in the topo
-  vector<pair<int, int>> edges;
+  // edges represents all edges in the network 
+  // it is used to track delay and bandwidth usage and
+  // convert path -> (u, v) to path -> edge-id
+  vector<edge_info> edges;
+  map<pair<int, int>, int> edge_uv_to_id;
   // path to node and switch & edge to path mappings
   // these are used for the constraints in the cplex model
   std::vector<std::vector<int>> path_nodes;
   std::vector<std::vector<int>> path_switches;
-  std::vector<std::vector<std::vector<int>>> edge_to_path;
-  std::unordered_map<int, set<int>> switch_to_path;
+  std::vector<std::vector<int>> path_edge_ids;
+  vector<vector<int>> edge_id_to_paths;
+  std::unordered_map<int, set<int>> switch_to_paths;
   // contain the new and pre-existing sfcs
   sfc_request_set n_sfcs, x_sfcs;
 
   //=========primary function to process input=========//
   void read_input(int argc, char **argv);
   // functions to read specific files
-  void read_res_topology_data(const std::string& filename,
-      int& co_count, int& node_count, int& edge_count,
-      std::vector<int>& servers, std::vector<int>& switches,
-      std::vector<node_info>& node_infos,
-      std::vector<std::vector<double>>& renewable_energy,
-      std::vector<double>& carbon_per_watt,
-      std::vector<vector<edge_info>>& topo);
-  void read_path_data(const std::string& paths_filename,
-      const int node_count, int& path_count,
-      std::vector<std::vector<int>>& path_nodes,
-      std::vector<std::vector<int>>& path_switches,
-      std::vector<std::vector<std::vector<int>>>& edge_to_path);
+  void read_res_topology_data(const string& filename);
+  void read_path_data(const string& filename);
     void read_n_sfc_data(const std::string& n_sfc_filename,
         sfc_request_set& n_sfcs);
     void read_x_sfc_data(const std::string& x_sfc_filename,
@@ -112,41 +126,26 @@ struct data_store {
 
 void data_store::read_input(int argc, char **argv) {
   // check args for correct format
-  if (argc != 5) {
+  if (argc != 3) {
     cout << "usage: ./esso_cplex.o <path-to res_topology.dat> " <<
-      "<path-to paths.dat> <path-to n_sfc_tn.dat> " <<
-      "<path-to x_sfc_tn.dat>" << endl;
+      "<path-to paths.dat>" << endl;
     exit(-1);
   }
   // filenames for reading in the inputs
   auto& res_topology_filename = argv[1];
   auto& paths_filename= argv[2];
-  auto& n_sfc_filename = argv[3];
-  auto& x_sfc_filename = argv[4];
+  //auto& n_sfc_filename = argv[3];
+  //auto& x_sfc_filename = argv[4];
 
-  read_res_topology_data(res_topology_filename,
-      co_count, node_count, edge_count,
-      servers, switches,
-      node_infos,
-      renewable_energy,
-      carbon_per_watt,
-      topo);
+  read_res_topology_data(res_topology_filename);
 
-  read_path_data(paths_filename,
-      node_count, path_count,
-      path_nodes, path_switches, edge_to_path);
+  read_path_data(paths_filename);
 
-  read_n_sfc_data(n_sfc_filename, n_sfcs);
-  read_x_sfc_data(x_sfc_filename, x_sfcs);
+  //read_n_sfc_data(n_sfc_filename, n_sfcs);
+  //read_x_sfc_data(x_sfc_filename, x_sfcs);
 }
 
-void data_store::read_res_topology_data(const string& filename,
-    int& co_count, int& node_count, int& edge_count,
-    vector<int>& servers, vector<int>& switches,
-    vector<node_info>& node_infos,
-    vector<vector<double>>& renewable_energy,
-    vector<double>& carbon_per_watt,
-    vector<vector<edge_info>>& topo) {
+void data_store::read_res_topology_data(const string& filename) {
   fstream fin(filename);
   int co_id;
   fin >> co_count;
@@ -194,24 +193,20 @@ void data_store::read_res_topology_data(const string& filename,
 
     }
   }
+  server_count = servers.size();
+  switch_count = switches.size();
   // read the links
-  topo.resize(node_count, vector<edge_info>(node_count));
-  int node_u, node_v, capacity, latency;
+  int id, node_u, node_v, capacity, latency;
   for (int i = 0; i < edge_count; ++i) {
-    fin >> node_u >> node_v >> type >> capacity >> latency;
-    topo[node_u][node_v] = move(edge_info{
-        node_u, node_v, capacity, latency});
-    edges.push_back(make_pair(node_u, node_v));
+    fin >> id >> node_u >> node_v >> type >> capacity >> latency;
+    edge_uv_to_id.insert(make_pair(make_pair(node_u, node_v), edges.size()));
+    edges.emplace_back(id, node_u, node_v, type, capacity, latency);
   }
   fin.close();
 }
 
-void data_store::read_path_data(const string& paths_filename,
-    const int node_count, int& path_count,
-    vector<vector<int>>& path_nodes,
-    vector<vector<int>>& path_switches,
-    vector<vector<vector<int>>>& edge_to_path) {
-  fstream fin(paths_filename);
+void data_store::read_path_data(const string& filename) {
+  fstream fin(filename);
   if (!fin) {
     cerr << "Failed to open paths.dat" << endl;
     exit(-1);
@@ -220,8 +215,7 @@ void data_store::read_path_data(const string& paths_filename,
   // resize the vectors
   path_nodes.resize(path_count, vector<int>());
   path_switches.resize(path_count, vector<int>());
-  edge_to_path.resize(node_count, vector<vector<int>>(node_count,
-        vector<int>()));
+  path_edge_ids.resize(path_count);
   // read data
   int id, n, u, v;
   for (int i = 0; i < path_count; ++i) {
@@ -230,15 +224,22 @@ void data_store::read_path_data(const string& paths_filename,
     for (int j = 1; j < n; ++j) {
       fin >> v;
       path_nodes[i].push_back(v);
-      edge_to_path[u][v].push_back(i);
-      edge_to_path[v][u].push_back(i);
+      auto edge_itr = edge_uv_to_id.find(make_pair(u, v)); 
+      // this check is needed for skipping server loops
+      // if they are added to the res_topology file then 
+      // this must be removed
+      if (edge_itr != edge_uv_to_id.end()) {
+        auto& edge = edges[edge_itr->second];
+        edge.paths.push_back(i);
+        path_edge_ids[i].push_back(edge.id);
+      }
       u = v;
     }
     fin >> n; // switch-count
     path_switches[i].resize(n);
     for (auto& s : path_switches[i]) {
       fin >> s;
-      switch_to_path[s].insert(i);
+      switch_to_paths[s].insert(i);
     }
   }
   fin.close();
@@ -287,10 +288,12 @@ int data_store::path_latency(int _p) {
   for (int i = 1; i < path_nodes[_p].size(); ++i) {
     v = path_nodes[_p].at(i);
     if (u == v) continue;
-    latency += topo[u][v].latency;
+    auto edge_id = edge_uv_to_id[make_pair(u, v)];
+    latency += edges[edge_id].latency;
     u = v;
   }
   return latency;
 }
+
 
 #endif
