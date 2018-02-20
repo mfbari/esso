@@ -32,20 +32,23 @@ This file is used to list the nodes (and switches) on a path.
 
 Optimizer = cplex/heuristic
 
-INPUT:
+*INPUT*:
 ````python
 <sfc-id> <ingress-co> <egress-co> <ttl> <vnf-count> [... <vnf-cpu-requirement> ...] <bandwidth> <max-delay> <prev-cost> <migration-threshold>
 ````
 
-`prev-cost = -1` indicates a new SFC. The `migration-threshold` **must be provided** even when `prev-cost` is -1.
+`prev-cost = -1` indicates a new SFC. The `migration-threshold` **must be provided** even when `prev-cost` is -1. This is needed to avoid complexity of the parsing code.
+
 `migration-thresold` must be between `(0, 1)`. A `migration-thresold` of 0.3 means that an SFC will be migrated only when the new emebdding reduces the cost by at least 30%.
 
-OUTPUT:
+*OUTPUT*:
 ````python
 <sfc-id> <ingress-co> <egress-co> <ttl> <vnf-count> [... <vnf-cpu-requirement> ...] <bandwidth> <max-delay> <cost> <node-count> [...<node-id>...] <path-count> [...<node-count-4-path-1> [...<node-id>...]...]
 ````
-here `node-count` is always equal to `vnf-count`. The following `node-id`s specify the servers where the VNFs will be embedded. `path-count` is the number of paths, which is equal to the number of links in the SFC (i.e., `vnf-count + 1`). Then for each path, the number of nodes in a path (`node-count-4-path-n`) is listed, followed by the id of the nodes. 
+here `node-count` is always equal to `vnf-count`. The following `node-id`s specify the servers where the VNFs will be embedded. `path-count` is the number of paths, which is equal to the number of links in the SFC (i.e., `vnf-count + 1`). Then for each path, the number of nodes in a path (`node-count-4-path-n`) is listed, followed by the id of the `node-count-4-path-n` nodes. 
 
+---
+# ignore the rest
 ## n_sfc_t`x`
 
 New SFCs for timeslot `x`, `x` $\in$ `(0, timeslot-count]`
@@ -111,3 +114,4 @@ Path mapping for SFCs in x_sfc_t`x`
 # the second entry indicate whether the SFC was migrated or not. 1: migrated, 0: not migrated
 # node-id represents both servers and switches on the path
 ```
+~~
