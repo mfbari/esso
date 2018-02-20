@@ -45,7 +45,7 @@ Server mapping for SFCs in n_sfc_t`x`
 ```python
 <sfc-count>
 # for each sfc in (0, sfc-count]
-<sfc-id> <vnf-count> [... <node-id> ...] 
+<sfc-id> <node-count> [... <node-id> ...] 
 # node-id represents the servers on which the VNFs are mapped
 ```
 
@@ -56,7 +56,7 @@ Path mapping for SFCs in n_sfc_t`x`
 ```python
 <sfc-count>
 # for each sfc in (0, sfc-count]
-<sfc-id> <path-id> <edge-count> [...<node-id>...]
+<sfc-id> <path-count> [...<path-id>...]
 # node-id represents both servers and switches on the path
 ```
 
