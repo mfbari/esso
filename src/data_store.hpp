@@ -224,10 +224,15 @@ void data_store::read_path_data(const string& filename) {
     for (int j = 1; j < n; ++j) {
       fin >> v;
       path_nodes[i].push_back(v);
-      auto edge_id = edge_uv_to_id[make_pair(u, v)];
-      auto& edge = edges[edge_id];
-      edge.paths.push_back(i);
-      path_edge_ids[i].push_back(edge.id);
+      auto edge_itr = edge_uv_to_id.find(make_pair(u, v)); 
+      // this check is needed for skipping server loops
+      // if they are added to the res_topology file then 
+      // this must be removed
+      if (edge_itr != edge_uv_to_id.end()) {
+        auto& edge = edges[edge_itr->second];
+        edge.paths.push_back(i);
+        path_edge_ids[i].push_back(edge.id);
+      }
       u = v;
     }
     fin >> n; // switch-count
