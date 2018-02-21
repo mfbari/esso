@@ -94,12 +94,18 @@ def update_write_topology_file(t, mapping):
             cpus = mv[6:6+vc]
             servers = mv[10+vc:10+2*vc]
             bw = mv[6+vc]
-            edges = mv[11+2*vc:]
+            paths_data = mv[10+2*vc:]
             for i in range(vc):
                 node_list[servers[i]].dec_cpu_count(cpus[i])
-            u = edges[0]
-            for v in edges[1:]:
-                edge_list[edge_dir[u][v]].dec_bandwidth(bw)
+            itr = iter(paths_data)
+            path_count = itr.next()
+            for p in range(path_count):
+                edge_count = itr.next()
+                u = itr.next()
+                for e in range(edge_count-1):
+                    v = itr.next()
+                    edge_list[edge_dir[u][v]].dec_bandwidth(bw)
+                    u = v
 
     with open('res_topology_'+str(t)+'.dat', 'w') as f:
         f.write(str(len(co_list)) + '\n')
