@@ -261,7 +261,7 @@ if __name__ == '__main__':
         x_sfcs = x_sfcs.difference(sfc_out[t])
         # x_sfcs represent alive sfcs that arrived between [0,t)
         # --- --- start code for simulation
-        print "timeslot:", t, "n_sfc:", sfc_in[t], "x_sfc:", x_sfcs
+        print "timeslot:", t, "n_sfc:", list(sfc_in[t]), "x_sfc:", list(x_sfcs)
         # write files for cplex/heuristic code
         n_sfc_filename = 'n_sfc_t' + str(t)
         with open(n_sfc_filename, 'w') as f:
