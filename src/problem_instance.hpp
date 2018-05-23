@@ -1,3 +1,6 @@
+#ifndef PROBLEM_INSTANCE_HPP
+#define PROBLEM_INSTANCE_HPP
+
 #include <map>
 #include <string>
 #include <vector>
@@ -191,3 +194,4 @@ ostream& operator<<(ostream& out, const sfc_request& sfc_req) {
   out << "b:" << sfc_req.bandwidth << "-l:" << sfc_req.latency;
   return out;
 }
+#endif // PROBLEM_INSTANCE_HPP
