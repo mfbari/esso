@@ -72,7 +72,7 @@ def generate_traffic_matrix():
       for (endpoint, traffic) in flows.items():
         [source, destination] = endpoint
         traffic *= 1000
-        traffic /= ((24/args.num_time_slots) * 3600.0)
+        traffic /= round((24*1.0/args.num_time_slots) * 3600.0, 0)
         if source == destination:
           continue
         if traffic < 10:
@@ -86,7 +86,7 @@ def generate_traffic_matrix():
         flow["dst"] = destination
         flow["bw"] = int(round(traffic, 0))
         flow["mbox_seq"] = mbox_seq
-        flow["delay"] = 1
+        flow["delay"] = 35
         all_flows.append(flow)
         flow_id += 1 
     # traffic_file.write(str(current_time) + "," + str(source) + "," +
@@ -109,7 +109,7 @@ def generate_traffic_matrix():
             flow_idx = random.randint(0, num_flows - 1)
             flow = all_flows[flow_idx]
             flow['ttl'] = ttl
-            flow_str = ",".join([str(flow_index), str(flow["src"]),str(flow["dst"]), str(flow["ttl"]), str(len(flow["mbox_seq"])), ",".join(flow["mbox_seq"]), str(flow["bw"]), str(flow["delay"])])
+            flow_str = " ".join([str(flow_index), str(flow["src"]),str(flow["dst"]), str(flow["ttl"]), str(len(flow["mbox_seq"])), " ".join(flow["mbox_seq"]), str(flow["bw"]), str(flow["delay"])])
             flow_time_slot[cur_slot_idx].append(flow_str)
             flow_index += 1
         for (ts, flows) in flow_time_slot.iteritems():
