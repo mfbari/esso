@@ -118,7 +118,8 @@ struct problem_instance {
       assert(node_id == co_id);
     }
     for (int e = 0; e < 2*edge_count; ++e) {
-      int u{0}, v{0}, latency{0}, capacity{0};
+      int u{0}, v{0}, capacity{0};
+      double latency{0.0};
       fin >> u >> v >> latency >> capacity;
       // create edges
       topology.add_edge(u, v , latency, capacity);
