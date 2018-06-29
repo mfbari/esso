@@ -131,7 +131,7 @@ struct esso_co {
         add_intra_edge(agsw, trsw, 1, 25000);
       } 
     }
-    for (const auto& trsw : tor_switches) {
+    for (auto& trsw : tor_switches) {
       add_servers_to_switch(trsw);
     }
   }
@@ -170,10 +170,15 @@ struct esso_co {
     }
     for (const auto& edge : intra_topo.edges(0)) {
       if (edge.consumed_bandwidth() > 0) {
-        brown_power += 0.3; // power per port
+        if (edge.consumed_bandwidth() <= 1000) {
+          brown_power += 0.0012; 
+        }
+        else {
+          brown_power += 0.0043;
+        }
       }
     }
-    brown_power = max(0.0, brown_power - green_capacity[time_slot]);
+    brown_power = max(0.0, brown_power - green_residual[time_slot]);
     return brown_power * carbon;
   }
 
@@ -206,12 +211,14 @@ struct esso_co {
     }
   }
 
-  void compute_embedding_cost(vector<int> cpu_reqs, 
-    int bandwidth, int time_slot, vector<vector<double>>& cost_matrix) {
+  void compute_embedding_cost(const vector<int> cpu_reqs, 
+    const int bandwidth, const int time_slot, 
+    vector<vector<double>>& cost_matrix, vector<vector<int>>& node_matrix) {
 
     // cost_matrix is used to hold the cost of all partial 
     // allocations
-    cost_matrix.resize(cpu_reqs.size(), vector<double>(cpu_reqs.size(), -1));
+    cost_matrix.resize(cpu_reqs.size(), vector<double>(cpu_reqs.size(), -1.0));
+    node_matrix.resize(cpu_reqs.size(), vector<int>(cpu_reqs.size(), -1));
 
     // used to save info about pseudo allocation
     vector<pair<int, int>> pseudo_cpu_alloc;
@@ -273,6 +280,8 @@ struct esso_co {
         if (server_id == -1) {
           break;
         }
+        // update the node matrix
+        node_matrix[i][j] = server_id;
         // allocate server resources
         allocate_cpu(server_id, cpu_reqs[j]);
         pseudo_cpu_alloc.push_back(make_pair(server_id, cpu_reqs[j]));
