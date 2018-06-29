@@ -136,7 +136,8 @@ double GetAssignmentCost(
 //
 std::unique_ptr<std::vector<int>> TabuSearch(
     problem_instance& p_instance, sfc_request& chain, izlib::iz_path& path,
-    std::vector<std::vector<std::vector<double>>>& cost_matrices) {
+    std::vector<std::vector<std::vector<double>>>& cost_matrices,
+    double& best_cost) {
   // Generate an initial solution by using first fit algorithm.
   auto initial_vnf_assignment =
       GenerateFirstFitSolution(p_instance, chain, path, cost_matrices);
@@ -152,7 +153,7 @@ std::unique_ptr<std::vector<int>> TabuSearch(
   std::vector<int> current_vnf_assignment(*initial_vnf_assignment.get());
   std::unique_ptr<std::vector<int>> best_assignment(
       new std::vector<int>(current_vnf_assignment));
-  double best_cost = GetAssignmentCost(current_vnf_assignment, cost_matrices);
+  best_cost = GetAssignmentCost(current_vnf_assignment, cost_matrices);
 
   std::set<std::pair<int, int>> tabu_set;
   std::vector<std::vector<int>> tabu_timer(
@@ -193,7 +194,7 @@ std::unique_ptr<std::vector<int>> TabuSearch(
         best_neighbor_cost = neighbor_cost;
         best_neighbor = std::move(neighbor);
         potential_tabu_move.first = j;
-        potential_tabu_move.second = neighbor->at(j);
+        potential_tabu_move.second = best_neighbor->at(j);
       }
     }
 
@@ -235,14 +236,15 @@ std::unique_ptr<std::vector<int>> TabuSearch(
 // Heuristic driver funciton. This function calls the individual functions
 // responsible for each of the stages and constructs the solution accordingly.
 std::unique_ptr<std::vector<int>> EssoHeuristic(problem_instance& p_instance,
-                                                sfc_request& chain, int ts) {
+                                                sfc_request& chain, int ts,
+                                                double& best_cost) {
   const int kNumShortestPaths = 3;
   auto embedding_path =
       GetPathWithMaxGreenEnergy(p_instance, chain, kNumShortestPaths, ts);
   auto cost_matrices =
       ComputeCostMatrix(p_instance, chain, *embedding_path.get(), ts);
   auto vnf_assignment = TabuSearch(p_instance, chain, *embedding_path.get(),
-                                   *cost_matrices.get());
+                                   *cost_matrices.get(), best_cost);
   return std::move(vnf_assignment);
 }
 #endif // ESSO_HEURISTIC_HPP_
