@@ -85,6 +85,7 @@ struct esso_co {
   izlib::iz_topology intra_topo;
   // node 0 is always the gateway/border-router/top-switch
   int border_router;
+  int inter_co_node_count;
   std::vector<int> server_ids; // these are the servers
   
   /*
@@ -115,6 +116,7 @@ struct esso_co {
     // create the internal network of one core switch, two aggregate
     // switch, four tor switch, and five servers (all in idle state) 
     int node_count = 9;
+    inter_co_node_count = node_count;
     intra_topo.init(node_count);
     int core_switch = add_switch();
     // add aggregate switches and link to core switch
