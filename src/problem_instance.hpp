@@ -31,14 +31,26 @@ struct vnf_flavor {
 };
 
 struct sfc_request {
-  int vnf_count;
+  int id, vnf_count;
   int ingress_co, egress_co;
   int ttl;
   vector<int> vnf_flavors;
   vector<int> cpu_reqs;
   double latency;
   double bandwidth;
+  friend istream& operator>>(istream& is, sfc_request& sfc_req);
 };
+
+istream& operator>>(istream& is, sfc_request& sfc_req) {
+  is >> sfc_req.id >> sfc_req.ingress_co >> sfc_req.egress_co >>
+      sfc_req.ttl >> sfc_req.vnf_count;
+  for (int k = 0, cpu_count; k < sfc_req.vnf_count; ++k) {
+    is >> cpu_count;
+    sfc_req.cpu_reqs.push_back(cpu_count);
+  }
+  is >> sfc_req.bandwidth >> sfc_req.latency;
+  return is;
+}
 
 using sfc_request_set = std::vector<sfc_request>;
 //typedef vector<vnf_request> vnf_request_set;
