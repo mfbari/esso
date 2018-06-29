@@ -189,7 +189,7 @@ int main(int argc, char**argv) {
 
   // check for the correct usage
   if (argc != 2) {
-    cerr << "usage: ./generate_full_topology.o <dataset-dir-name>" << endl;
+    cerr << "usage: ./generate_full_topology.o <relative-path-to-dataset-dir>" << endl;
     return -1;
   }
 
