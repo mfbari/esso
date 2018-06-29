@@ -34,7 +34,6 @@ iz_path stage_one(const sfc_request& sfc, const int k, const int timeslot,
     for (auto& co_id : path.nodes) {
       path_energy += cos[co_id].green_residual[timeslot];
     }
-    cout << path << " " << path_energy << endl;
     if (path_energy > max_energy) {
       max_energy_path_index = i;
       max_energy = path_energy;
@@ -55,7 +54,6 @@ void stage_two(const int co_id, const sfc_request& sfc, const iz_path& path,
     vector<vector<double>>& cost_matrix, vector<vector<int>>& node_matrix,
     problem_instance& prob_inst) {
   auto& cos = prob_inst.topology.cos;
-  cout << "calling compute cost for co: " << co_id << endl;
   cos[co_id].compute_embedding_cost(sfc.cpu_reqs, sfc.bandwidth,
       timeslot, cost_matrix, node_matrix);
 }
@@ -179,7 +177,8 @@ bool is_valid_embedding(const sfc_request& sfc,const iz_path& path,
 
 bool tabu_search(const sfc_request& sfc, const iz_path& path,
     const vector<vector<vector<double>>>& cost_matrices,
-    vector<vector<int>>& best_solution) {
+    vector<vector<int>>& best_solution,
+    double& best_solution_cost) {
     // initial solution from first-fit
     vector<vector<int>> current_solution = vector<vector<int>>(
         path.size(), vector<int>(sfc.vnf_count, 0));
@@ -189,7 +188,7 @@ bool tabu_search(const sfc_request& sfc, const iz_path& path,
     if (!res) return false;
 
     // overall best solution and cost
-    double best_solution_cost {0.0};
+    best_solution_cost = -1.0;
     // set best solution = current solution
     best_solution = current_solution;
     best_solution_cost = embedding_cost(sfc, path, cost_matrices, 
@@ -283,11 +282,74 @@ bool tabu_search(const sfc_request& sfc, const iz_path& path,
     return true;
 }
 
-// prints the 404... message when no embedding is found
-void no_path_found(const sfc_request& sfc) {
-  cout << "404 " << sfc << endl;
+// build the entire inter + intra co topology 
+// this topology is used to generate the final
+// optimizer output from the embedding table
+// produced by tabu search
+
+void generate_full_topology(problem_instance& prob_inst,
+    izlib::iz_topology& topo, 
+    vector<char>& node_info, vector<int>& server_ids) {
+  //---------------
+  auto& inter_co_topo = prob_inst.topology.inter_co_topo;
+  auto& cos = prob_inst.topology.cos;
+
+  int total_node_count{0}, total_edge_count{0};
+  int max_inodes{0};
+  //total_node_count += cos.size();
+  total_edge_count += inter_co_topo.edge_count;
+  for (auto& co : cos) {
+    total_node_count += co.intra_topo.node_count;
+    total_edge_count += 2*co.intra_topo.edge_count;
+    max_inodes = max(max_inodes, co.intra_topo.node_count);
+  }
+  // resize the node_info vector
+  node_info.resize(total_node_count);
+  // ds to hold id mappings
+  vector<vector<int>> id_map(cos.size(), vector<int>(max_inodes));
+  int node_id{0}; // node_id for the merged graph
+  for (auto& co : cos) {
+    // output the switches 
+    for (int i = 0; i < co.server_ids[0]; ++i) {
+      id_map[co.id][i] = node_id;
+      node_info[node_id] = 's';
+      ++node_id;
+    }
+    // now the servers
+    for (auto i : co.server_ids) {
+      id_map[co.id][i] = node_id;
+      node_info[node_id] = 'c';
+      server_ids.push_back(node_id);
+      auto server_ptr = dynamic_pointer_cast<esso_server>(
+          co.intra_nodes[i]);
+      ++node_id;
+    }
+  }
+  // initialize topo
+  topo.init(total_node_count);
+  int edge_id{0};
+  // output inter co edges
+  for (auto& e : inter_co_topo.edges()) {
+    topo.add_edge(id_map[e.u][0], id_map[e.v][0], e.latency, e.capacity);
+    topo.add_edge(id_map[e.v][0], id_map[e.u][0], e.latency, e.capacity);
+  }
+  // output intra co edges
+  for (auto& co : cos) {
+    // output edges
+    for (auto& e : co.intra_topo.edges()) {
+      topo.add_edge(id_map[co.id][e.u], id_map[co.id][e.v], 
+          e.latency, e.capacity);
+      topo.add_edge(id_map[co.id][e.v], id_map[co.id][e.u], 
+          e.latency, e.capacity);
+    }
+  }
+  //---------------
 }
 
+// prints the 404... message when no embedding is found
+void print_404_message(const sfc_request& sfc) {
+  cout << "404 " << sfc << endl;
+}
 
 int main(int argc, char **argv) {
 
@@ -308,8 +370,6 @@ int main(int argc, char **argv) {
 
   // if all input read successfully, then call the heuristic
   if (prob_inst.read_input(prob_input)) {
-    // call heuristic algorithm
-    cout << "calling tabu search ..." << endl;
 
     sfc_request sfc;
     double current_cost, migration_threshold;
@@ -320,9 +380,12 @@ int main(int argc, char **argv) {
     // Stage-1: find a path for embedding sfc
     int k = 3; // number of candidate paths
     auto embedding_path = stage_one(sfc, k, timeslot, prob_inst);
-    // if no path found then print 404 ...
-    if (!embedding_path.is_valid()) no_path_found(sfc);
-    cout << "embedding path: " << embedding_path << endl;
+    // if no path found then 
+    // OUTPUT 404 message
+    if (!embedding_path.is_valid()) {
+      print_404_message(sfc);
+      return -1;
+    }
     
     // Stage-2: compute the cost matrix for all co's on the embedding path
     vector<vector<vector<double>>> cost_matrices(embedding_path.size());
@@ -333,71 +396,66 @@ int main(int argc, char **argv) {
           cost_matrices[i], node_matrices[i], prob_inst);
     }
 
-    cost_matrices[0][0][2] = -1;
-    cost_matrices[0][0][3] = -1;
-    cost_matrices[1][2][2] = -1;
-    cost_matrices[1][2][3] = -1;
-    cost_matrices[2][2][3] = -1;
-
-    // PRINT all cost and node matrices
-    for (int i = 0; i < embedding_path.size(); ++i) {
-      cout << "cost matrix[" << i << "]" << endl;
-      for (int j = 0; j < sfc.vnf_count; ++j) {
-        for (int k = 0; k < sfc.vnf_count; ++k) {
-          cout << cost_matrices[i][j][k] << " ";
-        }
-        cout << endl;
-      }
-      cout << "node matrix[" << i << "]" << endl;
-      for (int j = 0; j < sfc.vnf_count; ++j) {
-        for (int k = 0; k < sfc.vnf_count; ++k) {
-          cout << node_matrices[i][j][k] << " ";
-        }
-        cout << endl;
-      }
-    }
-
     // 1 1 3 1 4 1 2 2 1 100 100 0 0.2
     // Stage-3: call tabu search
-    vector<vector<int>> embedding_table = vector<vector<int>>(
+    vector<vector<int>> best_solution = vector<vector<int>>(
         embedding_path.size(), vector<int>(sfc.vnf_count, 0));
+    double best_cost{};
     auto res = tabu_search(sfc, embedding_path, cost_matrices, 
-        embedding_table);
-    cout << "embedding table " << boolalpha << res << endl;
-    for (auto& row : embedding_table) {
-      for (int c : row) {
-        cout << c << " ";
-      }
-      cout << endl;
+        best_solution, best_cost);
+    
+    // no soution found then 
+    // OUTPUT 404 message
+    if (!res) {
+      print_404_message(sfc);
+      return -1;
     }
-    cout << embedding_cost(sfc, embedding_path, cost_matrices, 
-        embedding_table) << endl;
+
+    //OUTPUT sfc and cost
+    cout << "200 " << sfc << " " << best_cost << " ";
 
     auto emb_nodes = embedding_nodes(sfc, embedding_path, 
-        node_matrices, embedding_table);
-    cout << "embedding nodes " << endl;
-    for (auto node : emb_nodes)
-      cout << node << " ";
-    cout << endl;
+        node_matrices, best_solution);
+    // OUTPUT the number of nodes followed by the nodes
+    cout << sfc.vnf_count << " "; 
+    for (auto node : emb_nodes) cout << node << " ";
 
-    //embedding_table[3][3] = 0;
-    //embedding_table[1][3] = 1;
-    cout << "embedding table " << boolalpha << res << endl;
-    for (auto& row : embedding_table) {
-      for (int c : row) {
-        cout << c << " ";
+    // generate full topology
+    iz_topology full_topo;
+    vector<char> node_info;
+    vector<int> server_ids;
+    generate_full_topology(prob_inst, full_topo, node_info, server_ids);
+
+    // generate path info for optimizer output
+    // a vector to hold the ingress + emb_nodes + egress
+    vector<int> full_path_nodes;
+    int inter_co_node_count = prob_inst.topology.cos[0].inter_co_node_count;
+    full_path_nodes.push_back(sfc.ingress_co * inter_co_node_count);
+    copy(emb_nodes.begin(), emb_nodes.end(), back_inserter(full_path_nodes));
+    full_path_nodes.push_back(sfc.egress_co * inter_co_node_count);
+    // OUTPUT the number of partial paths on the full path
+    // always equal to sfc.vnf_count + 1
+    cout << sfc.vnf_count + 1 << " ";
+    // iterate the nodes in the full path
+    int u = full_path_nodes[0];
+    for (int v_idx = 1; v_idx < full_path_nodes.size(); ++v_idx) {
+      int v = full_path_nodes[v_idx];
+      // if u == v then just OUTPUT 
+      if (u == v) {
+        cout << 2 << " " << u << " " << v << " ";
       }
-      cout << endl;
+      else {
+        // find the shortest path between u and v
+        iz_path p;
+        full_topo.shortest_path(u, v, p, sfc.bandwidth);
+        // OUTPUT the path
+        // number of nodes, then the nodes
+        cout << p.size() << " ";
+        for (auto n : p.nodes) cout << n << " ";
+      }
+      u = v;
     }
-    cout << "check valid " <<  boolalpha <<
-      is_valid_embedding(sfc, embedding_path, cost_matrices,
-          embedding_table) << endl;
-
-    //auto vnf_assignment = EssoHeuristic(prob_inst, sfc, 0);
-    //for (auto va : *vnf_assignment.get()) {
-    //  cout << va << " ";
-    //}
-    //cout << endl;
+    cout << endl;
   }
   else {
     cerr << "failed to read input files for porblem instance" << endl;
