@@ -14,8 +14,11 @@ CPLEXLIB := -lilocplex -lconcert -lcplex -lm -lpthread -DIL_STD
 cplex: esso_cplex.cpp data_store.hpp 
 	$(CC) $(OPZFLAGS) $(CPPFLAGS) $(CPLEXINC) $< $(CPLEXLIB) -o esso_cplex.o
 
-heuristic: esso_heuristic.cpp 
+heuristic: esso_heuristic.cpp
 	$(CC) $(OPZFLAGS) $(CPPFLAGS) $< -o esso_heuristic.o 
+
+dbg_heuristic: esso_heuristic.cpp 
+	$(CC) $(DBGFLAGS) $(CPPFLAGS) $< -o esso_heuristic.o
 
 dbg_cplex: esso_cplex.cpp data_store.hpp
 	$(CC) $(DBGFLAGS) $(CPPFLAGS) $(CPLEXINC) $< $(CPLEXLIB) -o esso_cplex.o
