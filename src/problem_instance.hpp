@@ -198,13 +198,12 @@ struct problem_instance {
   }
 };
 
-ostream& operator<<(ostream& out, const sfc_request& sfc_req) {
-  out << "(" << sfc_req.vnf_count << "):";
-  out << sfc_req.ingress_co << "->" << sfc_req.egress_co << ":";
-  for (const auto& v : sfc_req.vnf_flavors) {
-    out << v << "-";
-  }
-  out << "b:" << sfc_req.bandwidth << "-l:" << sfc_req.latency;
+ostream& operator<<(ostream& out, const sfc_request& sfc) {
+  out << sfc.id << " " << sfc.ingress_co << " " << sfc.egress_co << " ";
+  out << sfc.ttl << " " << sfc.vnf_count << " ";
+  for (auto cpu : sfc.cpu_reqs) out << cpu << " ";
+  out << sfc.bandwidth << " " << sfc.latency;
   return out;
 }
+
 #endif // PROBLEM_INSTANCE_HPP
