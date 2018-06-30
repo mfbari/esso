@@ -108,7 +108,12 @@ struct data_store {
   std::vector<std::vector<int>> path_switches;
   std::vector<std::vector<int>> path_edge_ids;
   vector<vector<int>> edge_id_to_paths;
-  std::unordered_map<int, set<int>> switch_to_paths;
+  std::unordered_map<int, vector<int>> switch_to_paths;
+  // co to server, switch, edge mapping
+  std::vector<std::vector<int>> co_server_ids;
+  std::vector<std::vector<int>> co_switch_ids;
+  std::vector<std::vector<int>> co_edge_ids;
+  std::vector<int> backbone_edge_ids;
   // contain the new and pre-existing sfcs
   sfc_request_set n_sfcs, x_sfcs;
 
@@ -151,6 +156,11 @@ void data_store::read_res_topology_data(const string& filename) {
   fin >> co_count;
   renewable_energy.resize(co_count, vector<double>(time_inst_count));
   carbon_per_watt.resize(time_inst_count);
+  // initialize the vectors for co to server, edge, switch mapping
+  // no need to resize backbone_edge_ids, used .push_back function
+  co_server_ids.resize(co_count);
+  co_switch_ids.resize(co_count);
+  co_edge_ids.resize(co_count);
   // read renewable energy data from file
   for (int i = 0; i < co_count; ++i) {
     fin >> co_id;
@@ -179,6 +189,7 @@ void data_store::read_res_topology_data(const string& filename) {
         node_infos.emplace_back(node_id, co_id, type,
             sleep_power, base_power,
             cpu_count, per_cpu_power);
+        co_server_ids[co_id].push_back(node_id);
         break;
 
       case 's':
@@ -186,6 +197,7 @@ void data_store::read_res_topology_data(const string& filename) {
         fin >> sleep_power >> base_power;
         node_infos.emplace_back(node_id, co_id, type,
             sleep_power, base_power);
+        co_switch_ids[co_id].push_back(node_id);
         break;
 
       default:
@@ -198,7 +210,9 @@ void data_store::read_res_topology_data(const string& filename) {
   // read the links
   int id, node_u, node_v, capacity, latency;
   for (int i = 0; i < edge_count; ++i) {
-    fin >> id >> node_u >> node_v >> type >> capacity >> latency;
+    fin >> id >> node_u >> node_v >> type >> co_id >> capacity >> latency;
+    if (type == 'i') co_edge_ids[co_id].push_back(id);
+    else backbone_edge_ids.push_back(id);
     edge_uv_to_id.insert(make_pair(make_pair(node_u, node_v), edges.size()));
     edges.emplace_back(id, node_u, node_v, type, capacity, latency);
   }
@@ -239,7 +253,7 @@ void data_store::read_path_data(const string& filename) {
     path_switches[i].resize(n);
     for (auto& s : path_switches[i]) {
       fin >> s;
-      switch_to_paths[s].insert(i);
+      switch_to_paths[s].push_back(i);
     }
   }
   fin.close();
