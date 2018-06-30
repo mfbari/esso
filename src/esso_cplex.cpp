@@ -47,11 +47,8 @@ int main(int argc, char **argv) {
     // derived varaible q
     IloIntVarArray q(env, ds.edge_count, 0, 1);
     // derived variables cap_x_y
-    IloIntVarArray cap_0_1m(env, ds.edge_count, 0, 1);
-    IloIntVarArray cap_1m_100m(env, ds.edge_count, 0, 1);
-    IloIntVarArray cap_100m_1g(env, ds.edge_count, 0, 1);
-    IloIntVarArray cap_1g_10g(env, ds.edge_count, 0, 1);
-    IloIntVarArray cap_10g_100g(env, ds.edge_count, 0, 1);
+    IloIntVarArray cap_0_1g(env, ds.edge_count, 0, 1);
+    IloIntVarArray cap_1g_inf(env, ds.edge_count, 0, 1);
     // derived variable w
     IloIntVarArray w(env, ds.switches.size(), 0, 1);
 
@@ -139,15 +136,9 @@ int main(int argc, char **argv) {
       // bandwidth on edges. They are used to assing energy cost
       // according to allocated bandwidth
       model.add(IloIfThen(env, allocated_capacity > 0 && 
-            allocated_capacity <= 1, cap_0_1m[_l] == 1));
-      model.add(IloIfThen(env, allocated_capacity > 1 && 
-            allocated_capacity <= 100, cap_1m_100m[_l] == 1));
-      model.add(IloIfThen(env, allocated_capacity > 100 && 
-            allocated_capacity <= 1000, cap_100m_1g[_l] == 1));
-      model.add(IloIfThen(env, allocated_capacity > 1000 && 
-            allocated_capacity <= 10000, cap_1g_10g[_l] == 1));
-      model.add(IloIfThen(env, allocated_capacity > 10000, 
-            cap_10g_100g[_l] == 1));
+            allocated_capacity <= 1000, cap_0_1g[_l] == 1));
+      model.add(IloIfThen(env, allocated_capacity > 1000, 
+            cap_1g_inf[_l] == 1));
     }
 
     //=========Constraint=========//
@@ -211,9 +202,9 @@ int main(int argc, char **argv) {
     // zero cost is not considered for migration
     // positive current_cost indicate pre-existing sfc and
     // is considered for migration
-    if (current_cost > 0) {
-      model.add(cost <= (1 - migration_threshold) * current_cost);
-    }
+    //if (current_cost > 0) {
+    //  model.add(cost <= (1 - migration_threshold) * current_cost);
+    //}
 
 
     //=========Objective=========//
@@ -242,42 +233,9 @@ int main(int argc, char **argv) {
     }
     // edge power
     for (int _l = 0; _l < ds.edge_count; ++_l) {
-      objective += 0.001 * cap_0_1m[_l] +
-                   0.003 * cap_1m_100m[_l] +
-                   0.006 * cap_100m_1g[_l] +
-                   0.010 * cap_1g_10g[_l] +
-                   0.018 * cap_10g_100g[_l];
+      objective += 0.0012 * cap_0_1g[_l] +
+                   0.0043 * cap_1g_inf[_l]; 
     }
-    /*
-    for (auto& edge : ds.edges) {
-      IloExpr allocated_capacity(env);
-      for (int l = 0; l < sfc.edge_count(); ++l) {
-        for (int _p: edge.paths) {
-          if (ds.path_nodes[_p].size() > 2) { // skip server self-loops 
-            allocated_capacity += y[l][_p] * sfc.bandwidth;
-          }
-        }
-      }
-      //objective += allocated_capacity * 0.006;
-      
-      objective += 0.001 * IloPiecewiseLinear(allocated_capacity, 
-        0.0,
-        IloNumArray(env, 10, 
-          0.1, 0.1,
-          1.1, 1.1, 
-          10.1 ,10.1,
-          100.1, 100.1,
-          1000.1, 1000.1), 
-        IloNumArray(env, 10, 
-          0.0, 1.0,
-          1.0, 3.0,
-          3.0, 6.0, 
-          6.0, 10.0,
-          10.0, 18.0),
-        0.0);
-    }
-    */
-
 
     /*Objective --> model*/
     model.add(objective >= 0);
