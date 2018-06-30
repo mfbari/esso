@@ -64,7 +64,7 @@ class esso_server:
         return " ".join([str(x) for x in self.data_val])
 
 class esso_edge:
-    bw_idx = 4
+    bw_idx = 5
     def __init__(self, data):
         self.data_val = data.split()
         self.data_val[esso_edge.bw_idx] = int(self.data_val[esso_edge.bw_idx])
