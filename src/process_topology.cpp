@@ -80,9 +80,9 @@ bool write_init_topology(string& dataset_dir,
   // output inter co edges
   for (auto& e : inter_co_topo.edges()) {
     fout << edge_id++ << " " << id_map[e.u][0] << " " << id_map[e.v][0] << 
-      " b " << e.capacity << " " << e.latency << endl;
+      " b -1 " << e.capacity << " " << e.latency << endl;
     fout << edge_id++ << " " << id_map[e.v][0] << " " << id_map[e.u][0] << 
-      " b " << e.capacity << " " << e.latency << endl;
+      " b -1 " << e.capacity << " " << e.latency << endl;
     topo.add_edge(id_map[e.u][0], id_map[e.v][0], e.latency, e.capacity);
     topo.add_edge(id_map[e.v][0], id_map[e.u][0], e.latency, e.capacity);
   }
@@ -91,10 +91,10 @@ bool write_init_topology(string& dataset_dir,
     // output edges
     for (auto& e : co.intra_topo.edges()) {
       fout << edge_id++ << " " << id_map[co.id][e.u] << " " << 
-        id_map[co.id][e.v] << " i " << e.capacity << " " << 
+        id_map[co.id][e.v] << " i " << co.id << " " << e.capacity << " " << 
         e.latency << endl;
       fout << edge_id++ << " " << id_map[co.id][e.v] << " " << 
-        id_map[co.id][e.u] << " i " << e.capacity << " " << 
+        id_map[co.id][e.u] << " i " << co.id << " " << e.capacity << " " << 
         e.latency << endl;
       topo.add_edge(id_map[co.id][e.u], id_map[co.id][e.v], 
           e.latency, e.capacity);
@@ -112,13 +112,15 @@ bool write_init_topology(string& dataset_dir,
 
 bool write_path_link(string& dataset_dir, izlib::iz_topology& topo, 
     const vector<char>& node_info, vector<int> server_ids,
-    bool use_one_path = true, int phy_k = 3) {
+    bool use_one_path = false, int phy_k = 3) {
   auto node_count = node_info.size();
   izlib::iz_path_list phy_paths;
   for (int u = 0; u < node_count; ++u) {
     for (int v = 0; v < node_count; ++v) {
-      if (u != v && node_info[u] == 'c' &&
-          node_info[v] == 'c') {
+      if (u != v
+          //node_info[u] == 'c' &&
+          //node_info[v] == 'c'
+          ) {
         // both u and v are servers, and u != v
         if (use_one_path) {
           izlib::iz_path path;
