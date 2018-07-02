@@ -20,7 +20,7 @@ Initial topology for the entire newtwork, i.e., inter-CO and intra-CO. This file
 ... <reneable-energy in kW> ... # 24 data points
 <node-count> <edge-count> # for the entire network
 # for each node in (0, node-count]
-<node-id> <co-id> <'c'/'s'> <sleep-energy> <base-energy> <per-cpu-energy> <cpu-count> 
+<node-id> <co-id> <'c'/'s'> <sleep-energy> <base-energy> <cpu-count> <per-cpu-energy>  
 # c: compute/server, s: switch, last two data are for servers
 # for each edge in (0, edge-count]
 <edge-id> <node-id> <node-id> <'b'/'i'> <link-cap> <link-delay> 
