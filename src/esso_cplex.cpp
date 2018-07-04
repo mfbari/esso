@@ -54,12 +54,27 @@ int main(int argc, char **argv) {
     IloIntVarArray cap_0_1g(env, ds.edge_count, 0, 1);
     IloIntVarArray cap_1g_inf(env, ds.edge_count, 0, 1);
     // derived variable w
-    IloIntVarArray w(env, ds.switches.size(), 0, 1);
+    //IloIntVarArray w(env, ds.switches.size(), 0, 1);
+    IloIntVarArray w(env, ds.node_count, 0, 1);
+
+    //=========Constraint=========//
+    // placement constraint for ingress and egress co
+    auto co_gateway = [](int co_id) {return co_id * 9;};
+    for (int _n = 0; _n < ds.node_count; ++_n) {
+      if (_n == co_gateway(sfc.ingress_co))
+        model.add(x[0][_n] == 1);
+      else 
+        model.add(x[0][_n] == 0);
+      if (_n == co_gateway(sfc.egress_co)) 
+        model.add(x[sfc.node_count()-1][_n] == 1);
+      else
+        model.add(x[sfc.node_count()-1][_n] == 0);
+    }
 
     //=========Constraint=========//
     // x and y should be equal to 1 when summed over all
     // servers and physical paths
-    for (int n = 0; n < sfc.node_count(); ++n) {
+    for (int n = 1; n < sfc.node_count()-1; ++n) {
       IloExpr x__n(env);
       for (int _n = 0; _n < ds.node_count; ++_n) {
         if (ds.node_infos[_n].is_server()) {
@@ -171,6 +186,7 @@ int main(int argc, char **argv) {
 
     //=========Constraint=========//
     // placement constraint for CO
+    /*
     for (int _n = 0; _n < ds.node_count; ++_n) {
       if (ds.node_infos[_n].is_server()) {
         if (ds.node_infos[_n].co_id == sfc.ingress_co) {
@@ -187,9 +203,11 @@ int main(int argc, char **argv) {
         }
       }
     }
+    */
 
     //=========Constraint=========//
     // minimize the number of active servers, switches, edges
+    /*
     IloExpr cost(env);
     for (int _n = 0; _n < ds.node_count; ++_n) {
       cost += z[_n];
