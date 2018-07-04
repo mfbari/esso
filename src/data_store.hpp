@@ -155,7 +155,7 @@ void data_store::read_res_topology_data(const string& filename) {
   int co_id;
   fin >> co_count;
   renewable_energy.resize(co_count, vector<double>(time_inst_count));
-  carbon_per_watt.resize(time_inst_count);
+  carbon_per_watt.resize(co_count);
   // initialize the vectors for co to server, edge, switch mapping
   // no need to resize backbone_edge_ids, used .push_back function
   co_server_ids.resize(co_count);
@@ -164,14 +164,10 @@ void data_store::read_res_topology_data(const string& filename) {
   // read renewable energy data from file
   for (int i = 0; i < co_count; ++i) {
     fin >> co_id;
+    fin >> carbon_per_watt[co_id];
     for (auto& re : renewable_energy[co_id]) {
       fin >> re;
     }
-  }
-  // fill the co2/kWh data, random double between [1,2]
-  //TODO: use random generator
-  for (auto& cw : carbon_per_watt) {
-    cw = 1.34;
   }
 
   fin >> node_count >> edge_count;
