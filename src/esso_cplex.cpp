@@ -254,6 +254,8 @@ int main(int argc, char **argv) {
     //=========Objective=========//
     IloExpr objective(env);
     // server power
+    // -----------------------------------------------------
+    /*
     for (int _n = 0; _n < ds.node_count; ++_n) {
       if (ds.node_infos[_n].is_server()) {
         objective += z[_n] * ds.node_infos[_n].base_power + 
@@ -280,14 +282,60 @@ int main(int argc, char **argv) {
       objective += 0.0012 * cap_0_1g[_l] +
                    0.0043 * cap_1g_inf[_l]; 
     }
+    */
+    // -----------------------------------------------------
+    // The above codes for server, switch, and edge power are 
+    // commented out to calculate power on a per co basis, 
+    // as done in the following code block
+
+    IloExprArray co_powers(env, ds.co_count);
+    IloExpr backbone_power(env);
+    for (int _c = 0; _c < ds.co_count; ++_c) {
+      //IloExpr co_power(env);
+      co_powers[_c] = IloExpr(env);
+      // 1. server power on a per co basis
+      for (int _n : ds.co_server_ids[_c]) {
+        // server base/sleep power
+        co_powers[_c] += z[_n] * ds.node_infos[_n].base_power + 
+          (1 - z[_n]) * ds.node_infos[_n].sleep_power;
+        // server cpu power
+        for (int n = 1; n < sfc.node_count() - 1; ++n) {
+          co_powers[_c] += x[n][_n] * (sfc.cpu_reqs[n-1] * 
+              ds.node_infos[_n].per_cpu_power);
+        }
+      }
+      // 2. switch power on a per co basis
+      for (int _s : ds.co_switch_ids[_c]) {
+        co_powers[_c] += w[_s] * ds.node_infos[_s].base_power +
+            (1 - w[_s]) * ds.node_infos[_s].sleep_power;
+      }
+      // 3. edge power on a per co basis
+      for (int _l : ds.co_edge_ids[_c]) {
+        // compute power for (u->v) only
+        // not for both (u->v) and (v->u)
+        if (ds.edges[_l].u <= ds.edges[_l].v) {
+          co_powers[_c] += 0.0012 * cap_0_1g[_l] +
+                     0.0043 * cap_1g_inf[_l]; 
+        }
+      }
+      objective += ds.carbon_per_watt[_c] * IloMax(0, co_powers[_c] - 
+          ds.renewable_energy[_c][timeslot]);
+    }
+    // add power for backbone links
+    // no green energy is considered here
+    for (int _l : ds.backbone_edge_ids) {
+      backbone_power += 0.0012 * cap_0_1g[_l] +
+                 0.0043 * cap_1g_inf[_l]; 
+    }
+    objective += 1.12 * backbone_power; //carbon_per_watt for backbone 1.12
 
     /*Objective --> model*/
     model.add(objective >= 0);
     model.add(IloMinimize(env, objective));
 
     //=========Solver=========//
-    IloTimer timer(env);
-    timer.restart();
+    //IloTimer timer(env);
+    //timer.restart();
 
     const IloInt time_limit_seconds = 60*60; // 1 hour
     const IloNum relative_gap = 0.001; // 0.1% gap with optimal
@@ -341,7 +389,15 @@ int main(int argc, char **argv) {
       copy(path_nodes.begin(), path_nodes.end(),
           ostream_iterator<int>(cout, " "));
     }
-    cout << endl;
+    cout << time << endl;
+
+    // print per co cost
+    /*
+    for (int _c = 0; _c < ds.co_count; ++_c) {
+      cout << cplex.getValue(co_powers[_c]) << " ";
+    }
+    cout << cplex.getValue(backbone_power) << " " << endl;
+    */
   }
   catch (IloException& e) {
     cerr << "Concert expection: " << e << endl;
