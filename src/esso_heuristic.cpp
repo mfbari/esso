@@ -3,6 +3,7 @@
 //#include "esso_heuristic.hpp"
 #include "iz_topology.hpp"
 #include "problem_instance.hpp"
+#include "iz_timer.hpp"
 
 using namespace std;
 using namespace izlib;
@@ -102,7 +103,8 @@ double embedding_cost(const sfc_request& sfc, const iz_path& path,
 // returns the nodes selected in an embedding table
 vector<int> embedding_nodes(const sfc_request& sfc, const iz_path& path,
     const vector<vector<vector<int>>>& node_matrices,
-    const vector<vector<int>>& embedding_table) {
+    const vector<vector<int>>& embedding_table,
+    vector<int>& emb_cos, vector<int>& emb_co_nodes) {
   vector<int> nodes;
   for (int c = 0; c < path.size(); ++c) {
     // find starting 1 in embedding table
@@ -116,6 +118,8 @@ vector<int> embedding_nodes(const sfc_request& sfc, const iz_path& path,
     for (int i = sfc_start; i <= sfc_end; ++i) {
       nodes.push_back(path.nodes[c] * 9 + 
           node_matrices[c][sfc_start][i]);
+      emb_cos.push_back(path.nodes[c]);
+      emb_co_nodes.push_back(node_matrices[c][sfc_start][i]);
     }
   }
   return nodes;
@@ -351,31 +355,83 @@ void print_404_message(const sfc_request& sfc) {
   cout << "404 " << sfc << endl;
 }
 
+bool read_res_topology_file(const string& res_topology_filename,
+    problem_instance& prob_inst) {
+  fstream fin(res_topology_filename);
+  int co_count, co_id;
+  fin >> co_count;
+  auto& cos = prob_inst.topology.cos;
+  for (int i = 0; i < co_count; ++i) {
+    fin >> co_id;
+    fin >> cos[co_id].carbon;
+    for (int j = 0; j < 24; ++j) fin >> cos[co_id].green_residual[j];
+  }
+  int node_count, edge_count;
+  fin >> node_count >> edge_count;
+  int node_id, cpu_count;
+  char type;
+  double sleep_power, base_power, per_cpu_power;
+  for (int i = 0; i < node_count; ++i) {
+    fin >> node_id >> type >> co_id;
+    if (type == 'c') {
+      fin >> sleep_power >> base_power >> cpu_count >> per_cpu_power;
+      cos[co_id].set_residual_cpu(node_id%9, cpu_count);
+    }
+    else {
+      // for switch just read data, no need to update any state
+      fin >> sleep_power >> base_power;
+    }
+  }
+  int edge_id, node_u, node_v, capacity, latency;
+  for (int i = 0; i < edge_count; ++i) {
+    fin >> edge_id >> node_u >> node_v >> type >> co_id >> 
+        capacity >> latency;
+    if (type == 'b') {
+      prob_inst.topology.set_residual_bandwidth(node_u/9, node_v/9, capacity);
+    }
+    else {
+      cos[co_id].set_residual_bandwidth(node_u%9, node_v%9, capacity);
+    }
+  }
+  fin >> type;
+  if (!fin.eof()) cout << "all data not read" << endl;
+  fin.close();
+}
+
 int main(int argc, char **argv) {
 
-  if (argc != 2) {
-    cerr << "usage: ./esso_heuristic.o <relative-path-to-dataset-dir>" 
-        << endl;
+  if (argc != 3) {
+    cerr << "usage: ./esso_heuristic.o <relative-path-to co_topology.dat> " << 
+        "<relative-path-to res_topology.dat>" << endl;
     return -1;
   }
   // directory for the dataset
-  string dataset_dir {argv[1]};
+  //string dataset_dir {argv[1]};
+  string co_topology_filename {argv[1]};
+  string res_topology_filename {argv[2]};
 
   // prob_inst contains all the input data
   problem_instance prob_inst;
   problem_input prob_input;
-  prob_input.vnf_info_filename = join_path(dataset_dir, "vnf_types.dat");
-  prob_input.time_slot_filename = join_path(dataset_dir, "timeslots.dat");
-  prob_input.topology_filename = join_path(dataset_dir, "co_topology.dat");
+  //prob_input.vnf_info_filename = join_path(dataset_dir, "vnf_types.dat");
+  //prob_input.time_slot_filename = join_path(dataset_dir, "timeslots.dat");
+  //prob_input.topology_filename = join_path(dataset_dir, "co_topology.dat");
+  prob_input.topology_filename = co_topology_filename; 
 
   // if all input read successfully, then call the heuristic
   if (prob_inst.read_input(prob_input)) {
 
-    sfc_request sfc;
-    double current_cost, migration_threshold;
-    cin >> sfc >> current_cost >> migration_threshold;
+    if(!read_res_topology_file(res_topology_filename, prob_inst)) {
+      cerr << "failed to read res topology file" << endl;
+      return -1;
+    }
 
-    int timeslot = 0;
+    sfc_request sfc;
+    int timeslot;
+    double current_cost, migration_threshold;
+    cin >> timeslot >> sfc >> current_cost >> migration_threshold;
+
+    iz_timer htimer;
 
     // Stage-1: find a path for embedding sfc
     int k = 3; // number of candidate paths
@@ -384,6 +440,7 @@ int main(int argc, char **argv) {
     // OUTPUT 404 message
     if (!embedding_path.is_valid()) {
       print_404_message(sfc);
+      cerr << "no embedding path" << endl;
       return -1;
     }
     
@@ -408,14 +465,112 @@ int main(int argc, char **argv) {
     // OUTPUT 404 message
     if (!res) {
       print_404_message(sfc);
+      cerr << "failed to find any solution" << endl;
       return -1;
     }
 
-    //OUTPUT sfc and cost
-    cout << "200 " << sfc << " " << best_cost << " ";
+    double time = htimer.time();
 
+    //OUTPUT sfc and cost
+    cout << "200 " << sfc << " ";
+
+    vector<int> emb_cos, emb_co_nodes;
     auto emb_nodes = embedding_nodes(sfc, embedding_path, 
-        node_matrices, best_solution);
+        node_matrices, best_solution, emb_cos, emb_co_nodes);
+
+    //cout << endl << "---------------------------" << endl;
+    // compute carbon footprint
+    // if the first co is not the ingress, then find a path
+    // from the ingress to the first co and allocate bandwidth
+    // in esso_topology class
+    if (sfc.ingress_co != emb_cos.front()) {
+      iz_path path;
+      prob_inst.topology.inter_co_topo.shortest_path(sfc.ingress_co, 
+          emb_cos.front(), path, sfc.bandwidth);
+      prob_inst.topology.allocate_bandwidth(path, 
+          sfc.bandwidth);
+    }
+    // allocate bandwidth for the next backbone links
+    int co_u = emb_cos.front();
+    for(int i = 1; i < emb_cos.size(); ++i) {
+      int co_v = emb_cos.at(i);
+      if(co_u != co_v) {
+        iz_path path;
+        prob_inst.topology.inter_co_topo.shortest_path(co_u, co_v,
+            path, sfc.bandwidth);
+        prob_inst.topology.allocate_bandwidth(path, 
+            sfc.bandwidth);
+      }
+      co_u = co_v;
+    }
+    // now for the last backbone link
+    if (sfc.egress_co != emb_cos.back()) {
+      iz_path path;
+      prob_inst.topology.inter_co_topo.shortest_path(emb_cos.back(), 
+          sfc.egress_co, path, sfc.bandwidth);
+      prob_inst.topology.allocate_bandwidth(path, 
+          sfc.bandwidth);
+    }
+    // now process the intra-co links and servers (and switches)
+    vector<int> same_co_nodes;
+    int last_co = emb_cos.front();
+    same_co_nodes.push_back(emb_co_nodes.front());
+    for(int i = 1; i < emb_cos.size(); ++i) {
+      if (emb_cos.at(i) == last_co) {
+        if(same_co_nodes.back() != emb_co_nodes.at(i)) {
+          same_co_nodes.push_back(emb_co_nodes.at(i));
+        }
+      }
+      else {
+        // now we allocate bandwidth and start a fresh
+        // same_co_nodes
+        int u = 0;
+        for (int v : same_co_nodes) {
+          if (u == v) continue;
+          iz_path path;
+          prob_inst.topology.cos[last_co].intra_topo.shortest_path(u, v,
+              path, sfc.bandwidth);
+          prob_inst.topology.cos[last_co].allocate_bandwidth(path, 
+              sfc.bandwidth);
+          u = v;
+        }
+        iz_path path;
+        prob_inst.topology.cos[last_co].intra_topo.shortest_path(u, 0,
+            path, sfc.bandwidth);
+        prob_inst.topology.cos[last_co].allocate_bandwidth(path, 
+            sfc.bandwidth);
+
+        same_co_nodes.clear();
+        same_co_nodes.push_back(emb_co_nodes.at(i));
+      }
+      last_co = emb_cos.at(i);
+    }
+    if (!same_co_nodes.empty()) {
+      int u = 0;
+      for (int v : same_co_nodes) {
+        if (u == v) continue;
+        iz_path path;
+        prob_inst.topology.cos[last_co].intra_topo.shortest_path(u, v,
+            path, sfc.bandwidth);
+        prob_inst.topology.cos[last_co].allocate_bandwidth(path, 
+            sfc.bandwidth);
+        u = v;
+      }
+      iz_path path;
+      prob_inst.topology.cos[last_co].intra_topo.shortest_path(u, 0,
+          path, sfc.bandwidth);
+      prob_inst.topology.cos[last_co].allocate_bandwidth(path, 
+          sfc.bandwidth);
+    }
+    // allocate cpu energy
+    for (int i = 0; i < emb_cos.size(); ++i) {
+      prob_inst.topology.cos[emb_cos[i]].allocate_cpu(emb_co_nodes[i],
+          sfc.cpu_reqs[i]);
+    }
+
+    cout << prob_inst.topology.get_carbon_fp(timeslot) << " ";
+    //cout << endl << "---------------------------" << endl;
+
     // OUTPUT the number of nodes followed by the nodes
     cout << sfc.vnf_count << " "; 
     for (auto node : emb_nodes) cout << node << " ";
@@ -455,7 +610,7 @@ int main(int argc, char **argv) {
       }
       u = v;
     }
-    cout << endl;
+    cout << time << endl;
   }
   else {
     cerr << "failed to read input files for porblem instance" << endl;
