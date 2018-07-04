@@ -39,6 +39,7 @@ namespace izlib {
       iz_edge_list path_edges(const iz_path& path) const;
       int latency(int u, int v) const;
       int residual(int u, int v) const;
+      void set_residual_bandwidth(int u, int v, int bandwidth);
       void allocate_bandwidth(int u, int v, int bandwidth);
       void release_bandwidth(int u, int v, int bandwidth);
       int consumed_bandwidth(int u, int v) const;
@@ -255,6 +256,17 @@ namespace izlib {
     auto edge_itr = adj_matrix[u].find(v);
     if (edge_itr == adj_matrix[u].end()) return 0;
     return edge_itr->second.residual;
+  }
+
+  void iz_topology::set_residual_bandwidth(int u, int v, int bandwidth) {
+    assert(u >= 0 && u < node_count);
+    assert(v >= 0 && v < node_count);
+    assert(bandwidth >= 0);
+    std::tie(u, v) = std::minmax({u,v});
+    auto edge_itr = adj_matrix[u].find(v);
+    if (edge_itr != adj_matrix[u].end()) {
+      edge_itr->second.residual = bandwidth;
+    }
   }
 
   void iz_topology::allocate_bandwidth(int u, int v, int bandwidth) {
