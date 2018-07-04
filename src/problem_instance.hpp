@@ -96,8 +96,9 @@ struct problem_instance {
   int time_slot_count() {return time_slots.size();}
 
   bool read_input(const problem_input& prob_input) {
-    return read_vnf_info_file(prob_input.vnf_info_filename) &&
-    read_time_slot_file(prob_input.time_slot_filename) &&
+    return 
+    //read_vnf_info_file(prob_input.vnf_info_filename) &&
+    //read_time_slot_file(prob_input.time_slot_filename) &&
     read_topology_file(prob_input.topology_filename);
   }
 
@@ -109,8 +110,11 @@ struct problem_instance {
     }
     fstream fgc("../data/greencap.dat");
     if (!fgc) {
-      cout << "ERROR: failed to open greencap.dat" << endl;
-      return false;
+      fgc.open("../../data/greencap.dat");
+      if (!fgc) {
+        cout << "ERROR: failed to open greencap.dat" << endl;
+        return false;
+      }
     }
     int node_count{0}, edge_count{0};
     fin >> node_count >> edge_count;
