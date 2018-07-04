@@ -2,6 +2,7 @@
 #include <iterator>
 
 #include "data_store.hpp"
+#include "iz_timer.hpp"
 
 ILOSTLBEGIN
 
@@ -26,11 +27,14 @@ int main(int argc, char **argv) {
     IloCplex cplex(model);
 
     sfc_request sfc;
+    int timeslot;
     double current_cost;
     // migrate if there is migration_threshold * 100 % 
     // cost reduction due to migration
     double migration_threshold; 
-    cin >> sfc >> current_cost >> migration_threshold;
+    cin >> timeslot >> sfc >> current_cost >> migration_threshold;
+
+    iz_timer ctimer;
 
     // decision variable x, indices: n, _n
     IloIntVarArray2D x(env, sfc.node_count());
@@ -254,7 +258,7 @@ int main(int argc, char **argv) {
     cplex.setParam(IloCplex::PreDual, true);
 
     if(!cplex.solve()) {
-      timer.stop();
+      //timer.stop();
       if (cplex.getStatus() == IloAlgorithm::Infeasible) {
         cout << "404 " << sfc << endl;
       }
@@ -265,7 +269,9 @@ int main(int argc, char **argv) {
       throw(-1);
     }
 
-    timer.stop();
+    double time = ctimer.time();
+
+    //timer.stop();
     //cout << "ILP solved in " << timer.getTime() << " sec" << endl;
     //cout << "Objective value = " << cplex.getObjValue() << endl;
     cout << "200 " << sfc << " " << cplex.getObjValue() << " ";
