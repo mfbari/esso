@@ -116,6 +116,7 @@ int main(int argc, char **argv) {
       model.add(IloIfThen(env, sum > 0, q[_l] == 1));
     }
     // w[_s] whether a switch is active or not
+    /*
     int si{0};
     for (auto& sw_paths : ds.switch_to_paths) {
       IloExpr sum(env);
@@ -126,6 +127,26 @@ int main(int argc, char **argv) {
       }
       model.add(IloIfThen(env, sum > 0, w[si] == 1));
       ++si;
+    }
+    */
+    for (int _s = 0; _s < ds.node_count; ++_s) {
+      // if not server, then its a switch
+      if (!ds.node_infos[_s].is_server()) {
+        auto sw_paths = ds.switch_to_paths.find(_s);
+        if (sw_paths == ds.switch_to_paths.end()) {
+          continue;
+        }
+        IloExpr sum(env);
+        for (int _p : sw_paths->second) {
+          for (int l = 0; l < sfc.edge_count(); ++l) {
+            sum += y[l][_p];
+          }
+        }
+        model.add(IloIfThen(env, sum > 0, w[_s] == 1));
+      }
+      else {
+        model.add(w[_s] == 0); // for server w[_s] is zero
+      }
     }
 
     //=========Constraint=========//
@@ -218,6 +239,7 @@ int main(int argc, char **argv) {
     for (int _s; _s < ds.switch_count; ++_s) {
       cost += w[_s];
     }
+    */
 
     // this constraint is only added for pre-existing sfcs
     // a negative current_cost indicate new sfc
