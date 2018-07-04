@@ -14,66 +14,71 @@ def int_or_float(s):
     except ValueError:
         return float(s)
 
-class essobject:
-    pass
-
-class esso_sfc:
+class EssoSfc:
     def __init__(self):
-        self.cec = -1.0 # current embedding cost
+        self.curr_emb_cost = -1.0 # current embedding cost
         pass
+
+    # global settings
+    id_idx = 0
+    ttl_idx = 3
 
     # reads data for an SFC from a stream that 
     # provides a readline() function
     def read(self, strm):
-        self.sfc_data = [int(x) for x in strm.readline().split()]
-        self.sfc_data[5:-2] = [int(vnf_flavor_to_cpu[int(x)]['cpu_count'])
-                for x in self.sfc_data[5:-2]]
+        # save all sfc data as ints
+        self.data = [int(x) for x in strm.readline().split()]
+        # convert the vnf_types into their cpu requirements
+        self.data[5:-2] = [int(vnf_flavor_to_cpu[int(x)]['cpu_count'])
+                for x in self.data[5:-2]]
 
     def ttl(self):
-        return self.sfc_data[3]
+        return self.data[EssoSfc.ttl_idx]
 
     def id(self):
-        return self.sfc_data[0]
+        return self.data[EssoSfc.id_idx]
 
     def dec_ttl(self):
-        self.sfc_data[3] -= 1
-        if self.sfc_data[3] < 0:
+        self.data[EssoSfc.ttl_idx] -= 1
+        if self.data[EssoSfc.ttl_idx] < 0:
             raise ValueError('Negative TTL')
 
     def __str__(self):
-        return " ".join([str(x) for x in self.sfc_data])
+        return " ".join([str(x) for x in self.data])
 
-class esso_object:
+class EssoObject:
     def __init__(self, data):
         self.data = data.strip()
 
     def __str__(self):
         return self.data
 
-class esso_server:
+class EssoServer:
+    # global settings
     cpu_idx = 5
+
     def __init__(self, data):
-        self.data_val = data.split()
-        self.data_val[esso_server.cpu_idx] = int(
-                self.data_val[esso_server.cpu_idx])
+        self.data = data.split()
+        self.data[EssoServer.cpu_idx] = int(
+                self.data[EssoServer.cpu_idx])
 
     def dec_cpu_count(self, val):
-        self.data_val[esso_server.cpu_idx] -= val
+        self.data[EssoServer.cpu_idx] -= val
 
     def __str__(self):
-        return " ".join([str(x) for x in self.data_val])
+        return " ".join([str(x) for x in self.data])
 
-class esso_edge:
+class EssoEdge:
     bw_idx = 5
     def __init__(self, data):
-        self.data_val = data.split()
-        self.data_val[esso_edge.bw_idx] = int(self.data_val[esso_edge.bw_idx])
+        self.data = data.split()
+        self.data[EssoEdge.bw_idx] = int(self.data[EssoEdge.bw_idx])
 
     def dec_bandwidth(self, val):
-        self.data_val[esso_edge.bw_idx] -= val
+        self.data[EssoEdge.bw_idx] -= val
 
     def __str__(self):
-        return " ".join(str(x) for x in self.data_val)
+        return " ".join(str(x) for x in self.data)
 
 vnf_flavor_to_cpu = {}
 sfcs = []
@@ -121,22 +126,22 @@ def read_topology_file(dataset_path):
     with open(os.path.join(dataset_path, 'init_topology.dat')) as f:
         co_count = int(f.readline())
         for c in range(co_count):
-            co = esso_object(f.readline())
+            co = EssoObject(f.readline())
             co_list.append(co)
         node_count, edge_count = [int(x) for x in f.readline().split()]
         for n in range(node_count):
             line = f.readline()
             values = line.split()
             if values[1] == "c":
-                node_list.append(esso_server(line))
+                node_list.append(EssoServer(line))
             else:
-                node_list.append(esso_object(line))
+                node_list.append(EssoObject(line))
         for e in range(edge_count):
             line = f.readline()
             values = line.split()
             u, v = values[1:3]
             edge_dir[u][v] = len(edge_list)
-            edge_list.append(esso_edge(line))
+            edge_list.append(EssoEdge(line))
 
 def read_vnf_types_file(dataset_path):
     with open(os.path.join(dataset_path, "vnf_types.dat")) as f:
@@ -174,7 +179,7 @@ def read_timeslots_file(dataset_path):
                 #sfc_out[t+ttl].add(sfc_id)
                 ###############################
 
-                sfc = esso_sfc()
+                sfc = EssoSfc()
                 sfc.read(f)
                 sfc_in[t].add(sfc.id())
                 sfc_out[t+sfc.ttl()].add(sfc.id())
@@ -277,8 +282,15 @@ if __name__ == '__main__':
         if not args.dryrun:
             with open('run.log', 'w') as exe_log:
                 topo_filename = 'res_topology_' + str(t) + '.dat'
-                exe_path = './' + executable + ' ' + \
-                        topo_filename + ' paths.dat'
+                if args.cplex:
+                    exe_path = './' + executable + ' ' + \
+                            topo_filename + ' paths.dat'
+                else:
+                    exe_path = './' + executable + ' ' + \
+                            '../' + os.path.join(dataset_path, 
+                                'co_topology.dat') + \
+                            ' ' + topo_filename
+                #print 'run_sim: exe_path:', exe_path 
                 sys.stdout.flush()
                 #start = timer()
                 ts_sfcs = list(sfc_in[t])
@@ -292,16 +304,16 @@ if __name__ == '__main__':
                         mt = 0.0
                     else:
                         mt = migration_threshold
-                    stdin_str = str(sfcs[s]) + ' ' + \
-                            str(sfcs[s].cec) + ' ' + \
+                    stdin_str = str(t) + ' ' + str(sfcs[s]) + ' ' + \
+                            str(sfcs[s].curr_emb_cost) + ' ' + \
                             str(mt) + '\n'
-                    #print stdin_str
+                    #print 'input', stdin_str.strip()
                     exe_proc.stdin.write(stdin_str)
                     mapping = exe_proc.communicate()[0]
                     #print mapping.strip()
                     mapping_values = [int_or_float(x) for x in mapping.split()]
                     if mapping_values[0] == 200:
-                        sfcs[s].cec = mapping_values[8+mapping_values[5]]
+                        sfcs[s].curr_emb_cost = mapping_values[8+mapping_values[5]]
                     exe_proc.stdin.close()
                     print mapping.strip()
                     if exe_proc.wait() != 0:
