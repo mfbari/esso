@@ -20,6 +20,8 @@ struct esso_node {
       id(id), base_power(base_power), 
       sleep_power(sleep_power), is_active(false) {}
   
+  void activate() {is_active = true;}
+  void deactivate() {is_active = false;}
   virtual double get_power() {return 0.0;}
 };
 
@@ -143,24 +145,37 @@ struct esso_co {
         intra_nodes[server_id])->cpu_residual;
   }
 
+  void set_residual_cpu(const int server_id, const int cpu_count) {
+    dynamic_pointer_cast<esso_server>(
+        intra_nodes.at(server_id))->cpu_residual = cpu_count;
+  }
+
   void allocate_cpu(const int server_id, const int cpu_count) {
     std::dynamic_pointer_cast<esso_server>(
         intra_nodes[server_id])->allocate_cpu(cpu_count);
   }
+
   void release_cpu(const int server_id, const int cpu_count) {
     std::dynamic_pointer_cast<esso_server>(
         intra_nodes[server_id])->release_cpu(cpu_count);
   }
 
+  void set_residual_bandwidth(int u, int v, int bandwidth) {
+    intra_topo.set_residual_bandwidth(u, v, bandwidth);
+  }
   void allocate_bandwidth(const izlib::iz_path& path, 
       const int bandwidth) {
     for(auto& edge : intra_topo.path_edges(path)) {
+      intra_nodes[edge.u]->activate();    
+      intra_nodes[edge.v]->activate();    
       intra_topo.allocate_bandwidth(edge.u, edge.v, bandwidth);
     }
   }
   void release_bandwidth(const izlib::iz_path& path, 
       const int bandwidth) {
     for(auto& edge : intra_topo.path_edges(path)) {
+      intra_nodes[edge.u]->deactivate();    
+      intra_nodes[edge.v]->deactivate();    
       intra_topo.release_bandwidth(edge.u, edge.v, bandwidth);
     }
   }
@@ -170,7 +185,7 @@ struct esso_co {
     for (const auto& node : intra_nodes) {
         brown_power += node->get_power();
     }
-    for (const auto& edge : intra_topo.edges(0)) {
+    for (const auto& edge : intra_topo.edges()) {
       if (edge.consumed_bandwidth() > 0) {
         if (edge.consumed_bandwidth() <= 1000) {
           brown_power += 0.0012; 
@@ -231,6 +246,7 @@ struct esso_co {
 
     // current cost
     double cost_before_alloc {get_carbon_fp(time_slot)}, new_cost;
+    //double cost_before_alloc {}, new_cost;
 
     // loop to generate all possile partial embeddings
     for (size_t i = 0; i < cpu_reqs.size(); ++i) {
@@ -318,9 +334,29 @@ struct esso_co {
 struct esso_topology {
   vector<esso_co> cos; 
   izlib::iz_topology inter_co_topo;
+  double carbon = 1.12;
   
   void init(int node_count) {
     inter_co_topo.init(node_count);
+  }
+
+  void set_residual_bandwidth(int u, int v, int bandwidth) {
+    inter_co_topo.set_residual_bandwidth(u, v, bandwidth);
+  }
+
+  void allocate_bandwidth(const izlib::iz_path& path, 
+      const int bandwidth) {
+    for(auto& edge : inter_co_topo.path_edges(path)) {
+      cos[edge.u].intra_nodes[0]->activate();
+      cos[edge.v].intra_nodes[0]->activate();
+      inter_co_topo.allocate_bandwidth(edge.u, edge.v, bandwidth);
+    }
+  }
+  void release_bandwidth(const izlib::iz_path& path, 
+      const int bandwidth) {
+    for(auto& edge : inter_co_topo.path_edges(path)) {
+      inter_co_topo.release_bandwidth(edge.u, edge.v, bandwidth);
+    }
   }
 
   int add_co(vector<double>& green_capacity, double carbon = 1.2) {
@@ -333,12 +369,28 @@ struct esso_topology {
     inter_co_topo.add_edge(u, v, latency, capacity);
   }
 
-  double get_carbon_fp(int time_slot) {
-    double carbon{0};
-    for(const auto& c : cos) {
-      carbon += c.get_carbon_fp(time_slot);
+  double get_backbone_carbon_fp(int time_slot) const {
+    double brown_power{0.0};
+    for (const auto& edge : inter_co_topo.edges()) {
+      if (edge.consumed_bandwidth() > 0) {
+        if (edge.consumed_bandwidth() <= 1000) {
+          brown_power += 0.0012; 
+        }
+        else {
+          brown_power += 0.0043;
+        }
+      }
     }
-    return carbon;
+    return brown_power * carbon;
+  }
+
+  double get_carbon_fp(int time_slot) {
+    double carbon_fp{0};
+    carbon_fp += get_backbone_carbon_fp(time_slot);
+    for(const auto& c : cos) {
+      carbon_fp += c.get_carbon_fp(time_slot);
+    }
+    return carbon_fp;
   }
 };
 
