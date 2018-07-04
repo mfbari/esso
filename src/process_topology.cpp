@@ -38,7 +38,7 @@ bool write_init_topology(string& dataset_dir,
     total_node_count += co.intra_topo.node_count;
     total_edge_count += 2*co.intra_topo.edge_count;
     max_inodes = max(max_inodes, co.intra_topo.node_count);
-    fout << co.id << " ";
+    fout << co.id << " " << co.carbon << " ";
     for(auto& ge : co.green_capacity) {
       fout << ge << " ";
     }
