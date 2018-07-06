@@ -368,7 +368,9 @@ int main(int argc, char **argv) {
     cout << sfc.vnf_count << " ";
     for (int n = 1; n < sfc.node_count() - 1; ++n) {
       for (int _n = 0; _n < ds.node_count; ++_n) {
-        if (cplex.getValue(x[n][_n]) == 1) {
+        //cout << "x[" << n << "][" << _n << "] = " <<
+        //  cplex.getValue(x[n][_n]) << endl;
+        if (IloRound(cplex.getValue(x[n][_n])) == 1) {
           cout << _n << " ";
         }
       }
@@ -378,7 +380,7 @@ int main(int argc, char **argv) {
     for (int l = 0; l < sfc.edge_count(); ++l) {
       //cout << "y[" << l << "] = ";
       for (int _p = 0; _p < ds.path_count; ++_p) {
-        if (cplex.getValue(y[l][_p]) == 1) {
+        if (IloRound(cplex.getValue(y[l][_p])) == 1) {
           all_paths.push_back(ds.path_nodes[_p]);
         }
       }
