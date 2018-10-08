@@ -1,0 +1,100 @@
+5511:Amsterdam, Netherlands -> 5511:Brussels, Belgium 0.699743613611879
+5511:Amsterdam, Netherlands -> 5511:Frankfurt, Germany 1.55963394775673
+5511:Amsterdam, Netherlands -> 5511:New York, NY 29.5172132632674
+5511:Ashburn, VA -> 5511:Herndon, VA 0.0621431412764723
+5511:Ashburn, VA -> 5511:New York, NY 1.75053383532763
+5511:Athens, Greece -> 5511:Paris, France 10.4712110983031
+5511:Atlanta, GA -> 5511:Miami, FL 4.87595735153362
+5511:Atlanta, GA -> 5511:Oak Hill, VA 3.6835025648655
+5511:Aubervilliers, France -> 5511:Paris, France 0.286843227362708
+5511:Barcelona, Spain -> 5511:Paris, France 4.13991889254682
+5511:Brussels, Belgium -> 5511:Amsterdam, Netherlands 0.699743613611879
+5511:Brussels, Belgium -> 5511:London, UnitedKingdom 1.59576807051388
+5511:Caracas, Venezuela -> 5511:New York, NY 17.1431752856854
+5511:Chicago, IL -> 5511:Dallas, TX 6.43760504337832
+5511:Chicago, IL -> 5511:New York, NY 5.72539765160039
+5511:Chicago, IL -> 5511:Seattle, WA 13.9413353089448
+5511:Copenhagen, Denmark -> 5511:Frankfurt, Germany 3.4231207792731
+5511:Copenhagen, Denmark -> 5511:Stockholm, Sweden 2.62276937481765
+5511:Dallas, TX -> 5511:Chicago, IL 6.43760504337832
+5511:Dallas, TX -> 5511:Miami, FL 8.90426431888901
+5511:Dallas, TX -> 5511:San Jose, CA 11.6748469301052
+5511:Frankfurt, Germany -> 5511:Amsterdam, Netherlands 1.55963394775673
+5511:Frankfurt, Germany -> 5511:Copenhagen, Denmark 3.4231207792731
+5511:Frankfurt, Germany -> 5511:Paris, France 2.34012884016252
+5511:Frankfurt, Germany -> 5511:Zurich, Switzerland 1.47245906075377
+5511:Geneva, Switzerland -> 5511:Paris, France 2.02482144001829
+5511:Geneva, Switzerland -> 5511:Zurich, Switzerland 1.12984738754259
+5511:Herndon, VA -> 5511:Ashburn, VA 0.0621431412764723
+5511:Hong Kong -> 5511:San Jose, CA 55.8074135130895
+5511:Hong Kong -> 5511:Singapore 12.915469710535
+5511:Hong Kong -> 5511:Tokyo, Japan 14.1254042821176
+5511:Lamentin, Martinique -> 5511:Miami, FL 11.7421476759422
+5511:Lisbon, Portugal -> 5511:Paris, France 7.25558791984354
+5511:London, UnitedKingdom -> 5511:Brussels, Belgium 1.59576807051388
+5511:London, UnitedKingdom -> 5511:Milan, Italy 4.78915796529137
+5511:London, UnitedKingdom -> 5511:New York, NY 27.8377559786444
+5511:London, UnitedKingdom -> 5511:Paris, France 1.71246693397065
+5511:London, UnitedKingdom -> 5511:Prague, CzechRepublic 5.19325107609201
+5511:London, UnitedKingdom -> 5511:Singapore 54.2359486618271
+5511:Madrid, Spain -> 5511:Paris, France 5.25377044095577
+5511:Miami, FL -> 5511:Atlanta, GA 4.87595735153362
+5511:Miami, FL -> 5511:Dallas, TX 8.90426431888901
+5511:Miami, FL -> 5511:Lamentin, Martinique 11.7421476759422
+5511:Milan, Italy -> 5511:London, UnitedKingdom 4.78915796529137
+5511:Milan, Italy -> 5511:Paris, France 3.20129362158168
+5511:New York, NY -> 5511:Amsterdam, Netherlands 29.5172132632674
+5511:New York, NY -> 5511:Ashburn, VA 1.75053383532763
+5511:New York, NY -> 5511:Caracas, Venezuela 17.1431752856854
+5511:New York, NY -> 5511:Chicago, IL 5.72539765160039
+5511:New York, NY -> 5511:London, UnitedKingdom 27.8377559786444
+5511:New York, NY -> 5511:Oak Hill, VA 2.45904567931581
+5511:New York, NY -> 5511:Paris, France 29.1588945256645
+5511:New York, NY -> 5511:San Jose, CA 20.4998013750844
+5511:New York, NY -> 5511:Washington, DC 1.62733364571067
+5511:Oak Hill, VA -> 5511:Atlanta, GA 3.6835025648655
+5511:Oak Hill, VA -> 5511:New York, NY 2.45904567931581
+5511:Oak Hill, VA -> 5511:Pennsauken, NJ 1.85422101854155
+5511:Oak Hill, VA -> 5511:Washington, DC 0.969064986539556
+5511:Oslo, Norway -> 5511:Stockholm, Sweden 2.07513020031697
+5511:Palo Alto, CA -> 5511:San Jose, CA 0.124477546789977
+5511:Palo Alto, CA -> 5511:Stockton, CA 0.471151489607271
+5511:Paris, France -> 5511:Athens, Greece 10.4712110983031
+5511:Paris, France -> 5511:Aubervilliers, France 0.286843227362708
+5511:Paris, France -> 5511:Barcelona, Spain 4.13991889254682
+5511:Paris, France -> 5511:Frankfurt, Germany 2.34012884016252
+5511:Paris, France -> 5511:Geneva, Switzerland 2.02482144001829
+5511:Paris, France -> 5511:Lisbon, Portugal 7.25558791984354
+5511:Paris, France -> 5511:London, UnitedKingdom 1.71246693397065
+5511:Paris, France -> 5511:Madrid, Spain 5.25377044095577
+5511:Paris, France -> 5511:Milan, Italy 3.20129362158168
+5511:Paris, France -> 5511:New York, NY 29.1588945256645
+5511:Paris, France -> 5511:Prague, CzechRepublic 4.43617919635184
+5511:Paris, France -> 5511:Singapore 53.657500192457
+5511:Paris, France -> 5511:Stockholm, Sweden 7.71793263104817
+5511:Pennsauken, NJ -> 5511:Oak Hill, VA 1.85422101854155
+5511:Pennsauken, NJ -> 5511:Washington, DC 1.02016254209019
+5511:Prague, CzechRepublic -> 5511:London, UnitedKingdom 5.19325107609201
+5511:Prague, CzechRepublic -> 5511:Paris, France 4.43617919635184
+5511:San Jose, CA -> 5511:Dallas, TX 11.6748469301052
+5511:San Jose, CA -> 5511:Hong Kong 55.8074135130895
+5511:San Jose, CA -> 5511:New York, NY 20.4998013750844
+5511:San Jose, CA -> 5511:Palo Alto, CA 0.124477546789977
+5511:San Jose, CA -> 5511:Seattle, WA 5.71561756404175
+5511:San Jose, CA -> 5511:Tokyo, Japan 42.030205069196
+5511:Seattle, WA -> 5511:Chicago, IL 13.9413353089448
+5511:Seattle, WA -> 5511:San Jose, CA 5.71561756404175
+5511:Singapore -> 5511:Hong Kong 12.915469710535
+5511:Singapore -> 5511:London, UnitedKingdom 54.2359486618271
+5511:Singapore -> 5511:Paris, France 53.657500192457
+5511:Stockholm, Sweden -> 5511:Copenhagen, Denmark 2.62276937481765
+5511:Stockholm, Sweden -> 5511:Oslo, Norway 2.07513020031697
+5511:Stockholm, Sweden -> 5511:Paris, France 7.71793263104817
+5511:Stockton, CA -> 5511:Palo Alto, CA 0.471151489607271
+5511:Tokyo, Japan -> 5511:Hong Kong 14.1254042821176
+5511:Tokyo, Japan -> 5511:San Jose, CA 42.030205069196
+5511:Washington, DC -> 5511:New York, NY 1.62733364571067
+5511:Washington, DC -> 5511:Oak Hill, VA 0.969064986539556
+5511:Washington, DC -> 5511:Pennsauken, NJ 1.02016254209019
+5511:Zurich, Switzerland -> 5511:Frankfurt, Germany 1.47245906075377
+5511:Zurich, Switzerland -> 5511:Geneva, Switzerland 1.12984738754259

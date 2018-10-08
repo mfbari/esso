@@ -1,0 +1,64 @@
+16631:Atlanta, GA -> 16631:Jacksonville, FL 15014
+16631:Atlanta, GA -> 16631:Washington, DC 14917
+16631:Baltimore, MD -> 16631:Washington, DC 37
+16631:Boston, MA -> 16631:Chicago, IL 8207
+16631:Boston, MA -> 16631:New York, NY 10261
+16631:Boston, MA -> 16631:Toronto, Canada 311
+16631:Chicago, IL -> 16631:Boston, MA 8207
+16631:Chicago, IL -> 16631:Kansas City, MO 11727
+16631:Chicago, IL -> 16631:New York, NY 76406
+16631:Chicago, IL -> 16631:San Francisco, CA 84630
+16631:Chicago, IL -> 16631:Toronto, Canada 308
+16631:Dallas, TX -> 16631:Houston, TX 8180
+16631:Dallas, TX -> 16631:Kansas City, MO 11141
+16631:Dallas, TX -> 16631:San Francisco, CA 16345
+16631:Dallas, TX -> 16631:Washington, DC 573
+16631:Denver, CO -> 16631:Kansas City, MO 2042
+16631:Denver, CO -> 16631:San Francisco, CA 651
+16631:Denver, CO -> 16631:Seattle, WA 1185
+16631:Houston, TX -> 16631:Dallas, TX 8180
+16631:Houston, TX -> 16631:San Diego, CA 36114
+16631:Houston, TX -> 16631:Tampa, FL 33879
+16631:Jacksonville, FL -> 16631:Atlanta, GA 15014
+16631:Jacksonville, FL -> 16631:Miami, FL 1933
+16631:Jacksonville, FL -> 16631:Orlando, FL 31389
+16631:Kansas City, MO -> 16631:Chicago, IL 11727
+16631:Kansas City, MO -> 16631:Dallas, TX 11141
+16631:Kansas City, MO -> 16631:Denver, CO 2042
+16631:Los Angeles, CA -> 16631:San Diego, CA 36200
+16631:Los Angeles, CA -> 16631:San Jose, CA 40982
+16631:Miami, FL -> 16631:Jacksonville, FL 1933
+16631:Miami, FL -> 16631:Tampa, FL 2323
+16631:New York, NY -> 16631:Boston, MA 10261
+16631:New York, NY -> 16631:Chicago, IL 76406
+16631:New York, NY -> 16631:Philadelphia, PA 74052
+16631:New York, NY -> 16631:Washington, DC 39147
+16631:Orlando, FL -> 16631:Jacksonville, FL 31389
+16631:Orlando, FL -> 16631:Tampa, FL 31369
+16631:Palo Alto, CA -> 16631:San Francisco, CA 7248
+16631:Philadelphia, PA -> 16631:New York, NY 74052
+16631:Philadelphia, PA -> 16631:Washington, DC 25892
+16631:San Diego, CA -> 16631:Houston, TX 36114
+16631:San Diego, CA -> 16631:Los Angeles, CA 36200
+16631:San Francisco, CA -> 16631:Chicago, IL 84630
+16631:San Francisco, CA -> 16631:Dallas, TX 16345
+16631:San Francisco, CA -> 16631:Denver, CO 651
+16631:San Francisco, CA -> 16631:Palo Alto, CA 7248
+16631:San Francisco, CA -> 16631:San Jose, CA 94870
+16631:San Francisco, CA -> 16631:Seattle, WA 614
+16631:San Francisco, CA -> 16631:Washington, DC 11989
+16631:San Jose, CA -> 16631:Los Angeles, CA 40982
+16631:San Jose, CA -> 16631:San Francisco, CA 94870
+16631:Seattle, WA -> 16631:Denver, CO 1185
+16631:Seattle, WA -> 16631:San Francisco, CA 614
+16631:Tampa, FL -> 16631:Houston, TX 33879
+16631:Tampa, FL -> 16631:Miami, FL 2323
+16631:Tampa, FL -> 16631:Orlando, FL 31369
+16631:Toronto, Canada -> 16631:Boston, MA 311
+16631:Toronto, Canada -> 16631:Chicago, IL 308
+16631:Washington, DC -> 16631:Atlanta, GA 14917
+16631:Washington, DC -> 16631:Baltimore, MD 37
+16631:Washington, DC -> 16631:Dallas, TX 573
+16631:Washington, DC -> 16631:New York, NY 39147
+16631:Washington, DC -> 16631:Philadelphia, PA 25892
+16631:Washington, DC -> 16631:San Francisco, CA 11989

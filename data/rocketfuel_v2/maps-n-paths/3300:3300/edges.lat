@@ -1,0 +1,112 @@
+3300:Amstelveen, Netherlands -> 3300:Amsterdam, Netherlands 0.273259556070164
+3300:Amstelveen, Netherlands -> 3300:Brussels, Belgium 0.852294047931363
+3300:Amstelveen, Netherlands -> 3300:Frankfurt, Germany 1.82750484208971
+3300:Amstelveen, Netherlands -> 3300:London, UnitedKingdom 1.7630936759388
+3300:Amstelveen, Netherlands -> 3300:Paris, France 2.13117314200179
+3300:Amstelveen, Netherlands -> 3300:Stockholm, Sweden 5.64170982338906
+3300:Amstelveen, Netherlands -> 3300:Washington, DC 30.9127480743647
+3300:Amsterdam, Netherlands -> 3300:Amstelveen, Netherlands 0.273259556070164
+3300:Amsterdam, Netherlands -> 3300:Copenhagen, Denmark 3.1318247112441
+3300:Athens, Greece -> 3300:London, UnitedKingdom 11.9370556102365
+3300:Atlanta, GA -> 3300:Washington, DC 4.38018878263173
+3300:Auckland, NewZealand -> 3300:Sydney, Australia 10.7861523674496
+3300:Barcelona, Spain -> 3300:Paris, France 4.13991889254682
+3300:Bogota, Colombia -> 3300:Newark, NJ 16.8640518135797
+3300:Brussels, Belgium -> 3300:Amstelveen, Netherlands 0.852294047931363
+3300:Budapest, Hungary -> 3300:Frankfurt, Germany 4.16981626854319
+3300:Chicago, IL -> 3300:Newark, NJ 5.65434286847399
+3300:Chicago, IL -> 3300:San Jose, CA 14.7744081963979
+3300:Copenhagen, Denmark -> 3300:Amsterdam, Netherlands 3.1318247112441
+3300:Dallas, TX -> 3300:Los Angeles, CA 10.0456672433203
+3300:Dallas, TX -> 3300:Newark, NJ 10.9371091801856
+3300:Dusseldorf, Germany -> 3300:Frankfurt, Germany 0.944468343206374
+3300:Frankfurt, Germany -> 3300:Amstelveen, Netherlands 1.82750484208971
+3300:Frankfurt, Germany -> 3300:Budapest, Hungary 4.16981626854319
+3300:Frankfurt, Germany -> 3300:Dusseldorf, Germany 0.944468343206374
+3300:Frankfurt, Germany -> 3300:Geneva, Switzerland 2.29718467029344
+3300:Frankfurt, Germany -> 3300:Hamburg, Germany 2.0357355149515
+3300:Frankfurt, Germany -> 3300:London, UnitedKingdom 3.15804073417278
+3300:Frankfurt, Germany -> 3300:Luxembourg, Luxembourg 0.877055047201901
+3300:Frankfurt, Germany -> 3300:Milan, Italy 2.52989648876757
+3300:Frankfurt, Germany -> 3300:New York, NY 30.9779065131767
+3300:Frankfurt, Germany -> 3300:Paris, France 2.34012884016252
+3300:Frankfurt, Germany -> 3300:Vienna, Austria 3.00603025209055
+3300:Frankfurt, Germany -> 3300:Warsaw, Poland 4.56921520351917
+3300:Geneva, Switzerland -> 3300:Frankfurt, Germany 2.29718467029344
+3300:Hamburg, Germany -> 3300:Frankfurt, Germany 2.0357355149515
+3300:Hennig, Israel -> 3300:Tel Aviv, Israel 100000
+3300:Hong Kong -> 3300:Kuala Lumpur, Malaysia 12.5535436649314
+3300:Hong Kong -> 3300:Los Angeles, CA 58.1674895599584
+3300:Jakarta, Indonesia -> 3300:Kuala Lumpur, Malaysia 5.90757383681792
+3300:Kuala Lumpur, Malaysia -> 3300:Hong Kong 12.5535436649314
+3300:Kuala Lumpur, Malaysia -> 3300:Jakarta, Indonesia 5.90757383681792
+3300:Kuala Lumpur, Malaysia -> 3300:London, UnitedKingdom 52.6784436807509
+3300:Kuala Lumpur, Malaysia -> 3300:Singapore 1.58750652324306
+3300:Kuala Lumpur, Malaysia -> 3300:Sydney, Australia 33.0552854058698
+3300:Kuala Lumpur, Malaysia -> 3300:Tokyo, Japan 26.2132553842318
+3300:London, UnitedKingdom -> 3300:Amstelveen, Netherlands 1.7630936759388
+3300:London, UnitedKingdom -> 3300:Athens, Greece 11.9370556102365
+3300:London, UnitedKingdom -> 3300:Frankfurt, Germany 3.15804073417278
+3300:London, UnitedKingdom -> 3300:Kuala Lumpur, Malaysia 52.6784436807509
+3300:London, UnitedKingdom -> 3300:New York, NY 27.8377559786444
+3300:London, UnitedKingdom -> 3300:Stockholm, Sweden 7.14458851462163
+3300:Los Angeles, CA -> 3300:Dallas, TX 10.0456672433203
+3300:Los Angeles, CA -> 3300:Hong Kong 58.1674895599584
+3300:Los Angeles, CA -> 3300:Mexico City, Mexico 12.5249132659975
+3300:Los Angeles, CA -> 3300:New York, NY 19.7210147124792
+3300:Los Angeles, CA -> 3300:San Jose, CA 2.39033852037053
+3300:Los Angeles, CA -> 3300:Sydney, Australia 60.3095464758688
+3300:Luxembourg, Luxembourg -> 3300:Frankfurt, Germany 0.877055047201901
+3300:Luxembourg, Luxembourg -> 3300:Paris, France 1.46309579404921
+3300:Lyon, France -> 3300:Paris, France 1.9854245673755
+3300:Mexico City, Mexico -> 3300:Los Angeles, CA 12.5249132659975
+3300:Milan, Italy -> 3300:Frankfurt, Germany 2.52989648876757
+3300:Milan, Italy -> 3300:Paris, France 3.20129362158168
+3300:New York, NY -> 3300:Frankfurt, Germany 30.9779065131767
+3300:New York, NY -> 3300:London, UnitedKingdom 27.8377559786444
+3300:New York, NY -> 3300:Los Angeles, CA 19.7210147124792
+3300:New York, NY -> 3300:Newark, NJ 0.0710684956979026
+3300:New York, NY -> 3300:Santiago, Chile 41.243062891437
+3300:New York, NY -> 3300:Washington, DC 1.62733364571067
+3300:Newark, NJ -> 3300:Bogota, Colombia 16.8640518135797
+3300:Newark, NJ -> 3300:Chicago, IL 5.65434286847399
+3300:Newark, NJ -> 3300:Dallas, TX 10.9371091801856
+3300:Newark, NJ -> 3300:New York, NY 0.0710684956979026
+3300:Newark, NJ -> 3300:San Jose, CA 20.4287449997105
+3300:Newark, NJ -> 3300:Toronto, Canada 2.68656423014641
+3300:Newark, NJ -> 3300:Washington, DC 1.57970979874265
+3300:Paris, France -> 3300:Amstelveen, Netherlands 2.13117314200179
+3300:Paris, France -> 3300:Barcelona, Spain 4.13991889254682
+3300:Paris, France -> 3300:Frankfurt, Germany 2.34012884016252
+3300:Paris, France -> 3300:Luxembourg, Luxembourg 1.46309579404921
+3300:Paris, France -> 3300:Lyon, France 1.9854245673755
+3300:Paris, France -> 3300:Milan, Italy 3.20129362158168
+3300:Paris, France -> 3300:Tel Aviv, Israel 16.3842543535516
+3300:Paris, France -> 3300:Zurich, Switzerland 2.4455084125225
+3300:San Jose, CA -> 3300:Chicago, IL 14.7744081963979
+3300:San Jose, CA -> 3300:Los Angeles, CA 2.39033852037053
+3300:San Jose, CA -> 3300:Newark, NJ 20.4287449997105
+3300:San Jose, CA -> 3300:Tokyo, Japan 42.030205069196
+3300:San Jose, CA -> 3300:Vancouver, Canada 6.64754109120942
+3300:Santiago, Chile -> 3300:New York, NY 41.243062891437
+3300:Singapore -> 3300:Kuala Lumpur, Malaysia 1.58750652324306
+3300:Stockholm, Sweden -> 3300:Amstelveen, Netherlands 5.64170982338906
+3300:Stockholm, Sweden -> 3300:London, UnitedKingdom 7.14458851462163
+3300:Sulzer, Switzerland -> 3300:Zurich, Switzerland 100000
+3300:Sydney, Australia -> 3300:Auckland, NewZealand 10.7861523674496
+3300:Sydney, Australia -> 3300:Kuala Lumpur, Malaysia 33.0552854058698
+3300:Sydney, Australia -> 3300:Los Angeles, CA 60.3095464758688
+3300:Tel Aviv, Israel -> 3300:Hennig, Israel 100000
+3300:Tel Aviv, Israel -> 3300:Paris, France 16.3842543535516
+3300:Tokyo, Japan -> 3300:Kuala Lumpur, Malaysia 26.2132553842318
+3300:Tokyo, Japan -> 3300:San Jose, CA 42.030205069196
+3300:Toronto, Canada -> 3300:Newark, NJ 2.68656423014641
+3300:Vancouver, Canada -> 3300:San Jose, CA 6.64754109120942
+3300:Vienna, Austria -> 3300:Frankfurt, Germany 3.00603025209055
+3300:Warsaw, Poland -> 3300:Frankfurt, Germany 4.56921520351917
+3300:Washington, DC -> 3300:Amstelveen, Netherlands 30.9127480743647
+3300:Washington, DC -> 3300:Atlanta, GA 4.38018878263173
+3300:Washington, DC -> 3300:New York, NY 1.62733364571067
+3300:Washington, DC -> 3300:Newark, NJ 1.57970979874265
+3300:Zurich, Switzerland -> 3300:Paris, France 2.4455084125225
+3300:Zurich, Switzerland -> 3300:Sulzer, Switzerland 100000

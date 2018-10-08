@@ -1,0 +1,322 @@
+4323:Albany, NY -> 4323:Dallas, TX 39
+4323:Albany, NY -> 4323:Los Angeles, CA 51
+4323:Albany, NY -> 4323:Modesto, CA 45
+4323:Albany, NY -> 4323:New York, NY 907
+4323:Albany, NY -> 4323:Phoenix, AZ 61
+4323:Albany, NY -> 4323:Rochester, NY 22
+4323:Anaheim, CA -> 4323:Los Angeles, CA 7980
+4323:Ashburn, VA -> 4323:Charlotte, NC 33
+4323:Ashburn, VA -> 4323:New York, NY 25
+4323:Atlanta, GA -> 4323:Boise, ID 54
+4323:Atlanta, GA -> 4323:Charlotte, NC 3807
+4323:Atlanta, GA -> 4323:Chicago, IL 222
+4323:Atlanta, GA -> 4323:Cincinnati, OH 436
+4323:Atlanta, GA -> 4323:Columbus, OH 380
+4323:Atlanta, GA -> 4323:Dallas, TX 700
+4323:Atlanta, GA -> 4323:Dayton, OH 94
+4323:Atlanta, GA -> 4323:Indianapolis, IN 782
+4323:Atlanta, GA -> 4323:Los Angeles, CA 80
+4323:Atlanta, GA -> 4323:Memphis, TN 784
+4323:Atlanta, GA -> 4323:Modesto, CA 630
+4323:Atlanta, GA -> 4323:New York, NY 114
+4323:Atlanta, GA -> 4323:Phoenix, AZ 78
+4323:Atlanta, GA -> 4323:Portland, OR 27
+4323:Atlanta, GA -> 4323:San Luis Obispo, CA 40
+4323:Atlanta, GA -> 4323:Seattle, WA 776
+4323:Atlanta, GA -> 4323:Tampa, FL 1567
+4323:Austin, TX -> 4323:Dallas, TX 7060
+4323:Austin, TX -> 4323:Modesto, CA 161
+4323:Austin, TX -> 4323:New York, NY 269
+4323:Austin, TX -> 4323:San Antonio, TX 4176
+4323:Bakersfield, CA -> 4323:Milwaukee, WI 9
+4323:Binghampton, NY -> 4323:Dallas, TX 113
+4323:Binghampton, NY -> 4323:Los Angeles, CA 142
+4323:Binghampton, NY -> 4323:Modesto, CA 135
+4323:Binghampton, NY -> 4323:New York, NY 2122
+4323:Binghampton, NY -> 4323:Phoenix, AZ 130
+4323:Binghampton, NY -> 4323:Rochester, NY 1855
+4323:Boise, ID -> 4323:Atlanta, GA 54
+4323:Boise, ID -> 4323:Charlotte, NC 664
+4323:Boise, ID -> 4323:Chicago, IL 402
+4323:Boise, ID -> 4323:Dallas, TX 119
+4323:Boise, ID -> 4323:Los Angeles, CA 1393
+4323:Boise, ID -> 4323:Modesto, CA 26
+4323:Boise, ID -> 4323:New York, NY 90
+4323:Boise, ID -> 4323:Phoenix, AZ 235
+4323:Boise, ID -> 4323:Portland, OR 15
+4323:Boise, ID -> 4323:Salt Lake City, UT 15
+4323:Boise, ID -> 4323:Seattle, WA 290
+4323:Brookfield, WI -> 4323:Milwaukee, WI 857
+4323:Brookfield, WI -> 4323:Pewaukee, WI 649
+4323:Charlotte, NC -> 4323:Ashburn, VA 33
+4323:Charlotte, NC -> 4323:Atlanta, GA 3807
+4323:Charlotte, NC -> 4323:Boise, ID 664
+4323:Charlotte, NC -> 4323:Chicago, IL 1115
+4323:Charlotte, NC -> 4323:Cincinnati, OH 11
+4323:Charlotte, NC -> 4323:Columbia, SC 301
+4323:Charlotte, NC -> 4323:Dallas, TX 2963
+4323:Charlotte, NC -> 4323:Fayetteville, AR 29
+4323:Charlotte, NC -> 4323:Fayetteville, NC 1755
+4323:Charlotte, NC -> 4323:Greensboro, NC 3426
+4323:Charlotte, NC -> 4323:Los Angeles, CA 1860
+4323:Charlotte, NC -> 4323:Memphis, TN 271
+4323:Charlotte, NC -> 4323:Modesto, CA 1528
+4323:Charlotte, NC -> 4323:New York, NY 401
+4323:Charlotte, NC -> 4323:Phoenix, AZ 1363
+4323:Charlotte, NC -> 4323:Portland, OR 440
+4323:Charlotte, NC -> 4323:San Luis Obispo, CA 647
+4323:Charlotte, NC -> 4323:Seattle, WA 900
+4323:Charlotte, NC -> 4323:Tampa, FL 921
+4323:Charlotte, NC -> 4323:Washington, DC 2881
+4323:Chicago, IL -> 4323:Atlanta, GA 222
+4323:Chicago, IL -> 4323:Boise, ID 402
+4323:Chicago, IL -> 4323:Charlotte, NC 1115
+4323:Chicago, IL -> 4323:Cincinnati, OH 1199
+4323:Chicago, IL -> 4323:Columbus, OH 476
+4323:Chicago, IL -> 4323:Dallas, TX 2729
+4323:Chicago, IL -> 4323:Dayton, OH 120
+4323:Chicago, IL -> 4323:Denver, CO 222
+4323:Chicago, IL -> 4323:Indianapolis, IN 2736
+4323:Chicago, IL -> 4323:Los Angeles, CA 2105
+4323:Chicago, IL -> 4323:Memphis, TN 284
+4323:Chicago, IL -> 4323:Milwaukee, WI 12628
+4323:Chicago, IL -> 4323:Minneapolis, MN 587
+4323:Chicago, IL -> 4323:Modesto, CA 420
+4323:Chicago, IL -> 4323:New York, NY 4019
+4323:Chicago, IL -> 4323:Phoenix, AZ 30031
+4323:Chicago, IL -> 4323:Portland, OR 238
+4323:Chicago, IL -> 4323:San Luis Obispo, CA 364
+4323:Chicago, IL -> 4323:Seattle, WA 1271
+4323:Chicago, IL -> 4323:Tampa, FL 572
+4323:Cincinnati, OH -> 4323:Atlanta, GA 436
+4323:Cincinnati, OH -> 4323:Charlotte, NC 11
+4323:Cincinnati, OH -> 4323:Chicago, IL 1199
+4323:Cincinnati, OH -> 4323:New York, NY 519
+4323:Cincinnati, OH -> 4323:Seattle, WA 36
+4323:Columbia, SC -> 4323:Charlotte, NC 301
+4323:Columbus, OH -> 4323:Atlanta, GA 380
+4323:Columbus, OH -> 4323:Chicago, IL 476
+4323:Columbus, OH -> 4323:New York, NY 1310
+4323:Columbus, OH -> 4323:Seattle, WA 26
+4323:Dallas, TX -> 4323:Albany, NY 39
+4323:Dallas, TX -> 4323:Atlanta, GA 700
+4323:Dallas, TX -> 4323:Austin, TX 7060
+4323:Dallas, TX -> 4323:Binghampton, NY 113
+4323:Dallas, TX -> 4323:Boise, ID 119
+4323:Dallas, TX -> 4323:Charlotte, NC 2963
+4323:Dallas, TX -> 4323:Chicago, IL 2729
+4323:Dallas, TX -> 4323:Denver, CO 175
+4323:Dallas, TX -> 4323:Houston, TX 5242
+4323:Dallas, TX -> 4323:Los Angeles, CA 1147
+4323:Dallas, TX -> 4323:Modesto, CA 321
+4323:Dallas, TX -> 4323:New York, NY 159
+4323:Dallas, TX -> 4323:Phoenix, AZ 22741
+4323:Dallas, TX -> 4323:Portland, OR 116
+4323:Dallas, TX -> 4323:San Luis Obispo, CA 117
+4323:Dallas, TX -> 4323:Seattle, WA 1569
+4323:Dallas, TX -> 4323:Tampa, FL 173
+4323:Dayton, OH -> 4323:Atlanta, GA 94
+4323:Dayton, OH -> 4323:Chicago, IL 120
+4323:Dayton, OH -> 4323:New York, NY 318
+4323:Dayton, OH -> 4323:Phoenix, AZ 2
+4323:Dayton, OH -> 4323:Seattle, WA 8
+4323:Denver, CO -> 4323:Chicago, IL 222
+4323:Denver, CO -> 4323:Dallas, TX 175
+4323:Denver, CO -> 4323:Los Angeles, CA 36
+4323:Denver, CO -> 4323:Modesto, CA 25
+4323:Denver, CO -> 4323:New York, NY 127
+4323:Denver, CO -> 4323:Phoenix, AZ 33
+4323:Denver, CO -> 4323:Salt Lake City, UT 13
+4323:Denver, CO -> 4323:Seattle, WA 66
+4323:Durham, NC -> 4323:Richmond, VA 80
+4323:Fayetteville, AR -> 4323:Charlotte, NC 29
+4323:Fayetteville, AR -> 4323:Richmond, VA 29
+4323:Fayetteville, NC -> 4323:Charlotte, NC 1755
+4323:Fayetteville, NC -> 4323:Richmond, VA 1762
+4323:Fresno, CA -> 4323:Modesto, CA 2912
+4323:Fresno, CA -> 4323:Oakland, CA 37
+4323:Greensboro, NC -> 4323:Charlotte, NC 3426
+4323:Greensboro, NC -> 4323:Richmond, VA 1800
+4323:Honolulu, HI -> 4323:San Francisco, CA 75
+4323:Houston, TX -> 4323:Dallas, TX 5242
+4323:Houston, TX -> 4323:Modesto, CA 471
+4323:Houston, TX -> 4323:New York, NY 90
+4323:Houston, TX -> 4323:San Antonio, TX 2635
+4323:Indianapolis, IN -> 4323:Atlanta, GA 782
+4323:Indianapolis, IN -> 4323:Chicago, IL 2736
+4323:Indianapolis, IN -> 4323:Memphis, TN 7
+4323:Indianapolis, IN -> 4323:Milwaukee, WI 598
+4323:Indianapolis, IN -> 4323:New York, NY 971
+4323:Indianapolis, IN -> 4323:Seattle, WA 69
+4323:Los Angeles, CA -> 4323:Albany, NY 51
+4323:Los Angeles, CA -> 4323:Anaheim, CA 7980
+4323:Los Angeles, CA -> 4323:Atlanta, GA 80
+4323:Los Angeles, CA -> 4323:Binghampton, NY 142
+4323:Los Angeles, CA -> 4323:Boise, ID 1393
+4323:Los Angeles, CA -> 4323:Charlotte, NC 1860
+4323:Los Angeles, CA -> 4323:Chicago, IL 2105
+4323:Los Angeles, CA -> 4323:Dallas, TX 1147
+4323:Los Angeles, CA -> 4323:Denver, CO 36
+4323:Los Angeles, CA -> 4323:Minneapolis, MN 30
+4323:Los Angeles, CA -> 4323:Modesto, CA 2646
+4323:Los Angeles, CA -> 4323:New York, NY 343
+4323:Los Angeles, CA -> 4323:Ontario, CA 3161
+4323:Los Angeles, CA -> 4323:Orange, CA 1433
+4323:Los Angeles, CA -> 4323:Phoenix, AZ 115559
+4323:Los Angeles, CA -> 4323:Portland, OR 1067
+4323:Los Angeles, CA -> 4323:San Diego, CA 1373
+4323:Los Angeles, CA -> 4323:San Luis Obispo, CA 1315
+4323:Los Angeles, CA -> 4323:Seattle, WA 660
+4323:Los Angeles, CA -> 4323:Tampa, FL 257
+4323:Memphis, TN -> 4323:Atlanta, GA 784
+4323:Memphis, TN -> 4323:Charlotte, NC 271
+4323:Memphis, TN -> 4323:Chicago, IL 284
+4323:Memphis, TN -> 4323:Indianapolis, IN 7
+4323:Memphis, TN -> 4323:New York, NY 36
+4323:Memphis, TN -> 4323:Seattle, WA 17
+4323:Milwaukee, WI -> 4323:Bakersfield, CA 9
+4323:Milwaukee, WI -> 4323:Brookfield, WI 857
+4323:Milwaukee, WI -> 4323:Chicago, IL 12628
+4323:Milwaukee, WI -> 4323:Indianapolis, IN 598
+4323:Milwaukee, WI -> 4323:Modesto, CA 700
+4323:Minneapolis, MN -> 4323:Chicago, IL 587
+4323:Minneapolis, MN -> 4323:Los Angeles, CA 30
+4323:Minneapolis, MN -> 4323:Modesto, CA 41
+4323:Minneapolis, MN -> 4323:Seattle, WA 97
+4323:Modesto, CA -> 4323:Albany, NY 45
+4323:Modesto, CA -> 4323:Atlanta, GA 630
+4323:Modesto, CA -> 4323:Austin, TX 161
+4323:Modesto, CA -> 4323:Binghampton, NY 135
+4323:Modesto, CA -> 4323:Boise, ID 26
+4323:Modesto, CA -> 4323:Charlotte, NC 1528
+4323:Modesto, CA -> 4323:Chicago, IL 420
+4323:Modesto, CA -> 4323:Dallas, TX 321
+4323:Modesto, CA -> 4323:Denver, CO 25
+4323:Modesto, CA -> 4323:Fresno, CA 2912
+4323:Modesto, CA -> 4323:Houston, TX 471
+4323:Modesto, CA -> 4323:Los Angeles, CA 2646
+4323:Modesto, CA -> 4323:Milwaukee, WI 700
+4323:Modesto, CA -> 4323:Minneapolis, MN 41
+4323:Modesto, CA -> 4323:New York, NY 277
+4323:Modesto, CA -> 4323:Oakland, CA 46028
+4323:Modesto, CA -> 4323:Phoenix, AZ 39808
+4323:Modesto, CA -> 4323:Portland, OR 153
+4323:Modesto, CA -> 4323:San Luis Obispo, CA 712
+4323:Modesto, CA -> 4323:Seattle, WA 1210
+4323:Modesto, CA -> 4323:Tampa, FL 209
+4323:New York, NY -> 4323:Albany, NY 907
+4323:New York, NY -> 4323:Ashburn, VA 25
+4323:New York, NY -> 4323:Atlanta, GA 114
+4323:New York, NY -> 4323:Austin, TX 269
+4323:New York, NY -> 4323:Binghampton, NY 2122
+4323:New York, NY -> 4323:Boise, ID 90
+4323:New York, NY -> 4323:Charlotte, NC 401
+4323:New York, NY -> 4323:Chicago, IL 4019
+4323:New York, NY -> 4323:Cincinnati, OH 519
+4323:New York, NY -> 4323:Columbus, OH 1310
+4323:New York, NY -> 4323:Dallas, TX 159
+4323:New York, NY -> 4323:Dayton, OH 318
+4323:New York, NY -> 4323:Denver, CO 127
+4323:New York, NY -> 4323:Houston, TX 90
+4323:New York, NY -> 4323:Indianapolis, IN 971
+4323:New York, NY -> 4323:Los Angeles, CA 343
+4323:New York, NY -> 4323:Memphis, TN 36
+4323:New York, NY -> 4323:Modesto, CA 277
+4323:New York, NY -> 4323:Phoenix, AZ 10228
+4323:New York, NY -> 4323:Portland, OR 63
+4323:New York, NY -> 4323:San Luis Obispo, CA 109
+4323:New York, NY -> 4323:Seattle, WA 660
+4323:New York, NY -> 4323:Washington, DC 1576
+4323:Oakland, CA -> 4323:Fresno, CA 37
+4323:Oakland, CA -> 4323:Modesto, CA 46028
+4323:Oakland, CA -> 4323:Palo Alto, CA 31188
+4323:Oakland, CA -> 4323:San Francisco, CA 14636
+4323:Ontario, CA -> 4323:Los Angeles, CA 3161
+4323:Orange, CA -> 4323:Los Angeles, CA 1433
+4323:Orange, CA -> 4323:San Diego, CA 1545
+4323:Palo Alto, CA -> 4323:Oakland, CA 31188
+4323:Pewaukee, WI -> 4323:Brookfield, WI 649
+4323:Phoenix, AZ -> 4323:Albany, NY 61
+4323:Phoenix, AZ -> 4323:Atlanta, GA 78
+4323:Phoenix, AZ -> 4323:Binghampton, NY 130
+4323:Phoenix, AZ -> 4323:Boise, ID 235
+4323:Phoenix, AZ -> 4323:Charlotte, NC 1363
+4323:Phoenix, AZ -> 4323:Chicago, IL 30031
+4323:Phoenix, AZ -> 4323:Dallas, TX 22741
+4323:Phoenix, AZ -> 4323:Dayton, OH 2
+4323:Phoenix, AZ -> 4323:Denver, CO 33
+4323:Phoenix, AZ -> 4323:Los Angeles, CA 115559
+4323:Phoenix, AZ -> 4323:Modesto, CA 39808
+4323:Phoenix, AZ -> 4323:New York, NY 10228
+4323:Phoenix, AZ -> 4323:Portland, OR 132
+4323:Phoenix, AZ -> 4323:San Luis Obispo, CA 189
+4323:Phoenix, AZ -> 4323:Seattle, WA 4582
+4323:Phoenix, AZ -> 4323:Tampa, FL 203
+4323:Phoenix, AZ -> 4323:Tucson, AZ 1064
+4323:Phoenix, AZ -> 4323:Vienna, VA 11783
+4323:Portland, OR -> 4323:Atlanta, GA 27
+4323:Portland, OR -> 4323:Boise, ID 15
+4323:Portland, OR -> 4323:Charlotte, NC 440
+4323:Portland, OR -> 4323:Chicago, IL 238
+4323:Portland, OR -> 4323:Dallas, TX 116
+4323:Portland, OR -> 4323:Los Angeles, CA 1067
+4323:Portland, OR -> 4323:Modesto, CA 153
+4323:Portland, OR -> 4323:New York, NY 63
+4323:Portland, OR -> 4323:Phoenix, AZ 132
+4323:Portland, OR -> 4323:Seattle, WA 349
+4323:Richmond, VA -> 4323:Durham, NC 80
+4323:Richmond, VA -> 4323:Fayetteville, AR 29
+4323:Richmond, VA -> 4323:Fayetteville, NC 1762
+4323:Richmond, VA -> 4323:Greensboro, NC 1800
+4323:Rochester, NY -> 4323:Albany, NY 22
+4323:Rochester, NY -> 4323:Binghampton, NY 1855
+4323:Salt Lake City, UT -> 4323:Boise, ID 15
+4323:Salt Lake City, UT -> 4323:Denver, CO 13
+4323:San Antonio, TX -> 4323:Austin, TX 4176
+4323:San Antonio, TX -> 4323:Houston, TX 2635
+4323:San Diego, CA -> 4323:Los Angeles, CA 1373
+4323:San Diego, CA -> 4323:Orange, CA 1545
+4323:San Diego, CA -> 4323:Seattle, WA 338
+4323:San Francisco, CA -> 4323:Honolulu, HI 75
+4323:San Francisco, CA -> 4323:Oakland, CA 14636
+4323:San Francisco, CA -> 4323:San Jose, CA 3
+4323:San Jose, CA -> 4323:San Francisco, CA 3
+4323:San Luis Obispo, CA -> 4323:Atlanta, GA 40
+4323:San Luis Obispo, CA -> 4323:Charlotte, NC 647
+4323:San Luis Obispo, CA -> 4323:Chicago, IL 364
+4323:San Luis Obispo, CA -> 4323:Dallas, TX 117
+4323:San Luis Obispo, CA -> 4323:Los Angeles, CA 1315
+4323:San Luis Obispo, CA -> 4323:Modesto, CA 712
+4323:San Luis Obispo, CA -> 4323:New York, NY 109
+4323:San Luis Obispo, CA -> 4323:Phoenix, AZ 189
+4323:Seattle, WA -> 4323:Atlanta, GA 776
+4323:Seattle, WA -> 4323:Boise, ID 290
+4323:Seattle, WA -> 4323:Charlotte, NC 900
+4323:Seattle, WA -> 4323:Chicago, IL 1271
+4323:Seattle, WA -> 4323:Cincinnati, OH 36
+4323:Seattle, WA -> 4323:Columbus, OH 26
+4323:Seattle, WA -> 4323:Dallas, TX 1569
+4323:Seattle, WA -> 4323:Dayton, OH 8
+4323:Seattle, WA -> 4323:Denver, CO 66
+4323:Seattle, WA -> 4323:Indianapolis, IN 69
+4323:Seattle, WA -> 4323:Los Angeles, CA 660
+4323:Seattle, WA -> 4323:Memphis, TN 17
+4323:Seattle, WA -> 4323:Minneapolis, MN 97
+4323:Seattle, WA -> 4323:Modesto, CA 1210
+4323:Seattle, WA -> 4323:New York, NY 660
+4323:Seattle, WA -> 4323:Phoenix, AZ 4582
+4323:Seattle, WA -> 4323:Portland, OR 349
+4323:Seattle, WA -> 4323:San Diego, CA 338
+4323:Seattle, WA -> 4323:Tampa, FL 402
+4323:Tampa, FL -> 4323:Atlanta, GA 1567
+4323:Tampa, FL -> 4323:Charlotte, NC 921
+4323:Tampa, FL -> 4323:Chicago, IL 572
+4323:Tampa, FL -> 4323:Dallas, TX 173
+4323:Tampa, FL -> 4323:Los Angeles, CA 257
+4323:Tampa, FL -> 4323:Modesto, CA 209
+4323:Tampa, FL -> 4323:Phoenix, AZ 203
+4323:Tampa, FL -> 4323:Seattle, WA 402
+4323:Tucson, AZ -> 4323:Phoenix, AZ 1064
+4323:Vienna, VA -> 4323:Phoenix, AZ 11783
+4323:Washington, DC -> 4323:Charlotte, NC 2881
+4323:Washington, DC -> 4323:New York, NY 1576

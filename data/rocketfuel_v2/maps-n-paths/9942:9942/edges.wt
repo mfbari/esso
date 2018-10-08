@@ -1,0 +1,48 @@
+9942:Perth, Australia -> 9942:Sydney, Australia 16.4178
+9942:Adelaide, Australia -> 9942:Sydney, Australia 5.82779
+9942:Adelaide, Australia -> 9942:Port Augusta, Australia 1.36182
+9942:Sunshine Coast, Australia -> 9942:Brisbane, Australia 3.72002
+9942:Palo Alto, CA -> 9942:San Jose, CA 0.124478
+9942:Gilbert, Australia -> 9942:Sydney, Australia 0
+9942:Brisbane, Australia -> 9942:Sydney, Australia 3.72002
+9942:Brisbane, Australia -> 9942:Bunbury, Australia 18.1278
+9942:Brisbane, Australia -> 9942:Southport, Australia 0.359675
+9942:Brisbane, Australia -> 9942:Sunshine Coast, Australia 3.72002
+9942:Brisbane, Australia -> 9942:Maroochydore, Australia 0.426922
+9942:Brisbane, Australia -> 9942:Cairns, Australia 6.915
+9942:Cairns, Australia -> 9942:Brisbane, Australia 6.915
+9942:Henley Brook, Australia -> 9942:Sydney, Australia 1
+9942:Henley Brook, Australia -> 9942:Seattle, WA 59.3123
+9942:Sydney, Australia -> 9942:Henley Brook, Australia 1
+9942:Sydney, Australia -> 9942:Wollongong, Australia 0.303548
+9942:Sydney, Australia -> 9942:Perth, Australia 16.4178
+9942:Sydney, Australia -> 9942:Melbourne, Australia 3.52506
+9942:Sydney, Australia -> 9942:Adelaide, Australia 5.82779
+9942:Sydney, Australia -> 9942:Gosford, Australia 0.285104
+9942:Sydney, Australia -> 9942:Bunbury, Australia 21.84782
+9942:Sydney, Australia -> 9942:Gilbert, Australia 0
+9942:Sydney, Australia -> 9942:Napa, CA 59.9267266731816
+9942:Sydney, Australia -> 9942:Penrith, Australia 0.230797
+9942:Sydney, Australia -> 9942:Brisbane, Australia 3.72002
+9942:Sydney, Australia -> 9942:Hobart, Australia 5.22395
+9942:Sydney, Australia -> 9942:San Jose, CA 59.8123
+9942:Sydney, Australia -> 9942:Canberra, Australia 1.18919
+9942:Southport, Australia -> 9942:Brisbane, Australia 0.359675
+9942:Maroochydore, Australia -> 9942:Brisbane, Australia 0.426922
+9942:Gosford, Australia -> 9942:Sydney, Australia 0.285104
+9942:Melbourne, Australia -> 9942:Sydney, Australia 3.52506
+9942:Melbourne, Australia -> 9942:Geelong, Australia 0.334533
+9942:Hobart, Australia -> 9942:Sydney, Australia 5.22395
+9942:Port Augusta, Australia -> 9942:Adelaide, Australia 1.36182
+9942:San Jose, CA -> 9942:Sydney, Australia 59.8123
+9942:San Jose, CA -> 9942:Palo Alto, CA 0.124478
+9942:San Jose, CA -> 9942:Seattle, WA 0.5
+9942:Napa, CA -> 9942:Sydney, Australia 59.9267266731816
+9942:Seattle, WA -> 9942:Henley Brook, Australia 59.3123
+9942:Seattle, WA -> 9942:San Jose, CA 0.5
+9942:Bunbury, Australia -> 9942:Sydney, Australia 21.84782
+9942:Bunbury, Australia -> 9942:Brisbane, Australia 18.1278
+9942:Penrith, Australia -> 9942:Sydney, Australia 0.230797
+9942:Canberra, Australia -> 9942:Sydney, Australia 1.18919
+9942:Wollongong, Australia -> 9942:Sydney, Australia 0.303548
+9942:Geelong, Australia -> 9942:Melbourne, Australia 0.334533

@@ -1,0 +1,90 @@
+2828:Ashburn, VA -> 2828:Washington, DC 719
+2828:Atlanta, GA -> 2828:Dallas, TX 1399
+2828:Atlanta, GA -> 2828:Miami, FL 1049
+2828:Atlanta, GA -> 2828:Nashville, TN 386
+2828:Atlanta, GA -> 2828:Smyrna, GA 23
+2828:Atlanta, GA -> 2828:Tampa, FL 911
+2828:Atlanta, GA -> 2828:Washington, DC 1393
+2828:Austin, TX -> 2828:Dallas, TX 36
+2828:Beaverton, OR -> 2828:San Jose, CA 485
+2828:Cambridge, MA -> 2828:New York, NY 670
+2828:Chicago, IL -> 2828:Dallas, TX 1107
+2828:Chicago, IL -> 2828:Denver, CO 5974
+2828:Chicago, IL -> 2828:Maryland Heights, MO 37
+2828:Chicago, IL -> 2828:New York, NY 1126
+2828:Chicago, IL -> 2828:Oak Brook, IL 584
+2828:Chicago, IL -> 2828:Southfield, MI 1455
+2828:Chicago, IL -> 2828:Washington, DC 2221
+2828:Cleveland, OH -> 2828:Columbus, OH 294
+2828:Cleveland, OH -> 2828:Washington, DC 730
+2828:Columbus, OH -> 2828:Cleveland, OH 294
+2828:Dallas, TX -> 2828:Atlanta, GA 1399
+2828:Dallas, TX -> 2828:Austin, TX 36
+2828:Dallas, TX -> 2828:Chicago, IL 1107
+2828:Dallas, TX -> 2828:Houston, TX 199
+2828:Dallas, TX -> 2828:Los Angeles, CA 2395
+2828:Dallas, TX -> 2828:Memphis, TN 79
+2828:Denver, CO -> 2828:Chicago, IL 5974
+2828:Denver, CO -> 2828:Englewood, CO 550
+2828:Denver, CO -> 2828:Salt Lake City, UT 3182
+2828:Denver, CO -> 2828:San Jose, CA 6564
+2828:Englewood, CO -> 2828:Denver, CO 550
+2828:Fremont, CA -> 2828:San Jose, CA 22563
+2828:Houston, TX -> 2828:Dallas, TX 199
+2828:Irvine, CA -> 2828:San Jose, CA 562
+2828:Las Vegas, NV -> 2828:Los Angeles, CA 569
+2828:Los Angeles, CA -> 2828:Dallas, TX 2395
+2828:Los Angeles, CA -> 2828:Las Vegas, NV 569
+2828:Los Angeles, CA -> 2828:Phoenix, AZ 538
+2828:Los Angeles, CA -> 2828:San Diego, CA 1350
+2828:Los Angeles, CA -> 2828:San Jose, CA 4508
+2828:Los Angeles, CA -> 2828:Santa Ana, CA 394
+2828:Maryland Heights, MO -> 2828:Chicago, IL 37
+2828:McLean, VA -> 2828:Washington, DC 1801
+2828:Memphis, TN -> 2828:Dallas, TX 79
+2828:Miami, FL -> 2828:Atlanta, GA 1049
+2828:Nashville, TN -> 2828:Atlanta, GA 386
+2828:New York, NY -> 2828:Cambridge, MA 670
+2828:New York, NY -> 2828:Chicago, IL 1126
+2828:New York, NY -> 2828:Secaucus, NJ 111
+2828:New York, NY -> 2828:Washington, DC 3681
+2828:Oak Brook, IL -> 2828:Chicago, IL 584
+2828:Palo Alto, CA -> 2828:San Francisco, CA 40
+2828:Palo Alto, CA -> 2828:San Jose, CA 8315
+2828:Philadelphia, PA -> 2828:Washington, DC 832
+2828:Phoenix, AZ -> 2828:Los Angeles, CA 538
+2828:Roseville, CA -> 2828:San Jose, CA 1191
+2828:Salt Lake City, UT -> 2828:Denver, CO 3182
+2828:San Diego, CA -> 2828:Los Angeles, CA 1350
+2828:San Francisco, CA -> 2828:Palo Alto, CA 40
+2828:San Francisco, CA -> 2828:San Jose, CA 3693
+2828:San Jose, CA -> 2828:Beaverton, OR 485
+2828:San Jose, CA -> 2828:Denver, CO 6564
+2828:San Jose, CA -> 2828:Fremont, CA 22563
+2828:San Jose, CA -> 2828:Irvine, CA 562
+2828:San Jose, CA -> 2828:Los Angeles, CA 4508
+2828:San Jose, CA -> 2828:Palo Alto, CA 8315
+2828:San Jose, CA -> 2828:Roseville, CA 1191
+2828:San Jose, CA -> 2828:San Francisco, CA 3693
+2828:San Jose, CA -> 2828:Santa Clara, CA 4
+2828:San Jose, CA -> 2828:Seattle, WA 2008
+2828:San Jose, CA -> 2828:Washington, DC 11122
+2828:Santa Ana, CA -> 2828:Los Angeles, CA 394
+2828:Santa Clara, CA -> 2828:San Jose, CA 4
+2828:Seattle, WA -> 2828:San Jose, CA 2008
+2828:Seattle, WA -> 2828:Spokane, WA 1404
+2828:Secaucus, NJ -> 2828:New York, NY 111
+2828:Secaucus, NJ -> 2828:Washington, DC 166
+2828:Smyrna, GA -> 2828:Atlanta, GA 23
+2828:Southfield, MI -> 2828:Chicago, IL 1455
+2828:Spokane, WA -> 2828:Seattle, WA 1404
+2828:Tampa, FL -> 2828:Atlanta, GA 911
+2828:Washington, DC -> 2828:Ashburn, VA 719
+2828:Washington, DC -> 2828:Atlanta, GA 1393
+2828:Washington, DC -> 2828:Chicago, IL 2221
+2828:Washington, DC -> 2828:Cleveland, OH 730
+2828:Washington, DC -> 2828:McLean, VA 1801
+2828:Washington, DC -> 2828:New York, NY 3681
+2828:Washington, DC -> 2828:Philadelphia, PA 832
+2828:Washington, DC -> 2828:San Jose, CA 11122
+2828:Washington, DC -> 2828:Secaucus, NJ 166

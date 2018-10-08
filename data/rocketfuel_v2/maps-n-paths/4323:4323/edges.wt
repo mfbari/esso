@@ -1,0 +1,322 @@
+4323:Albany, NY -> 4323:Phoenix, AZ 20.497
+4323:Albany, NY -> 4323:Los Angeles, CA 19.997
+4323:Albany, NY -> 4323:New York, NY 3.76656
+4323:Albany, NY -> 4323:Modesto, CA 23.997
+4323:Albany, NY -> 4323:Rochester, NY 1.73925
+4323:Albany, NY -> 4323:Dallas, TX 11.4444
+4323:Washington, DC -> 4323:New York, NY 2.5
+4323:Washington, DC -> 4323:Charlotte, NC 2.65814
+4323:Pewaukee, WI -> 4323:Brookfield, WI 100000
+4323:Los Angeles, CA -> 4323:Denver, CO 6.04805
+4323:Los Angeles, CA -> 4323:Binghampton, NY 19.721
+4323:Los Angeles, CA -> 4323:Seattle, WA 9.54805
+4323:Los Angeles, CA -> 4323:San Luis Obispo, CA 3.55499
+4323:Los Angeles, CA -> 4323:Albany, NY 19.997
+4323:Los Angeles, CA -> 4323:Chicago, IL 14.0526
+4323:Los Angeles, CA -> 4323:Ontario, CA 0.345934
+4323:Los Angeles, CA -> 4323:Atlanta, GA 14.5526
+4323:Los Angeles, CA -> 4323:New York, NY 19.23044
+4323:Los Angeles, CA -> 4323:Portland, OR 9.54805
+4323:Los Angeles, CA -> 4323:Boise, ID 9.04805
+4323:Los Angeles, CA -> 4323:San Diego, CA 0.5
+4323:Los Angeles, CA -> 4323:Charlotte, NC 17.0723
+4323:Los Angeles, CA -> 4323:Phoenix, AZ 1.5
+4323:Los Angeles, CA -> 4323:Minneapolis, MN 16.90762
+4323:Los Angeles, CA -> 4323:Modesto, CA 6
+4323:Los Angeles, CA -> 4323:Anaheim, CA 0.268084
+4323:Los Angeles, CA -> 4323:Tampa, FL 17.3551
+4323:Los Angeles, CA -> 4323:Dallas, TX 13.5526
+4323:Los Angeles, CA -> 4323:Orange, CA 0.5
+4323:Portland, OR -> 4323:Chicago, IL 14.50455
+4323:Portland, OR -> 4323:Atlanta, GA 14.00455
+4323:Portland, OR -> 4323:Los Angeles, CA 9.54805
+4323:Portland, OR -> 4323:New York, NY 16.68239
+4323:Portland, OR -> 4323:Boise, ID 1.5
+4323:Portland, OR -> 4323:Seattle, WA 2
+4323:Portland, OR -> 4323:Charlotte, NC 15.52425
+4323:Portland, OR -> 4323:Phoenix, AZ 8.04805
+4323:Portland, OR -> 4323:Modesto, CA 4.54805
+4323:Portland, OR -> 4323:Dallas, TX 13.00455
+4323:New York, NY -> 4323:Denver, CO 14.18239
+4323:New York, NY -> 4323:Binghampton, NY 3.49056
+4323:New York, NY -> 4323:Seattle, WA 17.68239
+4323:New York, NY -> 4323:San Luis Obispo, CA 19.87624
+4323:New York, NY -> 4323:Albany, NY 3.76656
+4323:New York, NY -> 4323:Washington, DC 2.5
+4323:New York, NY -> 4323:Houston, TX 12.221673
+4323:New York, NY -> 4323:Ashburn, VA 2
+4323:New York, NY -> 4323:Chicago, IL 6.17784
+4323:New York, NY -> 4323:Atlanta, GA 7.67784
+4323:New York, NY -> 4323:Los Angeles, CA 19.23044
+4323:New York, NY -> 4323:Portland, OR 16.68239
+4323:New York, NY -> 4323:Boise, ID 16.18239
+4323:New York, NY -> 4323:Charlotte, NC 4.15814
+4323:New York, NY -> 4323:Memphis, TN 8.17784
+4323:New York, NY -> 4323:Phoenix, AZ 19.73044
+4323:New York, NY -> 4323:Cincinnati, OH 5.1656
+4323:New York, NY -> 4323:Austin, TX 12.1428
+4323:New York, NY -> 4323:Indianapolis, IN 7.17784
+4323:New York, NY -> 4323:Modesto, CA 20.23044
+4323:New York, NY -> 4323:Columbus, OH 4.96134
+4323:New York, NY -> 4323:Dallas, TX 8.67784
+4323:New York, NY -> 4323:Dayton, OH 5.91669
+4323:Memphis, TN -> 4323:Chicago, IL 2
+4323:Memphis, TN -> 4323:Atlanta, GA 2.5
+4323:Memphis, TN -> 4323:New York, NY 8.17784
+4323:Memphis, TN -> 4323:Indianapolis, IN 2
+4323:Memphis, TN -> 4323:Seattle, WA 15.50455
+4323:Memphis, TN -> 4323:Charlotte, NC 6.0197
+4323:Austin, TX -> 4323:New York, NY 12.1428
+4323:Austin, TX -> 4323:Modesto, CA 22.01756
+4323:Austin, TX -> 4323:Dallas, TX 5.46496
+4323:Austin, TX -> 4323:San Antonio, TX 0.594653
+4323:Columbia, SC -> 4323:Charlotte, NC 0.663428
+4323:Dallas, TX -> 4323:Denver, CO 9.50455
+4323:Dallas, TX -> 4323:Chicago, IL 3.5
+4323:Dallas, TX -> 4323:Binghampton, NY 10.1684
+4323:Dallas, TX -> 4323:Atlanta, GA 2
+4323:Dallas, TX -> 4323:Los Angeles, CA 13.5526
+4323:Dallas, TX -> 4323:Portland, OR 13.00455
+4323:Dallas, TX -> 4323:New York, NY 8.67784
+4323:Dallas, TX -> 4323:Boise, ID 12.50455
+4323:Dallas, TX -> 4323:Seattle, WA 14.00455
+4323:Dallas, TX -> 4323:San Luis Obispo, CA 15.5214
+4323:Dallas, TX -> 4323:Charlotte, NC 5.5197
+4323:Dallas, TX -> 4323:Albany, NY 11.4444
+4323:Dallas, TX -> 4323:Phoenix, AZ 13.0526
+4323:Dallas, TX -> 4323:Austin, TX 5.46496
+4323:Dallas, TX -> 4323:Modesto, CA 16.5526
+4323:Dallas, TX -> 4323:Tampa, FL 6.8025
+4323:Dallas, TX -> 4323:Houston, TX 4.543833
+4323:San Francisco, CA -> 4323:San Jose, CA 0.381421
+4323:San Francisco, CA -> 4323:Oakland, CA 0.123628
+4323:San Francisco, CA -> 4323:Honolulu, HI 19.177
+4323:Oakland, CA -> 4323:Palo Alto, CA 0.209121
+4323:Oakland, CA -> 4323:Modesto, CA 100000
+4323:Oakland, CA -> 4323:Fresno, CA 100001
+4323:Oakland, CA -> 4323:San Francisco, CA 0.123628
+4323:Fresno, CA -> 4323:Oakland, CA 100001
+4323:Fresno, CA -> 4323:Modesto, CA 100000
+4323:San Jose, CA -> 4323:San Francisco, CA 0.381421
+4323:Fayetteville, AR -> 4323:Richmond, VA 9.01883
+4323:Fayetteville, AR -> 4323:Charlotte, NC 6.02453
+4323:Ashburn, VA -> 4323:New York, NY 2
+4323:Ashburn, VA -> 4323:Charlotte, NC 3.15814
+4323:Atlanta, GA -> 4323:Chicago, IL 3.5
+4323:Atlanta, GA -> 4323:Los Angeles, CA 14.5526
+4323:Atlanta, GA -> 4323:Portland, OR 14.00455
+4323:Atlanta, GA -> 4323:New York, NY 7.67784
+4323:Atlanta, GA -> 4323:Boise, ID 14.50455
+4323:Atlanta, GA -> 4323:Seattle, WA 13.00455
+4323:Atlanta, GA -> 4323:San Luis Obispo, CA 16.5214
+4323:Atlanta, GA -> 4323:Charlotte, NC 4.5197
+4323:Atlanta, GA -> 4323:Memphis, TN 2.5
+4323:Atlanta, GA -> 4323:Phoenix, AZ 15.0526
+4323:Atlanta, GA -> 4323:Cincinnati, OH 3.51224
+4323:Atlanta, GA -> 4323:Indianapolis, IN 3.5
+4323:Atlanta, GA -> 4323:Modesto, CA 15.5526
+4323:Atlanta, GA -> 4323:Tampa, FL 5.8025
+4323:Atlanta, GA -> 4323:Columbus, OH 3.7165
+4323:Atlanta, GA -> 4323:Dallas, TX 2
+4323:Atlanta, GA -> 4323:Dayton, OH 2.76115
+4323:Cincinnati, OH -> 4323:Chicago, IL 2.01224
+4323:Cincinnati, OH -> 4323:Atlanta, GA 3.51224
+4323:Cincinnati, OH -> 4323:New York, NY 5.1656
+4323:Cincinnati, OH -> 4323:Seattle, WA 16.51679
+4323:Cincinnati, OH -> 4323:Charlotte, NC 5.00746
+4323:Honolulu, HI -> 4323:San Francisco, CA 19.177
+4323:Indianapolis, IN -> 4323:Chicago, IL 2
+4323:Indianapolis, IN -> 4323:Atlanta, GA 3.5
+4323:Indianapolis, IN -> 4323:New York, NY 7.17784
+4323:Indianapolis, IN -> 4323:Milwaukee, WI 1.97288
+4323:Indianapolis, IN -> 4323:Seattle, WA 16.50455
+4323:Indianapolis, IN -> 4323:Memphis, TN 2
+4323:Modesto, CA -> 4323:Denver, CO 9.04805
+4323:Modesto, CA -> 4323:Binghampton, NY 22.721
+4323:Modesto, CA -> 4323:Oakland, CA 100000
+4323:Modesto, CA -> 4323:Seattle, WA 5.54805
+4323:Modesto, CA -> 4323:San Luis Obispo, CA 6.55499
+4323:Modesto, CA -> 4323:Fresno, CA 100000
+4323:Modesto, CA -> 4323:Albany, NY 23.997
+4323:Modesto, CA -> 4323:Houston, TX 21.096433
+4323:Modesto, CA -> 4323:Chicago, IL 18.0526
+4323:Modesto, CA -> 4323:Atlanta, GA 15.5526
+4323:Modesto, CA -> 4323:Los Angeles, CA 6
+4323:Modesto, CA -> 4323:Portland, OR 4.54805
+4323:Modesto, CA -> 4323:New York, NY 20.23044
+4323:Modesto, CA -> 4323:Boise, ID 6.04805
+4323:Modesto, CA -> 4323:Charlotte, NC 19.0723
+4323:Modesto, CA -> 4323:Phoenix, AZ 4.5
+4323:Modesto, CA -> 4323:Milwaukee, WI 21.02548
+4323:Modesto, CA -> 4323:Austin, TX 22.01756
+4323:Modesto, CA -> 4323:Minneapolis, MN 18.19758
+4323:Modesto, CA -> 4323:Tampa, FL 21.3551
+4323:Modesto, CA -> 4323:Dallas, TX 16.5526
+4323:Greensboro, NC -> 4323:Richmond, VA 3.46389254693352
+4323:Greensboro, NC -> 4323:Charlotte, NC 15.04336
+4323:Columbus, OH -> 4323:Chicago, IL 2.2165
+4323:Columbus, OH -> 4323:Atlanta, GA 3.7165
+4323:Columbus, OH -> 4323:New York, NY 4.96134
+4323:Columbus, OH -> 4323:Seattle, WA 16.72105
+4323:Rochester, NY -> 4323:Binghampton, NY 2.01525
+4323:Rochester, NY -> 4323:Albany, NY 1.73925
+4323:Orange, CA -> 4323:Los Angeles, CA 0.5
+4323:Orange, CA -> 4323:San Diego, CA 0.639856995164958
+4323:Dayton, OH -> 4323:Chicago, IL 2.26115
+4323:Dayton, OH -> 4323:Phoenix, AZ 16.81375
+4323:Dayton, OH -> 4323:Atlanta, GA 2.76115
+4323:Dayton, OH -> 4323:New York, NY 5.91669
+4323:Dayton, OH -> 4323:Seattle, WA 15.7657
+4323:San Antonio, TX -> 4323:Austin, TX 0.594653
+4323:San Antonio, TX -> 4323:Houston, TX 1.51578
+4323:Palo Alto, CA -> 4323:Oakland, CA 0.209121
+4323:Richmond, VA -> 4323:Fayetteville, NC 14.54336
+4323:Richmond, VA -> 4323:Greensboro, NC 3.46389254693352
+4323:Richmond, VA -> 4323:Fayetteville, AR 9.01883
+4323:Richmond, VA -> 4323:Durham, NC 3.24978
+4323:Ontario, CA -> 4323:Los Angeles, CA 0.345934
+4323:San Diego, CA -> 4323:Los Angeles, CA 0.5
+4323:San Diego, CA -> 4323:Seattle, WA 10.04805
+4323:San Diego, CA -> 4323:Orange, CA 0.639856995164958
+4323:Boise, ID -> 4323:Chicago, IL 14.00455
+4323:Boise, ID -> 4323:Salt Lake City, UT 2.5
+4323:Boise, ID -> 4323:Phoenix, AZ 7.54805
+4323:Boise, ID -> 4323:Atlanta, GA 14.50455
+4323:Boise, ID -> 4323:Los Angeles, CA 9.04805
+4323:Boise, ID -> 4323:Portland, OR 1.5
+4323:Boise, ID -> 4323:New York, NY 16.18239
+4323:Boise, ID -> 4323:Seattle, WA 3.5
+4323:Boise, ID -> 4323:Modesto, CA 6.04805
+4323:Boise, ID -> 4323:Dallas, TX 12.50455
+4323:Boise, ID -> 4323:Charlotte, NC 15.02425
+4323:Phoenix, AZ -> 4323:Denver, CO 6.54805
+4323:Phoenix, AZ -> 4323:Chicago, IL 14.5526
+4323:Phoenix, AZ -> 4323:Vienna, VA 15.7839
+4323:Phoenix, AZ -> 4323:Binghampton, NY 19.221
+4323:Phoenix, AZ -> 4323:Atlanta, GA 15.0526
+4323:Phoenix, AZ -> 4323:Los Angeles, CA 1.5
+4323:Phoenix, AZ -> 4323:Tucson, AZ 0.902497
+4323:Phoenix, AZ -> 4323:Portland, OR 8.04805
+4323:Phoenix, AZ -> 4323:New York, NY 19.73044
+4323:Phoenix, AZ -> 4323:Boise, ID 7.54805
+4323:Phoenix, AZ -> 4323:Seattle, WA 9.04805
+4323:Phoenix, AZ -> 4323:San Luis Obispo, CA 4.05499
+4323:Phoenix, AZ -> 4323:Charlotte, NC 17.5723
+4323:Phoenix, AZ -> 4323:Albany, NY 20.497
+4323:Phoenix, AZ -> 4323:Modesto, CA 4.5
+4323:Phoenix, AZ -> 4323:Tampa, FL 17.8551
+4323:Phoenix, AZ -> 4323:Dallas, TX 13.0526
+4323:Phoenix, AZ -> 4323:Dayton, OH 16.81375
+4323:Fayetteville, NC -> 4323:Richmond, VA 14.54336
+4323:Fayetteville, NC -> 4323:Charlotte, NC 0.5
+4323:Brookfield, WI -> 4323:Pewaukee, WI 100000
+4323:Brookfield, WI -> 4323:Milwaukee, WI 100000
+4323:Milwaukee, WI -> 4323:Chicago, IL 2.97288
+4323:Milwaukee, WI -> 4323:Bakersfield, CA 13.9385
+4323:Milwaukee, WI -> 4323:Brookfield, WI 100000
+4323:Milwaukee, WI -> 4323:Indianapolis, IN 1.97288
+4323:Milwaukee, WI -> 4323:Modesto, CA 21.02548
+4323:Minneapolis, MN -> 4323:Chicago, IL 2.85502
+4323:Minneapolis, MN -> 4323:Los Angeles, CA 16.90762
+4323:Minneapolis, MN -> 4323:Seattle, WA 13.64953
+4323:Minneapolis, MN -> 4323:Modesto, CA 18.19758
+4323:Denver, CO -> 4323:Chicago, IL 12.00455
+4323:Denver, CO -> 4323:Salt Lake City, UT 0.5
+4323:Denver, CO -> 4323:Phoenix, AZ 6.54805
+4323:Denver, CO -> 4323:Los Angeles, CA 6.04805
+4323:Denver, CO -> 4323:New York, NY 14.18239
+4323:Denver, CO -> 4323:Seattle, WA 6.5
+4323:Denver, CO -> 4323:Modesto, CA 9.04805
+4323:Denver, CO -> 4323:Dallas, TX 9.50455
+4323:Bakersfield, CA -> 4323:Milwaukee, WI 13.9385
+4323:Binghampton, NY -> 4323:Phoenix, AZ 19.221
+4323:Binghampton, NY -> 4323:Los Angeles, CA 19.721
+4323:Binghampton, NY -> 4323:New York, NY 3.49056
+4323:Binghampton, NY -> 4323:Modesto, CA 22.721
+4323:Binghampton, NY -> 4323:Rochester, NY 2.01525
+4323:Binghampton, NY -> 4323:Dallas, TX 10.1684
+4323:Seattle, WA -> 4323:Denver, CO 6.5
+4323:Seattle, WA -> 4323:Chicago, IL 15.50455
+4323:Seattle, WA -> 4323:Atlanta, GA 13.00455
+4323:Seattle, WA -> 4323:Los Angeles, CA 9.54805
+4323:Seattle, WA -> 4323:Portland, OR 2
+4323:Seattle, WA -> 4323:New York, NY 17.68239
+4323:Seattle, WA -> 4323:San Diego, CA 10.04805
+4323:Seattle, WA -> 4323:Boise, ID 3.5
+4323:Seattle, WA -> 4323:Charlotte, NC 16.52425
+4323:Seattle, WA -> 4323:Memphis, TN 15.50455
+4323:Seattle, WA -> 4323:Phoenix, AZ 9.04805
+4323:Seattle, WA -> 4323:Cincinnati, OH 16.51679
+4323:Seattle, WA -> 4323:Indianapolis, IN 16.50455
+4323:Seattle, WA -> 4323:Minneapolis, MN 13.64953
+4323:Seattle, WA -> 4323:Modesto, CA 5.54805
+4323:Seattle, WA -> 4323:Tampa, FL 17.80705
+4323:Seattle, WA -> 4323:Dallas, TX 14.00455
+4323:Seattle, WA -> 4323:Columbus, OH 16.72105
+4323:Seattle, WA -> 4323:Dayton, OH 15.7657
+4323:San Luis Obispo, CA -> 4323:Chicago, IL 14.6984
+4323:San Luis Obispo, CA -> 4323:Phoenix, AZ 4.05499
+4323:San Luis Obispo, CA -> 4323:Atlanta, GA 16.5214
+4323:San Luis Obispo, CA -> 4323:Los Angeles, CA 3.55499
+4323:San Luis Obispo, CA -> 4323:New York, NY 19.87624
+4323:San Luis Obispo, CA -> 4323:Modesto, CA 6.55499
+4323:San Luis Obispo, CA -> 4323:Dallas, TX 15.5214
+4323:San Luis Obispo, CA -> 4323:Charlotte, NC 17.9398
+4323:Durham, NC -> 4323:Richmond, VA 3.24978
+4323:Salt Lake City, UT -> 4323:Denver, CO 0.5
+4323:Salt Lake City, UT -> 4323:Boise, ID 2.5
+4323:Houston, TX -> 4323:New York, NY 12.221673
+4323:Houston, TX -> 4323:Modesto, CA 21.096433
+4323:Houston, TX -> 4323:Dallas, TX 4.543833
+4323:Houston, TX -> 4323:San Antonio, TX 1.51578
+4323:Chicago, IL -> 4323:Denver, CO 12.00455
+4323:Chicago, IL -> 4323:Seattle, WA 15.50455
+4323:Chicago, IL -> 4323:San Luis Obispo, CA 14.6984
+4323:Chicago, IL -> 4323:Atlanta, GA 3.5
+4323:Chicago, IL -> 4323:Los Angeles, CA 14.0526
+4323:Chicago, IL -> 4323:Portland, OR 14.50455
+4323:Chicago, IL -> 4323:New York, NY 6.17784
+4323:Chicago, IL -> 4323:Boise, ID 14.00455
+4323:Chicago, IL -> 4323:Charlotte, NC 6.0197
+4323:Chicago, IL -> 4323:Memphis, TN 2
+4323:Chicago, IL -> 4323:Phoenix, AZ 14.5526
+4323:Chicago, IL -> 4323:Cincinnati, OH 2.01224
+4323:Chicago, IL -> 4323:Milwaukee, WI 2.97288
+4323:Chicago, IL -> 4323:Indianapolis, IN 2
+4323:Chicago, IL -> 4323:Minneapolis, MN 2.85502
+4323:Chicago, IL -> 4323:Modesto, CA 18.0526
+4323:Chicago, IL -> 4323:Tampa, FL 8.07206
+4323:Chicago, IL -> 4323:Dallas, TX 3.5
+4323:Chicago, IL -> 4323:Columbus, OH 2.2165
+4323:Chicago, IL -> 4323:Dayton, OH 2.26115
+4323:Vienna, VA -> 4323:Phoenix, AZ 15.7839
+4323:Tucson, AZ -> 4323:Phoenix, AZ 0.902497
+4323:Charlotte, NC -> 4323:Seattle, WA 16.52425
+4323:Charlotte, NC -> 4323:San Luis Obispo, CA 17.9398
+4323:Charlotte, NC -> 4323:Washington, DC 2.65814
+4323:Charlotte, NC -> 4323:Fayetteville, AR 6.02453
+4323:Charlotte, NC -> 4323:Ashburn, VA 3.15814
+4323:Charlotte, NC -> 4323:Chicago, IL 6.0197
+4323:Charlotte, NC -> 4323:Atlanta, GA 4.5197
+4323:Charlotte, NC -> 4323:Los Angeles, CA 17.0723
+4323:Charlotte, NC -> 4323:New York, NY 4.15814
+4323:Charlotte, NC -> 4323:Portland, OR 15.52425
+4323:Charlotte, NC -> 4323:Boise, ID 15.02425
+4323:Charlotte, NC -> 4323:Memphis, TN 6.0197
+4323:Charlotte, NC -> 4323:Phoenix, AZ 17.5723
+4323:Charlotte, NC -> 4323:Fayetteville, NC 0.5
+4323:Charlotte, NC -> 4323:Cincinnati, OH 5.00746
+4323:Charlotte, NC -> 4323:Modesto, CA 19.0723
+4323:Charlotte, NC -> 4323:Tampa, FL 4.11538
+4323:Charlotte, NC -> 4323:Dallas, TX 5.5197
+4323:Charlotte, NC -> 4323:Columbia, SC 0.663428
+4323:Charlotte, NC -> 4323:Greensboro, NC 15.04336
+4323:Anaheim, CA -> 4323:Los Angeles, CA 0.268084
+4323:Tampa, FL -> 4323:Chicago, IL 8.07206
+4323:Tampa, FL -> 4323:Phoenix, AZ 17.8551
+4323:Tampa, FL -> 4323:Atlanta, GA 5.8025
+4323:Tampa, FL -> 4323:Los Angeles, CA 17.3551
+4323:Tampa, FL -> 4323:Seattle, WA 17.80705
+4323:Tampa, FL -> 4323:Modesto, CA 21.3551
+4323:Tampa, FL -> 4323:Dallas, TX 6.8025
+4323:Tampa, FL -> 4323:Charlotte, NC 4.11538

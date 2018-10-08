@@ -1,0 +1,90 @@
+5400:London, UnitedKingdom -> 5400:Amsterdam, Netherlands 1.5
+5400:London, UnitedKingdom -> 5400:Dublin, Ireland 2.32934
+5400:London, UnitedKingdom -> 5400:Madrid, Spain 7.65087
+5400:London, UnitedKingdom -> 5400:Reading, UnitedKingdom 0.309937
+5400:London, UnitedKingdom -> 5400:Paris, France 1.71247
+5400:London, UnitedKingdom -> 5400:Milan, Italy 1.0299
+5400:London, UnitedKingdom -> 5400:Budapest, Hungary 7.32608
+5400:London, UnitedKingdom -> 5400:Madley, UnitedKingdom 0.986217
+5400:London, UnitedKingdom -> 5400:Zurich, Switzerland 3.87863
+5400:London, UnitedKingdom -> 5400:Frankfurt, Germany 1.5
+5400:London, UnitedKingdom -> 5400:New York, NY 27.8378
+5400:London, UnitedKingdom -> 5400:Stockholm, Sweden 6.21029
+5400:London, UnitedKingdom -> 5400:Goonhilly, UnitedKingdom 0
+5400:McLean, VA -> 5400:Ashburn, VA 0.147031
+5400:New York, NY -> 5400:San Francisco, CA 20.6844
+5400:New York, NY -> 5400:London, UnitedKingdom 27.8378
+5400:New York, NY -> 5400:Chicago, IL 5.7254
+5400:New York, NY -> 5400:Ashburn, VA 29.3378
+5400:Amsterdam, Netherlands -> 5400:Dublin, Ireland 1.82934
+5400:Amsterdam, Netherlands -> 5400:Madrid, Spain 7.15087
+5400:Amsterdam, Netherlands -> 5400:London, UnitedKingdom 1.5
+5400:Amsterdam, Netherlands -> 5400:San Francisco, CA 20.4275
+5400:Amsterdam, Netherlands -> 5400:Frankfurt, Germany 1
+5400:Amsterdam, Netherlands -> 5400:Ashburn, VA 31.2427358333483
+5400:Amsterdam, Netherlands -> 5400:Stockholm, Sweden 5.71029
+5400:Amsterdam, Netherlands -> 5400:Brussels, Belgium 0.699744
+5400:San Jose, CA -> 5400:San Francisco, CA 0.381421
+5400:Hayward, CA -> 5400:San Francisco, CA 0.215788
+5400:Hong Kong -> 5400:Sydney, Australia 36.8322
+5400:Hong Kong -> 5400:Los Angeles, CA 38.5676
+5400:Hong Kong -> 5400:Singapore 12.9155
+5400:Hong Kong -> 5400:Tokyo, Japan 4.7759
+5400:Ashburn, VA -> 5400:Amsterdam, Netherlands 31.2427358333483
+5400:Ashburn, VA -> 5400:San Francisco, CA 19.4275
+5400:Ashburn, VA -> 5400:McLean, VA 0.147031
+5400:Ashburn, VA -> 5400:New York, NY 29.3378
+5400:Ashburn, VA -> 5400:Atlanta, GA 4.26987
+5400:Ashburn, VA -> 5400:Washington, DC 0.225316
+5400:Atlanta, GA -> 5400:Ashburn, VA 4.26987
+5400:Paris, France -> 5400:London, UnitedKingdom 1.71247
+5400:Tokyo, Japan -> 5400:San Francisco, CA 46.11296
+5400:Tokyo, Japan -> 5400:Los Angeles, CA 44.3435
+5400:Tokyo, Japan -> 5400:Singapore 9.1396
+5400:Tokyo, Japan -> 5400:Hong Kong 4.7759
+5400:Singapore -> 5400:Sydney, Australia 31.4685
+5400:Singapore -> 5400:Los Angeles, CA 50.4831
+5400:Singapore -> 5400:Tokyo, Japan 9.1396
+5400:Singapore -> 5400:Hong Kong 12.9155
+5400:Los Angeles, CA -> 5400:Sydney, Australia 60.3095
+5400:Los Angeles, CA -> 5400:San Francisco, CA 2.76946
+5400:Los Angeles, CA -> 5400:Singapore 50.4831
+5400:Los Angeles, CA -> 5400:Tokyo, Japan 44.3435
+5400:Los Angeles, CA -> 5400:Hong Kong 38.5676
+5400:Vienna, Austria -> 5400:Frankfurt, Germany 3.64624
+5400:Vienna, Austria -> 5400:Milan, Italy 3.11634
+5400:Reading, UnitedKingdom -> 5400:London, UnitedKingdom 0.309937
+5400:Zurich, Switzerland -> 5400:London, UnitedKingdom 3.87863
+5400:Frankfurt, Germany -> 5400:Amsterdam, Netherlands 1
+5400:Frankfurt, Germany -> 5400:Vienna, Austria 3.64624
+5400:Frankfurt, Germany -> 5400:Madrid, Spain 7.15087
+5400:Frankfurt, Germany -> 5400:London, UnitedKingdom 1.5
+5400:Frankfurt, Germany -> 5400:Stockholm, Sweden 6.71029
+5400:Frankfurt, Germany -> 5400:Milan, Italy 2.5299
+5400:Budapest, Hungary -> 5400:London, UnitedKingdom 7.32608
+5400:Madley, UnitedKingdom -> 5400:London, UnitedKingdom 0.986217
+5400:Washington, DC -> 5400:Ashburn, VA 0.225316
+5400:Dublin, Ireland -> 5400:Amsterdam, Netherlands 1.82934
+5400:Dublin, Ireland -> 5400:London, UnitedKingdom 2.32934
+5400:Milan, Italy -> 5400:Vienna, Austria 3.11634
+5400:Milan, Italy -> 5400:Frankfurt, Germany 2.5299
+5400:Milan, Italy -> 5400:London, UnitedKingdom 1.0299
+5400:San Francisco, CA -> 5400:Amsterdam, Netherlands 20.4275
+5400:San Francisco, CA -> 5400:San Jose, CA 0.381421
+5400:San Francisco, CA -> 5400:Los Angeles, CA 2.76946
+5400:San Francisco, CA -> 5400:Hayward, CA 0.215788
+5400:San Francisco, CA -> 5400:New York, NY 20.6844
+5400:San Francisco, CA -> 5400:Ashburn, VA 19.4275
+5400:San Francisco, CA -> 5400:Tokyo, Japan 46.11296
+5400:Chicago, IL -> 5400:New York, NY 5.7254
+5400:Goonhilly, UnitedKingdom -> 5400:London, UnitedKingdom 0
+5400:Brussels, Belgium -> 5400:Amsterdam, Netherlands 0.699744
+5400:Madrid, Spain -> 5400:Amsterdam, Netherlands 7.15087
+5400:Madrid, Spain -> 5400:Frankfurt, Germany 7.15087
+5400:Madrid, Spain -> 5400:London, UnitedKingdom 7.65087
+5400:Sydney, Australia -> 5400:Los Angeles, CA 60.3095
+5400:Sydney, Australia -> 5400:Singapore 31.4685
+5400:Sydney, Australia -> 5400:Hong Kong 36.8322
+5400:Stockholm, Sweden -> 5400:Amsterdam, Netherlands 5.71029
+5400:Stockholm, Sweden -> 5400:Frankfurt, Germany 6.71029
+5400:Stockholm, Sweden -> 5400:London, UnitedKingdom 6.21029

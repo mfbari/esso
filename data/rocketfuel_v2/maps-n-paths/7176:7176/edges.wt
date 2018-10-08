@@ -1,0 +1,34 @@
+7176:Manchester, UnitedKingdom -> 7176:Brussels, Belgium 2.90173
+7176:Manchester, UnitedKingdom -> 7176:Reading, UnitedKingdom 0.80596
+7176:Manchester, UnitedKingdom -> 7176:London, UnitedKingdom 1.30596
+7176:Tokyo, Japan -> 7176:Hong Kong 14.1254
+7176:Amsterdam, Netherlands -> 7176:Frankfurt, Germany 1.757086
+7176:Amsterdam, Netherlands -> 7176:Brussels, Belgium 0.699744
+7176:London, UnitedKingdom -> 7176:Paris, France 1.71247
+7176:London, UnitedKingdom -> 7176:Manchester, UnitedKingdom 1.30596
+7176:London, UnitedKingdom -> 7176:Brussels, Belgium 1.59577
+7176:London, UnitedKingdom -> 7176:Reading, UnitedKingdom 0.5
+7176:London, UnitedKingdom -> 7176:Dublin, Ireland 2.32934
+7176:Sao Paolo, Brazil -> 7176:Rio de Janeiro, Brazil 1.76306
+7176:Frankfurt, Germany -> 7176:Stockholm, Sweden 6.00851
+7176:Frankfurt, Germany -> 7176:Paris, France 2.34013
+7176:Frankfurt, Germany -> 7176:Dusseldorf, Germany 0.944468
+7176:Frankfurt, Germany -> 7176:Milan, Italy 2.5299
+7176:Frankfurt, Germany -> 7176:Amsterdam, Netherlands 1.757086
+7176:Madrid, Spain -> 7176:Paris, France 5.25377
+7176:Hong Kong -> 7176:Tokyo, Japan 14.1254
+7176:Milan, Italy -> 7176:Frankfurt, Germany 2.5299
+7176:Dusseldorf, Germany -> 7176:Frankfurt, Germany 0.944468
+7176:Reading, UnitedKingdom -> 7176:Manchester, UnitedKingdom 0.80596
+7176:Reading, UnitedKingdom -> 7176:London, UnitedKingdom 0.5
+7176:Rio de Janeiro, Brazil -> 7176:Sao Paolo, Brazil 1.76306
+7176:Brussels, Belgium -> 7176:Manchester, UnitedKingdom 2.90173
+7176:Brussels, Belgium -> 7176:London, UnitedKingdom 1.59577
+7176:Brussels, Belgium -> 7176:Amsterdam, Netherlands 0.699744
+7176:Stockholm, Sweden -> 7176:Frankfurt, Germany 6.00851
+7176:Stockholm, Sweden -> 7176:Copenhagen, Denmark 2.62277
+7176:Paris, France -> 7176:Frankfurt, Germany 2.34013
+7176:Paris, France -> 7176:Madrid, Spain 5.25377
+7176:Paris, France -> 7176:London, UnitedKingdom 1.71247
+7176:Dublin, Ireland -> 7176:London, UnitedKingdom 2.32934
+7176:Copenhagen, Denmark -> 7176:Stockholm, Sweden 2.62277

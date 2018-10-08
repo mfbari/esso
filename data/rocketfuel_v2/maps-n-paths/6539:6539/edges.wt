@@ -1,0 +1,26 @@
+6539:Montreal, Canada -> 6539:Seattle, WA 18.3654
+6539:Montreal, Canada -> 6539:Toronto, Canada 3.0792
+6539:Montreal, Canada -> 6539:Vancouver, Canada 18.8654
+6539:Montreal, Canada -> 6539:Halifax, Canada 4.21943
+6539:Montreal, Canada -> 6539:Saint Johns, Canada 4.71943
+6539:Saint Johns, Canada -> 6539:Halifax, Canada 0.5
+6539:Saint Johns, Canada -> 6539:Montreal, Canada 4.71943
+6539:Calgary, Canada -> 6539:Toronto, Canada 13.5518
+6539:Calgary, Canada -> 6539:Vancouver, Canada 4.2344
+6539:Seattle, WA -> 6539:Vancouver, Canada 0.5
+6539:Seattle, WA -> 6539:Halifax, Canada 21.58483
+6539:Seattle, WA -> 6539:Montreal, Canada 18.3654
+6539:Toronto, Canada -> 6539:Vancouver, Canada 16.7862
+6539:Toronto, Canada -> 6539:Halifax, Canada 6.29863
+6539:Toronto, Canada -> 6539:Montreal, Canada 3.0792
+6539:Toronto, Canada -> 6539:Calgary, Canada 13.5518
+6539:Vancouver, Canada -> 6539:Seattle, WA 0.5
+6539:Vancouver, Canada -> 6539:Toronto, Canada 16.7862
+6539:Vancouver, Canada -> 6539:Halifax, Canada 22.08483
+6539:Vancouver, Canada -> 6539:Montreal, Canada 18.8654
+6539:Vancouver, Canada -> 6539:Calgary, Canada 4.2344
+6539:Halifax, Canada -> 6539:Seattle, WA 21.58483
+6539:Halifax, Canada -> 6539:Toronto, Canada 6.29863
+6539:Halifax, Canada -> 6539:Vancouver, Canada 22.08483
+6539:Halifax, Canada -> 6539:Montreal, Canada 4.21943
+6539:Halifax, Canada -> 6539:Saint Johns, Canada 0.5

@@ -1,0 +1,68 @@
+6461:Amsterdam, Netherlands -> 6461:Frankfurt, Germany 141
+6461:Amsterdam, Netherlands -> 6461:London, UnitedKingdom 8275
+6461:Atlanta, GA -> 6461:Dallas, TX 681
+6461:Atlanta, GA -> 6461:Houston, TX 120
+6461:Atlanta, GA -> 6461:New York, NY 538
+6461:Atlanta, GA -> 6461:Washington, DC 234
+6461:Boston, MA -> 6461:New York, NY 6
+6461:Boston, MA -> 6461:Washington, DC 4
+6461:Chicago, IL -> 6461:Dallas, TX 3631
+6461:Chicago, IL -> 6461:New York, NY 7897
+6461:Chicago, IL -> 6461:Relay, MD 4
+6461:Chicago, IL -> 6461:Seattle, WA 2546
+6461:Dallas, TX -> 6461:Atlanta, GA 681
+6461:Dallas, TX -> 6461:Chicago, IL 3631
+6461:Dallas, TX -> 6461:Houston, TX 74
+6461:Dallas, TX -> 6461:Relay, MD 11
+6461:Dallas, TX -> 6461:San Jose, CA 4859
+6461:Dallas, TX -> 6461:Washington, DC 3752
+6461:Frankfurt, Germany -> 6461:Amsterdam, Netherlands 141
+6461:Frankfurt, Germany -> 6461:London, UnitedKingdom 16424
+6461:Frankfurt, Germany -> 6461:Paris, France 31
+6461:Frankfurt, Germany -> 6461:Vienna, Austria 1416
+6461:Houston, TX -> 6461:Atlanta, GA 120
+6461:Houston, TX -> 6461:Dallas, TX 74
+6461:London, UnitedKingdom -> 6461:Amsterdam, Netherlands 8275
+6461:London, UnitedKingdom -> 6461:Frankfurt, Germany 16424
+6461:London, UnitedKingdom -> 6461:New York, NY 29398
+6461:London, UnitedKingdom -> 6461:Paris, France 1683
+6461:London, UnitedKingdom -> 6461:Relay, MD 208
+6461:London, UnitedKingdom -> 6461:Vienna, Austria 7057
+6461:London, UnitedKingdom -> 6461:Washington, DC 33516
+6461:Los Angeles, CA -> 6461:San Jose, CA 23105
+6461:Napa, CA -> 6461:San Jose, CA 3325
+6461:New York, NY -> 6461:Atlanta, GA 538
+6461:New York, NY -> 6461:Boston, MA 6
+6461:New York, NY -> 6461:Chicago, IL 7897
+6461:New York, NY -> 6461:London, UnitedKingdom 29398
+6461:New York, NY -> 6461:Seattle, WA 3620
+6461:New York, NY -> 6461:Washington, DC 25687
+6461:Palo Alto, CA -> 6461:San Jose, CA 40503
+6461:Paris, France -> 6461:Frankfurt, Germany 31
+6461:Paris, France -> 6461:London, UnitedKingdom 1683
+6461:Relay, MD -> 6461:Chicago, IL 4
+6461:Relay, MD -> 6461:Dallas, TX 11
+6461:Relay, MD -> 6461:London, UnitedKingdom 208
+6461:Relay, MD -> 6461:San Jose, CA 165
+6461:Relay, MD -> 6461:Washington, DC 174
+6461:San Jose, CA -> 6461:Dallas, TX 4859
+6461:San Jose, CA -> 6461:Los Angeles, CA 23105
+6461:San Jose, CA -> 6461:Napa, CA 3325
+6461:San Jose, CA -> 6461:Palo Alto, CA 40503
+6461:San Jose, CA -> 6461:Relay, MD 165
+6461:San Jose, CA -> 6461:Seattle, WA 6328
+6461:San Jose, CA -> 6461:Tokyo, Japan 4873
+6461:San Jose, CA -> 6461:Washington, DC 48540
+6461:Seattle, WA -> 6461:Chicago, IL 2546
+6461:Seattle, WA -> 6461:New York, NY 3620
+6461:Seattle, WA -> 6461:San Jose, CA 6328
+6461:Tokyo, Japan -> 6461:San Jose, CA 4873
+6461:Vienna, Austria -> 6461:Frankfurt, Germany 1416
+6461:Vienna, Austria -> 6461:London, UnitedKingdom 7057
+6461:Washington, DC -> 6461:Atlanta, GA 234
+6461:Washington, DC -> 6461:Boston, MA 4
+6461:Washington, DC -> 6461:Dallas, TX 3752
+6461:Washington, DC -> 6461:London, UnitedKingdom 33516
+6461:Washington, DC -> 6461:New York, NY 25687
+6461:Washington, DC -> 6461:Relay, MD 174
+6461:Washington, DC -> 6461:San Jose, CA 48540

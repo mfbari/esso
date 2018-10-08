@@ -1,0 +1,18 @@
+4006:Chicago, IL -> 4006:Dallas, TX 82
+4006:Chicago, IL -> 4006:Fort Worth, TX 2
+4006:Chicago, IL -> 4006:New York, NY 2
+4006:Chicago, IL -> 4006:San Francisco, CA 4
+4006:Dallas, TX -> 4006:Chicago, IL 82
+4006:Dallas, TX -> 4006:San Francisco, CA 20
+4006:Fort Worth, TX -> 4006:Chicago, IL 2
+4006:Fort Worth, TX -> 4006:San Francisco, CA 5
+4006:New York, NY -> 4006:Chicago, IL 2
+4006:New York, NY -> 4006:San Francisco, CA 63
+4006:Palo Alto, CA -> 4006:San Francisco, CA 157
+4006:San Francisco, CA -> 4006:Chicago, IL 4
+4006:San Francisco, CA -> 4006:Dallas, TX 20
+4006:San Francisco, CA -> 4006:Fort Worth, TX 5
+4006:San Francisco, CA -> 4006:New York, NY 63
+4006:San Francisco, CA -> 4006:Palo Alto, CA 157
+4006:San Francisco, CA -> 4006:Washington, DC 20
+4006:Washington, DC -> 4006:San Francisco, CA 20

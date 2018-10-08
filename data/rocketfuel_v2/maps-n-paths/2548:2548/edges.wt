@@ -1,0 +1,116 @@
+2548:Seattle, WA -> 2548:San Francisco, CA 5.46426
+2548:Seattle, WA -> 2548:Portland, OR 1.16321
+2548:Boston, MA -> 2548:Detroit, MI 4.93876
+2548:Boston, MA -> 2548:Washington, DC 3.11678
+2548:Boston, MA -> 2548:New York, NY 2.61678
+2548:Cleveland, OH -> 2548:Pittsburg, PA 2.5
+2548:Cleveland, OH -> 2548:Detroit, MI 0.754422
+2548:San Francisco, CA -> 2548:Seattle, WA 5.46426
+2548:San Francisco, CA -> 2548:Los Angeles, CA 2
+2548:San Francisco, CA -> 2548:San Jose, CA 0.381420811600469
+2548:San Francisco, CA -> 2548:Chicago, IL 14.96
+2548:San Francisco, CA -> 2548:Washington, DC 13.96
+2548:San Francisco, CA -> 2548:Denver, CO 8.64035
+2548:Philadelphia, PA -> 2548:Baltimore, MD 0.5
+2548:Philadelphia, PA -> 2548:New York, NY 1
+2548:Los Angeles, CA -> 2548:Santa Ana, CA 0.315105
+2548:Los Angeles, CA -> 2548:San Francisco, CA 2
+2548:Los Angeles, CA -> 2548:Phoenix, AZ 2.94005
+2548:Los Angeles, CA -> 2548:San Diego, CA 0.930875068217323
+2548:Houston, TX -> 2548:Dallas, TX 1.79734
+2548:Houston, TX -> 2548:Tampa, FL 6.36254
+2548:Houston, TX -> 2548:San Antonio, TX 1.51578
+2548:Chicago, IL -> 2548:Saint Louis, MO 2.09175
+2548:Chicago, IL -> 2548:Detroit, MI 2.82198
+2548:Chicago, IL -> 2548:Dallas, TX 2
+2548:Chicago, IL -> 2548:Minneapolis, MN 2.85502
+2548:Chicago, IL -> 2548:Cincinnati, OH 1.00704
+2548:Chicago, IL -> 2548:San Francisco, CA 14.96
+2548:Chicago, IL -> 2548:Denver, CO 7.31965
+2548:Chicago, IL -> 2548:New York, NY 0.5
+2548:Raleigh, NC -> 2548:Atlanta, GA 2.87055
+2548:Ashburn, VA -> 2548:Washington, DC 0.225316
+2548:Atlanta, GA -> 2548:Richmond, VA 5.87074
+2548:Atlanta, GA -> 2548:Detroit, MI 4.82198
+2548:Atlanta, GA -> 2548:Dallas, TX 1
+2548:Atlanta, GA -> 2548:Cincinnati, OH 3.00704
+2548:Atlanta, GA -> 2548:Washington, DC 2
+2548:Atlanta, GA -> 2548:Raleigh, NC 2.87055
+2548:Atlanta, GA -> 2548:Miami, FL 8.65988
+2548:Atlanta, GA -> 2548:Charlotte, NC 1.83053
+2548:Miami, FL -> 2548:Fort Lauderdale, FL 0.5
+2548:Miami, FL -> 2548:Atlanta, GA 8.65988
+2548:Richmond, VA -> 2548:Washington, DC 2.87074
+2548:Richmond, VA -> 2548:Atlanta, GA 5.87074
+2548:Minneapolis, MN -> 2548:Chicago, IL 2.85502
+2548:Portland, OR -> 2548:Seattle, WA 1.16321
+2548:New York, NY -> 2548:Newark, NJ 0.0710685
+2548:New York, NY -> 2548:Boston, MA 2.61678
+2548:New York, NY -> 2548:Chicago, IL 0.5
+2548:New York, NY -> 2548:Albany, NY 1.08194
+2548:New York, NY -> 2548:Washington, DC 1.5
+2548:New York, NY -> 2548:Philadelphia, PA 1
+2548:Albany, NY -> 2548:New York, NY 1.08194
+2548:San Diego, CA -> 2548:Los Angeles, CA 0.930875068217323
+2548:San Diego, CA -> 2548:Dallas, TX 11.96
+2548:San Diego, CA -> 2548:San Jose, CA 2
+2548:Detroit, MI -> 2548:Dallas, TX 4.82198
+2548:Detroit, MI -> 2548:Boston, MA 4.93876
+2548:Detroit, MI -> 2548:Chicago, IL 2.82198
+2548:Detroit, MI -> 2548:Cleveland, OH 0.754422
+2548:Detroit, MI -> 2548:Atlanta, GA 4.82198
+2548:Detroit, MI -> 2548:San Antonio, TX 7.1351
+2548:Hagerstown, MD -> 2548:Washington, DC 0.51094
+2548:Newark, NJ -> 2548:New York, NY 0.0710685
+2548:Santa Ana, CA -> 2548:Los Angeles, CA 0.315105
+2548:St. Louis, MO -> 2548:Saint Louis, MO 0.000543744
+2548:San Jose, CA -> 2548:San Francisco, CA 0.381420811600469
+2548:San Jose, CA -> 2548:San Diego, CA 2
+2548:San Jose, CA -> 2548:Sacramento, CA 0.714419
+2548:Tampa, FL -> 2548:Houston, TX 6.36254
+2548:Tampa, FL -> 2548:Fort Lauderdale, FL 2
+2548:Tampa, FL -> 2548:San Antonio, TX 5.84676
+2548:Cincinnati, OH -> 2548:Chicago, IL 1.00704
+2548:Cincinnati, OH -> 2548:Atlanta, GA 3.00704
+2548:Norfolk, VA -> 2548:Washington, DC 1.15209
+2548:Baltimore, MD -> 2548:Washington, DC 1
+2548:Baltimore, MD -> 2548:Philadelphia, PA 0.5
+2548:Austin, TX -> 2548:Dallas, TX 1.45877
+2548:Austin, TX -> 2548:San Antonio, TX 1.85435
+2548:Saint Louis, MO -> 2548:St. Louis, MO 0.000543744
+2548:Saint Louis, MO -> 2548:Chicago, IL 2.09175
+2548:Oklahoma City, OK -> 2548:Dallas, TX 1.53244
+2548:Dallas, TX -> 2548:Austin, TX 1.45877
+2548:Dallas, TX -> 2548:Houston, TX 1.79734
+2548:Dallas, TX -> 2548:Detroit, MI 4.82198
+2548:Dallas, TX -> 2548:Oklahoma City, OK 1.53244
+2548:Dallas, TX -> 2548:Chicago, IL 2
+2548:Dallas, TX -> 2548:San Diego, CA 11.96
+2548:Dallas, TX -> 2548:Atlanta, GA 1
+2548:Phoenix, AZ -> 2548:Los Angeles, CA 2.94005
+2548:Denver, CO -> 2548:Englewood, CO 0.0837634
+2548:Denver, CO -> 2548:Chicago, IL 7.31965
+2548:Denver, CO -> 2548:San Francisco, CA 8.64035
+2548:Englewood, CO -> 2548:Denver, CO 0.0837634
+2548:Pittsburg, PA -> 2548:Washington, DC 4.076402
+2548:Pittsburg, PA -> 2548:Cleveland, OH 2.5
+2548:Fort Lauderdale, FL -> 2548:Tampa, FL 2
+2548:Fort Lauderdale, FL -> 2548:Miami, FL 0.5
+2548:Reston, VA -> 2548:Washington, DC 0.146741
+2548:Washington, DC -> 2548:Richmond, VA 2.87074
+2548:Washington, DC -> 2548:Norfolk, VA 1.15209
+2548:Washington, DC -> 2548:Baltimore, MD 1
+2548:Washington, DC -> 2548:Boston, MA 3.11678
+2548:Washington, DC -> 2548:San Francisco, CA 13.96
+2548:Washington, DC -> 2548:New York, NY 1.5
+2548:Washington, DC -> 2548:Hagerstown, MD 0.51094
+2548:Washington, DC -> 2548:Pittsburg, PA 4.076402
+2548:Washington, DC -> 2548:Reston, VA 0.146741
+2548:Washington, DC -> 2548:Ashburn, VA 0.225316
+2548:Washington, DC -> 2548:Atlanta, GA 2
+2548:Sacramento, CA -> 2548:San Jose, CA 0.714419
+2548:San Antonio, TX -> 2548:Austin, TX 1.85435
+2548:San Antonio, TX -> 2548:Houston, TX 1.51578
+2548:San Antonio, TX -> 2548:Detroit, MI 7.1351
+2548:San Antonio, TX -> 2548:Tampa, FL 5.84676
+2548:Charlotte, NC -> 2548:Atlanta, GA 1.83053

@@ -228,8 +228,10 @@ namespace izlib {
     iz_edge_list edges;
     if (path.size() == 0) return edges;
     int u = path.nodes[0], v, _u, _v;
+    assert(u >= 0 && u < node_count);
     for (size_t i = 1; i < path.size(); ++i) {
       v = path.nodes[i];
+      assert(v >= 0 && v < node_count);
       _u = std::min(u, v);
       _v = std::max(u, v);
       edges.emplace_back(adj_matrix[_u].find(_v)->second);
@@ -265,6 +267,7 @@ namespace izlib {
     std::tie(u, v) = std::minmax({u,v});
     auto edge_itr = adj_matrix[u].find(v);
     if (edge_itr != adj_matrix[u].end()) {
+      edge_itr->second.capacity = bandwidth;
       edge_itr->second.residual = bandwidth;
     }
   }

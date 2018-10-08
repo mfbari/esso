@@ -1,0 +1,26 @@
+4513:New York, NY -> 4513:Chicago, IL 5.7254
+4513:New York, NY -> 4513:Boston, MA 1.52819
+4513:New York, NY -> 4513:Washington, DC 1.62733
+4513:New York, NY -> 4513:London, UnitedKingdom 27.8378
+4513:San Jose, CA -> 4513:Fullerton, CA 2.63046
+4513:San Jose, CA -> 4513:Chicago, IL 14.7744
+4513:San Jose, CA -> 4513:Palo Alto, CA 0.124478
+4513:San Jose, CA -> 4513:Seattle, WA 5.71562
+4513:San Jose, CA -> 4513:San Francisco, CA 0.381421
+4513:London, UnitedKingdom -> 4513:Amsterdam, Netherlands 1.88533
+4513:London, UnitedKingdom -> 4513:Frankfurt, Germany 3.15804
+4513:London, UnitedKingdom -> 4513:New York, NY 27.8378
+4513:Atlanta, GA -> 4513:Washington, DC 4.38019
+4513:Amsterdam, Netherlands -> 4513:London, UnitedKingdom 1.88533
+4513:Fullerton, CA -> 4513:San Jose, CA 2.63046
+4513:Fullerton, CA -> 4513:Washington, DC 18.3626
+4513:Seattle, WA -> 4513:San Jose, CA 5.71562
+4513:Palo Alto, CA -> 4513:San Jose, CA 0.124478
+4513:Frankfurt, Germany -> 4513:London, UnitedKingdom 3.15804
+4513:Washington, DC -> 4513:Fullerton, CA 18.3626
+4513:Washington, DC -> 4513:Atlanta, GA 4.38019
+4513:Washington, DC -> 4513:New York, NY 1.62733
+4513:Chicago, IL -> 4513:San Jose, CA 14.7744
+4513:Chicago, IL -> 4513:New York, NY 5.7254
+4513:San Francisco, CA -> 4513:San Jose, CA 0.381421
+4513:Boston, MA -> 4513:New York, NY 1.52819

@@ -1,0 +1,88 @@
+1221:Adelaide, Australia -> 1221:Darwin, Australia 723
+1221:Adelaide, Australia -> 1221:Melbourne, Australia 18755
+1221:Adelaide, Australia -> 1221:Mount Gambier, Australia 263
+1221:Adelaide, Australia -> 1221:Perth, Australia 8032
+1221:Adelaide, Australia -> 1221:Port Pirie, Australia 82
+1221:Adelaide, Australia -> 1221:Victor Harbour, Australia 33
+1221:Adelaide, Australia -> 1221:Yorketown, Australia 68
+1221:Albury, Australia -> 1221:Melbourne, Australia 533
+1221:Armidale, Australia -> 1221:Sydney, Australia 1134
+1221:Ballarat, Australia -> 1221:Melbourne, Australia 535
+1221:Bathurst, Australia -> 1221:Sydney, Australia 74
+1221:Bendigo, Australia -> 1221:Melbourne, Australia 486
+1221:Brisbane, Australia -> 1221:Cairns, Australia 810
+1221:Brisbane, Australia -> 1221:Mackay, Australia 265
+1221:Brisbane, Australia -> 1221:Maroochydore, Australia 320
+1221:Brisbane, Australia -> 1221:Rockhampton, Australia 240
+1221:Brisbane, Australia -> 1221:Southport, Australia 83
+1221:Brisbane, Australia -> 1221:Sydney, Australia 13775
+1221:Brisbane, Australia -> 1221:Toowoomba, Australia 324
+1221:Brisbane, Australia -> 1221:Townsville, Australia 573
+1221:Bunbury, Australia -> 1221:Perth, Australia 82
+1221:Cairns, Australia -> 1221:Brisbane, Australia 810
+1221:Campbelltown, Australia -> 1221:Sydney, Australia 78
+1221:Canberra, Australia -> 1221:Melbourne, Australia 2
+1221:Canberra, Australia -> 1221:Sydney, Australia 8369
+1221:Darwin, Australia -> 1221:Adelaide, Australia 723
+1221:Gosford, Australia -> 1221:Sydney, Australia 241
+1221:Hobart, Australia -> 1221:Launceston, Tazmania 1145
+1221:Hobart, Australia -> 1221:Melbourne, Australia 3956
+1221:Hobart, Australia -> 1221:Ulverstone, Tasmania 29
+1221:Kalgoorlie, Australia -> 1221:Perth, Australia 81
+1221:Launceston, Tazmania -> 1221:Hobart, Australia 1145
+1221:Lismore, Australia -> 1221:Sydney, Australia 328
+1221:Los Angeles, CA -> 1221:Sydney, Australia 15
+1221:Mackay, Australia -> 1221:Brisbane, Australia 265
+1221:Maroochydore, Australia -> 1221:Brisbane, Australia 320
+1221:Melbourne, Australia -> 1221:Adelaide, Australia 18755
+1221:Melbourne, Australia -> 1221:Albury, Australia 533
+1221:Melbourne, Australia -> 1221:Ballarat, Australia 535
+1221:Melbourne, Australia -> 1221:Bendigo, Australia 486
+1221:Melbourne, Australia -> 1221:Canberra, Australia 2
+1221:Melbourne, Australia -> 1221:Hobart, Australia 3956
+1221:Melbourne, Australia -> 1221:Mildura, Australia 1057
+1221:Melbourne, Australia -> 1221:Shepparton, Australia 837
+1221:Melbourne, Australia -> 1221:Sydney, Australia 55152
+1221:Melbourne, Australia -> 1221:Warnambool, Australia 76
+1221:Mildura, Australia -> 1221:Melbourne, Australia 1057
+1221:Moree, Australia -> 1221:Sydney, Australia 161
+1221:Mount Gambier, Australia -> 1221:Adelaide, Australia 263
+1221:Newcastle, Australia -> 1221:Sydney, Australia 1109
+1221:Orange, Australia -> 1221:Sydney, Australia 164
+1221:Palo Alto, CA -> 1221:Sydney, Australia 21241
+1221:Penrith, Australia -> 1221:Sydney, Australia 161
+1221:Perth, Australia -> 1221:Adelaide, Australia 8032
+1221:Perth, Australia -> 1221:Bunbury, Australia 82
+1221:Perth, Australia -> 1221:Kalgoorlie, Australia 81
+1221:Port Maquarie, Australia -> 1221:Sydney, Australia 1330
+1221:Port Pirie, Australia -> 1221:Adelaide, Australia 82
+1221:Rockhampton, Australia -> 1221:Brisbane, Australia 240
+1221:San Jose, CA -> 1221:Sydney, Australia 207
+1221:Shepparton, Australia -> 1221:Melbourne, Australia 837
+1221:Southport, Australia -> 1221:Brisbane, Australia 83
+1221:Sydney, Australia -> 1221:Armidale, Australia 1134
+1221:Sydney, Australia -> 1221:Bathurst, Australia 74
+1221:Sydney, Australia -> 1221:Brisbane, Australia 13775
+1221:Sydney, Australia -> 1221:Campbelltown, Australia 78
+1221:Sydney, Australia -> 1221:Canberra, Australia 8369
+1221:Sydney, Australia -> 1221:Gosford, Australia 241
+1221:Sydney, Australia -> 1221:Lismore, Australia 328
+1221:Sydney, Australia -> 1221:Los Angeles, CA 15
+1221:Sydney, Australia -> 1221:Melbourne, Australia 55152
+1221:Sydney, Australia -> 1221:Moree, Australia 161
+1221:Sydney, Australia -> 1221:Newcastle, Australia 1109
+1221:Sydney, Australia -> 1221:Orange, Australia 164
+1221:Sydney, Australia -> 1221:Palo Alto, CA 21241
+1221:Sydney, Australia -> 1221:Penrith, Australia 161
+1221:Sydney, Australia -> 1221:Port Maquarie, Australia 1330
+1221:Sydney, Australia -> 1221:San Jose, CA 207
+1221:Sydney, Australia -> 1221:Tamworth, Australia 77
+1221:Sydney, Australia -> 1221:Wollongong, Australia 425
+1221:Tamworth, Australia -> 1221:Sydney, Australia 77
+1221:Toowoomba, Australia -> 1221:Brisbane, Australia 324
+1221:Townsville, Australia -> 1221:Brisbane, Australia 573
+1221:Ulverstone, Tasmania -> 1221:Hobart, Australia 29
+1221:Victor Harbour, Australia -> 1221:Adelaide, Australia 33
+1221:Warnambool, Australia -> 1221:Melbourne, Australia 76
+1221:Wollongong, Australia -> 1221:Sydney, Australia 425
+1221:Yorketown, Australia -> 1221:Adelaide, Australia 68

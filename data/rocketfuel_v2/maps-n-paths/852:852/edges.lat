@@ -1,0 +1,68 @@
+852:Bonaventure, Canada -> 852:Rimouski, Canada 1.15452398844909
+852:Calgary, Canada -> 852:Edmonton, Canada 1.40476322288213
+852:Calgary, Canada -> 852:Vancouver, Canada 3.36227637339117
+852:Calgary, Canada -> 852:Winnipeg, Canada 6.01032098873542
+852:Chicago, IL -> 852:Toronto, Canada 3.52496412161527
+852:Chicago, IL -> 852:Winnipeg, Canada 5.7726894331061
+852:Edmonton, Canada -> 852:Calgary, Canada 1.40476322288213
+852:Edmonton, Canada -> 852:Grande Prairie, Canada 1.94572903684476
+852:Edmonton, Canada -> 852:Winnipeg, Canada 5.95862054278461
+852:Grande Prairie, Canada -> 852:Edmonton, Canada 1.94572903684476
+852:Halifax, Canada -> 852:Moncton, Canada 0.928628296003783
+852:Halifax, Canada -> 852:Montreal, Canada 3.93645550738428
+852:Halifax, Canada -> 852:Sydney, Canada 1.57185124110834
+852:Hauterive, Canada -> 852:Rimouski, Canada 0.4384101682027
+852:Kamloops, Canada -> 852:New Westminster, Canada 1.2273571558764
+852:Kingston, Canada -> 852:Ottawa, Canada 0.730511895869429
+852:Markham, Canada -> 852:New Market, Canada 0.144168123068645
+852:Markham, Canada -> 852:Toronto, Canada 0.118147061636363
+852:Matane, Canada -> 852:Rimouski, Canada 0.439219020039119
+852:Moncton, Canada -> 852:Halifax, Canada 0.928628296003783
+852:Montreal, Canada -> 852:Halifax, Canada 3.93645550738428
+852:Montreal, Canada -> 852:New York, NY 2.66507712286384
+852:Montreal, Canada -> 852:Ottawa, Canada 0.832690451912977
+852:Montreal, Canada -> 852:Quebec, Canada 1.1474880133731
+852:Montreal, Canada -> 852:Rimouski, Canada 2.50397754871764
+852:Montreal, Canada -> 852:Saint Georges de Beauce, Canada 2.51034994506104
+852:Montreal, Canada -> 852:Saint Margaret Bay, Canada 2.51034994506104
+852:Montreal, Canada -> 852:Thetford Mines, Canada 0.936015089714991
+852:Montreal, Canada -> 852:Toronto, Canada 2.51034994506104
+852:New Market, Canada -> 852:Markham, Canada 0.144168123068645
+852:New Westminster, Canada -> 852:Kamloops, Canada 1.2273571558764
+852:New Westminster, Canada -> 852:Seattle, WA 0.902820114029267
+852:New Westminster, Canada -> 852:Surrey, Canada 0.0462419544323971
+852:New Westminster, Canada -> 852:Vancouver, Canada 0.0868994349702557
+852:New York, NY -> 852:Montreal, Canada 2.66507712286384
+852:New York, NY -> 852:Toronto, Canada 2.74867344921157
+852:Ottawa, Canada -> 852:Kingston, Canada 0.730511895869429
+852:Ottawa, Canada -> 852:Montreal, Canada 0.832690451912977
+852:Palo Alto, CA -> 852:Seattle, WA 5.65399697685604
+852:Quebec, Canada -> 852:Montreal, Canada 1.1474880133731
+852:Rimouski, Canada -> 852:Bonaventure, Canada 1.15452398844909
+852:Rimouski, Canada -> 852:Hauterive, Canada 0.4384101682027
+852:Rimouski, Canada -> 852:Matane, Canada 0.439219020039119
+852:Rimouski, Canada -> 852:Montreal, Canada 2.50397754871764
+852:Saint Georges de Beauce, Canada -> 852:Montreal, Canada 2.51034994506104
+852:Saint Margaret Bay, Canada -> 852:Montreal, Canada 2.51034994506104
+852:Seattle, WA -> 852:New Westminster, Canada 0.902820114029267
+852:Seattle, WA -> 852:Palo Alto, CA 5.65399697685604
+852:Seattle, WA -> 852:Vancouver, Canada 0.959333136541764
+852:Surrey, Canada -> 852:New Westminster, Canada 0.0462419544323971
+852:Surrey, Canada -> 852:Vancouver, Canada 0.133127378421707
+852:Sydney, Canada -> 852:Halifax, Canada 1.57185124110834
+852:Thetford Mines, Canada -> 852:Montreal, Canada 0.936015089714991
+852:Toronto, Canada -> 852:Chicago, IL 3.52496412161527
+852:Toronto, Canada -> 852:Markham, Canada 0.118147061636363
+852:Toronto, Canada -> 852:Montreal, Canada 2.51034994506104
+852:Toronto, Canada -> 852:New York, NY 2.74867344921157
+852:Toronto, Canada -> 852:Winnipeg, Canada 7.57172994051468
+852:Vancouver, Canada -> 852:Calgary, Canada 3.36227637339117
+852:Vancouver, Canada -> 852:New Westminster, Canada 0.0868994349702557
+852:Vancouver, Canada -> 852:Seattle, WA 0.959333136541764
+852:Vancouver, Canada -> 852:Surrey, Canada 0.133127378421707
+852:Vancouver, Canada -> 852:Victoria, Canada 4.32796242243108
+852:Victoria, Canada -> 852:Vancouver, Canada 4.32796242243108
+852:Winnipeg, Canada -> 852:Calgary, Canada 6.01032098873542
+852:Winnipeg, Canada -> 852:Chicago, IL 5.7726894331061
+852:Winnipeg, Canada -> 852:Edmonton, Canada 5.95862054278461
+852:Winnipeg, Canada -> 852:Toronto, Canada 7.57172994051468

@@ -1,0 +1,68 @@
+852:Vancouver, Canada -> 852:Surrey, Canada 0.5
+852:Vancouver, Canada -> 852:New Westminster, Canada 0.0868994349702557
+852:Vancouver, Canada -> 852:Calgary, Canada 3.36228
+852:Vancouver, Canada -> 852:Seattle, WA 0.90282
+852:Vancouver, Canada -> 852:Victoria, Canada 4.32796
+852:Seattle, WA -> 852:Vancouver, Canada 0.90282
+852:Seattle, WA -> 852:New Westminster, Canada 0.90282
+852:Seattle, WA -> 852:Palo Alto, CA 5.654
+852:New York, NY -> 852:Montreal, Canada 2.66508
+852:New York, NY -> 852:Toronto, Canada 2.74867
+852:Surrey, Canada -> 852:Vancouver, Canada 0.5
+852:Surrey, Canada -> 852:New Westminster, Canada 0.5
+852:Kamloops, Canada -> 852:New Westminster, Canada 1.22736
+852:Chicago, IL -> 852:Winnipeg, Canada 11.09669
+852:Chicago, IL -> 852:Toronto, Canada 3.52496
+852:Montreal, Canada -> 852:Quebec, Canada 1.14749
+852:Montreal, Canada -> 852:Halifax, Canada 3.93646
+852:Montreal, Canada -> 852:Ottawa, Canada 0.83269
+852:Montreal, Canada -> 852:Saint Margaret Bay, Canada 2.51035
+852:Montreal, Canada -> 852:Toronto, Canada 2.51035
+852:Montreal, Canada -> 852:Thetford Mines, Canada 0.936015
+852:Montreal, Canada -> 852:Rimouski, Canada 2.50398
+852:Montreal, Canada -> 852:Saint Georges de Beauce, Canada 2.51035
+852:Montreal, Canada -> 852:New York, NY 2.66508
+852:Edmonton, Canada -> 852:Winnipeg, Canada 5.95862
+852:Edmonton, Canada -> 852:Grande Prairie, Canada 1.94573
+852:Edmonton, Canada -> 852:Calgary, Canada 1.40476
+852:Ottawa, Canada -> 852:Montreal, Canada 0.83269
+852:Ottawa, Canada -> 852:Kingston, Canada 0.730512
+852:Hauterive, Canada -> 852:Rimouski, Canada 0.43841
+852:Rimouski, Canada -> 852:Hauterive, Canada 0.43841
+852:Rimouski, Canada -> 852:Montreal, Canada 2.50398
+852:Rimouski, Canada -> 852:Matane, Canada 0.439219
+852:Rimouski, Canada -> 852:Bonaventure, Canada 1.15452
+852:Calgary, Canada -> 852:Vancouver, Canada 3.36228
+852:Calgary, Canada -> 852:Winnipeg, Canada 6.01032
+852:Calgary, Canada -> 852:Edmonton, Canada 1.40476
+852:Markham, Canada -> 852:New Market, Canada 0.144168
+852:Markham, Canada -> 852:Toronto, Canada 0.118147
+852:Thetford Mines, Canada -> 852:Montreal, Canada 0.936015
+852:Matane, Canada -> 852:Rimouski, Canada 0.439219
+852:Winnipeg, Canada -> 852:Edmonton, Canada 5.95862
+852:Winnipeg, Canada -> 852:Calgary, Canada 6.01032
+852:Winnipeg, Canada -> 852:Toronto, Canada 7.57173
+852:Winnipeg, Canada -> 852:Chicago, IL 11.09669
+852:Bonaventure, Canada -> 852:Rimouski, Canada 1.15452
+852:Grande Prairie, Canada -> 852:Edmonton, Canada 1.94573
+852:Saint Margaret Bay, Canada -> 852:Montreal, Canada 2.51035
+852:Saint Georges de Beauce, Canada -> 852:Montreal, Canada 2.51035
+852:New Market, Canada -> 852:Markham, Canada 0.144168
+852:Victoria, Canada -> 852:Vancouver, Canada 4.32796
+852:Quebec, Canada -> 852:Montreal, Canada 1.14749
+852:Toronto, Canada -> 852:Winnipeg, Canada 7.57173
+852:Toronto, Canada -> 852:Montreal, Canada 2.51035
+852:Toronto, Canada -> 852:New York, NY 2.74867
+852:Toronto, Canada -> 852:Markham, Canada 0.118147
+852:Toronto, Canada -> 852:Chicago, IL 3.52496
+852:Kingston, Canada -> 852:Ottawa, Canada 0.730512
+852:Sydney, Canada -> 852:Halifax, Canada 1.57185
+852:New Westminster, Canada -> 852:Vancouver, Canada 0.0868994349702557
+852:New Westminster, Canada -> 852:Surrey, Canada 0.5
+852:New Westminster, Canada -> 852:Kamloops, Canada 1.22736
+852:New Westminster, Canada -> 852:Seattle, WA 0.90282
+852:Halifax, Canada -> 852:Sydney, Canada 1.57185
+852:Halifax, Canada -> 852:Montreal, Canada 3.93646
+852:Halifax, Canada -> 852:Moncton, Canada 0.928628
+852:Palo Alto, CA -> 852:Seattle, WA 5.654
+852:Moncton, Canada -> 852:Halifax, Canada 0.928628

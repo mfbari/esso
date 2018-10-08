@@ -1,0 +1,36 @@
+4544:Ashburn, VA -> 4544:Atlanta, GA 32
+4544:Ashburn, VA -> 4544:Herndon, VA 659
+4544:Ashburn, VA -> 4544:New York, NY 1354
+4544:Ashburn, VA -> 4544:Washington, DC 596
+4544:Atlanta, GA -> 4544:Ashburn, VA 32
+4544:Atlanta, GA -> 4544:Dallas, TX 43
+4544:Atlanta, GA -> 4544:Washington, DC 12
+4544:Chicago, IL -> 4544:Dallas, TX 6
+4544:Chicago, IL -> 4544:Denver, CO 1819
+4544:Chicago, IL -> 4544:New York, NY 1562
+4544:Dallas, TX -> 4544:Atlanta, GA 43
+4544:Dallas, TX -> 4544:Chicago, IL 6
+4544:Dallas, TX -> 4544:Los Angeles, CA 67
+4544:Denver, CO -> 4544:Chicago, IL 1819
+4544:Denver, CO -> 4544:Palo Alto, CA 1812
+4544:Herndon, VA -> 4544:Ashburn, VA 659
+4544:Herndon, VA -> 4544:Washington, DC 52
+4544:Los Angeles, CA -> 4544:Dallas, TX 67
+4544:Los Angeles, CA -> 4544:Palo Alto, CA 66
+4544:New York, NY -> 4544:Ashburn, VA 1354
+4544:New York, NY -> 4544:Chicago, IL 1562
+4544:Palo Alto, CA -> 4544:Denver, CO 1812
+4544:Palo Alto, CA -> 4544:Los Angeles, CA 66
+4544:Palo Alto, CA -> 4544:Sunnyvale, CA 2337
+4544:Sacramento, CA -> 4544:San Francisco, CA 2
+4544:Sacramento, CA -> 4544:Sunnyvale, CA 30
+4544:San Francisco, CA -> 4544:Sacramento, CA 2
+4544:San Francisco, CA -> 4544:Seattle, WA 1481
+4544:San Francisco, CA -> 4544:Sunnyvale, CA 1630
+4544:Seattle, WA -> 4544:San Francisco, CA 1481
+4544:Sunnyvale, CA -> 4544:Palo Alto, CA 2337
+4544:Sunnyvale, CA -> 4544:Sacramento, CA 30
+4544:Sunnyvale, CA -> 4544:San Francisco, CA 1630
+4544:Washington, DC -> 4544:Ashburn, VA 596
+4544:Washington, DC -> 4544:Atlanta, GA 12
+4544:Washington, DC -> 4544:Herndon, VA 52

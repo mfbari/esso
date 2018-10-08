@@ -1,0 +1,108 @@
+6453:Anaheim, CA -> 6453:Los Angeles, CA 1044
+6453:Ashburn, VA -> 6453:Newark, NJ 10103
+6453:Ashburn, VA -> 6453:Washington, DC 9723
+6453:Atlanta, GA -> 6453:Newark, NJ 81
+6453:Barcelona, Spain -> 6453:Madrid, Spain 92
+6453:Blaavand, Denmark -> 6453:Des Laurentides, Canada 3
+6453:Blaavand, Denmark -> 6453:Pennant Point, Canada 828
+6453:Bogota, Colombia -> 6453:Miami, FL 1974
+6453:Buenos Aires, Argentina -> 6453:Miami, FL 2791
+6453:Burnaby, Canada -> 6453:Lake Cowichan, Canada 1875
+6453:Burnaby, Canada -> 6453:Scarborough, Canada 187
+6453:Burnaby, Canada -> 6453:Seattle, WA 74709
+6453:Burnaby, Canada -> 6453:Tacoma, WA 96
+6453:Cairo, Egypt -> 6453:Newark, NJ 228
+6453:Chicago, IL -> 6453:New York, NY 39773
+6453:Chicago, IL -> 6453:Sacramento, CA 38873
+6453:Chicago, IL -> 6453:Scarborough, Canada 11742
+6453:Dallas, TX -> 6453:Los Angeles, CA 956
+6453:Dallas, TX -> 6453:Mexico City, Mexico 1708
+6453:Dallas, TX -> 6453:New York, NY 847
+6453:Des Laurentides, Canada -> 6453:Blaavand, Denmark 3
+6453:Des Laurentides, Canada -> 6453:Montreal, CA 153
+6453:Des Laurentides, Canada -> 6453:Montreal, Canada 13584
+6453:Des Laurentides, Canada -> 6453:Munich, Germany 2
+6453:Des Laurentides, Canada -> 6453:Pennant Point, Canada 81
+6453:Farmingdale, NJ -> 6453:New York, NY 21
+6453:Hedstervester, Canada -> 6453:Pennant Point, Canada 1031
+6453:Hong Kong -> 6453:Los Angeles, CA 2608
+6453:Lake Cowichan, Canada -> 6453:Burnaby, Canada 1875
+6453:London, UnitedKingdom -> 6453:Madrid, Spain 2166
+6453:London, UnitedKingdom -> 6453:Munich, Germany 7159
+6453:London, UnitedKingdom -> 6453:Newark, NJ 3256
+6453:London, UnitedKingdom -> 6453:Sacramento, CA 6719
+6453:Los Angeles, CA -> 6453:Anaheim, CA 1044
+6453:Los Angeles, CA -> 6453:Dallas, TX 956
+6453:Los Angeles, CA -> 6453:Hong Kong 2608
+6453:Los Angeles, CA -> 6453:New York, NY 41527
+6453:Los Angeles, CA -> 6453:Palo Alto, CA 1420
+6453:Los Angeles, CA -> 6453:Quezon City, Philippines 2929
+6453:Los Angeles, CA -> 6453:Sacramento, CA 53191
+6453:Madrid, Spain -> 6453:Barcelona, Spain 92
+6453:Madrid, Spain -> 6453:London, UnitedKingdom 2166
+6453:Mexico City, Mexico -> 6453:Dallas, TX 1708
+6453:Miami, FL -> 6453:Bogota, Colombia 1974
+6453:Miami, FL -> 6453:Buenos Aires, Argentina 2791
+6453:Miami, FL -> 6453:Newark, NJ 15798
+6453:Miami, FL -> 6453:Puerto Rico 323
+6453:Miami, FL -> 6453:Rio de Janeiro, Brazil 2355
+6453:Miami, FL -> 6453:Sao Paolo, Brazil 894
+6453:Montreal, CA -> 6453:Des Laurentides, Canada 153
+6453:Montreal, CA -> 6453:New York, NY 164
+6453:Montreal, Canada -> 6453:Des Laurentides, Canada 13584
+6453:Montreal, Canada -> 6453:New York, NY 21808
+6453:Montreal, Canada -> 6453:Ottawa, Canada 77
+6453:Munich, Germany -> 6453:Des Laurentides, Canada 2
+6453:Munich, Germany -> 6453:London, UnitedKingdom 7159
+6453:New York, NY -> 6453:Chicago, IL 39773
+6453:New York, NY -> 6453:Dallas, TX 847
+6453:New York, NY -> 6453:Farmingdale, NJ 21
+6453:New York, NY -> 6453:Los Angeles, CA 41527
+6453:New York, NY -> 6453:Montreal, CA 164
+6453:New York, NY -> 6453:Montreal, Canada 21808
+6453:New York, NY -> 6453:Newark, NJ 43881
+6453:New York, NY -> 6453:Pennant Point, Canada 4530
+6453:New York, NY -> 6453:Sacramento, CA 6749
+6453:New York, NY -> 6453:Scarborough, Canada 2918
+6453:New York, NY -> 6453:Stockton, CA 17
+6453:Newark, NJ -> 6453:Ashburn, VA 10103
+6453:Newark, NJ -> 6453:Atlanta, GA 81
+6453:Newark, NJ -> 6453:Cairo, Egypt 228
+6453:Newark, NJ -> 6453:London, UnitedKingdom 3256
+6453:Newark, NJ -> 6453:Miami, FL 15798
+6453:Newark, NJ -> 6453:New York, NY 43881
+6453:Newark, NJ -> 6453:Palo Alto, CA 14293
+6453:Newark, NJ -> 6453:Washington, DC 7960
+6453:Ottawa, Canada -> 6453:Montreal, Canada 77
+6453:Palo Alto, CA -> 6453:Los Angeles, CA 1420
+6453:Palo Alto, CA -> 6453:Newark, NJ 14293
+6453:Palo Alto, CA -> 6453:Sacramento, CA 16788
+6453:Palo Alto, CA -> 6453:San Jose, CA 2048
+6453:Pennant Point, Canada -> 6453:Blaavand, Denmark 828
+6453:Pennant Point, Canada -> 6453:Des Laurentides, Canada 81
+6453:Pennant Point, Canada -> 6453:Hedstervester, Canada 1031
+6453:Pennant Point, Canada -> 6453:New York, NY 4530
+6453:Puerto Rico -> 6453:Miami, FL 323
+6453:Quezon City, Philippines -> 6453:Los Angeles, CA 2929
+6453:Rio de Janeiro, Brazil -> 6453:Miami, FL 2355
+6453:Sacramento, CA -> 6453:Chicago, IL 38873
+6453:Sacramento, CA -> 6453:London, UnitedKingdom 6719
+6453:Sacramento, CA -> 6453:Los Angeles, CA 53191
+6453:Sacramento, CA -> 6453:New York, NY 6749
+6453:Sacramento, CA -> 6453:Palo Alto, CA 16788
+6453:Sacramento, CA -> 6453:Seattle, WA 76307
+6453:Sacramento, CA -> 6453:Tacoma, WA 5119
+6453:San Jose, CA -> 6453:Palo Alto, CA 2048
+6453:Sao Paolo, Brazil -> 6453:Miami, FL 894
+6453:Scarborough, Canada -> 6453:Burnaby, Canada 187
+6453:Scarborough, Canada -> 6453:Chicago, IL 11742
+6453:Scarborough, Canada -> 6453:New York, NY 2918
+6453:Scarborough, Canada -> 6453:Toronto, Canada 6828
+6453:Seattle, WA -> 6453:Burnaby, Canada 74709
+6453:Seattle, WA -> 6453:Sacramento, CA 76307
+6453:Stockton, CA -> 6453:New York, NY 17
+6453:Tacoma, WA -> 6453:Burnaby, Canada 96
+6453:Tacoma, WA -> 6453:Sacramento, CA 5119
+6453:Toronto, Canada -> 6453:Scarborough, Canada 6828
+6453:Washington, DC -> 6453:Ashburn, VA 9723
+6453:Washington, DC -> 6453:Newark, NJ 7960

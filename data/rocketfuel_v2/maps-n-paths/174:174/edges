@@ -1,0 +1,156 @@
+174:Albany, NY -> 174:Boston, MA 11
+174:Albany, NY -> 174:Chicago, IL 162
+174:Amsterdam, Netherlands -> 174:Barcelona, Spain 80
+174:Amsterdam, Netherlands -> 174:Berlin, Germany 9
+174:Amsterdam, Netherlands -> 174:Budapest, Hungary 332
+174:Amsterdam, Netherlands -> 174:London, UnitedKingdom 218
+174:Amsterdam, Netherlands -> 174:New York, NY 465
+174:Antwerp, Netherlands -> 174:London, UnitedKingdom 66
+174:Antwerp, Netherlands -> 174:New York, NY 340
+174:Antwerp, Netherlands -> 174:Paris, France 244
+174:Antwerp, Netherlands -> 174:Zurich, Switzerland 47
+174:Ashburn, VA -> 174:Washington, DC 2
+174:Atlanta, GA -> 174:Chicago, IL 369
+174:Atlanta, GA -> 174:Dallas, TX 406
+174:Atlanta, GA -> 174:Los Angeles, CA 198
+174:Atlanta, GA -> 174:New York, NY 1304
+174:Atlanta, GA -> 174:San Francisco, CA 851
+174:Atlanta, GA -> 174:Washington, DC 1406
+174:Barcelona, Spain -> 174:Amsterdam, Netherlands 80
+174:Barcelona, Spain -> 174:London, UnitedKingdom 274
+174:Barcelona, Spain -> 174:Zaragoza, Spain 34
+174:Basel, Switzerland -> 174:Zurich, Switzerland 80
+174:Bedford, MA -> 174:Boston, MA 156
+174:Berlin, Germany -> 174:Amsterdam, Netherlands 9
+174:Berlin, Germany -> 174:Frankfurt, Germany 27
+174:Berlin, Germany -> 174:London, UnitedKingdom 116
+174:Berlin, Germany -> 174:Munich, Germany 158
+174:Berlin, Germany -> 174:New York, NY 500
+174:Berlin, Germany -> 174:Stuttgart, Germany 29
+174:Birmingham, UnitedKingdom -> 174:London, UnitedKingdom 439
+174:Boston, MA -> 174:Albany, NY 11
+174:Boston, MA -> 174:Bedford, MA 156
+174:Boston, MA -> 174:Dallas, TX 4
+174:Boston, MA -> 174:New York, NY 26
+174:Boston, MA -> 174:San Jose, CA 7
+174:Brussels, Belgium -> 174:London, UnitedKingdom 29
+174:Brussels, Belgium -> 174:Luxembourg, Luxembourg 74
+174:Brussels, Belgium -> 174:New York, NY 84
+174:Budapest, Hungary -> 174:Amsterdam, Netherlands 332
+174:Budapest, Hungary -> 174:London, UnitedKingdom 65
+174:Budapest, Hungary -> 174:New York, NY 325
+174:Cambridge, UnitedKingdom -> 174:London, UnitedKingdom 3254
+174:Chicago, IL -> 174:Albany, NY 162
+174:Chicago, IL -> 174:Atlanta, GA 369
+174:Chicago, IL -> 174:Dallas, TX 292
+174:Chicago, IL -> 174:Los Angeles, CA 86
+174:Chicago, IL -> 174:New York, NY 802
+174:Chicago, IL -> 174:San Francisco, CA 599
+174:Chicago, IL -> 174:San Jose, CA 5
+174:Chicago, IL -> 174:Washington, DC 662
+174:Cityreach, UnitedKingdom -> 174:London, UnitedKingdom 652
+174:Cologne, Germany -> 174:Frankfurt, Germany 324
+174:Cologne, Germany -> 174:Koeln, Germany 324
+174:Dallas, TX -> 174:Atlanta, GA 406
+174:Dallas, TX -> 174:Boston, MA 4
+174:Dallas, TX -> 174:Chicago, IL 292
+174:Dallas, TX -> 174:Los Angeles, CA 117
+174:Dallas, TX -> 174:New York, NY 644
+174:Dallas, TX -> 174:San Francisco, CA 214
+174:Dallas, TX -> 174:Washington, DC 310
+174:Detroit, MI -> 174:Pontiac, MI 25
+174:Dublin, Ireland -> 174:London, UnitedKingdom 115
+174:Dusseldorf, Germany -> 174:Frankfurt, Germany 46
+174:Edinburgh, UnitedKingdom -> 174:London, UnitedKingdom 72
+174:Frankfurt, Germany -> 174:Berlin, Germany 27
+174:Frankfurt, Germany -> 174:Cologne, Germany 324
+174:Frankfurt, Germany -> 174:Dusseldorf, Germany 46
+174:Frankfurt, Germany -> 174:Hamburg, Germany 241
+174:Frankfurt, Germany -> 174:London, UnitedKingdom 81
+174:Frankfurt, Germany -> 174:New York, NY 568
+174:Frankfurt, Germany -> 174:Vienna, Austria 260
+174:Geneva, Switzerland -> 174:London, UnitedKingdom 68
+174:Geneva, Switzerland -> 174:New York, NY 272
+174:Geneva, Switzerland -> 174:Zurich, Switzerland 127
+174:Hamburg, Germany -> 174:Frankfurt, Germany 241
+174:Innsbruck, Austria -> 174:Vienna, Austria 45
+174:Koeln, Germany -> 174:Cologne, Germany 324
+174:London, UnitedKingdom -> 174:Amsterdam, Netherlands 218
+174:London, UnitedKingdom -> 174:Antwerp, Netherlands 66
+174:London, UnitedKingdom -> 174:Barcelona, Spain 274
+174:London, UnitedKingdom -> 174:Berlin, Germany 116
+174:London, UnitedKingdom -> 174:Birmingham, UnitedKingdom 439
+174:London, UnitedKingdom -> 174:Brussels, Belgium 29
+174:London, UnitedKingdom -> 174:Budapest, Hungary 65
+174:London, UnitedKingdom -> 174:Cambridge, UnitedKingdom 3254
+174:London, UnitedKingdom -> 174:Cityreach, UnitedKingdom 652
+174:London, UnitedKingdom -> 174:Dublin, Ireland 115
+174:London, UnitedKingdom -> 174:Edinburgh, UnitedKingdom 72
+174:London, UnitedKingdom -> 174:Frankfurt, Germany 81
+174:London, UnitedKingdom -> 174:Geneva, Switzerland 68
+174:London, UnitedKingdom -> 174:New York, NY 2962
+174:London, UnitedKingdom -> 174:Reading, UnitedKingdom 376
+174:London, UnitedKingdom -> 174:Vienna, Austria 30
+174:Los Angeles, CA -> 174:Atlanta, GA 198
+174:Los Angeles, CA -> 174:Chicago, IL 86
+174:Los Angeles, CA -> 174:Dallas, TX 117
+174:Los Angeles, CA -> 174:New York, NY 473
+174:Los Angeles, CA -> 174:San Francisco, CA 394
+174:Los Angeles, CA -> 174:San Jose, CA 18
+174:Los Angeles, CA -> 174:Santa Ana, CA 613
+174:Los Angeles, CA -> 174:Washington, DC 50
+174:Luxembourg, Luxembourg -> 174:Brussels, Belgium 74
+174:Munich, Germany -> 174:Berlin, Germany 158
+174:New York, NY -> 174:Amsterdam, Netherlands 465
+174:New York, NY -> 174:Antwerp, Netherlands 340
+174:New York, NY -> 174:Atlanta, GA 1304
+174:New York, NY -> 174:Berlin, Germany 500
+174:New York, NY -> 174:Boston, MA 26
+174:New York, NY -> 174:Brussels, Belgium 84
+174:New York, NY -> 174:Budapest, Hungary 325
+174:New York, NY -> 174:Chicago, IL 802
+174:New York, NY -> 174:Dallas, TX 644
+174:New York, NY -> 174:Frankfurt, Germany 568
+174:New York, NY -> 174:Geneva, Switzerland 272
+174:New York, NY -> 174:London, UnitedKingdom 2962
+174:New York, NY -> 174:Los Angeles, CA 473
+174:New York, NY -> 174:Newark, NJ 752
+174:New York, NY -> 174:San Francisco, CA 4261
+174:New York, NY -> 174:San Jose, CA 25
+174:New York, NY -> 174:Washington, DC 2278
+174:New York, NY -> 174:Westchester, NY 641
+174:Newark, NJ -> 174:New York, NY 752
+174:Paris, France -> 174:Antwerp, Netherlands 244
+174:Pontiac, MI -> 174:Detroit, MI 25
+174:Reading, UnitedKingdom -> 174:London, UnitedKingdom 376
+174:San Francisco, CA -> 174:Atlanta, GA 851
+174:San Francisco, CA -> 174:Chicago, IL 599
+174:San Francisco, CA -> 174:Dallas, TX 214
+174:San Francisco, CA -> 174:Los Angeles, CA 394
+174:San Francisco, CA -> 174:New York, NY 4261
+174:San Francisco, CA -> 174:San Jose, CA 308
+174:San Francisco, CA -> 174:Washington, DC 1495
+174:San Jose, CA -> 174:Boston, MA 7
+174:San Jose, CA -> 174:Chicago, IL 5
+174:San Jose, CA -> 174:Los Angeles, CA 18
+174:San Jose, CA -> 174:New York, NY 25
+174:San Jose, CA -> 174:San Francisco, CA 308
+174:San Jose, CA -> 174:Washington, DC 109
+174:Santa Ana, CA -> 174:Los Angeles, CA 613
+174:Stuttgart, Germany -> 174:Berlin, Germany 29
+174:Vienna, Austria -> 174:Frankfurt, Germany 260
+174:Vienna, Austria -> 174:Innsbruck, Austria 45
+174:Vienna, Austria -> 174:London, UnitedKingdom 30
+174:Washington, DC -> 174:Ashburn, VA 2
+174:Washington, DC -> 174:Atlanta, GA 1406
+174:Washington, DC -> 174:Chicago, IL 662
+174:Washington, DC -> 174:Dallas, TX 310
+174:Washington, DC -> 174:Los Angeles, CA 50
+174:Washington, DC -> 174:New York, NY 2278
+174:Washington, DC -> 174:San Francisco, CA 1495
+174:Washington, DC -> 174:San Jose, CA 109
+174:Westchester, NY -> 174:New York, NY 641
+174:Zaragoza, Spain -> 174:Barcelona, Spain 34
+174:Zurich, Switzerland -> 174:Antwerp, Netherlands 47
+174:Zurich, Switzerland -> 174:Basel, Switzerland 80
+174:Zurich, Switzerland -> 174:Geneva, Switzerland 127

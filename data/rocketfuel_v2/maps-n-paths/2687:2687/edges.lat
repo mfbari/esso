@@ -1,0 +1,32 @@
+2687:Auckland, NewZealand -> 2687:Los Angeles, CA 52.4196392730013
+2687:Auckland, NewZealand -> 2687:San Francisco, CA 52.4732467670236
+2687:Hong Kong -> 2687:Los Angeles, CA 58.1674895599584
+2687:Hong Kong -> 2687:Manila, Philippines 5.57619447397846
+2687:Hong Kong -> 2687:San Francisco, CA 55.426292526608
+2687:Hong Kong -> 2687:Singapore 12.915469710535
+2687:Hong Kong -> 2687:Tokyo, Japan 14.1254042821176
+2687:Los Angeles, CA -> 2687:Auckland, NewZealand 52.4196392730013
+2687:Los Angeles, CA -> 2687:Hong Kong 58.1674895599584
+2687:Los Angeles, CA -> 2687:Sydney, Australia 60.3095464758688
+2687:Los Angeles, CA -> 2687:Taipei, Taiwan 54.4405827762869
+2687:Los Angeles, CA -> 2687:Wellington, NewZealand 53.9999881779373
+2687:Manila, Philippines -> 2687:Hong Kong 5.57619447397846
+2687:Manila, Philippines -> 2687:Singapore 11.9685722527778
+2687:Melbourne, Australia -> 2687:Sydney, Australia 3.52506386753417
+2687:San Francisco, CA -> 2687:Auckland, NewZealand 52.4732467670236
+2687:San Francisco, CA -> 2687:Hong Kong 55.426292526608
+2687:San Francisco, CA -> 2687:Sydney, Australia 59.6845156726176
+2687:San Francisco, CA -> 2687:Wellington, NewZealand 54.2124145204588
+2687:Singapore -> 2687:Hong Kong 12.915469710535
+2687:Singapore -> 2687:Manila, Philippines 11.9685722527778
+2687:Sydney, Australia -> 2687:Los Angeles, CA 60.3095464758688
+2687:Sydney, Australia -> 2687:Melbourne, Australia 3.52506386753417
+2687:Sydney, Australia -> 2687:San Francisco, CA 59.6845156726176
+2687:Sydney, Australia -> 2687:Wellington, NewZealand 11.1308140541476
+2687:Taipei, Taiwan -> 2687:Los Angeles, CA 54.4405827762869
+2687:Taipei, Taiwan -> 2687:Tokyo, Japan 10.1835162102325
+2687:Tokyo, Japan -> 2687:Hong Kong 14.1254042821176
+2687:Tokyo, Japan -> 2687:Taipei, Taiwan 10.1835162102325
+2687:Wellington, NewZealand -> 2687:Los Angeles, CA 53.9999881779373
+2687:Wellington, NewZealand -> 2687:San Francisco, CA 54.2124145204588
+2687:Wellington, NewZealand -> 2687:Sydney, Australia 11.1308140541476

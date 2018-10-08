@@ -1,0 +1,114 @@
+4637:Anaheim, CA -> 4637:Los Angeles, CA 1181
+4637:Anaheim, CA -> 4637:Sydney, Australia 6221
+4637:Ashburn, VA -> 4637:Miami, FL 3117
+4637:Ashburn, VA -> 4637:Newark, NJ 11104
+4637:Auckland, NewZealand -> 4637:Los Angeles, CA 25570
+4637:Auckland, NewZealand -> 4637:Sydney, Australia 1589
+4637:Chicago, IL -> 4637:Dallas, TX 5162
+4637:Chicago, IL -> 4637:New York, NY 1315
+4637:Chicago, IL -> 4637:San Jose, CA 64729
+4637:Chicago, IL -> 4637:xeig 34250
+4637:Dallas, TX -> 4637:Chicago, IL 5162
+4637:Dallas, TX -> 4637:Los Angeles, CA 36053
+4637:Dallas, TX -> 4637:Miami, FL 6533
+4637:Hong Kong -> 4637:Sydney, Australia 34
+4637:Hong Kong -> 4637:Tokyo, Japan 47
+4637:Kyoto, Japan -> 4637:San Jose, CA 178
+4637:Kyoto, Japan -> 4637:Tokyo, Japan 309
+4637:London, UnitedKingdom -> 4637:hhts 325
+4637:London, UnitedKingdom -> 4637:xeig 302
+4637:Los Angeles, CA -> 4637:Anaheim, CA 1181
+4637:Los Angeles, CA -> 4637:Auckland, NewZealand 25570
+4637:Los Angeles, CA -> 4637:Dallas, TX 36053
+4637:Los Angeles, CA -> 4637:Palo Alto, CA 9874
+4637:Los Angeles, CA -> 4637:Perth, Australia 40
+4637:Los Angeles, CA -> 4637:San Jose, CA 374
+4637:Los Angeles, CA -> 4637:Sydney, Australia 27465
+4637:Los Angeles, CA -> 4637:Tokyo, Japan 4417
+4637:Los Angeles, CA -> 4637:hhts 3493
+4637:Los Angeles, CA -> 4637:tmhs 6060
+4637:Miami, FL -> 4637:Ashburn, VA 3117
+4637:Miami, FL -> 4637:Dallas, TX 6533
+4637:Miami, FL -> 4637:Relay, MD 4
+4637:Miami, FL -> 4637:Washington, DC 3396
+4637:New York, NY -> 4637:Chicago, IL 1315
+4637:New York, NY -> 4637:xeig 1205
+4637:Newark, NJ -> 4637:Ashburn, VA 11104
+4637:Newark, NJ -> 4637:Relay, MD 8
+4637:Newark, NJ -> 4637:Washington, DC 19176
+4637:Newark, NJ -> 4637:xeig 30286
+4637:Palo Alto, CA -> 4637:Los Angeles, CA 9874
+4637:Palo Alto, CA -> 4637:Perth, Australia 82
+4637:Palo Alto, CA -> 4637:San Jose, CA 21644
+4637:Palo Alto, CA -> 4637:Sydney, Australia 6549
+4637:Palo Alto, CA -> 4637:hhts 9856
+4637:Palo Alto, CA -> 4637:tmhs 5042
+4637:Perth, Australia -> 4637:Los Angeles, CA 40
+4637:Perth, Australia -> 4637:Palo Alto, CA 82
+4637:Perth, Australia -> 4637:Sydney, Australia 3
+4637:Perth, Australia -> 4637:hhts 44
+4637:Relay, MD -> 4637:Miami, FL 4
+4637:Relay, MD -> 4637:Newark, NJ 8
+4637:San Francisco, CA -> 4637:San Jose, CA 35
+4637:San Francisco, CA -> 4637:hhts 6
+4637:San Francisco, CA -> 4637:tmhs 3
+4637:San Jose, CA -> 4637:Chicago, IL 64729
+4637:San Jose, CA -> 4637:Kyoto, Japan 178
+4637:San Jose, CA -> 4637:Los Angeles, CA 374
+4637:San Jose, CA -> 4637:Palo Alto, CA 21644
+4637:San Jose, CA -> 4637:San Francisco, CA 35
+4637:San Jose, CA -> 4637:Sydney, Australia 76235
+4637:San Jose, CA -> 4637:Tokyo, Japan 9066
+4637:San Jose, CA -> 4637:tmhs 34189
+4637:Sydney, Australia -> 4637:Anaheim, CA 6221
+4637:Sydney, Australia -> 4637:Auckland, NewZealand 1589
+4637:Sydney, Australia -> 4637:Hong Kong 34
+4637:Sydney, Australia -> 4637:Los Angeles, CA 27465
+4637:Sydney, Australia -> 4637:Palo Alto, CA 6549
+4637:Sydney, Australia -> 4637:Perth, Australia 3
+4637:Sydney, Australia -> 4637:San Jose, CA 76235
+4637:Sydney, Australia -> 4637:hhts 73
+4637:Sydney, Australia -> 4637:tmhs 331
+4637:Tokyo, Japan -> 4637:Hong Kong 47
+4637:Tokyo, Japan -> 4637:Kyoto, Japan 309
+4637:Tokyo, Japan -> 4637:Los Angeles, CA 4417
+4637:Tokyo, Japan -> 4637:San Jose, CA 9066
+4637:Washington, DC -> 4637:Miami, FL 3396
+4637:Washington, DC -> 4637:Newark, NJ 19176
+4637:car -> 4637:hhts 1833
+4637:car -> 4637:tmhs 1118
+4637:hht -> 4637:hhts 5964
+4637:hht -> 4637:tmh 354
+4637:hht -> 4637:tmhs 2681
+4637:hht -> 4637:yck 75
+4637:hhts -> 4637:London, UnitedKingdom 325
+4637:hhts -> 4637:Los Angeles, CA 3493
+4637:hhts -> 4637:Palo Alto, CA 9856
+4637:hhts -> 4637:Perth, Australia 44
+4637:hhts -> 4637:San Francisco, CA 6
+4637:hhts -> 4637:Sydney, Australia 73
+4637:hhts -> 4637:car 1833
+4637:hhts -> 4637:hht 5964
+4637:hhts -> 4637:tmh 116
+4637:hhts -> 4637:tmhs 3613
+4637:tmh -> 4637:hht 354
+4637:tmh -> 4637:hhts 116
+4637:tmh -> 4637:tmhs 16920
+4637:tmh -> 4637:yck 471
+4637:tmhs -> 4637:Los Angeles, CA 6060
+4637:tmhs -> 4637:Palo Alto, CA 5042
+4637:tmhs -> 4637:San Francisco, CA 3
+4637:tmhs -> 4637:San Jose, CA 34189
+4637:tmhs -> 4637:Sydney, Australia 331
+4637:tmhs -> 4637:car 1118
+4637:tmhs -> 4637:hht 2681
+4637:tmhs -> 4637:hhts 3613
+4637:tmhs -> 4637:tmh 16920
+4637:tmhs -> 4637:yck 970
+4637:xeig -> 4637:Chicago, IL 34250
+4637:xeig -> 4637:London, UnitedKingdom 302
+4637:xeig -> 4637:New York, NY 1205
+4637:xeig -> 4637:Newark, NJ 30286
+4637:yck -> 4637:hht 75
+4637:yck -> 4637:tmh 471
+4637:yck -> 4637:tmhs 970

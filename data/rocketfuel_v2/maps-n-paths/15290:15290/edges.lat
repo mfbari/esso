@@ -1,0 +1,36 @@
+15290:Calgary, Canada -> 15290:Edmonton, Canada 1.40476322288213
+15290:Calgary, Canada -> 15290:Red Deer, Canada 0.683027388500004
+15290:Calgary, Canada -> 15290:Regina, Canada 3.33372686086895
+15290:Calgary, Canada -> 15290:Toronto, Canada 13.5517615742068
+15290:Calgary, Canada -> 15290:Vancouver, Canada 3.36227637339117
+15290:Edmonton, Canada -> 15290:Calgary, Canada 1.40476322288213
+15290:Halifax, Canada -> 15290:Montreal, Canada 3.93645550738428
+15290:Hamilton, Canada -> 15290:Toronto, Canada 0.302648704352747
+15290:London, Canada -> 15290:Toronto, Canada 0.844626536352842
+15290:Montreal, Canada -> 15290:Halifax, Canada 3.93645550738428
+15290:Montreal, Canada -> 15290:Quebec, Canada 1.1474880133731
+15290:Montreal, Canada -> 15290:Toronto, Canada 2.51034994506104
+15290:Montreal, Canada -> 15290:Vancouver, Canada 18.4211910947875
+15290:New Market, Canada -> 15290:Toronto, Canada 0.239410784492266
+15290:Ottawa, Canada -> 15290:Toronto, Canada 1.747267844019
+15290:Quebec, Canada -> 15290:Montreal, Canada 1.1474880133731
+15290:Red Deer, Canada -> 15290:Calgary, Canada 0.683027388500004
+15290:Regina, Canada -> 15290:Calgary, Canada 3.33372686086895
+15290:Sarnia, Canada -> 15290:Toronto, Canada 1.27994225124443
+15290:Seattle, WA -> 15290:Vancouver, Canada 0.959333136541764
+15290:Toronto, Canada -> 15290:Calgary, Canada 13.5517615742068
+15290:Toronto, Canada -> 15290:Hamilton, Canada 0.302648704352747
+15290:Toronto, Canada -> 15290:London, Canada 0.844626536352842
+15290:Toronto, Canada -> 15290:Montreal, Canada 2.51034994506104
+15290:Toronto, Canada -> 15290:New Market, Canada 0.239410784492266
+15290:Toronto, Canada -> 15290:Ottawa, Canada 1.747267844019
+15290:Toronto, Canada -> 15290:Sarnia, Canada 1.27994225124443
+15290:Toronto, Canada -> 15290:Vancouver, Canada 16.786157343387
+15290:Toronto, Canada -> 15290:Windsor, Canada 1.66374566111016
+15290:Toronto, Canada -> 15290:Winnipeg, Canada 7.57172994051468
+15290:Vancouver, Canada -> 15290:Calgary, Canada 3.36227637339117
+15290:Vancouver, Canada -> 15290:Montreal, Canada 18.4211910947875
+15290:Vancouver, Canada -> 15290:Seattle, WA 0.959333136541764
+15290:Vancouver, Canada -> 15290:Toronto, Canada 16.786157343387
+15290:Windsor, Canada -> 15290:Toronto, Canada 1.66374566111016
+15290:Winnipeg, Canada -> 15290:Toronto, Canada 7.57172994051468

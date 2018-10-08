@@ -1,0 +1,168 @@
+1239:Amsterdam, Netherlands -> 1239:Brussels, Belgium 0.699743613611879
+1239:Amsterdam, Netherlands -> 1239:Hamburg, Germany 1.81739812413358
+1239:Anaheim, CA -> 1239:Burbank, CA 0.268065406311296
+1239:Anaheim, CA -> 1239:Dallas, TX 9.82731733684756
+1239:Anaheim, CA -> 1239:Los Angeles, CA 0.268083922965192
+1239:Anaheim, CA -> 1239:Pearl Harbor, HI 20.7415975033769
+1239:Anaheim, CA -> 1239:Phoenix, AZ 2.70810040111643
+1239:Anaheim, CA -> 1239:San Jose, CA 2.64832087692555
+1239:Anaheim, CA -> 1239:Tucson, AZ 3.37556761347688
+1239:Ashburn, VA -> 1239:Relay, MD 0.352818847487156
+1239:Atlanta, GA -> 1239:Chicago, IL 4.71810812635976
+1239:Atlanta, GA -> 1239:Dallas, TX 5.75137875158028
+1239:Atlanta, GA -> 1239:New York, NY 6.00743024175476
+1239:Atlanta, GA -> 1239:Orlando, FL 3.23558877686677
+1239:Atlanta, GA -> 1239:Relay, MD 4.59373352805409
+1239:Auckland, NewZealand -> 1239:Sydney, Australia 10.7861523674496
+1239:Boston, MA -> 1239:Springfield, MA 0.645327364124454
+1239:Brussels, Belgium -> 1239:Amsterdam, Netherlands 0.699743613611879
+1239:Brussels, Belgium -> 1239:London, UnitedKingdom 1.59576807051388
+1239:Burbank, CA -> 1239:Anaheim, CA 0.268065406311296
+1239:Cheyenne, WY -> 1239:Chicago, IL 7.13002155731012
+1239:Cheyenne, WY -> 1239:Denver, Colorado 0.779297445410034
+1239:Cheyenne, WY -> 1239:Tacoma, WA 7.7919920499758
+1239:Chicago, IL -> 1239:Atlanta, GA 4.71810812635976
+1239:Chicago, IL -> 1239:Cheyenne, WY 7.13002155731012
+1239:Chicago, IL -> 1239:Cleveland, OH 2.47832477920296
+1239:Chicago, IL -> 1239:Dallas, TX 6.43760504337832
+1239:Chicago, IL -> 1239:Indianapolis, IN 1.31580076013171
+1239:Chicago, IL -> 1239:Kansas City, MO 3.28632854191965
+1239:Chicago, IL -> 1239:Lees Summit, MO 3.28282258918395
+1239:Chicago, IL -> 1239:New York, NY 5.72539765160039
+1239:Chicago, IL -> 1239:Roachdale, IN 1.1760773032622
+1239:Chicago, IL -> 1239:Saint Louis, MO 2.09175251062512
+1239:Chicago, IL -> 1239:San Jose, CA 14.7744081963979
+1239:Chicago, IL -> 1239:Seattle, WA 13.9413353089448
+1239:Chicago, IL -> 1239:Springfield, MA 6.21422801564979
+1239:Chicago, IL -> 1239:Stockton, CA 14.4092582711861
+1239:Cleveland, OH -> 1239:Chicago, IL 2.47832477920296
+1239:Copenhagen, Denmark -> 1239:Hamburg, Germany 1.42488508853435
+1239:Copenhagen, Denmark -> 1239:London, UnitedKingdom 4.73788667198909
+1239:Copenhagen, Denmark -> 1239:Manasquan, NJ 31.1300774932735
+1239:Copenhagen, Denmark -> 1239:Stockholm, Sweden 2.62276937481765
+1239:Dallas, TX -> 1239:Anaheim, CA 9.82731733684756
+1239:Dallas, TX -> 1239:Atlanta, GA 5.75137875158028
+1239:Dallas, TX -> 1239:Chicago, IL 6.43760504337832
+1239:Dallas, TX -> 1239:Denver, Colorado 5.3378860961663
+1239:Dallas, TX -> 1239:Kansas City, MO 3.65508976734151
+1239:Dallas, TX -> 1239:Los Angeles, CA 10.0456672433203
+1239:Dallas, TX -> 1239:Orlando, FL 7.70699136339725
+1239:Dallas, TX -> 1239:Pennsauken, NJ 10.4591971254652
+1239:Dallas, TX -> 1239:Richardson, TX 0.0922382070286255
+1239:Denver, Colorado -> 1239:Cheyenne, WY 0.779297445410034
+1239:Denver, Colorado -> 1239:Dallas, TX 5.3378860961663
+1239:Dublin, Ireland -> 1239:London, UnitedKingdom 2.329340820098
+1239:Frankfurt, Germany -> 1239:Hamburg, Germany 2.0357355149515
+1239:Frankfurt, Germany -> 1239:Milan, Italy 2.52989648876757
+1239:Frankfurt, Germany -> 1239:Paris, France 2.34012884016252
+1239:Hamburg, Germany -> 1239:Amsterdam, Netherlands 1.81739812413358
+1239:Hamburg, Germany -> 1239:Copenhagen, Denmark 1.42488508853435
+1239:Hamburg, Germany -> 1239:Frankfurt, Germany 2.0357355149515
+1239:Hartford, CT -> 1239:New York, NY 0.802792522556184
+1239:Hong Kong -> 1239:Tokyo, Japan 14.1254042821176
+1239:Indianapolis, IN -> 1239:Chicago, IL 1.31580076013171
+1239:Indianapolis, IN -> 1239:New York, NY 5.17637824065771
+1239:Indianapolis, IN -> 1239:Roachdale, IN 0.276384305658571
+1239:Kansas City, MO -> 1239:Chicago, IL 3.28632854191965
+1239:Kansas City, MO -> 1239:Dallas, TX 3.65508976734151
+1239:Kansas City, MO -> 1239:Lees Summit, MO 0.135310188927378
+1239:Kansas City, MO -> 1239:Pennsauken, NJ 8.35248438890479
+1239:Kansas City, MO -> 1239:Seattle, WA 12.0984029953721
+1239:Lees Summit, MO -> 1239:Chicago, IL 3.28282258918395
+1239:Lees Summit, MO -> 1239:Kansas City, MO 0.135310188927378
+1239:London, UnitedKingdom -> 1239:Brussels, Belgium 1.59576807051388
+1239:London, UnitedKingdom -> 1239:Copenhagen, Denmark 4.73788667198909
+1239:London, UnitedKingdom -> 1239:Dublin, Ireland 2.329340820098
+1239:London, UnitedKingdom -> 1239:Paris, France 1.71246693397065
+1239:London, UnitedKingdom -> 1239:Tuckerton, NJ 28.3380319904003
+1239:Los Angeles, CA -> 1239:Anaheim, CA 0.268083922965192
+1239:Los Angeles, CA -> 1239:Dallas, TX 10.0456672433203
+1239:Manasquan, NJ -> 1239:Copenhagen, Denmark 31.1300774932735
+1239:Manasquan, NJ -> 1239:New York, NY 0.327264012993508
+1239:Manasquan, NJ -> 1239:Relay, MD 1.24014386050303
+1239:Manasquan, NJ -> 1239:Tuckerton, NJ 0.3162210455906
+1239:Miami, FL -> 1239:Orlando, FL 1.64384925452502
+1239:Milan, Italy -> 1239:Frankfurt, Germany 2.52989648876757
+1239:Milan, Italy -> 1239:Paris, France 3.20129362158168
+1239:New York, NY -> 1239:Atlanta, GA 6.00743024175476
+1239:New York, NY -> 1239:Chicago, IL 5.72539765160039
+1239:New York, NY -> 1239:Hartford, CT 0.802792522556184
+1239:New York, NY -> 1239:Indianapolis, IN 5.17637824065771
+1239:New York, NY -> 1239:Manasquan, NJ 0.327264012993508
+1239:New York, NY -> 1239:Pennsauken, NJ 0.612916134767723
+1239:New York, NY -> 1239:Relay, MD 1.41475697801824
+1239:New York, NY -> 1239:Springfield, MA 0.970941851182362
+1239:Orlando, FL -> 1239:Atlanta, GA 3.23558877686677
+1239:Orlando, FL -> 1239:Dallas, TX 7.70699136339725
+1239:Orlando, FL -> 1239:Miami, FL 1.64384925452502
+1239:Palo Alto, CA -> 1239:San Jose, CA 0.124477546789977
+1239:Paris, France -> 1239:Frankfurt, Germany 2.34012884016252
+1239:Paris, France -> 1239:London, UnitedKingdom 1.71246693397065
+1239:Paris, France -> 1239:Milan, Italy 3.20129362158168
+1239:Pearl Harbor, HI -> 1239:Anaheim, CA 20.7415975033769
+1239:Pearl Harbor, HI -> 1239:Stockton, CA 19.7751393764736
+1239:Pennsauken, NJ -> 1239:Dallas, TX 10.4591971254652
+1239:Pennsauken, NJ -> 1239:Kansas City, MO 8.35248438890479
+1239:Pennsauken, NJ -> 1239:New York, NY 0.612916134767723
+1239:Pennsauken, NJ -> 1239:Relay, MD 0.814102697366192
+1239:Pennsauken, NJ -> 1239:Roachdale, IN 5.00592232248384
+1239:Pennsauken, NJ -> 1239:Springfield, MA 1.57866944446859
+1239:Pennsauken, NJ -> 1239:Stockton, CA 19.7878879503739
+1239:Pennsauken, NJ -> 1239:Tuckerton, NJ 0.359410204531537
+1239:Phoenix, AZ -> 1239:Anaheim, CA 2.70810040111643
+1239:Rancho Cordova, CA -> 1239:Stockton, CA 0.345751244730034
+1239:Relay, MD -> 1239:Ashburn, VA 0.352818847487156
+1239:Relay, MD -> 1239:Atlanta, GA 4.59373352805409
+1239:Relay, MD -> 1239:Manasquan, NJ 1.24014386050303
+1239:Relay, MD -> 1239:New York, NY 1.41475697801824
+1239:Relay, MD -> 1239:Pennsauken, NJ 0.814102697366192
+1239:Relay, MD -> 1239:Reston, VA 0.312099846037035
+1239:Relay, MD -> 1239:San Jose, CA 19.5320869716731
+1239:Relay, MD -> 1239:Tuckerton, NJ 1.03598066929191
+1239:Relay, MD -> 1239:Washington, DC 0.22235770619305
+1239:Reston, VA -> 1239:Relay, MD 0.312099846037035
+1239:Richardson, TX -> 1239:Dallas, TX 0.0922382070286255
+1239:Roachdale, IN -> 1239:Chicago, IL 1.1760773032622
+1239:Roachdale, IN -> 1239:Indianapolis, IN 0.276384305658571
+1239:Roachdale, IN -> 1239:Pennsauken, NJ 5.00592232248384
+1239:Saint Louis, MO -> 1239:Chicago, IL 2.09175251062512
+1239:San Jose, CA -> 1239:Anaheim, CA 2.64832087692555
+1239:San Jose, CA -> 1239:Chicago, IL 14.7744081963979
+1239:San Jose, CA -> 1239:Palo Alto, CA 0.124477546789977
+1239:San Jose, CA -> 1239:Relay, MD 19.5320869716731
+1239:San Jose, CA -> 1239:Stockton, CA 0.437400773037956
+1239:San Jose, CA -> 1239:Sydney, Australia 59.8122862074532
+1239:San Jose, CA -> 1239:Tacoma, WA 5.51355908132224
+1239:San Jose, CA -> 1239:Tokyo, Japan 42.030205069196
+1239:Seattle, WA -> 1239:Chicago, IL 13.9413353089448
+1239:Seattle, WA -> 1239:Kansas City, MO 12.0984029953721
+1239:Seattle, WA -> 1239:Tacoma, WA 0.207166302464815
+1239:Singapore -> 1239:Tokyo, Japan 26.1900160757687
+1239:Springfield, MA -> 1239:Boston, MA 0.645327364124454
+1239:Springfield, MA -> 1239:Chicago, IL 6.21422801564979
+1239:Springfield, MA -> 1239:New York, NY 0.970941851182362
+1239:Springfield, MA -> 1239:Pennsauken, NJ 1.57866944446859
+1239:Stockholm, Sweden -> 1239:Copenhagen, Denmark 2.62276937481765
+1239:Stockton, CA -> 1239:Chicago, IL 14.4092582711861
+1239:Stockton, CA -> 1239:Pearl Harbor, HI 19.7751393764736
+1239:Stockton, CA -> 1239:Pennsauken, NJ 19.7878879503739
+1239:Stockton, CA -> 1239:Rancho Cordova, CA 0.345751244730034
+1239:Stockton, CA -> 1239:San Jose, CA 0.437400773037956
+1239:Stockton, CA -> 1239:Tokyo, Japan 42.057569081832
+1239:Sydney, Australia -> 1239:Auckland, NewZealand 10.7861523674496
+1239:Sydney, Australia -> 1239:San Jose, CA 59.8122862074532
+1239:Tacoma, WA -> 1239:Cheyenne, WY 7.7919920499758
+1239:Tacoma, WA -> 1239:San Jose, CA 5.51355908132224
+1239:Tacoma, WA -> 1239:Seattle, WA 0.207166302464815
+1239:Tacoma, WA -> 1239:Tokyo, Japan 38.9466989302757
+1239:Tokyo, Japan -> 1239:Hong Kong 14.1254042821176
+1239:Tokyo, Japan -> 1239:San Jose, CA 42.030205069196
+1239:Tokyo, Japan -> 1239:Singapore 26.1900160757687
+1239:Tokyo, Japan -> 1239:Stockton, CA 42.057569081832
+1239:Tokyo, Japan -> 1239:Tacoma, WA 38.9466989302757
+1239:Tuckerton, NJ -> 1239:London, UnitedKingdom 28.3380319904003
+1239:Tuckerton, NJ -> 1239:Manasquan, NJ 0.3162210455906
+1239:Tuckerton, NJ -> 1239:Pennsauken, NJ 0.359410204531537
+1239:Tuckerton, NJ -> 1239:Relay, MD 1.03598066929191
+1239:Tucson, AZ -> 1239:Anaheim, CA 3.37556761347688
+1239:Washington, DC -> 1239:Relay, MD 0.22235770619305

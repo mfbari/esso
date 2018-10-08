@@ -1,0 +1,30 @@
+3602:Calgary, Canada -> 3602:Toronto, Canada 13.5518
+3602:Calgary, Canada -> 3602:Montreal, Canada 15.0961
+3602:Calgary, Canada -> 3602:Chicago, IL 0.5
+3602:Calgary, Canada -> 3602:Vancouver, Canada 4.2344
+3602:Montreal, Canada -> 3602:Calgary, Canada 15.0961
+3602:Montreal, Canada -> 3602:Toronto, Canada 2.5443
+3602:Montreal, Canada -> 3602:Pennsauken, NJ 3.14243
+3602:Montreal, Canada -> 3602:Ottawa, Canada 0.83269
+3602:Montreal, Canada -> 3602:New York, NY 2.66508
+3602:Vancouver, Canada -> 3602:Victoria, Canada 4.32796
+3602:Vancouver, Canada -> 3602:Calgary, Canada 4.2344
+3602:Vancouver, Canada -> 3602:Seattle, WA 1.1621
+3602:Vancouver, Canada -> 3602:Toronto, Canada 16.7862
+3602:Vancouver, Canada -> 3602:New York, NY 18.99558
+3602:Seattle, WA -> 3602:Toronto, Canada 16.6241
+3602:Seattle, WA -> 3602:Vancouver, Canada 1.1621
+3602:Toronto, Canada -> 3602:Calgary, Canada 13.5518
+3602:Toronto, Canada -> 3602:Seattle, WA 16.6241
+3602:Toronto, Canada -> 3602:Montreal, Canada 2.5443
+3602:Toronto, Canada -> 3602:Chicago, IL 14.0518
+3602:Toronto, Canada -> 3602:Vancouver, Canada 16.7862
+3602:Toronto, Canada -> 3602:New York, NY 3.20938
+3602:Chicago, IL -> 3602:Calgary, Canada 0.5
+3602:Chicago, IL -> 3602:Toronto, Canada 14.0518
+3602:Pennsauken, NJ -> 3602:Montreal, Canada 3.14243
+3602:Ottawa, Canada -> 3602:Montreal, Canada 0.83269
+3602:Victoria, Canada -> 3602:Vancouver, Canada 4.32796
+3602:New York, NY -> 3602:Toronto, Canada 3.20938
+3602:New York, NY -> 3602:Montreal, Canada 2.66508
+3602:New York, NY -> 3602:Vancouver, Canada 18.99558

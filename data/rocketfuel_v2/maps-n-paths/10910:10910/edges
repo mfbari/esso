@@ -1,0 +1,32 @@
+10910:Anaheim, CA -> 10910:Los Angeles, CA 1689
+10910:Anaheim, CA -> 10910:Orange County, CA 779
+10910:Boston, MA -> 10910:New York, NY 565
+10910:Carrollton, TX -> 10910:Dallas, TX 7
+10910:Cheyenne, WY -> 10910:Denver, CO 1732
+10910:Dallas, TX -> 10910:Carrollton, TX 7
+10910:Dallas, TX -> 10910:Houston, TX 730
+10910:Denver, CO -> 10910:Cheyenne, WY 1732
+10910:Everett, WA -> 10910:Seattle, WA 278
+10910:Houston, TX -> 10910:Dallas, TX 730
+10910:Los Angeles, CA -> 10910:Anaheim, CA 1689
+10910:Los Angeles, CA -> 10910:Orange County, CA 1440
+10910:Miami, FL -> 10910:Orlando, FL 849
+10910:Milpitas, CA -> 10910:San Francisco, CA 26
+10910:New York, NY -> 10910:Boston, MA 565
+10910:Orange County, CA -> 10910:Anaheim, CA 779
+10910:Orange County, CA -> 10910:Los Angeles, CA 1440
+10910:Orange County, CA -> 10910:San Diego, CA 268
+10910:Orlando, FL -> 10910:Miami, FL 849
+10910:Palo Alto, CA -> 10910:San Francisco, CA 4478
+10910:Pennsauken, NJ -> 10910:Philadelphia, PA 365
+10910:Philadelphia, PA -> 10910:Pennsauken, NJ 365
+10910:San Diego, CA -> 10910:Orange County, CA 268
+10910:San Francisco, CA -> 10910:Milpitas, CA 26
+10910:San Francisco, CA -> 10910:Palo Alto, CA 4478
+10910:San Francisco, CA -> 10910:San Jose, CA 4064
+10910:San Jose, CA -> 10910:San Francisco, CA 4064
+10910:Seattle, WA -> 10910:Everett, WA 278
+10910:Seattle, WA -> 10910:Tacoma, WA 608
+10910:Tacoma, WA -> 10910:Seattle, WA 608
+10910:Vienna, VA -> 10910:Washington, DC 1712
+10910:Washington, DC -> 10910:Vienna, VA 1712

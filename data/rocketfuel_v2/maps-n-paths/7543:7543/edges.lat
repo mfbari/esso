@@ -1,0 +1,18 @@
+7543:Adelaide, Australia -> 7543:Sydney, Australia 5.82778643436683
+7543:Melbourne, Australia -> 7543:Sydney, Australia 3.52506386753417
+7543:Newcastle, Australia -> 7543:Sydney, Australia 0.651636612713129
+7543:Palo Alto, CA -> 7543:San Jose, CA 0.124477546789977
+7543:Palo Alto, CA -> 7543:Singapore 68.0855873919888
+7543:Palo Alto, CA -> 7543:Taipei, Taiwan 51.9792733883556
+7543:San Jose, CA -> 7543:Palo Alto, CA 0.124477546789977
+7543:San Jose, CA -> 7543:Singapore 68.2098789197584
+7543:San Jose, CA -> 7543:Taipei, Taiwan 52.102757784929
+7543:Singapore -> 7543:Palo Alto, CA 68.0855873919888
+7543:Singapore -> 7543:San Jose, CA 68.2098789197584
+7543:Singapore -> 7543:Taipei, Taiwan 16.2480822142295
+7543:Sydney, Australia -> 7543:Adelaide, Australia 5.82778643436683
+7543:Sydney, Australia -> 7543:Melbourne, Australia 3.52506386753417
+7543:Sydney, Australia -> 7543:Newcastle, Australia 0.651636612713129
+7543:Taipei, Taiwan -> 7543:Palo Alto, CA 51.9792733883556
+7543:Taipei, Taiwan -> 7543:San Jose, CA 52.102757784929
+7543:Taipei, Taiwan -> 7543:Singapore 16.2480822142295

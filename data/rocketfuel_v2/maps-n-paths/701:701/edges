@@ -1,0 +1,438 @@
+701:Albuquerque, NM -> 701:Dallas, TX 5
+701:Alexandria, VA -> 701:Washington, DC 10318
+701:Anaheim, CA -> 701:Phoenix, AZ 8
+701:Ashburn, VA -> 701:New York, NY 2
+701:Ashburn, VA -> 701:Washington, DC 2
+701:Atlanta, GA -> 701:Calgary, Canada 2
+701:Atlanta, GA -> 701:Chicago, IL 38656
+701:Atlanta, GA -> 701:Dallas, TX 13066
+701:Atlanta, GA -> 701:Houston, TX 242
+701:Atlanta, GA -> 701:Jacksonville, FL 14934
+701:Atlanta, GA -> 701:Los Angeles, CA 21892
+701:Atlanta, GA -> 701:Miami, FL 99499
+701:Atlanta, GA -> 701:Montreal, Canada 69
+701:Atlanta, GA -> 701:New Orleans, LA 10
+701:Atlanta, GA -> 701:New York, NY 51460
+701:Atlanta, GA -> 701:Orlando, FL 25200
+701:Atlanta, GA -> 701:Portland, OR 10886
+701:Atlanta, GA -> 701:Sacramento, CA 16506
+701:Atlanta, GA -> 701:Saint Louis, MO 60
+701:Atlanta, GA -> 701:Salt Lake City, UT 4344
+701:Atlanta, GA -> 701:Santa Clara, CA 283
+701:Atlanta, GA -> 701:Seattle, WA 13825
+701:Atlanta, GA -> 701:Toronto, Canada 336
+701:Atlanta, GA -> 701:Vancouver, Canada 696
+701:Atlanta, GA -> 701:Washington, DC 33196
+701:Austin, TX -> 701:Dallas, TX 1338
+701:Austin, TX -> 701:Houston, TX 843
+701:Baltimore, MD -> 701:Washington, DC 7727
+701:Boston, MA -> 701:Farmingdale, NJ 48
+701:Boston, MA -> 701:Hartford, CT 246
+701:Boston, MA -> 701:New York, NY 41243
+701:Buffalo, NY -> 701:New York, NY 2760
+701:Burbank, CA -> 701:Los Angeles, CA 2
+701:Calgary, Canada -> 701:Atlanta, GA 2
+701:Calgary, Canada -> 701:Chicago, IL 247
+701:Calgary, Canada -> 701:Dallas, TX 175
+701:Calgary, Canada -> 701:Edmonton, Canada 276
+701:Calgary, Canada -> 701:Houston, TX 5
+701:Calgary, Canada -> 701:Los Angeles, CA 160
+701:Calgary, Canada -> 701:New York, NY 1284
+701:Calgary, Canada -> 701:Portland, OR 110
+701:Calgary, Canada -> 701:Regina, Canada 81
+701:Calgary, Canada -> 701:Sacramento, CA 662
+701:Calgary, Canada -> 701:Saint Louis, MO 5
+701:Calgary, Canada -> 701:Salt Lake City, UT 14
+701:Calgary, Canada -> 701:Santa Clara, CA 1156
+701:Calgary, Canada -> 701:Seattle, WA 449
+701:Calgary, Canada -> 701:Vancouver, Canada 15
+701:Calgary, Canada -> 701:Washington, DC 375
+701:Calgary, Canada -> 701:Winnipeg, Canada 674
+701:Carrollton, TX -> 701:Dallas, TX 2
+701:Charlotte, NC -> 701:Raleigh, NC 72
+701:Cheyenne, WY -> 701:Chicago, IL 26
+701:Chicago, IL -> 701:Atlanta, GA 38656
+701:Chicago, IL -> 701:Calgary, Canada 247
+701:Chicago, IL -> 701:Cheyenne, WY 26
+701:Chicago, IL -> 701:Cleveland, OH 17094
+701:Chicago, IL -> 701:Columbus, OH 5151
+701:Chicago, IL -> 701:Dallas, TX 16456
+701:Chicago, IL -> 701:Detroit, MI 27681
+701:Chicago, IL -> 701:Houston, TX 14629
+701:Chicago, IL -> 701:Indianapolis, ID 231
+701:Chicago, IL -> 701:Indianapolis, IN 21066
+701:Chicago, IL -> 701:Los Angeles, CA 36698
+701:Chicago, IL -> 701:Minneapolis, MN 18154
+701:Chicago, IL -> 701:Montreal, Canada 3857
+701:Chicago, IL -> 701:New York, NY 104841
+701:Chicago, IL -> 701:Portland, OR 9534
+701:Chicago, IL -> 701:Sacramento, CA 29155
+701:Chicago, IL -> 701:Saint Louis, MO 20696
+701:Chicago, IL -> 701:Santa Clara, CA 4681
+701:Chicago, IL -> 701:Seattle, WA 10708
+701:Chicago, IL -> 701:St Louis, MO 81
+701:Chicago, IL -> 701:Toronto, Canada 12243
+701:Chicago, IL -> 701:Vancouver, Canada 1454
+701:Chicago, IL -> 701:Washington, DC 44323
+701:Cleveland, OH -> 701:Chicago, IL 17094
+701:Cleveland, OH -> 701:Detroit, MI 1912
+701:Columbus, OH -> 701:Chicago, IL 5151
+701:Columbus, OH -> 701:Indianapolis, ID 8
+701:Columbus, OH -> 701:Indianapolis, IN 589
+701:Dallas, TX -> 701:Albuquerque, NM 5
+701:Dallas, TX -> 701:Atlanta, GA 13066
+701:Dallas, TX -> 701:Austin, TX 1338
+701:Dallas, TX -> 701:Calgary, Canada 175
+701:Dallas, TX -> 701:Carrollton, TX 2
+701:Dallas, TX -> 701:Chicago, IL 16456
+701:Dallas, TX -> 701:Houston, TX 11788
+701:Dallas, TX -> 701:Los Angeles, CA 20987
+701:Dallas, TX -> 701:Montreal, Canada 889
+701:Dallas, TX -> 701:New Orleans, LA 24521
+701:Dallas, TX -> 701:New York, NY 23110
+701:Dallas, TX -> 701:Portland, OR 3580
+701:Dallas, TX -> 701:Sacramento, CA 11051
+701:Dallas, TX -> 701:Saint Louis, MO 6854
+701:Dallas, TX -> 701:Salt Lake City, UT 12876
+701:Dallas, TX -> 701:San Antonio, TX 16733
+701:Dallas, TX -> 701:Santa Clara, CA 3908
+701:Dallas, TX -> 701:Seattle, WA 6046
+701:Dallas, TX -> 701:Toronto, Canada 4534
+701:Dallas, TX -> 701:Vancouver, Canada 805
+701:Dallas, TX -> 701:Washington, DC 28869
+701:Dayton, OH -> 701:Indianapolis, ID 3
+701:Dayton, OH -> 701:Indianapolis, IN 293
+701:Denver, CO -> 701:Kansas City, MO 301
+701:Denver, CO -> 701:Phoenix, AZ 28
+701:Denver, CO -> 701:Saint Louis, MO 9135
+701:Denver, CO -> 701:Salt Lake City, UT 67449
+701:Detroit, MI -> 701:Chicago, IL 27681
+701:Detroit, MI -> 701:Cleveland, OH 1912
+701:Edmonton, Canada -> 701:Calgary, Canada 276
+701:Edmonton, Canada -> 701:Vancouver, Canada 254
+701:Farmingdale, NJ -> 701:Boston, MA 48
+701:Farmingdale, NJ -> 701:New York, NY 13276
+701:Greensboro, NC -> 701:Raleigh, NC 9
+701:Greensboro, NC -> 701:Washington, DC 9460
+701:Halifax, Canada -> 701:Montreal, Canada 3172
+701:Hamilton, Canada -> 701:Toronto, Canada 3878
+701:Hartford, CT -> 701:Boston, MA 246
+701:Hartford, CT -> 701:New York, NY 9761
+701:Hayward, CA -> 701:Sacramento, CA 486
+701:Honolulu, HI -> 701:Sacramento, CA 8535
+701:Houston, TX -> 701:Atlanta, GA 242
+701:Houston, TX -> 701:Austin, TX 843
+701:Houston, TX -> 701:Calgary, Canada 5
+701:Houston, TX -> 701:Chicago, IL 14629
+701:Houston, TX -> 701:Dallas, TX 11788
+701:Houston, TX -> 701:Los Angeles, CA 13313
+701:Houston, TX -> 701:New Orleans, LA 56171
+701:Houston, TX -> 701:New York, NY 25253
+701:Houston, TX -> 701:Portland, OR 6445
+701:Houston, TX -> 701:Sacramento, CA 9480
+701:Houston, TX -> 701:Salt Lake City, UT 2599
+701:Houston, TX -> 701:San Antonio, TX 10451
+701:Houston, TX -> 701:Santa Clara, CA 8
+701:Houston, TX -> 701:Seattle, WA 6979
+701:Houston, TX -> 701:Vancouver, Canada 255
+701:Houston, TX -> 701:Washington, DC 12969
+701:Indianapolis, ID -> 701:Chicago, IL 231
+701:Indianapolis, ID -> 701:Columbus, OH 8
+701:Indianapolis, ID -> 701:Dayton, OH 3
+701:Indianapolis, IN -> 701:Chicago, IL 21066
+701:Indianapolis, IN -> 701:Columbus, OH 589
+701:Indianapolis, IN -> 701:Dayton, OH 293
+701:Indianapolis, IN -> 701:Roachdale, IN 35
+701:Jacksonville, FL -> 701:Atlanta, GA 14934
+701:Kansas City, MO -> 701:Denver, CO 301
+701:Kansas City, MO -> 701:Saint Louis, MO 10886
+701:Kansas City, MO -> 701:Salt Lake City, UT 1531
+701:Kansas City, MO -> 701:Santa Clara, CA 10
+701:Kirkland, WA -> 701:Portland, OR 80
+701:Kirkland, WA -> 701:Seattle, WA 80
+701:Las Vegas, NV -> 701:Los Angeles, CA 2275
+701:London, Canada -> 701:London, UnitedKingdom 2
+701:London, Canada -> 701:Toronto, Canada 2159
+701:London, UnitedKingdom -> 701:London, Canada 2
+701:London, UnitedKingdom -> 701:Toronto, Canada 17
+701:Los Angeles, CA -> 701:Atlanta, GA 21892
+701:Los Angeles, CA -> 701:Burbank, CA 2
+701:Los Angeles, CA -> 701:Calgary, Canada 160
+701:Los Angeles, CA -> 701:Chicago, IL 36698
+701:Los Angeles, CA -> 701:Dallas, TX 20987
+701:Los Angeles, CA -> 701:Houston, TX 13313
+701:Los Angeles, CA -> 701:Las Vegas, NV 2275
+701:Los Angeles, CA -> 701:Montreal, Canada 1114
+701:Los Angeles, CA -> 701:New York, NY 51813
+701:Los Angeles, CA -> 701:Phoenix, AZ 13446
+701:Los Angeles, CA -> 701:Portland, OR 4648
+701:Los Angeles, CA -> 701:Sacramento, CA 100713
+701:Los Angeles, CA -> 701:Saint Louis, MO 4212
+701:Los Angeles, CA -> 701:Salt Lake City, UT 6817
+701:Los Angeles, CA -> 701:San Diego, CA 11388
+701:Los Angeles, CA -> 701:Santa Clara, CA 3931
+701:Los Angeles, CA -> 701:Seattle, WA 8076
+701:Los Angeles, CA -> 701:Toronto, Canada 3926
+701:Los Angeles, CA -> 701:Vancouver, Canada 610
+701:Los Angeles, CA -> 701:Washington, DC 47757
+701:Memphis, TN -> 701:Saint Louis, MO 80
+701:Miami, FL -> 701:Atlanta, GA 99499
+701:Minneapolis, MN -> 701:Chicago, IL 18154
+701:Montreal, Canada -> 701:Atlanta, GA 69
+701:Montreal, Canada -> 701:Chicago, IL 3857
+701:Montreal, Canada -> 701:Dallas, TX 889
+701:Montreal, Canada -> 701:Halifax, Canada 3172
+701:Montreal, Canada -> 701:Los Angeles, CA 1114
+701:Montreal, Canada -> 701:New York, NY 4380
+701:Montreal, Canada -> 701:Ottawa, Canada 1727
+701:Montreal, Canada -> 701:Portland, OR 622
+701:Montreal, Canada -> 701:Quebec, Canada 773
+701:Montreal, Canada -> 701:Sacramento, CA 1922
+701:Montreal, Canada -> 701:Salt Lake City, UT 253
+701:Montreal, Canada -> 701:Seattle, WA 1118
+701:Montreal, Canada -> 701:Vancouver, Canada 111
+701:Montreal, Canada -> 701:Washington, DC 4357
+701:New Orleans, LA -> 701:Atlanta, GA 10
+701:New Orleans, LA -> 701:Dallas, TX 24521
+701:New Orleans, LA -> 701:Houston, TX 56171
+701:New York, NY -> 701:Ashburn, VA 2
+701:New York, NY -> 701:Atlanta, GA 51460
+701:New York, NY -> 701:Boston, MA 41243
+701:New York, NY -> 701:Buffalo, NY 2760
+701:New York, NY -> 701:Calgary, Canada 1284
+701:New York, NY -> 701:Chicago, IL 104841
+701:New York, NY -> 701:Dallas, TX 23110
+701:New York, NY -> 701:Farmingdale, NJ 13276
+701:New York, NY -> 701:Hartford, CT 9761
+701:New York, NY -> 701:Houston, TX 25253
+701:New York, NY -> 701:Los Angeles, CA 51813
+701:New York, NY -> 701:Montreal, Canada 4380
+701:New York, NY -> 701:Newark, NJ 14548
+701:New York, NY -> 701:Portland, OR 49557
+701:New York, NY -> 701:Sacramento, CA 84443
+701:New York, NY -> 701:Saint Louis, MO 8686
+701:New York, NY -> 701:Salt Lake City, UT 15887
+701:New York, NY -> 701:Santa Clara, CA 6268
+701:New York, NY -> 701:Seattle, WA 18329
+701:New York, NY -> 701:Stockholm, Sweden 4
+701:New York, NY -> 701:Toronto, Canada 14995
+701:New York, NY -> 701:Vancouver, Canada 3203
+701:New York, NY -> 701:Washington, DC 63669
+701:Newark, NJ -> 701:New York, NY 14548
+701:Orlando, FL -> 701:Atlanta, GA 25200
+701:Orlando, FL -> 701:Tampa, FL 3135
+701:Ottawa, Canada -> 701:Montreal, Canada 1727
+701:Ottawa, Canada -> 701:Toronto, Canada 1847
+701:Palo Alto, CA -> 701:Sacramento, CA 2201
+701:Palo Alto, CA -> 701:San Jose, CA 5296
+701:Palo Alto, CA -> 701:Santa Clara, CA 18326
+701:Philadelphia, PA -> 701:Tyson Corner, VA 1461
+701:Philadelphia, PA -> 701:Washington, DC 150839
+701:Phoenix, AZ -> 701:Anaheim, CA 8
+701:Phoenix, AZ -> 701:Denver, CO 28
+701:Phoenix, AZ -> 701:Los Angeles, CA 13446
+701:Pittsburgh, PA -> 701:Tyson Corner, VA 579
+701:Pittsburgh, PA -> 701:Washington, DC 20633
+701:Portland, OR -> 701:Atlanta, GA 10886
+701:Portland, OR -> 701:Calgary, Canada 110
+701:Portland, OR -> 701:Chicago, IL 9534
+701:Portland, OR -> 701:Dallas, TX 3580
+701:Portland, OR -> 701:Houston, TX 6445
+701:Portland, OR -> 701:Kirkland, WA 80
+701:Portland, OR -> 701:Los Angeles, CA 4648
+701:Portland, OR -> 701:Montreal, Canada 622
+701:Portland, OR -> 701:New York, NY 49557
+701:Portland, OR -> 701:Sacramento, CA 12665
+701:Portland, OR -> 701:Saint Louis, MO 1942
+701:Portland, OR -> 701:Salt Lake City, UT 1982
+701:Portland, OR -> 701:Santa Clara, CA 4270
+701:Portland, OR -> 701:Seattle, WA 25048
+701:Portland, OR -> 701:Toronto, Canada 2019
+701:Portland, OR -> 701:Vancouver, Canada 312
+701:Portland, OR -> 701:Washington, DC 8457
+701:Quebec, Canada -> 701:Montreal, Canada 773
+701:Raleigh, NC -> 701:Charlotte, NC 72
+701:Raleigh, NC -> 701:Greensboro, NC 9
+701:Raleigh, NC -> 701:Washington, DC 17096
+701:Regina, Canada -> 701:Calgary, Canada 81
+701:Relay, MD -> 701:Washington, DC 2
+701:Reston, VA -> 701:Washington, DC 59
+701:Richmond, VA -> 701:Tyson Corner, VA 445
+701:Richmond, VA -> 701:Washington, DC 11914
+701:Roachdale, IN -> 701:Indianapolis, IN 35
+701:Sacramento, CA -> 701:Atlanta, GA 16506
+701:Sacramento, CA -> 701:Calgary, Canada 662
+701:Sacramento, CA -> 701:Chicago, IL 29155
+701:Sacramento, CA -> 701:Dallas, TX 11051
+701:Sacramento, CA -> 701:Hayward, CA 486
+701:Sacramento, CA -> 701:Honolulu, HI 8535
+701:Sacramento, CA -> 701:Houston, TX 9480
+701:Sacramento, CA -> 701:Los Angeles, CA 100713
+701:Sacramento, CA -> 701:Montreal, Canada 1922
+701:Sacramento, CA -> 701:New York, NY 84443
+701:Sacramento, CA -> 701:Palo Alto, CA 2201
+701:Sacramento, CA -> 701:Portland, OR 12665
+701:Sacramento, CA -> 701:Salt Lake City, UT 16112
+701:Sacramento, CA -> 701:San Francisco, CA 77320
+701:Sacramento, CA -> 701:San Jose, CA 71669
+701:Sacramento, CA -> 701:Santa Clara, CA 10491
+701:Sacramento, CA -> 701:Seattle, WA 12618
+701:Sacramento, CA -> 701:Toronto, Canada 5429
+701:Sacramento, CA -> 701:Vancouver, Canada 1258
+701:Sacramento, CA -> 701:Washington, DC 23049
+701:Saint Louis, MO -> 701:Atlanta, GA 60
+701:Saint Louis, MO -> 701:Calgary, Canada 5
+701:Saint Louis, MO -> 701:Chicago, IL 20696
+701:Saint Louis, MO -> 701:Dallas, TX 6854
+701:Saint Louis, MO -> 701:Denver, CO 9135
+701:Saint Louis, MO -> 701:Kansas City, MO 10886
+701:Saint Louis, MO -> 701:Los Angeles, CA 4212
+701:Saint Louis, MO -> 701:Memphis, TN 80
+701:Saint Louis, MO -> 701:New York, NY 8686
+701:Saint Louis, MO -> 701:Portland, OR 1942
+701:Saint Louis, MO -> 701:Salt Lake City, UT 5349
+701:Saint Louis, MO -> 701:Santa Clara, CA 48
+701:Saint Louis, MO -> 701:Seattle, WA 2148
+701:Saint Louis, MO -> 701:Vancouver, Canada 238
+701:Saint Louis, MO -> 701:Washington, DC 2449
+701:Salt Lake City, UT -> 701:Atlanta, GA 4344
+701:Salt Lake City, UT -> 701:Calgary, Canada 14
+701:Salt Lake City, UT -> 701:Dallas, TX 12876
+701:Salt Lake City, UT -> 701:Denver, CO 67449
+701:Salt Lake City, UT -> 701:Houston, TX 2599
+701:Salt Lake City, UT -> 701:Kansas City, MO 1531
+701:Salt Lake City, UT -> 701:Los Angeles, CA 6817
+701:Salt Lake City, UT -> 701:Montreal, Canada 253
+701:Salt Lake City, UT -> 701:New York, NY 15887
+701:Salt Lake City, UT -> 701:Portland, OR 1982
+701:Salt Lake City, UT -> 701:Sacramento, CA 16112
+701:Salt Lake City, UT -> 701:Saint Louis, MO 5349
+701:Salt Lake City, UT -> 701:Santa Clara, CA 3433
+701:Salt Lake City, UT -> 701:Seattle, WA 2349
+701:Salt Lake City, UT -> 701:Toronto, Canada 1593
+701:Salt Lake City, UT -> 701:Vancouver, Canada 299
+701:Salt Lake City, UT -> 701:Washington, DC 10686
+701:San Antonio, TX -> 701:Dallas, TX 16733
+701:San Antonio, TX -> 701:Houston, TX 10451
+701:San Diego, CA -> 701:Los Angeles, CA 11388
+701:San Francisco, CA -> 701:Sacramento, CA 77320
+701:San Francisco, CA -> 701:San Jose, CA 3082
+701:San Francisco, CA -> 701:Santa Clara, CA 9923
+701:San Jose, CA -> 701:Palo Alto, CA 5296
+701:San Jose, CA -> 701:Sacramento, CA 71669
+701:San Jose, CA -> 701:San Francisco, CA 3082
+701:San Jose, CA -> 701:Santa Clara, CA 28414
+701:Santa Clara, CA -> 701:Atlanta, GA 283
+701:Santa Clara, CA -> 701:Calgary, Canada 1156
+701:Santa Clara, CA -> 701:Chicago, IL 4681
+701:Santa Clara, CA -> 701:Dallas, TX 3908
+701:Santa Clara, CA -> 701:Houston, TX 8
+701:Santa Clara, CA -> 701:Kansas City, MO 10
+701:Santa Clara, CA -> 701:Los Angeles, CA 3931
+701:Santa Clara, CA -> 701:New York, NY 6268
+701:Santa Clara, CA -> 701:Palo Alto, CA 18326
+701:Santa Clara, CA -> 701:Portland, OR 4270
+701:Santa Clara, CA -> 701:Sacramento, CA 10491
+701:Santa Clara, CA -> 701:Saint Louis, MO 48
+701:Santa Clara, CA -> 701:Salt Lake City, UT 3433
+701:Santa Clara, CA -> 701:San Francisco, CA 9923
+701:Santa Clara, CA -> 701:San Jose, CA 28414
+701:Santa Clara, CA -> 701:Seattle, WA 8030
+701:Santa Clara, CA -> 701:Stockton, CA 18
+701:Santa Clara, CA -> 701:Sunnyvale, CA 5
+701:Santa Clara, CA -> 701:Vancouver, Canada 1391
+701:Santa Clara, CA -> 701:Washington, DC 3430
+701:Scarborough, Canada -> 701:Toronto, Canada 537
+701:Seattle, WA -> 701:Atlanta, GA 13825
+701:Seattle, WA -> 701:Calgary, Canada 449
+701:Seattle, WA -> 701:Chicago, IL 10708
+701:Seattle, WA -> 701:Dallas, TX 6046
+701:Seattle, WA -> 701:Houston, TX 6979
+701:Seattle, WA -> 701:Kirkland, WA 80
+701:Seattle, WA -> 701:Los Angeles, CA 8076
+701:Seattle, WA -> 701:Montreal, Canada 1118
+701:Seattle, WA -> 701:New York, NY 18329
+701:Seattle, WA -> 701:Portland, OR 25048
+701:Seattle, WA -> 701:Sacramento, CA 12618
+701:Seattle, WA -> 701:Saint Louis, MO 2148
+701:Seattle, WA -> 701:Salt Lake City, UT 2349
+701:Seattle, WA -> 701:Santa Clara, CA 8030
+701:Seattle, WA -> 701:Toronto, Canada 2748
+701:Seattle, WA -> 701:Vancouver, Canada 1748
+701:Seattle, WA -> 701:Washington, DC 9060
+701:St Louis, MO -> 701:Chicago, IL 81
+701:Stockholm, Sweden -> 701:New York, NY 4
+701:Stockton, CA -> 701:Santa Clara, CA 18
+701:Sunnyvale, CA -> 701:Santa Clara, CA 5
+701:Tampa, FL -> 701:Orlando, FL 3135
+701:Toronto, Canada -> 701:Atlanta, GA 336
+701:Toronto, Canada -> 701:Chicago, IL 12243
+701:Toronto, Canada -> 701:Dallas, TX 4534
+701:Toronto, Canada -> 701:Hamilton, Canada 3878
+701:Toronto, Canada -> 701:London, Canada 2159
+701:Toronto, Canada -> 701:London, UnitedKingdom 17
+701:Toronto, Canada -> 701:Los Angeles, CA 3926
+701:Toronto, Canada -> 701:New York, NY 14995
+701:Toronto, Canada -> 701:Ottawa, Canada 1847
+701:Toronto, Canada -> 701:Portland, OR 2019
+701:Toronto, Canada -> 701:Sacramento, CA 5429
+701:Toronto, Canada -> 701:Salt Lake City, UT 1593
+701:Toronto, Canada -> 701:Scarborough, Canada 537
+701:Toronto, Canada -> 701:Seattle, WA 2748
+701:Toronto, Canada -> 701:Vancouver, Canada 474
+701:Toronto, Canada -> 701:Washington, DC 14741
+701:Toronto, Canada -> 701:Waterford, Ireland 5
+701:Toronto, Canada -> 701:Waterloo, Canada 2767
+701:Toronto, Canada -> 701:Windsor, Canada 298
+701:Tyson Corner, VA -> 701:Philadelphia, PA 1461
+701:Tyson Corner, VA -> 701:Pittsburgh, PA 579
+701:Tyson Corner, VA -> 701:Richmond, VA 445
+701:Tyson Corner, VA -> 701:Washington, DC 22379
+701:Vancouver, Canada -> 701:Atlanta, GA 696
+701:Vancouver, Canada -> 701:Calgary, Canada 15
+701:Vancouver, Canada -> 701:Chicago, IL 1454
+701:Vancouver, Canada -> 701:Dallas, TX 805
+701:Vancouver, Canada -> 701:Edmonton, Canada 254
+701:Vancouver, Canada -> 701:Houston, TX 255
+701:Vancouver, Canada -> 701:Los Angeles, CA 610
+701:Vancouver, Canada -> 701:Montreal, Canada 111
+701:Vancouver, Canada -> 701:New York, NY 3203
+701:Vancouver, Canada -> 701:Portland, OR 312
+701:Vancouver, Canada -> 701:Sacramento, CA 1258
+701:Vancouver, Canada -> 701:Saint Louis, MO 238
+701:Vancouver, Canada -> 701:Salt Lake City, UT 299
+701:Vancouver, Canada -> 701:Santa Clara, CA 1391
+701:Vancouver, Canada -> 701:Seattle, WA 1748
+701:Vancouver, Canada -> 701:Toronto, Canada 474
+701:Vancouver, Canada -> 701:Washington, DC 9368
+701:Washington, DC -> 701:Alexandria, VA 10318
+701:Washington, DC -> 701:Ashburn, VA 2
+701:Washington, DC -> 701:Atlanta, GA 33196
+701:Washington, DC -> 701:Baltimore, MD 7727
+701:Washington, DC -> 701:Calgary, Canada 375
+701:Washington, DC -> 701:Chicago, IL 44323
+701:Washington, DC -> 701:Dallas, TX 28869
+701:Washington, DC -> 701:Greensboro, NC 9460
+701:Washington, DC -> 701:Houston, TX 12969
+701:Washington, DC -> 701:Los Angeles, CA 47757
+701:Washington, DC -> 701:Montreal, Canada 4357
+701:Washington, DC -> 701:New York, NY 63669
+701:Washington, DC -> 701:Philadelphia, PA 150839
+701:Washington, DC -> 701:Pittsburgh, PA 20633
+701:Washington, DC -> 701:Portland, OR 8457
+701:Washington, DC -> 701:Raleigh, NC 17096
+701:Washington, DC -> 701:Relay, MD 2
+701:Washington, DC -> 701:Reston, VA 59
+701:Washington, DC -> 701:Richmond, VA 11914
+701:Washington, DC -> 701:Sacramento, CA 23049
+701:Washington, DC -> 701:Saint Louis, MO 2449
+701:Washington, DC -> 701:Salt Lake City, UT 10686
+701:Washington, DC -> 701:Santa Clara, CA 3430
+701:Washington, DC -> 701:Seattle, WA 9060
+701:Washington, DC -> 701:Toronto, Canada 14741
+701:Washington, DC -> 701:Tyson Corner, VA 22379
+701:Washington, DC -> 701:Vancouver, Canada 9368
+701:Waterford, Ireland -> 701:Toronto, Canada 5
+701:Waterloo, Canada -> 701:Toronto, Canada 2767
+701:Windsor, Canada -> 701:Toronto, Canada 298
+701:Winnipeg, Canada -> 701:Calgary, Canada 674

@@ -1,0 +1,156 @@
+174:Albany, NY -> 174:Boston, MA 1.11646443455727
+174:Albany, NY -> 174:Chicago, IL 5.72486297182523
+174:Amsterdam, Netherlands -> 174:Barcelona, Spain 5.97401210937966
+174:Amsterdam, Netherlands -> 174:Berlin, Germany 2.73915048390711
+174:Amsterdam, Netherlands -> 174:Budapest, Hungary 5.58896805535072
+174:Amsterdam, Netherlands -> 174:London, UnitedKingdom 1.88532911009081
+174:Amsterdam, Netherlands -> 174:New York, NY 29.5172132632674
+174:Antwerp, Netherlands -> 174:London, UnitedKingdom 1.88532911009081
+174:Antwerp, Netherlands -> 174:New York, NY 29.5172132632674
+174:Antwerp, Netherlands -> 174:Paris, France 2.01525285021424
+174:Antwerp, Netherlands -> 174:Zurich, Switzerland 2.7940019908157
+174:Ashburn, VA -> 174:Washington, DC 0.225316255475169
+174:Atlanta, GA -> 174:Chicago, IL 4.71810812635976
+174:Atlanta, GA -> 174:Dallas, TX 5.75137875158028
+174:Atlanta, GA -> 174:Los Angeles, CA 15.5956600742354
+174:Atlanta, GA -> 174:New York, NY 6.00743024175476
+174:Atlanta, GA -> 174:San Francisco, CA 17.2177866349203
+174:Atlanta, GA -> 174:Washington, DC 4.38018878263173
+174:Barcelona, Spain -> 174:Amsterdam, Netherlands 5.97401210937966
+174:Barcelona, Spain -> 174:London, UnitedKingdom 5.68255030125975
+174:Barcelona, Spain -> 174:Zaragoza, Spain 1.3449462563251
+174:Basel, Switzerland -> 174:Zurich, Switzerland 0.366680314568109
+174:Bedford, MA -> 174:Boston, MA 100000
+174:Berlin, Germany -> 174:Amsterdam, Netherlands 2.73915048390711
+174:Berlin, Germany -> 174:Frankfurt, Germany 2.16152721948152
+174:Berlin, Germany -> 174:London, UnitedKingdom 4.62071213151615
+174:Berlin, Germany -> 174:Munich, Germany 2.51315596270897
+174:Berlin, Germany -> 174:New York, NY 31.8835920327574
+174:Berlin, Germany -> 174:Stuttgart, Germany 2.51569785195399
+174:Birmingham, UnitedKingdom -> 174:London, UnitedKingdom 0.779261348086866
+174:Boston, MA -> 174:Albany, NY 1.11646443455727
+174:Boston, MA -> 174:Bedford, MA 100000
+174:Boston, MA -> 174:Dallas, TX 12.4363734730694
+174:Boston, MA -> 174:New York, NY 1.52818775993091
+174:Boston, MA -> 174:San Jose, CA 21.5400443557056
+174:Brussels, Belgium -> 174:London, UnitedKingdom 1.59576807051388
+174:Brussels, Belgium -> 174:Luxembourg, Luxembourg 0.949636865818484
+174:Brussels, Belgium -> 174:New York, NY 29.4237388320008
+174:Budapest, Hungary -> 174:Amsterdam, Netherlands 5.58896805535072
+174:Budapest, Hungary -> 174:London, UnitedKingdom 7.32607913912526
+174:Budapest, Hungary -> 174:New York, NY 35.1061741920646
+174:Cambridge, UnitedKingdom -> 174:London, UnitedKingdom 0.376595193970496
+174:Chicago, IL -> 174:Albany, NY 5.72486297182523
+174:Chicago, IL -> 174:Atlanta, GA 4.71810812635976
+174:Chicago, IL -> 174:Dallas, TX 6.43760504337832
+174:Chicago, IL -> 174:Los Angeles, CA 14.0526484629278
+174:Chicago, IL -> 174:New York, NY 5.72539765160039
+174:Chicago, IL -> 174:San Francisco, CA 14.960010383025
+174:Chicago, IL -> 174:San Jose, CA 14.7744081963979
+174:Chicago, IL -> 174:Washington, DC 4.79269864527852
+174:Cityreach, UnitedKingdom -> 174:London, UnitedKingdom 0
+174:Cologne, Germany -> 174:Frankfurt, Germany 8.8556227965482
+174:Cologne, Germany -> 174:Koeln, Germany 8.29716889827395
+174:Dallas, TX -> 174:Atlanta, GA 5.75137875158028
+174:Dallas, TX -> 174:Boston, MA 12.4363734730694
+174:Dallas, TX -> 174:Chicago, IL 6.43760504337832
+174:Dallas, TX -> 174:Los Angeles, CA 10.0456672433203
+174:Dallas, TX -> 174:New York, NY 11.0009242092306
+174:Dallas, TX -> 174:San Francisco, CA 11.9855228230229
+174:Dallas, TX -> 174:Washington, DC 9.49836499313979
+174:Detroit, MI -> 174:Pontiac, MI 0.170411483629277
+174:Dublin, Ireland -> 174:London, UnitedKingdom 2.329340820098
+174:Dusseldorf, Germany -> 174:Frankfurt, Germany 0.944468343206374
+174:Edinburgh, UnitedKingdom -> 174:London, UnitedKingdom 2.66205901222157
+174:Frankfurt, Germany -> 174:Berlin, Germany 2.16152721948152
+174:Frankfurt, Germany -> 174:Cologne, Germany 8.8556227965482
+174:Frankfurt, Germany -> 174:Dusseldorf, Germany 0.944468343206374
+174:Frankfurt, Germany -> 174:Hamburg, Germany 2.0357355149515
+174:Frankfurt, Germany -> 174:London, UnitedKingdom 3.15804073417278
+174:Frankfurt, Germany -> 174:New York, NY 30.9779065131767
+174:Frankfurt, Germany -> 174:Vienna, Austria 3.00603025209055
+174:Geneva, Switzerland -> 174:London, UnitedKingdom 3.70271800866057
+174:Geneva, Switzerland -> 174:New York, NY 31.0285368378874
+174:Geneva, Switzerland -> 174:Zurich, Switzerland 1.12984738754259
+174:Hamburg, Germany -> 174:Frankfurt, Germany 2.0357355149515
+174:Innsbruck, Austria -> 174:Vienna, Austria 1.95573969216875
+174:Koeln, Germany -> 174:Cologne, Germany 8.29716889827395
+174:London, UnitedKingdom -> 174:Amsterdam, Netherlands 1.88532911009081
+174:London, UnitedKingdom -> 174:Antwerp, Netherlands 1.88532911009081
+174:London, UnitedKingdom -> 174:Barcelona, Spain 5.68255030125975
+174:London, UnitedKingdom -> 174:Berlin, Germany 4.62071213151615
+174:London, UnitedKingdom -> 174:Birmingham, UnitedKingdom 0.779261348086866
+174:London, UnitedKingdom -> 174:Brussels, Belgium 1.59576807051388
+174:London, UnitedKingdom -> 174:Budapest, Hungary 7.32607913912526
+174:London, UnitedKingdom -> 174:Cambridge, UnitedKingdom 0.376595193970496
+174:London, UnitedKingdom -> 174:Cityreach, UnitedKingdom 0
+174:London, UnitedKingdom -> 174:Dublin, Ireland 2.329340820098
+174:London, UnitedKingdom -> 174:Edinburgh, UnitedKingdom 2.66205901222157
+174:London, UnitedKingdom -> 174:Frankfurt, Germany 3.15804073417278
+174:London, UnitedKingdom -> 174:Geneva, Switzerland 3.70271800866057
+174:London, UnitedKingdom -> 174:New York, NY 27.8377559786444
+174:London, UnitedKingdom -> 174:Reading, UnitedKingdom 0.309936508320865
+174:London, UnitedKingdom -> 174:Vienna, Austria 6.16285580833909
+174:Los Angeles, CA -> 174:Atlanta, GA 15.5956600742354
+174:Los Angeles, CA -> 174:Chicago, IL 14.0526484629278
+174:Los Angeles, CA -> 174:Dallas, TX 10.0456672433203
+174:Los Angeles, CA -> 174:New York, NY 19.7210147124792
+174:Los Angeles, CA -> 174:San Francisco, CA 2.76945681575568
+174:Los Angeles, CA -> 174:San Jose, CA 2.39033852037053
+174:Los Angeles, CA -> 174:Santa Ana, CA 0.315105365306395
+174:Los Angeles, CA -> 174:Washington, DC 18.5226753489951
+174:Luxembourg, Luxembourg -> 174:Brussels, Belgium 0.949636865818484
+174:Munich, Germany -> 174:Berlin, Germany 2.51315596270897
+174:New York, NY -> 174:Amsterdam, Netherlands 29.5172132632674
+174:New York, NY -> 174:Antwerp, Netherlands 29.5172132632674
+174:New York, NY -> 174:Atlanta, GA 6.00743024175476
+174:New York, NY -> 174:Berlin, Germany 31.8835920327574
+174:New York, NY -> 174:Boston, MA 1.52818775993091
+174:New York, NY -> 174:Brussels, Belgium 29.4237388320008
+174:New York, NY -> 174:Budapest, Hungary 35.1061741920646
+174:New York, NY -> 174:Chicago, IL 5.72539765160039
+174:New York, NY -> 174:Dallas, TX 11.0009242092306
+174:New York, NY -> 174:Frankfurt, Germany 30.9779065131767
+174:New York, NY -> 174:Geneva, Switzerland 31.0285368378874
+174:New York, NY -> 174:London, UnitedKingdom 27.8377559786444
+174:New York, NY -> 174:Los Angeles, CA 19.7210147124792
+174:New York, NY -> 174:Newark, NJ 0.0710684956979026
+174:New York, NY -> 174:San Francisco, CA 20.6843954593898
+174:New York, NY -> 174:San Jose, CA 20.4998013750844
+174:New York, NY -> 174:Washington, DC 1.62733364571067
+174:New York, NY -> 174:Westchester, NY 0.0969056574130308
+174:Newark, NJ -> 174:New York, NY 0.0710684956979026
+174:Paris, France -> 174:Antwerp, Netherlands 2.01525285021424
+174:Pontiac, MI -> 174:Detroit, MI 0.170411483629277
+174:Reading, UnitedKingdom -> 174:London, UnitedKingdom 0.309936508320865
+174:San Francisco, CA -> 174:Atlanta, GA 17.2177866349203
+174:San Francisco, CA -> 174:Chicago, IL 14.960010383025
+174:San Francisco, CA -> 174:Dallas, TX 11.9855228230229
+174:San Francisco, CA -> 174:Los Angeles, CA 2.76945681575568
+174:San Francisco, CA -> 174:New York, NY 20.6843954593898
+174:San Francisco, CA -> 174:San Jose, CA 0.381420811600469
+174:San Francisco, CA -> 174:Washington, DC 19.6506122689107
+174:San Jose, CA -> 174:Boston, MA 21.5400443557056
+174:San Jose, CA -> 174:Chicago, IL 14.7744081963979
+174:San Jose, CA -> 174:Los Angeles, CA 2.39033852037053
+174:San Jose, CA -> 174:New York, NY 20.4998013750844
+174:San Jose, CA -> 174:San Francisco, CA 0.381420811600469
+174:San Jose, CA -> 174:Washington, DC 19.4442417506344
+174:Santa Ana, CA -> 174:Los Angeles, CA 0.315105365306395
+174:Stuttgart, Germany -> 174:Berlin, Germany 2.51569785195399
+174:Vienna, Austria -> 174:Frankfurt, Germany 3.00603025209055
+174:Vienna, Austria -> 174:Innsbruck, Austria 1.95573969216875
+174:Vienna, Austria -> 174:London, UnitedKingdom 6.16285580833909
+174:Washington, DC -> 174:Ashburn, VA 0.225316255475169
+174:Washington, DC -> 174:Atlanta, GA 4.38018878263173
+174:Washington, DC -> 174:Chicago, IL 4.79269864527852
+174:Washington, DC -> 174:Dallas, TX 9.49836499313979
+174:Washington, DC -> 174:Los Angeles, CA 18.5226753489951
+174:Washington, DC -> 174:New York, NY 1.62733364571067
+174:Washington, DC -> 174:San Francisco, CA 19.6506122689107
+174:Washington, DC -> 174:San Jose, CA 19.4442417506344
+174:Westchester, NY -> 174:New York, NY 0.0969056574130308
+174:Zaragoza, Spain -> 174:Barcelona, Spain 1.3449462563251
+174:Zurich, Switzerland -> 174:Antwerp, Netherlands 2.7940019908157
+174:Zurich, Switzerland -> 174:Basel, Switzerland 0.366680314568109
+174:Zurich, Switzerland -> 174:Geneva, Switzerland 1.12984738754259

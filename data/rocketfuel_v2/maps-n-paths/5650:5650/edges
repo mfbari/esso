@@ -1,0 +1,54 @@
+5650:Ashburn, VA -> 5650:McLean, VA 3570
+5650:Boise, ID -> 5650:Portland, OR 3256
+5650:Boise, ID -> 5650:Salt Lake City, UT 207
+5650:Chicago, IL -> 5650:Dallas, TX 6784
+5650:Chicago, IL -> 5650:McLean, VA 5381
+5650:Chicago, IL -> 5650:Rochester, NY 3086
+5650:Chicago, IL -> 5650:Salt Lake City, UT 6466
+5650:Dallas, TX -> 5650:Chicago, IL 6784
+5650:Dallas, TX -> 5650:Houston, TX 149
+5650:Dallas, TX -> 5650:McLean, VA 7642
+5650:Dallas, TX -> 5650:Phoenix, AZ 15304
+5650:Houston, TX -> 5650:Dallas, TX 149
+5650:Las Vegas, NV -> 5650:Los Angeles, CA 3452
+5650:Las Vegas, NV -> 5650:Phoenix, AZ 697
+5650:Las Vegas, NV -> 5650:Salt Lake City, UT 3795
+5650:Los Angeles, CA -> 5650:Las Vegas, NV 3452
+5650:Los Angeles, CA -> 5650:Phoenix, AZ 13587
+5650:Los Angeles, CA -> 5650:San Jose, CA 16665
+5650:McLean, VA -> 5650:Ashburn, VA 3570
+5650:McLean, VA -> 5650:Chicago, IL 5381
+5650:McLean, VA -> 5650:Dallas, TX 7642
+5650:McLean, VA -> 5650:Rochester, NY 2171
+5650:McLean, VA -> 5650:Washington, DC 2238
+5650:Palo Alto, CA -> 5650:San Jose, CA 5331
+5650:Phoenix, AZ -> 5650:Dallas, TX 15304
+5650:Phoenix, AZ -> 5650:Las Vegas, NV 697
+5650:Phoenix, AZ -> 5650:Los Angeles, CA 13587
+5650:Portland, OR -> 5650:Boise, ID 3256
+5650:Portland, OR -> 5650:San Jose, CA 10986
+5650:Portland, OR -> 5650:Spokane, WA 767
+5650:Portland, OR -> 5650:Tukwila, WA 3015
+5650:Rochester, NY -> 5650:Chicago, IL 3086
+5650:Rochester, NY -> 5650:McLean, VA 2171
+5650:Sacramento, CA -> 5650:San Jose, CA 1597
+5650:Sacramento, CA -> 5650:Stockton, CA 71
+5650:Salt Lake City, UT -> 5650:Boise, ID 207
+5650:Salt Lake City, UT -> 5650:Chicago, IL 6466
+5650:Salt Lake City, UT -> 5650:Las Vegas, NV 3795
+5650:San Francisco, CA -> 5650:San Jose, CA 216
+5650:San Jose, CA -> 5650:Los Angeles, CA 16665
+5650:San Jose, CA -> 5650:Palo Alto, CA 5331
+5650:San Jose, CA -> 5650:Portland, OR 10986
+5650:San Jose, CA -> 5650:Sacramento, CA 1597
+5650:San Jose, CA -> 5650:San Francisco, CA 216
+5650:San Jose, CA -> 5650:Stockton, CA 1481
+5650:Seattle, WA -> 5650:Tukwila, WA 2715
+5650:Spokane, WA -> 5650:Portland, OR 767
+5650:Stockton, CA -> 5650:Sacramento, CA 71
+5650:Stockton, CA -> 5650:San Jose, CA 1481
+5650:Tacoma, WA -> 5650:Tukwila, WA 317
+5650:Tukwila, WA -> 5650:Portland, OR 3015
+5650:Tukwila, WA -> 5650:Seattle, WA 2715
+5650:Tukwila, WA -> 5650:Tacoma, WA 317
+5650:Washington, DC -> 5650:McLean, VA 2238

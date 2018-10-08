@@ -1,0 +1,21 @@
+701:Atlanta, GA -> 209:Atlanta, GA 0
+701:Chicago, IL -> 209:Chicago, IL 0
+701:Dallas, TX -> 209:Dallas, TX 0
+701:Denver, CO -> 209:Albuquerque, NM 2.69636495068146
+701:Denver, CO -> 209:Colorado Springs, CO 0.511787808961864
+701:Denver, CO -> 209:Denver, CO 0
+701:Denver, CO -> 209:Minneapolis, MN 5.56642042984832
+701:Denver, CO -> 209:Omaha, NE 3.85998300960116
+701:Denver, CO -> 209:Seattle, WA 8.23946958515862
+701:Las Vegas, NV -> 209:Las Vegas, NV 0
+701:Los Angeles, CA -> 209:Burbank, CA 0.0601057321085238
+701:Los Angeles, CA -> 209:Los Angeles, CA 0
+701:Miami, FL -> 209:Miami, FL 0
+701:New York, NY -> 209:New York, NY 0
+701:New York, NY -> 209:Newark, NJ 0.0710684956979026
+701:Palo Alto, CA -> 209:Palo Alto, CA 0
+701:San Jose, CA -> 209:San Jose, CA 0
+701:Seattle, WA -> 209:Portland, OR 1.1632071890148
+701:Seattle, WA -> 209:Seattle, WA 0
+701:Sunnyvale, CA -> 209:Sunnyvale, CA 0
+701:Washington, DC -> 209:Washington, DC 0

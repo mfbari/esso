@@ -1,0 +1,90 @@
+2828:Beaverton, OR -> 2828:San Jose, CA 4.53424
+2828:Nashville, TN -> 2828:Atlanta, GA 1.72156
+2828:Englewood, CO -> 2828:Denver, CO 0.0837634
+2828:Columbus, OH -> 2828:Cleveland, OH 1.0017
+2828:Roseville, CA -> 2828:San Jose, CA 0.830858
+2828:Cleveland, OH -> 2828:Washington, DC 2.46048
+2828:Cleveland, OH -> 2828:Columbus, OH 1.0017
+2828:Smyrna, GA -> 2828:Atlanta, GA 0.086999
+2828:Philadelphia, PA -> 2828:Washington, DC 1.00741
+2828:San Francisco, CA -> 2828:Palo Alto, CA 1
+2828:San Francisco, CA -> 2828:San Jose, CA 1
+2828:Spokane, WA -> 2828:Seattle, WA 1.85298
+2828:Miami, FL -> 2828:Atlanta, GA 4.87596
+2828:Santa Clara, CA -> 2828:San Jose, CA 0.0331658
+2828:Austin, TX -> 2828:Dallas, TX 1.45877
+2828:Dallas, TX -> 2828:Austin, TX 1.45877
+2828:Dallas, TX -> 2828:Houston, TX 1.79734
+2828:Dallas, TX -> 2828:Memphis, TN 3.35519
+2828:Dallas, TX -> 2828:Chicago, IL 6.43761
+2828:Dallas, TX -> 2828:Los Angeles, CA 10.0457
+2828:Dallas, TX -> 2828:Atlanta, GA 5.75138
+2828:Memphis, TN -> 2828:Dallas, TX 3.35519
+2828:Palo Alto, CA -> 2828:San Francisco, CA 1
+2828:Palo Alto, CA -> 2828:San Jose, CA 1
+2828:Denver, CO -> 2828:Englewood, CO 0.0837634
+2828:Denver, CO -> 2828:Chicago, IL 7.58387
+2828:Denver, CO -> 2828:San Jose, CA 7.5091
+2828:Denver, CO -> 2828:Salt Lake City, UT 3.03928
+2828:Phoenix, AZ -> 2828:Los Angeles, CA 2.94005
+2828:Cambridge, MA -> 2828:New York, NY 1.51846
+2828:New York, NY -> 2828:Washington, DC 1.5
+2828:New York, NY -> 2828:Chicago, IL 5.25138
+2828:New York, NY -> 2828:Secaucus, NJ 1.1365
+2828:New York, NY -> 2828:Cambridge, MA 1.51846
+2828:Oak Brook, IL -> 2828:Chicago, IL 0.12757
+2828:Salt Lake City, UT -> 2828:Denver, CO 3.03928
+2828:McLean, VA -> 2828:Washington, DC 0.0791793
+2828:San Diego, CA -> 2828:Los Angeles, CA 0.930875
+2828:Washington, DC -> 2828:McLean, VA 0.0791793
+2828:Washington, DC -> 2828:Philadelphia, PA 1.00741
+2828:Washington, DC -> 2828:Chicago, IL 5.75138
+2828:Washington, DC -> 2828:Secaucus, NJ 1.6365
+2828:Washington, DC -> 2828:San Jose, CA 17.84435
+2828:Washington, DC -> 2828:Ashburn, VA 0.225316
+2828:Washington, DC -> 2828:Atlanta, GA 5.43761
+2828:Washington, DC -> 2828:New York, NY 1.5
+2828:Washington, DC -> 2828:Cleveland, OH 2.46048
+2828:Seattle, WA -> 2828:Spokane, WA 1.85298
+2828:Seattle, WA -> 2828:San Jose, CA 5.71562
+2828:Southfield, MI -> 2828:Chicago, IL 1.85595
+2828:Irvine, CA -> 2828:San Jose, CA 2.74545
+2828:Las Vegas, NV -> 2828:Los Angeles, CA 1.85801
+2828:Maryland Heights, MO -> 2828:Chicago, IL 2.10362
+2828:Houston, TX -> 2828:Dallas, TX 1.79734
+2828:Tampa, FL -> 2828:Atlanta, GA 3.35395
+2828:Fremont, CA -> 2828:San Jose, CA 0.126134
+2828:Chicago, IL -> 2828:Washington, DC 5.75138
+2828:Chicago, IL -> 2828:Maryland Heights, MO 2.10362
+2828:Chicago, IL -> 2828:Dallas, TX 6.43761
+2828:Chicago, IL -> 2828:Southfield, MI 1.85595
+2828:Chicago, IL -> 2828:Oak Brook, IL 0.12757
+2828:Chicago, IL -> 2828:Denver, CO 7.58387
+2828:Chicago, IL -> 2828:New York, NY 5.25138
+2828:Secaucus, NJ -> 2828:Washington, DC 1.6365
+2828:Secaucus, NJ -> 2828:New York, NY 1.1365
+2828:Santa Ana, CA -> 2828:Los Angeles, CA 0.315105
+2828:San Jose, CA -> 2828:Washington, DC 17.84435
+2828:San Jose, CA -> 2828:Santa Clara, CA 0.0331658
+2828:San Jose, CA -> 2828:Seattle, WA 5.71562
+2828:San Jose, CA -> 2828:Beaverton, OR 4.53424
+2828:San Jose, CA -> 2828:Palo Alto, CA 1
+2828:San Jose, CA -> 2828:Denver, CO 7.5091
+2828:San Jose, CA -> 2828:Roseville, CA 0.830858
+2828:San Jose, CA -> 2828:Irvine, CA 2.74545
+2828:San Jose, CA -> 2828:San Francisco, CA 1
+2828:San Jose, CA -> 2828:Fremont, CA 0.126134
+2828:San Jose, CA -> 2828:Los Angeles, CA 2.39034
+2828:Ashburn, VA -> 2828:Washington, DC 0.225316
+2828:Los Angeles, CA -> 2828:San Diego, CA 0.930875
+2828:Los Angeles, CA -> 2828:Las Vegas, NV 1.85801
+2828:Los Angeles, CA -> 2828:Dallas, TX 10.0457
+2828:Los Angeles, CA -> 2828:Santa Ana, CA 0.315105
+2828:Los Angeles, CA -> 2828:San Jose, CA 2.39034
+2828:Los Angeles, CA -> 2828:Phoenix, AZ 2.94005
+2828:Atlanta, GA -> 2828:Washington, DC 5.43761
+2828:Atlanta, GA -> 2828:Smyrna, GA 0.086999
+2828:Atlanta, GA -> 2828:Nashville, TN 1.72156
+2828:Atlanta, GA -> 2828:Tampa, FL 3.35395
+2828:Atlanta, GA -> 2828:Dallas, TX 5.75138
+2828:Atlanta, GA -> 2828:Miami, FL 4.87596

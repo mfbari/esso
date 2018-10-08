@@ -1,0 +1,48 @@
+11537:Atlanta, GA -> 11537:Houston, TX 18098
+11537:Atlanta, GA -> 11537:Indianapolis, IN 14866
+11537:Atlanta, GA -> 11537:Washington, DC 36237
+11537:Boston, MA -> 11537:Chicago, IL 6
+11537:Boston, MA -> 11537:New York, NY 5
+11537:Chicago, IL -> 11537:Boston, MA 6
+11537:Chicago, IL -> 11537:Indianapolis, IN 163121
+11537:Chicago, IL -> 11537:New York, NY 129546
+11537:Chicago, IL -> 11537:Winnipeg, Canada 5
+11537:Cleveland, OH -> 11537:Indianapolis, IN 274
+11537:Cleveland, OH -> 11537:New York, NY 131
+11537:Denver, CO -> 11537:Kansas City, MO 89534
+11537:Denver, CO -> 11537:Seattle, WA 68026
+11537:Denver, CO -> 11537:Sunnyvale, CA 5996
+11537:Houston, TX -> 11537:Atlanta, GA 18098
+11537:Houston, TX -> 11537:Kansas City, MO 14019
+11537:Houston, TX -> 11537:Los Angeles, CA 20034
+11537:Indianapolis, IN -> 11537:Atlanta, GA 14866
+11537:Indianapolis, IN -> 11537:Chicago, IL 163121
+11537:Indianapolis, IN -> 11537:Cleveland, OH 274
+11537:Indianapolis, IN -> 11537:Kansas City, MO 202697
+11537:Indianapolis, IN -> 11537:Winnipeg, Canada 676
+11537:Kansas City, MO -> 11537:Denver, CO 89534
+11537:Kansas City, MO -> 11537:Houston, TX 14019
+11537:Kansas City, MO -> 11537:Indianapolis, IN 202697
+11537:Kansas City, MO -> 11537:Sunnyvale, CA 95505
+11537:Los Angeles, CA -> 11537:Houston, TX 20034
+11537:Los Angeles, CA -> 11537:Sunnyvale, CA 69981
+11537:New York, NY -> 11537:Boston, MA 5
+11537:New York, NY -> 11537:Chicago, IL 129546
+11537:New York, NY -> 11537:Cleveland, OH 131
+11537:New York, NY -> 11537:Pittsburgh, PA 11970
+11537:New York, NY -> 11537:Washington, DC 45829
+11537:New York, NY -> 11537:Winnipeg, Canada 345
+11537:Pittsburgh, PA -> 11537:New York, NY 11970
+11537:Pittsburgh, PA -> 11537:Washington, DC 2823
+11537:Seattle, WA -> 11537:Denver, CO 68026
+11537:Seattle, WA -> 11537:Sunnyvale, CA 10490
+11537:Sunnyvale, CA -> 11537:Denver, CO 5996
+11537:Sunnyvale, CA -> 11537:Kansas City, MO 95505
+11537:Sunnyvale, CA -> 11537:Los Angeles, CA 69981
+11537:Sunnyvale, CA -> 11537:Seattle, WA 10490
+11537:Washington, DC -> 11537:Atlanta, GA 36237
+11537:Washington, DC -> 11537:New York, NY 45829
+11537:Washington, DC -> 11537:Pittsburgh, PA 2823
+11537:Winnipeg, Canada -> 11537:Chicago, IL 5
+11537:Winnipeg, Canada -> 11537:Indianapolis, IN 676
+11537:Winnipeg, Canada -> 11537:New York, NY 345

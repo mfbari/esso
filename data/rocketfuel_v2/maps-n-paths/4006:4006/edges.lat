@@ -1,0 +1,18 @@
+4006:Chicago, IL -> 4006:Dallas, TX 6.43760504337832
+4006:Chicago, IL -> 4006:Fort Worth, TX 6.62249504387701
+4006:Chicago, IL -> 4006:New York, NY 5.72539765160039
+4006:Chicago, IL -> 4006:San Francisco, CA 14.960010383025
+4006:Dallas, TX -> 4006:Chicago, IL 6.43760504337832
+4006:Dallas, TX -> 4006:San Francisco, CA 11.9855228230229
+4006:Fort Worth, TX -> 4006:Chicago, IL 6.62249504387701
+4006:Fort Worth, TX -> 4006:San Francisco, CA 11.7477358794261
+4006:New York, NY -> 4006:Chicago, IL 5.72539765160039
+4006:New York, NY -> 4006:San Francisco, CA 20.6843954593898
+4006:Palo Alto, CA -> 4006:San Francisco, CA 0.261255074734326
+4006:San Francisco, CA -> 4006:Chicago, IL 14.960010383025
+4006:San Francisco, CA -> 4006:Dallas, TX 11.9855228230229
+4006:San Francisco, CA -> 4006:Fort Worth, TX 11.7477358794261
+4006:San Francisco, CA -> 4006:New York, NY 20.6843954593898
+4006:San Francisco, CA -> 4006:Palo Alto, CA 0.261255074734326
+4006:San Francisco, CA -> 4006:Washington, DC 19.6506122689107
+4006:Washington, DC -> 4006:San Francisco, CA 19.6506122689107

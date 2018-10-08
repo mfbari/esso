@@ -1,0 +1,50 @@
+4565:Palo Alto, CA -> 4565:Los Angeles, CA 3.29776
+4565:Palo Alto, CA -> 4565:Napa, CA 0.479325
+4565:Palo Alto, CA -> 4565:Washington, DC 2
+4565:Palo Alto, CA -> 4565:San Franciso, CA 1.05732784434488
+4565:Palo Alto, CA -> 4565:Las Vegas, NV 3.15577
+4565:Seattle, WA -> 4565:Portland, OR 1.16321
+4565:Seattle, WA -> 4565:San Franciso, CA 5.8724
+4565:Boston, MA -> 4565:Chicago, IL 0.5
+4565:Boston, MA -> 4565:New York, NY 0.5
+4565:Las Vegas, NV -> 4565:Palo Alto, CA 3.15577
+4565:Las Vegas, NV -> 4565:Los Angeles, CA 1.85801
+4565:Chicago, IL -> 4565:San Franciso, CA 1
+4565:Chicago, IL -> 4565:Detroit, MI 1.89714
+4565:Chicago, IL -> 4565:Boston, MA 0.5
+4565:Santa Ana, CA -> 4565:Los Angeles, CA 0.315105
+4565:Detroit, MI -> 4565:Chicago, IL 1.89714
+4565:Philadelphia, PA -> 4565:Baltimore, MD 0.738204
+4565:Dallas, TX -> 4565:Los Angeles, CA 2.08243
+4565:Dallas, TX -> 4565:Atlanta, GA 5.75137875158028
+4565:Portland, OR -> 4565:Seattle, WA 1.16321
+4565:New York, NY -> 4565:Washington, DC 1.62733364571067
+4565:New York, NY -> 4565:Boston, MA 0.5
+4565:Charlottesville, VA -> 4565:Washington, DC 0.80442
+4565:Washington, DC -> 4565:Palo Alto, CA 2
+4565:Washington, DC -> 4565:Ashburn, VA 0.225316
+4565:Washington, DC -> 4565:Relay, MD 1
+4565:Washington, DC -> 4565:Los Angeles, CA 3.29776
+4565:Washington, DC -> 4565:Charlottesville, VA 0.80442
+4565:Washington, DC -> 4565:Atlanta, GA 4.38019
+4565:Washington, DC -> 4565:New York, NY 1.62733364571067
+4565:Washington, DC -> 4565:Baltimore, MD 1
+4565:Ashburn, VA -> 4565:Washington, DC 0.225316
+4565:Los Angeles, CA -> 4565:Palo Alto, CA 3.29776
+4565:Los Angeles, CA -> 4565:Santa Ana, CA 0.315105
+4565:Los Angeles, CA -> 4565:Relay, MD 3.29776
+4565:Los Angeles, CA -> 4565:Washington, DC 3.29776
+4565:Los Angeles, CA -> 4565:Las Vegas, NV 1.85801
+4565:Los Angeles, CA -> 4565:Dallas, TX 2.08243
+4565:Atlanta, GA -> 4565:Washington, DC 4.38019
+4565:Atlanta, GA -> 4565:Dallas, TX 5.75137875158028
+4565:Baltimore, MD -> 4565:Relay, MD 1
+4565:Baltimore, MD -> 4565:Washington, DC 1
+4565:Baltimore, MD -> 4565:Philadelphia, PA 0.738204
+4565:Relay, MD -> 4565:Los Angeles, CA 3.29776
+4565:Relay, MD -> 4565:Washington, DC 1
+4565:Relay, MD -> 4565:Baltimore, MD 1
+4565:San Franciso, CA -> 4565:Palo Alto, CA 1.05732784434488
+4565:San Franciso, CA -> 4565:Chicago, IL 1
+4565:San Franciso, CA -> 4565:Seattle, WA 5.8724
+4565:Napa, CA -> 4565:Palo Alto, CA 0.479325

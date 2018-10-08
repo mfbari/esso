@@ -1,0 +1,6 @@
+3701:Corvallis, OR -> 3701:Eugene, OR 141
+3701:Corvallis, OR -> 3701:Portland, OR 7
+3701:Eugene, OR -> 3701:Corvallis, OR 141
+3701:Eugene, OR -> 3701:Portland, OR 54
+3701:Portland, OR -> 3701:Corvallis, OR 7
+3701:Portland, OR -> 3701:Eugene, OR 54

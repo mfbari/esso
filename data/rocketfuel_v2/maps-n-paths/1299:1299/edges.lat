@@ -1,0 +1,88 @@
+1299:Amsterdam, Netherlands -> 1299:Copenhagen, Denmark 3.1318247112441
+1299:Amsterdam, Netherlands -> 1299:Frankfurt, Germany 1.55963394775673
+1299:Amsterdam, Netherlands -> 1299:London, UnitedKingdom 1.88532911009081
+1299:Amsterdam, Netherlands -> 1299:Stockholm, Sweden 5.71029230615779
+1299:Atlanta, GA -> 1299:Dallas, TX 5.75137875158028
+1299:Atlanta, GA -> 1299:Herndon, VA 4.27591588244455
+1299:Atlanta, GA -> 1299:Miami, FL 4.87595735153362
+1299:Birmingham, UnitedKingdom -> 1299:London, UnitedKingdom 0.779261348086866
+1299:Budapest, Hungary -> 1299:Frankfurt, Germany 4.16981626854319
+1299:Chicago, IL -> 1299:Dallas, TX 6.43760504337832
+1299:Chicago, IL -> 1299:New York, NY 5.72539765160039
+1299:Chicago, IL -> 1299:San Jose, CA 14.7744081963979
+1299:Chicago, IL -> 1299:Santa Clara, CA 14.8016488559537
+1299:Copenhagen, Denmark -> 1299:Amsterdam, Netherlands 3.1318247112441
+1299:Copenhagen, Denmark -> 1299:Frankfurt, Germany 3.4231207792731
+1299:Copenhagen, Denmark -> 1299:Hamburg, Germany 1.42488508853435
+1299:Copenhagen, Denmark -> 1299:London, UnitedKingdom 4.73788667198909
+1299:Copenhagen, Denmark -> 1299:New York, NY 30.8780506318754
+1299:Copenhagen, Denmark -> 1299:Paris, France 5.11875370269689
+1299:Copenhagen, Denmark -> 1299:Stockholm, Sweden 2.62276937481765
+1299:Dallas, TX -> 1299:Atlanta, GA 5.75137875158028
+1299:Dallas, TX -> 1299:Chicago, IL 6.43760504337832
+1299:Dallas, TX -> 1299:Los Angeles, CA 10.0456672433203
+1299:Dallas, TX -> 1299:Miami, FL 8.90426431888901
+1299:Frankfurt, Germany -> 1299:Amsterdam, Netherlands 1.55963394775673
+1299:Frankfurt, Germany -> 1299:Budapest, Hungary 4.16981626854319
+1299:Frankfurt, Germany -> 1299:Copenhagen, Denmark 3.4231207792731
+1299:Frankfurt, Germany -> 1299:Hamburg, Germany 2.0357355149515
+1299:Frankfurt, Germany -> 1299:Milan, Italy 2.52989648876757
+1299:Frankfurt, Germany -> 1299:Paris, France 2.34012884016252
+1299:Frankfurt, Germany -> 1299:Vienna, Austria 3.00603025209055
+1299:Frankfurt, Germany -> 1299:Zurich, Switzerland 1.47245906075377
+1299:Hamburg, Germany -> 1299:Copenhagen, Denmark 1.42488508853435
+1299:Hamburg, Germany -> 1299:Frankfurt, Germany 2.0357355149515
+1299:Hamburg, Germany -> 1299:Milan, Italy 4.50126584026716
+1299:Hamburg, Germany -> 1299:Stockholm, Sweden 4.04660375141627
+1299:Hamburg, Germany -> 1299:Warsaw, Poland 3.72486530045434
+1299:Helsinki, Finland -> 1299:Stockholm, Sweden 1.97286631586411
+1299:Herndon, VA -> 1299:Atlanta, GA 4.27591588244455
+1299:Herndon, VA -> 1299:New York, NY 1.73713298493035
+1299:London, UnitedKingdom -> 1299:Amsterdam, Netherlands 1.88532911009081
+1299:London, UnitedKingdom -> 1299:Birmingham, UnitedKingdom 0.779261348086866
+1299:London, UnitedKingdom -> 1299:Copenhagen, Denmark 4.73788667198909
+1299:London, UnitedKingdom -> 1299:Manchester, UnitedKingdom 1.30596358165561
+1299:London, UnitedKingdom -> 1299:New York, NY 27.8377559786444
+1299:London, UnitedKingdom -> 1299:Paris, France 1.71246693397065
+1299:Los Angeles, CA -> 1299:Dallas, TX 10.0456672433203
+1299:Los Angeles, CA -> 1299:San Jose, CA 2.39033852037053
+1299:Los Angeles, CA -> 1299:Santa Clara, CA 2.41808124152145
+1299:Madrid, Spain -> 1299:Paris, France 5.25377044095577
+1299:Manchester, UnitedKingdom -> 1299:London, UnitedKingdom 1.30596358165561
+1299:Miami, FL -> 1299:Atlanta, GA 4.87595735153362
+1299:Miami, FL -> 1299:Dallas, TX 8.90426431888901
+1299:Milan, Italy -> 1299:Frankfurt, Germany 2.52989648876757
+1299:Milan, Italy -> 1299:Hamburg, Germany 4.50126584026716
+1299:Milan, Italy -> 1299:Paris, France 3.20129362158168
+1299:Moscow, Russia -> 1299:Stockholm, Sweden 6.15731511179242
+1299:New York, NY -> 1299:Chicago, IL 5.72539765160039
+1299:New York, NY -> 1299:Copenhagen, Denmark 30.8780506318754
+1299:New York, NY -> 1299:Herndon, VA 1.73713298493035
+1299:New York, NY -> 1299:London, UnitedKingdom 27.8377559786444
+1299:Oslo, Norway -> 1299:Stockholm, Sweden 2.07513020031697
+1299:Palo Alto, CA -> 1299:Santa Clara, CA 0.0926850068982159
+1299:Paris, France -> 1299:Copenhagen, Denmark 5.11875370269689
+1299:Paris, France -> 1299:Frankfurt, Germany 2.34012884016252
+1299:Paris, France -> 1299:London, UnitedKingdom 1.71246693397065
+1299:Paris, France -> 1299:Madrid, Spain 5.25377044095577
+1299:Paris, France -> 1299:Milan, Italy 3.20129362158168
+1299:Riga, Latvia -> 1299:Stockholm, Sweden 2.23996030142085
+1299:Saint Petersburg, Russia -> 1299:Stockholm, Sweden 3.44690927481234
+1299:San Jose, CA -> 1299:Chicago, IL 14.7744081963979
+1299:San Jose, CA -> 1299:Los Angeles, CA 2.39033852037053
+1299:Santa Clara, CA -> 1299:Chicago, IL 14.8016488559537
+1299:Santa Clara, CA -> 1299:Los Angeles, CA 2.41808124152145
+1299:Santa Clara, CA -> 1299:Palo Alto, CA 0.0926850068982159
+1299:Stockholm, Sweden -> 1299:Amsterdam, Netherlands 5.71029230615779
+1299:Stockholm, Sweden -> 1299:Copenhagen, Denmark 2.62276937481765
+1299:Stockholm, Sweden -> 1299:Hamburg, Germany 4.04660375141627
+1299:Stockholm, Sweden -> 1299:Helsinki, Finland 1.97286631586411
+1299:Stockholm, Sweden -> 1299:Moscow, Russia 6.15731511179242
+1299:Stockholm, Sweden -> 1299:Oslo, Norway 2.07513020031697
+1299:Stockholm, Sweden -> 1299:Riga, Latvia 2.23996030142085
+1299:Stockholm, Sweden -> 1299:Saint Petersburg, Russia 3.44690927481234
+1299:Stockholm, Sweden -> 1299:Sundsvell, Sweden 0
+1299:Sundsvell, Sweden -> 1299:Stockholm, Sweden 0
+1299:Vienna, Austria -> 1299:Frankfurt, Germany 3.00603025209055
+1299:Warsaw, Poland -> 1299:Hamburg, Germany 3.72486530045434
+1299:Zurich, Switzerland -> 1299:Frankfurt, Germany 1.47245906075377

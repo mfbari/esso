@@ -1,0 +1,570 @@
+3356:Amsterdam, Netherlands -> 3356:Brussels, Belgium 1
+3356:Amsterdam, Netherlands -> 3356:Frankfurt, Germany 2
+3356:Amsterdam, Netherlands -> 3356:London, UnitedKingdom 2
+3356:Amsterdam, Netherlands -> 3356:Paris, France 3
+3356:Ashburn, VA -> 3356:Washington, DC 1
+3356:Atlanta, GA -> 3356:Charlotte, NC 2
+3356:Atlanta, GA -> 3356:Chicago, IL 5
+3356:Atlanta, GA -> 3356:Dallas, TX 6
+3356:Atlanta, GA -> 3356:Denver, CO 10
+3356:Atlanta, GA -> 3356:Los Angeles, CA 16
+3356:Atlanta, GA -> 3356:New York, NY 7
+3356:Atlanta, GA -> 3356:Phoenix, AZ 13
+3356:Atlanta, GA -> 3356:Raleigh, NC 3
+3356:Atlanta, GA -> 3356:Richmond, VA 6
+3356:Atlanta, GA -> 3356:San Diego, CA 16
+3356:Atlanta, GA -> 3356:San Jose, CA 17
+3356:Atlanta, GA -> 3356:Seattle, WA 18
+3356:Atlanta, GA -> 3356:Washington, DC 5
+3356:Austin, TX -> 3356:Houston, TX 2
+3356:Baltimore, MD -> 3356:Chicago, IL 5
+3356:Baltimore, MD -> 3356:Dallas, TX 10
+3356:Baltimore, MD -> 3356:Los Angeles, CA 19
+3356:Baltimore, MD -> 3356:New York, NY 2
+3356:Baltimore, MD -> 3356:Pittsburgh, PA 2
+3356:Baltimore, MD -> 3356:San Jose, CA 20
+3356:Baltimore, MD -> 3356:Seattle, WA 19
+3356:Baltimore, MD -> 3356:Washington, DC 1
+3356:Berlin, Germany -> 3356:Dusseldorf, Germany 3
+3356:Berlin, Germany -> 3356:Frankfurt, Germany 3
+3356:Berlin, Germany -> 3356:London, UnitedKingdom 5
+3356:Boston, MA -> 3356:Chicago, IL 7
+3356:Boston, MA -> 3356:Dallas, TX 13
+3356:Boston, MA -> 3356:Denver, CO 15
+3356:Boston, MA -> 3356:Los Angeles, CA 21
+3356:Boston, MA -> 3356:Manchester, MA 100000
+3356:Boston, MA -> 3356:Manchester, UnitedKingdom 26
+3356:Boston, MA -> 3356:New York, NY 2
+3356:Boston, MA -> 3356:Providence, RI 1
+3356:Boston, MA -> 3356:Raleigh, NC 5
+3356:Boston, MA -> 3356:San Jose, CA 22
+3356:Boston, MA -> 3356:Seattle, WA 20
+3356:Boston, MA -> 3356:Washington, DC 4
+3356:Broomfield, CO -> 3356:Denver, CO 1
+3356:Brussels, Belgium -> 3356:Amsterdam, Netherlands 1
+3356:Brussels, Belgium -> 3356:Frankfurt, Germany 2
+3356:Brussels, Belgium -> 3356:London, UnitedKingdom 2
+3356:Charlotte, NC -> 3356:Atlanta, GA 2
+3356:Charlotte, NC -> 3356:Dallas, TX 8
+3356:Charlotte, NC -> 3356:Los Angeles, CA 18
+3356:Charlotte, NC -> 3356:New York, NY 5
+3356:Charlotte, NC -> 3356:San Jose, CA 19
+3356:Charlotte, NC -> 3356:Seattle, WA 19
+3356:Charlotte, NC -> 3356:Washington, DC 3
+3356:Chicago, IL -> 3356:Atlanta, GA 5
+3356:Chicago, IL -> 3356:Baltimore, MD 5
+3356:Chicago, IL -> 3356:Boston, MA 7
+3356:Chicago, IL -> 3356:Cincinnati, OH 3
+3356:Chicago, IL -> 3356:Cleveland, OH 3
+3356:Chicago, IL -> 3356:Dallas, TX 7
+3356:Chicago, IL -> 3356:Denver, CO 8
+3356:Chicago, IL -> 3356:Detroit, MI 2
+3356:Chicago, IL -> 3356:Houston, TX 8
+3356:Chicago, IL -> 3356:Las Vegas, NV 13
+3356:Chicago, IL -> 3356:London, UnitedKingdom 32
+3356:Chicago, IL -> 3356:Los Angeles, CA 15
+3356:Chicago, IL -> 3356:Miami, FL 10
+3356:Chicago, IL -> 3356:Minneapolis, MN 3
+3356:Chicago, IL -> 3356:New York, NY 6
+3356:Chicago, IL -> 3356:Orlando, FL 8
+3356:Chicago, IL -> 3356:Philadelphia, PA 6
+3356:Chicago, IL -> 3356:Phoenix, AZ 12
+3356:Chicago, IL -> 3356:Raleigh, NC 6
+3356:Chicago, IL -> 3356:Richmond, VA 6
+3356:Chicago, IL -> 3356:Sacramento, CA 15
+3356:Chicago, IL -> 3356:Salt Lake City, UT 11
+3356:Chicago, IL -> 3356:San Antonio, TX 9
+3356:Chicago, IL -> 3356:San Diego, CA 14
+3356:Chicago, IL -> 3356:San Francisco, CA 15
+3356:Chicago, IL -> 3356:San Jose, CA 15
+3356:Chicago, IL -> 3356:Seattle, WA 14
+3356:Chicago, IL -> 3356:St. Louis, MO 3
+3356:Chicago, IL -> 3356:Stamford, CT 6
+3356:Chicago, IL -> 3356:Tampa, FL 9
+3356:Chicago, IL -> 3356:Tustin, CA 14
+3356:Chicago, IL -> 3356:Washington, DC 5
+3356:Chicago, IL -> 3356:Weehawken, NJ 6
+3356:Cincinnati, OH -> 3356:Chicago, IL 3
+3356:Cincinnati, OH -> 3356:Dallas, TX 7
+3356:Cincinnati, OH -> 3356:Indianapolis, IN 1
+3356:Cincinnati, OH -> 3356:Los Angeles, CA 16
+3356:Cincinnati, OH -> 3356:New York, NY 5
+3356:Cincinnati, OH -> 3356:Raleigh, NC 4
+3356:Cincinnati, OH -> 3356:San Jose, CA 17
+3356:Cincinnati, OH -> 3356:Seattle, WA 16
+3356:Cincinnati, OH -> 3356:Washington, DC 4
+3356:Cleveland, OH -> 3356:Chicago, IL 3
+3356:Cleveland, OH -> 3356:Dallas, TX 9
+3356:Cleveland, OH -> 3356:Los Angeles, CA 17
+3356:Cleveland, OH -> 3356:New York, NY 4
+3356:Cleveland, OH -> 3356:San Jose, CA 18
+3356:Cleveland, OH -> 3356:Seattle, WA 17
+3356:Cleveland, OH -> 3356:Washington, DC 3
+3356:Dallas, TX -> 3356:Atlanta, GA 6
+3356:Dallas, TX -> 3356:Baltimore, MD 10
+3356:Dallas, TX -> 3356:Boston, MA 13
+3356:Dallas, TX -> 3356:Charlotte, NC 8
+3356:Dallas, TX -> 3356:Chicago, IL 7
+3356:Dallas, TX -> 3356:Cincinnati, OH 7
+3356:Dallas, TX -> 3356:Cleveland, OH 9
+3356:Dallas, TX -> 3356:Denver, CO 6
+3356:Dallas, TX -> 3356:Detroit, MI 9
+3356:Dallas, TX -> 3356:Houston, TX 2
+3356:Dallas, TX -> 3356:Las Vegas, NV 9
+3356:Dallas, TX -> 3356:Los Angeles, CA 11
+3356:Dallas, TX -> 3356:Miami, FL 9
+3356:Dallas, TX -> 3356:Nashville, TN 5
+3356:Dallas, TX -> 3356:New York, NY 12
+3356:Dallas, TX -> 3356:Orlando, FL 8
+3356:Dallas, TX -> 3356:Philadelphia, PA 11
+3356:Dallas, TX -> 3356:Phoenix, AZ 8
+3356:Dallas, TX -> 3356:Raleigh, NC 9
+3356:Dallas, TX -> 3356:Richmond, VA 11
+3356:Dallas, TX -> 3356:Sacramento, CA 12
+3356:Dallas, TX -> 3356:Salt Lake City, UT 9
+3356:Dallas, TX -> 3356:San Antonio, TX 3
+3356:Dallas, TX -> 3356:San Diego, CA 10
+3356:Dallas, TX -> 3356:San Francisco, CA 12
+3356:Dallas, TX -> 3356:San Jose, CA 12
+3356:Dallas, TX -> 3356:Seattle, WA 14
+3356:Dallas, TX -> 3356:St. Louis, MO 5
+3356:Dallas, TX -> 3356:Stamford, CT 12
+3356:Dallas, TX -> 3356:Tampa, FL 8
+3356:Dallas, TX -> 3356:Tustin, CA 10
+3356:Dallas, TX -> 3356:Washington, DC 10
+3356:Dallas, TX -> 3356:Weehawken, NJ 12
+3356:Denver, CO -> 3356:Atlanta, GA 10
+3356:Denver, CO -> 3356:Boston, MA 15
+3356:Denver, CO -> 3356:Broomfield, CO 1
+3356:Denver, CO -> 3356:Chicago, IL 8
+3356:Denver, CO -> 3356:Dallas, TX 6
+3356:Denver, CO -> 3356:Houston, TX 8
+3356:Denver, CO -> 3356:Las Vegas, NV 5
+3356:Denver, CO -> 3356:Los Angeles, CA 7
+3356:Denver, CO -> 3356:Miami, FL 14
+3356:Denver, CO -> 3356:New York, NY 14
+3356:Denver, CO -> 3356:Orlando, FL 13
+3356:Denver, CO -> 3356:Philadelphia, PA 13
+3356:Denver, CO -> 3356:Phoenix, AZ 5
+3356:Denver, CO -> 3356:Richmond, VA 13
+3356:Denver, CO -> 3356:Salt Lake City, UT 4
+3356:Denver, CO -> 3356:San Diego, CA 7
+3356:Denver, CO -> 3356:San Francisco, CA 8
+3356:Denver, CO -> 3356:San Jose, CA 8
+3356:Denver, CO -> 3356:Seattle, WA 9
+3356:Denver, CO -> 3356:Tustin, CA 7
+3356:Denver, CO -> 3356:Washington, DC 12
+3356:Detroit, MI -> 3356:Chicago, IL 2
+3356:Detroit, MI -> 3356:Dallas, TX 9
+3356:Detroit, MI -> 3356:Los Angeles, CA 16
+3356:Detroit, MI -> 3356:New York, NY 4
+3356:Detroit, MI -> 3356:Raleigh, NC 5
+3356:Detroit, MI -> 3356:San Jose, CA 17
+3356:Detroit, MI -> 3356:Seattle, WA 16
+3356:Detroit, MI -> 3356:Washington, DC 4
+3356:Dusseldorf, Germany -> 3356:Berlin, Germany 3
+3356:Dusseldorf, Germany -> 3356:Frankfurt, Germany 1
+3356:Dusseldorf, Germany -> 3356:London, UnitedKingdom 3
+3356:Frankfurt, Germany -> 3356:Amsterdam, Netherlands 2
+3356:Frankfurt, Germany -> 3356:Berlin, Germany 3
+3356:Frankfurt, Germany -> 3356:Brussels, Belgium 2
+3356:Frankfurt, Germany -> 3356:Dusseldorf, Germany 1
+3356:Frankfurt, Germany -> 3356:Hamburg, Germany 3
+3356:Frankfurt, Germany -> 3356:London, UnitedKingdom 4
+3356:Frankfurt, Germany -> 3356:Madrid, Spain 8
+3356:Frankfurt, Germany -> 3356:Munich, Germany 2
+3356:Frankfurt, Germany -> 3356:New York, NY 31
+3356:Frankfurt, Germany -> 3356:Paris, France 3
+3356:Frankfurt, Germany -> 3356:Stockholm, Sweden 7
+3356:Frankfurt, Germany -> 3356:Washington, DC 33
+3356:Frankfurt, Germany -> 3356:Zurich, Switzerland 2
+3356:Garden City, NY -> 3356:New York, NY 1
+3356:Hamburg, Germany -> 3356:Frankfurt, Germany 3
+3356:Hamburg, Germany -> 3356:London, UnitedKingdom 4
+3356:Honolulu, HI -> 3356:Los Angeles, CA 21
+3356:Houston, TX -> 3356:Austin, TX 2
+3356:Houston, TX -> 3356:Chicago, IL 8
+3356:Houston, TX -> 3356:Dallas, TX 2
+3356:Houston, TX -> 3356:Denver, CO 8
+3356:Houston, TX -> 3356:Los Angeles, CA 12
+3356:Houston, TX -> 3356:New Orleans, LA 3
+3356:Houston, TX -> 3356:New York, NY 12
+3356:Houston, TX -> 3356:San Antonio, TX 2
+3356:Houston, TX -> 3356:San Jose, CA 13
+3356:Houston, TX -> 3356:Seattle, WA 16
+3356:Houston, TX -> 3356:Washington, DC 10
+3356:Indianapolis, IN -> 3356:Cincinnati, OH 1
+3356:Las Vegas, NV -> 3356:Chicago, IL 13
+3356:Las Vegas, NV -> 3356:Dallas, TX 9
+3356:Las Vegas, NV -> 3356:Denver, CO 5
+3356:Las Vegas, NV -> 3356:Los Angeles, CA 2
+3356:Las Vegas, NV -> 3356:New York, NY 18
+3356:Las Vegas, NV -> 3356:San Jose, CA 4
+3356:Las Vegas, NV -> 3356:Seattle, WA 7
+3356:Las Vegas, NV -> 3356:Washington, DC 17
+3356:London, UnitedKingdom -> 3356:Amsterdam, Netherlands 2
+3356:London, UnitedKingdom -> 3356:Berlin, Germany 5
+3356:London, UnitedKingdom -> 3356:Brussels, Belgium 2
+3356:London, UnitedKingdom -> 3356:Chicago, IL 32
+3356:London, UnitedKingdom -> 3356:Dusseldorf, Germany 3
+3356:London, UnitedKingdom -> 3356:Frankfurt, Germany 4
+3356:London, UnitedKingdom -> 3356:Hamburg, Germany 4
+3356:London, UnitedKingdom -> 3356:Madrid, Spain 7
+3356:London, UnitedKingdom -> 3356:Milan, Italy 5
+3356:London, UnitedKingdom -> 3356:Munich, Germany 5
+3356:London, UnitedKingdom -> 3356:New York, NY 28
+3356:London, UnitedKingdom -> 3356:Paris, France 2
+3356:London, UnitedKingdom -> 3356:Seattle, WA 39
+3356:London, UnitedKingdom -> 3356:Washington, DC 30
+3356:London, UnitedKingdom -> 3356:Zurich, Switzerland 4
+3356:Los Angeles, CA -> 3356:Atlanta, GA 16
+3356:Los Angeles, CA -> 3356:Baltimore, MD 19
+3356:Los Angeles, CA -> 3356:Boston, MA 21
+3356:Los Angeles, CA -> 3356:Charlotte, NC 18
+3356:Los Angeles, CA -> 3356:Chicago, IL 15
+3356:Los Angeles, CA -> 3356:Cincinnati, OH 16
+3356:Los Angeles, CA -> 3356:Cleveland, OH 17
+3356:Los Angeles, CA -> 3356:Dallas, TX 11
+3356:Los Angeles, CA -> 3356:Denver, CO 7
+3356:Los Angeles, CA -> 3356:Detroit, MI 16
+3356:Los Angeles, CA -> 3356:Honolulu, HI 21
+3356:Los Angeles, CA -> 3356:Houston, TX 12
+3356:Los Angeles, CA -> 3356:Las Vegas, NV 2
+3356:Los Angeles, CA -> 3356:Miami, FL 19
+3356:Los Angeles, CA -> 3356:Nashville, TN 15
+3356:Los Angeles, CA -> 3356:New York, NY 20
+3356:Los Angeles, CA -> 3356:Orlando, FL 18
+3356:Los Angeles, CA -> 3356:Philadelphia, PA 20
+3356:Los Angeles, CA -> 3356:Phoenix, AZ 3
+3356:Los Angeles, CA -> 3356:Raleigh, NC 19
+3356:Los Angeles, CA -> 3356:Richmond, VA 20
+3356:Los Angeles, CA -> 3356:Sacramento, CA 3
+3356:Los Angeles, CA -> 3356:Salt Lake City, UT 5
+3356:Los Angeles, CA -> 3356:San Antonio, TX 10
+3356:Los Angeles, CA -> 3356:San Diego, CA 1
+3356:Los Angeles, CA -> 3356:San Jose, CA 3
+3356:Los Angeles, CA -> 3356:Seattle, WA 8
+3356:Los Angeles, CA -> 3356:St. Louis, MO 13
+3356:Los Angeles, CA -> 3356:Stamford, CT 20
+3356:Los Angeles, CA -> 3356:Tampa, FL 18
+3356:Los Angeles, CA -> 3356:Tustin, CA 1
+3356:Los Angeles, CA -> 3356:Washington, DC 19
+3356:Los Angeles, CA -> 3356:Weehawken, NJ 20
+3356:Madrid, Spain -> 3356:Frankfurt, Germany 8
+3356:Madrid, Spain -> 3356:London, UnitedKingdom 7
+3356:Madrid, Spain -> 3356:New York, NY 29
+3356:Madrid, Spain -> 3356:Washington, DC 31
+3356:Manchester, MA -> 3356:Boston, MA 100000
+3356:Manchester, UnitedKingdom -> 3356:Boston, MA 26
+3356:Miami, FL -> 3356:Chicago, IL 10
+3356:Miami, FL -> 3356:Dallas, TX 9
+3356:Miami, FL -> 3356:Denver, CO 14
+3356:Miami, FL -> 3356:Los Angeles, CA 19
+3356:Miami, FL -> 3356:New York, NY 9
+3356:Miami, FL -> 3356:Raleigh, NC 6
+3356:Miami, FL -> 3356:San Jose, CA 21
+3356:Miami, FL -> 3356:Seattle, WA 22
+3356:Miami, FL -> 3356:Washington, DC 8
+3356:Milan, Italy -> 3356:London, UnitedKingdom 5
+3356:Milan, Italy -> 3356:Washington, DC 34
+3356:Minneapolis, MN -> 3356:Chicago, IL 3
+3356:Munich, Germany -> 3356:Frankfurt, Germany 2
+3356:Munich, Germany -> 3356:London, UnitedKingdom 5
+3356:Nashville, TN -> 3356:Dallas, TX 5
+3356:Nashville, TN -> 3356:Los Angeles, CA 15
+3356:Nashville, TN -> 3356:Raleigh, NC 4
+3356:Nashville, TN -> 3356:Richmond, VA 6
+3356:Nashville, TN -> 3356:San Jose, CA 16
+3356:New Orleans, LA -> 3356:Houston, TX 3
+3356:New York, NY -> 3356:Atlanta, GA 7
+3356:New York, NY -> 3356:Baltimore, MD 2
+3356:New York, NY -> 3356:Boston, MA 2
+3356:New York, NY -> 3356:Charlotte, NC 5
+3356:New York, NY -> 3356:Chicago, IL 6
+3356:New York, NY -> 3356:Cincinnati, OH 5
+3356:New York, NY -> 3356:Cleveland, OH 4
+3356:New York, NY -> 3356:Dallas, TX 12
+3356:New York, NY -> 3356:Denver, CO 14
+3356:New York, NY -> 3356:Detroit, MI 4
+3356:New York, NY -> 3356:Frankfurt, Germany 31
+3356:New York, NY -> 3356:Garden City, NY 1
+3356:New York, NY -> 3356:Houston, TX 12
+3356:New York, NY -> 3356:Las Vegas, NV 18
+3356:New York, NY -> 3356:London, UnitedKingdom 28
+3356:New York, NY -> 3356:Los Angeles, CA 20
+3356:New York, NY -> 3356:Madrid, Spain 29
+3356:New York, NY -> 3356:Miami, FL 9
+3356:New York, NY -> 3356:Newark, NJ 1
+3356:New York, NY -> 3356:Orlando, FL 8
+3356:New York, NY -> 3356:Paris, France 30
+3356:New York, NY -> 3356:Philadelphia, PA 1
+3356:New York, NY -> 3356:Phoenix, AZ 18
+3356:New York, NY -> 3356:Raleigh, NC 4
+3356:New York, NY -> 3356:Richmond, VA 1
+3356:New York, NY -> 3356:Sacramento, CA 21
+3356:New York, NY -> 3356:Salt Lake City, UT 16
+3356:New York, NY -> 3356:San Antonio, TX 13
+3356:New York, NY -> 3356:San Diego, CA 20
+3356:New York, NY -> 3356:San Francisco, CA 21
+3356:New York, NY -> 3356:San Jose, CA 21
+3356:New York, NY -> 3356:Seattle, WA 20
+3356:New York, NY -> 3356:St. Louis, MO 8
+3356:New York, NY -> 3356:Stamford, CT 1
+3356:New York, NY -> 3356:Tampa, FL 9
+3356:New York, NY -> 3356:Tustin, CA 20
+3356:New York, NY -> 3356:Washington, DC 2
+3356:New York, NY -> 3356:Weehawken, NJ 1
+3356:New York, NY -> 3356:Zurich, Switzerland 32
+3356:Newark, NJ -> 3356:New York, NY 1
+3356:Orlando, FL -> 3356:Chicago, IL 8
+3356:Orlando, FL -> 3356:Dallas, TX 8
+3356:Orlando, FL -> 3356:Denver, CO 13
+3356:Orlando, FL -> 3356:Los Angeles, CA 18
+3356:Orlando, FL -> 3356:New York, NY 8
+3356:Orlando, FL -> 3356:San Jose, CA 20
+3356:Orlando, FL -> 3356:Seattle, WA 21
+3356:Orlando, FL -> 3356:Washington, DC 7
+3356:Palo Alto, CA -> 3356:San Jose, CA 1
+3356:Paris, France -> 3356:Amsterdam, Netherlands 3
+3356:Paris, France -> 3356:Frankfurt, Germany 3
+3356:Paris, France -> 3356:London, UnitedKingdom 2
+3356:Paris, France -> 3356:New York, NY 30
+3356:Paris, France -> 3356:Washington, DC 31
+3356:Philadelphia, PA -> 3356:Chicago, IL 6
+3356:Philadelphia, PA -> 3356:Dallas, TX 11
+3356:Philadelphia, PA -> 3356:Denver, CO 13
+3356:Philadelphia, PA -> 3356:Los Angeles, CA 20
+3356:Philadelphia, PA -> 3356:New York, NY 1
+3356:Philadelphia, PA -> 3356:Princeton, NJ 1
+3356:Philadelphia, PA -> 3356:San Jose, CA 21
+3356:Philadelphia, PA -> 3356:Seattle, WA 20
+3356:Philadelphia, PA -> 3356:Washington, DC 2
+3356:Philadelphia, PA -> 3356:Weehawken, NJ 1
+3356:Phoenix, AZ -> 3356:Atlanta, GA 13
+3356:Phoenix, AZ -> 3356:Chicago, IL 12
+3356:Phoenix, AZ -> 3356:Dallas, TX 8
+3356:Phoenix, AZ -> 3356:Denver, CO 5
+3356:Phoenix, AZ -> 3356:Los Angeles, CA 3
+3356:Phoenix, AZ -> 3356:New York, NY 18
+3356:Phoenix, AZ -> 3356:San Jose, CA 5
+3356:Phoenix, AZ -> 3356:Seattle, WA 9
+3356:Phoenix, AZ -> 3356:Washington, DC 16
+3356:Pittsburgh, PA -> 3356:Baltimore, MD 2
+3356:Portland, OR -> 3356:Seattle, WA 2
+3356:Princeton, NJ -> 3356:Philadelphia, PA 1
+3356:Providence, RI -> 3356:Boston, MA 1
+3356:Raleigh, NC -> 3356:Atlanta, GA 3
+3356:Raleigh, NC -> 3356:Boston, MA 5
+3356:Raleigh, NC -> 3356:Chicago, IL 6
+3356:Raleigh, NC -> 3356:Cincinnati, OH 4
+3356:Raleigh, NC -> 3356:Dallas, TX 9
+3356:Raleigh, NC -> 3356:Detroit, MI 5
+3356:Raleigh, NC -> 3356:Los Angeles, CA 19
+3356:Raleigh, NC -> 3356:Miami, FL 6
+3356:Raleigh, NC -> 3356:Nashville, TN 4
+3356:Raleigh, NC -> 3356:New York, NY 4
+3356:Raleigh, NC -> 3356:San Jose, CA 20
+3356:Raleigh, NC -> 3356:Seattle, WA 19
+3356:Raleigh, NC -> 3356:St. Louis, MO 6
+3356:Raleigh, NC -> 3356:Stamford, CT 4
+3356:Raleigh, NC -> 3356:Tampa, FL 5
+3356:Raleigh, NC -> 3356:Washington, DC 2
+3356:Richmond, VA -> 3356:Atlanta, GA 6
+3356:Richmond, VA -> 3356:Chicago, IL 6
+3356:Richmond, VA -> 3356:Dallas, TX 11
+3356:Richmond, VA -> 3356:Denver, CO 13
+3356:Richmond, VA -> 3356:Los Angeles, CA 20
+3356:Richmond, VA -> 3356:Nashville, TN 6
+3356:Richmond, VA -> 3356:New York, NY 1
+3356:Richmond, VA -> 3356:San Jose, CA 21
+3356:Richmond, VA -> 3356:Seattle, WA 20
+3356:Richmond, VA -> 3356:Washington, DC 2
+3356:Sacramento, CA -> 3356:Chicago, IL 15
+3356:Sacramento, CA -> 3356:Dallas, TX 12
+3356:Sacramento, CA -> 3356:Los Angeles, CA 3
+3356:Sacramento, CA -> 3356:New York, NY 21
+3356:Sacramento, CA -> 3356:San Jose, CA 1
+3356:Sacramento, CA -> 3356:Seattle, WA 6
+3356:Sacramento, CA -> 3356:Washington, DC 20
+3356:Salt Lake City, UT -> 3356:Chicago, IL 11
+3356:Salt Lake City, UT -> 3356:Dallas, TX 9
+3356:Salt Lake City, UT -> 3356:Denver, CO 4
+3356:Salt Lake City, UT -> 3356:Los Angeles, CA 5
+3356:Salt Lake City, UT -> 3356:New York, NY 16
+3356:Salt Lake City, UT -> 3356:San Jose, CA 5
+3356:Salt Lake City, UT -> 3356:Seattle, WA 6
+3356:Salt Lake City, UT -> 3356:Washington, DC 15
+3356:San Antonio, TX -> 3356:Chicago, IL 9
+3356:San Antonio, TX -> 3356:Dallas, TX 3
+3356:San Antonio, TX -> 3356:Houston, TX 2
+3356:San Antonio, TX -> 3356:Los Angeles, CA 10
+3356:San Antonio, TX -> 3356:New York, NY 13
+3356:San Antonio, TX -> 3356:San Jose, CA 12
+3356:San Antonio, TX -> 3356:Seattle, WA 15
+3356:San Antonio, TX -> 3356:Washington, DC 12
+3356:San Diego, CA -> 3356:Atlanta, GA 16
+3356:San Diego, CA -> 3356:Chicago, IL 14
+3356:San Diego, CA -> 3356:Dallas, TX 10
+3356:San Diego, CA -> 3356:Denver, CO 7
+3356:San Diego, CA -> 3356:Los Angeles, CA 1
+3356:San Diego, CA -> 3356:New York, NY 20
+3356:San Diego, CA -> 3356:San Jose, CA 4
+3356:San Diego, CA -> 3356:Seattle, WA 9
+3356:San Diego, CA -> 3356:Washington, DC 19
+3356:San Francisco, CA -> 3356:Chicago, IL 15
+3356:San Francisco, CA -> 3356:Dallas, TX 12
+3356:San Francisco, CA -> 3356:Denver, CO 8
+3356:San Francisco, CA -> 3356:New York, NY 21
+3356:San Francisco, CA -> 3356:San Jose, CA 1
+3356:San Francisco, CA -> 3356:Seattle, WA 6
+3356:San Francisco, CA -> 3356:Washington, DC 20
+3356:San Jose, CA -> 3356:Atlanta, GA 17
+3356:San Jose, CA -> 3356:Baltimore, MD 20
+3356:San Jose, CA -> 3356:Boston, MA 22
+3356:San Jose, CA -> 3356:Charlotte, NC 19
+3356:San Jose, CA -> 3356:Chicago, IL 15
+3356:San Jose, CA -> 3356:Cincinnati, OH 17
+3356:San Jose, CA -> 3356:Cleveland, OH 18
+3356:San Jose, CA -> 3356:Dallas, TX 12
+3356:San Jose, CA -> 3356:Denver, CO 8
+3356:San Jose, CA -> 3356:Detroit, MI 17
+3356:San Jose, CA -> 3356:Houston, TX 13
+3356:San Jose, CA -> 3356:Las Vegas, NV 4
+3356:San Jose, CA -> 3356:Los Angeles, CA 3
+3356:San Jose, CA -> 3356:Miami, FL 21
+3356:San Jose, CA -> 3356:Nashville, TN 16
+3356:San Jose, CA -> 3356:New York, NY 21
+3356:San Jose, CA -> 3356:Orlando, FL 20
+3356:San Jose, CA -> 3356:Palo Alto, CA 1
+3356:San Jose, CA -> 3356:Philadelphia, PA 21
+3356:San Jose, CA -> 3356:Phoenix, AZ 5
+3356:San Jose, CA -> 3356:Raleigh, NC 20
+3356:San Jose, CA -> 3356:Richmond, VA 21
+3356:San Jose, CA -> 3356:Sacramento, CA 1
+3356:San Jose, CA -> 3356:Salt Lake City, UT 5
+3356:San Jose, CA -> 3356:San Antonio, TX 12
+3356:San Jose, CA -> 3356:San Diego, CA 4
+3356:San Jose, CA -> 3356:San Francisco, CA 1
+3356:San Jose, CA -> 3356:Seattle, WA 6
+3356:San Jose, CA -> 3356:St. Louis, MO 14
+3356:San Jose, CA -> 3356:Stamford, CT 21
+3356:San Jose, CA -> 3356:Tampa, FL 20
+3356:San Jose, CA -> 3356:Tustin, CA 3
+3356:San Jose, CA -> 3356:Washington, DC 20
+3356:San Jose, CA -> 3356:Weehawken, NJ 21
+3356:Seattle, WA -> 3356:Atlanta, GA 18
+3356:Seattle, WA -> 3356:Baltimore, MD 19
+3356:Seattle, WA -> 3356:Boston, MA 20
+3356:Seattle, WA -> 3356:Charlotte, NC 19
+3356:Seattle, WA -> 3356:Chicago, IL 14
+3356:Seattle, WA -> 3356:Cincinnati, OH 16
+3356:Seattle, WA -> 3356:Cleveland, OH 17
+3356:Seattle, WA -> 3356:Dallas, TX 14
+3356:Seattle, WA -> 3356:Denver, CO 9
+3356:Seattle, WA -> 3356:Detroit, MI 16
+3356:Seattle, WA -> 3356:Houston, TX 16
+3356:Seattle, WA -> 3356:Las Vegas, NV 7
+3356:Seattle, WA -> 3356:London, UnitedKingdom 39
+3356:Seattle, WA -> 3356:Los Angeles, CA 8
+3356:Seattle, WA -> 3356:Miami, FL 22
+3356:Seattle, WA -> 3356:New York, NY 20
+3356:Seattle, WA -> 3356:Orlando, FL 21
+3356:Seattle, WA -> 3356:Philadelphia, PA 20
+3356:Seattle, WA -> 3356:Phoenix, AZ 9
+3356:Seattle, WA -> 3356:Portland, OR 2
+3356:Seattle, WA -> 3356:Raleigh, NC 19
+3356:Seattle, WA -> 3356:Richmond, VA 20
+3356:Seattle, WA -> 3356:Sacramento, CA 6
+3356:Seattle, WA -> 3356:Salt Lake City, UT 6
+3356:Seattle, WA -> 3356:San Antonio, TX 15
+3356:Seattle, WA -> 3356:San Diego, CA 9
+3356:Seattle, WA -> 3356:San Francisco, CA 6
+3356:Seattle, WA -> 3356:San Jose, CA 6
+3356:Seattle, WA -> 3356:St. Louis, MO 14
+3356:Seattle, WA -> 3356:Stamford, CT 20
+3356:Seattle, WA -> 3356:Tampa, FL 21
+3356:Seattle, WA -> 3356:Tustin, CA 8
+3356:Seattle, WA -> 3356:Washington, DC 19
+3356:Seattle, WA -> 3356:Weehawken, NJ 20
+3356:St. Louis, MO -> 3356:Chicago, IL 3
+3356:St. Louis, MO -> 3356:Dallas, TX 5
+3356:St. Louis, MO -> 3356:Los Angeles, CA 13
+3356:St. Louis, MO -> 3356:New York, NY 8
+3356:St. Louis, MO -> 3356:Raleigh, NC 6
+3356:St. Louis, MO -> 3356:San Jose, CA 14
+3356:St. Louis, MO -> 3356:Seattle, WA 14
+3356:St. Louis, MO -> 3356:Washington, DC 6
+3356:Stamford, CT -> 3356:Chicago, IL 6
+3356:Stamford, CT -> 3356:Dallas, TX 12
+3356:Stamford, CT -> 3356:Los Angeles, CA 20
+3356:Stamford, CT -> 3356:New York, NY 1
+3356:Stamford, CT -> 3356:Raleigh, NC 4
+3356:Stamford, CT -> 3356:San Jose, CA 21
+3356:Stamford, CT -> 3356:Seattle, WA 20
+3356:Stamford, CT -> 3356:Washington, DC 2
+3356:Stockholm, Sweden -> 3356:Frankfurt, Germany 7
+3356:Tampa, FL -> 3356:Chicago, IL 9
+3356:Tampa, FL -> 3356:Dallas, TX 8
+3356:Tampa, FL -> 3356:Los Angeles, CA 18
+3356:Tampa, FL -> 3356:New York, NY 9
+3356:Tampa, FL -> 3356:Raleigh, NC 5
+3356:Tampa, FL -> 3356:San Jose, CA 20
+3356:Tampa, FL -> 3356:Seattle, WA 21
+3356:Tampa, FL -> 3356:Washington, DC 7
+3356:Tustin, CA -> 3356:Chicago, IL 14
+3356:Tustin, CA -> 3356:Dallas, TX 10
+3356:Tustin, CA -> 3356:Denver, CO 7
+3356:Tustin, CA -> 3356:Los Angeles, CA 1
+3356:Tustin, CA -> 3356:New York, NY 20
+3356:Tustin, CA -> 3356:San Jose, CA 3
+3356:Tustin, CA -> 3356:Seattle, WA 8
+3356:Tustin, CA -> 3356:Washington, DC 19
+3356:Washington, DC -> 3356:Ashburn, VA 1
+3356:Washington, DC -> 3356:Atlanta, GA 5
+3356:Washington, DC -> 3356:Baltimore, MD 1
+3356:Washington, DC -> 3356:Boston, MA 4
+3356:Washington, DC -> 3356:Charlotte, NC 3
+3356:Washington, DC -> 3356:Chicago, IL 5
+3356:Washington, DC -> 3356:Cincinnati, OH 4
+3356:Washington, DC -> 3356:Cleveland, OH 3
+3356:Washington, DC -> 3356:Dallas, TX 10
+3356:Washington, DC -> 3356:Denver, CO 12
+3356:Washington, DC -> 3356:Detroit, MI 4
+3356:Washington, DC -> 3356:Frankfurt, Germany 33
+3356:Washington, DC -> 3356:Houston, TX 10
+3356:Washington, DC -> 3356:Las Vegas, NV 17
+3356:Washington, DC -> 3356:London, UnitedKingdom 30
+3356:Washington, DC -> 3356:Los Angeles, CA 19
+3356:Washington, DC -> 3356:Madrid, Spain 31
+3356:Washington, DC -> 3356:Miami, FL 8
+3356:Washington, DC -> 3356:Milan, Italy 34
+3356:Washington, DC -> 3356:New York, NY 2
+3356:Washington, DC -> 3356:Orlando, FL 7
+3356:Washington, DC -> 3356:Paris, France 31
+3356:Washington, DC -> 3356:Philadelphia, PA 2
+3356:Washington, DC -> 3356:Phoenix, AZ 16
+3356:Washington, DC -> 3356:Raleigh, NC 2
+3356:Washington, DC -> 3356:Richmond, VA 2
+3356:Washington, DC -> 3356:Sacramento, CA 20
+3356:Washington, DC -> 3356:Salt Lake City, UT 15
+3356:Washington, DC -> 3356:San Antonio, TX 12
+3356:Washington, DC -> 3356:San Diego, CA 19
+3356:Washington, DC -> 3356:San Francisco, CA 20
+3356:Washington, DC -> 3356:San Jose, CA 20
+3356:Washington, DC -> 3356:Seattle, WA 19
+3356:Washington, DC -> 3356:St. Louis, MO 6
+3356:Washington, DC -> 3356:Stamford, CT 2
+3356:Washington, DC -> 3356:Tampa, FL 7
+3356:Washington, DC -> 3356:Tustin, CA 19
+3356:Washington, DC -> 3356:Weehawken, NJ 2
+3356:Weehawken, NJ -> 3356:Chicago, IL 6
+3356:Weehawken, NJ -> 3356:Dallas, TX 12
+3356:Weehawken, NJ -> 3356:Los Angeles, CA 20
+3356:Weehawken, NJ -> 3356:New York, NY 1
+3356:Weehawken, NJ -> 3356:Philadelphia, PA 1
+3356:Weehawken, NJ -> 3356:San Jose, CA 21
+3356:Weehawken, NJ -> 3356:Seattle, WA 20
+3356:Weehawken, NJ -> 3356:Washington, DC 2
+3356:Zurich, Switzerland -> 3356:Frankfurt, Germany 2
+3356:Zurich, Switzerland -> 3356:London, UnitedKingdom 4
+3356:Zurich, Switzerland -> 3356:New York, NY 32

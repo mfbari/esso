@@ -1,0 +1,32 @@
+10910:Washington, DC -> 10910:Vienna, VA 0.11485
+10910:Tacoma, WA -> 10910:Seattle, WA 0.207166
+10910:San Francisco, CA -> 10910:Milpitas, CA 0.345503
+10910:San Francisco, CA -> 10910:Palo Alto, CA 0.261255
+10910:San Francisco, CA -> 10910:San Jose, CA 0.381421
+10910:Everett, WA -> 10910:Seattle, WA 0.195383
+10910:Milpitas, CA -> 10910:San Francisco, CA 0.345503
+10910:Anaheim, CA -> 10910:Orange County, CA 2.05827
+10910:Anaheim, CA -> 10910:Los Angeles, CA 1
+10910:Boston, MA -> 10910:New York, NY 1.52819
+10910:Orange County, CA -> 10910:San Diego, CA 2.73184
+10910:Orange County, CA -> 10910:Anaheim, CA 2.05827
+10910:Orange County, CA -> 10910:Los Angeles, CA 2.05827
+10910:Vienna, VA -> 10910:Washington, DC 0.11485
+10910:New York, NY -> 10910:Boston, MA 1.52819
+10910:Miami, FL -> 10910:Orlando, FL 1.64385
+10910:Cheyenne, WY -> 10910:Denver, CO 0.760173
+10910:Seattle, WA -> 10910:Tacoma, WA 0.207166
+10910:Seattle, WA -> 10910:Everett, WA 0.195383
+10910:Palo Alto, CA -> 10910:San Francisco, CA 0.261255
+10910:Orlando, FL -> 10910:Miami, FL 1.64385
+10910:Carrollton, TX -> 10910:Dallas, TX 0.114973
+10910:Los Angeles, CA -> 10910:Orange County, CA 2.05827
+10910:Los Angeles, CA -> 10910:Anaheim, CA 1
+10910:Houston, TX -> 10910:Dallas, TX 1.79734
+10910:Dallas, TX -> 10910:Carrollton, TX 0.114973
+10910:Dallas, TX -> 10910:Houston, TX 1.79734
+10910:Pennsauken, NJ -> 10910:Philadelphia, PA 0.0450623
+10910:Denver, CO -> 10910:Cheyenne, WY 0.760173
+10910:Philadelphia, PA -> 10910:Pennsauken, NJ 0.0450623
+10910:San Diego, CA -> 10910:Orange County, CA 2.73184
+10910:San Jose, CA -> 10910:San Francisco, CA 0.381421

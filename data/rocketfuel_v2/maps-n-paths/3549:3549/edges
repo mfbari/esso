@@ -1,0 +1,972 @@
+3549:Amsterdam, Netherlands -> 3549:Birmingham, UnitedKingdom 3
+3549:Amsterdam, Netherlands -> 3549:Blackbush, UnitedKingdom 6
+3549:Amsterdam, Netherlands -> 3549:Boston, MA 38
+3549:Amsterdam, Netherlands -> 3549:Chicago, IL 48
+3549:Amsterdam, Netherlands -> 3549:Cleveland, OH 3
+3549:Amsterdam, Netherlands -> 3549:Copenhagen, Denmark 24
+3549:Amsterdam, Netherlands -> 3549:Frankfurt, Germany 314
+3549:Amsterdam, Netherlands -> 3549:Hamburg, Germany 24
+3549:Amsterdam, Netherlands -> 3549:Hong Kong 3
+3549:Amsterdam, Netherlands -> 3549:Leeds, UnitedKingdom 3
+3549:Amsterdam, Netherlands -> 3549:London, UnitedKingdom 92
+3549:Amsterdam, Netherlands -> 3549:Los Angeles, CA 49
+3549:Amsterdam, Netherlands -> 3549:Milan, Italy 5552
+3549:Amsterdam, Netherlands -> 3549:New York, NY 269
+3549:Amsterdam, Netherlands -> 3549:Palo Alto, CA 127
+3549:Amsterdam, Netherlands -> 3549:Paris, France 19
+3549:Amsterdam, Netherlands -> 3549:Phoenix, AZ 2
+3549:Amsterdam, Netherlands -> 3549:San Francisco, CA 271
+3549:Amsterdam, Netherlands -> 3549:Santa Ana, CA 10
+3549:Amsterdam, Netherlands -> 3549:Seattle, WA 370
+3549:Amsterdam, Netherlands -> 3549:Tokyo, Japan 8
+3549:Amsterdam, Netherlands -> 3549:Washington, DC 290
+3549:Anaheim, CA -> 3549:Santa Ana, CA 924
+3549:Ashburn, VA -> 3549:Boston, MA 722
+3549:Ashburn, VA -> 3549:Washington, DC 18092
+3549:Atlanta, GA -> 3549:Boston, MA 740
+3549:Atlanta, GA -> 3549:Chicago, IL 512
+3549:Atlanta, GA -> 3549:Copenhagen, Denmark 307
+3549:Atlanta, GA -> 3549:Dallas, TX 5
+3549:Atlanta, GA -> 3549:Frankfurt, Germany 31
+3549:Atlanta, GA -> 3549:Houston, TX 5
+3549:Atlanta, GA -> 3549:London, UnitedKingdom 718
+3549:Atlanta, GA -> 3549:Los Angeles, CA 915
+3549:Atlanta, GA -> 3549:Miami, FL 40
+3549:Atlanta, GA -> 3549:Milan, Italy 892
+3549:Atlanta, GA -> 3549:New York, NY 2627
+3549:Atlanta, GA -> 3549:Palo Alto, CA 1516
+3549:Atlanta, GA -> 3549:Philadelphia, PA 318
+3549:Atlanta, GA -> 3549:San Francisco, CA 368
+3549:Atlanta, GA -> 3549:Santa Ana, CA 210
+3549:Atlanta, GA -> 3549:Seattle, WA 1143
+3549:Atlanta, GA -> 3549:Tampa, FL 4673
+3549:Atlanta, GA -> 3549:Washington, DC 4349
+3549:Auckland, NewZealand -> 3549:Sydney, Australia 2232
+3549:Austin, TX -> 3549:Dallas, TX 81
+3549:Biggin Hill, UnitedKingdom -> 3549:Blackbush, UnitedKingdom 118
+3549:Birmingham, UnitedKingdom -> 3549:Amsterdam, Netherlands 3
+3549:Birmingham, UnitedKingdom -> 3549:Boston, MA 8
+3549:Birmingham, UnitedKingdom -> 3549:Chicago, IL 12
+3549:Birmingham, UnitedKingdom -> 3549:Copenhagen, Denmark 3
+3549:Birmingham, UnitedKingdom -> 3549:London, UnitedKingdom 9
+3549:Birmingham, UnitedKingdom -> 3549:Los Angeles, CA 36
+3549:Birmingham, UnitedKingdom -> 3549:Milan, Italy 5
+3549:Birmingham, UnitedKingdom -> 3549:New York, NY 39
+3549:Birmingham, UnitedKingdom -> 3549:Palo Alto, CA 34
+3549:Birmingham, UnitedKingdom -> 3549:San Francisco, CA 9
+3549:Birmingham, UnitedKingdom -> 3549:Seattle, WA 21
+3549:Birmingham, UnitedKingdom -> 3549:Washington, DC 64
+3549:Blackbush, UnitedKingdom -> 3549:Amsterdam, Netherlands 6
+3549:Blackbush, UnitedKingdom -> 3549:Biggin Hill, UnitedKingdom 118
+3549:Blackbush, UnitedKingdom -> 3549:Boston, MA 16
+3549:Blackbush, UnitedKingdom -> 3549:Chicago, IL 26
+3549:Blackbush, UnitedKingdom -> 3549:Copenhagen, Denmark 3
+3549:Blackbush, UnitedKingdom -> 3549:London, UnitedKingdom 9
+3549:Blackbush, UnitedKingdom -> 3549:Los Angeles, CA 52
+3549:Blackbush, UnitedKingdom -> 3549:Milan, Italy 12
+3549:Blackbush, UnitedKingdom -> 3549:New York, NY 47
+3549:Blackbush, UnitedKingdom -> 3549:Palo Alto, CA 56
+3549:Blackbush, UnitedKingdom -> 3549:San Francisco, CA 12
+3549:Blackbush, UnitedKingdom -> 3549:Seattle, WA 26
+3549:Blackbush, UnitedKingdom -> 3549:Washington, DC 133
+3549:Boston, MA -> 3549:Amsterdam, Netherlands 38
+3549:Boston, MA -> 3549:Ashburn, VA 722
+3549:Boston, MA -> 3549:Atlanta, GA 740
+3549:Boston, MA -> 3549:Birmingham, UnitedKingdom 8
+3549:Boston, MA -> 3549:Blackbush, UnitedKingdom 16
+3549:Boston, MA -> 3549:Buenos Aires, Argentina 334
+3549:Boston, MA -> 3549:Chicago, IL 1627
+3549:Boston, MA -> 3549:Cleveland, OH 423
+3549:Boston, MA -> 3549:Copenhagen, Denmark 1479
+3549:Boston, MA -> 3549:Dallas, TX 167
+3549:Boston, MA -> 3549:Denver, CO 254
+3549:Boston, MA -> 3549:Frankfurt, Germany 1223
+3549:Boston, MA -> 3549:Hamburg, Germany 314
+3549:Boston, MA -> 3549:Hong Kong 1010
+3549:Boston, MA -> 3549:Houston, TX 111
+3549:Boston, MA -> 3549:Kansas City, MO 125
+3549:Boston, MA -> 3549:Leeds, UnitedKingdom 9
+3549:Boston, MA -> 3549:London, UnitedKingdom 527
+3549:Boston, MA -> 3549:Los Angeles, CA 1589
+3549:Boston, MA -> 3549:Miami, FL 494
+3549:Boston, MA -> 3549:Milan, Italy 4751
+3549:Boston, MA -> 3549:Minneapolis, MN 179
+3549:Boston, MA -> 3549:Nagoya, Japan 5
+3549:Boston, MA -> 3549:New York, NY 3572
+3549:Boston, MA -> 3549:Osaka, Japan 119
+3549:Boston, MA -> 3549:Palo Alto, CA 1459
+3549:Boston, MA -> 3549:Paris, France 163
+3549:Boston, MA -> 3549:Philadelphia, PA 351
+3549:Boston, MA -> 3549:Phoenix, AZ 321
+3549:Boston, MA -> 3549:Rochester, NY 73
+3549:Boston, MA -> 3549:Sacramento, CA 17
+3549:Boston, MA -> 3549:San Diego, CA 5
+3549:Boston, MA -> 3549:San Francisco, CA 604
+3549:Boston, MA -> 3549:Santa Ana, CA 620
+3549:Boston, MA -> 3549:Sao Paolo, Brazil 262
+3549:Boston, MA -> 3549:Seattle, WA 1469
+3549:Boston, MA -> 3549:Seoul, SouthKorea 724
+3549:Boston, MA -> 3549:Sunnyvale, CA 3
+3549:Boston, MA -> 3549:Taipei, Taiwan 275
+3549:Boston, MA -> 3549:Tokyo, Japan 950
+3549:Boston, MA -> 3549:Washington, DC 2650
+3549:Buenos Aires, Argentina -> 3549:Boston, MA 334
+3549:Buenos Aires, Argentina -> 3549:Chicago, IL 721
+3549:Buenos Aires, Argentina -> 3549:Copenhagen, Denmark 172
+3549:Buenos Aires, Argentina -> 3549:Dallas, TX 3
+3549:Buenos Aires, Argentina -> 3549:Frankfurt, Germany 60
+3549:Buenos Aires, Argentina -> 3549:London, UnitedKingdom 394
+3549:Buenos Aires, Argentina -> 3549:Los Angeles, CA 937
+3549:Buenos Aires, Argentina -> 3549:Milan, Italy 261
+3549:Buenos Aires, Argentina -> 3549:New York, NY 986
+3549:Buenos Aires, Argentina -> 3549:Palo Alto, CA 1428
+3549:Buenos Aires, Argentina -> 3549:San Francisco, CA 202
+3549:Buenos Aires, Argentina -> 3549:Santa Ana, CA 43
+3549:Buenos Aires, Argentina -> 3549:Seattle, WA 574
+3549:Buenos Aires, Argentina -> 3549:Washington, DC 2506
+3549:Charlotte, NC -> 3549:Chicago, IL 37
+3549:Chicago, IL -> 3549:Amsterdam, Netherlands 48
+3549:Chicago, IL -> 3549:Atlanta, GA 512
+3549:Chicago, IL -> 3549:Birmingham, UnitedKingdom 12
+3549:Chicago, IL -> 3549:Blackbush, UnitedKingdom 26
+3549:Chicago, IL -> 3549:Boston, MA 1627
+3549:Chicago, IL -> 3549:Buenos Aires, Argentina 721
+3549:Chicago, IL -> 3549:Charlotte, NC 37
+3549:Chicago, IL -> 3549:Cleveland, OH 417
+3549:Chicago, IL -> 3549:Copenhagen, Denmark 1330
+3549:Chicago, IL -> 3549:Dallas, TX 198
+3549:Chicago, IL -> 3549:Denver, CO 334
+3549:Chicago, IL -> 3549:Detroit, MI 89
+3549:Chicago, IL -> 3549:Frankfurt, Germany 1711
+3549:Chicago, IL -> 3549:Hamburg, Germany 417
+3549:Chicago, IL -> 3549:Hong Kong 602
+3549:Chicago, IL -> 3549:Houston, TX 1110
+3549:Chicago, IL -> 3549:Kansas City, MO 133
+3549:Chicago, IL -> 3549:Leeds, UnitedKingdom 8
+3549:Chicago, IL -> 3549:London, UnitedKingdom 386
+3549:Chicago, IL -> 3549:Los Angeles, CA 1237
+3549:Chicago, IL -> 3549:Miami, FL 1024
+3549:Chicago, IL -> 3549:Milan, Italy 4568
+3549:Chicago, IL -> 3549:Minneapolis, MN 400
+3549:Chicago, IL -> 3549:Nagoya, Japan 14
+3549:Chicago, IL -> 3549:New York, NY 3872
+3549:Chicago, IL -> 3549:Osaka, Japan 124
+3549:Chicago, IL -> 3549:Palo Alto, CA 1238
+3549:Chicago, IL -> 3549:Paris, France 210
+3549:Chicago, IL -> 3549:Philadelphia, PA 483
+3549:Chicago, IL -> 3549:Phoenix, AZ 397
+3549:Chicago, IL -> 3549:Rochester, NY 100
+3549:Chicago, IL -> 3549:Sacramento, CA 22
+3549:Chicago, IL -> 3549:San Diego, CA 8
+3549:Chicago, IL -> 3549:San Francisco, CA 635
+3549:Chicago, IL -> 3549:Santa Ana, CA 787
+3549:Chicago, IL -> 3549:Sao Paolo, Brazil 242
+3549:Chicago, IL -> 3549:Seattle, WA 1803
+3549:Chicago, IL -> 3549:Seoul, SouthKorea 357
+3549:Chicago, IL -> 3549:Sunnyvale, CA 4
+3549:Chicago, IL -> 3549:Taipei, Taiwan 302
+3549:Chicago, IL -> 3549:Tokyo, Japan 558
+3549:Chicago, IL -> 3549:Washington, DC 4065
+3549:Cleveland, OH -> 3549:Amsterdam, Netherlands 3
+3549:Cleveland, OH -> 3549:Boston, MA 423
+3549:Cleveland, OH -> 3549:Chicago, IL 417
+3549:Cleveland, OH -> 3549:Copenhagen, Denmark 138
+3549:Cleveland, OH -> 3549:Dallas, TX 8
+3549:Cleveland, OH -> 3549:Detroit, MI 1718
+3549:Cleveland, OH -> 3549:Frankfurt, Germany 32
+3549:Cleveland, OH -> 3549:London, UnitedKingdom 453
+3549:Cleveland, OH -> 3549:Los Angeles, CA 1333
+3549:Cleveland, OH -> 3549:Milan, Italy 360
+3549:Cleveland, OH -> 3549:New York, NY 1392
+3549:Cleveland, OH -> 3549:Palo Alto, CA 1511
+3549:Cleveland, OH -> 3549:Roachdale, IN 34
+3549:Cleveland, OH -> 3549:San Francisco, CA 323
+3549:Cleveland, OH -> 3549:Santa Ana, CA 237
+3549:Cleveland, OH -> 3549:Seattle, WA 996
+3549:Cleveland, OH -> 3549:Washington, DC 2780
+3549:Copenhagen, Denmark -> 3549:Amsterdam, Netherlands 24
+3549:Copenhagen, Denmark -> 3549:Atlanta, GA 307
+3549:Copenhagen, Denmark -> 3549:Birmingham, UnitedKingdom 3
+3549:Copenhagen, Denmark -> 3549:Blackbush, UnitedKingdom 3
+3549:Copenhagen, Denmark -> 3549:Boston, MA 1479
+3549:Copenhagen, Denmark -> 3549:Buenos Aires, Argentina 172
+3549:Copenhagen, Denmark -> 3549:Chicago, IL 1330
+3549:Copenhagen, Denmark -> 3549:Cleveland, OH 138
+3549:Copenhagen, Denmark -> 3549:Dallas, TX 46
+3549:Copenhagen, Denmark -> 3549:Denver, CO 79
+3549:Copenhagen, Denmark -> 3549:Frankfurt, Germany 203
+3549:Copenhagen, Denmark -> 3549:Hamburg, Germany 12
+3549:Copenhagen, Denmark -> 3549:Hong Kong 283
+3549:Copenhagen, Denmark -> 3549:Houston, TX 28
+3549:Copenhagen, Denmark -> 3549:Kansas City, MO 30
+3549:Copenhagen, Denmark -> 3549:London, UnitedKingdom 109
+3549:Copenhagen, Denmark -> 3549:Los Angeles, CA 3792
+3549:Copenhagen, Denmark -> 3549:Miami, FL 177
+3549:Copenhagen, Denmark -> 3549:Milan, Italy 1001
+3549:Copenhagen, Denmark -> 3549:Minneapolis, MN 60
+3549:Copenhagen, Denmark -> 3549:New York, NY 3425
+3549:Copenhagen, Denmark -> 3549:Osaka, Japan 19
+3549:Copenhagen, Denmark -> 3549:Oslo, Norway 46
+3549:Copenhagen, Denmark -> 3549:Palo Alto, CA 4300
+3549:Copenhagen, Denmark -> 3549:Paris, France 21
+3549:Copenhagen, Denmark -> 3549:Philadelphia, PA 126
+3549:Copenhagen, Denmark -> 3549:Phoenix, AZ 87
+3549:Copenhagen, Denmark -> 3549:Rochester, NY 21
+3549:Copenhagen, Denmark -> 3549:Sacramento, CA 3
+3549:Copenhagen, Denmark -> 3549:San Diego, CA 2
+3549:Copenhagen, Denmark -> 3549:San Francisco, CA 1359
+3549:Copenhagen, Denmark -> 3549:Santa Ana, CA 178
+3549:Copenhagen, Denmark -> 3549:Sao Paolo, Brazil 26
+3549:Copenhagen, Denmark -> 3549:Seattle, WA 3172
+3549:Copenhagen, Denmark -> 3549:Seoul, SouthKorea 44
+3549:Copenhagen, Denmark -> 3549:Taipei, Taiwan 85
+3549:Copenhagen, Denmark -> 3549:Tokyo, Japan 258
+3549:Copenhagen, Denmark -> 3549:Washington, DC 6831
+3549:Dallas, TX -> 3549:Atlanta, GA 5
+3549:Dallas, TX -> 3549:Austin, TX 81
+3549:Dallas, TX -> 3549:Boston, MA 167
+3549:Dallas, TX -> 3549:Buenos Aires, Argentina 3
+3549:Dallas, TX -> 3549:Chicago, IL 198
+3549:Dallas, TX -> 3549:Cleveland, OH 8
+3549:Dallas, TX -> 3549:Copenhagen, Denmark 46
+3549:Dallas, TX -> 3549:Denver, CO 30
+3549:Dallas, TX -> 3549:Frankfurt, Germany 26
+3549:Dallas, TX -> 3549:Hong Kong 9
+3549:Dallas, TX -> 3549:Houston, TX 11
+3549:Dallas, TX -> 3549:London, UnitedKingdom 98
+3549:Dallas, TX -> 3549:Los Angeles, CA 525
+3549:Dallas, TX -> 3549:Miami, FL 56
+3549:Dallas, TX -> 3549:Milan, Italy 136
+3549:Dallas, TX -> 3549:Minneapolis, MN 11
+3549:Dallas, TX -> 3549:New York, NY 429
+3549:Dallas, TX -> 3549:Palo Alto, CA 459
+3549:Dallas, TX -> 3549:Phoenix, AZ 3
+3549:Dallas, TX -> 3549:San Francisco, CA 98
+3549:Dallas, TX -> 3549:Santa Ana, CA 42
+3549:Dallas, TX -> 3549:Seattle, WA 297
+3549:Dallas, TX -> 3549:Seoul, SouthKorea 11
+3549:Dallas, TX -> 3549:Taipei, Taiwan 10
+3549:Dallas, TX -> 3549:Tokyo, Japan 2
+3549:Dallas, TX -> 3549:Washington, DC 832
+3549:Denver, CO -> 3549:Boston, MA 254
+3549:Denver, CO -> 3549:Chicago, IL 334
+3549:Denver, CO -> 3549:Copenhagen, Denmark 79
+3549:Denver, CO -> 3549:Dallas, TX 30
+3549:Denver, CO -> 3549:Frankfurt, Germany 25
+3549:Denver, CO -> 3549:London, UnitedKingdom 191
+3549:Denver, CO -> 3549:Los Angeles, CA 745
+3549:Denver, CO -> 3549:Milan, Italy 222
+3549:Denver, CO -> 3549:New York, NY 759
+3549:Denver, CO -> 3549:Palo Alto, CA 744
+3549:Denver, CO -> 3549:Phoenix, AZ 64
+3549:Denver, CO -> 3549:San Francisco, CA 166
+3549:Denver, CO -> 3549:Santa Ana, CA 108
+3549:Denver, CO -> 3549:Seattle, WA 573
+3549:Denver, CO -> 3549:Washington, DC 1695
+3549:Detroit, MI -> 3549:Chicago, IL 89
+3549:Detroit, MI -> 3549:Cleveland, OH 1718
+3549:Detroit, MI -> 3549:Milan, Italy 9
+3549:Frankfurt, Germany -> 3549:Amsterdam, Netherlands 314
+3549:Frankfurt, Germany -> 3549:Atlanta, GA 31
+3549:Frankfurt, Germany -> 3549:Boston, MA 1223
+3549:Frankfurt, Germany -> 3549:Buenos Aires, Argentina 60
+3549:Frankfurt, Germany -> 3549:Chicago, IL 1711
+3549:Frankfurt, Germany -> 3549:Cleveland, OH 32
+3549:Frankfurt, Germany -> 3549:Copenhagen, Denmark 203
+3549:Frankfurt, Germany -> 3549:Dallas, TX 26
+3549:Frankfurt, Germany -> 3549:Denver, CO 25
+3549:Frankfurt, Germany -> 3549:Hamburg, Germany 140
+3549:Frankfurt, Germany -> 3549:Hong Kong 368
+3549:Frankfurt, Germany -> 3549:Houston, TX 11
+3549:Frankfurt, Germany -> 3549:Kansas City, MO 3
+3549:Frankfurt, Germany -> 3549:London, UnitedKingdom 596
+3549:Frankfurt, Germany -> 3549:Los Angeles, CA 2582
+3549:Frankfurt, Germany -> 3549:Miami, FL 192
+3549:Frankfurt, Germany -> 3549:Milan, Italy 17337
+3549:Frankfurt, Germany -> 3549:Minneapolis, MN 13
+3549:Frankfurt, Germany -> 3549:New York, NY 2540
+3549:Frankfurt, Germany -> 3549:Osaka, Japan 62
+3549:Frankfurt, Germany -> 3549:Palo Alto, CA 3556
+3549:Frankfurt, Germany -> 3549:Paris, France 202
+3549:Frankfurt, Germany -> 3549:Philadelphia, PA 24
+3549:Frankfurt, Germany -> 3549:San Francisco, CA 1552
+3549:Frankfurt, Germany -> 3549:Santa Ana, CA 322
+3549:Frankfurt, Germany -> 3549:Sao Paolo, Brazil 15
+3549:Frankfurt, Germany -> 3549:Seattle, WA 1652
+3549:Frankfurt, Germany -> 3549:Seoul, SouthKorea 53
+3549:Frankfurt, Germany -> 3549:Taipei, Taiwan 44
+3549:Frankfurt, Germany -> 3549:Tokyo, Japan 303
+3549:Frankfurt, Germany -> 3549:Washington, DC 4952
+3549:Frankfurt, Germany -> 3549:Zurich, Switzerland 1070
+3549:Hamburg, Germany -> 3549:Amsterdam, Netherlands 24
+3549:Hamburg, Germany -> 3549:Boston, MA 314
+3549:Hamburg, Germany -> 3549:Chicago, IL 417
+3549:Hamburg, Germany -> 3549:Copenhagen, Denmark 12
+3549:Hamburg, Germany -> 3549:Frankfurt, Germany 140
+3549:Hamburg, Germany -> 3549:London, UnitedKingdom 73
+3549:Hamburg, Germany -> 3549:Los Angeles, CA 734
+3549:Hamburg, Germany -> 3549:Milan, Italy 723
+3549:Hamburg, Germany -> 3549:New York, NY 672
+3549:Hamburg, Germany -> 3549:Oslo, Norway 3144
+3549:Hamburg, Germany -> 3549:Palo Alto, CA 990
+3549:Hamburg, Germany -> 3549:San Francisco, CA 190
+3549:Hamburg, Germany -> 3549:Santa Ana, CA 60
+3549:Hamburg, Germany -> 3549:Seattle, WA 616
+3549:Hamburg, Germany -> 3549:Washington, DC 1557
+3549:Hong Kong -> 3549:Amsterdam, Netherlands 3
+3549:Hong Kong -> 3549:Boston, MA 1010
+3549:Hong Kong -> 3549:Chicago, IL 602
+3549:Hong Kong -> 3549:Copenhagen, Denmark 283
+3549:Hong Kong -> 3549:Dallas, TX 9
+3549:Hong Kong -> 3549:Frankfurt, Germany 368
+3549:Hong Kong -> 3549:London, UnitedKingdom 518
+3549:Hong Kong -> 3549:Los Angeles, CA 2488
+3549:Hong Kong -> 3549:Milan, Italy 846
+3549:Hong Kong -> 3549:New York, NY 1902
+3549:Hong Kong -> 3549:Palo Alto, CA 2244
+3549:Hong Kong -> 3549:San Francisco, CA 620
+3549:Hong Kong -> 3549:Santa Ana, CA 374
+3549:Hong Kong -> 3549:Seattle, WA 2124
+3549:Hong Kong -> 3549:Singapore 1973
+3549:Hong Kong -> 3549:Tokyo, Japan 17
+3549:Hong Kong -> 3549:Washington, DC 5567
+3549:Houston, TX -> 3549:Atlanta, GA 5
+3549:Houston, TX -> 3549:Boston, MA 111
+3549:Houston, TX -> 3549:Chicago, IL 1110
+3549:Houston, TX -> 3549:Copenhagen, Denmark 28
+3549:Houston, TX -> 3549:Dallas, TX 11
+3549:Houston, TX -> 3549:Frankfurt, Germany 11
+3549:Houston, TX -> 3549:London, UnitedKingdom 129
+3549:Houston, TX -> 3549:Los Angeles, CA 1368
+3549:Houston, TX -> 3549:Milan, Italy 80
+3549:Houston, TX -> 3549:New York, NY 406
+3549:Houston, TX -> 3549:Palo Alto, CA 1308
+3549:Houston, TX -> 3549:San Francisco, CA 685
+3549:Houston, TX -> 3549:Santa Ana, CA 434
+3549:Houston, TX -> 3549:Seattle, WA 1211
+3549:Houston, TX -> 3549:Tampa, FL 4902
+3549:Houston, TX -> 3549:Tucson, AZ 106
+3549:Houston, TX -> 3549:Washington, DC 1003
+3549:Kansas City, MO -> 3549:Boston, MA 125
+3549:Kansas City, MO -> 3549:Chicago, IL 133
+3549:Kansas City, MO -> 3549:Copenhagen, Denmark 30
+3549:Kansas City, MO -> 3549:Frankfurt, Germany 3
+3549:Kansas City, MO -> 3549:London, UnitedKingdom 105
+3549:Kansas City, MO -> 3549:Los Angeles, CA 356
+3549:Kansas City, MO -> 3549:Milan, Italy 101
+3549:Kansas City, MO -> 3549:New York, NY 400
+3549:Kansas City, MO -> 3549:Palo Alto, CA 368
+3549:Kansas City, MO -> 3549:San Francisco, CA 85
+3549:Kansas City, MO -> 3549:Santa Ana, CA 37
+3549:Kansas City, MO -> 3549:Seattle, WA 234
+3549:Kansas City, MO -> 3549:Washington, DC 725
+3549:Las Vegas, NV -> 3549:Santa Ana, CA 79
+3549:Leeds, UnitedKingdom -> 3549:Amsterdam, Netherlands 3
+3549:Leeds, UnitedKingdom -> 3549:Boston, MA 9
+3549:Leeds, UnitedKingdom -> 3549:Chicago, IL 8
+3549:Leeds, UnitedKingdom -> 3549:London, UnitedKingdom 3
+3549:Leeds, UnitedKingdom -> 3549:Los Angeles, CA 26
+3549:Leeds, UnitedKingdom -> 3549:Milan, Italy 6
+3549:Leeds, UnitedKingdom -> 3549:New York, NY 31
+3549:Leeds, UnitedKingdom -> 3549:Palo Alto, CA 22
+3549:Leeds, UnitedKingdom -> 3549:San Francisco, CA 9
+3549:Leeds, UnitedKingdom -> 3549:Seattle, WA 21
+3549:Leeds, UnitedKingdom -> 3549:Washington, DC 63
+3549:London, UnitedKingdom -> 3549:Amsterdam, Netherlands 92
+3549:London, UnitedKingdom -> 3549:Atlanta, GA 718
+3549:London, UnitedKingdom -> 3549:Birmingham, UnitedKingdom 9
+3549:London, UnitedKingdom -> 3549:Blackbush, UnitedKingdom 9
+3549:London, UnitedKingdom -> 3549:Boston, MA 527
+3549:London, UnitedKingdom -> 3549:Buenos Aires, Argentina 394
+3549:London, UnitedKingdom -> 3549:Chicago, IL 386
+3549:London, UnitedKingdom -> 3549:Cleveland, OH 453
+3549:London, UnitedKingdom -> 3549:Copenhagen, Denmark 109
+3549:London, UnitedKingdom -> 3549:Dallas, TX 98
+3549:London, UnitedKingdom -> 3549:Denver, CO 191
+3549:London, UnitedKingdom -> 3549:Frankfurt, Germany 596
+3549:London, UnitedKingdom -> 3549:Hamburg, Germany 73
+3549:London, UnitedKingdom -> 3549:Hong Kong 518
+3549:London, UnitedKingdom -> 3549:Houston, TX 129
+3549:London, UnitedKingdom -> 3549:Kansas City, MO 105
+3549:London, UnitedKingdom -> 3549:Leeds, UnitedKingdom 3
+3549:London, UnitedKingdom -> 3549:Los Angeles, CA 556
+3549:London, UnitedKingdom -> 3549:Miami, FL 641
+3549:London, UnitedKingdom -> 3549:Milan, Italy 40421
+3549:London, UnitedKingdom -> 3549:Minneapolis, MN 159
+3549:London, UnitedKingdom -> 3549:Nagoya, Japan 10
+3549:London, UnitedKingdom -> 3549:New York, NY 2373
+3549:London, UnitedKingdom -> 3549:Osaka, Japan 150
+3549:London, UnitedKingdom -> 3549:Palo Alto, CA 398
+3549:London, UnitedKingdom -> 3549:Paris, France 65
+3549:London, UnitedKingdom -> 3549:Philadelphia, PA 281
+3549:London, UnitedKingdom -> 3549:Phoenix, AZ 252
+3549:London, UnitedKingdom -> 3549:Rochester, NY 67
+3549:London, UnitedKingdom -> 3549:Sacramento, CA 12
+3549:London, UnitedKingdom -> 3549:San Diego, CA 6
+3549:London, UnitedKingdom -> 3549:San Francisco, CA 373
+3549:London, UnitedKingdom -> 3549:Santa Ana, CA 584
+3549:London, UnitedKingdom -> 3549:Sao Paolo, Brazil 99
+3549:London, UnitedKingdom -> 3549:Seattle, WA 1831
+3549:London, UnitedKingdom -> 3549:Seoul, SouthKorea 164
+3549:London, UnitedKingdom -> 3549:Sunnyvale, CA 3
+3549:London, UnitedKingdom -> 3549:Taipei, Taiwan 326
+3549:London, UnitedKingdom -> 3549:Tokyo, Japan 278
+3549:London, UnitedKingdom -> 3549:Washington, DC 1315
+3549:Los Angeles, CA -> 3549:Amsterdam, Netherlands 49
+3549:Los Angeles, CA -> 3549:Atlanta, GA 915
+3549:Los Angeles, CA -> 3549:Birmingham, UnitedKingdom 36
+3549:Los Angeles, CA -> 3549:Blackbush, UnitedKingdom 52
+3549:Los Angeles, CA -> 3549:Boston, MA 1589
+3549:Los Angeles, CA -> 3549:Buenos Aires, Argentina 937
+3549:Los Angeles, CA -> 3549:Chicago, IL 1237
+3549:Los Angeles, CA -> 3549:Cleveland, OH 1333
+3549:Los Angeles, CA -> 3549:Copenhagen, Denmark 3792
+3549:Los Angeles, CA -> 3549:Dallas, TX 525
+3549:Los Angeles, CA -> 3549:Denver, CO 745
+3549:Los Angeles, CA -> 3549:Frankfurt, Germany 2582
+3549:Los Angeles, CA -> 3549:Hamburg, Germany 734
+3549:Los Angeles, CA -> 3549:Hong Kong 2488
+3549:Los Angeles, CA -> 3549:Houston, TX 1368
+3549:Los Angeles, CA -> 3549:Kansas City, MO 356
+3549:Los Angeles, CA -> 3549:Leeds, UnitedKingdom 26
+3549:Los Angeles, CA -> 3549:London, UnitedKingdom 556
+3549:Los Angeles, CA -> 3549:Miami, FL 2271
+3549:Los Angeles, CA -> 3549:Milan, Italy 728
+3549:Los Angeles, CA -> 3549:Minneapolis, MN 648
+3549:Los Angeles, CA -> 3549:Nagoya, Japan 22
+3549:Los Angeles, CA -> 3549:New York, NY 6162
+3549:Los Angeles, CA -> 3549:Osaka, Japan 237
+3549:Los Angeles, CA -> 3549:Palo Alto, CA 1150
+3549:Los Angeles, CA -> 3549:Paris, France 448
+3549:Los Angeles, CA -> 3549:Philadelphia, PA 910
+3549:Los Angeles, CA -> 3549:Phoenix, AZ 1042
+3549:Los Angeles, CA -> 3549:Rochester, NY 220
+3549:Los Angeles, CA -> 3549:Sacramento, CA 36
+3549:Los Angeles, CA -> 3549:San Diego, CA 23
+3549:Los Angeles, CA -> 3549:San Francisco, CA 1113
+3549:Los Angeles, CA -> 3549:Santa Ana, CA 4996
+3549:Los Angeles, CA -> 3549:Sao Paolo, Brazil 305
+3549:Los Angeles, CA -> 3549:Seattle, WA 3384
+3549:Los Angeles, CA -> 3549:Seoul, SouthKorea 542
+3549:Los Angeles, CA -> 3549:Sunnyvale, CA 11
+3549:Los Angeles, CA -> 3549:Taipei, Taiwan 1004
+3549:Los Angeles, CA -> 3549:Tokyo, Japan 927
+3549:Los Angeles, CA -> 3549:Washington, DC 2734
+3549:Madrid, Spain -> 3549:Paris, France 255
+3549:Manila, Philippines -> 3549:Taipei, Taiwan 1354
+3549:Mexico City, Mexico -> 3549:Milan, Italy 3
+3549:Mexico City, Mexico -> 3549:Santa Ana, CA 743
+3549:Miami, FL -> 3549:Atlanta, GA 40
+3549:Miami, FL -> 3549:Boston, MA 494
+3549:Miami, FL -> 3549:Chicago, IL 1024
+3549:Miami, FL -> 3549:Copenhagen, Denmark 177
+3549:Miami, FL -> 3549:Dallas, TX 56
+3549:Miami, FL -> 3549:Frankfurt, Germany 192
+3549:Miami, FL -> 3549:London, UnitedKingdom 641
+3549:Miami, FL -> 3549:Los Angeles, CA 2271
+3549:Miami, FL -> 3549:Milan, Italy 1067
+3549:Miami, FL -> 3549:New York, NY 2331
+3549:Miami, FL -> 3549:Palo Alto, CA 2654
+3549:Miami, FL -> 3549:Panama City, Panama 49
+3549:Miami, FL -> 3549:San Francisco, CA 626
+3549:Miami, FL -> 3549:Santa Ana, CA 76
+3549:Miami, FL -> 3549:Seattle, WA 1705
+3549:Miami, FL -> 3549:Tampa, FL 7
+3549:Miami, FL -> 3549:Washington, DC 4264
+3549:Milan, Italy -> 3549:Amsterdam, Netherlands 5552
+3549:Milan, Italy -> 3549:Atlanta, GA 892
+3549:Milan, Italy -> 3549:Birmingham, UnitedKingdom 5
+3549:Milan, Italy -> 3549:Blackbush, UnitedKingdom 12
+3549:Milan, Italy -> 3549:Boston, MA 4751
+3549:Milan, Italy -> 3549:Buenos Aires, Argentina 261
+3549:Milan, Italy -> 3549:Chicago, IL 4568
+3549:Milan, Italy -> 3549:Cleveland, OH 360
+3549:Milan, Italy -> 3549:Copenhagen, Denmark 1001
+3549:Milan, Italy -> 3549:Dallas, TX 136
+3549:Milan, Italy -> 3549:Denver, CO 222
+3549:Milan, Italy -> 3549:Detroit, MI 9
+3549:Milan, Italy -> 3549:Frankfurt, Germany 17337
+3549:Milan, Italy -> 3549:Hamburg, Germany 723
+3549:Milan, Italy -> 3549:Hong Kong 846
+3549:Milan, Italy -> 3549:Houston, TX 80
+3549:Milan, Italy -> 3549:Kansas City, MO 101
+3549:Milan, Italy -> 3549:Leeds, UnitedKingdom 6
+3549:Milan, Italy -> 3549:London, UnitedKingdom 40421
+3549:Milan, Italy -> 3549:Los Angeles, CA 728
+3549:Milan, Italy -> 3549:Mexico City, Mexico 3
+3549:Milan, Italy -> 3549:Miami, FL 1067
+3549:Milan, Italy -> 3549:Minneapolis, MN 140
+3549:Milan, Italy -> 3549:Nagoya, Japan 10
+3549:Milan, Italy -> 3549:New York, NY 73098
+3549:Milan, Italy -> 3549:Osaka, Japan 180
+3549:Milan, Italy -> 3549:Oslo, Norway 14
+3549:Milan, Italy -> 3549:Palo Alto, CA 7627
+3549:Milan, Italy -> 3549:Paris, France 1396
+3549:Milan, Italy -> 3549:Philadelphia, PA 310
+3549:Milan, Italy -> 3549:Phoenix, AZ 265
+3549:Milan, Italy -> 3549:Rochester, NY 60
+3549:Milan, Italy -> 3549:Sacramento, CA 14
+3549:Milan, Italy -> 3549:San Diego, CA 3
+3549:Milan, Italy -> 3549:San Francisco, CA 5249
+3549:Milan, Italy -> 3549:San Jose, CA 5
+3549:Milan, Italy -> 3549:Santa Ana, CA 419
+3549:Milan, Italy -> 3549:Sao Paolo, Brazil 359
+3549:Milan, Italy -> 3549:Seattle, WA 1258
+3549:Milan, Italy -> 3549:Seoul, SouthKorea 706
+3549:Milan, Italy -> 3549:Sunnyvale, CA 2
+3549:Milan, Italy -> 3549:Taipei, Taiwan 298
+3549:Milan, Italy -> 3549:Tokyo, Japan 1526
+3549:Milan, Italy -> 3549:Washington, DC 18527
+3549:Milan, Italy -> 3549:Zurich, Switzerland 36
+3549:Minneapolis, MN -> 3549:Boston, MA 179
+3549:Minneapolis, MN -> 3549:Chicago, IL 400
+3549:Minneapolis, MN -> 3549:Copenhagen, Denmark 60
+3549:Minneapolis, MN -> 3549:Dallas, TX 11
+3549:Minneapolis, MN -> 3549:Frankfurt, Germany 13
+3549:Minneapolis, MN -> 3549:London, UnitedKingdom 159
+3549:Minneapolis, MN -> 3549:Los Angeles, CA 648
+3549:Minneapolis, MN -> 3549:Milan, Italy 140
+3549:Minneapolis, MN -> 3549:New York, NY 508
+3549:Minneapolis, MN -> 3549:Palo Alto, CA 609
+3549:Minneapolis, MN -> 3549:San Francisco, CA 138
+3549:Minneapolis, MN -> 3549:Santa Ana, CA 78
+3549:Minneapolis, MN -> 3549:Seattle, WA 393
+3549:Minneapolis, MN -> 3549:Washington, DC 1477
+3549:Nagoya, Japan -> 3549:Boston, MA 5
+3549:Nagoya, Japan -> 3549:Chicago, IL 14
+3549:Nagoya, Japan -> 3549:London, UnitedKingdom 10
+3549:Nagoya, Japan -> 3549:Los Angeles, CA 22
+3549:Nagoya, Japan -> 3549:Milan, Italy 10
+3549:Nagoya, Japan -> 3549:New York, NY 57
+3549:Nagoya, Japan -> 3549:Osaka, Japan 265
+3549:Nagoya, Japan -> 3549:Palo Alto, CA 18
+3549:Nagoya, Japan -> 3549:San Francisco, CA 17
+3549:Nagoya, Japan -> 3549:Seattle, WA 29
+3549:Nagoya, Japan -> 3549:Washington, DC 54
+3549:New York, NY -> 3549:Amsterdam, Netherlands 269
+3549:New York, NY -> 3549:Atlanta, GA 2627
+3549:New York, NY -> 3549:Birmingham, UnitedKingdom 39
+3549:New York, NY -> 3549:Blackbush, UnitedKingdom 47
+3549:New York, NY -> 3549:Boston, MA 3572
+3549:New York, NY -> 3549:Buenos Aires, Argentina 986
+3549:New York, NY -> 3549:Chicago, IL 3872
+3549:New York, NY -> 3549:Cleveland, OH 1392
+3549:New York, NY -> 3549:Copenhagen, Denmark 3425
+3549:New York, NY -> 3549:Dallas, TX 429
+3549:New York, NY -> 3549:Denver, CO 759
+3549:New York, NY -> 3549:Frankfurt, Germany 2540
+3549:New York, NY -> 3549:Hamburg, Germany 672
+3549:New York, NY -> 3549:Hong Kong 1902
+3549:New York, NY -> 3549:Houston, TX 406
+3549:New York, NY -> 3549:Kansas City, MO 400
+3549:New York, NY -> 3549:Leeds, UnitedKingdom 31
+3549:New York, NY -> 3549:London, UnitedKingdom 2373
+3549:New York, NY -> 3549:Los Angeles, CA 6162
+3549:New York, NY -> 3549:Miami, FL 2331
+3549:New York, NY -> 3549:Milan, Italy 73098
+3549:New York, NY -> 3549:Minneapolis, MN 508
+3549:New York, NY -> 3549:Nagoya, Japan 57
+3549:New York, NY -> 3549:Osaka, Japan 792
+3549:New York, NY -> 3549:Palo Alto, CA 8140
+3549:New York, NY -> 3549:Paris, France 603
+3549:New York, NY -> 3549:Philadelphia, PA 1112
+3549:New York, NY -> 3549:Phoenix, AZ 1044
+3549:New York, NY -> 3549:Rochester, NY 243
+3549:New York, NY -> 3549:Sacramento, CA 36
+3549:New York, NY -> 3549:San Diego, CA 28
+3549:New York, NY -> 3549:San Francisco, CA 3005
+3549:New York, NY -> 3549:Santa Ana, CA 2518
+3549:New York, NY -> 3549:Sao Paolo, Brazil 569
+3549:New York, NY -> 3549:Seattle, WA 6301
+3549:New York, NY -> 3549:Seoul, SouthKorea 752
+3549:New York, NY -> 3549:Sunnyvale, CA 13
+3549:New York, NY -> 3549:Taipei, Taiwan 647
+3549:New York, NY -> 3549:Tokyo, Japan 1496
+3549:New York, NY -> 3549:Washington, DC 11548
+3549:Osaka, Japan -> 3549:Boston, MA 119
+3549:Osaka, Japan -> 3549:Chicago, IL 124
+3549:Osaka, Japan -> 3549:Copenhagen, Denmark 19
+3549:Osaka, Japan -> 3549:Frankfurt, Germany 62
+3549:Osaka, Japan -> 3549:London, UnitedKingdom 150
+3549:Osaka, Japan -> 3549:Los Angeles, CA 237
+3549:Osaka, Japan -> 3549:Milan, Italy 180
+3549:Osaka, Japan -> 3549:Nagoya, Japan 265
+3549:Osaka, Japan -> 3549:New York, NY 792
+3549:Osaka, Japan -> 3549:Palo Alto, CA 354
+3549:Osaka, Japan -> 3549:San Francisco, CA 243
+3549:Osaka, Japan -> 3549:Santa Ana, CA 5
+3549:Osaka, Japan -> 3549:Seattle, WA 364
+3549:Osaka, Japan -> 3549:Washington, DC 798
+3549:Oslo, Norway -> 3549:Copenhagen, Denmark 46
+3549:Oslo, Norway -> 3549:Hamburg, Germany 3144
+3549:Oslo, Norway -> 3549:Milan, Italy 14
+3549:Palo Alto, CA -> 3549:Amsterdam, Netherlands 127
+3549:Palo Alto, CA -> 3549:Atlanta, GA 1516
+3549:Palo Alto, CA -> 3549:Birmingham, UnitedKingdom 34
+3549:Palo Alto, CA -> 3549:Blackbush, UnitedKingdom 56
+3549:Palo Alto, CA -> 3549:Boston, MA 1459
+3549:Palo Alto, CA -> 3549:Buenos Aires, Argentina 1428
+3549:Palo Alto, CA -> 3549:Chicago, IL 1238
+3549:Palo Alto, CA -> 3549:Cleveland, OH 1511
+3549:Palo Alto, CA -> 3549:Copenhagen, Denmark 4300
+3549:Palo Alto, CA -> 3549:Dallas, TX 459
+3549:Palo Alto, CA -> 3549:Denver, CO 744
+3549:Palo Alto, CA -> 3549:Frankfurt, Germany 3556
+3549:Palo Alto, CA -> 3549:Hamburg, Germany 990
+3549:Palo Alto, CA -> 3549:Hong Kong 2244
+3549:Palo Alto, CA -> 3549:Houston, TX 1308
+3549:Palo Alto, CA -> 3549:Kansas City, MO 368
+3549:Palo Alto, CA -> 3549:Leeds, UnitedKingdom 22
+3549:Palo Alto, CA -> 3549:London, UnitedKingdom 398
+3549:Palo Alto, CA -> 3549:Los Angeles, CA 1150
+3549:Palo Alto, CA -> 3549:Miami, FL 2654
+3549:Palo Alto, CA -> 3549:Milan, Italy 7627
+3549:Palo Alto, CA -> 3549:Minneapolis, MN 609
+3549:Palo Alto, CA -> 3549:Nagoya, Japan 18
+3549:Palo Alto, CA -> 3549:New York, NY 8140
+3549:Palo Alto, CA -> 3549:Osaka, Japan 354
+3549:Palo Alto, CA -> 3549:Paris, France 487
+3549:Palo Alto, CA -> 3549:Philadelphia, PA 1206
+3549:Palo Alto, CA -> 3549:Phoenix, AZ 958
+3549:Palo Alto, CA -> 3549:Rochester, NY 247
+3549:Palo Alto, CA -> 3549:Sacramento, CA 42
+3549:Palo Alto, CA -> 3549:San Diego, CA 24
+3549:Palo Alto, CA -> 3549:San Francisco, CA 1150
+3549:Palo Alto, CA -> 3549:Santa Ana, CA 2139
+3549:Palo Alto, CA -> 3549:Sao Paolo, Brazil 843
+3549:Palo Alto, CA -> 3549:Seattle, WA 2795
+3549:Palo Alto, CA -> 3549:Seoul, SouthKorea 777
+3549:Palo Alto, CA -> 3549:Sunnyvale, CA 11
+3549:Palo Alto, CA -> 3549:Taipei, Taiwan 764
+3549:Palo Alto, CA -> 3549:Tokyo, Japan 1707
+3549:Palo Alto, CA -> 3549:Washington, DC 1007
+3549:Panama City, Panama -> 3549:Miami, FL 49
+3549:Panama City, Panama -> 3549:Santa Ana, CA 30
+3549:Paris, France -> 3549:Amsterdam, Netherlands 19
+3549:Paris, France -> 3549:Boston, MA 163
+3549:Paris, France -> 3549:Chicago, IL 210
+3549:Paris, France -> 3549:Copenhagen, Denmark 21
+3549:Paris, France -> 3549:Frankfurt, Germany 202
+3549:Paris, France -> 3549:London, UnitedKingdom 65
+3549:Paris, France -> 3549:Los Angeles, CA 448
+3549:Paris, France -> 3549:Madrid, Spain 255
+3549:Paris, France -> 3549:Milan, Italy 1396
+3549:Paris, France -> 3549:New York, NY 603
+3549:Paris, France -> 3549:Palo Alto, CA 487
+3549:Paris, France -> 3549:San Francisco, CA 589
+3549:Paris, France -> 3549:Santa Ana, CA 4
+3549:Paris, France -> 3549:Seattle, WA 634
+3549:Paris, France -> 3549:Washington, DC 764
+3549:Paris, France -> 3549:Zurich, Switzerland 861
+3549:Philadelphia, PA -> 3549:Atlanta, GA 318
+3549:Philadelphia, PA -> 3549:Boston, MA 351
+3549:Philadelphia, PA -> 3549:Chicago, IL 483
+3549:Philadelphia, PA -> 3549:Copenhagen, Denmark 126
+3549:Philadelphia, PA -> 3549:Frankfurt, Germany 24
+3549:Philadelphia, PA -> 3549:London, UnitedKingdom 281
+3549:Philadelphia, PA -> 3549:Los Angeles, CA 910
+3549:Philadelphia, PA -> 3549:Milan, Italy 310
+3549:Philadelphia, PA -> 3549:New York, NY 1112
+3549:Philadelphia, PA -> 3549:Palo Alto, CA 1206
+3549:Philadelphia, PA -> 3549:San Francisco, CA 242
+3549:Philadelphia, PA -> 3549:Santa Ana, CA 43
+3549:Philadelphia, PA -> 3549:Seattle, WA 837
+3549:Philadelphia, PA -> 3549:Washington, DC 2034
+3549:Phoenix, AZ -> 3549:Amsterdam, Netherlands 2
+3549:Phoenix, AZ -> 3549:Boston, MA 321
+3549:Phoenix, AZ -> 3549:Chicago, IL 397
+3549:Phoenix, AZ -> 3549:Copenhagen, Denmark 87
+3549:Phoenix, AZ -> 3549:Dallas, TX 3
+3549:Phoenix, AZ -> 3549:Denver, CO 64
+3549:Phoenix, AZ -> 3549:London, UnitedKingdom 252
+3549:Phoenix, AZ -> 3549:Los Angeles, CA 1042
+3549:Phoenix, AZ -> 3549:Milan, Italy 265
+3549:Phoenix, AZ -> 3549:New York, NY 1044
+3549:Phoenix, AZ -> 3549:Palo Alto, CA 958
+3549:Phoenix, AZ -> 3549:San Francisco, CA 334
+3549:Phoenix, AZ -> 3549:Santa Ana, CA 39
+3549:Phoenix, AZ -> 3549:Seattle, WA 607
+3549:Phoenix, AZ -> 3549:Tucson, AZ 72
+3549:Phoenix, AZ -> 3549:Washington, DC 2088
+3549:Roachdale, IN -> 3549:Cleveland, OH 34
+3549:Rochester, NY -> 3549:Boston, MA 73
+3549:Rochester, NY -> 3549:Chicago, IL 100
+3549:Rochester, NY -> 3549:Copenhagen, Denmark 21
+3549:Rochester, NY -> 3549:London, UnitedKingdom 67
+3549:Rochester, NY -> 3549:Los Angeles, CA 220
+3549:Rochester, NY -> 3549:Milan, Italy 60
+3549:Rochester, NY -> 3549:New York, NY 243
+3549:Rochester, NY -> 3549:Palo Alto, CA 247
+3549:Rochester, NY -> 3549:San Francisco, CA 72
+3549:Rochester, NY -> 3549:Santa Ana, CA 26
+3549:Rochester, NY -> 3549:Seattle, WA 157
+3549:Rochester, NY -> 3549:Washington, DC 477
+3549:Sacramento, CA -> 3549:Boston, MA 17
+3549:Sacramento, CA -> 3549:Chicago, IL 22
+3549:Sacramento, CA -> 3549:Copenhagen, Denmark 3
+3549:Sacramento, CA -> 3549:London, UnitedKingdom 12
+3549:Sacramento, CA -> 3549:Los Angeles, CA 36
+3549:Sacramento, CA -> 3549:Milan, Italy 14
+3549:Sacramento, CA -> 3549:New York, NY 36
+3549:Sacramento, CA -> 3549:Palo Alto, CA 42
+3549:Sacramento, CA -> 3549:San Francisco, CA 11
+3549:Sacramento, CA -> 3549:San Jose, CA 7
+3549:Sacramento, CA -> 3549:Santa Ana, CA 14
+3549:Sacramento, CA -> 3549:Seattle, WA 23
+3549:Sacramento, CA -> 3549:Washington, DC 107
+3549:San Diego, CA -> 3549:Boston, MA 5
+3549:San Diego, CA -> 3549:Chicago, IL 8
+3549:San Diego, CA -> 3549:Copenhagen, Denmark 2
+3549:San Diego, CA -> 3549:London, UnitedKingdom 6
+3549:San Diego, CA -> 3549:Los Angeles, CA 23
+3549:San Diego, CA -> 3549:Milan, Italy 3
+3549:San Diego, CA -> 3549:New York, NY 28
+3549:San Diego, CA -> 3549:Palo Alto, CA 24
+3549:San Diego, CA -> 3549:San Francisco, CA 6
+3549:San Diego, CA -> 3549:Seattle, WA 14
+3549:San Diego, CA -> 3549:Washington, DC 43
+3549:San Francisco, CA -> 3549:Amsterdam, Netherlands 271
+3549:San Francisco, CA -> 3549:Atlanta, GA 368
+3549:San Francisco, CA -> 3549:Birmingham, UnitedKingdom 9
+3549:San Francisco, CA -> 3549:Blackbush, UnitedKingdom 12
+3549:San Francisco, CA -> 3549:Boston, MA 604
+3549:San Francisco, CA -> 3549:Buenos Aires, Argentina 202
+3549:San Francisco, CA -> 3549:Chicago, IL 635
+3549:San Francisco, CA -> 3549:Cleveland, OH 323
+3549:San Francisco, CA -> 3549:Copenhagen, Denmark 1359
+3549:San Francisco, CA -> 3549:Dallas, TX 98
+3549:San Francisco, CA -> 3549:Denver, CO 166
+3549:San Francisco, CA -> 3549:Frankfurt, Germany 1552
+3549:San Francisco, CA -> 3549:Hamburg, Germany 190
+3549:San Francisco, CA -> 3549:Hong Kong 620
+3549:San Francisco, CA -> 3549:Houston, TX 685
+3549:San Francisco, CA -> 3549:Kansas City, MO 85
+3549:San Francisco, CA -> 3549:Leeds, UnitedKingdom 9
+3549:San Francisco, CA -> 3549:London, UnitedKingdom 373
+3549:San Francisco, CA -> 3549:Los Angeles, CA 1113
+3549:San Francisco, CA -> 3549:Miami, FL 626
+3549:San Francisco, CA -> 3549:Milan, Italy 5249
+3549:San Francisco, CA -> 3549:Minneapolis, MN 138
+3549:San Francisco, CA -> 3549:Nagoya, Japan 17
+3549:San Francisco, CA -> 3549:New York, NY 3005
+3549:San Francisco, CA -> 3549:Osaka, Japan 243
+3549:San Francisco, CA -> 3549:Palo Alto, CA 1150
+3549:San Francisco, CA -> 3549:Paris, France 589
+3549:San Francisco, CA -> 3549:Philadelphia, PA 242
+3549:San Francisco, CA -> 3549:Phoenix, AZ 334
+3549:San Francisco, CA -> 3549:Rochester, NY 72
+3549:San Francisco, CA -> 3549:Sacramento, CA 11
+3549:San Francisco, CA -> 3549:San Diego, CA 6
+3549:San Francisco, CA -> 3549:San Jose, CA 836
+3549:San Francisco, CA -> 3549:Santa Ana, CA 598
+3549:San Francisco, CA -> 3549:Sao Paolo, Brazil 296
+3549:San Francisco, CA -> 3549:Seattle, WA 1075
+3549:San Francisco, CA -> 3549:Seoul, SouthKorea 173
+3549:San Francisco, CA -> 3549:Sunnyvale, CA 76
+3549:San Francisco, CA -> 3549:Taipei, Taiwan 244
+3549:San Francisco, CA -> 3549:Tokyo, Japan 520
+3549:San Francisco, CA -> 3549:Washington, DC 1752
+3549:San Jose, CA -> 3549:Milan, Italy 5
+3549:San Jose, CA -> 3549:Sacramento, CA 7
+3549:San Jose, CA -> 3549:San Francisco, CA 836
+3549:Santa Ana, CA -> 3549:Amsterdam, Netherlands 10
+3549:Santa Ana, CA -> 3549:Anaheim, CA 924
+3549:Santa Ana, CA -> 3549:Atlanta, GA 210
+3549:Santa Ana, CA -> 3549:Boston, MA 620
+3549:Santa Ana, CA -> 3549:Buenos Aires, Argentina 43
+3549:Santa Ana, CA -> 3549:Chicago, IL 787
+3549:Santa Ana, CA -> 3549:Cleveland, OH 237
+3549:Santa Ana, CA -> 3549:Copenhagen, Denmark 178
+3549:Santa Ana, CA -> 3549:Dallas, TX 42
+3549:Santa Ana, CA -> 3549:Denver, CO 108
+3549:Santa Ana, CA -> 3549:Frankfurt, Germany 322
+3549:Santa Ana, CA -> 3549:Hamburg, Germany 60
+3549:Santa Ana, CA -> 3549:Hong Kong 374
+3549:Santa Ana, CA -> 3549:Houston, TX 434
+3549:Santa Ana, CA -> 3549:Kansas City, MO 37
+3549:Santa Ana, CA -> 3549:Las Vegas, NV 79
+3549:Santa Ana, CA -> 3549:London, UnitedKingdom 584
+3549:Santa Ana, CA -> 3549:Los Angeles, CA 4996
+3549:Santa Ana, CA -> 3549:Mexico City, Mexico 743
+3549:Santa Ana, CA -> 3549:Miami, FL 76
+3549:Santa Ana, CA -> 3549:Milan, Italy 419
+3549:Santa Ana, CA -> 3549:Minneapolis, MN 78
+3549:Santa Ana, CA -> 3549:New York, NY 2518
+3549:Santa Ana, CA -> 3549:Osaka, Japan 5
+3549:Santa Ana, CA -> 3549:Palo Alto, CA 2139
+3549:Santa Ana, CA -> 3549:Panama City, Panama 30
+3549:Santa Ana, CA -> 3549:Paris, France 4
+3549:Santa Ana, CA -> 3549:Philadelphia, PA 43
+3549:Santa Ana, CA -> 3549:Phoenix, AZ 39
+3549:Santa Ana, CA -> 3549:Rochester, NY 26
+3549:Santa Ana, CA -> 3549:Sacramento, CA 14
+3549:Santa Ana, CA -> 3549:San Francisco, CA 598
+3549:Santa Ana, CA -> 3549:Sao Paolo, Brazil 200
+3549:Santa Ana, CA -> 3549:Seattle, WA 1380
+3549:Santa Ana, CA -> 3549:Sydney, Australia 11011
+3549:Santa Ana, CA -> 3549:Taipei, Taiwan 25
+3549:Santa Ana, CA -> 3549:Tokyo, Japan 63
+3549:Santa Ana, CA -> 3549:Washington, DC 3892
+3549:Sao Paolo, Brazil -> 3549:Boston, MA 262
+3549:Sao Paolo, Brazil -> 3549:Chicago, IL 242
+3549:Sao Paolo, Brazil -> 3549:Copenhagen, Denmark 26
+3549:Sao Paolo, Brazil -> 3549:Frankfurt, Germany 15
+3549:Sao Paolo, Brazil -> 3549:London, UnitedKingdom 99
+3549:Sao Paolo, Brazil -> 3549:Los Angeles, CA 305
+3549:Sao Paolo, Brazil -> 3549:Milan, Italy 359
+3549:Sao Paolo, Brazil -> 3549:New York, NY 569
+3549:Sao Paolo, Brazil -> 3549:Palo Alto, CA 843
+3549:Sao Paolo, Brazil -> 3549:San Francisco, CA 296
+3549:Sao Paolo, Brazil -> 3549:Santa Ana, CA 200
+3549:Sao Paolo, Brazil -> 3549:Seattle, WA 604
+3549:Sao Paolo, Brazil -> 3549:Washington, DC 500
+3549:Seattle, WA -> 3549:Amsterdam, Netherlands 370
+3549:Seattle, WA -> 3549:Atlanta, GA 1143
+3549:Seattle, WA -> 3549:Birmingham, UnitedKingdom 21
+3549:Seattle, WA -> 3549:Blackbush, UnitedKingdom 26
+3549:Seattle, WA -> 3549:Boston, MA 1469
+3549:Seattle, WA -> 3549:Buenos Aires, Argentina 574
+3549:Seattle, WA -> 3549:Chicago, IL 1803
+3549:Seattle, WA -> 3549:Cleveland, OH 996
+3549:Seattle, WA -> 3549:Copenhagen, Denmark 3172
+3549:Seattle, WA -> 3549:Dallas, TX 297
+3549:Seattle, WA -> 3549:Denver, CO 573
+3549:Seattle, WA -> 3549:Frankfurt, Germany 1652
+3549:Seattle, WA -> 3549:Hamburg, Germany 616
+3549:Seattle, WA -> 3549:Hong Kong 2124
+3549:Seattle, WA -> 3549:Houston, TX 1211
+3549:Seattle, WA -> 3549:Kansas City, MO 234
+3549:Seattle, WA -> 3549:Leeds, UnitedKingdom 21
+3549:Seattle, WA -> 3549:London, UnitedKingdom 1831
+3549:Seattle, WA -> 3549:Los Angeles, CA 3384
+3549:Seattle, WA -> 3549:Miami, FL 1705
+3549:Seattle, WA -> 3549:Milan, Italy 1258
+3549:Seattle, WA -> 3549:Minneapolis, MN 393
+3549:Seattle, WA -> 3549:Nagoya, Japan 29
+3549:Seattle, WA -> 3549:New York, NY 6301
+3549:Seattle, WA -> 3549:Osaka, Japan 364
+3549:Seattle, WA -> 3549:Palo Alto, CA 2795
+3549:Seattle, WA -> 3549:Paris, France 634
+3549:Seattle, WA -> 3549:Philadelphia, PA 837
+3549:Seattle, WA -> 3549:Phoenix, AZ 607
+3549:Seattle, WA -> 3549:Rochester, NY 157
+3549:Seattle, WA -> 3549:Sacramento, CA 23
+3549:Seattle, WA -> 3549:San Diego, CA 14
+3549:Seattle, WA -> 3549:San Francisco, CA 1075
+3549:Seattle, WA -> 3549:Santa Ana, CA 1380
+3549:Seattle, WA -> 3549:Sao Paolo, Brazil 604
+3549:Seattle, WA -> 3549:Seoul, SouthKorea 546
+3549:Seattle, WA -> 3549:Taipei, Taiwan 581
+3549:Seattle, WA -> 3549:Tokyo, Japan 1817
+3549:Seattle, WA -> 3549:Washington, DC 4079
+3549:Seoul, SouthKorea -> 3549:Boston, MA 724
+3549:Seoul, SouthKorea -> 3549:Chicago, IL 357
+3549:Seoul, SouthKorea -> 3549:Copenhagen, Denmark 44
+3549:Seoul, SouthKorea -> 3549:Dallas, TX 11
+3549:Seoul, SouthKorea -> 3549:Frankfurt, Germany 53
+3549:Seoul, SouthKorea -> 3549:London, UnitedKingdom 164
+3549:Seoul, SouthKorea -> 3549:Los Angeles, CA 542
+3549:Seoul, SouthKorea -> 3549:Milan, Italy 706
+3549:Seoul, SouthKorea -> 3549:New York, NY 752
+3549:Seoul, SouthKorea -> 3549:Palo Alto, CA 777
+3549:Seoul, SouthKorea -> 3549:San Francisco, CA 173
+3549:Seoul, SouthKorea -> 3549:Seattle, WA 546
+3549:Seoul, SouthKorea -> 3549:Tokyo, Japan 164
+3549:Seoul, SouthKorea -> 3549:Washington, DC 2720
+3549:Singapore -> 3549:Hong Kong 1973
+3549:Sunnyvale, CA -> 3549:Boston, MA 3
+3549:Sunnyvale, CA -> 3549:Chicago, IL 4
+3549:Sunnyvale, CA -> 3549:London, UnitedKingdom 3
+3549:Sunnyvale, CA -> 3549:Los Angeles, CA 11
+3549:Sunnyvale, CA -> 3549:Milan, Italy 2
+3549:Sunnyvale, CA -> 3549:New York, NY 13
+3549:Sunnyvale, CA -> 3549:Palo Alto, CA 11
+3549:Sunnyvale, CA -> 3549:San Francisco, CA 76
+3549:Sunnyvale, CA -> 3549:Washington, DC 20
+3549:Sydney, Australia -> 3549:Auckland, NewZealand 2232
+3549:Sydney, Australia -> 3549:Santa Ana, CA 11011
+3549:Sydney, Australia -> 3549:Tokyo, Japan 66
+3549:Taipei, Taiwan -> 3549:Boston, MA 275
+3549:Taipei, Taiwan -> 3549:Chicago, IL 302
+3549:Taipei, Taiwan -> 3549:Copenhagen, Denmark 85
+3549:Taipei, Taiwan -> 3549:Dallas, TX 10
+3549:Taipei, Taiwan -> 3549:Frankfurt, Germany 44
+3549:Taipei, Taiwan -> 3549:London, UnitedKingdom 326
+3549:Taipei, Taiwan -> 3549:Los Angeles, CA 1004
+3549:Taipei, Taiwan -> 3549:Manila, Philippines 1354
+3549:Taipei, Taiwan -> 3549:Milan, Italy 298
+3549:Taipei, Taiwan -> 3549:New York, NY 647
+3549:Taipei, Taiwan -> 3549:Palo Alto, CA 764
+3549:Taipei, Taiwan -> 3549:San Francisco, CA 244
+3549:Taipei, Taiwan -> 3549:Santa Ana, CA 25
+3549:Taipei, Taiwan -> 3549:Seattle, WA 581
+3549:Taipei, Taiwan -> 3549:Tokyo, Japan 420
+3549:Taipei, Taiwan -> 3549:Washington, DC 1897
+3549:Tampa, FL -> 3549:Atlanta, GA 4673
+3549:Tampa, FL -> 3549:Houston, TX 4902
+3549:Tampa, FL -> 3549:Miami, FL 7
+3549:Tokyo, Japan -> 3549:Amsterdam, Netherlands 8
+3549:Tokyo, Japan -> 3549:Boston, MA 950
+3549:Tokyo, Japan -> 3549:Chicago, IL 558
+3549:Tokyo, Japan -> 3549:Copenhagen, Denmark 258
+3549:Tokyo, Japan -> 3549:Dallas, TX 2
+3549:Tokyo, Japan -> 3549:Frankfurt, Germany 303
+3549:Tokyo, Japan -> 3549:Hong Kong 17
+3549:Tokyo, Japan -> 3549:London, UnitedKingdom 278
+3549:Tokyo, Japan -> 3549:Los Angeles, CA 927
+3549:Tokyo, Japan -> 3549:Milan, Italy 1526
+3549:Tokyo, Japan -> 3549:New York, NY 1496
+3549:Tokyo, Japan -> 3549:Palo Alto, CA 1707
+3549:Tokyo, Japan -> 3549:San Francisco, CA 520
+3549:Tokyo, Japan -> 3549:Santa Ana, CA 63
+3549:Tokyo, Japan -> 3549:Seattle, WA 1817
+3549:Tokyo, Japan -> 3549:Seoul, SouthKorea 164
+3549:Tokyo, Japan -> 3549:Sydney, Australia 66
+3549:Tokyo, Japan -> 3549:Taipei, Taiwan 420
+3549:Tokyo, Japan -> 3549:Washington, DC 3020
+3549:Tucson, AZ -> 3549:Houston, TX 106
+3549:Tucson, AZ -> 3549:Phoenix, AZ 72
+3549:Washington, DC -> 3549:Amsterdam, Netherlands 290
+3549:Washington, DC -> 3549:Ashburn, VA 18092
+3549:Washington, DC -> 3549:Atlanta, GA 4349
+3549:Washington, DC -> 3549:Birmingham, UnitedKingdom 64
+3549:Washington, DC -> 3549:Blackbush, UnitedKingdom 133
+3549:Washington, DC -> 3549:Boston, MA 2650
+3549:Washington, DC -> 3549:Buenos Aires, Argentina 2506
+3549:Washington, DC -> 3549:Chicago, IL 4065
+3549:Washington, DC -> 3549:Cleveland, OH 2780
+3549:Washington, DC -> 3549:Copenhagen, Denmark 6831
+3549:Washington, DC -> 3549:Dallas, TX 832
+3549:Washington, DC -> 3549:Denver, CO 1695
+3549:Washington, DC -> 3549:Frankfurt, Germany 4952
+3549:Washington, DC -> 3549:Hamburg, Germany 1557
+3549:Washington, DC -> 3549:Hong Kong 5567
+3549:Washington, DC -> 3549:Houston, TX 1003
+3549:Washington, DC -> 3549:Kansas City, MO 725
+3549:Washington, DC -> 3549:Leeds, UnitedKingdom 63
+3549:Washington, DC -> 3549:London, UnitedKingdom 1315
+3549:Washington, DC -> 3549:Los Angeles, CA 2734
+3549:Washington, DC -> 3549:Miami, FL 4264
+3549:Washington, DC -> 3549:Milan, Italy 18527
+3549:Washington, DC -> 3549:Minneapolis, MN 1477
+3549:Washington, DC -> 3549:Nagoya, Japan 54
+3549:Washington, DC -> 3549:New York, NY 11548
+3549:Washington, DC -> 3549:Osaka, Japan 798
+3549:Washington, DC -> 3549:Palo Alto, CA 1007
+3549:Washington, DC -> 3549:Paris, France 764
+3549:Washington, DC -> 3549:Philadelphia, PA 2034
+3549:Washington, DC -> 3549:Phoenix, AZ 2088
+3549:Washington, DC -> 3549:Rochester, NY 477
+3549:Washington, DC -> 3549:Sacramento, CA 107
+3549:Washington, DC -> 3549:San Diego, CA 43
+3549:Washington, DC -> 3549:San Francisco, CA 1752
+3549:Washington, DC -> 3549:Santa Ana, CA 3892
+3549:Washington, DC -> 3549:Sao Paolo, Brazil 500
+3549:Washington, DC -> 3549:Seattle, WA 4079
+3549:Washington, DC -> 3549:Seoul, SouthKorea 2720
+3549:Washington, DC -> 3549:Sunnyvale, CA 20
+3549:Washington, DC -> 3549:Taipei, Taiwan 1897
+3549:Washington, DC -> 3549:Tokyo, Japan 3020
+3549:Zurich, Switzerland -> 3549:Frankfurt, Germany 1070
+3549:Zurich, Switzerland -> 3549:Milan, Italy 36
+3549:Zurich, Switzerland -> 3549:Paris, France 861

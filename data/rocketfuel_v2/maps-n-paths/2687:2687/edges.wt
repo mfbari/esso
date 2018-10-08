@@ -1,0 +1,32 @@
+2687:Sydney, Australia -> 2687:Melbourne, Australia 3.52506
+2687:Sydney, Australia -> 2687:Wellington, NewZealand 11.1308
+2687:Sydney, Australia -> 2687:Los Angeles, CA 60.3095
+2687:Sydney, Australia -> 2687:San Francisco, CA 59.6845
+2687:Hong Kong -> 2687:Singapore 5.07619
+2687:Hong Kong -> 2687:Los Angeles, CA 58.1675
+2687:Hong Kong -> 2687:Tokyo, Japan 14.1254
+2687:Hong Kong -> 2687:San Francisco, CA 55.4263
+2687:Hong Kong -> 2687:Manila, Philippines 5.57619
+2687:Taipei, Taiwan -> 2687:Los Angeles, CA 54.4406
+2687:Taipei, Taiwan -> 2687:Tokyo, Japan 10.1835
+2687:Singapore -> 2687:Hong Kong 5.07619
+2687:Singapore -> 2687:Manila, Philippines 0.5
+2687:Wellington, NewZealand -> 2687:Los Angeles, CA 54
+2687:Wellington, NewZealand -> 2687:Sydney, Australia 11.1308
+2687:Wellington, NewZealand -> 2687:San Francisco, CA 54.2124
+2687:Tokyo, Japan -> 2687:Taipei, Taiwan 10.1835
+2687:Tokyo, Japan -> 2687:Hong Kong 14.1254
+2687:Auckland, NewZealand -> 2687:Los Angeles, CA 52.4196
+2687:Auckland, NewZealand -> 2687:San Francisco, CA 52.4732
+2687:Los Angeles, CA -> 2687:Auckland, NewZealand 52.4196
+2687:Los Angeles, CA -> 2687:Taipei, Taiwan 54.4406
+2687:Los Angeles, CA -> 2687:Wellington, NewZealand 54
+2687:Los Angeles, CA -> 2687:Sydney, Australia 60.3095
+2687:Los Angeles, CA -> 2687:Hong Kong 58.1675
+2687:Manila, Philippines -> 2687:Singapore 0.5
+2687:Manila, Philippines -> 2687:Hong Kong 5.57619
+2687:San Francisco, CA -> 2687:Auckland, NewZealand 52.4732
+2687:San Francisco, CA -> 2687:Wellington, NewZealand 54.2124
+2687:San Francisco, CA -> 2687:Sydney, Australia 59.6845
+2687:San Francisco, CA -> 2687:Hong Kong 55.4263
+2687:Melbourne, Australia -> 2687:Sydney, Australia 3.52506

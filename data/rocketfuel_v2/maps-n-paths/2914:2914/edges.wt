@@ -1,0 +1,222 @@
+2914:Westbury, NY -> 2914:New York, NY 0.5
+2914:Westbury, NY -> 2914:Smithtown, NY 0.5
+2914:Smithtown, NY -> 2914:New York, NY 1
+2914:Smithtown, NY -> 2914:Westbury, NY 0.5
+2914:Taipei, Taiwan -> 2914:Tokyo, Japan 2.5
+2914:Taipei, Taiwan -> 2914:Los Angeles, CA 41.5302
+2914:Milpitas, CA -> 2914:San Francisco, CA 2
+2914:Milpitas, CA -> 2914:Palo Alto, CA 1
+2914:Milpitas, CA -> 2914:Newark, NJ 7.81628
+2914:Milpitas, CA -> 2914:Los Angeles, CA 0.5
+2914:Milpitas, CA -> 2914:San Jose, CA 0.5
+2914:Milpitas, CA -> 2914:Mountain View, CA 0.5
+2914:Ashburn, VA -> 2914:New York, NY 2
+2914:Ashburn, VA -> 2914:McLean, VA 1
+2914:Ashburn, VA -> 2914:Chicago, IL 7.81628
+2914:Ashburn, VA -> 2914:Sterling, VA 1
+2914:Newark, NJ -> 2914:New York, NY 1.5
+2914:Newark, NJ -> 2914:Milpitas, CA 7.81628
+2914:Newark, NJ -> 2914:Amsterdam, Netherlands 26.3378
+2914:Newark, NJ -> 2914:Philadelphia, PA 3
+2914:Newark, NJ -> 2914:Rochester, NY 1.51525
+2914:Atlanta, GA -> 2914:McLean, VA 0.5
+2914:Atlanta, GA -> 2914:Houston, TX 7.81628
+2914:Atlanta, GA -> 2914:Boca Raton, FL 8.39025
+2914:New Orleans, LA -> 2914:Houston, TX 2.63736
+2914:Sioux Falls, SD -> 2914:Omaha, NE 1.31101
+2914:Portland, OR -> 2914:Eugene, OR 0.840684
+2914:Portland, OR -> 2914:Spokane, WA 2.32778
+2914:Portland, OR -> 2914:San Jose, CA 1.5
+2914:Portland, OR -> 2914:Seattle, WA 1.5
+2914:Englewood, CO -> 2914:Denver, CO 0.0837634
+2914:New York, NY -> 2914:Boston, MA 2.5
+2914:New York, NY -> 2914:Westbury, NY 0.5
+2914:New York, NY -> 2914:London, UnitedKingdom 27.8378
+2914:New York, NY -> 2914:Smithtown, NY 1
+2914:New York, NY -> 2914:Chicago, IL 6.81628
+2914:New York, NY -> 2914:Pittsburgh, PA 2.53159
+2914:New York, NY -> 2914:Ashburn, VA 2
+2914:New York, NY -> 2914:Newark, NJ 1.5
+2914:New York, NY -> 2914:Cleveland, OH 6.31628
+2914:New York, NY -> 2914:Rochester, NY 2.01525
+2914:Livonia, MI -> 2914:Springfield, MI 0.774983
+2914:Kansas City, MO -> 2914:Topeka, KS 0.487896
+2914:Kansas City, MO -> 2914:Dallas, TX 1.59611
+2914:Kansas City, MO -> 2914:St Louis, MO 2
+2914:Kansas City, MO -> 2914:Omaha, NE 1.8331
+2914:Denver, CO -> 2914:Englewood, CO 0.0837634
+2914:Denver, CO -> 2914:Chicago, IL 7.31965
+2914:Denver, CO -> 2914:San Jose, CA 6.31965
+2914:St Louis, MO -> 2914:Chicago, IL 2.09611
+2914:St Louis, MO -> 2914:Kansas City, MO 2
+2914:St Louis, MO -> 2914:Omaha, NE 2.8331
+2914:Frankfurt, Germany -> 2914:Paris, France 1.5
+2914:Frankfurt, Germany -> 2914:Amsterdam, Netherlands 1.55963
+2914:McLean, VA -> 2914:Vienna, VA 0.0421768
+2914:McLean, VA -> 2914:Baltimore, MD 0.321483
+2914:McLean, VA -> 2914:Palo Alto, CA 7.31628
+2914:McLean, VA -> 2914:Pittsburgh, PA 3.53159
+2914:McLean, VA -> 2914:Alexandria, VA 0.5
+2914:McLean, VA -> 2914:Ashburn, VA 1
+2914:McLean, VA -> 2914:Atlanta, GA 0.5
+2914:McLean, VA -> 2914:Sterling, VA 1
+2914:Boston, MA -> 2914:New York, NY 2.5
+2914:Boston, MA -> 2914:Springfield, MI 5.81628
+2914:Vienna, VA -> 2914:McLean, VA 0.0421768
+2914:San Jose, CA -> 2914:San Francisco, CA 0.5
+2914:San Jose, CA -> 2914:Portland, OR 1.5
+2914:San Jose, CA -> 2914:Denver, CO 6.31965
+2914:San Jose, CA -> 2914:Hong Kong 55.8074
+2914:San Jose, CA -> 2914:Osaka, Japan 42.5302
+2914:San Jose, CA -> 2914:Chicago, IL 2
+2914:San Jose, CA -> 2914:Palo Alto, CA 0.5
+2914:San Jose, CA -> 2914:Milpitas, CA 0.5
+2914:San Jose, CA -> 2914:Tokyo, Japan 42.0302
+2914:San Jose, CA -> 2914:Los Angeles, CA 1
+2914:San Jose, CA -> 2914:Singapore 67.2202
+2914:San Jose, CA -> 2914:Sydney, Australia 59.8123
+2914:Irvine, CA -> 2914:Los Angeles, CA 1.5
+2914:Irvine, CA -> 2914:San Diego, CA 0.5
+2914:Spokane, WA -> 2914:Portland, OR 2.32778
+2914:Spokane, WA -> 2914:Seattle, WA 3.82778
+2914:Pittsburgh, PA -> 2914:New York, NY 2.53159
+2914:Pittsburgh, PA -> 2914:McLean, VA 3.53159
+2914:Eugene, OR -> 2914:Portland, OR 0.840684
+2914:Miami, FL -> 2914:Sterling, VA 9.89025
+2914:Miami, FL -> 2914:Boca Raton, FL 1
+2914:Mountain View, CA -> 2914:Palo Alto, CA 1.5
+2914:Mountain View, CA -> 2914:Milpitas, CA 0.5
+2914:State College, PA -> 2914:Philadelphia, PA 1.23517
+2914:Amsterdam, Netherlands -> 2914:Frankfurt, Germany 1.55963
+2914:Amsterdam, Netherlands -> 2914:Newark, NJ 26.3378
+2914:Amsterdam, Netherlands -> 2914:Madrid, Spain 6.31536
+2914:Amsterdam, Netherlands -> 2914:London, UnitedKingdom 1
+2914:Seoul, SouthKorea -> 2914:Tokyo, Japan 5.8292
+2914:Tokyo, Japan -> 2914:San Jose, CA 42.0302
+2914:Tokyo, Japan -> 2914:Hong Kong 13.7772
+2914:Tokyo, Japan -> 2914:Osaka, Japan 0.5
+2914:Tokyo, Japan -> 2914:Taipei, Taiwan 2.5
+2914:Tokyo, Japan -> 2914:Seoul, SouthKorea 5.8292
+2914:Tokyo, Japan -> 2914:Singapore 26.19
+2914:Tokyo, Japan -> 2914:Seattle, WA 41.0302
+2914:Tokyo, Japan -> 2914:Sydney, Australia 20.7821
+2914:Columbus, OH -> 2914:Cleveland, OH 1.0017
+2914:Sterling, VA -> 2914:McLean, VA 1
+2914:Sterling, VA -> 2914:Miami, FL 9.89025
+2914:Sterling, VA -> 2914:Ashburn, VA 1
+2914:Sterling, VA -> 2914:Alexandria, VA 1.5
+2914:Sterling, VA -> 2914:Dallas, TX 5.31628
+2914:Sterling, VA -> 2914:Philadelphia, PA 2.5
+2914:Seattle, WA -> 2914:Portland, OR 1.5
+2914:Seattle, WA -> 2914:Osaka, Japan 41.5302
+2914:Seattle, WA -> 2914:Spokane, WA 3.82778
+2914:Seattle, WA -> 2914:Palo Alto, CA 1.5
+2914:Seattle, WA -> 2914:Chicago, IL 2
+2914:Seattle, WA -> 2914:Tokyo, Japan 41.0302
+2914:Seattle, WA -> 2914:Singapore 65.2202
+2914:Paris, France -> 2914:Frankfurt, Germany 1.5
+2914:Paris, France -> 2914:London, UnitedKingdom 1.05963
+2914:Orem, UT -> 2914:Palo Alto, CA 7.85325
+2914:Orem, UT -> 2914:Dallas, TX 7.85325
+2914:Peoria, IL -> 2914:Chicago, IL 1.0336
+2914:London, UnitedKingdom -> 2914:Paris, France 1.05963
+2914:London, UnitedKingdom -> 2914:New York, NY 27.8378
+2914:London, UnitedKingdom -> 2914:Amsterdam, Netherlands 1
+2914:London, UnitedKingdom -> 2914:Madrid, Spain 6.31536
+2914:Houston, TX -> 2914:Dallas, TX 3
+2914:Houston, TX -> 2914:Atlanta, GA 7.81628
+2914:Houston, TX -> 2914:New Orleans, LA 2.63736
+2914:Houston, TX -> 2914:San Diego, CA 3.5
+2914:Omaha, NE -> 2914:Kansas City, MO 1.8331
+2914:Omaha, NE -> 2914:Sioux Falls, SD 1.31101
+2914:Omaha, NE -> 2914:St Louis, MO 2.8331
+2914:Baltimore, MD -> 2914:McLean, VA 0.321483
+2914:Chicago, IL -> 2914:New York, NY 6.81628
+2914:Chicago, IL -> 2914:Downers Grove, IL 0.151234
+2914:Chicago, IL -> 2914:Dallas, TX 2.5
+2914:Chicago, IL -> 2914:Peoria, IL 1.0336
+2914:Chicago, IL -> 2914:Denver, CO 7.31965
+2914:Chicago, IL -> 2914:San Jose, CA 2
+2914:Chicago, IL -> 2914:St Louis, MO 2.09611
+2914:Chicago, IL -> 2914:Champaign, IL 0.99485
+2914:Chicago, IL -> 2914:Ann Arbor, MI 1.62814
+2914:Chicago, IL -> 2914:Ashburn, VA 7.81628
+2914:Chicago, IL -> 2914:Cleveland, OH 2.5
+2914:Chicago, IL -> 2914:Springfield, MI 0.5
+2914:Chicago, IL -> 2914:Seattle, WA 2
+2914:San Francisco, CA -> 2914:Palo Alto, CA 1
+2914:San Francisco, CA -> 2914:Milpitas, CA 2
+2914:San Francisco, CA -> 2914:Oakland, CA 0.123628
+2914:San Francisco, CA -> 2914:San Ramon, CA 0.263148
+2914:San Francisco, CA -> 2914:San Jose, CA 0.5
+2914:Austin, TX -> 2914:Dallas, TX 1.45877
+2914:Downers Grove, IL -> 2914:Chicago, IL 0.151234
+2914:Sacramento, CA -> 2914:Palo Alto, CA 0.694034
+2914:Dallas, TX -> 2914:Palo Alto, CA 3
+2914:Dallas, TX -> 2914:Chicago, IL 2.5
+2914:Dallas, TX -> 2914:Austin, TX 1.45877
+2914:Dallas, TX -> 2914:Orem, UT 7.85325
+2914:Dallas, TX -> 2914:Sterling, VA 5.31628
+2914:Dallas, TX -> 2914:Kansas City, MO 1.59611
+2914:Dallas, TX -> 2914:Houston, TX 3
+2914:San Ramon, CA -> 2914:San Francisco, CA 0.263148
+2914:Hong Kong -> 2914:Tokyo, Japan 13.7772
+2914:Hong Kong -> 2914:Singapore 12.4128
+2914:Hong Kong -> 2914:San Jose, CA 55.8074
+2914:Osaka, Japan -> 2914:Tokyo, Japan 0.5
+2914:Osaka, Japan -> 2914:San Jose, CA 42.5302
+2914:Osaka, Japan -> 2914:Seattle, WA 41.5302
+2914:Cleveland, OH -> 2914:New York, NY 6.31628
+2914:Cleveland, OH -> 2914:Chicago, IL 2.5
+2914:Cleveland, OH -> 2914:Columbus, OH 1.0017
+2914:Sydney, Australia -> 2914:Tokyo, Japan 20.7821
+2914:Sydney, Australia -> 2914:San Jose, CA 59.8123
+2914:Springfield, MI -> 2914:Chicago, IL 0.5
+2914:Springfield, MI -> 2914:Livonia, MI 0.774983
+2914:Springfield, MI -> 2914:Boston, MA 5.81628
+2914:Springfield, MI -> 2914:Burlington, MI 0.125031
+2914:Rochester, NY -> 2914:New York, NY 2.01525
+2914:Rochester, NY -> 2914:Newark, NJ 1.51525
+2914:Rochester, NY -> 2914:Syracuse, NY 0.592747
+2914:Syracuse, NY -> 2914:Rochester, NY 0.592747
+2914:Burlington, MI -> 2914:Springfield, MI 0.125031
+2914:Champaign, IL -> 2914:Chicago, IL 0.99485
+2914:Palo Alto, CA -> 2914:San Francisco, CA 1
+2914:Palo Alto, CA -> 2914:McLean, VA 7.31628
+2914:Palo Alto, CA -> 2914:Sacramento, CA 0.694034
+2914:Palo Alto, CA -> 2914:Orem, UT 7.85325
+2914:Palo Alto, CA -> 2914:Dallas, TX 3
+2914:Palo Alto, CA -> 2914:San Diego, CA 1.5
+2914:Palo Alto, CA -> 2914:San Jose, CA 0.5
+2914:Palo Alto, CA -> 2914:Mountain View, CA 1.5
+2914:Palo Alto, CA -> 2914:Milpitas, CA 1
+2914:Palo Alto, CA -> 2914:Seattle, WA 1.5
+2914:Topeka, KS -> 2914:Kansas City, MO 0.487896
+2914:Singapore -> 2914:Tokyo, Japan 26.19
+2914:Singapore -> 2914:San Jose, CA 67.2202
+2914:Singapore -> 2914:Seattle, WA 65.2202
+2914:Singapore -> 2914:Hong Kong 12.4128
+2914:Philadelphia, PA -> 2914:State College, PA 1.23517
+2914:Philadelphia, PA -> 2914:Newark, NJ 3
+2914:Philadelphia, PA -> 2914:Sterling, VA 2.5
+2914:Philadelphia, PA -> 2914:Princeton, NJ 0.282704
+2914:Philadelphia, PA -> 2914:Mainesburg, PA 1.26326
+2914:San Diego, CA -> 2914:Irvine, CA 0.5
+2914:San Diego, CA -> 2914:Palo Alto, CA 1.5
+2914:San Diego, CA -> 2914:Los Angeles, CA 1
+2914:San Diego, CA -> 2914:Houston, TX 3.5
+2914:Boca Raton, FL -> 2914:Miami, FL 1
+2914:Boca Raton, FL -> 2914:Atlanta, GA 8.39025
+2914:Mainesburg, PA -> 2914:Philadelphia, PA 1.26326
+2914:Alexandria, VA -> 2914:McLean, VA 0.5
+2914:Alexandria, VA -> 2914:Sterling, VA 1.5
+2914:Ann Arbor, MI -> 2914:Chicago, IL 1.62814
+2914:Los Angeles, CA -> 2914:Irvine, CA 1.5
+2914:Los Angeles, CA -> 2914:Taipei, Taiwan 41.5302
+2914:Los Angeles, CA -> 2914:Milpitas, CA 0.5
+2914:Los Angeles, CA -> 2914:San Diego, CA 1
+2914:Los Angeles, CA -> 2914:San Jose, CA 1
+2914:Oakland, CA -> 2914:San Francisco, CA 0.123628
+2914:Madrid, Spain -> 2914:Amsterdam, Netherlands 6.31536
+2914:Madrid, Spain -> 2914:London, UnitedKingdom 6.31536
+2914:Princeton, NJ -> 2914:Philadelphia, PA 0.282704

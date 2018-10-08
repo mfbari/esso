@@ -1,0 +1,108 @@
+6395:Boston, MA -> 6395:Washington, DC 4.02819
+6395:Boston, MA -> 6395:New York, NY 1.52819
+6395:Vienna, VA -> 6395:Newark, NJ 1.7914
+6395:Vienna, VA -> 6395:Atlanta, GA 4.2914
+6395:Washington, DC -> 6395:Rochester, NY 2.5
+6395:Washington, DC -> 6395:Relay, MD 0.222358
+6395:Washington, DC -> 6395:Cincinnati, OH 4
+6395:Washington, DC -> 6395:Boston, MA 4.02819
+6395:Washington, DC -> 6395:Baltimore, MD 0.281323
+6395:Washington, DC -> 6395:Salt Lake City, UT 5
+6395:Washington, DC -> 6395:New York, NY 2.5
+6395:Washington, DC -> 6395:Hayward, CA 3.5
+6395:Washington, DC -> 6395:Kansas City, MO 3
+6395:Washington, DC -> 6395:Newark, NJ 2.5
+6395:Washington, DC -> 6395:Atlanta, GA 1
+6395:Washington, DC -> 6395:Buffalo, NY 3.78552
+6395:Relay, MD -> 6395:Washington, DC 0.222358
+6395:Phoenix, AZ -> 6395:Hayward, CA 7.91511
+6395:Phoenix, AZ -> 6395:Kansas City, MO 8.41511
+6395:Phoenix, AZ -> 6395:Fort Worth, TX 6.41511
+6395:Buffalo, NY -> 6395:Washington, DC 3.78552
+6395:Buffalo, NY -> 6395:Newark, NJ 2.28552
+6395:Santa Clara, CA -> 6395:San Jose, CA 0.5
+6395:Santa Clara, CA -> 6395:Salt Lake City, UT 3
+6395:Santa Clara, CA -> 6395:Hayward, CA 0.5
+6395:Seattle, WA -> 6395:Salt Lake City, UT 5.62677
+6395:Seattle, WA -> 6395:Hayward, CA 7.12677
+6395:Chicago, IL -> 6395:Cincinnati, OH 2.5
+6395:Chicago, IL -> 6395:Denver, CO 7.31965
+6395:Chicago, IL -> 6395:Salt Lake City, UT 2.5
+6395:Chicago, IL -> 6395:New York, NY 4
+6395:Chicago, IL -> 6395:Kansas City, MO 0.5
+6395:Dallas, TX -> 6395:Fort Worth, TX 0.5
+6395:Dallas, TX -> 6395:Atlanta, GA 1.5
+6395:Cincinnati, OH -> 6395:Washington, DC 4
+6395:Cincinnati, OH -> 6395:New York, NY 2.5
+6395:Cincinnati, OH -> 6395:Kansas City, MO 2
+6395:Cincinnati, OH -> 6395:Chicago, IL 2.5
+6395:Anaheim, CA -> 6395:Los Angeles, CA 1
+6395:Anaheim, CA -> 6395:Hayward, CA 3
+6395:Los Angeles, CA -> 6395:Anaheim, CA 1
+6395:Los Angeles, CA -> 6395:Salt Lake City, UT 0.5
+6395:Los Angeles, CA -> 6395:Hayward, CA 3
+6395:San Francisco, CA -> 6395:Hayward, CA 0.215788
+6395:Salt Lake City, UT -> 6395:Denver, CO 8.81965
+6395:Salt Lake City, UT -> 6395:Seattle, WA 5.62677
+6395:Salt Lake City, UT -> 6395:Hayward, CA 2.5
+6395:Salt Lake City, UT -> 6395:Kansas City, MO 2
+6395:Salt Lake City, UT -> 6395:Fort Worth, TX 4
+6395:Salt Lake City, UT -> 6395:Washington, DC 5
+6395:Salt Lake City, UT -> 6395:Los Angeles, CA 0.5
+6395:Salt Lake City, UT -> 6395:New York, NY 3.5
+6395:Salt Lake City, UT -> 6395:Santa Clara, CA 3
+6395:Salt Lake City, UT -> 6395:Chicago, IL 2.5
+6395:Kansas City, MO -> 6395:Salt Lake City, UT 2
+6395:Kansas City, MO -> 6395:Hayward, CA 4.5
+6395:Kansas City, MO -> 6395:Phoenix, AZ 8.41511
+6395:Kansas City, MO -> 6395:Fort Worth, TX 2
+6395:Kansas City, MO -> 6395:Cincinnati, OH 2
+6395:Kansas City, MO -> 6395:Washington, DC 3
+6395:Kansas City, MO -> 6395:New York, NY 3.5
+6395:Kansas City, MO -> 6395:Chicago, IL 0.5
+6395:Kansas City, MO -> 6395:Atlanta, GA 3
+6395:Baltimore, MD -> 6395:Washington, DC 0.281323
+6395:New York, NY -> 6395:Boston, MA 1.52819
+6395:New York, NY -> 6395:Salt Lake City, UT 3.5
+6395:New York, NY -> 6395:Hayward, CA 6
+6395:New York, NY -> 6395:Kansas City, MO 3.5
+6395:New York, NY -> 6395:Newark, NJ 0.0710684956979026
+6395:New York, NY -> 6395:Cincinnati, OH 2.5
+6395:New York, NY -> 6395:Washington, DC 2.5
+6395:New York, NY -> 6395:Chicago, IL 4
+6395:New York, NY -> 6395:Atlanta, GA 3.5
+6395:Hayward, CA -> 6395:San Jose, CA 1
+6395:Hayward, CA -> 6395:Seattle, WA 7.12677
+6395:Hayward, CA -> 6395:Salt Lake City, UT 2.5
+6395:Hayward, CA -> 6395:Kansas City, MO 4.5
+6395:Hayward, CA -> 6395:Phoenix, AZ 7.91511
+6395:Hayward, CA -> 6395:Fort Worth, TX 2.5
+6395:Hayward, CA -> 6395:Washington, DC 3.5
+6395:Hayward, CA -> 6395:Anaheim, CA 3
+6395:Hayward, CA -> 6395:Los Angeles, CA 3
+6395:Hayward, CA -> 6395:New York, NY 6
+6395:Hayward, CA -> 6395:Santa Clara, CA 0.5
+6395:Hayward, CA -> 6395:San Francisco, CA 0.215788
+6395:Fort Worth, TX -> 6395:Salt Lake City, UT 4
+6395:Fort Worth, TX -> 6395:Hayward, CA 2.5
+6395:Fort Worth, TX -> 6395:Kansas City, MO 2
+6395:Fort Worth, TX -> 6395:Phoenix, AZ 6.41511
+6395:Fort Worth, TX -> 6395:Atlanta, GA 1
+6395:Fort Worth, TX -> 6395:Dallas, TX 0.5
+6395:Newark, NJ -> 6395:Rochester, NY 1
+6395:Newark, NJ -> 6395:Washington, DC 2.5
+6395:Newark, NJ -> 6395:Vienna, VA 1.7914
+6395:Newark, NJ -> 6395:New York, NY 0.0710684956979026
+6395:Newark, NJ -> 6395:Buffalo, NY 2.28552
+6395:Atlanta, GA -> 6395:Washington, DC 1
+6395:Atlanta, GA -> 6395:Vienna, VA 4.2914
+6395:Atlanta, GA -> 6395:New York, NY 3.5
+6395:Atlanta, GA -> 6395:Kansas City, MO 3
+6395:Atlanta, GA -> 6395:Fort Worth, TX 1
+6395:Atlanta, GA -> 6395:Dallas, TX 1.5
+6395:Rochester, NY -> 6395:Washington, DC 2.5
+6395:Rochester, NY -> 6395:Newark, NJ 1
+6395:San Jose, CA -> 6395:Hayward, CA 1
+6395:San Jose, CA -> 6395:Santa Clara, CA 0.5
+6395:Denver, CO -> 6395:Salt Lake City, UT 8.81965
+6395:Denver, CO -> 6395:Chicago, IL 7.31965

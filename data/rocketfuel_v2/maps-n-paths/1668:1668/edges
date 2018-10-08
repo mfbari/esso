@@ -1,0 +1,128 @@
+1668:Albany, NY -> 1668:New York, NY 6013
+1668:Albany, NY -> 1668:Rochester, NY 1451
+1668:Albany, NY -> 1668:Syracuse, NY 2868
+1668:Ashburn, VA -> 1668:Charlotte, NC 4621
+1668:Ashburn, VA -> 1668:Columbus, OH 3687
+1668:Ashburn, VA -> 1668:New York, NY 3098
+1668:Ashburn, VA -> 1668:Vienna, VA 1301
+1668:Ashburn, VA -> 1668:Washington, DC 444
+1668:Atlanta, GA -> 1668:Charlotte, NC 12436
+1668:Atlanta, GA -> 1668:Houston, TX 8762
+1668:Atlanta, GA -> 1668:Memphis, TN 756
+1668:Atlanta, GA -> 1668:Tampa, FL 3166
+1668:Austin, TX -> 1668:Houston, TX 1773
+1668:Canton, OH -> 1668:Columbus, OH 1493
+1668:Charlotte, NC -> 1668:Ashburn, VA 4621
+1668:Charlotte, NC -> 1668:Atlanta, GA 12436
+1668:Charlotte, NC -> 1668:Columbia, SC 580
+1668:Charlotte, NC -> 1668:Greensboro, NC 1002
+1668:Charlotte, NC -> 1668:Raleigh, NC 1703
+1668:Charlotte, NC -> 1668:Vienna, VA 5866
+1668:Charlotte, NC -> 1668:Wilmington, NC 392
+1668:Chatsworth, CA -> 1668:Los Angeles, CA 964
+1668:Chicago, IL -> 1668:Detroit, MI 482
+1668:Chicago, IL -> 1668:Greenbay, WI 888
+1668:Chicago, IL -> 1668:Kansas City, MO 5467
+1668:Chicago, IL -> 1668:Milwaukee, WI 1395
+1668:Chicago, IL -> 1668:Minneapolis, MN 983
+1668:Chicago, IL -> 1668:Vienna, VA 7664
+1668:Cincinnati, OH -> 1668:Columbus, OH 1299
+1668:Columbia, SC -> 1668:Charlotte, NC 580
+1668:Columbus, OH -> 1668:Ashburn, VA 3687
+1668:Columbus, OH -> 1668:Canton, OH 1493
+1668:Columbus, OH -> 1668:Cincinnati, OH 1299
+1668:Columbus, OH -> 1668:Dayton, OH 473
+1668:Columbus, OH -> 1668:Indianapolis, IN 483
+1668:Columbus, OH -> 1668:Vienna, VA 3162
+1668:Dallas, TX -> 1668:Houston, TX 3080
+1668:Dallas, TX -> 1668:Kansas City, MO 2393
+1668:Dayton, OH -> 1668:Columbus, OH 473
+1668:Denver, CO -> 1668:Kansas City, MO 4172
+1668:Denver, CO -> 1668:Sunnyvale, CA 4276
+1668:Desert Cities, CA -> 1668:Los Angeles, CA 450
+1668:Detroit, MI -> 1668:Chicago, IL 482
+1668:El Paso, TX -> 1668:Houston, TX 904
+1668:Frankfurt, Germany -> 1668:London, UnitedKingdom 394
+1668:Frankfurt, Germany -> 1668:New York, NY 163
+1668:Greenbay, WI -> 1668:Chicago, IL 888
+1668:Greensboro, NC -> 1668:Charlotte, NC 1002
+1668:Herndon, VA -> 1668:Vienna, VA 360
+1668:Honolulu, HI -> 1668:Los Angeles, CA 690
+1668:Honolulu, HI -> 1668:Mililani, HI 239
+1668:Honolulu, HI -> 1668:Sunnyvale, CA 1162
+1668:Houston, TX -> 1668:Atlanta, GA 8762
+1668:Houston, TX -> 1668:Austin, TX 1773
+1668:Houston, TX -> 1668:Dallas, TX 3080
+1668:Houston, TX -> 1668:El Paso, TX 904
+1668:Houston, TX -> 1668:Phoenix, AZ 7392
+1668:Houston, TX -> 1668:San Antonio, TX 2195
+1668:Houston, TX -> 1668:Tampa, FL 1104
+1668:Indianapolis, IN -> 1668:Columbus, OH 483
+1668:Kansas City, MO -> 1668:Chicago, IL 5467
+1668:Kansas City, MO -> 1668:Dallas, TX 2393
+1668:Kansas City, MO -> 1668:Denver, CO 4172
+1668:Kansas City, MO -> 1668:Lincoln, NE 503
+1668:Lincoln, NE -> 1668:Kansas City, MO 503
+1668:London, UnitedKingdom -> 1668:Frankfurt, Germany 394
+1668:London, UnitedKingdom -> 1668:New York, NY 137
+1668:Los Angeles, CA -> 1668:Chatsworth, CA 964
+1668:Los Angeles, CA -> 1668:Desert Cities, CA 450
+1668:Los Angeles, CA -> 1668:Honolulu, HI 690
+1668:Los Angeles, CA -> 1668:Orange, CA 1649
+1668:Los Angeles, CA -> 1668:Phoenix, AZ 7391
+1668:Los Angeles, CA -> 1668:San Diego, CA 1295
+1668:Los Angeles, CA -> 1668:Sunnyvale, CA 6115
+1668:Los Angeles, CA -> 1668:Tokyo, Japan 237
+1668:Los Angeles, CA -> 1668:Torrance, CA 319
+1668:Memphis, TN -> 1668:Atlanta, GA 756
+1668:Mililani, HI -> 1668:Honolulu, HI 239
+1668:Milwaukee, WI -> 1668:Chicago, IL 1395
+1668:Minneapolis, MN -> 1668:Chicago, IL 983
+1668:New York, NY -> 1668:Albany, NY 6013
+1668:New York, NY -> 1668:Ashburn, VA 3098
+1668:New York, NY -> 1668:Frankfurt, Germany 163
+1668:New York, NY -> 1668:London, UnitedKingdom 137
+1668:New York, NY -> 1668:Portland, ME 1255
+1668:New York, NY -> 1668:Portland, OR 2
+1668:New York, NY -> 1668:Vienna, VA 7337
+1668:New York, NY -> 1668:Washington, DC 319
+1668:Orange, CA -> 1668:Los Angeles, CA 1649
+1668:Orlando, FL -> 1668:Tampa, FL 1778
+1668:Phoenix, AZ -> 1668:Houston, TX 7392
+1668:Phoenix, AZ -> 1668:Los Angeles, CA 7391
+1668:Portland, ME -> 1668:New York, NY 1255
+1668:Portland, OR -> 1668:New York, NY 2
+1668:Raleigh, NC -> 1668:Charlotte, NC 1703
+1668:Rochester, NY -> 1668:Albany, NY 1451
+1668:San Antonio, TX -> 1668:Houston, TX 2195
+1668:San Diego, CA -> 1668:Los Angeles, CA 1295
+1668:San Jose, CA -> 1668:Santa Clara, CA 7
+1668:San Jose, CA -> 1668:Sunnyvale, CA 1153
+1668:Santa Clara, CA -> 1668:San Jose, CA 7
+1668:Sao Paolo, Brazil -> 1668:Tampa, FL 63
+1668:Sao Paolo, Brazil -> 1668:Vienna, VA 17
+1668:Sunnyvale, CA -> 1668:Denver, CO 4276
+1668:Sunnyvale, CA -> 1668:Honolulu, HI 1162
+1668:Sunnyvale, CA -> 1668:Los Angeles, CA 6115
+1668:Sunnyvale, CA -> 1668:San Jose, CA 1153
+1668:Sunnyvale, CA -> 1668:Tokyo, Japan 86
+1668:Syracuse, NY -> 1668:Albany, NY 2868
+1668:Tampa, FL -> 1668:Atlanta, GA 3166
+1668:Tampa, FL -> 1668:Houston, TX 1104
+1668:Tampa, FL -> 1668:Orlando, FL 1778
+1668:Tampa, FL -> 1668:Sao Paolo, Brazil 63
+1668:Tokyo, Japan -> 1668:Los Angeles, CA 237
+1668:Tokyo, Japan -> 1668:Sunnyvale, CA 86
+1668:Torrance, CA -> 1668:Los Angeles, CA 319
+1668:Vienna, VA -> 1668:Ashburn, VA 1301
+1668:Vienna, VA -> 1668:Charlotte, NC 5866
+1668:Vienna, VA -> 1668:Chicago, IL 7664
+1668:Vienna, VA -> 1668:Columbus, OH 3162
+1668:Vienna, VA -> 1668:Herndon, VA 360
+1668:Vienna, VA -> 1668:New York, NY 7337
+1668:Vienna, VA -> 1668:Sao Paolo, Brazil 17
+1668:Vienna, VA -> 1668:Washington, DC 1473
+1668:Washington, DC -> 1668:Ashburn, VA 444
+1668:Washington, DC -> 1668:New York, NY 319
+1668:Washington, DC -> 1668:Vienna, VA 1473
+1668:Wilmington, NC -> 1668:Charlotte, NC 392

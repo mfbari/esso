@@ -1,0 +1,68 @@
+6461:Amsterdam, Netherlands -> 6461:Frankfurt, Germany 1.55963394775673
+6461:Amsterdam, Netherlands -> 6461:London, UnitedKingdom 1.88532911009081
+6461:Atlanta, GA -> 6461:Dallas, TX 5.75137875158028
+6461:Atlanta, GA -> 6461:Houston, TX 5.6298814446364
+6461:Atlanta, GA -> 6461:New York, NY 6.00743024175476
+6461:Atlanta, GA -> 6461:Washington, DC 4.38018878263173
+6461:Boston, MA -> 6461:New York, NY 1.52818775993091
+6461:Boston, MA -> 6461:Washington, DC 3.15550474307128
+6461:Chicago, IL -> 6461:Dallas, TX 6.43760504337832
+6461:Chicago, IL -> 6461:New York, NY 5.72539765160039
+6461:Chicago, IL -> 6461:Relay, MD 4.84200126992576
+6461:Chicago, IL -> 6461:Seattle, WA 13.9413353089448
+6461:Dallas, TX -> 6461:Atlanta, GA 5.75137875158028
+6461:Dallas, TX -> 6461:Chicago, IL 6.43760504337832
+6461:Dallas, TX -> 6461:Houston, TX 1.79734274874247
+6461:Dallas, TX -> 6461:Relay, MD 9.66921496536546
+6461:Dallas, TX -> 6461:San Jose, CA 11.6748469301052
+6461:Dallas, TX -> 6461:Washington, DC 9.49836499313979
+6461:Frankfurt, Germany -> 6461:Amsterdam, Netherlands 1.55963394775673
+6461:Frankfurt, Germany -> 6461:London, UnitedKingdom 3.15804073417278
+6461:Frankfurt, Germany -> 6461:Paris, France 2.34012884016252
+6461:Frankfurt, Germany -> 6461:Vienna, Austria 3.00603025209055
+6461:Houston, TX -> 6461:Atlanta, GA 5.6298814446364
+6461:Houston, TX -> 6461:Dallas, TX 1.79734274874247
+6461:London, UnitedKingdom -> 6461:Amsterdam, Netherlands 1.88532911009081
+6461:London, UnitedKingdom -> 6461:Frankfurt, Germany 3.15804073417278
+6461:London, UnitedKingdom -> 6461:New York, NY 27.8377559786444
+6461:London, UnitedKingdom -> 6461:Paris, France 1.71246693397065
+6461:London, UnitedKingdom -> 6461:Relay, MD 29.2492288653578
+6461:London, UnitedKingdom -> 6461:Vienna, Austria 6.16285580833909
+6461:London, UnitedKingdom -> 6461:Washington, DC 29.4645463284345
+6461:Los Angeles, CA -> 6461:San Jose, CA 2.39033852037053
+6461:Napa, CA -> 6461:San Jose, CA 0.561280195694849
+6461:New York, NY -> 6461:Atlanta, GA 6.00743024175476
+6461:New York, NY -> 6461:Boston, MA 1.52818775993091
+6461:New York, NY -> 6461:Chicago, IL 5.72539765160039
+6461:New York, NY -> 6461:London, UnitedKingdom 27.8377559786444
+6461:New York, NY -> 6461:Seattle, WA 19.3209613118993
+6461:New York, NY -> 6461:Washington, DC 1.62733364571067
+6461:Palo Alto, CA -> 6461:San Jose, CA 0.124477546789977
+6461:Paris, France -> 6461:Frankfurt, Germany 2.34012884016252
+6461:Paris, France -> 6461:London, UnitedKingdom 1.71246693397065
+6461:Relay, MD -> 6461:Chicago, IL 4.84200126992576
+6461:Relay, MD -> 6461:Dallas, TX 9.66921496536546
+6461:Relay, MD -> 6461:London, UnitedKingdom 29.2492288653578
+6461:Relay, MD -> 6461:San Jose, CA 19.5320869716731
+6461:Relay, MD -> 6461:Washington, DC 0.22235770619305
+6461:San Jose, CA -> 6461:Dallas, TX 11.6748469301052
+6461:San Jose, CA -> 6461:Los Angeles, CA 2.39033852037053
+6461:San Jose, CA -> 6461:Napa, CA 0.561280195694849
+6461:San Jose, CA -> 6461:Palo Alto, CA 0.124477546789977
+6461:San Jose, CA -> 6461:Relay, MD 19.5320869716731
+6461:San Jose, CA -> 6461:Seattle, WA 5.71561756404175
+6461:San Jose, CA -> 6461:Tokyo, Japan 42.030205069196
+6461:San Jose, CA -> 6461:Washington, DC 19.4442417506344
+6461:Seattle, WA -> 6461:Chicago, IL 13.9413353089448
+6461:Seattle, WA -> 6461:New York, NY 19.3209613118993
+6461:Seattle, WA -> 6461:San Jose, CA 5.71561756404175
+6461:Tokyo, Japan -> 6461:San Jose, CA 42.030205069196
+6461:Vienna, Austria -> 6461:Frankfurt, Germany 3.00603025209055
+6461:Vienna, Austria -> 6461:London, UnitedKingdom 6.16285580833909
+6461:Washington, DC -> 6461:Atlanta, GA 4.38018878263173
+6461:Washington, DC -> 6461:Boston, MA 3.15550474307128
+6461:Washington, DC -> 6461:Dallas, TX 9.49836499313979
+6461:Washington, DC -> 6461:London, UnitedKingdom 29.4645463284345
+6461:Washington, DC -> 6461:New York, NY 1.62733364571067
+6461:Washington, DC -> 6461:Relay, MD 0.22235770619305
+6461:Washington, DC -> 6461:San Jose, CA 19.4442417506344

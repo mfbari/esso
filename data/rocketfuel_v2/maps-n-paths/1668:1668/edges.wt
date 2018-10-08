@@ -1,0 +1,128 @@
+1668:San Antonio, TX -> 1668:Houston, TX 1.51578
+1668:Houston, TX -> 1668:Atlanta, GA 2.78633
+1668:Houston, TX -> 1668:Austin, TX 1.17633
+1668:Houston, TX -> 1668:San Antonio, TX 1.51578
+1668:Houston, TX -> 1668:Tampa, FL 1.56762
+1668:Houston, TX -> 1668:Dallas, TX 2.83053
+1668:Houston, TX -> 1668:El Paso, TX 5.41261
+1668:Houston, TX -> 1668:Phoenix, AZ 9.05323
+1668:Chicago, IL -> 1668:Milwaukee, WI 0.679271
+1668:Chicago, IL -> 1668:Detroit, MI 1.89714
+1668:Chicago, IL -> 1668:Kansas City, MO 3.28633
+1668:Chicago, IL -> 1668:Vienna, VA 1.83053
+1668:Chicago, IL -> 1668:Minneapolis, MN 2.85502
+1668:Chicago, IL -> 1668:Greenbay, WI 1.49053
+1668:Syracuse, NY -> 1668:Albany, NY 0.998463
+1668:Rochester, NY -> 1668:Albany, NY 1.58978
+1668:Raleigh, NC -> 1668:Charlotte, NC 1.04455
+1668:Ashburn, VA -> 1668:New York, NY 1.71738
+1668:Ashburn, VA -> 1668:Washington, DC 1
+1668:Ashburn, VA -> 1668:Columbus, OH 2.52553
+1668:Ashburn, VA -> 1668:Vienna, VA 1
+1668:Ashburn, VA -> 1668:Charlotte, NC 2.58919
+1668:San Jose, CA -> 1668:Sunnyvale, CA 0.0604334
+1668:San Jose, CA -> 1668:Santa Clara, CA 0.0331658
+1668:Atlanta, GA -> 1668:Tampa, FL 3.35395
+1668:Atlanta, GA -> 1668:Houston, TX 2.78633
+1668:Atlanta, GA -> 1668:Memphis, TN 2.69471
+1668:Atlanta, GA -> 1668:Charlotte, NC 1.83053
+1668:Austin, TX -> 1668:Houston, TX 1.17633
+1668:Dallas, TX -> 1668:Houston, TX 2.83053
+1668:Dallas, TX -> 1668:Kansas City, MO 2.91972
+1668:Cincinnati, OH -> 1668:Columbus, OH 0.778867
+1668:Los Angeles, CA -> 1668:Desert Cities, CA 1.83959
+1668:Los Angeles, CA -> 1668:Sunnyvale, CA 2.08919
+1668:Los Angeles, CA -> 1668:Torrance, CA 0.149226
+1668:Los Angeles, CA -> 1668:Honolulu, HI 20.4912
+1668:Los Angeles, CA -> 1668:Orange, CA 0.31634
+1668:Los Angeles, CA -> 1668:San Diego, CA 0.930875
+1668:Los Angeles, CA -> 1668:Tokyo, Japan 40.88101
+1668:Los Angeles, CA -> 1668:Chatsworth, CA 0.126605
+1668:Los Angeles, CA -> 1668:Phoenix, AZ 2.94005
+1668:Denver, CO -> 1668:Sunnyvale, CA 7.55423
+1668:Denver, CO -> 1668:Kansas City, MO 4.43905
+1668:Mililani, HI -> 1668:Honolulu, HI 0.134955
+1668:Greensboro, NC -> 1668:Charlotte, NC 0.667797
+1668:Sunnyvale, CA -> 1668:San Jose, CA 0.0604334
+1668:Sunnyvale, CA -> 1668:Los Angeles, CA 2.08919
+1668:Sunnyvale, CA -> 1668:Honolulu, HI 19.40201
+1668:Sunnyvale, CA -> 1668:Tokyo, Japan 41.9702
+1668:Sunnyvale, CA -> 1668:Denver, CO 7.55423
+1668:London, UnitedKingdom -> 1668:Frankfurt, Germany 3.15804
+1668:London, UnitedKingdom -> 1668:New York, NY 27.81986
+1668:Minneapolis, MN -> 1668:Chicago, IL 2.85502
+1668:Greenbay, WI -> 1668:Chicago, IL 1.49053
+1668:Sao Paolo, Brazil -> 1668:Tampa, FL 30.40323
+1668:Sao Paolo, Brazil -> 1668:Vienna, VA 38.1769
+1668:Herndon, VA -> 1668:Vienna, VA 0.0625802
+1668:San Diego, CA -> 1668:Los Angeles, CA 0.930875
+1668:Honolulu, HI -> 1668:Sunnyvale, CA 19.40201
+1668:Honolulu, HI -> 1668:Los Angeles, CA 20.4912
+1668:Honolulu, HI -> 1668:Mililani, HI 0.134955
+1668:Detroit, MI -> 1668:Chicago, IL 1.89714
+1668:Wilmington, NC -> 1668:Charlotte, NC 1.43541
+1668:Orlando, FL -> 1668:Tampa, FL 0.624491
+1668:Tokyo, Japan -> 1668:Sunnyvale, CA 41.9702
+1668:Tokyo, Japan -> 1668:Los Angeles, CA 40.88101
+1668:Washington, DC -> 1668:New York, NY 2.71738
+1668:Washington, DC -> 1668:Vienna, VA 1
+1668:Washington, DC -> 1668:Ashburn, VA 1
+1668:Columbus, OH -> 1668:Canton, OH 0.816572
+1668:Columbus, OH -> 1668:Cincinnati, OH 0.778867
+1668:Columbus, OH -> 1668:Dayton, OH 0.525662
+1668:Columbus, OH -> 1668:Vienna, VA 2.52553
+1668:Columbus, OH -> 1668:Indianapolis, IN 1.35893
+1668:Columbus, OH -> 1668:Ashburn, VA 2.52553
+1668:Vienna, VA -> 1668:Sao Paolo, Brazil 38.1769
+1668:Vienna, VA -> 1668:Herndon, VA 0.0625802
+1668:Vienna, VA -> 1668:New York, NY 1.71738
+1668:Vienna, VA -> 1668:Washington, DC 1
+1668:Vienna, VA -> 1668:Columbus, OH 2.52553
+1668:Vienna, VA -> 1668:Chicago, IL 1.83053
+1668:Vienna, VA -> 1668:Charlotte, NC 2.58919
+1668:Vienna, VA -> 1668:Ashburn, VA 1
+1668:Lincoln, NE -> 1668:Kansas City, MO 1.30387
+1668:Portland, ME -> 1668:New York, NY 2.26811
+1668:Desert Cities, CA -> 1668:Los Angeles, CA 1.83959
+1668:Milwaukee, WI -> 1668:Chicago, IL 0.679271
+1668:Tampa, FL -> 1668:Atlanta, GA 3.35395
+1668:Tampa, FL -> 1668:Sao Paolo, Brazil 30.40323
+1668:Tampa, FL -> 1668:Houston, TX 1.56762
+1668:Tampa, FL -> 1668:Orlando, FL 0.624491
+1668:El Paso, TX -> 1668:Houston, TX 5.41261
+1668:Kansas City, MO -> 1668:Dallas, TX 2.91972
+1668:Kansas City, MO -> 1668:Denver, CO 4.43905
+1668:Kansas City, MO -> 1668:Chicago, IL 3.28633
+1668:Kansas City, MO -> 1668:Lincoln, NE 1.30387
+1668:Canton, OH -> 1668:Columbus, OH 0.816572
+1668:Torrance, CA -> 1668:Los Angeles, CA 0.149226
+1668:Orange, CA -> 1668:Los Angeles, CA 0.31634
+1668:Dayton, OH -> 1668:Columbus, OH 0.525662
+1668:Memphis, TN -> 1668:Atlanta, GA 2.69471
+1668:Santa Clara, CA -> 1668:San Jose, CA 0.0331658
+1668:Phoenix, AZ -> 1668:Los Angeles, CA 2.94005
+1668:Phoenix, AZ -> 1668:Houston, TX 9.05323
+1668:Chatsworth, CA -> 1668:Los Angeles, CA 0.126605
+1668:New York, NY -> 1668:Portland, ME 2.26811
+1668:New York, NY -> 1668:Frankfurt, Germany 30.9779
+1668:New York, NY -> 1668:Portland, OR 19.6028
+1668:New York, NY -> 1668:Albany, NY 1.08194
+1668:New York, NY -> 1668:Washington, DC 2.71738
+1668:New York, NY -> 1668:London, UnitedKingdom 27.81986
+1668:New York, NY -> 1668:Vienna, VA 1.71738
+1668:New York, NY -> 1668:Ashburn, VA 1.71738
+1668:Portland, OR -> 1668:New York, NY 19.6028
+1668:Albany, NY -> 1668:New York, NY 1.08194
+1668:Albany, NY -> 1668:Syracuse, NY 0.998463
+1668:Albany, NY -> 1668:Rochester, NY 1.58978
+1668:Frankfurt, Germany -> 1668:New York, NY 30.9779
+1668:Frankfurt, Germany -> 1668:London, UnitedKingdom 3.15804
+1668:Columbia, SC -> 1668:Charlotte, NC 0.663428
+1668:Charlotte, NC -> 1668:Greensboro, NC 0.667797
+1668:Charlotte, NC -> 1668:Atlanta, GA 1.83053
+1668:Charlotte, NC -> 1668:Wilmington, NC 1.43541
+1668:Charlotte, NC -> 1668:Columbia, SC 0.663428
+1668:Charlotte, NC -> 1668:Vienna, VA 2.58919
+1668:Charlotte, NC -> 1668:Raleigh, NC 1.04455
+1668:Charlotte, NC -> 1668:Ashburn, VA 2.58919
+1668:Indianapolis, IN -> 1668:Columbus, OH 1.35893

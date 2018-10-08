@@ -1,0 +1,26 @@
+4725:Ashburn, VA -> 4725:Vienna, VA 0.124424989353785
+4725:Atsuta, Japan -> 4725:Chiba, Japan 7.80788150922491
+4725:Atsuta, Japan -> 4725:Kyoto, Japan 6.14626393039846
+4725:Atsuta, Japan -> 4725:Osaka, Japan 5.93137592911247
+4725:Atsuta, Japan -> 4725:Palo Alto, CA 49.2024903336398
+4725:Chiba, Japan -> 4725:Atsuta, Japan 7.80788150922491
+4725:Chiba, Japan -> 4725:Los Angeles, CA 43.8454372697837
+4725:Chiba, Japan -> 4725:Palo Alto, CA 41.4038142022541
+4725:Chiba, Japan -> 4725:Shintokyo, Japan 0.549076482774133
+4725:Kyoto, Japan -> 4725:Atsuta, Japan 6.14626393039846
+4725:Kyoto, Japan -> 4725:Osaka, Japan 0.217332223690536
+4725:Kyoto, Japan -> 4725:Tokyo, Japan 1.71491687349014
+4725:Los Angeles, CA -> 4725:Chiba, Japan 43.8454372697837
+4725:Los Angeles, CA -> 4725:Palo Alto, CA 2.50820183694084
+4725:Los Angeles, CA -> 4725:Vienna, VA 18.408171976593
+4725:Los Angeles, CA -> 4725:Washington, DC 18.5226753489951
+4725:Osaka, Japan -> 4725:Atsuta, Japan 5.93137592911247
+4725:Osaka, Japan -> 4725:Kyoto, Japan 0.217332223690536
+4725:Palo Alto, CA -> 4725:Atsuta, Japan 49.2024903336398
+4725:Palo Alto, CA -> 4725:Chiba, Japan 41.4038142022541
+4725:Palo Alto, CA -> 4725:Los Angeles, CA 2.50820183694084
+4725:Shintokyo, Japan -> 4725:Chiba, Japan 0.549076482774133
+4725:Tokyo, Japan -> 4725:Kyoto, Japan 1.71491687349014
+4725:Vienna, VA -> 4725:Ashburn, VA 0.124424989353785
+4725:Vienna, VA -> 4725:Los Angeles, CA 18.408171976593
+4725:Washington, DC -> 4725:Los Angeles, CA 18.5226753489951

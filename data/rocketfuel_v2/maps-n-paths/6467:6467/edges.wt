@@ -1,0 +1,74 @@
+6467:Montgomery, AL -> 6467:Atlanta, GA 1.16651
+6467:Tampa, FL -> 6467:Atlanta, GA 3.35395
+6467:Fort Worth, TX -> 6467:Tulsa, OK 1.9998
+6467:Fort Worth, TX -> 6467:Kansas City, MO 6.07566
+6467:Fort Worth, TX -> 6467:Colorado Springs, CO 7.8709
+6467:Fort Worth, TX -> 6467:Tucson, AZ 6.14509
+6467:Fort Worth, TX -> 6467:Jacksonville, FL 7.56638
+6467:Fort Worth, TX -> 6467:El Paso, TX 4.43664
+6467:Fort Worth, TX -> 6467:Atlanta, GA 6.06638
+6467:Fort Worth, TX -> 6467:Las Vegas, NV 8.1528
+6467:Fort Worth, TX -> 6467:Dallas, TX 1.5
+6467:Jacksonville, FL -> 6467:Washington, DC 5.07566
+6467:Jacksonville, FL -> 6467:Fort Worth, TX 7.56638
+6467:Jacksonville, FL -> 6467:Atlanta, GA 2.5
+6467:Baltimore, MD -> 6467:Washington, DC 0.281323
+6467:Colorado Springs, CO -> 6467:Albuquerque, NM 2.23352
+6467:Colorado Springs, CO -> 6467:Kansas City, MO 7.47952
+6467:Colorado Springs, CO -> 6467:Fort Worth, TX 7.8709
+6467:Colorado Springs, CO -> 6467:Las Vegas, NV 2.73352
+6467:Colorado Springs, CO -> 6467:Dallas, TX 8.3709
+6467:Tucson, AZ -> 6467:Fort Worth, TX 6.14509
+6467:Tucson, AZ -> 6467:Las Vegas, NV 3.00771
+6467:Tucson, AZ -> 6467:Dallas, TX 6.64509
+6467:Washington, DC -> 6467:Baltimore, MD 0.281323
+6467:Washington, DC -> 6467:Kansas City, MO 7.56638
+6467:Washington, DC -> 6467:Fort Lauderdale, FL 7.24242
+6467:Washington, DC -> 6467:Lexington, KY 3.28811
+6467:Washington, DC -> 6467:Las Vegas, NV 15.77942
+6467:Washington, DC -> 6467:Atlanta, GA 5.57566
+6467:Washington, DC -> 6467:Jacksonville, FL 5.07566
+6467:Chicago, IL -> 6467:Kansas City, MO 3.28633
+6467:Fort Lauderdale, FL -> 6467:Washington, DC 7.24242
+6467:Fort Lauderdale, FL -> 6467:Atlanta, GA 4.70638
+6467:El Paso, TX -> 6467:Albuquerque, NM 2.20074
+6467:El Paso, TX -> 6467:Fort Worth, TX 4.43664
+6467:El Paso, TX -> 6467:Las Vegas, NV 4.71616
+6467:El Paso, TX -> 6467:Dallas, TX 4.93664
+6467:Lexington, KY -> 6467:Washington, DC 3.28811
+6467:Las Vegas, NV -> 6467:Kansas City, MO 9.21304
+6467:Las Vegas, NV -> 6467:Colorado Springs, CO 2.73352
+6467:Las Vegas, NV -> 6467:Tucson, AZ 3.00771
+6467:Las Vegas, NV -> 6467:Fort Worth, TX 8.1528
+6467:Las Vegas, NV -> 6467:Washington, DC 15.77942
+6467:Las Vegas, NV -> 6467:El Paso, TX 4.71616
+6467:Las Vegas, NV -> 6467:Atlanta, GA 11.20376
+6467:Las Vegas, NV -> 6467:Dallas, TX 8.6528
+6467:Las Vegas, NV -> 6467:San Jose, CA 3.03749
+6467:Columbus, GA -> 6467:Atlanta, GA 0.763999
+6467:Dallas, TX -> 6467:Tulsa, OK 2.4998
+6467:Dallas, TX -> 6467:El Paso, TX 4.93664
+6467:Dallas, TX -> 6467:Colorado Springs, CO 8.3709
+6467:Dallas, TX -> 6467:Tucson, AZ 6.64509
+6467:Dallas, TX -> 6467:Fort Worth, TX 1.5
+6467:Dallas, TX -> 6467:Las Vegas, NV 8.6528
+6467:Dallas, TX -> 6467:Atlanta, GA 6.56638
+6467:San Jose, CA -> 6467:Las Vegas, NV 3.03749
+6467:Kansas City, MO -> 6467:Washington, DC 7.56638
+6467:Kansas City, MO -> 6467:Colorado Springs, CO 7.47952
+6467:Kansas City, MO -> 6467:Fort Worth, TX 6.07566
+6467:Kansas City, MO -> 6467:Chicago, IL 3.28633
+6467:Kansas City, MO -> 6467:Las Vegas, NV 9.21304
+6467:Tulsa, OK -> 6467:Fort Worth, TX 1.9998
+6467:Tulsa, OK -> 6467:Dallas, TX 2.4998
+6467:Atlanta, GA -> 6467:Montgomery, AL 1.16651
+6467:Atlanta, GA -> 6467:Tampa, FL 3.35395
+6467:Atlanta, GA -> 6467:Fort Worth, TX 6.06638
+6467:Atlanta, GA -> 6467:Jacksonville, FL 2.5
+6467:Atlanta, GA -> 6467:Washington, DC 5.57566
+6467:Atlanta, GA -> 6467:Fort Lauderdale, FL 4.70638
+6467:Atlanta, GA -> 6467:Columbus, GA 0.763999
+6467:Atlanta, GA -> 6467:Las Vegas, NV 11.20376
+6467:Atlanta, GA -> 6467:Dallas, TX 6.56638
+6467:Albuquerque, NM -> 6467:El Paso, TX 2.20074
+6467:Albuquerque, NM -> 6467:Colorado Springs, CO 2.23352

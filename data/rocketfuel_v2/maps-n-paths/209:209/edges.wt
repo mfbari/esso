@@ -1,0 +1,216 @@
+209:Tampa, FL -> 209:Washington, DC 3.5
+209:Tampa, FL -> 209:Atlanta, GA 2
+209:Tampa, FL -> 209:Naples, FL 1.06452
+209:Tampa, FL -> 209:Miami, FL 1.65249
+209:Tampa, FL -> 209:Houston, TX 2
+209:Arlington, VA -> 209:Washington, DC 0.0416012
+209:New York, NY -> 209:Rochester, MN 3.5
+209:New York, NY -> 209:Newark, NJ 4
+209:New York, NY -> 209:Boston, MA 5.33381
+209:New York, NY -> 209:Washington, DC 3.5
+209:New York, NY -> 209:San Francisco, CA 7.5
+209:New York, NY -> 209:Chicago, IL 3.5
+209:Naples, FL -> 209:Tampa, FL 1.06452
+209:Des Moines, IA -> 209:Omaha, NE 2.5
+209:Des Moines, IA -> 209:Minneapolis, MN 3
+209:Portland, OR -> 209:Denver, CO 3.5
+209:Portland, OR -> 209:Chicago, IL 6
+209:Portland, OR -> 209:Salt Lake City, UT 1
+209:Portland, OR -> 209:Eugene, OR 2.50085
+209:Portland, OR -> 209:Seattle, WA 0.5
+209:Portland, OR -> 209:Los Angeles, CA 3.5
+209:Duluth, MN -> 209:Minneapolis, MN 1.08733
+209:Palo Alto, CA -> 209:Sunnyvale, CA 0.064134
+209:Newark, NJ -> 209:Kansas City, MO 1.5
+209:Newark, NJ -> 209:Washington, DC 0.5
+209:Newark, NJ -> 209:Chicago, IL 1.5
+209:Newark, NJ -> 209:Philadelphia, PA 0.576529
+209:Newark, NJ -> 209:New York, NY 4
+209:Newark, NJ -> 209:Houston, TX 4
+209:Sunnyvale, CA -> 209:Palo Alto, CA 0.064134
+209:Sunnyvale, CA -> 209:Kansas City, MO 4
+209:Sunnyvale, CA -> 209:San Jose, CA 1
+209:Sunnyvale, CA -> 209:Burbank, CA 2
+209:Sunnyvale, CA -> 209:Washington, DC 5
+209:Sunnyvale, CA -> 209:Sydney, Australia 59.7783
+209:Sunnyvale, CA -> 209:Denver, CO 3.5
+209:Sunnyvale, CA -> 209:Chicago, IL 5
+209:Sunnyvale, CA -> 209:Sacramento, CA 0.704184
+209:Sunnyvale, CA -> 209:Tokyo, Japan 44.348
+209:Sunnyvale, CA -> 209:Houston, TX 3.5
+209:Hong Kong -> 209:Burbank, CA 58.1665
+209:Bismark, ND -> 209:Minneapolis, MN 3.07652
+209:Colorado Springs, CO -> 209:Denver, CO 0.511788
+209:Crescent City, CA -> 209:Chicago, IL 15.0223
+209:Los Angeles, CA -> 209:San Jose, CA 2.5
+209:Los Angeles, CA -> 209:Burbank, CA 0.5
+209:Los Angeles, CA -> 209:Orange, CA 0.31634
+209:Los Angeles, CA -> 209:San Diego, CA 0.930875
+209:Los Angeles, CA -> 209:Salt Lake City, UT 2.5
+209:Los Angeles, CA -> 209:Portland, OR 3.5
+209:Los Angeles, CA -> 209:Houston, TX 3
+209:Albuquerque, NM -> 209:Denver, CO 2.69636
+209:Rochester, MN -> 209:Omaha, NE 4.5
+209:Rochester, MN -> 209:Minneapolis, MN 0.629495373504581
+209:Rochester, MN -> 209:New York, NY 3.5
+209:Dallas, TX -> 209:Kansas City, MO 2
+209:Dallas, TX -> 209:Denver, CO 2.5
+209:Dallas, TX -> 209:Houston, TX 1.5
+209:Burbank, CA -> 209:Sunnyvale, CA 2
+209:Burbank, CA -> 209:Hong Kong 58.1665
+209:Burbank, CA -> 209:Anaheim, CA 0.268065406311296
+209:Burbank, CA -> 209:Tokyo, Japan 44.348
+209:Burbank, CA -> 209:Los Angeles, CA 0.5
+209:Burbank, CA -> 209:Houston, TX 2.5
+209:Spokane, WA -> 209:Salt Lake City, UT 4.40934
+209:Spokane, WA -> 209:Seattle, WA 3.90934
+209:Denver, CO -> 209:Dallas, TX 2.5
+209:Denver, CO -> 209:Chicago, IL 2.5
+209:Denver, CO -> 209:Salt Lake City, UT 2.5
+209:Denver, CO -> 209:Portland, OR 3.5
+209:Denver, CO -> 209:Cheyenne, WY 4.07903
+209:Denver, CO -> 209:Seattle, WA 4
+209:Denver, CO -> 209:Kansas City, MO 0.5
+209:Denver, CO -> 209:Sunnyvale, CA 3.5
+209:Denver, CO -> 209:Omaha, NE 3
+209:Denver, CO -> 209:Minneapolis, MN 3.5
+209:Denver, CO -> 209:Phoenix, AZ 5.92972
+209:Denver, CO -> 209:Colorado Springs, CO 0.511788
+209:Denver, CO -> 209:Englewood, CO 0.5
+209:Denver, CO -> 209:Albuquerque, NM 2.69636
+209:Philadelphia, PA -> 209:Newark, NJ 0.576529
+209:San Diego, CA -> 209:Los Angeles, CA 0.930875
+209:Salt Lake City, UT -> 209:Boise, ID 4.76843
+209:Salt Lake City, UT -> 209:Spokane, WA 4.40934
+209:Salt Lake City, UT -> 209:Denver, CO 2.5
+209:Salt Lake City, UT -> 209:Portland, OR 1
+209:Salt Lake City, UT -> 209:Seattle, WA 1.5
+209:Salt Lake City, UT -> 209:Los Angeles, CA 2.5
+209:Salt Lake City, UT -> 209:Billings, MT 3.1106
+209:Boise, ID -> 209:Salt Lake City, UT 4.76843
+209:Boise, ID -> 209:Seattle, WA 3.26843
+209:San Jose, CA -> 209:Sunnyvale, CA 1
+209:San Jose, CA -> 209:Washington, DC 6
+209:San Jose, CA -> 209:San Francisco, CA 0.381420811600469
+209:San Jose, CA -> 209:Las Vegas, NV 3.03749
+209:San Jose, CA -> 209:Los Angeles, CA 2.5
+209:San Jose, CA -> 209:Houston, TX 4.5
+209:Minneapolis, MN -> 209:Rochester, MN 0.629495373504581
+209:Minneapolis, MN -> 209:Denver, CO 3.5
+209:Minneapolis, MN -> 209:Chicago, IL 1
+209:Minneapolis, MN -> 209:Cedar Rapids, IA 0.5
+209:Minneapolis, MN -> 209:Sioux Falls, SD 3
+209:Minneapolis, MN -> 209:Des Moines, IA 3
+209:Minneapolis, MN -> 209:Seattle, WA 6.5
+209:Minneapolis, MN -> 209:Duluth, MN 1.08733
+209:Minneapolis, MN -> 209:Kansas City, MO 4
+209:Minneapolis, MN -> 209:Bismark, ND 3.07652
+209:Minneapolis, MN -> 209:Fargo, ND 1.72237
+209:San Francisco, CA -> 209:San Jose, CA 0.381420811600469
+209:San Francisco, CA -> 209:New York, NY 7.5
+209:San Francisco, CA -> 209:Englewood, CO 4
+209:Phoenix, AZ -> 209:Denver, CO 5.92972
+209:Phoenix, AZ -> 209:Tucson, AZ 0.902497
+209:Phoenix, AZ -> 209:Seattle, WA 8.92972
+209:Las Vegas, NV -> 209:San Jose, CA 3.03749
+209:Boston, MA -> 209:Chicago, IL 6.83381
+209:Boston, MA -> 209:New York, NY 5.33381
+209:Tukwila, WA -> 209:Seattle, WA 0.0890104
+209:Sioux Falls, SD -> 209:Omaha, NE 2.5
+209:Sioux Falls, SD -> 209:Minneapolis, MN 3
+209:Sioux Falls, SD -> 209:Cheyenne, WY 3.57903
+209:Tucson, AZ -> 209:Phoenix, AZ 0.902497
+209:Miami, FL -> 209:Tampa, FL 1.65249
+209:Cheyenne, WY -> 209:Denver, CO 4.07903
+209:Cheyenne, WY -> 209:Sioux Falls, SD 3.57903
+209:Seattle, WA -> 209:Spokane, WA 3.90934
+209:Seattle, WA -> 209:Denver, CO 4
+209:Seattle, WA -> 209:Bellevue, WA 0.0564711
+209:Seattle, WA -> 209:Tukwila, WA 0.0890104
+209:Seattle, WA -> 209:Salt Lake City, UT 1.5
+209:Seattle, WA -> 209:Portland, OR 0.5
+209:Seattle, WA -> 209:Boise, ID 3.26843
+209:Seattle, WA -> 209:Minneapolis, MN 6.5
+209:Seattle, WA -> 209:Omaha, NE 7
+209:Seattle, WA -> 209:Phoenix, AZ 8.92972
+209:Seattle, WA -> 209:Eugene, OR 2.00085
+209:Seattle, WA -> 209:Helena, MT 3.93983
+209:Kansas City, MO -> 209:Newark, NJ 1.5
+209:Kansas City, MO -> 209:Dallas, TX 2
+209:Kansas City, MO -> 209:Sunnyvale, CA 4
+209:Kansas City, MO -> 209:Minneapolis, MN 4
+209:Kansas City, MO -> 209:Washington, DC 2
+209:Kansas City, MO -> 209:Denver, CO 0.5
+209:Kansas City, MO -> 209:Chicago, IL 2
+209:Kansas City, MO -> 209:Cedar Rapids, IA 1.5
+209:Kansas City, MO -> 209:Atlanta, GA 2.5
+209:Kansas City, MO -> 209:Englewood, CO 1
+209:Sydney, Australia -> 209:Sunnyvale, CA 59.7783
+209:Helena, MT -> 209:Seattle, WA 3.93983
+209:Eugene, OR -> 209:Portland, OR 2.50085
+209:Eugene, OR -> 209:Seattle, WA 2.00085
+209:Sioux City, IA -> 209:Omaha, NE 0.713978
+209:Englewood, CO -> 209:Kansas City, MO 1
+209:Englewood, CO -> 209:San Francisco, CA 4
+209:Englewood, CO -> 209:Denver, CO 0.5
+209:Tokyo, Japan -> 209:Sunnyvale, CA 44.348
+209:Tokyo, Japan -> 209:Burbank, CA 44.348
+209:Houston, TX -> 209:Dallas, TX 1.5
+209:Houston, TX -> 209:Burbank, CA 2.5
+209:Houston, TX -> 209:Tampa, FL 2
+209:Houston, TX -> 209:Atlanta, GA 3
+209:Houston, TX -> 209:Newark, NJ 4
+209:Houston, TX -> 209:San Jose, CA 4.5
+209:Houston, TX -> 209:Sunnyvale, CA 3.5
+209:Houston, TX -> 209:Washington, DC 3.5
+209:Houston, TX -> 209:Los Angeles, CA 3
+209:Columbus, OH -> 209:Washington, DC 4.02136
+209:Columbus, OH -> 209:Atlanta, GA 3.52136
+209:Orange, CA -> 209:Los Angeles, CA 0.31634
+209:Cedar Rapids, IA -> 209:Kansas City, MO 1.5
+209:Cedar Rapids, IA -> 209:Minneapolis, MN 0.5
+209:Cedar Rapids, IA -> 209:Washington, DC 0.5
+209:Cedar Rapids, IA -> 209:Chicago, IL 1.5
+209:Bellevue, WA -> 209:Seattle, WA 0.0564711
+209:Chicago, IL -> 209:Boston, MA 6.83381
+209:Chicago, IL -> 209:Denver, CO 2.5
+209:Chicago, IL -> 209:Cedar Rapids, IA 1.5
+209:Chicago, IL -> 209:New York, NY 3.5
+209:Chicago, IL -> 209:Atlanta, GA 2.5
+209:Chicago, IL -> 209:Portland, OR 6
+209:Chicago, IL -> 209:Kansas City, MO 2
+209:Chicago, IL -> 209:Newark, NJ 1.5
+209:Chicago, IL -> 209:Sunnyvale, CA 5
+209:Chicago, IL -> 209:Minneapolis, MN 1
+209:Chicago, IL -> 209:Washington, DC 2
+209:Chicago, IL -> 209:Crescent City, CA 15.0223
+209:Ashburn, VA -> 209:Washington, DC 0.225316
+209:Atlanta, GA -> 209:Kansas City, MO 2.5
+209:Atlanta, GA -> 209:Washington, DC 2.5
+209:Atlanta, GA -> 209:Tampa, FL 2
+209:Atlanta, GA -> 209:Chicago, IL 2.5
+209:Atlanta, GA -> 209:Houston, TX 3
+209:Atlanta, GA -> 209:Columbus, OH 3.52136
+209:Billings, MT -> 209:Salt Lake City, UT 3.1106
+209:Omaha, NE -> 209:Rochester, MN 4.5
+209:Omaha, NE -> 209:Denver, CO 3
+209:Omaha, NE -> 209:Sioux Falls, SD 2.5
+209:Omaha, NE -> 209:Des Moines, IA 2.5
+209:Omaha, NE -> 209:Sioux City, IA 0.713978
+209:Omaha, NE -> 209:Seattle, WA 7
+209:Washington, DC -> 209:Tampa, FL 3.5
+209:Washington, DC -> 209:Chicago, IL 2
+209:Washington, DC -> 209:Cedar Rapids, IA 0.5
+209:Washington, DC -> 209:Ashburn, VA 0.225316
+209:Washington, DC -> 209:Arlington, VA 0.0416012
+209:Washington, DC -> 209:New York, NY 3.5
+209:Washington, DC -> 209:Atlanta, GA 2.5
+209:Washington, DC -> 209:Newark, NJ 0.5
+209:Washington, DC -> 209:Kansas City, MO 2
+209:Washington, DC -> 209:Sunnyvale, CA 5
+209:Washington, DC -> 209:San Jose, CA 6
+209:Washington, DC -> 209:Columbus, OH 4.02136
+209:Washington, DC -> 209:Houston, TX 3.5
+209:Sacramento, CA -> 209:Sunnyvale, CA 0.704184
+209:Anaheim, CA -> 209:Burbank, CA 0.268065406311296
+209:Fargo, ND -> 209:Minneapolis, MN 1.72237

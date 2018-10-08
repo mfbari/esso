@@ -1,0 +1,90 @@
+5400:Amsterdam, Netherlands -> 5400:Ashburn, VA 19546
+5400:Amsterdam, Netherlands -> 5400:Brussels, Belgium 1607
+5400:Amsterdam, Netherlands -> 5400:Dublin, Ireland 946
+5400:Amsterdam, Netherlands -> 5400:Frankfurt, Germany 6753
+5400:Amsterdam, Netherlands -> 5400:London, UnitedKingdom 24777
+5400:Amsterdam, Netherlands -> 5400:Madrid, Spain 2221
+5400:Amsterdam, Netherlands -> 5400:San Francisco, CA 2
+5400:Amsterdam, Netherlands -> 5400:Stockholm, Sweden 3053
+5400:Ashburn, VA -> 5400:Amsterdam, Netherlands 19546
+5400:Ashburn, VA -> 5400:Atlanta, GA 17
+5400:Ashburn, VA -> 5400:McLean, VA 2208
+5400:Ashburn, VA -> 5400:New York, NY 533
+5400:Ashburn, VA -> 5400:San Francisco, CA 5
+5400:Ashburn, VA -> 5400:Washington, DC 15347
+5400:Atlanta, GA -> 5400:Ashburn, VA 17
+5400:Brussels, Belgium -> 5400:Amsterdam, Netherlands 1607
+5400:Budapest, Hungary -> 5400:London, UnitedKingdom 16
+5400:Chicago, IL -> 5400:New York, NY 1560
+5400:Dublin, Ireland -> 5400:Amsterdam, Netherlands 946
+5400:Dublin, Ireland -> 5400:London, UnitedKingdom 687
+5400:Frankfurt, Germany -> 5400:Amsterdam, Netherlands 6753
+5400:Frankfurt, Germany -> 5400:London, UnitedKingdom 2804
+5400:Frankfurt, Germany -> 5400:Madrid, Spain 2
+5400:Frankfurt, Germany -> 5400:Milan, Italy 9
+5400:Frankfurt, Germany -> 5400:Stockholm, Sweden 2
+5400:Frankfurt, Germany -> 5400:Vienna, Austria 681
+5400:Goonhilly, UnitedKingdom -> 5400:London, UnitedKingdom 5282
+5400:Hayward, CA -> 5400:San Francisco, CA 2
+5400:Hong Kong -> 5400:Los Angeles, CA 107
+5400:Hong Kong -> 5400:Singapore 46
+5400:Hong Kong -> 5400:Sydney, Australia 6
+5400:Hong Kong -> 5400:Tokyo, Japan 50
+5400:London, UnitedKingdom -> 5400:Amsterdam, Netherlands 24777
+5400:London, UnitedKingdom -> 5400:Budapest, Hungary 16
+5400:London, UnitedKingdom -> 5400:Dublin, Ireland 687
+5400:London, UnitedKingdom -> 5400:Frankfurt, Germany 2804
+5400:London, UnitedKingdom -> 5400:Goonhilly, UnitedKingdom 5282
+5400:London, UnitedKingdom -> 5400:Madley, UnitedKingdom 3942
+5400:London, UnitedKingdom -> 5400:Madrid, Spain 2015
+5400:London, UnitedKingdom -> 5400:Milan, Italy 6246
+5400:London, UnitedKingdom -> 5400:New York, NY 36810
+5400:London, UnitedKingdom -> 5400:Paris, France 1050
+5400:London, UnitedKingdom -> 5400:Reading, UnitedKingdom 143
+5400:London, UnitedKingdom -> 5400:Stockholm, Sweden 3900
+5400:London, UnitedKingdom -> 5400:Zurich, Switzerland 5323
+5400:Los Angeles, CA -> 5400:Hong Kong 107
+5400:Los Angeles, CA -> 5400:San Francisco, CA 244
+5400:Los Angeles, CA -> 5400:Singapore 135
+5400:Los Angeles, CA -> 5400:Sydney, Australia 390
+5400:Los Angeles, CA -> 5400:Tokyo, Japan 6
+5400:Madley, UnitedKingdom -> 5400:London, UnitedKingdom 3942
+5400:Madrid, Spain -> 5400:Amsterdam, Netherlands 2221
+5400:Madrid, Spain -> 5400:Frankfurt, Germany 2
+5400:Madrid, Spain -> 5400:London, UnitedKingdom 2015
+5400:McLean, VA -> 5400:Ashburn, VA 2208
+5400:Milan, Italy -> 5400:Frankfurt, Germany 9
+5400:Milan, Italy -> 5400:London, UnitedKingdom 6246
+5400:Milan, Italy -> 5400:Vienna, Austria 706
+5400:New York, NY -> 5400:Ashburn, VA 533
+5400:New York, NY -> 5400:Chicago, IL 1560
+5400:New York, NY -> 5400:London, UnitedKingdom 36810
+5400:New York, NY -> 5400:San Francisco, CA 79
+5400:Paris, France -> 5400:London, UnitedKingdom 1050
+5400:Reading, UnitedKingdom -> 5400:London, UnitedKingdom 143
+5400:San Francisco, CA -> 5400:Amsterdam, Netherlands 2
+5400:San Francisco, CA -> 5400:Ashburn, VA 5
+5400:San Francisco, CA -> 5400:Hayward, CA 2
+5400:San Francisco, CA -> 5400:Los Angeles, CA 244
+5400:San Francisco, CA -> 5400:New York, NY 79
+5400:San Francisco, CA -> 5400:San Jose, CA 1298
+5400:San Francisco, CA -> 5400:Tokyo, Japan 480
+5400:San Jose, CA -> 5400:San Francisco, CA 1298
+5400:Singapore -> 5400:Hong Kong 46
+5400:Singapore -> 5400:Los Angeles, CA 135
+5400:Singapore -> 5400:Sydney, Australia 198
+5400:Singapore -> 5400:Tokyo, Japan 460
+5400:Stockholm, Sweden -> 5400:Amsterdam, Netherlands 3053
+5400:Stockholm, Sweden -> 5400:Frankfurt, Germany 2
+5400:Stockholm, Sweden -> 5400:London, UnitedKingdom 3900
+5400:Sydney, Australia -> 5400:Hong Kong 6
+5400:Sydney, Australia -> 5400:Los Angeles, CA 390
+5400:Sydney, Australia -> 5400:Singapore 198
+5400:Tokyo, Japan -> 5400:Hong Kong 50
+5400:Tokyo, Japan -> 5400:Los Angeles, CA 6
+5400:Tokyo, Japan -> 5400:San Francisco, CA 480
+5400:Tokyo, Japan -> 5400:Singapore 460
+5400:Vienna, Austria -> 5400:Frankfurt, Germany 681
+5400:Vienna, Austria -> 5400:Milan, Italy 706
+5400:Washington, DC -> 5400:Ashburn, VA 15347
+5400:Zurich, Switzerland -> 5400:London, UnitedKingdom 5323

@@ -1,0 +1,28 @@
+6939:Ashburn, VA -> 6939:New York, NY 444
+6939:Ashburn, VA -> 6939:Palo Alto, CA 550
+6939:Chicago, IL -> 6939:Fremont, CA 79
+6939:Chicago, IL -> 6939:New York, NY 51
+6939:Chicago, IL -> 6939:Palo Alto, CA 99
+6939:Chicago, IL -> 6939:San Jose, CA 83
+6939:Fremont, CA -> 6939:Chicago, IL 79
+6939:Fremont, CA -> 6939:Palo Alto, CA 1080
+6939:Fremont, CA -> 6939:San Jose, CA 28
+6939:McLean, VA -> 6939:New York, NY 35
+6939:McLean, VA -> 6939:Palo Alto, CA 96
+6939:New York, NY -> 6939:Ashburn, VA 444
+6939:New York, NY -> 6939:Chicago, IL 51
+6939:New York, NY -> 6939:McLean, VA 35
+6939:New York, NY -> 6939:Palo Alto, CA 42
+6939:New York, NY -> 6939:Washington, DC 101
+6939:Palo Alto, CA -> 6939:Ashburn, VA 550
+6939:Palo Alto, CA -> 6939:Chicago, IL 99
+6939:Palo Alto, CA -> 6939:Fremont, CA 1080
+6939:Palo Alto, CA -> 6939:McLean, VA 96
+6939:Palo Alto, CA -> 6939:New York, NY 42
+6939:Palo Alto, CA -> 6939:San Jose, CA 1378
+6939:Palo Alto, CA -> 6939:Washington, DC 335
+6939:San Jose, CA -> 6939:Chicago, IL 83
+6939:San Jose, CA -> 6939:Fremont, CA 28
+6939:San Jose, CA -> 6939:Palo Alto, CA 1378
+6939:Washington, DC -> 6939:New York, NY 101
+6939:Washington, DC -> 6939:Palo Alto, CA 335

@@ -1,0 +1,16 @@
+1784:Palo Alto, CA -> 1784:Chicago, IL 14.8563
+1784:Quincy, MA -> 1784:New York, NY 1.51385
+1784:Quincy, MA -> 1784:Reston, VA 2.23873
+1784:Quincy, MA -> 1784:Chicago, IL 6.8604
+1784:Chicago, IL -> 1784:Quincy, MA 6.8604
+1784:Chicago, IL -> 1784:Palo Alto, CA 14.8563
+1784:Atlanta, GA -> 1784:Charlotte, NC 1.83053
+1784:Atlanta, GA -> 1784:Reston, VA 4.28638
+1784:Atlanta, GA -> 1784:Miami, FL 4.87596
+1784:New York, NY -> 1784:Reston, VA 1.72488
+1784:New York, NY -> 1784:Quincy, MA 1.51385
+1784:Reston, VA -> 1784:New York, NY 1.72488
+1784:Reston, VA -> 1784:Quincy, MA 2.23873
+1784:Reston, VA -> 1784:Atlanta, GA 4.28638
+1784:Charlotte, NC -> 1784:Atlanta, GA 1.83053
+1784:Miami, FL -> 1784:Atlanta, GA 4.87596

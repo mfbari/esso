@@ -1,0 +1,110 @@
+1:Dallas, TX -> 1:Carrollton, TX 0.114973
+1:Denver, CO -> 1:Chicago, IL 7.98363
+1:Denver, CO -> 1:Carrollton, TX 7.61356
+1:Denver, CO -> 1:Seattle, WA 8.23947
+1:Denver, CO -> 1:San Jose, CA 1
+1:Denver, CO -> 1:Los Angeles, CA 2.5
+1:Washington, DC -> 1:Vienna, VA 0.11485
+1:Washington, DC -> 1:Philadelphia, PA 0.49456
+1:Washington, DC -> 1:Ashburn, VA 1
+1:Washington, DC -> 1:Chancetown, VA 1
+1:Washington, DC -> 1:Atlanta, GA 3.43782
+1:Washington, DC -> 1:Durham, NC 1.83266
+1:Washington, DC -> 1:Richmond, VA 1.49061
+1:Washington, DC -> 1:Miami, FL 7.44426
+1:San Diego, CA -> 1:Los Angeles, CA 0.930875
+1:Philadelphia, PA -> 1:New York, NY 1
+1:Philadelphia, PA -> 1:Washington, DC 0.49456
+1:Philadelphia, PA -> 1:Indianapolis, IN 1.5
+1:Philadelphia, PA -> 1:London, UnitedKingdom 28.4583
+1:Honolulu, HI -> 1:Los Angeles, CA 20.4912
+1:Durham, NC -> 1:Washington, DC 1.83266
+1:Mountain View, CA -> 1:Palo Alto, CA 1
+1:Mountain View, CA -> 1:San Jose, CA 1
+1:Burlington, MA -> 1:Boston, MA 3
+1:Burlington, MA -> 1:Cambridge, MA 3
+1:Boston, MA -> 1:New York, NY 4.33381
+1:Boston, MA -> 1:Chicago, IL 6.83381
+1:Boston, MA -> 1:Burlington, MA 3
+1:Boston, MA -> 1:Hartford, CT 0.747443
+1:Boston, MA -> 1:Cambridge, MA 1
+1:Vienna, VA -> 1:Washington, DC 0.11485
+1:Carrollton, TX -> 1:Phoenix, AZ 7.05361
+1:Carrollton, TX -> 1:Dallas, TX 0.114973
+1:Carrollton, TX -> 1:Atlanta, GA 5.80245
+1:Carrollton, TX -> 1:Denver, CO 7.61356
+1:Carrollton, TX -> 1:Indianapolis, IN 4.37007
+1:Carrollton, TX -> 1:Houston, TX 1.90951614749987
+1:Carrollton, TX -> 1:Austin, TX 1.5295
+1:Chancetown, VA -> 1:Ashburn, VA 1
+1:Chancetown, VA -> 1:Washington, DC 1
+1:Hartford, CT -> 1:Boston, MA 0.747443
+1:Richmond, VA -> 1:Washington, DC 1.49061
+1:Tampa, FL -> 1:Atlanta, GA 3.35395
+1:Tampa, FL -> 1:Miami, FL 1.65249
+1:Indianapolis, IN -> 1:Philadelphia, PA 1.5
+1:Indianapolis, IN -> 1:Chicago, IL 1
+1:Indianapolis, IN -> 1:Atlanta, GA 3.43238
+1:Indianapolis, IN -> 1:Carrollton, TX 4.37007
+1:London, UnitedKingdom -> 1:Philadelphia, PA 28.4583
+1:Portland, OR -> 1:Seattle, WA 1.16321
+1:New York, NY -> 1:Philadelphia, PA 1
+1:New York, NY -> 1:Newark, NJ 0.0710685
+1:New York, NY -> 1:Chicago, IL 2.5
+1:New York, NY -> 1:Boston, MA 4.33381
+1:New York, NY -> 1:Cleveland, OH 3.24744
+1:Phoenix, AZ -> 1:Carrollton, TX 7.05361
+1:Phoenix, AZ -> 1:Los Angeles, CA 2.94005
+1:Everett, WA -> 1:Seattle, WA 0.195383
+1:San Francisco, CA -> 1:Oakland, CA 0.123628
+1:Jacksonville, FL -> 1:Atlanta, GA 2.30231
+1:Rio de Janeiro, Brazil -> 1:Miami, FL 33.5706
+1:Oakland, CA -> 1:San Francisco, CA 0.123628
+1:Oakland, CA -> 1:San Jose, CA 0.308748
+1:Cleveland, OH -> 1:New York, NY 3.24744
+1:Cleveland, OH -> 1:Chicago, IL 1.74744
+1:Seattle, WA -> 1:Portland, OR 1.16321
+1:Seattle, WA -> 1:Denver, CO 8.23947
+1:Seattle, WA -> 1:Everett, WA 0.195383
+1:Seattle, WA -> 1:San Jose, CA 8.23947
+1:Los Angeles, CA -> 1:Phoenix, AZ 2.94005
+1:Los Angeles, CA -> 1:Honolulu, HI 20.4912
+1:Los Angeles, CA -> 1:Denver, CO 2.5
+1:Los Angeles, CA -> 1:Sydney, Australia 60.3095
+1:Los Angeles, CA -> 1:San Jose, CA 1.5
+1:Los Angeles, CA -> 1:San Diego, CA 0.930875
+1:Los Angeles, CA -> 1:Houston, TX 5.11356
+1:Sao Paolo, Brazil -> 1:Miami, FL 32.8115
+1:Sydney, Australia -> 1:Los Angeles, CA 60.3095
+1:San Jose, CA -> 1:Palo Alto, CA 1
+1:San Jose, CA -> 1:Mountain View, CA 1
+1:San Jose, CA -> 1:Denver, CO 1
+1:San Jose, CA -> 1:Oakland, CA 0.308748
+1:San Jose, CA -> 1:Seattle, WA 8.23947
+1:San Jose, CA -> 1:Los Angeles, CA 1.5
+1:Houston, TX -> 1:Carrollton, TX 1.90951614749987
+1:Houston, TX -> 1:Los Angeles, CA 5.11356
+1:Newark, NJ -> 1:New York, NY 0.0710685
+1:Minneapolis, MN -> 1:Chicago, IL 2.85502
+1:Chicago, IL -> 1:New York, NY 2.5
+1:Chicago, IL -> 1:Minneapolis, MN 2.85502
+1:Chicago, IL -> 1:Boston, MA 6.83381
+1:Chicago, IL -> 1:Denver, CO 7.98363
+1:Chicago, IL -> 1:Indianapolis, IN 1
+1:Chicago, IL -> 1:Cleveland, OH 1.74744
+1:Ashburn, VA -> 1:Chancetown, VA 1
+1:Ashburn, VA -> 1:Washington, DC 1
+1:Palo Alto, CA -> 1:Mountain View, CA 1
+1:Palo Alto, CA -> 1:San Jose, CA 1
+1:Atlanta, GA -> 1:Washington, DC 3.43782
+1:Atlanta, GA -> 1:Tampa, FL 3.35395
+1:Atlanta, GA -> 1:Jacksonville, FL 2.30231
+1:Atlanta, GA -> 1:Indianapolis, IN 3.43238
+1:Atlanta, GA -> 1:Carrollton, TX 5.80245
+1:Cambridge, MA -> 1:Burlington, MA 3
+1:Cambridge, MA -> 1:Boston, MA 1
+1:Miami, FL -> 1:Rio de Janeiro, Brazil 33.5706
+1:Miami, FL -> 1:Washington, DC 7.44426
+1:Miami, FL -> 1:Sao Paolo, Brazil 32.8115
+1:Miami, FL -> 1:Tampa, FL 1.65249
+1:Austin, TX -> 1:Carrollton, TX 1.5295

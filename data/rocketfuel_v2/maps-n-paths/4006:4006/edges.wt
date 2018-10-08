@@ -1,0 +1,18 @@
+4006:Palo Alto, CA -> 4006:San Francisco, CA 0.261255
+4006:Washington, DC -> 4006:San Francisco, CA 19.6506
+4006:Dallas, TX -> 4006:San Francisco, CA 11.9855
+4006:Dallas, TX -> 4006:Chicago, IL 6.43761
+4006:New York, NY -> 4006:San Francisco, CA 20.6844
+4006:New York, NY -> 4006:Chicago, IL 6.7244
+4006:San Francisco, CA -> 4006:Fort Worth, TX 11.7477
+4006:San Francisco, CA -> 4006:Palo Alto, CA 0.261255
+4006:San Francisco, CA -> 4006:Washington, DC 19.6506
+4006:San Francisco, CA -> 4006:Dallas, TX 11.9855
+4006:San Francisco, CA -> 4006:Chicago, IL 14.96
+4006:San Francisco, CA -> 4006:New York, NY 20.6844
+4006:Fort Worth, TX -> 4006:San Francisco, CA 11.7477
+4006:Fort Worth, TX -> 4006:Chicago, IL 6.6225
+4006:Chicago, IL -> 4006:Fort Worth, TX 6.6225
+4006:Chicago, IL -> 4006:San Francisco, CA 14.96
+4006:Chicago, IL -> 4006:Dallas, TX 6.43761
+4006:Chicago, IL -> 4006:New York, NY 6.7244

@@ -1,0 +1,658 @@
+3561:Aachen, Germany -> 3561:Koblenz, Germany 0.571024644485244
+3561:Aachen, Germany -> 3561:Saarbrucken, Germany 0.907842964968312
+3561:Amsterdam, Netherlands -> 3561:Anaheim, CA 44.9619929714566
+3561:Amsterdam, Netherlands -> 3561:Atlanta, GA 35.51168445693
+3561:Amsterdam, Netherlands -> 3561:Brussels, Belgium 0.699743613611879
+3561:Amsterdam, Netherlands -> 3561:Chicago, IL 33.282501312707
+3561:Amsterdam, Netherlands -> 3561:Copenhagen, Denmark 3.1318247112441
+3561:Amsterdam, Netherlands -> 3561:Dallas, TX 39.7066214595942
+3561:Amsterdam, Netherlands -> 3561:London, UnitedKingdom 1.88532911009081
+3561:Amsterdam, Netherlands -> 3561:Munich, Germany 3.07555420876988
+3561:Amsterdam, Netherlands -> 3561:New York, NY 29.5172132632674
+3561:Amsterdam, Netherlands -> 3561:Oslo, Norway 4.73415941771576
+3561:Amsterdam, Netherlands -> 3561:Paris, France 2.01525285021424
+3561:Amsterdam, Netherlands -> 3561:Rotterdam, Netherlands 0.303068368870065
+3561:Amsterdam, Netherlands -> 3561:San Jose, CA 44.2085725924744
+3561:Amsterdam, Netherlands -> 3561:Santa Clara, CA 44.2175268728217
+3561:Amsterdam, Netherlands -> 3561:Washington, DC 31.1416562118511
+3561:Anaheim, CA -> 3561:Amsterdam, Netherlands 44.9619929714566
+3561:Anaheim, CA -> 3561:Atlanta, GA 15.3977867429464
+3561:Anaheim, CA -> 3561:Boston, MA 20.7541372561803
+3561:Anaheim, CA -> 3561:Brussels, Belgium 45.153246490965
+3561:Anaheim, CA -> 3561:Chicago, IL 13.9207285787343
+3561:Anaheim, CA -> 3561:Cleveland, OH 16.3584659572178
+3561:Anaheim, CA -> 3561:Dallas, TX 9.82731733684756
+3561:Anaheim, CA -> 3561:Denver, CO 6.66493205442892
+3561:Anaheim, CA -> 3561:El Segundo, CA 0.234857954731444
+3561:Anaheim, CA -> 3561:Frankfurt, Germany 46.5194538923217
+3561:Anaheim, CA -> 3561:Houston, TX 10.8531501126871
+3561:Anaheim, CA -> 3561:Kansas City, MO 10.8087737974105
+3561:Anaheim, CA -> 3561:London, UnitedKingdom 43.7644511738127
+3561:Anaheim, CA -> 3561:Los Angeles, CA 0.268083922965192
+3561:Anaheim, CA -> 3561:Miami, FL 18.6187030780309
+3561:Anaheim, CA -> 3561:Minneapolis, MN 12.1883863030613
+3561:Anaheim, CA -> 3561:Nashville, TN 14.1665641608243
+3561:Anaheim, CA -> 3561:New York, NY 19.5768037387482
+3561:Anaheim, CA -> 3561:Osaka, Japan 46.1225302497602
+3561:Anaheim, CA -> 3561:Paris, France 45.401469500838
+3561:Anaheim, CA -> 3561:Philadelphia, PA 19.1235035934981
+3561:Anaheim, CA -> 3561:Phoenix, AZ 2.70810040111643
+3561:Anaheim, CA -> 3561:Raleigh, NC 17.8224847569355
+3561:Anaheim, CA -> 3561:Reston, VA 18.219279927496
+3561:Anaheim, CA -> 3561:Salt Lake City, UT 4.67241761525307
+3561:Anaheim, CA -> 3561:San Francisco, CA 3.02841119155949
+3561:Anaheim, CA -> 3561:San Jose, CA 2.64832087692555
+3561:Anaheim, CA -> 3561:Santa Clara, CA 2.67656998100312
+3561:Anaheim, CA -> 3561:Seattle, WA 7.87834861297578
+3561:Anaheim, CA -> 3561:Sydney, Australia 60.4348629327623
+3561:Anaheim, CA -> 3561:Washington, DC 18.3649503965559
+3561:Atlanta, GA -> 3561:Amsterdam, Netherlands 35.51168445693
+3561:Atlanta, GA -> 3561:Anaheim, CA 15.3977867429464
+3561:Atlanta, GA -> 3561:Austell, GA 0.106694361626488
+3561:Atlanta, GA -> 3561:Boston, MA 7.53546924433115
+3561:Atlanta, GA -> 3561:Brussels, Belgium 35.4263567257866
+3561:Atlanta, GA -> 3561:Chicago, IL 4.71810812635976
+3561:Atlanta, GA -> 3561:Cleveland, OH 4.46848221746077
+3561:Atlanta, GA -> 3561:Dallas, TX 5.75137875158028
+3561:Atlanta, GA -> 3561:Denver, CO 9.67081135208023
+3561:Atlanta, GA -> 3561:Frankfurt, Germany 36.9789550658062
+3561:Atlanta, GA -> 3561:Houston, TX 5.6298814446364
+3561:Atlanta, GA -> 3561:Kansas City, MO 5.41782759947356
+3561:Atlanta, GA -> 3561:London, UnitedKingdom 33.8418867059318
+3561:Atlanta, GA -> 3561:Miami, FL 4.87595735153362
+3561:Atlanta, GA -> 3561:Minneapolis, MN 7.29552400039716
+3561:Atlanta, GA -> 3561:Nashville, TN 1.72156084371978
+3561:Atlanta, GA -> 3561:New York, NY 6.00743024175476
+3561:Atlanta, GA -> 3561:Paris, France 35.1661381145147
+3561:Atlanta, GA -> 3561:Philadelphia, PA 5.38755930854701
+3561:Atlanta, GA -> 3561:Phoenix, AZ 12.7518948089011
+3561:Atlanta, GA -> 3561:Raleigh, NC 2.87054830888084
+3561:Atlanta, GA -> 3561:Reston, VA 4.28638052536589
+3561:Atlanta, GA -> 3561:Salt Lake City, UT 12.7097389467991
+3561:Atlanta, GA -> 3561:San Francisco, CA 17.2177866349203
+3561:Atlanta, GA -> 3561:Santa Clara, CA 16.9805122698195
+3561:Atlanta, GA -> 3561:Seattle, WA 17.5143459791053
+3561:Atlanta, GA -> 3561:Washington, DC 4.38018878263173
+3561:Austell, GA -> 3561:Atlanta, GA 0.106694361626488
+3561:Austin, TX -> 3561:Dallas, TX 1.45877351431596
+3561:Barcelona, Spain -> 3561:Madrid, Spain 2.52239930147364
+3561:Barcelona, Spain -> 3561:Paris, France 4.13991889254682
+3561:Berlin, Germany -> 3561:Dresden, Germany 0.827402966014663
+3561:Berlin, Germany -> 3561:Frankfurt, Germany 2.16152721948152
+3561:Berlin, Germany -> 3561:Wiesbaden, Germany 2.22780170069246
+3561:Bielefeld, Germany -> 3561:Budapest, Hungary 4.61558393342211
+3561:Bielefeld, Germany -> 3561:Hanover, Germany 0.45529641035385
+3561:Bielefeld, Germany -> 3561:Madrid, Spain 7.95500302528695
+3561:Bielefeld, Germany -> 3561:Osnabruck, Germany 0.216463453211918
+3561:Birmingham, UnitedKingdom -> 3561:London, UnitedKingdom 0.779261348086866
+3561:Boston, MA -> 3561:Anaheim, CA 20.7541372561803
+3561:Boston, MA -> 3561:Atlanta, GA 7.53546924433115
+3561:Boston, MA -> 3561:Chicago, IL 6.83381142072769
+3561:Boston, MA -> 3561:Cleveland, OH 4.4192102440479
+3561:Boston, MA -> 3561:Dallas, TX 12.4363734730694
+3561:Boston, MA -> 3561:Denver, CO 14.1420447163401
+3561:Boston, MA -> 3561:Houston, TX 12.900435070856
+3561:Boston, MA -> 3561:Kansas City, MO 10.018416469223
+3561:Boston, MA -> 3561:Miami, FL 10.1132853023755
+3561:Boston, MA -> 3561:Minneapolis, MN 9.01241211704843
+3561:Boston, MA -> 3561:Nashville, TN 7.57280252137376
+3561:Boston, MA -> 3561:New York, NY 1.52818775993091
+3561:Boston, MA -> 3561:Philadelphia, PA 2.14857505949722
+3561:Boston, MA -> 3561:Phoenix, AZ 18.4314405175688
+3561:Boston, MA -> 3561:Raleigh, NC 4.88711410738906
+3561:Boston, MA -> 3561:Reston, VA 3.25096569750035
+3561:Boston, MA -> 3561:Salt Lake City, UT 16.8443659140507
+3561:Boston, MA -> 3561:San Francisco, CA 21.7051140175425
+3561:Boston, MA -> 3561:Santa Clara, CA 21.566160629746
+3561:Boston, MA -> 3561:Seattle, WA 19.993175944005
+3561:Boston, MA -> 3561:Waltham, MA 0.0723761676914268
+3561:Boston, MA -> 3561:Washington, DC 3.15550474307128
+3561:Braunschweig, Germany -> 3561:Hanover, Germany 0.284733600456744
+3561:Braunschweig, Germany -> 3561:Leipzig, Germany 0.748154504083625
+3561:Bremen, Germany -> 3561:Hamburg, Germany 0.509984387833268
+3561:Bremen, Germany -> 3561:Hanover, Germany 0.475457514870492
+3561:Brussels, Belgium -> 3561:Amsterdam, Netherlands 0.699743613611879
+3561:Brussels, Belgium -> 3561:Anaheim, CA 45.153246490965
+3561:Brussels, Belgium -> 3561:Atlanta, GA 35.4263567257866
+3561:Brussels, Belgium -> 3561:Chicago, IL 33.3013346929556
+3561:Brussels, Belgium -> 3561:Dallas, TX 39.7135077602383
+3561:Brussels, Belgium -> 3561:Frankfurt, Germany 1.5622819497653
+3561:Brussels, Belgium -> 3561:London, UnitedKingdom 1.59576807051388
+3561:Brussels, Belgium -> 3561:New York, NY 29.4237388320008
+3561:Brussels, Belgium -> 3561:San Jose, CA 44.4537427727611
+3561:Brussels, Belgium -> 3561:Santa Clara, CA 44.4633629183998
+3561:Brussels, Belgium -> 3561:Stockholm, Sweden 6.40195349909088
+3561:Brussels, Belgium -> 3561:Washington, DC 31.0501948172976
+3561:Brussels, Belgium -> 3561:Zurich, Switzerland 2.46109841494613
+3561:Budapest, Hungary -> 3561:Bielefeld, Germany 4.61558393342211
+3561:Chicago, IL -> 3561:Amsterdam, Netherlands 33.282501312707
+3561:Chicago, IL -> 3561:Anaheim, CA 13.9207285787343
+3561:Chicago, IL -> 3561:Atlanta, GA 4.71810812635976
+3561:Chicago, IL -> 3561:Boston, MA 6.83381142072769
+3561:Chicago, IL -> 3561:Brussels, Belgium 33.3013346929556
+3561:Chicago, IL -> 3561:Cleveland, OH 2.47832477920296
+3561:Chicago, IL -> 3561:Dallas, TX 6.43760504337832
+3561:Chicago, IL -> 3561:Denver, CO 7.31964781963753
+3561:Chicago, IL -> 3561:Elk Grove, IL 0.148435035109407
+3561:Chicago, IL -> 3561:Frankfurt, Germany 34.8113763068339
+3561:Chicago, IL -> 3561:Houston, TX 7.55619251202906
+3561:Chicago, IL -> 3561:Kansas City, MO 3.28632854191965
+3561:Chicago, IL -> 3561:London, UnitedKingdom 31.7641191210355
+3561:Chicago, IL -> 3561:Miami, FL 9.56272458116584
+3561:Chicago, IL -> 3561:Minneapolis, MN 2.85501508977803
+3561:Chicago, IL -> 3561:Nashville, TN 3.18026833684048
+3561:Chicago, IL -> 3561:New York, NY 5.72539765160039
+3561:Chicago, IL -> 3561:Oak Brook, IL 0.127570236677293
+3561:Chicago, IL -> 3561:Paris, France 33.2397701065739
+3561:Chicago, IL -> 3561:Philadelphia, PA 5.3491117284948
+3561:Chicago, IL -> 3561:Phoenix, AZ 11.6351669582945
+3561:Chicago, IL -> 3561:Raleigh, NC 5.1339999825284
+3561:Chicago, IL -> 3561:Relay, MD 4.84200126992576
+3561:Chicago, IL -> 3561:Reston, VA 4.64946654382595
+3561:Chicago, IL -> 3561:Roachdale, IN 1.1760773032622
+3561:Chicago, IL -> 3561:Salt Lake City, UT 10.1122732690684
+3561:Chicago, IL -> 3561:San Francisco, CA 14.960010383025
+3561:Chicago, IL -> 3561:San Jose, CA 14.7744081963979
+3561:Chicago, IL -> 3561:Santa Clara, CA 14.8016488559537
+3561:Chicago, IL -> 3561:Seattle, WA 13.9413353089448
+3561:Chicago, IL -> 3561:Toronto, Canada 3.52496412161527
+3561:Chicago, IL -> 3561:Washington, DC 4.79269864527852
+3561:Cleveland, OH -> 3561:Anaheim, CA 16.3584659572178
+3561:Cleveland, OH -> 3561:Atlanta, GA 4.46848221746077
+3561:Cleveland, OH -> 3561:Boston, MA 4.4192102440479
+3561:Cleveland, OH -> 3561:Chicago, IL 2.47832477920296
+3561:Cleveland, OH -> 3561:Dallas, TX 8.22107498325243
+3561:Cleveland, OH -> 3561:Denver, CO 9.78814502697378
+3561:Cleveland, OH -> 3561:New York, NY 3.24743960868072
+3561:Cleveland, OH -> 3561:Reston, VA 2.32997267259949
+3561:Cleveland, OH -> 3561:San Francisco, CA 17.4382515867408
+3561:Cleveland, OH -> 3561:Santa Clara, CA 17.2797889106403
+3561:Cleveland, OH -> 3561:Seattle, WA 16.2545272881117
+3561:Copenhagen, Denmark -> 3561:Amsterdam, Netherlands 3.1318247112441
+3561:Copenhagen, Denmark -> 3561:Stockholm, Sweden 2.62276937481765
+3561:Dallas, TX -> 3561:Amsterdam, Netherlands 39.7066214595942
+3561:Dallas, TX -> 3561:Anaheim, CA 9.82731733684756
+3561:Dallas, TX -> 3561:Atlanta, GA 5.75137875158028
+3561:Dallas, TX -> 3561:Austin, TX 1.45877351431596
+3561:Dallas, TX -> 3561:Boston, MA 12.4363734730694
+3561:Dallas, TX -> 3561:Brussels, Belgium 39.7135077602383
+3561:Dallas, TX -> 3561:Chicago, IL 6.43760504337832
+3561:Dallas, TX -> 3561:Cleveland, OH 8.22107498325243
+3561:Dallas, TX -> 3561:Denver, CO 5.31257916564315
+3561:Dallas, TX -> 3561:Fort Worth, TX 0.268573287761392
+3561:Dallas, TX -> 3561:Frankfurt, Germany 41.2305530122737
+3561:Dallas, TX -> 3561:Houston, TX 1.79734274874247
+3561:Dallas, TX -> 3561:Kansas City, MO 3.65508976734151
+3561:Dallas, TX -> 3561:London, UnitedKingdom 38.1674006550285
+3561:Dallas, TX -> 3561:Miami, FL 8.90426431888901
+3561:Dallas, TX -> 3561:Minneapolis, MN 6.94067535851738
+3561:Dallas, TX -> 3561:Nashville, TN 4.93325950050165
+3561:Dallas, TX -> 3561:New York, NY 11.0009242092306
+3561:Dallas, TX -> 3561:Paris, France 39.6193278756079
+3561:Dallas, TX -> 3561:Philadelphia, PA 10.4325406765224
+3561:Dallas, TX -> 3561:Phoenix, AZ 7.13022347450063
+3561:Dallas, TX -> 3561:Raleigh, NC 8.46405012296202
+3561:Dallas, TX -> 3561:Reston, VA 9.36657543544819
+3561:Dallas, TX -> 3561:Salt Lake City, UT 8.0588108384029
+3561:Dallas, TX -> 3561:San Francisco, CA 11.9855228230229
+3561:Dallas, TX -> 3561:San Jose, CA 11.6748469301052
+3561:Dallas, TX -> 3561:Santa Clara, CA 11.7075770478765
+3561:Dallas, TX -> 3561:Seattle, WA 13.5297009811618
+3561:Dallas, TX -> 3561:Washington, DC 9.49836499313979
+3561:Denver, CO -> 3561:Anaheim, CA 6.66493205442892
+3561:Denver, CO -> 3561:Atlanta, GA 9.67081135208023
+3561:Denver, CO -> 3561:Boston, MA 14.1420447163401
+3561:Denver, CO -> 3561:Chicago, IL 7.31964781963753
+3561:Denver, CO -> 3561:Cleveland, OH 9.78814502697378
+3561:Denver, CO -> 3561:Dallas, TX 5.31257916564315
+3561:Denver, CO -> 3561:Houston, TX 7.03404047235019
+3561:Denver, CO -> 3561:Kansas City, MO 4.43904533913298
+3561:Denver, CO -> 3561:Miami, FL 13.8282594395366
+3561:Denver, CO -> 3561:Minneapolis, MN 5.56642042984832
+3561:Denver, CO -> 3561:Nashville, TN 8.15383238688688
+3561:Denver, CO -> 3561:New York, NY 13.0319252204767
+3561:Denver, CO -> 3561:Philadelphia, PA 12.618408070217
+3561:Denver, CO -> 3561:Phoenix, AZ 4.71855022803752
+3561:Denver, CO -> 3561:Raleigh, NC 11.6747639634327
+3561:Denver, CO -> 3561:Reston, VA 11.7905848820223
+3561:Denver, CO -> 3561:Santa Clara, CA 7.53787823265871
+3561:Denver, CO -> 3561:Seattle, WA 8.23946958515862
+3561:Denver, CO -> 3561:Washington, DC 11.9373254278376
+3561:Dortmund, Germany -> 3561:Dusseldorf, Germany 0.325793927884639
+3561:Dortmund, Germany -> 3561:Essen, Germany 0.84504220870189
+3561:Dresden, Germany -> 3561:Berlin, Germany 0.827402966014663
+3561:Dresden, Germany -> 3561:Frankfurt, Germany 1.91804909870656
+3561:Dresden, Germany -> 3561:Munich, Germany 1.79847931574585
+3561:Dublin, Ireland -> 3561:London, UnitedKingdom 2.329340820098
+3561:Dusseldorf, Germany -> 3561:Dortmund, Germany 0.325793927884639
+3561:Dusseldorf, Germany -> 3561:Frankfurt, Germany 0.944468343206374
+3561:Dusseldorf, Germany -> 3561:Munich, Germany 2.45826560385305
+3561:El Segundo, CA -> 3561:Anaheim, CA 0.234857954731444
+3561:Elk Grove, IL -> 3561:Chicago, IL 0.148435035109407
+3561:Essen, Germany -> 3561:Dortmund, Germany 0.84504220870189
+3561:Fort Worth, TX -> 3561:Dallas, TX 0.268573287761392
+3561:Frankfurt, Germany -> 3561:Anaheim, CA 46.5194538923217
+3561:Frankfurt, Germany -> 3561:Atlanta, GA 36.9789550658062
+3561:Frankfurt, Germany -> 3561:Berlin, Germany 2.16152721948152
+3561:Frankfurt, Germany -> 3561:Brussels, Belgium 1.5622819497653
+3561:Frankfurt, Germany -> 3561:Chicago, IL 34.8113763068339
+3561:Frankfurt, Germany -> 3561:Dallas, TX 41.2305530122737
+3561:Frankfurt, Germany -> 3561:Dresden, Germany 1.91804909870656
+3561:Frankfurt, Germany -> 3561:Dusseldorf, Germany 0.944468343206374
+3561:Frankfurt, Germany -> 3561:Geneva, Switzerland 2.29718467029344
+3561:Frankfurt, Germany -> 3561:Hamburg, Germany 2.0357355149515
+3561:Frankfurt, Germany -> 3561:Hanover, Germany 1.38506408676656
+3561:Frankfurt, Germany -> 3561:Karlsruhe, Germany 1.98059150137607
+3561:Frankfurt, Germany -> 3561:Koblenz, Germany 0.395850772561136
+3561:Frankfurt, Germany -> 3561:Leipzig, Germany 1.49646134274245
+3561:Frankfurt, Germany -> 3561:London, UnitedKingdom 3.15804073417278
+3561:Frankfurt, Germany -> 3561:Madrid, Spain 7.15087408784109
+3561:Frankfurt, Germany -> 3561:Mannheim, Germany 0.306529590827448
+3561:Frankfurt, Germany -> 3561:Munich, Germany 1.51653740453145
+3561:Frankfurt, Germany -> 3561:New York, NY 30.9779065131767
+3561:Frankfurt, Germany -> 3561:Nuremberg, Germany 0.951366245531706
+3561:Frankfurt, Germany -> 3561:Paris, France 2.34012884016252
+3561:Frankfurt, Germany -> 3561:Saarbrucken, Germany 0.713410290465443
+3561:Frankfurt, Germany -> 3561:San Jose, CA 45.7543585286956
+3561:Frankfurt, Germany -> 3561:Santa Clara, CA 45.7631011604924
+3561:Frankfurt, Germany -> 3561:Stuttgart, Germany 0.719728483477231
+3561:Frankfurt, Germany -> 3561:Vienna, Austria 3.00603025209055
+3561:Frankfurt, Germany -> 3561:Washington, DC 32.6040058370753
+3561:Frankfurt, Germany -> 3561:Wiesbaden, Germany 0.124561143207064
+3561:Frankfurt, Germany -> 3561:Zurich, Switzerland 1.47245906075377
+3561:Geneva, Switzerland -> 3561:Frankfurt, Germany 2.29718467029344
+3561:Geneva, Switzerland -> 3561:Paris, France 2.02482144001829
+3561:Hamburg, Germany -> 3561:Bremen, Germany 0.509984387833268
+3561:Hamburg, Germany -> 3561:Frankfurt, Germany 2.0357355149515
+3561:Hamburg, Germany -> 3561:Kiel, Germany 0.427232945126656
+3561:Hamburg, Germany -> 3561:Lubeck, Germany 0.270827960336994
+3561:Hamburg, Germany -> 3561:Munich, Germany 3.06727126653358
+3561:Hanover, Germany -> 3561:Bielefeld, Germany 0.45529641035385
+3561:Hanover, Germany -> 3561:Braunschweig, Germany 0.284733600456744
+3561:Hanover, Germany -> 3561:Bremen, Germany 0.475457514870492
+3561:Hanover, Germany -> 3561:Frankfurt, Germany 1.38506408676656
+3561:Hartford, CT -> 3561:New York, NY 0.802792522556184
+3561:Heidelberg, Germany -> 3561:Stuttgart, Germany 1.55412346477622
+3561:Herndon, VA -> 3561:Sterling, VA 2.44730785550442
+3561:Houston, TX -> 3561:Anaheim, CA 10.8531501126871
+3561:Houston, TX -> 3561:Atlanta, GA 5.6298814446364
+3561:Houston, TX -> 3561:Boston, MA 12.900435070856
+3561:Houston, TX -> 3561:Chicago, IL 7.55619251202906
+3561:Houston, TX -> 3561:Dallas, TX 1.79734274874247
+3561:Houston, TX -> 3561:Denver, CO 7.03404047235019
+3561:Houston, TX -> 3561:Miami, FL 7.78291635613633
+3561:Houston, TX -> 3561:New York, NY 11.4027441257575
+3561:Houston, TX -> 3561:Reston, VA 9.69772451442481
+3561:Houston, TX -> 3561:San Francisco, CA 13.2566655600974
+3561:Houston, TX -> 3561:Santa Clara, CA 12.957497303603
+3561:Houston, TX -> 3561:Seattle, WA 15.1947572412764
+3561:Houston, TX -> 3561:Washington, DC 9.81518726240613
+3561:Jersey City, NJ -> 3561:New York, NY 0.0311658943986449
+3561:Kansas City, MO -> 3561:Anaheim, CA 10.8087737974105
+3561:Kansas City, MO -> 3561:Atlanta, GA 5.41782759947356
+3561:Kansas City, MO -> 3561:Boston, MA 10.018416469223
+3561:Kansas City, MO -> 3561:Chicago, IL 3.28632854191965
+3561:Kansas City, MO -> 3561:Dallas, TX 3.65508976734151
+3561:Kansas City, MO -> 3561:Denver, CO 4.43904533913298
+3561:Kansas City, MO -> 3561:New York, NY 8.77953531035692
+3561:Kansas City, MO -> 3561:Reston, VA 7.42011743036462
+3561:Kansas City, MO -> 3561:San Francisco, CA 12.1581598341962
+3561:Kansas City, MO -> 3561:Santa Clara, CA 11.9604772788171
+3561:Kansas City, MO -> 3561:Seattle, WA 12.0984029953721
+3561:Karlsruhe, Germany -> 3561:Frankfurt, Germany 1.98059150137607
+3561:Karlsruhe, Germany -> 3561:Wiesbaden, Germany 2.04386738514248
+3561:Kiel, Germany -> 3561:Hamburg, Germany 0.427232945126656
+3561:Koblenz, Germany -> 3561:Aachen, Germany 0.571024644485244
+3561:Koblenz, Germany -> 3561:Frankfurt, Germany 0.395850772561136
+3561:Leipzig, Germany -> 3561:Braunschweig, Germany 0.748154504083625
+3561:Leipzig, Germany -> 3561:Frankfurt, Germany 1.49646134274245
+3561:Leipzig, Germany -> 3561:Munich, Germany 1.82919975658744
+3561:London, UnitedKingdom -> 3561:Amsterdam, Netherlands 1.88532911009081
+3561:London, UnitedKingdom -> 3561:Anaheim, CA 43.7644511738127
+3561:London, UnitedKingdom -> 3561:Atlanta, GA 33.8418867059318
+3561:London, UnitedKingdom -> 3561:Birmingham, UnitedKingdom 0.779261348086866
+3561:London, UnitedKingdom -> 3561:Brussels, Belgium 1.59576807051388
+3561:London, UnitedKingdom -> 3561:Chicago, IL 31.7641191210355
+3561:London, UnitedKingdom -> 3561:Dallas, TX 38.1674006550285
+3561:London, UnitedKingdom -> 3561:Dublin, Ireland 2.329340820098
+3561:London, UnitedKingdom -> 3561:Frankfurt, Germany 3.15804073417278
+3561:London, UnitedKingdom -> 3561:Manchester, UnitedKingdom 1.30596358165561
+3561:London, UnitedKingdom -> 3561:New York, NY 27.8377559786444
+3561:London, UnitedKingdom -> 3561:Paris, France 1.71246693397065
+3561:London, UnitedKingdom -> 3561:San Jose, CA 43.1339210605594
+3561:London, UnitedKingdom -> 3561:Santa Clara, CA 43.1444494186306
+3561:London, UnitedKingdom -> 3561:Swindon, UnitedKingdom 0
+3561:London, UnitedKingdom -> 3561:Washington, DC 29.4645463284345
+3561:Los Angeles, CA -> 3561:Anaheim, CA 0.268083922965192
+3561:Los Angeles, CA -> 3561:San Jose, CA 2.39033852037053
+3561:Los Angeles, CA -> 3561:Santa Clara, CA 2.41808124152145
+3561:Lubeck, Germany -> 3561:Hamburg, Germany 0.270827960336994
+3561:Madrid, Spain -> 3561:Barcelona, Spain 2.52239930147364
+3561:Madrid, Spain -> 3561:Bielefeld, Germany 7.95500302528695
+3561:Madrid, Spain -> 3561:Frankfurt, Germany 7.15087408784109
+3561:Madrid, Spain -> 3561:Paris, France 5.25377044095577
+3561:Manchester, UnitedKingdom -> 3561:London, UnitedKingdom 1.30596358165561
+3561:Mannheim, Germany -> 3561:Frankfurt, Germany 0.306529590827448
+3561:Miami, FL -> 3561:Anaheim, CA 18.6187030780309
+3561:Miami, FL -> 3561:Atlanta, GA 4.87595735153362
+3561:Miami, FL -> 3561:Boston, MA 10.1132853023755
+3561:Miami, FL -> 3561:Chicago, IL 9.56272458116584
+3561:Miami, FL -> 3561:Dallas, TX 8.90426431888901
+3561:Miami, FL -> 3561:Denver, CO 13.8282594395366
+3561:Miami, FL -> 3561:Houston, TX 7.78291635613633
+3561:Miami, FL -> 3561:New York, NY 8.77880309119896
+3561:Miami, FL -> 3561:Reston, VA 7.44187406917727
+3561:Miami, FL -> 3561:San Francisco, CA 20.8890335250618
+3561:Miami, FL -> 3561:Santa Clara, CA 20.608532200214
+3561:Miami, FL -> 3561:Seattle, WA 21.9693515292004
+3561:Miami, FL -> 3561:Washington, DC 7.44426393180017
+3561:Milan, Italy -> 3561:Zurich, Switzerland 1.07711497718376
+3561:Minneapolis, MN -> 3561:Anaheim, CA 12.1883863030613
+3561:Minneapolis, MN -> 3561:Atlanta, GA 7.29552400039716
+3561:Minneapolis, MN -> 3561:Boston, MA 9.01241211704843
+3561:Minneapolis, MN -> 3561:Chicago, IL 2.85501508977803
+3561:Minneapolis, MN -> 3561:Dallas, TX 6.94067535851738
+3561:Minneapolis, MN -> 3561:Denver, CO 5.56642042984832
+3561:Minneapolis, MN -> 3561:New York, NY 8.17236160928336
+3561:Minneapolis, MN -> 3561:Reston, VA 7.36734552947252
+3561:Minneapolis, MN -> 3561:San Francisco, CA 12.7660993275408
+3561:Minneapolis, MN -> 3561:Santa Clara, CA 12.6528904523101
+3561:Minneapolis, MN -> 3561:Seattle, WA 11.1944979526771
+3561:Minneapolis, MN -> 3561:Washington, DC 7.50419086797768
+3561:Moscow, Russia -> 3561:Stockholm, Sweden 6.15731511179242
+3561:Munich, Germany -> 3561:Amsterdam, Netherlands 3.07555420876988
+3561:Munich, Germany -> 3561:Dresden, Germany 1.79847931574585
+3561:Munich, Germany -> 3561:Dusseldorf, Germany 2.45826560385305
+3561:Munich, Germany -> 3561:Frankfurt, Germany 1.51653740453145
+3561:Munich, Germany -> 3561:Hamburg, Germany 3.06727126653358
+3561:Munich, Germany -> 3561:Leipzig, Germany 1.82919975658744
+3561:Munich, Germany -> 3561:Nuremberg, Germany 0.755617949588632
+3561:Munich, Germany -> 3561:Regensburg, Germany 0.526269410027734
+3561:Munich, Germany -> 3561:Stuttgart, Germany 0.935983454590415
+3561:Munich, Germany -> 3561:Vienna, Austria 1.77265425069375
+3561:Munich, Germany -> 3561:Wiesbaden, Germany 1.63023761556038
+3561:Nashville, TN -> 3561:Anaheim, CA 14.1665641608243
+3561:Nashville, TN -> 3561:Atlanta, GA 1.72156084371978
+3561:Nashville, TN -> 3561:Boston, MA 7.57280252137376
+3561:Nashville, TN -> 3561:Chicago, IL 3.18026833684048
+3561:Nashville, TN -> 3561:Dallas, TX 4.93325950050165
+3561:Nashville, TN -> 3561:Denver, CO 8.15383238688688
+3561:Nashville, TN -> 3561:New York, NY 6.10037609683168
+3561:Nashville, TN -> 3561:Reston, VA 4.43830019296554
+3561:Nashville, TN -> 3561:San Francisco, CA 15.8047186840098
+3561:Nashville, TN -> 3561:Santa Clara, CA 15.5844410217856
+3561:Nashville, TN -> 3561:Seattle, WA 15.851476052472
+3561:Nashville, TN -> 3561:Washington, DC 4.56807112804811
+3561:New York, NY -> 3561:Amsterdam, Netherlands 29.5172132632674
+3561:New York, NY -> 3561:Anaheim, CA 19.5768037387482
+3561:New York, NY -> 3561:Atlanta, GA 6.00743024175476
+3561:New York, NY -> 3561:Boston, MA 1.52818775993091
+3561:New York, NY -> 3561:Brussels, Belgium 29.4237388320008
+3561:New York, NY -> 3561:Chicago, IL 5.72539765160039
+3561:New York, NY -> 3561:Cleveland, OH 3.24743960868072
+3561:New York, NY -> 3561:Dallas, TX 11.0009242092306
+3561:New York, NY -> 3561:Denver, CO 13.0319252204767
+3561:New York, NY -> 3561:Frankfurt, Germany 30.9779065131767
+3561:New York, NY -> 3561:Hartford, CT 0.802792522556184
+3561:New York, NY -> 3561:Houston, TX 11.4027441257575
+3561:New York, NY -> 3561:Jersey City, NJ 0.0311658943986449
+3561:New York, NY -> 3561:Kansas City, MO 8.77953531035692
+3561:New York, NY -> 3561:London, UnitedKingdom 27.8377559786444
+3561:New York, NY -> 3561:Miami, FL 8.77880309119896
+3561:New York, NY -> 3561:Minneapolis, MN 8.17236160928336
+3561:New York, NY -> 3561:Nashville, TN 6.10037609683168
+3561:New York, NY -> 3561:Paris, France 29.1588945256645
+3561:New York, NY -> 3561:Philadelphia, PA 0.620583384672223
+3561:New York, NY -> 3561:Phoenix, AZ 17.184736870328
+3561:New York, NY -> 3561:Raleigh, NC 3.39125510012522
+3561:New York, NY -> 3561:Relay, MD 1.41475697801824
+3561:New York, NY -> 3561:Reston, VA 1.72487836525027
+3561:New York, NY -> 3561:Salt Lake City, UT 15.8327352787206
+3561:New York, NY -> 3561:San Francisco, CA 20.6843954593898
+3561:New York, NY -> 3561:San Jose, CA 20.4998013750844
+3561:New York, NY -> 3561:Santa Clara, CA 20.5270464743481
+3561:New York, NY -> 3561:Seattle, WA 19.3209613118993
+3561:New York, NY -> 3561:Toronto, Canada 2.74867344921157
+3561:New York, NY -> 3561:Washington, DC 1.62733364571067
+3561:New York, NY -> 3561:Weehawken, NJ 0.0312643364659312
+3561:Nuremberg, Germany -> 3561:Frankfurt, Germany 0.951366245531706
+3561:Nuremberg, Germany -> 3561:Munich, Germany 0.755617949588632
+3561:Oak Brook, IL -> 3561:Chicago, IL 0.127570236677293
+3561:Osaka, Japan -> 3561:Anaheim, CA 46.1225302497602
+3561:Oslo, Norway -> 3561:Amsterdam, Netherlands 4.73415941771576
+3561:Osnabruck, Germany -> 3561:Bielefeld, Germany 0.216463453211918
+3561:Palo Alto, CA -> 3561:San Francisco, CA 0.261255074734326
+3561:Palo Alto, CA -> 3561:Santa Clara, CA 0.0926850068982159
+3561:Paris, France -> 3561:Amsterdam, Netherlands 2.01525285021424
+3561:Paris, France -> 3561:Anaheim, CA 45.401469500838
+3561:Paris, France -> 3561:Atlanta, GA 35.1661381145147
+3561:Paris, France -> 3561:Barcelona, Spain 4.13991889254682
+3561:Paris, France -> 3561:Chicago, IL 33.2397701065739
+3561:Paris, France -> 3561:Dallas, TX 39.6193278756079
+3561:Paris, France -> 3561:Frankfurt, Germany 2.34012884016252
+3561:Paris, France -> 3561:Geneva, Switzerland 2.02482144001829
+3561:Paris, France -> 3561:London, UnitedKingdom 1.71246693397065
+3561:Paris, France -> 3561:Madrid, Spain 5.25377044095577
+3561:Paris, France -> 3561:New York, NY 29.1588945256645
+3561:Paris, France -> 3561:Santa Clara, CA 44.817610082537
+3561:Paris, France -> 3561:Washington, DC 30.7859883557325
+3561:Philadelphia, PA -> 3561:Anaheim, CA 19.1235035934981
+3561:Philadelphia, PA -> 3561:Atlanta, GA 5.38755930854701
+3561:Philadelphia, PA -> 3561:Boston, MA 2.14857505949722
+3561:Philadelphia, PA -> 3561:Chicago, IL 5.3491117284948
+3561:Philadelphia, PA -> 3561:Dallas, TX 10.4325406765224
+3561:Philadelphia, PA -> 3561:Denver, CO 12.618408070217
+3561:Philadelphia, PA -> 3561:New York, NY 0.620583384672223
+3561:Philadelphia, PA -> 3561:Reston, VA 1.10929827954272
+3561:Philadelphia, PA -> 3561:San Francisco, CA 20.2998046948592
+3561:Philadelphia, PA -> 3561:Santa Clara, CA 20.1345027682307
+3561:Philadelphia, PA -> 3561:Seattle, WA 19.0896785660613
+3561:Philadelphia, PA -> 3561:Washington, DC 1.00741082347545
+3561:Phoenix, AZ -> 3561:Anaheim, CA 2.70810040111643
+3561:Phoenix, AZ -> 3561:Atlanta, GA 12.7518948089011
+3561:Phoenix, AZ -> 3561:Boston, MA 18.4314405175688
+3561:Phoenix, AZ -> 3561:Chicago, IL 11.6351669582945
+3561:Phoenix, AZ -> 3561:Dallas, TX 7.13022347450063
+3561:Phoenix, AZ -> 3561:Denver, CO 4.71855022803752
+3561:Phoenix, AZ -> 3561:New York, NY 17.184736870328
+3561:Phoenix, AZ -> 3561:Reston, VA 15.7546815415681
+3561:Phoenix, AZ -> 3561:San Francisco, CA 5.2846294477827
+3561:Phoenix, AZ -> 3561:Santa Clara, CA 4.95428520102099
+3561:Phoenix, AZ -> 3561:Seattle, WA 8.92971964408383
+3561:Phoenix, AZ -> 3561:Washington, DC 15.8987822403206
+3561:Portland, OR -> 3561:Seattle, WA 1.1632071890148
+3561:Raleigh, NC -> 3561:Anaheim, CA 17.8224847569355
+3561:Raleigh, NC -> 3561:Atlanta, GA 2.87054830888084
+3561:Raleigh, NC -> 3561:Boston, MA 4.88711410738906
+3561:Raleigh, NC -> 3561:Chicago, IL 5.1339999825284
+3561:Raleigh, NC -> 3561:Dallas, TX 8.46405012296202
+3561:Raleigh, NC -> 3561:Denver, CO 11.6747639634327
+3561:Raleigh, NC -> 3561:New York, NY 3.39125510012522
+3561:Raleigh, NC -> 3561:Reston, VA 1.83538006586993
+3561:Raleigh, NC -> 3561:San Francisco, CA 19.3820423288318
+3561:Raleigh, NC -> 3561:Santa Clara, CA 19.1744055172166
+3561:Raleigh, NC -> 3561:Seattle, WA 18.98216578317
+3561:Raleigh, NC -> 3561:Washington, DC 1.8616231104935
+3561:Regensburg, Germany -> 3561:Munich, Germany 0.526269410027734
+3561:Relay, MD -> 3561:Chicago, IL 4.84200126992576
+3561:Relay, MD -> 3561:New York, NY 1.41475697801824
+3561:Relay, MD -> 3561:Washington, DC 0.22235770619305
+3561:Reston, VA -> 3561:Anaheim, CA 18.219279927496
+3561:Reston, VA -> 3561:Atlanta, GA 4.28638052536589
+3561:Reston, VA -> 3561:Boston, MA 3.25096569750035
+3561:Reston, VA -> 3561:Chicago, IL 4.64946654382595
+3561:Reston, VA -> 3561:Cleveland, OH 2.32997267259949
+3561:Reston, VA -> 3561:Dallas, TX 9.36657543544819
+3561:Reston, VA -> 3561:Denver, CO 11.7905848820223
+3561:Reston, VA -> 3561:Houston, TX 9.69772451442481
+3561:Reston, VA -> 3561:Kansas City, MO 7.42011743036462
+3561:Reston, VA -> 3561:Miami, FL 7.44187406917727
+3561:Reston, VA -> 3561:Minneapolis, MN 7.36734552947252
+3561:Reston, VA -> 3561:Nashville, TN 4.43830019296554
+3561:Reston, VA -> 3561:New York, NY 1.72487836525027
+3561:Reston, VA -> 3561:Philadelphia, PA 1.10929827954272
+3561:Reston, VA -> 3561:Phoenix, AZ 15.7546815415681
+3561:Reston, VA -> 3561:Raleigh, NC 1.83538006586993
+3561:Reston, VA -> 3561:Salt Lake City, UT 14.6893320534593
+3561:Reston, VA -> 3561:San Francisco, CA 19.5039510756595
+3561:Reston, VA -> 3561:Santa Clara, CA 19.3259583745828
+3561:Reston, VA -> 3561:Seattle, WA 18.5531895843934
+3561:Reston, VA -> 3561:Washington, DC 0.146741247293788
+3561:Roachdale, IN -> 3561:Chicago, IL 1.1760773032622
+3561:Rotterdam, Netherlands -> 3561:Amsterdam, Netherlands 0.303068368870065
+3561:Saarbrucken, Germany -> 3561:Aachen, Germany 0.907842964968312
+3561:Saarbrucken, Germany -> 3561:Frankfurt, Germany 0.713410290465443
+3561:Salt Lake City, UT -> 3561:Anaheim, CA 4.67241761525307
+3561:Salt Lake City, UT -> 3561:Atlanta, GA 12.7097389467991
+3561:Salt Lake City, UT -> 3561:Boston, MA 16.8443659140507
+3561:Salt Lake City, UT -> 3561:Chicago, IL 10.1122732690684
+3561:Salt Lake City, UT -> 3561:Dallas, TX 8.0588108384029
+3561:Salt Lake City, UT -> 3561:New York, NY 15.8327352787206
+3561:Salt Lake City, UT -> 3561:Reston, VA 14.6893320534593
+3561:Salt Lake City, UT -> 3561:San Francisco, CA 4.86078201200779
+3561:Salt Lake City, UT -> 3561:Santa Clara, CA 4.72962062541796
+3561:Salt Lake City, UT -> 3561:Seattle, WA 5.62676654420176
+3561:Salt Lake City, UT -> 3561:Washington, DC 14.8356694118214
+3561:San Francisco, CA -> 3561:Anaheim, CA 3.02841119155949
+3561:San Francisco, CA -> 3561:Atlanta, GA 17.2177866349203
+3561:San Francisco, CA -> 3561:Boston, MA 21.7051140175425
+3561:San Francisco, CA -> 3561:Chicago, IL 14.960010383025
+3561:San Francisco, CA -> 3561:Cleveland, OH 17.4382515867408
+3561:San Francisco, CA -> 3561:Dallas, TX 11.9855228230229
+3561:San Francisco, CA -> 3561:Houston, TX 13.2566655600974
+3561:San Francisco, CA -> 3561:Kansas City, MO 12.1581598341962
+3561:San Francisco, CA -> 3561:Miami, FL 20.8890335250618
+3561:San Francisco, CA -> 3561:Minneapolis, MN 12.7660993275408
+3561:San Francisco, CA -> 3561:Nashville, TN 15.8047186840098
+3561:San Francisco, CA -> 3561:New York, NY 20.6843954593898
+3561:San Francisco, CA -> 3561:Palo Alto, CA 0.261255074734326
+3561:San Francisco, CA -> 3561:Philadelphia, PA 20.2998046948592
+3561:San Francisco, CA -> 3561:Phoenix, AZ 5.2846294477827
+3561:San Francisco, CA -> 3561:Raleigh, NC 19.3820423288318
+3561:San Francisco, CA -> 3561:Reston, VA 19.5039510756595
+3561:San Francisco, CA -> 3561:Salt Lake City, UT 4.86078201200779
+3561:San Francisco, CA -> 3561:San Jose, CA 0.381420811600469
+3561:San Francisco, CA -> 3561:Santa Clara, CA 0.352097076827034
+3561:San Francisco, CA -> 3561:Seattle, WA 5.46425584185052
+3561:San Francisco, CA -> 3561:Washington, DC 19.6506122689107
+3561:San Jose, CA -> 3561:Amsterdam, Netherlands 44.2085725924744
+3561:San Jose, CA -> 3561:Anaheim, CA 2.64832087692555
+3561:San Jose, CA -> 3561:Brussels, Belgium 44.4537427727611
+3561:San Jose, CA -> 3561:Chicago, IL 14.7744081963979
+3561:San Jose, CA -> 3561:Dallas, TX 11.6748469301052
+3561:San Jose, CA -> 3561:Frankfurt, Germany 45.7543585286956
+3561:San Jose, CA -> 3561:London, UnitedKingdom 43.1339210605594
+3561:San Jose, CA -> 3561:Los Angeles, CA 2.39033852037053
+3561:San Jose, CA -> 3561:New York, NY 20.4998013750844
+3561:San Jose, CA -> 3561:San Francisco, CA 0.381420811600469
+3561:San Jose, CA -> 3561:Santa Clara, CA 0.0331657604143426
+3561:San Jose, CA -> 3561:Washington, DC 19.4442417506344
+3561:Santa Clara, CA -> 3561:Amsterdam, Netherlands 44.2175268728217
+3561:Santa Clara, CA -> 3561:Anaheim, CA 2.67656998100312
+3561:Santa Clara, CA -> 3561:Atlanta, GA 16.9805122698195
+3561:Santa Clara, CA -> 3561:Boston, MA 21.566160629746
+3561:Santa Clara, CA -> 3561:Brussels, Belgium 44.4633629183998
+3561:Santa Clara, CA -> 3561:Chicago, IL 14.8016488559537
+3561:Santa Clara, CA -> 3561:Cleveland, OH 17.2797889106403
+3561:Santa Clara, CA -> 3561:Dallas, TX 11.7075770478765
+3561:Santa Clara, CA -> 3561:Denver, CO 7.53787823265871
+3561:Santa Clara, CA -> 3561:Frankfurt, Germany 45.7631011604924
+3561:Santa Clara, CA -> 3561:Houston, TX 12.957497303603
+3561:Santa Clara, CA -> 3561:Kansas City, MO 11.9604772788171
+3561:Santa Clara, CA -> 3561:London, UnitedKingdom 43.1444494186306
+3561:Santa Clara, CA -> 3561:Los Angeles, CA 2.41808124152145
+3561:Santa Clara, CA -> 3561:Miami, FL 20.608532200214
+3561:Santa Clara, CA -> 3561:Minneapolis, MN 12.6528904523101
+3561:Santa Clara, CA -> 3561:Nashville, TN 15.5844410217856
+3561:Santa Clara, CA -> 3561:New York, NY 20.5270464743481
+3561:Santa Clara, CA -> 3561:Palo Alto, CA 0.0926850068982159
+3561:Santa Clara, CA -> 3561:Paris, France 44.817610082537
+3561:Santa Clara, CA -> 3561:Philadelphia, PA 20.1345027682307
+3561:Santa Clara, CA -> 3561:Phoenix, AZ 4.95428520102099
+3561:Santa Clara, CA -> 3561:Raleigh, NC 19.1744055172166
+3561:Santa Clara, CA -> 3561:Reston, VA 19.3259583745828
+3561:Santa Clara, CA -> 3561:Salt Lake City, UT 4.72962062541796
+3561:Santa Clara, CA -> 3561:San Francisco, CA 0.352097076827034
+3561:Santa Clara, CA -> 3561:San Jose, CA 0.0331657604143426
+3561:Santa Clara, CA -> 3561:Seattle, WA 5.70656457984477
+3561:Santa Clara, CA -> 3561:Sunnyvale, CA 0.0288213047287407
+3561:Santa Clara, CA -> 3561:Sydney, Australia 59.7883722173299
+3561:Santa Clara, CA -> 3561:Tokyo, Japan 41.9987966699939
+3561:Santa Clara, CA -> 3561:Washington, DC 19.4726798275468
+3561:Seattle, WA -> 3561:Anaheim, CA 7.87834861297578
+3561:Seattle, WA -> 3561:Atlanta, GA 17.5143459791053
+3561:Seattle, WA -> 3561:Boston, MA 19.993175944005
+3561:Seattle, WA -> 3561:Chicago, IL 13.9413353089448
+3561:Seattle, WA -> 3561:Cleveland, OH 16.2545272881117
+3561:Seattle, WA -> 3561:Dallas, TX 13.5297009811618
+3561:Seattle, WA -> 3561:Denver, CO 8.23946958515862
+3561:Seattle, WA -> 3561:Houston, TX 15.1947572412764
+3561:Seattle, WA -> 3561:Kansas City, MO 12.0984029953721
+3561:Seattle, WA -> 3561:Miami, FL 21.9693515292004
+3561:Seattle, WA -> 3561:Minneapolis, MN 11.1944979526771
+3561:Seattle, WA -> 3561:Nashville, TN 15.851476052472
+3561:Seattle, WA -> 3561:New York, NY 19.3209613118993
+3561:Seattle, WA -> 3561:Philadelphia, PA 19.0896785660613
+3561:Seattle, WA -> 3561:Phoenix, AZ 8.92971964408383
+3561:Seattle, WA -> 3561:Portland, OR 1.1632071890148
+3561:Seattle, WA -> 3561:Raleigh, NC 18.98216578317
+3561:Seattle, WA -> 3561:Reston, VA 18.5531895843934
+3561:Seattle, WA -> 3561:Salt Lake City, UT 5.62676654420176
+3561:Seattle, WA -> 3561:San Francisco, CA 5.46425584185052
+3561:Seattle, WA -> 3561:Santa Clara, CA 5.70656457984477
+3561:Seattle, WA -> 3561:Tukwila, WA 0.089010375188688
+3561:Seattle, WA -> 3561:Washington, DC 18.6918595751372
+3561:Sterling, VA -> 3561:Herndon, VA 2.44730785550442
+3561:Sterling, VA -> 3561:Washington, DC 2.46848370858643
+3561:Stockholm, Sweden -> 3561:Brussels, Belgium 6.40195349909088
+3561:Stockholm, Sweden -> 3561:Copenhagen, Denmark 2.62276937481765
+3561:Stockholm, Sweden -> 3561:Moscow, Russia 6.15731511179242
+3561:Stuttgart, Germany -> 3561:Frankfurt, Germany 0.719728483477231
+3561:Stuttgart, Germany -> 3561:Heidelberg, Germany 1.55412346477622
+3561:Stuttgart, Germany -> 3561:Munich, Germany 0.935983454590415
+3561:Sunnyvale, CA -> 3561:Santa Clara, CA 0.0288213047287407
+3561:Swindon, UnitedKingdom -> 3561:London, UnitedKingdom 0
+3561:Sydney, Australia -> 3561:Anaheim, CA 60.4348629327623
+3561:Sydney, Australia -> 3561:Santa Clara, CA 59.7883722173299
+3561:Tokyo, Japan -> 3561:Santa Clara, CA 41.9987966699939
+3561:Toronto, Canada -> 3561:Chicago, IL 3.52496412161527
+3561:Toronto, Canada -> 3561:New York, NY 2.74867344921157
+3561:Tukwila, WA -> 3561:Seattle, WA 0.089010375188688
+3561:Vienna, Austria -> 3561:Frankfurt, Germany 3.00603025209055
+3561:Vienna, Austria -> 3561:Munich, Germany 1.77265425069375
+3561:Waltham, MA -> 3561:Boston, MA 0.0723761676914268
+3561:Washington, DC -> 3561:Amsterdam, Netherlands 31.1416562118511
+3561:Washington, DC -> 3561:Anaheim, CA 18.3649503965559
+3561:Washington, DC -> 3561:Atlanta, GA 4.38018878263173
+3561:Washington, DC -> 3561:Boston, MA 3.15550474307128
+3561:Washington, DC -> 3561:Brussels, Belgium 31.0501948172976
+3561:Washington, DC -> 3561:Chicago, IL 4.79269864527852
+3561:Washington, DC -> 3561:Dallas, TX 9.49836499313979
+3561:Washington, DC -> 3561:Denver, CO 11.9373254278376
+3561:Washington, DC -> 3561:Frankfurt, Germany 32.6040058370753
+3561:Washington, DC -> 3561:Houston, TX 9.81518726240613
+3561:Washington, DC -> 3561:London, UnitedKingdom 29.4645463284345
+3561:Washington, DC -> 3561:Miami, FL 7.44426393180017
+3561:Washington, DC -> 3561:Minneapolis, MN 7.50419086797768
+3561:Washington, DC -> 3561:Nashville, TN 4.56807112804811
+3561:Washington, DC -> 3561:New York, NY 1.62733364571067
+3561:Washington, DC -> 3561:Paris, France 30.7859883557325
+3561:Washington, DC -> 3561:Philadelphia, PA 1.00741082347545
+3561:Washington, DC -> 3561:Phoenix, AZ 15.8987822403206
+3561:Washington, DC -> 3561:Raleigh, NC 1.8616231104935
+3561:Washington, DC -> 3561:Relay, MD 0.22235770619305
+3561:Washington, DC -> 3561:Reston, VA 0.146741247293788
+3561:Washington, DC -> 3561:Salt Lake City, UT 14.8356694118214
+3561:Washington, DC -> 3561:San Francisco, CA 19.6506122689107
+3561:Washington, DC -> 3561:San Jose, CA 19.4442417506344
+3561:Washington, DC -> 3561:Santa Clara, CA 19.4726798275468
+3561:Washington, DC -> 3561:Seattle, WA 18.6918595751372
+3561:Washington, DC -> 3561:Sterling, VA 2.46848370858643
+3561:Weehawken, NJ -> 3561:New York, NY 0.0312643364659312
+3561:Wiesbaden, Germany -> 3561:Berlin, Germany 2.22780170069246
+3561:Wiesbaden, Germany -> 3561:Frankfurt, Germany 0.124561143207064
+3561:Wiesbaden, Germany -> 3561:Karlsruhe, Germany 2.04386738514248
+3561:Wiesbaden, Germany -> 3561:Munich, Germany 1.63023761556038
+3561:Zurich, Switzerland -> 3561:Brussels, Belgium 2.46109841494613
+3561:Zurich, Switzerland -> 3561:Frankfurt, Germany 1.47245906075377
+3561:Zurich, Switzerland -> 3561:Milan, Italy 1.07711497718376

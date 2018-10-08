@@ -1,0 +1,128 @@
+8220:Amsterdam, Netherlands -> 8220:London, UnitedKingdom 1.88532911009081
+8220:Barcelona, Spain -> 8220:Madrid, Spain 2.52239930147364
+8220:Barcelona, Spain -> 8220:Valencia, Spain 1.58189298104217
+8220:Berlin, Germany -> 8220:Frankfurt, Germany 2.16152721948152
+8220:Berlin, Germany -> 8220:London, UnitedKingdom 4.62071213151615
+8220:Berlin, Germany -> 8220:Munich, Germany 2.51315596270897
+8220:Berlin, Germany -> 8220:New York, NY 31.8835920327574
+8220:Berlin, Germany -> 8220:Stockholm, Sweden 4.07974913306884
+8220:Brussels, Belgium -> 8220:London, UnitedKingdom 1.59576807051388
+8220:Brussels, Belgium -> 8220:New York, NY 29.4237388320008
+8220:Brussels, Belgium -> 8220:Stockholm, Sweden 6.40195349909088
+8220:Cologne, Germany -> 8220:London, UnitedKingdom 8.24745769192401
+8220:Cologne, Germany -> 8220:New York, NY 27.7238087003562
+8220:Cologne, Germany -> 8220:Stockholm, Sweden 4.59024515883785
+8220:Copenhagen, Denmark -> 8220:London, UnitedKingdom 4.73788667198909
+8220:Copenhagen, Denmark -> 8220:New York, NY 30.8780506318754
+8220:Copenhagen, Denmark -> 8220:Stockholm, Sweden 2.62276937481765
+8220:Dublin, Ireland -> 8220:London, UnitedKingdom 2.329340820098
+8220:Dublin, Ireland -> 8220:New York, NY 25.5531321760759
+8220:Dublin, Ireland -> 8220:Stockholm, Sweden 8.10073403778479
+8220:Dusseldorf, Germany -> 8220:London, UnitedKingdom 2.37977630245223
+8220:Dusseldorf, Germany -> 8220:New York, NY 30.1129186505335
+8220:Dusseldorf, Germany -> 8220:Stockholm, Sweden 5.72746713118836
+8220:Frankfurt, Germany -> 8220:Berlin, Germany 2.16152721948152
+8220:Frankfurt, Germany -> 8220:London, UnitedKingdom 3.15804073417278
+8220:Frankfurt, Germany -> 8220:New York, NY 30.9779065131767
+8220:Frankfurt, Germany -> 8220:Stockholm, Sweden 6.00851418900465
+8220:Frankfurt, Germany -> 8220:Syracuse, NY 30.8414923858038
+8220:Geneva, Switzerland -> 8220:London, UnitedKingdom 3.70271800866057
+8220:Geneva, Switzerland -> 8220:New York, NY 31.0285368378874
+8220:Geneva, Switzerland -> 8220:Stockholm, Sweden 8.30498377831229
+8220:Geneva, Switzerland -> 8220:Zurich, Switzerland 1.12984738754259
+8220:Hamburg, Germany -> 8220:London, UnitedKingdom 3.60467312251354
+8220:Hamburg, Germany -> 8220:New York, NY 30.638522691464
+8220:Hamburg, Germany -> 8220:Stockholm, Sweden 4.04660375141627
+8220:Hanover, Germany -> 8220:London, UnitedKingdom 3.40029026453316
+8220:Hanover, Germany -> 8220:New York, NY 30.8053850543267
+8220:Hanover, Germany -> 8220:Stockholm, Sweden 4.64968077449375
+8220:London, UnitedKingdom -> 8220:Amsterdam, Netherlands 1.88532911009081
+8220:London, UnitedKingdom -> 8220:Berlin, Germany 4.62071213151615
+8220:London, UnitedKingdom -> 8220:Brussels, Belgium 1.59576807051388
+8220:London, UnitedKingdom -> 8220:Cologne, Germany 8.24745769192401
+8220:London, UnitedKingdom -> 8220:Copenhagen, Denmark 4.73788667198909
+8220:London, UnitedKingdom -> 8220:Dublin, Ireland 2.329340820098
+8220:London, UnitedKingdom -> 8220:Dusseldorf, Germany 2.37977630245223
+8220:London, UnitedKingdom -> 8220:Frankfurt, Germany 3.15804073417278
+8220:London, UnitedKingdom -> 8220:Geneva, Switzerland 3.70271800866057
+8220:London, UnitedKingdom -> 8220:Hamburg, Germany 3.60467312251354
+8220:London, UnitedKingdom -> 8220:Hanover, Germany 3.40029026453316
+8220:London, UnitedKingdom -> 8220:Madrid, Spain 6.31536032045267
+8220:London, UnitedKingdom -> 8220:Milan, Italy 4.78915796529137
+8220:London, UnitedKingdom -> 8220:Munich, Germany 4.58678251895811
+8220:London, UnitedKingdom -> 8220:New York, NY 27.8377559786444
+8220:London, UnitedKingdom -> 8220:Paris, France 1.71246693397065
+8220:London, UnitedKingdom -> 8220:Stockholm, Sweden 7.14458851462163
+8220:London, UnitedKingdom -> 8220:Strasburg, Germany 4.79779879143324
+8220:London, UnitedKingdom -> 8220:Vienna, Austria 6.16285580833909
+8220:London, UnitedKingdom -> 8220:Zurich, Switzerland 3.87862930965681
+8220:Lund, Sweden -> 8220:New York, NY 30.1153142736155
+8220:Lund, Sweden -> 8220:Stockholm, Sweden 1.66366770977021
+8220:Madrid, Spain -> 8220:Barcelona, Spain 2.52239930147364
+8220:Madrid, Spain -> 8220:London, UnitedKingdom 6.31536032045267
+8220:Madrid, Spain -> 8220:New York, NY 28.8193415655172
+8220:Madrid, Spain -> 8220:Stockholm, Sweden 12.9554117796268
+8220:Madrid, Spain -> 8220:Valencia, Spain 1.41821085567234
+8220:Milan, Italy -> 8220:London, UnitedKingdom 4.78915796529137
+8220:Milan, Italy -> 8220:New York, NY 32.2992312999969
+8220:Milan, Italy -> 8220:Stockholm, Sweden 8.26183361547755
+8220:Munich, Germany -> 8220:Berlin, Germany 2.51315596270897
+8220:Munich, Germany -> 8220:London, UnitedKingdom 4.58678251895811
+8220:Munich, Germany -> 8220:New York, NY 32.4234126546405
+8220:Munich, Germany -> 8220:Stockholm, Sweden 6.58921598558357
+8220:New York, NY -> 8220:Berlin, Germany 31.8835920327574
+8220:New York, NY -> 8220:Brussels, Belgium 29.4237388320008
+8220:New York, NY -> 8220:Cologne, Germany 27.7238087003562
+8220:New York, NY -> 8220:Copenhagen, Denmark 30.8780506318754
+8220:New York, NY -> 8220:Dublin, Ireland 25.5531321760759
+8220:New York, NY -> 8220:Dusseldorf, Germany 30.1129186505335
+8220:New York, NY -> 8220:Frankfurt, Germany 30.9779065131767
+8220:New York, NY -> 8220:Geneva, Switzerland 31.0285368378874
+8220:New York, NY -> 8220:Hamburg, Germany 30.638522691464
+8220:New York, NY -> 8220:Hanover, Germany 30.8053850543267
+8220:New York, NY -> 8220:London, UnitedKingdom 27.8377559786444
+8220:New York, NY -> 8220:Lund, Sweden 30.1153142736155
+8220:New York, NY -> 8220:Madrid, Spain 28.8193415655172
+8220:New York, NY -> 8220:Milan, Italy 32.2992312999969
+8220:New York, NY -> 8220:Munich, Germany 32.4234126546405
+8220:New York, NY -> 8220:Paris, France 29.1588945256645
+8220:New York, NY -> 8220:Stockholm, Sweden 31.5490664881065
+8220:New York, NY -> 8220:Strasburg, Germany 31.7659505386733
+8220:New York, NY -> 8220:Vienna, Austria 33.955291322258
+8220:New York, NY -> 8220:Zurich, Switzerland 31.5982426456463
+8220:Paris, France -> 8220:London, UnitedKingdom 1.71246693397065
+8220:Paris, France -> 8220:New York, NY 29.1588945256645
+8220:Paris, France -> 8220:Stockholm, Sweden 7.71793263104817
+8220:Stockholm, Sweden -> 8220:Berlin, Germany 4.07974913306884
+8220:Stockholm, Sweden -> 8220:Brussels, Belgium 6.40195349909088
+8220:Stockholm, Sweden -> 8220:Cologne, Germany 4.59024515883785
+8220:Stockholm, Sweden -> 8220:Copenhagen, Denmark 2.62276937481765
+8220:Stockholm, Sweden -> 8220:Dublin, Ireland 8.10073403778479
+8220:Stockholm, Sweden -> 8220:Dusseldorf, Germany 5.72746713118836
+8220:Stockholm, Sweden -> 8220:Frankfurt, Germany 6.00851418900465
+8220:Stockholm, Sweden -> 8220:Geneva, Switzerland 8.30498377831229
+8220:Stockholm, Sweden -> 8220:Hamburg, Germany 4.04660375141627
+8220:Stockholm, Sweden -> 8220:Hanover, Germany 4.64968077449375
+8220:Stockholm, Sweden -> 8220:London, UnitedKingdom 7.14458851462163
+8220:Stockholm, Sweden -> 8220:Lund, Sweden 1.66366770977021
+8220:Stockholm, Sweden -> 8220:Madrid, Spain 12.9554117796268
+8220:Stockholm, Sweden -> 8220:Milan, Italy 8.26183361547755
+8220:Stockholm, Sweden -> 8220:Munich, Germany 6.58921598558357
+8220:Stockholm, Sweden -> 8220:New York, NY 31.5490664881065
+8220:Stockholm, Sweden -> 8220:Paris, France 7.71793263104817
+8220:Stockholm, Sweden -> 8220:Strasburg, Germany 3.52007026863565
+8220:Stockholm, Sweden -> 8220:Vienna, Austria 6.22711029640486
+8220:Stockholm, Sweden -> 8220:Zurich, Switzerland 7.36062815285825
+8220:Strasburg, Germany -> 8220:London, UnitedKingdom 4.79779879143324
+8220:Strasburg, Germany -> 8220:New York, NY 31.7659505386733
+8220:Strasburg, Germany -> 8220:Stockholm, Sweden 3.52007026863565
+8220:Syracuse, NY -> 8220:Frankfurt, Germany 30.8414923858038
+8220:Valencia, Spain -> 8220:Barcelona, Spain 1.58189298104217
+8220:Valencia, Spain -> 8220:Madrid, Spain 1.41821085567234
+8220:Vienna, Austria -> 8220:London, UnitedKingdom 6.16285580833909
+8220:Vienna, Austria -> 8220:New York, NY 33.955291322258
+8220:Vienna, Austria -> 8220:Stockholm, Sweden 6.22711029640486
+8220:Zurich, Switzerland -> 8220:Geneva, Switzerland 1.12984738754259
+8220:Zurich, Switzerland -> 8220:London, UnitedKingdom 3.87862930965681
+8220:Zurich, Switzerland -> 8220:New York, NY 31.5982426456463
+8220:Zurich, Switzerland -> 8220:Stockholm, Sweden 7.36062815285825

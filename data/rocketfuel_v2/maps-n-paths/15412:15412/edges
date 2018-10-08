@@ -1,0 +1,18 @@
+15412:Cairo, Egypt -> 15412:Hong Kong 54
+15412:Cairo, Egypt -> 15412:London, UnitedKingdom 369
+15412:Hong Kong -> 15412:Cairo, Egypt 54
+15412:Hong Kong -> 15412:London, UnitedKingdom 124
+15412:Hong Kong -> 15412:Tokyo, Japan 278
+15412:London, UnitedKingdom -> 15412:Cairo, Egypt 369
+15412:London, UnitedKingdom -> 15412:Hong Kong 124
+15412:London, UnitedKingdom -> 15412:New York, NY 1162
+15412:London, UnitedKingdom -> 15412:Tehran, Iran 48
+15412:New York, NY -> 15412:London, UnitedKingdom 1162
+15412:New York, NY -> 15412:San Francisco, CA 898
+15412:San Francisco, CA -> 15412:New York, NY 898
+15412:San Francisco, CA -> 15412:Tokyo, Japan 239
+15412:Seoul, Korea -> 15412:Tokyo, Japan 1352
+15412:Tehran, Iran -> 15412:London, UnitedKingdom 48
+15412:Tokyo, Japan -> 15412:Hong Kong 278
+15412:Tokyo, Japan -> 15412:San Francisco, CA 239
+15412:Tokyo, Japan -> 15412:Seoul, Korea 1352

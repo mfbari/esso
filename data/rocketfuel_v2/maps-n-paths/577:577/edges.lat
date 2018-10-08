@@ -1,0 +1,66 @@
+577:Barrie, Canada -> 577:Toronto, Canada 0.424714168378852
+577:Belleville, Canada -> 577:Toronto, Canada 0.841001276261805
+577:Burlington, Canada -> 577:Toronto, Canada 0.255387114455096
+577:Calgary, Canada -> 577:Toronto, Canada 13.5517615742068
+577:Calgary, Canada -> 577:Vancouver, Canada 3.36227637339117
+577:Chicago, IL -> 577:Toronto, Canada 3.52496412161527
+577:Edmonton, Canada -> 577:Toronto, Canada 13.5123930407162
+577:Edmonton, Canada -> 577:Vancouver, Canada 4.09924879725225
+577:Guelph, Canada -> 577:Toronto, Canada 0.361237222436662
+577:Halifax, Canada -> 577:Montreal, Canada 3.93645550738428
+577:Hamilton, Canada -> 577:Toronto, Canada 0.302648704352747
+577:Kingston, Canada -> 577:Toronto, Canada 1.18957144502438
+577:Kitchener, Canada -> 577:Toronto, Canada 0.465455045706207
+577:London, Canada -> 577:Toronto, Canada 0.844626536352842
+577:Montreal, Canada -> 577:Halifax, Canada 3.93645550738428
+577:Montreal, Canada -> 577:New York, NY 2.66507712286384
+577:Montreal, Canada -> 577:Ottawa, Canada 0.832690451912977
+577:Montreal, Canada -> 577:Quebec, Canada 1.1474880133731
+577:Montreal, Canada -> 577:Sherbrooke, Canada 0.651815641337558
+577:Montreal, Canada -> 577:Toronto, Canada 2.51034994506104
+577:New Market, Canada -> 577:Toronto, Canada 0.239410784492266
+577:New York, NY -> 577:Montreal, Canada 2.66507712286384
+577:North Bay, Canada -> 577:Sudbury, Canada 1.47293088951892
+577:Oshawa, Canada -> 577:Toronto, Canada 0.244464482895552
+577:Ottawa, Canada -> 577:Montreal, Canada 0.832690451912977
+577:Ottawa, Canada -> 577:Toronto, Canada 1.747267844019
+577:Palo Alto, CA -> 577:Seattle, WA 5.65399697685604
+577:Quebec, Canada -> 577:Montreal, Canada 1.1474880133731
+577:Regina, Canada -> 577:Toronto, Canada 10.2196315598903
+577:Regina, Canada -> 577:Vancouver, Canada 6.63054295795674
+577:Saint Catharines, Canada -> 577:Toronto, Canada 0.281775559148474
+577:Seattle, WA -> 577:Palo Alto, CA 5.65399697685604
+577:Seattle, WA -> 577:Vancouver, Canada 0.959333136541764
+577:Sherbrooke, Canada -> 577:Montreal, Canada 0.651815641337558
+577:Sudbury, Canada -> 577:North Bay, Canada 1.47293088951892
+577:Sudbury, Canada -> 577:Toronto, Canada 0
+577:Toronto, Canada -> 577:Barrie, Canada 0.424714168378852
+577:Toronto, Canada -> 577:Belleville, Canada 0.841001276261805
+577:Toronto, Canada -> 577:Burlington, Canada 0.255387114455096
+577:Toronto, Canada -> 577:Calgary, Canada 13.5517615742068
+577:Toronto, Canada -> 577:Chicago, IL 3.52496412161527
+577:Toronto, Canada -> 577:Edmonton, Canada 13.5123930407162
+577:Toronto, Canada -> 577:Guelph, Canada 0.361237222436662
+577:Toronto, Canada -> 577:Hamilton, Canada 0.302648704352747
+577:Toronto, Canada -> 577:Kingston, Canada 1.18957144502438
+577:Toronto, Canada -> 577:Kitchener, Canada 0.465455045706207
+577:Toronto, Canada -> 577:London, Canada 0.844626536352842
+577:Toronto, Canada -> 577:Montreal, Canada 2.51034994506104
+577:Toronto, Canada -> 577:New Market, Canada 0.239410784492266
+577:Toronto, Canada -> 577:Oshawa, Canada 0.244464482895552
+577:Toronto, Canada -> 577:Ottawa, Canada 1.747267844019
+577:Toronto, Canada -> 577:Regina, Canada 10.2196315598903
+577:Toronto, Canada -> 577:Saint Catharines, Canada 0.281775559148474
+577:Toronto, Canada -> 577:Sudbury, Canada 0
+577:Toronto, Canada -> 577:Vancouver, Canada 16.786157343387
+577:Toronto, Canada -> 577:Windsor, Canada 1.66374566111016
+577:Toronto, Canada -> 577:Winnipeg, Canada 7.57172994051468
+577:Vancouver, Canada -> 577:Calgary, Canada 3.36227637339117
+577:Vancouver, Canada -> 577:Edmonton, Canada 4.09924879725225
+577:Vancouver, Canada -> 577:Regina, Canada 6.63054295795674
+577:Vancouver, Canada -> 577:Seattle, WA 0.959333136541764
+577:Vancouver, Canada -> 577:Toronto, Canada 16.786157343387
+577:Windsor, Canada -> 577:Toronto, Canada 1.66374566111016
+577:Windsor, Canada -> 577:Winnipeg, Canada 6.84927611203696
+577:Winnipeg, Canada -> 577:Toronto, Canada 7.57172994051468
+577:Winnipeg, Canada -> 577:Windsor, Canada 6.84927611203696

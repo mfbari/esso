@@ -1,0 +1,12 @@
+3967:El Segundo, CA -> 3967:Irvine, CA 1564
+3967:El Segundo, CA -> 3967:Santa Clara, CA 19
+3967:Irvine, CA -> 3967:El Segundo, CA 1564
+3967:New York, NY -> 3967:Santa Clara, CA 121
+3967:Palo Alto, CA -> 3967:Santa Clara, CA 989
+3967:San Jose, CA -> 3967:Santa Clara, CA 802
+3967:Santa Clara, CA -> 3967:El Segundo, CA 19
+3967:Santa Clara, CA -> 3967:New York, NY 121
+3967:Santa Clara, CA -> 3967:Palo Alto, CA 989
+3967:Santa Clara, CA -> 3967:San Jose, CA 802
+3967:Santa Clara, CA -> 3967:Sunnyvale, CA 2617
+3967:Sunnyvale, CA -> 3967:Santa Clara, CA 2617

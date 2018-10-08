@@ -1,0 +1,222 @@
+2914:Alexandria, VA -> 2914:McLean, VA 305
+2914:Alexandria, VA -> 2914:Sterling, VA 23
+2914:Amsterdam, Netherlands -> 2914:Frankfurt, Germany 8627
+2914:Amsterdam, Netherlands -> 2914:London, UnitedKingdom 3116
+2914:Amsterdam, Netherlands -> 2914:Madrid, Spain 1116
+2914:Amsterdam, Netherlands -> 2914:Newark, NJ 20918
+2914:Ann Arbor, MI -> 2914:Chicago, IL 1145
+2914:Ashburn, VA -> 2914:Chicago, IL 4856
+2914:Ashburn, VA -> 2914:McLean, VA 16221
+2914:Ashburn, VA -> 2914:New York, NY 25889
+2914:Ashburn, VA -> 2914:Sterling, VA 54171
+2914:Atlanta, GA -> 2914:Boca Raton, FL 6722
+2914:Atlanta, GA -> 2914:Houston, TX 26290
+2914:Atlanta, GA -> 2914:McLean, VA 35768
+2914:Austin, TX -> 2914:Dallas, TX 1716
+2914:Baltimore, MD -> 2914:McLean, VA 191
+2914:Boca Raton, FL -> 2914:Atlanta, GA 6722
+2914:Boca Raton, FL -> 2914:Miami, FL 4172
+2914:Boston, MA -> 2914:New York, NY 557
+2914:Boston, MA -> 2914:Springfield, MI 1434
+2914:Burlington, MI -> 2914:Springfield, MI 160
+2914:Champaign, IL -> 2914:Chicago, IL 89
+2914:Chicago, IL -> 2914:Ann Arbor, MI 1145
+2914:Chicago, IL -> 2914:Ashburn, VA 4856
+2914:Chicago, IL -> 2914:Champaign, IL 89
+2914:Chicago, IL -> 2914:Cleveland, OH 496
+2914:Chicago, IL -> 2914:Dallas, TX 10437
+2914:Chicago, IL -> 2914:Denver, CO 532
+2914:Chicago, IL -> 2914:Downers Grove, IL 31
+2914:Chicago, IL -> 2914:New York, NY 49939
+2914:Chicago, IL -> 2914:Peoria, IL 221
+2914:Chicago, IL -> 2914:San Jose, CA 47563
+2914:Chicago, IL -> 2914:Seattle, WA 45218
+2914:Chicago, IL -> 2914:Springfield, MI 2490
+2914:Chicago, IL -> 2914:St Louis, MO 216944
+2914:Cleveland, OH -> 2914:Chicago, IL 496
+2914:Cleveland, OH -> 2914:Columbus, OH 556
+2914:Cleveland, OH -> 2914:New York, NY 352
+2914:Columbus, OH -> 2914:Cleveland, OH 556
+2914:Dallas, TX -> 2914:Austin, TX 1716
+2914:Dallas, TX -> 2914:Chicago, IL 10437
+2914:Dallas, TX -> 2914:Houston, TX 295198
+2914:Dallas, TX -> 2914:Kansas City, MO 24038
+2914:Dallas, TX -> 2914:Orem, UT 72
+2914:Dallas, TX -> 2914:Palo Alto, CA 20072
+2914:Dallas, TX -> 2914:Sterling, VA 73720
+2914:Denver, CO -> 2914:Chicago, IL 532
+2914:Denver, CO -> 2914:Englewood, CO 159
+2914:Denver, CO -> 2914:San Jose, CA 4424
+2914:Downers Grove, IL -> 2914:Chicago, IL 31
+2914:Englewood, CO -> 2914:Denver, CO 159
+2914:Eugene, OR -> 2914:Portland, OR 1252
+2914:Frankfurt, Germany -> 2914:Amsterdam, Netherlands 8627
+2914:Frankfurt, Germany -> 2914:Paris, France 144
+2914:Hong Kong -> 2914:San Jose, CA 9468
+2914:Hong Kong -> 2914:Singapore 5
+2914:Hong Kong -> 2914:Tokyo, Japan 9117
+2914:Houston, TX -> 2914:Atlanta, GA 26290
+2914:Houston, TX -> 2914:Dallas, TX 295198
+2914:Houston, TX -> 2914:New Orleans, LA 616
+2914:Houston, TX -> 2914:San Diego, CA 30555
+2914:Irvine, CA -> 2914:Los Angeles, CA 873
+2914:Irvine, CA -> 2914:San Diego, CA 2421
+2914:Kansas City, MO -> 2914:Dallas, TX 24038
+2914:Kansas City, MO -> 2914:Omaha, NE 351
+2914:Kansas City, MO -> 2914:St Louis, MO 19935
+2914:Kansas City, MO -> 2914:Topeka, KS 5878
+2914:Livonia, MI -> 2914:Springfield, MI 58
+2914:London, UnitedKingdom -> 2914:Amsterdam, Netherlands 3116
+2914:London, UnitedKingdom -> 2914:Madrid, Spain 43
+2914:London, UnitedKingdom -> 2914:New York, NY 10248
+2914:London, UnitedKingdom -> 2914:Paris, France 189
+2914:Los Angeles, CA -> 2914:Irvine, CA 873
+2914:Los Angeles, CA -> 2914:Milpitas, CA 31695
+2914:Los Angeles, CA -> 2914:San Diego, CA 14512
+2914:Los Angeles, CA -> 2914:San Jose, CA 112836
+2914:Los Angeles, CA -> 2914:Taipei, Taiwan 4359
+2914:Madrid, Spain -> 2914:Amsterdam, Netherlands 1116
+2914:Madrid, Spain -> 2914:London, UnitedKingdom 43
+2914:Mainesburg, PA -> 2914:Philadelphia, PA 13
+2914:McLean, VA -> 2914:Alexandria, VA 305
+2914:McLean, VA -> 2914:Ashburn, VA 16221
+2914:McLean, VA -> 2914:Atlanta, GA 35768
+2914:McLean, VA -> 2914:Baltimore, MD 191
+2914:McLean, VA -> 2914:Palo Alto, CA 20173
+2914:McLean, VA -> 2914:Pittsburgh, PA 1613
+2914:McLean, VA -> 2914:Sterling, VA 9662
+2914:McLean, VA -> 2914:Vienna, VA 120
+2914:Miami, FL -> 2914:Boca Raton, FL 4172
+2914:Miami, FL -> 2914:Sterling, VA 3564
+2914:Milpitas, CA -> 2914:Los Angeles, CA 31695
+2914:Milpitas, CA -> 2914:Mountain View, CA 4503
+2914:Milpitas, CA -> 2914:Newark, NJ 22937
+2914:Milpitas, CA -> 2914:Palo Alto, CA 10269
+2914:Milpitas, CA -> 2914:San Francisco, CA 47
+2914:Milpitas, CA -> 2914:San Jose, CA 36432
+2914:Mountain View, CA -> 2914:Milpitas, CA 4503
+2914:Mountain View, CA -> 2914:Palo Alto, CA 3235
+2914:New Orleans, LA -> 2914:Houston, TX 616
+2914:New York, NY -> 2914:Ashburn, VA 25889
+2914:New York, NY -> 2914:Boston, MA 557
+2914:New York, NY -> 2914:Chicago, IL 49939
+2914:New York, NY -> 2914:Cleveland, OH 352
+2914:New York, NY -> 2914:London, UnitedKingdom 10248
+2914:New York, NY -> 2914:Newark, NJ 23474
+2914:New York, NY -> 2914:Pittsburgh, PA 1286
+2914:New York, NY -> 2914:Rochester, NY 1931
+2914:New York, NY -> 2914:Smithtown, NY 302
+2914:New York, NY -> 2914:Westbury, NY 319
+2914:Newark, NJ -> 2914:Amsterdam, Netherlands 20918
+2914:Newark, NJ -> 2914:Milpitas, CA 22937
+2914:Newark, NJ -> 2914:New York, NY 23474
+2914:Newark, NJ -> 2914:Philadelphia, PA 3769
+2914:Newark, NJ -> 2914:Rochester, NY 1095
+2914:Oakland, CA -> 2914:San Francisco, CA 130
+2914:Omaha, NE -> 2914:Kansas City, MO 351
+2914:Omaha, NE -> 2914:Sioux Falls, SD 350
+2914:Omaha, NE -> 2914:St Louis, MO 335
+2914:Orem, UT -> 2914:Dallas, TX 72
+2914:Orem, UT -> 2914:Palo Alto, CA 88
+2914:Osaka, Japan -> 2914:San Jose, CA 5038
+2914:Osaka, Japan -> 2914:Seattle, WA 2630
+2914:Osaka, Japan -> 2914:Tokyo, Japan 680
+2914:Palo Alto, CA -> 2914:Dallas, TX 20072
+2914:Palo Alto, CA -> 2914:McLean, VA 20173
+2914:Palo Alto, CA -> 2914:Milpitas, CA 10269
+2914:Palo Alto, CA -> 2914:Mountain View, CA 3235
+2914:Palo Alto, CA -> 2914:Orem, UT 88
+2914:Palo Alto, CA -> 2914:Sacramento, CA 426
+2914:Palo Alto, CA -> 2914:San Diego, CA 18312
+2914:Palo Alto, CA -> 2914:San Francisco, CA 1314
+2914:Palo Alto, CA -> 2914:San Jose, CA 164218
+2914:Palo Alto, CA -> 2914:Seattle, WA 72598
+2914:Paris, France -> 2914:Frankfurt, Germany 144
+2914:Paris, France -> 2914:London, UnitedKingdom 189
+2914:Peoria, IL -> 2914:Chicago, IL 221
+2914:Philadelphia, PA -> 2914:Mainesburg, PA 13
+2914:Philadelphia, PA -> 2914:Newark, NJ 3769
+2914:Philadelphia, PA -> 2914:Princeton, NJ 2668
+2914:Philadelphia, PA -> 2914:State College, PA 189
+2914:Philadelphia, PA -> 2914:Sterling, VA 4434
+2914:Pittsburgh, PA -> 2914:McLean, VA 1613
+2914:Pittsburgh, PA -> 2914:New York, NY 1286
+2914:Portland, OR -> 2914:Eugene, OR 1252
+2914:Portland, OR -> 2914:San Jose, CA 8769
+2914:Portland, OR -> 2914:Seattle, WA 1804
+2914:Portland, OR -> 2914:Spokane, WA 1165
+2914:Princeton, NJ -> 2914:Philadelphia, PA 2668
+2914:Rochester, NY -> 2914:New York, NY 1931
+2914:Rochester, NY -> 2914:Newark, NJ 1095
+2914:Rochester, NY -> 2914:Syracuse, NY 472
+2914:Sacramento, CA -> 2914:Palo Alto, CA 426
+2914:San Diego, CA -> 2914:Houston, TX 30555
+2914:San Diego, CA -> 2914:Irvine, CA 2421
+2914:San Diego, CA -> 2914:Los Angeles, CA 14512
+2914:San Diego, CA -> 2914:Palo Alto, CA 18312
+2914:San Francisco, CA -> 2914:Milpitas, CA 47
+2914:San Francisco, CA -> 2914:Oakland, CA 130
+2914:San Francisco, CA -> 2914:Palo Alto, CA 1314
+2914:San Francisco, CA -> 2914:San Jose, CA 3314
+2914:San Francisco, CA -> 2914:San Ramon, CA 60
+2914:San Jose, CA -> 2914:Chicago, IL 47563
+2914:San Jose, CA -> 2914:Denver, CO 4424
+2914:San Jose, CA -> 2914:Hong Kong 9468
+2914:San Jose, CA -> 2914:Los Angeles, CA 112836
+2914:San Jose, CA -> 2914:Milpitas, CA 36432
+2914:San Jose, CA -> 2914:Osaka, Japan 5038
+2914:San Jose, CA -> 2914:Palo Alto, CA 164218
+2914:San Jose, CA -> 2914:Portland, OR 8769
+2914:San Jose, CA -> 2914:San Francisco, CA 3314
+2914:San Jose, CA -> 2914:Singapore 4490
+2914:San Jose, CA -> 2914:Sydney, Australia 11388
+2914:San Jose, CA -> 2914:Tokyo, Japan 16171
+2914:San Ramon, CA -> 2914:San Francisco, CA 60
+2914:Seattle, WA -> 2914:Chicago, IL 45218
+2914:Seattle, WA -> 2914:Osaka, Japan 2630
+2914:Seattle, WA -> 2914:Palo Alto, CA 72598
+2914:Seattle, WA -> 2914:Portland, OR 1804
+2914:Seattle, WA -> 2914:Singapore 10480
+2914:Seattle, WA -> 2914:Spokane, WA 185
+2914:Seattle, WA -> 2914:Tokyo, Japan 26268
+2914:Seoul, SouthKorea -> 2914:Tokyo, Japan 3047
+2914:Singapore -> 2914:Hong Kong 5
+2914:Singapore -> 2914:San Jose, CA 4490
+2914:Singapore -> 2914:Seattle, WA 10480
+2914:Singapore -> 2914:Tokyo, Japan 14
+2914:Sioux Falls, SD -> 2914:Omaha, NE 350
+2914:Smithtown, NY -> 2914:New York, NY 302
+2914:Smithtown, NY -> 2914:Westbury, NY 24
+2914:Spokane, WA -> 2914:Portland, OR 1165
+2914:Spokane, WA -> 2914:Seattle, WA 185
+2914:Springfield, MI -> 2914:Boston, MA 1434
+2914:Springfield, MI -> 2914:Burlington, MI 160
+2914:Springfield, MI -> 2914:Chicago, IL 2490
+2914:Springfield, MI -> 2914:Livonia, MI 58
+2914:St Louis, MO -> 2914:Chicago, IL 216944
+2914:St Louis, MO -> 2914:Kansas City, MO 19935
+2914:St Louis, MO -> 2914:Omaha, NE 335
+2914:State College, PA -> 2914:Philadelphia, PA 189
+2914:Sterling, VA -> 2914:Alexandria, VA 23
+2914:Sterling, VA -> 2914:Ashburn, VA 54171
+2914:Sterling, VA -> 2914:Dallas, TX 73720
+2914:Sterling, VA -> 2914:McLean, VA 9662
+2914:Sterling, VA -> 2914:Miami, FL 3564
+2914:Sterling, VA -> 2914:Philadelphia, PA 4434
+2914:Sydney, Australia -> 2914:San Jose, CA 11388
+2914:Sydney, Australia -> 2914:Tokyo, Japan 62
+2914:Syracuse, NY -> 2914:Rochester, NY 472
+2914:Taipei, Taiwan -> 2914:Los Angeles, CA 4359
+2914:Taipei, Taiwan -> 2914:Tokyo, Japan 39
+2914:Tokyo, Japan -> 2914:Hong Kong 9117
+2914:Tokyo, Japan -> 2914:Osaka, Japan 680
+2914:Tokyo, Japan -> 2914:San Jose, CA 16171
+2914:Tokyo, Japan -> 2914:Seattle, WA 26268
+2914:Tokyo, Japan -> 2914:Seoul, SouthKorea 3047
+2914:Tokyo, Japan -> 2914:Singapore 14
+2914:Tokyo, Japan -> 2914:Sydney, Australia 62
+2914:Tokyo, Japan -> 2914:Taipei, Taiwan 39
+2914:Topeka, KS -> 2914:Kansas City, MO 5878
+2914:Vienna, VA -> 2914:McLean, VA 120
+2914:Westbury, NY -> 2914:New York, NY 319
+2914:Westbury, NY -> 2914:Smithtown, NY 24

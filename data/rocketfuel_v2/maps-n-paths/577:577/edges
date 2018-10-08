@@ -1,0 +1,66 @@
+577:Barrie, Canada -> 577:Toronto, Canada 1596
+577:Belleville, Canada -> 577:Toronto, Canada 80
+577:Burlington, Canada -> 577:Toronto, Canada 327
+577:Calgary, Canada -> 577:Toronto, Canada 259
+577:Calgary, Canada -> 577:Vancouver, Canada 390
+577:Chicago, IL -> 577:Toronto, Canada 53476
+577:Edmonton, Canada -> 577:Toronto, Canada 77
+577:Edmonton, Canada -> 577:Vancouver, Canada 88
+577:Guelph, Canada -> 577:Toronto, Canada 80
+577:Halifax, Canada -> 577:Montreal, Canada 45
+577:Hamilton, Canada -> 577:Toronto, Canada 535
+577:Kingston, Canada -> 577:Toronto, Canada 1405
+577:Kitchener, Canada -> 577:Toronto, Canada 834
+577:London, Canada -> 577:Toronto, Canada 281
+577:Montreal, Canada -> 577:Halifax, Canada 45
+577:Montreal, Canada -> 577:New York, NY 8005
+577:Montreal, Canada -> 577:Ottawa, Canada 182
+577:Montreal, Canada -> 577:Quebec, Canada 2641
+577:Montreal, Canada -> 577:Sherbrooke, Canada 48
+577:Montreal, Canada -> 577:Toronto, Canada 10150
+577:New Market, Canada -> 577:Toronto, Canada 79
+577:New York, NY -> 577:Montreal, Canada 8005
+577:North Bay, Canada -> 577:Sudbury, Canada 80
+577:Oshawa, Canada -> 577:Toronto, Canada 79
+577:Ottawa, Canada -> 577:Montreal, Canada 182
+577:Ottawa, Canada -> 577:Toronto, Canada 5733
+577:Palo Alto, CA -> 577:Seattle, WA 1513
+577:Quebec, Canada -> 577:Montreal, Canada 2641
+577:Regina, Canada -> 577:Toronto, Canada 822
+577:Regina, Canada -> 577:Vancouver, Canada 614
+577:Saint Catharines, Canada -> 577:Toronto, Canada 36
+577:Seattle, WA -> 577:Palo Alto, CA 1513
+577:Seattle, WA -> 577:Vancouver, Canada 38490
+577:Sherbrooke, Canada -> 577:Montreal, Canada 48
+577:Sudbury, Canada -> 577:North Bay, Canada 80
+577:Sudbury, Canada -> 577:Toronto, Canada 80
+577:Toronto, Canada -> 577:Barrie, Canada 1596
+577:Toronto, Canada -> 577:Belleville, Canada 80
+577:Toronto, Canada -> 577:Burlington, Canada 327
+577:Toronto, Canada -> 577:Calgary, Canada 259
+577:Toronto, Canada -> 577:Chicago, IL 53476
+577:Toronto, Canada -> 577:Edmonton, Canada 77
+577:Toronto, Canada -> 577:Guelph, Canada 80
+577:Toronto, Canada -> 577:Hamilton, Canada 535
+577:Toronto, Canada -> 577:Kingston, Canada 1405
+577:Toronto, Canada -> 577:Kitchener, Canada 834
+577:Toronto, Canada -> 577:London, Canada 281
+577:Toronto, Canada -> 577:Montreal, Canada 10150
+577:Toronto, Canada -> 577:New Market, Canada 79
+577:Toronto, Canada -> 577:Oshawa, Canada 79
+577:Toronto, Canada -> 577:Ottawa, Canada 5733
+577:Toronto, Canada -> 577:Regina, Canada 822
+577:Toronto, Canada -> 577:Saint Catharines, Canada 36
+577:Toronto, Canada -> 577:Sudbury, Canada 80
+577:Toronto, Canada -> 577:Vancouver, Canada 22076
+577:Toronto, Canada -> 577:Windsor, Canada 584
+577:Toronto, Canada -> 577:Winnipeg, Canada 4045
+577:Vancouver, Canada -> 577:Calgary, Canada 390
+577:Vancouver, Canada -> 577:Edmonton, Canada 88
+577:Vancouver, Canada -> 577:Regina, Canada 614
+577:Vancouver, Canada -> 577:Seattle, WA 38490
+577:Vancouver, Canada -> 577:Toronto, Canada 22076
+577:Windsor, Canada -> 577:Toronto, Canada 584
+577:Windsor, Canada -> 577:Winnipeg, Canada 339
+577:Winnipeg, Canada -> 577:Toronto, Canada 4045
+577:Winnipeg, Canada -> 577:Windsor, Canada 339

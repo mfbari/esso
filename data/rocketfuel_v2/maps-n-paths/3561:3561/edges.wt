@@ -1,0 +1,658 @@
+3561:Aachen, Germany -> 3561:Koblenz, Germany 1
+3561:Aachen, Germany -> 3561:Saarbrucken, Germany 1
+3561:Amsterdam, Netherlands -> 3561:Anaheim, CA 45
+3561:Amsterdam, Netherlands -> 3561:Atlanta, GA 36
+3561:Amsterdam, Netherlands -> 3561:Brussels, Belgium 1
+3561:Amsterdam, Netherlands -> 3561:Chicago, IL 34
+3561:Amsterdam, Netherlands -> 3561:Copenhagen, Denmark 4
+3561:Amsterdam, Netherlands -> 3561:Dallas, TX 40
+3561:Amsterdam, Netherlands -> 3561:London, UnitedKingdom 2
+3561:Amsterdam, Netherlands -> 3561:Munich, Germany 4
+3561:Amsterdam, Netherlands -> 3561:New York, NY 30
+3561:Amsterdam, Netherlands -> 3561:Oslo, Norway 5
+3561:Amsterdam, Netherlands -> 3561:Paris, France 3
+3561:Amsterdam, Netherlands -> 3561:Rotterdam, Netherlands 1
+3561:Amsterdam, Netherlands -> 3561:San Jose, CA 45
+3561:Amsterdam, Netherlands -> 3561:Santa Clara, CA 45
+3561:Amsterdam, Netherlands -> 3561:Washington, DC 32
+3561:Anaheim, CA -> 3561:Amsterdam, Netherlands 45
+3561:Anaheim, CA -> 3561:Atlanta, GA 16
+3561:Anaheim, CA -> 3561:Boston, MA 21
+3561:Anaheim, CA -> 3561:Brussels, Belgium 46
+3561:Anaheim, CA -> 3561:Chicago, IL 14
+3561:Anaheim, CA -> 3561:Cleveland, OH 17
+3561:Anaheim, CA -> 3561:Dallas, TX 10
+3561:Anaheim, CA -> 3561:Denver, CO 7
+3561:Anaheim, CA -> 3561:El Segundo, CA 1
+3561:Anaheim, CA -> 3561:Frankfurt, Germany 47
+3561:Anaheim, CA -> 3561:Houston, TX 11
+3561:Anaheim, CA -> 3561:Kansas City, MO 11
+3561:Anaheim, CA -> 3561:London, UnitedKingdom 44
+3561:Anaheim, CA -> 3561:Los Angeles, CA 1
+3561:Anaheim, CA -> 3561:Miami, FL 19
+3561:Anaheim, CA -> 3561:Minneapolis, MN 13
+3561:Anaheim, CA -> 3561:Nashville, TN 15
+3561:Anaheim, CA -> 3561:New York, NY 20
+3561:Anaheim, CA -> 3561:Osaka, Japan 47
+3561:Anaheim, CA -> 3561:Paris, France 46
+3561:Anaheim, CA -> 3561:Philadelphia, PA 20
+3561:Anaheim, CA -> 3561:Phoenix, AZ 3
+3561:Anaheim, CA -> 3561:Raleigh, NC 18
+3561:Anaheim, CA -> 3561:Reston, VA 19
+3561:Anaheim, CA -> 3561:Salt Lake City, UT 5
+3561:Anaheim, CA -> 3561:San Francisco, CA 4
+3561:Anaheim, CA -> 3561:San Jose, CA 3
+3561:Anaheim, CA -> 3561:Santa Clara, CA 3
+3561:Anaheim, CA -> 3561:Seattle, WA 8
+3561:Anaheim, CA -> 3561:Sydney, Australia 61
+3561:Anaheim, CA -> 3561:Washington, DC 19
+3561:Atlanta, GA -> 3561:Amsterdam, Netherlands 36
+3561:Atlanta, GA -> 3561:Anaheim, CA 16
+3561:Atlanta, GA -> 3561:Austell, GA 1
+3561:Atlanta, GA -> 3561:Boston, MA 8
+3561:Atlanta, GA -> 3561:Brussels, Belgium 36
+3561:Atlanta, GA -> 3561:Chicago, IL 5
+3561:Atlanta, GA -> 3561:Cleveland, OH 5
+3561:Atlanta, GA -> 3561:Dallas, TX 6
+3561:Atlanta, GA -> 3561:Denver, CO 10
+3561:Atlanta, GA -> 3561:Frankfurt, Germany 37
+3561:Atlanta, GA -> 3561:Houston, TX 6
+3561:Atlanta, GA -> 3561:Kansas City, MO 6
+3561:Atlanta, GA -> 3561:London, UnitedKingdom 34
+3561:Atlanta, GA -> 3561:Miami, FL 5
+3561:Atlanta, GA -> 3561:Minneapolis, MN 8
+3561:Atlanta, GA -> 3561:Nashville, TN 2
+3561:Atlanta, GA -> 3561:New York, NY 7
+3561:Atlanta, GA -> 3561:Paris, France 36
+3561:Atlanta, GA -> 3561:Philadelphia, PA 6
+3561:Atlanta, GA -> 3561:Phoenix, AZ 13
+3561:Atlanta, GA -> 3561:Raleigh, NC 3
+3561:Atlanta, GA -> 3561:Reston, VA 5
+3561:Atlanta, GA -> 3561:Salt Lake City, UT 13
+3561:Atlanta, GA -> 3561:San Francisco, CA 18
+3561:Atlanta, GA -> 3561:Santa Clara, CA 17
+3561:Atlanta, GA -> 3561:Seattle, WA 18
+3561:Atlanta, GA -> 3561:Washington, DC 5
+3561:Austell, GA -> 3561:Atlanta, GA 1
+3561:Austin, TX -> 3561:Dallas, TX 2
+3561:Barcelona, Spain -> 3561:Madrid, Spain 3
+3561:Barcelona, Spain -> 3561:Paris, France 5
+3561:Berlin, Germany -> 3561:Dresden, Germany 1
+3561:Berlin, Germany -> 3561:Frankfurt, Germany 3
+3561:Berlin, Germany -> 3561:Wiesbaden, Germany 3
+3561:Bielefeld, Germany -> 3561:Budapest, Hungary 5
+3561:Bielefeld, Germany -> 3561:Hanover, Germany 1
+3561:Bielefeld, Germany -> 3561:Madrid, Spain 8
+3561:Bielefeld, Germany -> 3561:Osnabruck, Germany 1
+3561:Birmingham, UnitedKingdom -> 3561:London, UnitedKingdom 1
+3561:Boston, MA -> 3561:Anaheim, CA 21
+3561:Boston, MA -> 3561:Atlanta, GA 8
+3561:Boston, MA -> 3561:Chicago, IL 7
+3561:Boston, MA -> 3561:Cleveland, OH 5
+3561:Boston, MA -> 3561:Dallas, TX 13
+3561:Boston, MA -> 3561:Denver, CO 15
+3561:Boston, MA -> 3561:Houston, TX 13
+3561:Boston, MA -> 3561:Kansas City, MO 11
+3561:Boston, MA -> 3561:Miami, FL 11
+3561:Boston, MA -> 3561:Minneapolis, MN 10
+3561:Boston, MA -> 3561:Nashville, TN 8
+3561:Boston, MA -> 3561:New York, NY 2
+3561:Boston, MA -> 3561:Philadelphia, PA 3
+3561:Boston, MA -> 3561:Phoenix, AZ 19
+3561:Boston, MA -> 3561:Raleigh, NC 5
+3561:Boston, MA -> 3561:Reston, VA 4
+3561:Boston, MA -> 3561:Salt Lake City, UT 17
+3561:Boston, MA -> 3561:San Francisco, CA 22
+3561:Boston, MA -> 3561:Santa Clara, CA 22
+3561:Boston, MA -> 3561:Seattle, WA 20
+3561:Boston, MA -> 3561:Waltham, MA 1
+3561:Boston, MA -> 3561:Washington, DC 4
+3561:Braunschweig, Germany -> 3561:Hanover, Germany 1
+3561:Braunschweig, Germany -> 3561:Leipzig, Germany 1
+3561:Bremen, Germany -> 3561:Hamburg, Germany 1
+3561:Bremen, Germany -> 3561:Hanover, Germany 1
+3561:Brussels, Belgium -> 3561:Amsterdam, Netherlands 1
+3561:Brussels, Belgium -> 3561:Anaheim, CA 46
+3561:Brussels, Belgium -> 3561:Atlanta, GA 36
+3561:Brussels, Belgium -> 3561:Chicago, IL 34
+3561:Brussels, Belgium -> 3561:Dallas, TX 40
+3561:Brussels, Belgium -> 3561:Frankfurt, Germany 2
+3561:Brussels, Belgium -> 3561:London, UnitedKingdom 2
+3561:Brussels, Belgium -> 3561:New York, NY 30
+3561:Brussels, Belgium -> 3561:San Jose, CA 45
+3561:Brussels, Belgium -> 3561:Santa Clara, CA 45
+3561:Brussels, Belgium -> 3561:Stockholm, Sweden 7
+3561:Brussels, Belgium -> 3561:Washington, DC 32
+3561:Brussels, Belgium -> 3561:Zurich, Switzerland 3
+3561:Budapest, Hungary -> 3561:Bielefeld, Germany 5
+3561:Chicago, IL -> 3561:Amsterdam, Netherlands 34
+3561:Chicago, IL -> 3561:Anaheim, CA 14
+3561:Chicago, IL -> 3561:Atlanta, GA 5
+3561:Chicago, IL -> 3561:Boston, MA 7
+3561:Chicago, IL -> 3561:Brussels, Belgium 34
+3561:Chicago, IL -> 3561:Cleveland, OH 3
+3561:Chicago, IL -> 3561:Dallas, TX 7
+3561:Chicago, IL -> 3561:Denver, CO 8
+3561:Chicago, IL -> 3561:Elk Grove, IL 1
+3561:Chicago, IL -> 3561:Frankfurt, Germany 35
+3561:Chicago, IL -> 3561:Houston, TX 8
+3561:Chicago, IL -> 3561:Kansas City, MO 4
+3561:Chicago, IL -> 3561:London, UnitedKingdom 32
+3561:Chicago, IL -> 3561:Miami, FL 10
+3561:Chicago, IL -> 3561:Minneapolis, MN 3
+3561:Chicago, IL -> 3561:Nashville, TN 4
+3561:Chicago, IL -> 3561:New York, NY 6
+3561:Chicago, IL -> 3561:Oak Brook, IL 1
+3561:Chicago, IL -> 3561:Paris, France 34
+3561:Chicago, IL -> 3561:Philadelphia, PA 6
+3561:Chicago, IL -> 3561:Phoenix, AZ 12
+3561:Chicago, IL -> 3561:Raleigh, NC 6
+3561:Chicago, IL -> 3561:Relay, MD 5
+3561:Chicago, IL -> 3561:Reston, VA 5
+3561:Chicago, IL -> 3561:Roachdale, IN 2
+3561:Chicago, IL -> 3561:Salt Lake City, UT 11
+3561:Chicago, IL -> 3561:San Francisco, CA 15
+3561:Chicago, IL -> 3561:San Jose, CA 15
+3561:Chicago, IL -> 3561:Santa Clara, CA 15
+3561:Chicago, IL -> 3561:Seattle, WA 14
+3561:Chicago, IL -> 3561:Toronto, Canada 4
+3561:Chicago, IL -> 3561:Washington, DC 5
+3561:Cleveland, OH -> 3561:Anaheim, CA 17
+3561:Cleveland, OH -> 3561:Atlanta, GA 5
+3561:Cleveland, OH -> 3561:Boston, MA 5
+3561:Cleveland, OH -> 3561:Chicago, IL 3
+3561:Cleveland, OH -> 3561:Dallas, TX 9
+3561:Cleveland, OH -> 3561:Denver, CO 10
+3561:Cleveland, OH -> 3561:New York, NY 4
+3561:Cleveland, OH -> 3561:Reston, VA 3
+3561:Cleveland, OH -> 3561:San Francisco, CA 18
+3561:Cleveland, OH -> 3561:Santa Clara, CA 18
+3561:Cleveland, OH -> 3561:Seattle, WA 17
+3561:Copenhagen, Denmark -> 3561:Amsterdam, Netherlands 4
+3561:Copenhagen, Denmark -> 3561:Stockholm, Sweden 3
+3561:Dallas, TX -> 3561:Amsterdam, Netherlands 40
+3561:Dallas, TX -> 3561:Anaheim, CA 10
+3561:Dallas, TX -> 3561:Atlanta, GA 6
+3561:Dallas, TX -> 3561:Austin, TX 2
+3561:Dallas, TX -> 3561:Boston, MA 13
+3561:Dallas, TX -> 3561:Brussels, Belgium 40
+3561:Dallas, TX -> 3561:Chicago, IL 7
+3561:Dallas, TX -> 3561:Cleveland, OH 9
+3561:Dallas, TX -> 3561:Denver, CO 6
+3561:Dallas, TX -> 3561:Fort Worth, TX 1
+3561:Dallas, TX -> 3561:Frankfurt, Germany 42
+3561:Dallas, TX -> 3561:Houston, TX 2
+3561:Dallas, TX -> 3561:Kansas City, MO 4
+3561:Dallas, TX -> 3561:London, UnitedKingdom 39
+3561:Dallas, TX -> 3561:Miami, FL 9
+3561:Dallas, TX -> 3561:Minneapolis, MN 7
+3561:Dallas, TX -> 3561:Nashville, TN 5
+3561:Dallas, TX -> 3561:New York, NY 12
+3561:Dallas, TX -> 3561:Paris, France 40
+3561:Dallas, TX -> 3561:Philadelphia, PA 11
+3561:Dallas, TX -> 3561:Phoenix, AZ 8
+3561:Dallas, TX -> 3561:Raleigh, NC 9
+3561:Dallas, TX -> 3561:Reston, VA 10
+3561:Dallas, TX -> 3561:Salt Lake City, UT 9
+3561:Dallas, TX -> 3561:San Francisco, CA 12
+3561:Dallas, TX -> 3561:San Jose, CA 12
+3561:Dallas, TX -> 3561:Santa Clara, CA 12
+3561:Dallas, TX -> 3561:Seattle, WA 14
+3561:Dallas, TX -> 3561:Washington, DC 10
+3561:Denver, CO -> 3561:Anaheim, CA 7
+3561:Denver, CO -> 3561:Atlanta, GA 10
+3561:Denver, CO -> 3561:Boston, MA 15
+3561:Denver, CO -> 3561:Chicago, IL 8
+3561:Denver, CO -> 3561:Cleveland, OH 10
+3561:Denver, CO -> 3561:Dallas, TX 6
+3561:Denver, CO -> 3561:Houston, TX 8
+3561:Denver, CO -> 3561:Kansas City, MO 5
+3561:Denver, CO -> 3561:Miami, FL 14
+3561:Denver, CO -> 3561:Minneapolis, MN 6
+3561:Denver, CO -> 3561:Nashville, TN 9
+3561:Denver, CO -> 3561:New York, NY 14
+3561:Denver, CO -> 3561:Philadelphia, PA 13
+3561:Denver, CO -> 3561:Phoenix, AZ 5
+3561:Denver, CO -> 3561:Raleigh, NC 12
+3561:Denver, CO -> 3561:Reston, VA 12
+3561:Denver, CO -> 3561:Santa Clara, CA 8
+3561:Denver, CO -> 3561:Seattle, WA 9
+3561:Denver, CO -> 3561:Washington, DC 12
+3561:Dortmund, Germany -> 3561:Dusseldorf, Germany 1
+3561:Dortmund, Germany -> 3561:Essen, Germany 1
+3561:Dresden, Germany -> 3561:Berlin, Germany 1
+3561:Dresden, Germany -> 3561:Frankfurt, Germany 2
+3561:Dresden, Germany -> 3561:Munich, Germany 2
+3561:Dublin, Ireland -> 3561:London, UnitedKingdom 3
+3561:Dusseldorf, Germany -> 3561:Dortmund, Germany 1
+3561:Dusseldorf, Germany -> 3561:Frankfurt, Germany 1
+3561:Dusseldorf, Germany -> 3561:Munich, Germany 3
+3561:El Segundo, CA -> 3561:Anaheim, CA 1
+3561:Elk Grove, IL -> 3561:Chicago, IL 1
+3561:Essen, Germany -> 3561:Dortmund, Germany 1
+3561:Fort Worth, TX -> 3561:Dallas, TX 1
+3561:Frankfurt, Germany -> 3561:Anaheim, CA 47
+3561:Frankfurt, Germany -> 3561:Atlanta, GA 37
+3561:Frankfurt, Germany -> 3561:Berlin, Germany 3
+3561:Frankfurt, Germany -> 3561:Brussels, Belgium 2
+3561:Frankfurt, Germany -> 3561:Chicago, IL 35
+3561:Frankfurt, Germany -> 3561:Dallas, TX 42
+3561:Frankfurt, Germany -> 3561:Dresden, Germany 2
+3561:Frankfurt, Germany -> 3561:Dusseldorf, Germany 1
+3561:Frankfurt, Germany -> 3561:Geneva, Switzerland 3
+3561:Frankfurt, Germany -> 3561:Hamburg, Germany 3
+3561:Frankfurt, Germany -> 3561:Hanover, Germany 2
+3561:Frankfurt, Germany -> 3561:Karlsruhe, Germany 2
+3561:Frankfurt, Germany -> 3561:Koblenz, Germany 1
+3561:Frankfurt, Germany -> 3561:Leipzig, Germany 2
+3561:Frankfurt, Germany -> 3561:London, UnitedKingdom 4
+3561:Frankfurt, Germany -> 3561:Madrid, Spain 8
+3561:Frankfurt, Germany -> 3561:Mannheim, Germany 1
+3561:Frankfurt, Germany -> 3561:Munich, Germany 2
+3561:Frankfurt, Germany -> 3561:New York, NY 31
+3561:Frankfurt, Germany -> 3561:Nuremberg, Germany 1
+3561:Frankfurt, Germany -> 3561:Paris, France 3
+3561:Frankfurt, Germany -> 3561:Saarbrucken, Germany 1
+3561:Frankfurt, Germany -> 3561:San Jose, CA 46
+3561:Frankfurt, Germany -> 3561:Santa Clara, CA 46
+3561:Frankfurt, Germany -> 3561:Stuttgart, Germany 1
+3561:Frankfurt, Germany -> 3561:Vienna, Austria 4
+3561:Frankfurt, Germany -> 3561:Washington, DC 33
+3561:Frankfurt, Germany -> 3561:Wiesbaden, Germany 1
+3561:Frankfurt, Germany -> 3561:Zurich, Switzerland 2
+3561:Geneva, Switzerland -> 3561:Frankfurt, Germany 3
+3561:Geneva, Switzerland -> 3561:Paris, France 3
+3561:Hamburg, Germany -> 3561:Bremen, Germany 1
+3561:Hamburg, Germany -> 3561:Frankfurt, Germany 3
+3561:Hamburg, Germany -> 3561:Kiel, Germany 1
+3561:Hamburg, Germany -> 3561:Lubeck, Germany 1
+3561:Hamburg, Germany -> 3561:Munich, Germany 4
+3561:Hanover, Germany -> 3561:Bielefeld, Germany 1
+3561:Hanover, Germany -> 3561:Braunschweig, Germany 1
+3561:Hanover, Germany -> 3561:Bremen, Germany 1
+3561:Hanover, Germany -> 3561:Frankfurt, Germany 2
+3561:Hartford, CT -> 3561:New York, NY 1
+3561:Heidelberg, Germany -> 3561:Stuttgart, Germany 2
+3561:Herndon, VA -> 3561:Sterling, VA 3
+3561:Houston, TX -> 3561:Anaheim, CA 11
+3561:Houston, TX -> 3561:Atlanta, GA 6
+3561:Houston, TX -> 3561:Boston, MA 13
+3561:Houston, TX -> 3561:Chicago, IL 8
+3561:Houston, TX -> 3561:Dallas, TX 2
+3561:Houston, TX -> 3561:Denver, CO 8
+3561:Houston, TX -> 3561:Miami, FL 8
+3561:Houston, TX -> 3561:New York, NY 12
+3561:Houston, TX -> 3561:Reston, VA 10
+3561:Houston, TX -> 3561:San Francisco, CA 14
+3561:Houston, TX -> 3561:Santa Clara, CA 13
+3561:Houston, TX -> 3561:Seattle, WA 16
+3561:Houston, TX -> 3561:Washington, DC 10
+3561:Jersey City, NJ -> 3561:New York, NY 1
+3561:Kansas City, MO -> 3561:Anaheim, CA 11
+3561:Kansas City, MO -> 3561:Atlanta, GA 6
+3561:Kansas City, MO -> 3561:Boston, MA 11
+3561:Kansas City, MO -> 3561:Chicago, IL 4
+3561:Kansas City, MO -> 3561:Dallas, TX 4
+3561:Kansas City, MO -> 3561:Denver, CO 5
+3561:Kansas City, MO -> 3561:New York, NY 9
+3561:Kansas City, MO -> 3561:Reston, VA 8
+3561:Kansas City, MO -> 3561:San Francisco, CA 13
+3561:Kansas City, MO -> 3561:Santa Clara, CA 12
+3561:Kansas City, MO -> 3561:Seattle, WA 13
+3561:Karlsruhe, Germany -> 3561:Frankfurt, Germany 2
+3561:Karlsruhe, Germany -> 3561:Wiesbaden, Germany 3
+3561:Kiel, Germany -> 3561:Hamburg, Germany 1
+3561:Koblenz, Germany -> 3561:Aachen, Germany 1
+3561:Koblenz, Germany -> 3561:Frankfurt, Germany 1
+3561:Leipzig, Germany -> 3561:Braunschweig, Germany 1
+3561:Leipzig, Germany -> 3561:Frankfurt, Germany 2
+3561:Leipzig, Germany -> 3561:Munich, Germany 2
+3561:London, UnitedKingdom -> 3561:Amsterdam, Netherlands 2
+3561:London, UnitedKingdom -> 3561:Anaheim, CA 44
+3561:London, UnitedKingdom -> 3561:Atlanta, GA 34
+3561:London, UnitedKingdom -> 3561:Birmingham, UnitedKingdom 1
+3561:London, UnitedKingdom -> 3561:Brussels, Belgium 2
+3561:London, UnitedKingdom -> 3561:Chicago, IL 32
+3561:London, UnitedKingdom -> 3561:Dallas, TX 39
+3561:London, UnitedKingdom -> 3561:Dublin, Ireland 3
+3561:London, UnitedKingdom -> 3561:Frankfurt, Germany 4
+3561:London, UnitedKingdom -> 3561:Manchester, UnitedKingdom 2
+3561:London, UnitedKingdom -> 3561:New York, NY 28
+3561:London, UnitedKingdom -> 3561:Paris, France 2
+3561:London, UnitedKingdom -> 3561:San Jose, CA 44
+3561:London, UnitedKingdom -> 3561:Santa Clara, CA 44
+3561:London, UnitedKingdom -> 3561:Swindon, UnitedKingdom 0
+3561:London, UnitedKingdom -> 3561:Washington, DC 30
+3561:Los Angeles, CA -> 3561:Anaheim, CA 1
+3561:Los Angeles, CA -> 3561:San Jose, CA 3
+3561:Los Angeles, CA -> 3561:Santa Clara, CA 3
+3561:Lubeck, Germany -> 3561:Hamburg, Germany 1
+3561:Madrid, Spain -> 3561:Barcelona, Spain 3
+3561:Madrid, Spain -> 3561:Bielefeld, Germany 8
+3561:Madrid, Spain -> 3561:Frankfurt, Germany 8
+3561:Madrid, Spain -> 3561:Paris, France 6
+3561:Manchester, UnitedKingdom -> 3561:London, UnitedKingdom 2
+3561:Mannheim, Germany -> 3561:Frankfurt, Germany 1
+3561:Miami, FL -> 3561:Anaheim, CA 19
+3561:Miami, FL -> 3561:Atlanta, GA 5
+3561:Miami, FL -> 3561:Boston, MA 11
+3561:Miami, FL -> 3561:Chicago, IL 10
+3561:Miami, FL -> 3561:Dallas, TX 9
+3561:Miami, FL -> 3561:Denver, CO 14
+3561:Miami, FL -> 3561:Houston, TX 8
+3561:Miami, FL -> 3561:New York, NY 9
+3561:Miami, FL -> 3561:Reston, VA 8
+3561:Miami, FL -> 3561:San Francisco, CA 21
+3561:Miami, FL -> 3561:Santa Clara, CA 21
+3561:Miami, FL -> 3561:Seattle, WA 22
+3561:Miami, FL -> 3561:Washington, DC 8
+3561:Milan, Italy -> 3561:Zurich, Switzerland 2
+3561:Minneapolis, MN -> 3561:Anaheim, CA 13
+3561:Minneapolis, MN -> 3561:Atlanta, GA 8
+3561:Minneapolis, MN -> 3561:Boston, MA 10
+3561:Minneapolis, MN -> 3561:Chicago, IL 3
+3561:Minneapolis, MN -> 3561:Dallas, TX 7
+3561:Minneapolis, MN -> 3561:Denver, CO 6
+3561:Minneapolis, MN -> 3561:New York, NY 9
+3561:Minneapolis, MN -> 3561:Reston, VA 8
+3561:Minneapolis, MN -> 3561:San Francisco, CA 13
+3561:Minneapolis, MN -> 3561:Santa Clara, CA 13
+3561:Minneapolis, MN -> 3561:Seattle, WA 12
+3561:Minneapolis, MN -> 3561:Washington, DC 8
+3561:Moscow, Russia -> 3561:Stockholm, Sweden 7
+3561:Munich, Germany -> 3561:Amsterdam, Netherlands 4
+3561:Munich, Germany -> 3561:Dresden, Germany 2
+3561:Munich, Germany -> 3561:Dusseldorf, Germany 3
+3561:Munich, Germany -> 3561:Frankfurt, Germany 2
+3561:Munich, Germany -> 3561:Hamburg, Germany 4
+3561:Munich, Germany -> 3561:Leipzig, Germany 2
+3561:Munich, Germany -> 3561:Nuremberg, Germany 1
+3561:Munich, Germany -> 3561:Regensburg, Germany 1
+3561:Munich, Germany -> 3561:Stuttgart, Germany 1
+3561:Munich, Germany -> 3561:Vienna, Austria 2
+3561:Munich, Germany -> 3561:Wiesbaden, Germany 2
+3561:Nashville, TN -> 3561:Anaheim, CA 15
+3561:Nashville, TN -> 3561:Atlanta, GA 2
+3561:Nashville, TN -> 3561:Boston, MA 8
+3561:Nashville, TN -> 3561:Chicago, IL 4
+3561:Nashville, TN -> 3561:Dallas, TX 5
+3561:Nashville, TN -> 3561:Denver, CO 9
+3561:Nashville, TN -> 3561:New York, NY 7
+3561:Nashville, TN -> 3561:Reston, VA 5
+3561:Nashville, TN -> 3561:San Francisco, CA 16
+3561:Nashville, TN -> 3561:Santa Clara, CA 16
+3561:Nashville, TN -> 3561:Seattle, WA 16
+3561:Nashville, TN -> 3561:Washington, DC 5
+3561:New York, NY -> 3561:Amsterdam, Netherlands 30
+3561:New York, NY -> 3561:Anaheim, CA 20
+3561:New York, NY -> 3561:Atlanta, GA 7
+3561:New York, NY -> 3561:Boston, MA 2
+3561:New York, NY -> 3561:Brussels, Belgium 30
+3561:New York, NY -> 3561:Chicago, IL 6
+3561:New York, NY -> 3561:Cleveland, OH 4
+3561:New York, NY -> 3561:Dallas, TX 12
+3561:New York, NY -> 3561:Denver, CO 14
+3561:New York, NY -> 3561:Frankfurt, Germany 31
+3561:New York, NY -> 3561:Hartford, CT 1
+3561:New York, NY -> 3561:Houston, TX 12
+3561:New York, NY -> 3561:Jersey City, NJ 1
+3561:New York, NY -> 3561:Kansas City, MO 9
+3561:New York, NY -> 3561:London, UnitedKingdom 28
+3561:New York, NY -> 3561:Miami, FL 9
+3561:New York, NY -> 3561:Minneapolis, MN 9
+3561:New York, NY -> 3561:Nashville, TN 7
+3561:New York, NY -> 3561:Paris, France 30
+3561:New York, NY -> 3561:Philadelphia, PA 1
+3561:New York, NY -> 3561:Phoenix, AZ 18
+3561:New York, NY -> 3561:Raleigh, NC 4
+3561:New York, NY -> 3561:Relay, MD 2
+3561:New York, NY -> 3561:Reston, VA 2
+3561:New York, NY -> 3561:Salt Lake City, UT 16
+3561:New York, NY -> 3561:San Francisco, CA 21
+3561:New York, NY -> 3561:San Jose, CA 21
+3561:New York, NY -> 3561:Santa Clara, CA 21
+3561:New York, NY -> 3561:Seattle, WA 20
+3561:New York, NY -> 3561:Toronto, Canada 3
+3561:New York, NY -> 3561:Washington, DC 2
+3561:New York, NY -> 3561:Weehawken, NJ 1
+3561:Nuremberg, Germany -> 3561:Frankfurt, Germany 1
+3561:Nuremberg, Germany -> 3561:Munich, Germany 1
+3561:Oak Brook, IL -> 3561:Chicago, IL 1
+3561:Osaka, Japan -> 3561:Anaheim, CA 47
+3561:Oslo, Norway -> 3561:Amsterdam, Netherlands 5
+3561:Osnabruck, Germany -> 3561:Bielefeld, Germany 1
+3561:Palo Alto, CA -> 3561:San Francisco, CA 1
+3561:Palo Alto, CA -> 3561:Santa Clara, CA 1
+3561:Paris, France -> 3561:Amsterdam, Netherlands 3
+3561:Paris, France -> 3561:Anaheim, CA 46
+3561:Paris, France -> 3561:Atlanta, GA 36
+3561:Paris, France -> 3561:Barcelona, Spain 5
+3561:Paris, France -> 3561:Chicago, IL 34
+3561:Paris, France -> 3561:Dallas, TX 40
+3561:Paris, France -> 3561:Frankfurt, Germany 3
+3561:Paris, France -> 3561:Geneva, Switzerland 3
+3561:Paris, France -> 3561:London, UnitedKingdom 2
+3561:Paris, France -> 3561:Madrid, Spain 6
+3561:Paris, France -> 3561:New York, NY 30
+3561:Paris, France -> 3561:Santa Clara, CA 45
+3561:Paris, France -> 3561:Washington, DC 31
+3561:Philadelphia, PA -> 3561:Anaheim, CA 20
+3561:Philadelphia, PA -> 3561:Atlanta, GA 6
+3561:Philadelphia, PA -> 3561:Boston, MA 3
+3561:Philadelphia, PA -> 3561:Chicago, IL 6
+3561:Philadelphia, PA -> 3561:Dallas, TX 11
+3561:Philadelphia, PA -> 3561:Denver, CO 13
+3561:Philadelphia, PA -> 3561:New York, NY 1
+3561:Philadelphia, PA -> 3561:Reston, VA 2
+3561:Philadelphia, PA -> 3561:San Francisco, CA 21
+3561:Philadelphia, PA -> 3561:Santa Clara, CA 21
+3561:Philadelphia, PA -> 3561:Seattle, WA 20
+3561:Philadelphia, PA -> 3561:Washington, DC 2
+3561:Phoenix, AZ -> 3561:Anaheim, CA 3
+3561:Phoenix, AZ -> 3561:Atlanta, GA 13
+3561:Phoenix, AZ -> 3561:Boston, MA 19
+3561:Phoenix, AZ -> 3561:Chicago, IL 12
+3561:Phoenix, AZ -> 3561:Dallas, TX 8
+3561:Phoenix, AZ -> 3561:Denver, CO 5
+3561:Phoenix, AZ -> 3561:New York, NY 18
+3561:Phoenix, AZ -> 3561:Reston, VA 16
+3561:Phoenix, AZ -> 3561:San Francisco, CA 6
+3561:Phoenix, AZ -> 3561:Santa Clara, CA 5
+3561:Phoenix, AZ -> 3561:Seattle, WA 9
+3561:Phoenix, AZ -> 3561:Washington, DC 16
+3561:Portland, OR -> 3561:Seattle, WA 2
+3561:Raleigh, NC -> 3561:Anaheim, CA 18
+3561:Raleigh, NC -> 3561:Atlanta, GA 3
+3561:Raleigh, NC -> 3561:Boston, MA 5
+3561:Raleigh, NC -> 3561:Chicago, IL 6
+3561:Raleigh, NC -> 3561:Dallas, TX 9
+3561:Raleigh, NC -> 3561:Denver, CO 12
+3561:Raleigh, NC -> 3561:New York, NY 4
+3561:Raleigh, NC -> 3561:Reston, VA 2
+3561:Raleigh, NC -> 3561:San Francisco, CA 20
+3561:Raleigh, NC -> 3561:Santa Clara, CA 20
+3561:Raleigh, NC -> 3561:Seattle, WA 19
+3561:Raleigh, NC -> 3561:Washington, DC 2
+3561:Regensburg, Germany -> 3561:Munich, Germany 1
+3561:Relay, MD -> 3561:Chicago, IL 5
+3561:Relay, MD -> 3561:New York, NY 2
+3561:Relay, MD -> 3561:Washington, DC 1
+3561:Reston, VA -> 3561:Anaheim, CA 19
+3561:Reston, VA -> 3561:Atlanta, GA 5
+3561:Reston, VA -> 3561:Boston, MA 4
+3561:Reston, VA -> 3561:Chicago, IL 5
+3561:Reston, VA -> 3561:Cleveland, OH 3
+3561:Reston, VA -> 3561:Dallas, TX 10
+3561:Reston, VA -> 3561:Denver, CO 12
+3561:Reston, VA -> 3561:Houston, TX 10
+3561:Reston, VA -> 3561:Kansas City, MO 8
+3561:Reston, VA -> 3561:Miami, FL 8
+3561:Reston, VA -> 3561:Minneapolis, MN 8
+3561:Reston, VA -> 3561:Nashville, TN 5
+3561:Reston, VA -> 3561:New York, NY 2
+3561:Reston, VA -> 3561:Philadelphia, PA 2
+3561:Reston, VA -> 3561:Phoenix, AZ 16
+3561:Reston, VA -> 3561:Raleigh, NC 2
+3561:Reston, VA -> 3561:Salt Lake City, UT 15
+3561:Reston, VA -> 3561:San Francisco, CA 20
+3561:Reston, VA -> 3561:Santa Clara, CA 20
+3561:Reston, VA -> 3561:Seattle, WA 19
+3561:Reston, VA -> 3561:Washington, DC 1
+3561:Roachdale, IN -> 3561:Chicago, IL 2
+3561:Rotterdam, Netherlands -> 3561:Amsterdam, Netherlands 1
+3561:Saarbrucken, Germany -> 3561:Aachen, Germany 1
+3561:Saarbrucken, Germany -> 3561:Frankfurt, Germany 1
+3561:Salt Lake City, UT -> 3561:Anaheim, CA 5
+3561:Salt Lake City, UT -> 3561:Atlanta, GA 13
+3561:Salt Lake City, UT -> 3561:Boston, MA 17
+3561:Salt Lake City, UT -> 3561:Chicago, IL 11
+3561:Salt Lake City, UT -> 3561:Dallas, TX 9
+3561:Salt Lake City, UT -> 3561:New York, NY 16
+3561:Salt Lake City, UT -> 3561:Reston, VA 15
+3561:Salt Lake City, UT -> 3561:San Francisco, CA 5
+3561:Salt Lake City, UT -> 3561:Santa Clara, CA 5
+3561:Salt Lake City, UT -> 3561:Seattle, WA 6
+3561:Salt Lake City, UT -> 3561:Washington, DC 15
+3561:San Francisco, CA -> 3561:Anaheim, CA 4
+3561:San Francisco, CA -> 3561:Atlanta, GA 18
+3561:San Francisco, CA -> 3561:Boston, MA 22
+3561:San Francisco, CA -> 3561:Chicago, IL 15
+3561:San Francisco, CA -> 3561:Cleveland, OH 18
+3561:San Francisco, CA -> 3561:Dallas, TX 12
+3561:San Francisco, CA -> 3561:Houston, TX 14
+3561:San Francisco, CA -> 3561:Kansas City, MO 13
+3561:San Francisco, CA -> 3561:Miami, FL 21
+3561:San Francisco, CA -> 3561:Minneapolis, MN 13
+3561:San Francisco, CA -> 3561:Nashville, TN 16
+3561:San Francisco, CA -> 3561:New York, NY 21
+3561:San Francisco, CA -> 3561:Palo Alto, CA 1
+3561:San Francisco, CA -> 3561:Philadelphia, PA 21
+3561:San Francisco, CA -> 3561:Phoenix, AZ 6
+3561:San Francisco, CA -> 3561:Raleigh, NC 20
+3561:San Francisco, CA -> 3561:Reston, VA 20
+3561:San Francisco, CA -> 3561:Salt Lake City, UT 5
+3561:San Francisco, CA -> 3561:San Jose, CA 1
+3561:San Francisco, CA -> 3561:Santa Clara, CA 1
+3561:San Francisco, CA -> 3561:Seattle, WA 6
+3561:San Francisco, CA -> 3561:Washington, DC 20
+3561:San Jose, CA -> 3561:Amsterdam, Netherlands 45
+3561:San Jose, CA -> 3561:Anaheim, CA 3
+3561:San Jose, CA -> 3561:Brussels, Belgium 45
+3561:San Jose, CA -> 3561:Chicago, IL 15
+3561:San Jose, CA -> 3561:Dallas, TX 12
+3561:San Jose, CA -> 3561:Frankfurt, Germany 46
+3561:San Jose, CA -> 3561:London, UnitedKingdom 44
+3561:San Jose, CA -> 3561:Los Angeles, CA 3
+3561:San Jose, CA -> 3561:New York, NY 21
+3561:San Jose, CA -> 3561:San Francisco, CA 1
+3561:San Jose, CA -> 3561:Santa Clara, CA 1
+3561:San Jose, CA -> 3561:Washington, DC 20
+3561:Santa Clara, CA -> 3561:Amsterdam, Netherlands 45
+3561:Santa Clara, CA -> 3561:Anaheim, CA 3
+3561:Santa Clara, CA -> 3561:Atlanta, GA 17
+3561:Santa Clara, CA -> 3561:Boston, MA 22
+3561:Santa Clara, CA -> 3561:Brussels, Belgium 45
+3561:Santa Clara, CA -> 3561:Chicago, IL 15
+3561:Santa Clara, CA -> 3561:Cleveland, OH 18
+3561:Santa Clara, CA -> 3561:Dallas, TX 12
+3561:Santa Clara, CA -> 3561:Denver, CO 8
+3561:Santa Clara, CA -> 3561:Frankfurt, Germany 46
+3561:Santa Clara, CA -> 3561:Houston, TX 13
+3561:Santa Clara, CA -> 3561:Kansas City, MO 12
+3561:Santa Clara, CA -> 3561:London, UnitedKingdom 44
+3561:Santa Clara, CA -> 3561:Los Angeles, CA 3
+3561:Santa Clara, CA -> 3561:Miami, FL 21
+3561:Santa Clara, CA -> 3561:Minneapolis, MN 13
+3561:Santa Clara, CA -> 3561:Nashville, TN 16
+3561:Santa Clara, CA -> 3561:New York, NY 21
+3561:Santa Clara, CA -> 3561:Palo Alto, CA 1
+3561:Santa Clara, CA -> 3561:Paris, France 45
+3561:Santa Clara, CA -> 3561:Philadelphia, PA 21
+3561:Santa Clara, CA -> 3561:Phoenix, AZ 5
+3561:Santa Clara, CA -> 3561:Raleigh, NC 20
+3561:Santa Clara, CA -> 3561:Reston, VA 20
+3561:Santa Clara, CA -> 3561:Salt Lake City, UT 5
+3561:Santa Clara, CA -> 3561:San Francisco, CA 1
+3561:Santa Clara, CA -> 3561:San Jose, CA 1
+3561:Santa Clara, CA -> 3561:Seattle, WA 6
+3561:Santa Clara, CA -> 3561:Sunnyvale, CA 1
+3561:Santa Clara, CA -> 3561:Sydney, Australia 60
+3561:Santa Clara, CA -> 3561:Tokyo, Japan 42
+3561:Santa Clara, CA -> 3561:Washington, DC 20
+3561:Seattle, WA -> 3561:Anaheim, CA 8
+3561:Seattle, WA -> 3561:Atlanta, GA 18
+3561:Seattle, WA -> 3561:Boston, MA 20
+3561:Seattle, WA -> 3561:Chicago, IL 14
+3561:Seattle, WA -> 3561:Cleveland, OH 17
+3561:Seattle, WA -> 3561:Dallas, TX 14
+3561:Seattle, WA -> 3561:Denver, CO 9
+3561:Seattle, WA -> 3561:Houston, TX 16
+3561:Seattle, WA -> 3561:Kansas City, MO 13
+3561:Seattle, WA -> 3561:Miami, FL 22
+3561:Seattle, WA -> 3561:Minneapolis, MN 12
+3561:Seattle, WA -> 3561:Nashville, TN 16
+3561:Seattle, WA -> 3561:New York, NY 20
+3561:Seattle, WA -> 3561:Philadelphia, PA 20
+3561:Seattle, WA -> 3561:Phoenix, AZ 9
+3561:Seattle, WA -> 3561:Portland, OR 2
+3561:Seattle, WA -> 3561:Raleigh, NC 19
+3561:Seattle, WA -> 3561:Reston, VA 19
+3561:Seattle, WA -> 3561:Salt Lake City, UT 6
+3561:Seattle, WA -> 3561:San Francisco, CA 6
+3561:Seattle, WA -> 3561:Santa Clara, CA 6
+3561:Seattle, WA -> 3561:Tukwila, WA 1
+3561:Seattle, WA -> 3561:Washington, DC 19
+3561:Sterling, VA -> 3561:Herndon, VA 3
+3561:Sterling, VA -> 3561:Washington, DC 3
+3561:Stockholm, Sweden -> 3561:Brussels, Belgium 7
+3561:Stockholm, Sweden -> 3561:Copenhagen, Denmark 3
+3561:Stockholm, Sweden -> 3561:Moscow, Russia 7
+3561:Stuttgart, Germany -> 3561:Frankfurt, Germany 1
+3561:Stuttgart, Germany -> 3561:Heidelberg, Germany 2
+3561:Stuttgart, Germany -> 3561:Munich, Germany 1
+3561:Sunnyvale, CA -> 3561:Santa Clara, CA 1
+3561:Swindon, UnitedKingdom -> 3561:London, UnitedKingdom 0
+3561:Sydney, Australia -> 3561:Anaheim, CA 61
+3561:Sydney, Australia -> 3561:Santa Clara, CA 60
+3561:Tokyo, Japan -> 3561:Santa Clara, CA 42
+3561:Toronto, Canada -> 3561:Chicago, IL 4
+3561:Toronto, Canada -> 3561:New York, NY 3
+3561:Tukwila, WA -> 3561:Seattle, WA 1
+3561:Vienna, Austria -> 3561:Frankfurt, Germany 4
+3561:Vienna, Austria -> 3561:Munich, Germany 2
+3561:Waltham, MA -> 3561:Boston, MA 1
+3561:Washington, DC -> 3561:Amsterdam, Netherlands 32
+3561:Washington, DC -> 3561:Anaheim, CA 19
+3561:Washington, DC -> 3561:Atlanta, GA 5
+3561:Washington, DC -> 3561:Boston, MA 4
+3561:Washington, DC -> 3561:Brussels, Belgium 32
+3561:Washington, DC -> 3561:Chicago, IL 5
+3561:Washington, DC -> 3561:Dallas, TX 10
+3561:Washington, DC -> 3561:Denver, CO 12
+3561:Washington, DC -> 3561:Frankfurt, Germany 33
+3561:Washington, DC -> 3561:Houston, TX 10
+3561:Washington, DC -> 3561:London, UnitedKingdom 30
+3561:Washington, DC -> 3561:Miami, FL 8
+3561:Washington, DC -> 3561:Minneapolis, MN 8
+3561:Washington, DC -> 3561:Nashville, TN 5
+3561:Washington, DC -> 3561:New York, NY 2
+3561:Washington, DC -> 3561:Paris, France 31
+3561:Washington, DC -> 3561:Philadelphia, PA 2
+3561:Washington, DC -> 3561:Phoenix, AZ 16
+3561:Washington, DC -> 3561:Raleigh, NC 2
+3561:Washington, DC -> 3561:Relay, MD 1
+3561:Washington, DC -> 3561:Reston, VA 1
+3561:Washington, DC -> 3561:Salt Lake City, UT 15
+3561:Washington, DC -> 3561:San Francisco, CA 20
+3561:Washington, DC -> 3561:San Jose, CA 20
+3561:Washington, DC -> 3561:Santa Clara, CA 20
+3561:Washington, DC -> 3561:Seattle, WA 19
+3561:Washington, DC -> 3561:Sterling, VA 3
+3561:Weehawken, NJ -> 3561:New York, NY 1
+3561:Wiesbaden, Germany -> 3561:Berlin, Germany 3
+3561:Wiesbaden, Germany -> 3561:Frankfurt, Germany 1
+3561:Wiesbaden, Germany -> 3561:Karlsruhe, Germany 3
+3561:Wiesbaden, Germany -> 3561:Munich, Germany 2
+3561:Zurich, Switzerland -> 3561:Brussels, Belgium 3
+3561:Zurich, Switzerland -> 3561:Frankfurt, Germany 2
+3561:Zurich, Switzerland -> 3561:Milan, Italy 2

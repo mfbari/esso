@@ -1,4 +1,5 @@
 #include <limits>
+#include <sstream>
 
 //#include "esso_heuristic.hpp"
 #include "iz_topology.hpp"
@@ -30,6 +31,7 @@ iz_path stage_one(const sfc_request& sfc, const int k, const int timeslot,
   const auto& cos = prob_inst.topology.cos;
   for (int i = 0; i < paths.size(); ++i) {
     const auto& path = paths[i];
+    //cout << path << endl;
     if (path.latency > sfc.latency) continue;
     double path_energy{0.0};
     for (auto& co_id : path.nodes) {
@@ -77,6 +79,16 @@ bool first_fit(const sfc_request& sfc, const iz_path& path,
     ++curr_co_idx;
   }
   return false;
+}
+
+bool random_fit(const sfc_request& sfc, const iz_path& path,
+    vector<vector<int>>& embedding_table) {
+  default_random_engine rnd_engine;
+  uniform_int_distribution<> uni_dist(0, path.size()-1);
+  for (int v = 0; v < sfc.vnf_count; ++v) {
+    embedding_table.at(uni_dist(rnd_engine)).at(v) = 1;
+  }
+  return true;
 }
 
 // compute the embedding cost of an embedding table
@@ -142,7 +154,8 @@ bool is_valid_embedding(const sfc_request& sfc,const iz_path& path,
         ++non_zero_count;
         // here the entries in the vnf_co are updated to store
         // the co_ids on the path
-        vnf_co[vnf_idx] = path.nodes[co_idx];
+        //vnf_co[vnf_idx] = path.nodes[co_idx];
+        vnf_co[vnf_idx] = co_idx;
       }
     }
     // both sum and non_zero_count must be equal to one
@@ -179,6 +192,37 @@ bool is_valid_embedding(const sfc_request& sfc,const iz_path& path,
   return true;
 }
 
+void print_emb_table(const vector<vector<int>>& table, 
+    const string& message = "") {
+  if (message != "") cout << message << endl;
+  for (auto& r : table) {
+    for (auto& c : r) cout << c << " ";
+    cout << endl;
+  }
+}
+
+vector<int> magic_sequence(const int vnf_count) {
+  vector<int> seq;
+  default_random_engine rnd_engine;
+  uniform_int_distribution<> uni_dist(0, vnf_count-1);
+  int m = 3;
+  for (int i = vnf_count - 1; i >= 0; --i) {
+    seq.push_back(i);
+    for (int j = 0, n; j < m*vnf_count; ++j) {
+      n = uni_dist(rnd_engine);
+      if (!seq.empty() && n != seq.back()) seq.push_back(n);
+    }
+  }
+  for (int i = 0; i < vnf_count; ++i) {
+    seq.push_back(i);
+    for (int j = 0, n; j < m*vnf_count; ++j) {
+      n = uni_dist(rnd_engine);
+      if (!seq.empty() && n != seq.back()) seq.push_back(n);
+    }
+  }
+}
+
+
 bool tabu_search(const sfc_request& sfc, const iz_path& path,
     const vector<vector<vector<double>>>& cost_matrices,
     vector<vector<int>>& best_solution,
@@ -188,57 +232,81 @@ bool tabu_search(const sfc_request& sfc, const iz_path& path,
         path.size(), vector<int>(sfc.vnf_count, 0));
     auto res = first_fit(sfc, path, cost_matrices, 
         current_solution);
-    // if no fist-fit solution, then return false
+    // if no fist-fit solution, then random fit 
+    if (!res) {
+      for(auto& row : current_solution) {
+        for (auto& e : row) e = 0;
+      }
+      res = random_fit(sfc, path, current_solution);
+    }
+    // if no random-fit, then return false
     if (!res) return false;
 
     // overall best solution and cost
-    best_solution_cost = -1.0;
+    //best_solution_cost = -1.0;
     // set best solution = current solution
     best_solution = current_solution;
     best_solution_cost = embedding_cost(sfc, path, cost_matrices, 
         best_solution);
+
+    //print_emb_table(best_solution, "first fit or random fit");
+    //cout << best_solution_cost << endl;
 
     // tabu search specific data strutures
     set<pair<int, int>> tabu_set;
     vector<vector<int>> tabu_timers(path.size(), 
         vector<int>(sfc.vnf_count, 0));
     const int tabu_period = 500;
-    const int max_iterations = 100000;
+    const int max_iterations = 10000;
     const int max_no_improvement_iterations = 1500;
     int best_cost_update_timestamp = 0;
 
     // variables for random number
+    random_device rd;
+    mt19937 gen(rd());
+    uniform_real_distribution<> dis(0.0, 1.0);
     default_random_engine rnd_engine;
-    uniform_int_distribution<> uni_dist(0,99);
+    uniform_int_distribution<> uni_dist(0, sfc.vnf_count-1);
     // main loop for tabu search
     int iter = 0;
+    double best_nbr_cost = numeric_limits<double>::max();
     for (; iter < max_iterations; ++iter) {
       // datastructure to keep track of best neighbour
-      double best_nbr_cost = numeric_limits<double>::max();
       vector<vector<int>> best_nbr;
       pair<int, int> potential_tabu_move(-1, -1);
 
       // generate neighbors to find the best neighbor for this iteration
-      for (int j = 0; j < sfc.vnf_count; ++j) {
+      for (int j : magic_sequence(sfc.vnf_count)) {
+      //for (int j = 0; j < sfc.vnf_count; ++j) {
+      //for (int j = sfc.vnf_count - 1; j >=0; --j) {
+      //for (int k = 0; k < 1500; ++k) {
+        //int j = uni_dist(rnd_engine);
         // initialize the nbr solution with current solution
         auto nbr(current_solution);
         // now change one vnf assignment 
         // find the current index of co for vnf j
         int curr_co_idx{0}, next_co_idx{0};
-        while (nbr[curr_co_idx][j] == 0 && 
-            curr_co_idx < path.size()) 
+        while (curr_co_idx < path.size() && 
+            nbr[curr_co_idx][j] == 0 ) 
           ++curr_co_idx;
 
-        int rnd_num = uni_dist(rnd_engine);
-        if (rnd_num%2) { // if odd then move up (-1)
+        float rnd_num = dis(gen);
+        if (rnd_num <= 0.5) {
           next_co_idx = (curr_co_idx + path.size() - 1) % path.size();
         }
-        else { // even, so move down (+1)
+        else { 
           next_co_idx = (curr_co_idx + 1) % path.size();
         }
+
+        // check for tabu move
+        if (tabu_set.find(make_pair(next_co_idx, j)) != tabu_set.end())
+          continue;
+
         // update current and next co assignment to generate the neighbor
         nbr[curr_co_idx][j] = 0;
         nbr[next_co_idx][j] = 1;
+
+        //print_emb_table(nbr, "intermediate nbr");
 
         // if nbr_solution is not valid then continue
         if (!is_valid_embedding(sfc, path, cost_matrices, nbr))
@@ -249,10 +317,15 @@ bool tabu_search(const sfc_request& sfc, const iz_path& path,
 
         // update best neighbor and potential tabu move 
         if (nbr_cost < best_nbr_cost) {
+          //cout << nbr_cost << " " << best_nbr_cost << endl;
           best_nbr_cost = nbr_cost;
           best_nbr = nbr;
-          potential_tabu_move.first = j;
-          potential_tabu_move.second = next_co_idx;
+
+          //print_emb_table(best_nbr, "best nbr");
+          //cout << best_nbr_cost << endl;
+
+          potential_tabu_move.first = next_co_idx;
+          potential_tabu_move.second = j;
         }
       } // end of for loop for generating neigbor solutions
 
@@ -260,6 +333,10 @@ bool tabu_search(const sfc_request& sfc, const iz_path& path,
       if (best_nbr_cost < best_solution_cost) {
         best_solution_cost = best_nbr_cost;
         best_solution = best_nbr;
+
+        //print_emb_table(best_solution, "best iteration nbr");
+        //cout << best_solution_cost << endl;
+
         tabu_set.insert(potential_tabu_move);
         tabu_timers[potential_tabu_move.first][potential_tabu_move.second] =
             tabu_period;
@@ -279,11 +356,13 @@ bool tabu_search(const sfc_request& sfc, const iz_path& path,
       // if best cost is not updated in the last 
       // max_no_improvement_iterations then break
       if (iter - best_cost_update_timestamp > 
-          max_no_improvement_iterations)
+          max_no_improvement_iterations) {
+        //cout << "break for no improvement" << endl;
         break;
+      }
 
     } // end of tabu search iterations
-    return true;
+    return is_valid_embedding(sfc, path, cost_matrices, best_solution);
 }
 
 // build the entire inter + intra co topology 
@@ -334,17 +413,17 @@ void generate_full_topology(problem_instance& prob_inst,
   int edge_id{0};
   // output inter co edges
   for (auto& e : inter_co_topo.edges()) {
-    topo.add_edge(id_map[e.u][0], id_map[e.v][0], e.latency, e.capacity);
-    topo.add_edge(id_map[e.v][0], id_map[e.u][0], e.latency, e.capacity);
+    topo.add_edge(id_map[e.u][0], id_map[e.v][0], e.latency, e.residual);
+    topo.add_edge(id_map[e.v][0], id_map[e.u][0], e.latency, e.residual);
   }
   // output intra co edges
   for (auto& co : cos) {
     // output edges
     for (auto& e : co.intra_topo.edges()) {
       topo.add_edge(id_map[co.id][e.u], id_map[co.id][e.v], 
-          e.latency, e.capacity);
+          e.latency, e.residual);
       topo.add_edge(id_map[co.id][e.v], id_map[co.id][e.u], 
-          e.latency, e.capacity);
+          e.latency, e.residual);
     }
   }
   //---------------
@@ -355,16 +434,20 @@ void print_404_message(const sfc_request& sfc) {
   cout << "404 " << sfc << endl;
 }
 
+
 bool read_res_topology_file(const string& res_topology_filename,
     problem_instance& prob_inst) {
   fstream fin(res_topology_filename);
+  if (!fin) return false;
   int co_count, co_id;
   fin >> co_count;
   auto& cos = prob_inst.topology.cos;
   for (int i = 0; i < co_count; ++i) {
     fin >> co_id;
     fin >> cos[co_id].carbon;
-    for (int j = 0; j < 24; ++j) fin >> cos[co_id].green_residual[j];
+    for (int j = 0; j < 24; ++j) {
+      fin >> cos[co_id].green_residual[j];
+    }
   }
   int node_count, edge_count;
   fin >> node_count >> edge_count;
@@ -394,8 +477,8 @@ bool read_res_topology_file(const string& res_topology_filename,
     }
   }
   fin >> type;
-  if (!fin.eof()) cout << "all data not read" << endl;
   fin.close();
+  return true;
 }
 
 int main(int argc, char **argv) {
@@ -433,6 +516,7 @@ int main(int argc, char **argv) {
 
     iz_timer htimer;
 
+    /* commentedout this block to check for all paths instead of one
     // Stage-1: find a path for embedding sfc
     int k = 3; // number of candidate paths
     auto embedding_path = stage_one(sfc, k, timeslot, prob_inst);
@@ -441,42 +525,115 @@ int main(int argc, char **argv) {
     if (!embedding_path.is_valid()) {
       print_404_message(sfc);
       cerr << "no embedding path" << endl;
-      return -1;
+      return 0;
     }
-    
-    // Stage-2: compute the cost matrix for all co's on the embedding path
-    vector<vector<vector<double>>> cost_matrices(embedding_path.size());
-    vector<vector<vector<int>>> node_matrices(embedding_path.size());
-    for (int i = 0; i < embedding_path.size(); ++i) {
-      int co_id = embedding_path.nodes[i];
-      stage_two(co_id, sfc, embedding_path, timeslot, 
-          cost_matrices[i], node_matrices[i], prob_inst);
+    */
+
+    //// check all paths instead of just one
+    double time;
+    iz_path_list paths;
+    iz_path embedding_path;
+    int k = 10;
+    auto& inter_co_topo = prob_inst.topology.inter_co_topo;
+    inter_co_topo.k_shortest_paths(sfc.ingress_co, sfc.egress_co, k, paths,
+        sfc.bandwidth);
+    if (paths.empty()) {
+      print_404_message(sfc);
+      cerr << "no embedding path" << endl;
+      return 0;
+    }
+    vector<vector<int>> best_solution;
+    double best_cost{numeric_limits<double>::max()};
+
+    // added this for loop to iterate over all paths
+    vector<vector<vector<double>>> best_cost_matrices;
+    vector<vector<vector<int>>> best_node_matrices;
+    bool solution_found = false;
+    for (auto& path : paths) {
+      if (path.latency > sfc.latency) continue;
+      htimer.reset();
+      // Stage-2: compute the cost matrix for all co's on the embedding path
+      vector<vector<vector<double>>> cost_matrices(path.size());
+      vector<vector<vector<int>>> node_matrices(path.size());
+      for (int i = 0; i < path.size(); ++i) {
+        int co_id = path.nodes[i];
+        stage_two(co_id, sfc, path, timeslot, 
+            cost_matrices[i], node_matrices[i], prob_inst);
+      }
+
+      // 1 1 3 1 4 1 2 2 1 100 100 0 0.2
+      // Stage-3: call tabu search
+      vector<vector<int>> solution = vector<vector<int>>(
+          path.size(), vector<int>(sfc.vnf_count, 0));
+      double cost;
+      auto res = tabu_search(sfc, path, cost_matrices, 
+          solution, cost);
+      
+      time = htimer.time();
+
+      if (res && best_cost > cost) {
+        best_cost = cost;
+        best_solution = solution;
+        embedding_path = path;
+        best_cost_matrices = cost_matrices;
+        best_node_matrices = node_matrices;
+        solution_found = true;
+      }
     }
 
-    // 1 1 3 1 4 1 2 2 1 100 100 0 0.2
-    // Stage-3: call tabu search
-    vector<vector<int>> best_solution = vector<vector<int>>(
-        embedding_path.size(), vector<int>(sfc.vnf_count, 0));
-    double best_cost{};
-    auto res = tabu_search(sfc, embedding_path, cost_matrices, 
-        best_solution, best_cost);
+    // print cost matrices for debugging
+    /*
+    for (int ci = 0; ci < embedding_path.size(); ++ci) {
+      cout << "path[" << ci << "] co_id: " << 
+          embedding_path.nodes[ci] << endl;
+      for (auto& r : best_cost_matrices[ci]) {
+        for (auto& c : r) cout << c << " ";
+        cout << endl;
+      }
+    }
+    for (int ci = 0; ci < embedding_path.size(); ++ci) {
+      cout << "path[" << ci << "] co_id: " << 
+          embedding_path.nodes[ci] << endl;
+      for (auto& r : best_node_matrices[ci]) {
+        for (auto& c : r) cout << c << " ";
+        cout << endl;
+      }
+    }
+    cout << "embedding_table" << endl;
+    for (auto& r : best_solution) {
+      for(auto& c : r) cout << c << " ";
+      cout << endl;
+    }
+    */
     
     // no soution found then 
     // OUTPUT 404 message
-    if (!res) {
+    if (!solution_found) {
       print_404_message(sfc);
       cerr << "failed to find any solution" << endl;
-      return -1;
+      return 0;
     }
 
-    double time = htimer.time();
+    ostringstream oss;
 
     //OUTPUT sfc and cost
-    cout << "200 " << sfc << " ";
+    oss << "200 " << sfc << " ";
 
     vector<int> emb_cos, emb_co_nodes;
     auto emb_nodes = embedding_nodes(sfc, embedding_path, 
-        node_matrices, best_solution, emb_cos, emb_co_nodes);
+        best_node_matrices, best_solution, emb_cos, emb_co_nodes);
+
+    /*
+    cout << embedding_path << endl;
+    print_emb_table(best_solution);
+    cout << endl << "NODES" << endl;
+    for (auto& n : emb_nodes) cout << n << " ";
+    cout << endl;
+    for (auto& n : emb_cos) cout << n << " ";
+    cout << endl;
+    for (auto& n : emb_co_nodes) cout << n << " ";
+    cout << endl;
+    */
 
     //cout << endl << "---------------------------" << endl;
     // compute carbon footprint
@@ -487,6 +644,11 @@ int main(int argc, char **argv) {
       iz_path path;
       prob_inst.topology.inter_co_topo.shortest_path(sfc.ingress_co, 
           emb_cos.front(), path, sfc.bandwidth);
+      if (!path.is_valid()) {
+        print_404_message(sfc); 
+        cerr << "failed to find path from ingress co to co[0]" << endl;
+        return 0;
+      }
       prob_inst.topology.allocate_bandwidth(path, 
           sfc.bandwidth);
     }
@@ -498,6 +660,11 @@ int main(int argc, char **argv) {
         iz_path path;
         prob_inst.topology.inter_co_topo.shortest_path(co_u, co_v,
             path, sfc.bandwidth);
+        if (!path.is_valid()) {
+          print_404_message(sfc); 
+          cerr << "failed to find path for backbone links" << endl;
+          return 0;
+        }
         prob_inst.topology.allocate_bandwidth(path, 
             sfc.bandwidth);
       }
@@ -508,6 +675,11 @@ int main(int argc, char **argv) {
       iz_path path;
       prob_inst.topology.inter_co_topo.shortest_path(emb_cos.back(), 
           sfc.egress_co, path, sfc.bandwidth);
+      if (!path.is_valid()) {
+        print_404_message(sfc); 
+        cerr << "failed to find path from last co to egress co" << endl;
+        return 0;
+      }
       prob_inst.topology.allocate_bandwidth(path, 
           sfc.bandwidth);
     }
@@ -530,6 +702,11 @@ int main(int argc, char **argv) {
           iz_path path;
           prob_inst.topology.cos[last_co].intra_topo.shortest_path(u, v,
               path, sfc.bandwidth);
+          if (!path.is_valid()) {
+            print_404_message(sfc); 
+            cerr << "failed to find path within co" << endl;
+            return 0;
+          }
           prob_inst.topology.cos[last_co].allocate_bandwidth(path, 
               sfc.bandwidth);
           u = v;
@@ -537,6 +714,11 @@ int main(int argc, char **argv) {
         iz_path path;
         prob_inst.topology.cos[last_co].intra_topo.shortest_path(u, 0,
             path, sfc.bandwidth);
+        if (!path.is_valid()) {
+          print_404_message(sfc); 
+          cerr << "failed to find last path within co" << endl;
+          return 0;
+        }
         prob_inst.topology.cos[last_co].allocate_bandwidth(path, 
             sfc.bandwidth);
 
@@ -552,6 +734,11 @@ int main(int argc, char **argv) {
         iz_path path;
         prob_inst.topology.cos[last_co].intra_topo.shortest_path(u, v,
             path, sfc.bandwidth);
+        if (!path.is_valid()) {
+          print_404_message(sfc); 
+          cerr << "failed to find path within co after loop" << endl;
+          return 0;
+        }
         prob_inst.topology.cos[last_co].allocate_bandwidth(path, 
             sfc.bandwidth);
         u = v;
@@ -559,6 +746,11 @@ int main(int argc, char **argv) {
       iz_path path;
       prob_inst.topology.cos[last_co].intra_topo.shortest_path(u, 0,
           path, sfc.bandwidth);
+      if (!path.is_valid()) {
+        print_404_message(sfc); 
+        cerr << "failed to find path within co last after loop" << endl;
+        return 0;
+      }
       prob_inst.topology.cos[last_co].allocate_bandwidth(path, 
           sfc.bandwidth);
     }
@@ -567,13 +759,22 @@ int main(int argc, char **argv) {
       prob_inst.topology.cos[emb_cos[i]].allocate_cpu(emb_co_nodes[i],
           sfc.cpu_reqs[i]);
     }
+    double brown_energy, green_energy;
+    double emb_cost = prob_inst.topology.get_carbon_fp(timeslot, 
+        brown_energy, green_energy);
 
-    cout << prob_inst.topology.get_carbon_fp(timeslot) << " ";
+    if (current_cost > 0 && 
+        emb_cost > (1.0 - migration_threshold) * current_cost) {
+      print_404_message(sfc);
+      return 0;
+    }
+
+    oss << emb_cost << " ";
     //cout << endl << "---------------------------" << endl;
 
     // OUTPUT the number of nodes followed by the nodes
-    cout << sfc.vnf_count << " "; 
-    for (auto node : emb_nodes) cout << node << " ";
+    oss << sfc.vnf_count << " "; 
+    for (auto node : emb_nodes) oss << node << " ";
 
     // generate full topology
     iz_topology full_topo;
@@ -590,27 +791,34 @@ int main(int argc, char **argv) {
     full_path_nodes.push_back(sfc.egress_co * inter_co_node_count);
     // OUTPUT the number of partial paths on the full path
     // always equal to sfc.vnf_count + 1
-    cout << sfc.vnf_count + 1 << " ";
+    oss << sfc.vnf_count + 1 << " ";
     // iterate the nodes in the full path
     int u = full_path_nodes[0];
     for (int v_idx = 1; v_idx < full_path_nodes.size(); ++v_idx) {
       int v = full_path_nodes[v_idx];
       // if u == v then just OUTPUT 
       if (u == v) {
-        cout << 2 << " " << u << " " << v << " ";
+        oss << 2 << " " << u << " " << v << " ";
       }
       else {
         // find the shortest path between u and v
         iz_path p;
         full_topo.shortest_path(u, v, p, sfc.bandwidth);
+        if (!p.is_valid()) {
+          print_404_message(sfc); 
+          cerr << "failed to find path full topo" << endl;
+          return 0;
+        }
+        //cerr << "h " << p << endl;
         // OUTPUT the path
         // number of nodes, then the nodes
-        cout << p.size() << " ";
-        for (auto n : p.nodes) cout << n << " ";
+        oss << p.size() << " ";
+        for (auto n : p.nodes) oss << n << " ";
       }
       u = v;
     }
-    cout << time << endl;
+    oss << time << " " << brown_energy << " " << green_energy << endl;
+    cout << oss.str();
   }
   else {
     cerr << "failed to read input files for porblem instance" << endl;

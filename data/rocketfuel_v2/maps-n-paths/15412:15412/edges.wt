@@ -1,0 +1,18 @@
+15412:Seoul, Korea -> 15412:Tokyo, Japan 5.8292
+15412:Hong Kong -> 15412:Cairo, Egypt 40.6929
+15412:Hong Kong -> 15412:London, UnitedKingdom 48.1037
+15412:Hong Kong -> 15412:Tokyo, Japan 14.1254
+15412:London, UnitedKingdom -> 15412:New York, NY 59.2408
+15412:London, UnitedKingdom -> 15412:Hong Kong 48.1037
+15412:London, UnitedKingdom -> 15412:Cairo, Egypt 17.5455
+15412:London, UnitedKingdom -> 15412:Tehran, Iran 21.9849
+15412:Tokyo, Japan -> 15412:Hong Kong 14.1254
+15412:Tokyo, Japan -> 15412:San Francisco, CA 41.6524
+15412:Tokyo, Japan -> 15412:Seoul, Korea 5.8292
+15412:Cairo, Egypt -> 15412:Hong Kong 40.6929
+15412:Cairo, Egypt -> 15412:London, UnitedKingdom 17.5455
+15412:Tehran, Iran -> 15412:London, UnitedKingdom 21.9849
+15412:New York, NY -> 15412:San Francisco, CA 20.6844
+15412:New York, NY -> 15412:London, UnitedKingdom 59.2408
+15412:San Francisco, CA -> 15412:New York, NY 20.6844
+15412:San Francisco, CA -> 15412:Tokyo, Japan 41.6524

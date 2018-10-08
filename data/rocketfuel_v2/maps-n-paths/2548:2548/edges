@@ -1,0 +1,116 @@
+2548:Albany, NY -> 2548:New York, NY 709
+2548:Ashburn, VA -> 2548:Washington, DC 5663
+2548:Atlanta, GA -> 2548:Charlotte, NC 236
+2548:Atlanta, GA -> 2548:Cincinnati, OH 5
+2548:Atlanta, GA -> 2548:Dallas, TX 9573
+2548:Atlanta, GA -> 2548:Detroit, MI 102
+2548:Atlanta, GA -> 2548:Miami, FL 3192
+2548:Atlanta, GA -> 2548:Raleigh, NC 917
+2548:Atlanta, GA -> 2548:Richmond, VA 3
+2548:Atlanta, GA -> 2548:Washington, DC 14894
+2548:Austin, TX -> 2548:Dallas, TX 8901
+2548:Austin, TX -> 2548:San Antonio, TX 58
+2548:Baltimore, MD -> 2548:Philadelphia, PA 1268
+2548:Baltimore, MD -> 2548:Washington, DC 1619
+2548:Boston, MA -> 2548:Detroit, MI 66
+2548:Boston, MA -> 2548:New York, NY 14644
+2548:Boston, MA -> 2548:Washington, DC 18035
+2548:Charlotte, NC -> 2548:Atlanta, GA 236
+2548:Chicago, IL -> 2548:Cincinnati, OH 382
+2548:Chicago, IL -> 2548:Dallas, TX 16529
+2548:Chicago, IL -> 2548:Denver, CO 1051
+2548:Chicago, IL -> 2548:Detroit, MI 2104
+2548:Chicago, IL -> 2548:Minneapolis, MN 319
+2548:Chicago, IL -> 2548:New York, NY 26073
+2548:Chicago, IL -> 2548:Saint Louis, MO 188
+2548:Chicago, IL -> 2548:San Francisco, CA 7389
+2548:Cincinnati, OH -> 2548:Atlanta, GA 5
+2548:Cincinnati, OH -> 2548:Chicago, IL 382
+2548:Cleveland, OH -> 2548:Detroit, MI 429
+2548:Cleveland, OH -> 2548:Pittsburg, PA 13
+2548:Dallas, TX -> 2548:Atlanta, GA 9573
+2548:Dallas, TX -> 2548:Austin, TX 8901
+2548:Dallas, TX -> 2548:Chicago, IL 16529
+2548:Dallas, TX -> 2548:Detroit, MI 25
+2548:Dallas, TX -> 2548:Houston, TX 4020
+2548:Dallas, TX -> 2548:Oklahoma City, OK 1101
+2548:Dallas, TX -> 2548:San Diego, CA 19211
+2548:Denver, CO -> 2548:Chicago, IL 1051
+2548:Denver, CO -> 2548:Englewood, CO 3
+2548:Denver, CO -> 2548:San Francisco, CA 653
+2548:Detroit, MI -> 2548:Atlanta, GA 102
+2548:Detroit, MI -> 2548:Boston, MA 66
+2548:Detroit, MI -> 2548:Chicago, IL 2104
+2548:Detroit, MI -> 2548:Cleveland, OH 429
+2548:Detroit, MI -> 2548:Dallas, TX 25
+2548:Detroit, MI -> 2548:San Antonio, TX 37
+2548:Englewood, CO -> 2548:Denver, CO 3
+2548:Fort Lauderdale, FL -> 2548:Miami, FL 226
+2548:Fort Lauderdale, FL -> 2548:Tampa, FL 296
+2548:Hagerstown, MD -> 2548:Washington, DC 2909
+2548:Houston, TX -> 2548:Dallas, TX 4020
+2548:Houston, TX -> 2548:San Antonio, TX 226
+2548:Houston, TX -> 2548:Tampa, FL 2491
+2548:Los Angeles, CA -> 2548:Phoenix, AZ 364
+2548:Los Angeles, CA -> 2548:San Diego, CA 3671
+2548:Los Angeles, CA -> 2548:San Francisco, CA 4337
+2548:Los Angeles, CA -> 2548:Santa Ana, CA 669
+2548:Miami, FL -> 2548:Atlanta, GA 3192
+2548:Miami, FL -> 2548:Fort Lauderdale, FL 226
+2548:Minneapolis, MN -> 2548:Chicago, IL 319
+2548:New York, NY -> 2548:Albany, NY 709
+2548:New York, NY -> 2548:Boston, MA 14644
+2548:New York, NY -> 2548:Chicago, IL 26073
+2548:New York, NY -> 2548:Newark, NJ 1352
+2548:New York, NY -> 2548:Philadelphia, PA 1128
+2548:New York, NY -> 2548:Washington, DC 15903
+2548:Newark, NJ -> 2548:New York, NY 1352
+2548:Norfolk, VA -> 2548:Washington, DC 867
+2548:Oklahoma City, OK -> 2548:Dallas, TX 1101
+2548:Philadelphia, PA -> 2548:Baltimore, MD 1268
+2548:Philadelphia, PA -> 2548:New York, NY 1128
+2548:Phoenix, AZ -> 2548:Los Angeles, CA 364
+2548:Pittsburg, PA -> 2548:Cleveland, OH 13
+2548:Pittsburg, PA -> 2548:Washington, DC 323
+2548:Portland, OR -> 2548:Seattle, WA 78
+2548:Raleigh, NC -> 2548:Atlanta, GA 917
+2548:Reston, VA -> 2548:Washington, DC 1343
+2548:Richmond, VA -> 2548:Atlanta, GA 3
+2548:Richmond, VA -> 2548:Washington, DC 413
+2548:Sacramento, CA -> 2548:San Jose, CA 174
+2548:Saint Louis, MO -> 2548:Chicago, IL 188
+2548:Saint Louis, MO -> 2548:St. Louis, MO 107
+2548:San Antonio, TX -> 2548:Austin, TX 58
+2548:San Antonio, TX -> 2548:Detroit, MI 37
+2548:San Antonio, TX -> 2548:Houston, TX 226
+2548:San Antonio, TX -> 2548:Tampa, FL 29
+2548:San Diego, CA -> 2548:Dallas, TX 19211
+2548:San Diego, CA -> 2548:Los Angeles, CA 3671
+2548:San Diego, CA -> 2548:San Jose, CA 9574
+2548:San Francisco, CA -> 2548:Chicago, IL 7389
+2548:San Francisco, CA -> 2548:Denver, CO 653
+2548:San Francisco, CA -> 2548:Los Angeles, CA 4337
+2548:San Francisco, CA -> 2548:San Jose, CA 17614
+2548:San Francisco, CA -> 2548:Seattle, WA 196
+2548:San Francisco, CA -> 2548:Washington, DC 18811
+2548:San Jose, CA -> 2548:Sacramento, CA 174
+2548:San Jose, CA -> 2548:San Diego, CA 9574
+2548:San Jose, CA -> 2548:San Francisco, CA 17614
+2548:Santa Ana, CA -> 2548:Los Angeles, CA 669
+2548:Seattle, WA -> 2548:Portland, OR 78
+2548:Seattle, WA -> 2548:San Francisco, CA 196
+2548:St. Louis, MO -> 2548:Saint Louis, MO 107
+2548:Tampa, FL -> 2548:Fort Lauderdale, FL 296
+2548:Tampa, FL -> 2548:Houston, TX 2491
+2548:Tampa, FL -> 2548:San Antonio, TX 29
+2548:Washington, DC -> 2548:Ashburn, VA 5663
+2548:Washington, DC -> 2548:Atlanta, GA 14894
+2548:Washington, DC -> 2548:Baltimore, MD 1619
+2548:Washington, DC -> 2548:Boston, MA 18035
+2548:Washington, DC -> 2548:Hagerstown, MD 2909
+2548:Washington, DC -> 2548:New York, NY 15903
+2548:Washington, DC -> 2548:Norfolk, VA 867
+2548:Washington, DC -> 2548:Pittsburg, PA 323
+2548:Washington, DC -> 2548:Reston, VA 1343
+2548:Washington, DC -> 2548:Richmond, VA 413
+2548:Washington, DC -> 2548:San Francisco, CA 18811

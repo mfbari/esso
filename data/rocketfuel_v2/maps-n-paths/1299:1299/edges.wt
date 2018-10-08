@@ -1,0 +1,88 @@
+1299:Madrid, Spain -> 1299:Paris, France 5.25377
+1299:Paris, France -> 1299:Madrid, Spain 5.25377
+1299:Paris, France -> 1299:London, UnitedKingdom 1.87205
+1299:Paris, France -> 1299:Copenhagen, Denmark 5.11875
+1299:Paris, France -> 1299:Frankfurt, Germany 3.58301
+1299:Paris, France -> 1299:Milan, Italy 6.04854
+1299:Hamburg, Germany -> 1299:Copenhagen, Denmark 1.5
+1299:Hamburg, Germany -> 1299:Stockholm, Sweden 4.0466
+1299:Hamburg, Germany -> 1299:Frankfurt, Germany 2.03574
+1299:Hamburg, Germany -> 1299:Warsaw, Poland 3.72487
+1299:Hamburg, Germany -> 1299:Milan, Italy 4.50127
+1299:San Jose, CA -> 1299:Chicago, IL 4.80842
+1299:San Jose, CA -> 1299:Los Angeles, CA 2.39034
+1299:Warsaw, Poland -> 1299:Hamburg, Germany 3.72487
+1299:Dallas, TX -> 1299:Miami, FL 8.90426
+1299:Dallas, TX -> 1299:Chicago, IL 3.91808
+1299:Dallas, TX -> 1299:Atlanta, GA 5.0283
+1299:Dallas, TX -> 1299:Los Angeles, CA 0.5
+1299:Milan, Italy -> 1299:Paris, France 6.04854
+1299:Milan, Italy -> 1299:Hamburg, Germany 4.50127
+1299:Milan, Italy -> 1299:Frankfurt, Germany 2.46553
+1299:Santa Clara, CA -> 1299:Chicago, IL 1
+1299:Santa Clara, CA -> 1299:Palo Alto, CA 0.092685
+1299:Santa Clara, CA -> 1299:Los Angeles, CA 2.41808
+1299:Copenhagen, Denmark -> 1299:London, UnitedKingdom 4.2467
+1299:Copenhagen, Denmark -> 1299:Amsterdam, Netherlands 3.16369
+1299:Copenhagen, Denmark -> 1299:Stockholm, Sweden 3.5466
+1299:Copenhagen, Denmark -> 1299:Paris, France 5.11875
+1299:Copenhagen, Denmark -> 1299:Hamburg, Germany 1.5
+1299:Copenhagen, Denmark -> 1299:Frankfurt, Germany 2.53574
+1299:Copenhagen, Denmark -> 1299:New York, NY 28.75712
+1299:Manchester, UnitedKingdom -> 1299:London, UnitedKingdom 1.30596
+1299:Budapest, Hungary -> 1299:Frankfurt, Germany 4.16982
+1299:Saint Petersburg, Russia -> 1299:Stockholm, Sweden 3.44691
+1299:Zurich, Switzerland -> 1299:Frankfurt, Germany 1.47246
+1299:Miami, FL -> 1299:Atlanta, GA 4.87596
+1299:Miami, FL -> 1299:Dallas, TX 8.90426
+1299:Chicago, IL -> 1299:Santa Clara, CA 1
+1299:Chicago, IL -> 1299:San Jose, CA 4.80842
+1299:Chicago, IL -> 1299:New York, NY 8.80422
+1299:Chicago, IL -> 1299:Dallas, TX 3.91808
+1299:Sundsvell, Sweden -> 1299:Stockholm, Sweden 0
+1299:Atlanta, GA -> 1299:Miami, FL 4.87596
+1299:Atlanta, GA -> 1299:Herndon, VA 4.27592
+1299:Atlanta, GA -> 1299:Dallas, TX 5.0283
+1299:Vienna, Austria -> 1299:Frankfurt, Germany 3.00603
+1299:Los Angeles, CA -> 1299:Santa Clara, CA 2.41808
+1299:Los Angeles, CA -> 1299:San Jose, CA 2.39034
+1299:Los Angeles, CA -> 1299:Dallas, TX 0.5
+1299:Moscow, Russia -> 1299:Stockholm, Sweden 6.15732
+1299:Amsterdam, Netherlands -> 1299:London, UnitedKingdom 3.08301
+1299:Amsterdam, Netherlands -> 1299:Copenhagen, Denmark 3.16369
+1299:Amsterdam, Netherlands -> 1299:Stockholm, Sweden 5.71029
+1299:Amsterdam, Netherlands -> 1299:Frankfurt, Germany 5.69943
+1299:Palo Alto, CA -> 1299:Santa Clara, CA 0.092685
+1299:Riga, Latvia -> 1299:Stockholm, Sweden 2.23996
+1299:New York, NY -> 1299:London, UnitedKingdom 27.8378
+1299:New York, NY -> 1299:Copenhagen, Denmark 28.75712
+1299:New York, NY -> 1299:Chicago, IL 8.80422
+1299:New York, NY -> 1299:Herndon, VA 3.41808
+1299:London, UnitedKingdom -> 1299:Copenhagen, Denmark 4.2467
+1299:London, UnitedKingdom -> 1299:Birmingham, UnitedKingdom 0.779261
+1299:London, UnitedKingdom -> 1299:Amsterdam, Netherlands 3.08301
+1299:London, UnitedKingdom -> 1299:Paris, France 1.87205
+1299:London, UnitedKingdom -> 1299:Manchester, UnitedKingdom 1.30596
+1299:London, UnitedKingdom -> 1299:New York, NY 27.8378
+1299:Birmingham, UnitedKingdom -> 1299:London, UnitedKingdom 0.779261
+1299:Herndon, VA -> 1299:Atlanta, GA 4.27592
+1299:Herndon, VA -> 1299:New York, NY 3.41808
+1299:Frankfurt, Germany -> 1299:Zurich, Switzerland 1.47246
+1299:Frankfurt, Germany -> 1299:Copenhagen, Denmark 2.53574
+1299:Frankfurt, Germany -> 1299:Amsterdam, Netherlands 5.69943
+1299:Frankfurt, Germany -> 1299:Paris, France 3.58301
+1299:Frankfurt, Germany -> 1299:Hamburg, Germany 2.03574
+1299:Frankfurt, Germany -> 1299:Budapest, Hungary 4.16982
+1299:Frankfurt, Germany -> 1299:Vienna, Austria 3.00603
+1299:Frankfurt, Germany -> 1299:Milan, Italy 2.46553
+1299:Helsinki, Finland -> 1299:Stockholm, Sweden 1.97287
+1299:Stockholm, Sweden -> 1299:Moscow, Russia 6.15732
+1299:Stockholm, Sweden -> 1299:Helsinki, Finland 1.97287
+1299:Stockholm, Sweden -> 1299:Copenhagen, Denmark 3.5466
+1299:Stockholm, Sweden -> 1299:Saint Petersburg, Russia 3.44691
+1299:Stockholm, Sweden -> 1299:Amsterdam, Netherlands 5.71029
+1299:Stockholm, Sweden -> 1299:Sundsvell, Sweden 0
+1299:Stockholm, Sweden -> 1299:Hamburg, Germany 4.0466
+1299:Stockholm, Sweden -> 1299:Riga, Latvia 2.23996
+1299:Stockholm, Sweden -> 1299:Oslo, Norway 2.07513
+1299:Oslo, Norway -> 1299:Stockholm, Sweden 2.07513

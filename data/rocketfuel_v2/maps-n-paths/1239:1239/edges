@@ -1,0 +1,168 @@
+1239:Amsterdam, Netherlands -> 1239:Brussels, Belgium 13263
+1239:Amsterdam, Netherlands -> 1239:Hamburg, Germany 24069
+1239:Anaheim, CA -> 1239:Burbank, CA 2
+1239:Anaheim, CA -> 1239:Dallas, TX 184439
+1239:Anaheim, CA -> 1239:Los Angeles, CA 979
+1239:Anaheim, CA -> 1239:Pearl Harbor, HI 1563
+1239:Anaheim, CA -> 1239:Phoenix, AZ 13
+1239:Anaheim, CA -> 1239:San Jose, CA 124154
+1239:Anaheim, CA -> 1239:Tucson, AZ 2
+1239:Ashburn, VA -> 1239:Relay, MD 67559
+1239:Atlanta, GA -> 1239:Chicago, IL 89013
+1239:Atlanta, GA -> 1239:Dallas, TX 119210
+1239:Atlanta, GA -> 1239:New York, NY 68363
+1239:Atlanta, GA -> 1239:Orlando, FL 68369
+1239:Atlanta, GA -> 1239:Relay, MD 140879
+1239:Auckland, NewZealand -> 1239:Sydney, Australia 2270
+1239:Boston, MA -> 1239:Springfield, MA 81
+1239:Brussels, Belgium -> 1239:Amsterdam, Netherlands 13263
+1239:Brussels, Belgium -> 1239:London, UnitedKingdom 13843
+1239:Burbank, CA -> 1239:Anaheim, CA 2
+1239:Cheyenne, WY -> 1239:Chicago, IL 208614
+1239:Cheyenne, WY -> 1239:Denver, Colorado 27
+1239:Cheyenne, WY -> 1239:Tacoma, WA 46964
+1239:Chicago, IL -> 1239:Atlanta, GA 89013
+1239:Chicago, IL -> 1239:Cheyenne, WY 208614
+1239:Chicago, IL -> 1239:Cleveland, OH 53
+1239:Chicago, IL -> 1239:Dallas, TX 110762
+1239:Chicago, IL -> 1239:Indianapolis, IN 38
+1239:Chicago, IL -> 1239:Kansas City, MO 22811
+1239:Chicago, IL -> 1239:Lees Summit, MO 271
+1239:Chicago, IL -> 1239:New York, NY 214266
+1239:Chicago, IL -> 1239:Roachdale, IN 26655
+1239:Chicago, IL -> 1239:Saint Louis, MO 21
+1239:Chicago, IL -> 1239:San Jose, CA 10647
+1239:Chicago, IL -> 1239:Seattle, WA 93724
+1239:Chicago, IL -> 1239:Springfield, MA 15997
+1239:Chicago, IL -> 1239:Stockton, CA 7133
+1239:Cleveland, OH -> 1239:Chicago, IL 53
+1239:Copenhagen, Denmark -> 1239:Hamburg, Germany 30940
+1239:Copenhagen, Denmark -> 1239:London, UnitedKingdom 2279
+1239:Copenhagen, Denmark -> 1239:Manasquan, NJ 144897
+1239:Copenhagen, Denmark -> 1239:Stockholm, Sweden 34017
+1239:Dallas, TX -> 1239:Anaheim, CA 184439
+1239:Dallas, TX -> 1239:Atlanta, GA 119210
+1239:Dallas, TX -> 1239:Chicago, IL 110762
+1239:Dallas, TX -> 1239:Denver, Colorado 55
+1239:Dallas, TX -> 1239:Kansas City, MO 33009
+1239:Dallas, TX -> 1239:Los Angeles, CA 4364
+1239:Dallas, TX -> 1239:Orlando, FL 28692
+1239:Dallas, TX -> 1239:Pennsauken, NJ 32223
+1239:Dallas, TX -> 1239:Richardson, TX 9422
+1239:Denver, Colorado -> 1239:Cheyenne, WY 27
+1239:Denver, Colorado -> 1239:Dallas, TX 55
+1239:Dublin, Ireland -> 1239:London, UnitedKingdom 165
+1239:Frankfurt, Germany -> 1239:Hamburg, Germany 4731
+1239:Frankfurt, Germany -> 1239:Milan, Italy 1041
+1239:Frankfurt, Germany -> 1239:Paris, France 32910
+1239:Hamburg, Germany -> 1239:Amsterdam, Netherlands 24069
+1239:Hamburg, Germany -> 1239:Copenhagen, Denmark 30940
+1239:Hamburg, Germany -> 1239:Frankfurt, Germany 4731
+1239:Hartford, CT -> 1239:New York, NY 49
+1239:Hong Kong -> 1239:Tokyo, Japan 27142
+1239:Indianapolis, IN -> 1239:Chicago, IL 38
+1239:Indianapolis, IN -> 1239:New York, NY 2
+1239:Indianapolis, IN -> 1239:Roachdale, IN 13
+1239:Kansas City, MO -> 1239:Chicago, IL 22811
+1239:Kansas City, MO -> 1239:Dallas, TX 33009
+1239:Kansas City, MO -> 1239:Lees Summit, MO 88
+1239:Kansas City, MO -> 1239:Pennsauken, NJ 7829
+1239:Kansas City, MO -> 1239:Seattle, WA 270
+1239:Lees Summit, MO -> 1239:Chicago, IL 271
+1239:Lees Summit, MO -> 1239:Kansas City, MO 88
+1239:London, UnitedKingdom -> 1239:Brussels, Belgium 13843
+1239:London, UnitedKingdom -> 1239:Copenhagen, Denmark 2279
+1239:London, UnitedKingdom -> 1239:Dublin, Ireland 165
+1239:London, UnitedKingdom -> 1239:Paris, France 68196
+1239:London, UnitedKingdom -> 1239:Tuckerton, NJ 228201
+1239:Los Angeles, CA -> 1239:Anaheim, CA 979
+1239:Los Angeles, CA -> 1239:Dallas, TX 4364
+1239:Manasquan, NJ -> 1239:Copenhagen, Denmark 144897
+1239:Manasquan, NJ -> 1239:New York, NY 146914
+1239:Manasquan, NJ -> 1239:Relay, MD 72879
+1239:Manasquan, NJ -> 1239:Tuckerton, NJ 89880
+1239:Miami, FL -> 1239:Orlando, FL 28215
+1239:Milan, Italy -> 1239:Frankfurt, Germany 1041
+1239:Milan, Italy -> 1239:Paris, France 31836
+1239:New York, NY -> 1239:Atlanta, GA 68363
+1239:New York, NY -> 1239:Chicago, IL 214266
+1239:New York, NY -> 1239:Hartford, CT 49
+1239:New York, NY -> 1239:Indianapolis, IN 2
+1239:New York, NY -> 1239:Manasquan, NJ 146914
+1239:New York, NY -> 1239:Pennsauken, NJ 15475
+1239:New York, NY -> 1239:Relay, MD 68158
+1239:New York, NY -> 1239:Springfield, MA 731
+1239:Orlando, FL -> 1239:Atlanta, GA 68369
+1239:Orlando, FL -> 1239:Dallas, TX 28692
+1239:Orlando, FL -> 1239:Miami, FL 28215
+1239:Palo Alto, CA -> 1239:San Jose, CA 36783
+1239:Paris, France -> 1239:Frankfurt, Germany 32910
+1239:Paris, France -> 1239:London, UnitedKingdom 68196
+1239:Paris, France -> 1239:Milan, Italy 31836
+1239:Pearl Harbor, HI -> 1239:Anaheim, CA 1563
+1239:Pearl Harbor, HI -> 1239:Stockton, CA 2281
+1239:Pennsauken, NJ -> 1239:Dallas, TX 32223
+1239:Pennsauken, NJ -> 1239:Kansas City, MO 7829
+1239:Pennsauken, NJ -> 1239:New York, NY 15475
+1239:Pennsauken, NJ -> 1239:Relay, MD 17793
+1239:Pennsauken, NJ -> 1239:Roachdale, IN 5583
+1239:Pennsauken, NJ -> 1239:Springfield, MA 16291
+1239:Pennsauken, NJ -> 1239:Stockton, CA 28338
+1239:Pennsauken, NJ -> 1239:Tuckerton, NJ 47284
+1239:Phoenix, AZ -> 1239:Anaheim, CA 13
+1239:Rancho Cordova, CA -> 1239:Stockton, CA 819
+1239:Relay, MD -> 1239:Ashburn, VA 67559
+1239:Relay, MD -> 1239:Atlanta, GA 140879
+1239:Relay, MD -> 1239:Manasquan, NJ 72879
+1239:Relay, MD -> 1239:New York, NY 68158
+1239:Relay, MD -> 1239:Pennsauken, NJ 17793
+1239:Relay, MD -> 1239:Reston, VA 1397
+1239:Relay, MD -> 1239:San Jose, CA 154245
+1239:Relay, MD -> 1239:Tuckerton, NJ 104854
+1239:Relay, MD -> 1239:Washington, DC 6084
+1239:Reston, VA -> 1239:Relay, MD 1397
+1239:Richardson, TX -> 1239:Dallas, TX 9422
+1239:Roachdale, IN -> 1239:Chicago, IL 26655
+1239:Roachdale, IN -> 1239:Indianapolis, IN 13
+1239:Roachdale, IN -> 1239:Pennsauken, NJ 5583
+1239:Saint Louis, MO -> 1239:Chicago, IL 21
+1239:San Jose, CA -> 1239:Anaheim, CA 124154
+1239:San Jose, CA -> 1239:Chicago, IL 10647
+1239:San Jose, CA -> 1239:Palo Alto, CA 36783
+1239:San Jose, CA -> 1239:Relay, MD 154245
+1239:San Jose, CA -> 1239:Stockton, CA 45383
+1239:San Jose, CA -> 1239:Sydney, Australia 19645
+1239:San Jose, CA -> 1239:Tacoma, WA 71892
+1239:San Jose, CA -> 1239:Tokyo, Japan 13828
+1239:Seattle, WA -> 1239:Chicago, IL 93724
+1239:Seattle, WA -> 1239:Kansas City, MO 270
+1239:Seattle, WA -> 1239:Tacoma, WA 79075
+1239:Singapore -> 1239:Tokyo, Japan 1619
+1239:Springfield, MA -> 1239:Boston, MA 81
+1239:Springfield, MA -> 1239:Chicago, IL 15997
+1239:Springfield, MA -> 1239:New York, NY 731
+1239:Springfield, MA -> 1239:Pennsauken, NJ 16291
+1239:Stockholm, Sweden -> 1239:Copenhagen, Denmark 34017
+1239:Stockton, CA -> 1239:Chicago, IL 7133
+1239:Stockton, CA -> 1239:Pearl Harbor, HI 2281
+1239:Stockton, CA -> 1239:Pennsauken, NJ 28338
+1239:Stockton, CA -> 1239:Rancho Cordova, CA 819
+1239:Stockton, CA -> 1239:San Jose, CA 45383
+1239:Stockton, CA -> 1239:Tokyo, Japan 13376
+1239:Sydney, Australia -> 1239:Auckland, NewZealand 2270
+1239:Sydney, Australia -> 1239:San Jose, CA 19645
+1239:Tacoma, WA -> 1239:Cheyenne, WY 46964
+1239:Tacoma, WA -> 1239:San Jose, CA 71892
+1239:Tacoma, WA -> 1239:Seattle, WA 79075
+1239:Tacoma, WA -> 1239:Tokyo, Japan 3415
+1239:Tokyo, Japan -> 1239:Hong Kong 27142
+1239:Tokyo, Japan -> 1239:San Jose, CA 13828
+1239:Tokyo, Japan -> 1239:Singapore 1619
+1239:Tokyo, Japan -> 1239:Stockton, CA 13376
+1239:Tokyo, Japan -> 1239:Tacoma, WA 3415
+1239:Tuckerton, NJ -> 1239:London, UnitedKingdom 228201
+1239:Tuckerton, NJ -> 1239:Manasquan, NJ 89880
+1239:Tuckerton, NJ -> 1239:Pennsauken, NJ 47284
+1239:Tuckerton, NJ -> 1239:Relay, MD 104854
+1239:Tucson, AZ -> 1239:Anaheim, CA 2
+1239:Washington, DC -> 1239:Relay, MD 6084

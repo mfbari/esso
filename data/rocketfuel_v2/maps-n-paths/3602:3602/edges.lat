@@ -1,0 +1,30 @@
+3602:Calgary, Canada -> 3602:Chicago, IL 11.252475595133
+3602:Calgary, Canada -> 3602:Montreal, Canada 15.0961253086559
+3602:Calgary, Canada -> 3602:Toronto, Canada 13.5517615742068
+3602:Calgary, Canada -> 3602:Vancouver, Canada 3.36227637339117
+3602:Chicago, IL -> 3602:Calgary, Canada 11.252475595133
+3602:Chicago, IL -> 3602:Toronto, Canada 3.52496412161527
+3602:Montreal, Canada -> 3602:Calgary, Canada 15.0961253086559
+3602:Montreal, Canada -> 3602:New York, NY 2.66507712286384
+3602:Montreal, Canada -> 3602:Ottawa, Canada 0.832690451912977
+3602:Montreal, Canada -> 3602:Pennsauken, NJ 3.14243329277956
+3602:Montreal, Canada -> 3602:Toronto, Canada 2.51034994506104
+3602:New York, NY -> 3602:Montreal, Canada 2.66507712286384
+3602:New York, NY -> 3602:Toronto, Canada 2.74867344921157
+3602:New York, NY -> 3602:Vancouver, Canada 19.5082274325517
+3602:Ottawa, Canada -> 3602:Montreal, Canada 0.832690451912977
+3602:Pennsauken, NJ -> 3602:Montreal, Canada 3.14243329277956
+3602:Seattle, WA -> 3602:Toronto, Canada 16.6241318477377
+3602:Seattle, WA -> 3602:Vancouver, Canada 0.959333136541764
+3602:Toronto, Canada -> 3602:Calgary, Canada 13.5517615742068
+3602:Toronto, Canada -> 3602:Chicago, IL 3.52496412161527
+3602:Toronto, Canada -> 3602:Montreal, Canada 2.51034994506104
+3602:Toronto, Canada -> 3602:New York, NY 2.74867344921157
+3602:Toronto, Canada -> 3602:Seattle, WA 16.6241318477377
+3602:Toronto, Canada -> 3602:Vancouver, Canada 16.786157343387
+3602:Vancouver, Canada -> 3602:Calgary, Canada 3.36227637339117
+3602:Vancouver, Canada -> 3602:New York, NY 19.5082274325517
+3602:Vancouver, Canada -> 3602:Seattle, WA 0.959333136541764
+3602:Vancouver, Canada -> 3602:Toronto, Canada 16.786157343387
+3602:Vancouver, Canada -> 3602:Victoria, Canada 4.32796242243108
+3602:Victoria, Canada -> 3602:Vancouver, Canada 4.32796242243108

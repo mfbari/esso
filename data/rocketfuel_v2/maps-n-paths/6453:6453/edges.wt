@@ -1,0 +1,108 @@
+6453:Stockton, CA -> 6453:New York, NY 20.1341
+6453:Madrid, Spain -> 6453:London, UnitedKingdom 6.31536
+6453:Madrid, Spain -> 6453:Barcelona, Spain 2.5224
+6453:Rio de Janeiro, Brazil -> 6453:Miami, FL 33.5706
+6453:Newark, NJ -> 6453:New York, NY 1.5
+6453:Newark, NJ -> 6453:Cairo, Egypt 45.1372
+6453:Newark, NJ -> 6453:Washington, DC 1.57971
+6453:Newark, NJ -> 6453:Ashburn, VA 1.07971
+6453:Newark, NJ -> 6453:London, UnitedKingdom 27.8849
+6453:Newark, NJ -> 6453:Atlanta, GA 5.9587
+6453:Newark, NJ -> 6453:Palo Alto, CA 1
+6453:Newark, NJ -> 6453:Miami, FL 8.76527
+6453:Chicago, IL -> 6453:Sacramento, CA 0.5
+6453:Chicago, IL -> 6453:New York, NY 1
+6453:Chicago, IL -> 6453:Scarborough, Canada 3.6011
+6453:Anaheim, CA -> 6453:Los Angeles, CA 0.268084
+6453:Lake Cowichan, Canada -> 6453:Burnaby, Canada 0.774277
+6453:Buenos Aires, Argentina -> 6453:Miami, FL 35.4457
+6453:Blaavand, Denmark -> 6453:Des Laurentides, Canada 3.466724
+6453:Blaavand, Denmark -> 6453:Pennant Point, Canada 26.4122283171453
+6453:Munich, Germany -> 6453:London, UnitedKingdom 4.58678251895811
+6453:Munich, Germany -> 6453:Des Laurentides, Canada 33.851624
+6453:Puerto Rico -> 6453:Miami, FL 8.21116
+6453:Sao Paolo, Brazil -> 6453:Miami, FL 32.8115
+6453:Miami, FL -> 6453:Newark, NJ 8.76527
+6453:Miami, FL -> 6453:Sao Paolo, Brazil 32.8115
+6453:Miami, FL -> 6453:Bogota, Colombia 8.92423
+6453:Miami, FL -> 6453:Rio de Janeiro, Brazil 33.5706
+6453:Miami, FL -> 6453:Buenos Aires, Argentina 35.4457
+6453:Miami, FL -> 6453:Puerto Rico 8.21116
+6453:Ottawa, Canada -> 6453:Montreal, Canada 0.83269
+6453:Des Laurentides, Canada -> 6453:Munich, Germany 33.851624
+6453:Des Laurentides, Canada -> 6453:Montreal, CA 0.5
+6453:Des Laurentides, Canada -> 6453:Montreal, Canada 0.801644
+6453:Des Laurentides, Canada -> 6453:Pennant Point, Canada 3.52182
+6453:Des Laurentides, Canada -> 6453:Blaavand, Denmark 3.466724
+6453:Pennant Point, Canada -> 6453:New York, NY 4.7211137217647
+6453:Pennant Point, Canada -> 6453:Des Laurentides, Canada 3.52182
+6453:Pennant Point, Canada -> 6453:Hedstervester, Canada 6.30153
+6453:Pennant Point, Canada -> 6453:Blaavand, Denmark 26.4122283171453
+6453:Barcelona, Spain -> 6453:Madrid, Spain 2.5224
+6453:Farmingdale, NJ -> 6453:New York, NY 0.295806
+6453:Cairo, Egypt -> 6453:Newark, NJ 45.1372
+6453:Los Angeles, CA -> 6453:Sacramento, CA 1
+6453:Los Angeles, CA -> 6453:Dallas, TX 11.5009
+6453:Los Angeles, CA -> 6453:Quezon City, Philippines 58.5646
+6453:Los Angeles, CA -> 6453:New York, NY 1.5
+6453:Los Angeles, CA -> 6453:Hong Kong 58.1675
+6453:Los Angeles, CA -> 6453:Palo Alto, CA 3
+6453:Los Angeles, CA -> 6453:Anaheim, CA 0.268084
+6453:Ashburn, VA -> 6453:Newark, NJ 1.07971
+6453:Ashburn, VA -> 6453:Washington, DC 0.5
+6453:Atlanta, GA -> 6453:Newark, NJ 5.9587
+6453:Dallas, TX -> 6453:New York, NY 11.0009
+6453:Dallas, TX -> 6453:Los Angeles, CA 11.5009
+6453:Dallas, TX -> 6453:Mexico City, Mexico 7.53119
+6453:New York, NY -> 6453:Dallas, TX 11.0009
+6453:New York, NY -> 6453:Stockton, CA 20.1341
+6453:New York, NY -> 6453:Montreal, CA 2.966724
+6453:New York, NY -> 6453:Los Angeles, CA 1.5
+6453:New York, NY -> 6453:Pennant Point, Canada 4.7211137217647
+6453:New York, NY -> 6453:Sacramento, CA 1.5
+6453:New York, NY -> 6453:Newark, NJ 1.5
+6453:New York, NY -> 6453:Chicago, IL 1
+6453:New York, NY -> 6453:Montreal, Canada 2.66508
+6453:New York, NY -> 6453:Farmingdale, NJ 0.295806
+6453:New York, NY -> 6453:Scarborough, Canada 4.6011
+6453:Hong Kong -> 6453:Los Angeles, CA 58.1675
+6453:Burnaby, Canada -> 6453:Tacoma, WA 3
+6453:Burnaby, Canada -> 6453:Lake Cowichan, Canada 0.774277
+6453:Burnaby, Canada -> 6453:Seattle, WA 1
+6453:Burnaby, Canada -> 6453:Scarborough, Canada 9.13309
+6453:Washington, DC -> 6453:Newark, NJ 1.57971
+6453:Washington, DC -> 6453:Ashburn, VA 0.5
+6453:Sacramento, CA -> 6453:Chicago, IL 0.5
+6453:Sacramento, CA -> 6453:New York, NY 1.5
+6453:Sacramento, CA -> 6453:London, UnitedKingdom 27.8849
+6453:Sacramento, CA -> 6453:Tacoma, WA 7.03199
+6453:Sacramento, CA -> 6453:Los Angeles, CA 1
+6453:Sacramento, CA -> 6453:Palo Alto, CA 2
+6453:Sacramento, CA -> 6453:Seattle, WA 5.03199
+6453:London, UnitedKingdom -> 6453:Sacramento, CA 27.8849
+6453:London, UnitedKingdom -> 6453:Newark, NJ 27.8849
+6453:London, UnitedKingdom -> 6453:Munich, Germany 4.58678251895811
+6453:London, UnitedKingdom -> 6453:Madrid, Spain 6.31536
+6453:Tacoma, WA -> 6453:Sacramento, CA 7.03199
+6453:Tacoma, WA -> 6453:Burnaby, Canada 3
+6453:Quezon City, Philippines -> 6453:Los Angeles, CA 58.5646
+6453:Montreal, CA -> 6453:New York, NY 2.966724
+6453:Montreal, CA -> 6453:Des Laurentides, Canada 0.5
+6453:Hedstervester, Canada -> 6453:Pennant Point, Canada 6.30153
+6453:Toronto, Canada -> 6453:Scarborough, Canada 0.0813949
+6453:San Jose, CA -> 6453:Palo Alto, CA 0.124478
+6453:Montreal, Canada -> 6453:Ottawa, Canada 0.83269
+6453:Montreal, Canada -> 6453:New York, NY 2.66508
+6453:Montreal, Canada -> 6453:Des Laurentides, Canada 0.801644
+6453:Palo Alto, CA -> 6453:San Jose, CA 0.124478
+6453:Palo Alto, CA -> 6453:Sacramento, CA 2
+6453:Palo Alto, CA -> 6453:Newark, NJ 1
+6453:Palo Alto, CA -> 6453:Los Angeles, CA 3
+6453:Bogota, Colombia -> 6453:Miami, FL 8.92423
+6453:Scarborough, Canada -> 6453:Chicago, IL 3.6011
+6453:Scarborough, Canada -> 6453:New York, NY 4.6011
+6453:Scarborough, Canada -> 6453:Toronto, Canada 0.0813949
+6453:Scarborough, Canada -> 6453:Burnaby, Canada 9.13309
+6453:Mexico City, Mexico -> 6453:Dallas, TX 7.53119
+6453:Seattle, WA -> 6453:Sacramento, CA 5.03199
+6453:Seattle, WA -> 6453:Burnaby, Canada 1

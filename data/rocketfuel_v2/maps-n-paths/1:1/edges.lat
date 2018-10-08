@@ -1,0 +1,110 @@
+1:Ashburn, VA -> 1:Chancetown, VA 1.10503246268101
+1:Ashburn, VA -> 1:Washington, DC 0.225316255475169
+1:Atlanta, GA -> 1:Carrollton, TX 5.80244750205687
+1:Atlanta, GA -> 1:Indianapolis, IN 3.43237942216693
+1:Atlanta, GA -> 1:Jacksonville, FL 2.30230902274313
+1:Atlanta, GA -> 1:Tampa, FL 3.35395232434651
+1:Atlanta, GA -> 1:Washington, DC 4.38018878263173
+1:Austin, TX -> 1:Carrollton, TX 1.52949786880356
+1:Boston, MA -> 1:Burlington, MA 0.0985905133176125
+1:Boston, MA -> 1:Cambridge, MA 0.0209667981139845
+1:Boston, MA -> 1:Chicago, IL 6.83381142072769
+1:Boston, MA -> 1:Hartford, CT 0.747443455416426
+1:Boston, MA -> 1:New York, NY 1.52818775993091
+1:Burlington, MA -> 1:Boston, MA 0.0985905133176125
+1:Burlington, MA -> 1:Cambridge, MA 0.0809898838084356
+1:Cambridge, MA -> 1:Boston, MA 0.0209667981139845
+1:Cambridge, MA -> 1:Burlington, MA 0.0809898838084356
+1:Carrollton, TX -> 1:Atlanta, GA 5.80244750205687
+1:Carrollton, TX -> 1:Austin, TX 1.52949786880356
+1:Carrollton, TX -> 1:Dallas, TX 0.114973409205073
+1:Carrollton, TX -> 1:Denver, CO 5.19829386278187
+1:Carrollton, TX -> 1:Houston, TX 1.90951614749987
+1:Carrollton, TX -> 1:Indianapolis, IN 6.10739576491829
+1:Carrollton, TX -> 1:Phoenix, AZ 7.05361197579771
+1:Chancetown, VA -> 1:Ashburn, VA 1.10503246268101
+1:Chancetown, VA -> 1:Washington, DC 0.903952654837289
+1:Chicago, IL -> 1:Boston, MA 6.83381142072769
+1:Chicago, IL -> 1:Cleveland, OH 2.47832477920296
+1:Chicago, IL -> 1:Denver, CO 7.31964781963753
+1:Chicago, IL -> 1:Indianapolis, IN 1.31580076013171
+1:Chicago, IL -> 1:Minneapolis, MN 2.85501508977803
+1:Chicago, IL -> 1:New York, NY 5.72539765160039
+1:Cleveland, OH -> 1:Chicago, IL 2.47832477920296
+1:Cleveland, OH -> 1:New York, NY 3.24743960868072
+1:Dallas, TX -> 1:Carrollton, TX 0.114973409205073
+1:Denver, CO -> 1:Carrollton, TX 5.19829386278187
+1:Denver, CO -> 1:Chicago, IL 7.31964781963753
+1:Denver, CO -> 1:Los Angeles, CA 6.77495897647902
+1:Denver, CO -> 1:San Jose, CA 7.50910338728108
+1:Denver, CO -> 1:Seattle, WA 8.23946958515862
+1:Durham, NC -> 1:Washington, DC 1.83265792569607
+1:Everett, WA -> 1:Seattle, WA 0.195382740479522
+1:Hartford, CT -> 1:Boston, MA 0.747443455416426
+1:Honolulu, HI -> 1:Los Angeles, CA 20.4912489017835
+1:Houston, TX -> 1:Carrollton, TX 1.90951614749987
+1:Houston, TX -> 1:Los Angeles, CA 11.0914798639502
+1:Indianapolis, IN -> 1:Atlanta, GA 3.43237942216693
+1:Indianapolis, IN -> 1:Carrollton, TX 6.10739576491829
+1:Indianapolis, IN -> 1:Chicago, IL 1.31580076013171
+1:Indianapolis, IN -> 1:Philadelphia, PA 4.69923167421812
+1:Jacksonville, FL -> 1:Atlanta, GA 2.30230902274313
+1:London, UnitedKingdom -> 1:Philadelphia, PA 28.4583092639498
+1:Los Angeles, CA -> 1:Denver, CO 6.77495897647902
+1:Los Angeles, CA -> 1:Honolulu, HI 20.4912489017835
+1:Los Angeles, CA -> 1:Houston, TX 11.0914798639502
+1:Los Angeles, CA -> 1:Phoenix, AZ 2.94005274291922
+1:Los Angeles, CA -> 1:San Diego, CA 0.930875068217323
+1:Los Angeles, CA -> 1:San Jose, CA 2.39033852037053
+1:Los Angeles, CA -> 1:Sydney, Australia 60.3095464758688
+1:Miami, FL -> 1:Rio de Janeiro, Brazil 33.5705894462979
+1:Miami, FL -> 1:Sao Paolo, Brazil 32.8115127541762
+1:Miami, FL -> 1:Tampa, FL 1.65248982374511
+1:Miami, FL -> 1:Washington, DC 7.44426393180017
+1:Minneapolis, MN -> 1:Chicago, IL 2.85501508977803
+1:Mountain View, CA -> 1:Palo Alto, CA 0.0405464882837169
+1:Mountain View, CA -> 1:San Jose, CA 0.0843380385506498
+1:New York, NY -> 1:Boston, MA 1.52818775993091
+1:New York, NY -> 1:Chicago, IL 5.72539765160039
+1:New York, NY -> 1:Cleveland, OH 3.24743960868072
+1:New York, NY -> 1:Newark, NJ 0.0710684956979026
+1:New York, NY -> 1:Philadelphia, PA 0.620583384672223
+1:Newark, NJ -> 1:New York, NY 0.0710684956979026
+1:Oakland, CA -> 1:San Francisco, CA 0.123627574278185
+1:Oakland, CA -> 1:San Jose, CA 0.308748456763187
+1:Palo Alto, CA -> 1:Mountain View, CA 0.0405464882837169
+1:Palo Alto, CA -> 1:San Jose, CA 0.124477546789977
+1:Philadelphia, PA -> 1:Indianapolis, IN 4.69923167421812
+1:Philadelphia, PA -> 1:London, UnitedKingdom 28.4583092639498
+1:Philadelphia, PA -> 1:New York, NY 0.620583384672223
+1:Philadelphia, PA -> 1:Washington, DC 1.00741082347545
+1:Phoenix, AZ -> 1:Carrollton, TX 7.05361197579771
+1:Phoenix, AZ -> 1:Los Angeles, CA 2.94005274291922
+1:Portland, OR -> 1:Seattle, WA 1.1632071890148
+1:Richmond, VA -> 1:Washington, DC 1.49060940405506
+1:Rio de Janeiro, Brazil -> 1:Miami, FL 33.5705894462979
+1:San Diego, CA -> 1:Los Angeles, CA 0.930875068217323
+1:San Francisco, CA -> 1:Oakland, CA 0.123627574278185
+1:San Jose, CA -> 1:Denver, CO 7.50910338728108
+1:San Jose, CA -> 1:Los Angeles, CA 2.39033852037053
+1:San Jose, CA -> 1:Mountain View, CA 0.0843380385506498
+1:San Jose, CA -> 1:Oakland, CA 0.308748456763187
+1:San Jose, CA -> 1:Palo Alto, CA 0.124477546789977
+1:San Jose, CA -> 1:Seattle, WA 5.71561756404175
+1:Sao Paolo, Brazil -> 1:Miami, FL 32.8115127541762
+1:Seattle, WA -> 1:Denver, CO 8.23946958515862
+1:Seattle, WA -> 1:Everett, WA 0.195382740479522
+1:Seattle, WA -> 1:Portland, OR 1.1632071890148
+1:Seattle, WA -> 1:San Jose, CA 5.71561756404175
+1:Sydney, Australia -> 1:Los Angeles, CA 60.3095464758688
+1:Tampa, FL -> 1:Atlanta, GA 3.35395232434651
+1:Tampa, FL -> 1:Miami, FL 1.65248982374511
+1:Vienna, VA -> 1:Washington, DC 0.114850126520913
+1:Washington, DC -> 1:Ashburn, VA 0.225316255475169
+1:Washington, DC -> 1:Atlanta, GA 4.38018878263173
+1:Washington, DC -> 1:Chancetown, VA 0.903952654837289
+1:Washington, DC -> 1:Durham, NC 1.83265792569607
+1:Washington, DC -> 1:Miami, FL 7.44426393180017
+1:Washington, DC -> 1:Philadelphia, PA 1.00741082347545
+1:Washington, DC -> 1:Richmond, VA 1.49060940405506
+1:Washington, DC -> 1:Vienna, VA 0.114850126520913

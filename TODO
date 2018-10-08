@@ -1,0 +1,9 @@
+. update run_simulation.py code to correctly update green energy data
+. add capacity + residual capacity in the topology files
+  . update code in all places where topology file is read/writen
+  . update cplex code to handle the total allocated capacity on a link, instead of just the allocated bandwidth for the sfc 
+. remove magic numbers for inter-co topology
+. convert the tabu search nobs into parameters
+. update run_simulation.py code for tabu search parameters
+. how to handle ttl and cost for the objective function in cplex
+

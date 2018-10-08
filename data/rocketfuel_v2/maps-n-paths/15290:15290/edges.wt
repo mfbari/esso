@@ -1,0 +1,36 @@
+15290:Ottawa, Canada -> 15290:Toronto, Canada 1.74727
+15290:Toronto, Canada -> 15290:Ottawa, Canada 1.74727
+15290:Toronto, Canada -> 15290:New Market, Canada 0.239411
+15290:Toronto, Canada -> 15290:Vancouver, Canada 16.7862
+15290:Toronto, Canada -> 15290:London, Canada 0.844627
+15290:Toronto, Canada -> 15290:Windsor, Canada 1.66375
+15290:Toronto, Canada -> 15290:Hamilton, Canada 0.302649
+15290:Toronto, Canada -> 15290:Calgary, Canada 13.5518
+15290:Toronto, Canada -> 15290:Winnipeg, Canada 7.57173
+15290:Toronto, Canada -> 15290:Montreal, Canada 2.635
+15290:Toronto, Canada -> 15290:Sarnia, Canada 1.27994
+15290:Regina, Canada -> 15290:Calgary, Canada 3.33373
+15290:Calgary, Canada -> 15290:Red Deer, Canada 0.683027
+15290:Calgary, Canada -> 15290:Regina, Canada 3.33373
+15290:Calgary, Canada -> 15290:Vancouver, Canada 4.2344
+15290:Calgary, Canada -> 15290:Edmonton, Canada 1.40476
+15290:Calgary, Canada -> 15290:Toronto, Canada 13.5518
+15290:Sarnia, Canada -> 15290:Toronto, Canada 1.27994
+15290:Halifax, Canada -> 15290:Montreal, Canada 3.93646
+15290:London, Canada -> 15290:Toronto, Canada 0.844627
+15290:Red Deer, Canada -> 15290:Calgary, Canada 0.683027
+15290:Winnipeg, Canada -> 15290:Toronto, Canada 7.57173
+15290:Seattle, WA -> 15290:Vancouver, Canada 0.959333
+15290:Vancouver, Canada -> 15290:Calgary, Canada 4.2344
+15290:Vancouver, Canada -> 15290:Seattle, WA 0.959333
+15290:Vancouver, Canada -> 15290:Montreal, Canada 18.4212
+15290:Vancouver, Canada -> 15290:Toronto, Canada 16.7862
+15290:Windsor, Canada -> 15290:Toronto, Canada 1.66375
+15290:New Market, Canada -> 15290:Toronto, Canada 0.239411
+15290:Hamilton, Canada -> 15290:Toronto, Canada 0.302649
+15290:Edmonton, Canada -> 15290:Calgary, Canada 1.40476
+15290:Montreal, Canada -> 15290:Halifax, Canada 3.93646
+15290:Montreal, Canada -> 15290:Vancouver, Canada 18.4212
+15290:Montreal, Canada -> 15290:Toronto, Canada 2.635
+15290:Montreal, Canada -> 15290:Quebec, Canada 1.14749
+15290:Quebec, Canada -> 15290:Montreal, Canada 1.14749

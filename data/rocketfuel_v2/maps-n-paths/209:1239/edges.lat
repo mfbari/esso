@@ -1,0 +1,27 @@
+209:Atlanta, GA -> 1239:Atlanta, GA 0
+209:Burbank, CA -> 1239:Anaheim, CA 0.268065406311296
+209:Burbank, CA -> 1239:Burbank, CA 0
+209:Cheyenne, WY -> 1239:Cheyenne, WY 0
+209:Chicago, IL -> 1239:Chicago, IL 0
+209:Chicago, IL -> 1239:Dallas, TX 6.43760504337832
+209:Chicago, IL -> 1239:Springfield, MA 6.21422801564979
+209:Chicago, IL -> 1239:Stockton, CA 14.4092582711861
+209:Dallas, TX -> 1239:Dallas, TX 0
+209:Denver, CO -> 1239:Denver, CO 0
+209:Los Angeles, CA -> 1239:Chicago, IL 14.0526484629278
+209:Newark, NJ -> 1239:Atlanta, GA 5.95870117055313
+209:Newark, NJ -> 1239:Chicago, IL 5.65434286847399
+209:Newark, NJ -> 1239:Manasquan, NJ 0.342643561544604
+209:Newark, NJ -> 1239:New York, NY 0.0710684956979026
+209:Newark, NJ -> 1239:Newark, NJ 0
+209:Newark, NJ -> 1239:Pennsauken, NJ 0.573171843200234
+209:Newark, NJ -> 1239:Relay, MD 1.36499892719274
+209:Seattle, WA -> 1239:Seattle, WA 0
+209:Sunnyvale, CA -> 1239:Chicago, IL 14.8158519174366
+209:Sunnyvale, CA -> 1239:Palo Alto, CA 0.0641339826459877
+209:Sunnyvale, CA -> 1239:Relay, MD 19.5758909645025
+209:Sunnyvale, CA -> 1239:San Jose, CA 0.0604334464578051
+209:Sunnyvale, CA -> 1239:Stockton, CA 0.452083414963898
+209:Tacoma, WA -> 1239:Tacoma, WA 0
+209:Tampa, FL -> 1239:Orlando, FL 0.624491474490011
+209:Washington, DC -> 1239:Ashburn, VA 0.225316255475169

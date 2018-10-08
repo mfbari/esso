@@ -1,0 +1,88 @@
+1299:Amsterdam, Netherlands -> 1299:Copenhagen, Denmark 306
+1299:Amsterdam, Netherlands -> 1299:Frankfurt, Germany 28
+1299:Amsterdam, Netherlands -> 1299:London, UnitedKingdom 3228
+1299:Amsterdam, Netherlands -> 1299:Stockholm, Sweden 2586
+1299:Atlanta, GA -> 1299:Dallas, TX 12300
+1299:Atlanta, GA -> 1299:Herndon, VA 15280
+1299:Atlanta, GA -> 1299:Miami, FL 1074
+1299:Birmingham, UnitedKingdom -> 1299:London, UnitedKingdom 140
+1299:Budapest, Hungary -> 1299:Frankfurt, Germany 1386
+1299:Chicago, IL -> 1299:Dallas, TX 175
+1299:Chicago, IL -> 1299:New York, NY 61345
+1299:Chicago, IL -> 1299:San Jose, CA 4519
+1299:Chicago, IL -> 1299:Santa Clara, CA 31263
+1299:Copenhagen, Denmark -> 1299:Amsterdam, Netherlands 306
+1299:Copenhagen, Denmark -> 1299:Frankfurt, Germany 23765
+1299:Copenhagen, Denmark -> 1299:Hamburg, Germany 15657
+1299:Copenhagen, Denmark -> 1299:London, UnitedKingdom 9318
+1299:Copenhagen, Denmark -> 1299:New York, NY 117486
+1299:Copenhagen, Denmark -> 1299:Paris, France 1259
+1299:Copenhagen, Denmark -> 1299:Stockholm, Sweden 97013
+1299:Dallas, TX -> 1299:Atlanta, GA 12300
+1299:Dallas, TX -> 1299:Chicago, IL 175
+1299:Dallas, TX -> 1299:Los Angeles, CA 1350
+1299:Dallas, TX -> 1299:Miami, FL 675
+1299:Frankfurt, Germany -> 1299:Amsterdam, Netherlands 28
+1299:Frankfurt, Germany -> 1299:Budapest, Hungary 1386
+1299:Frankfurt, Germany -> 1299:Copenhagen, Denmark 23765
+1299:Frankfurt, Germany -> 1299:Hamburg, Germany 4975
+1299:Frankfurt, Germany -> 1299:Milan, Italy 24129
+1299:Frankfurt, Germany -> 1299:Paris, France 5324
+1299:Frankfurt, Germany -> 1299:Vienna, Austria 2841
+1299:Frankfurt, Germany -> 1299:Zurich, Switzerland 1903
+1299:Hamburg, Germany -> 1299:Copenhagen, Denmark 15657
+1299:Hamburg, Germany -> 1299:Frankfurt, Germany 4975
+1299:Hamburg, Germany -> 1299:Milan, Italy 267
+1299:Hamburg, Germany -> 1299:Stockholm, Sweden 5293
+1299:Hamburg, Germany -> 1299:Warsaw, Poland 9816
+1299:Helsinki, Finland -> 1299:Stockholm, Sweden 558
+1299:Herndon, VA -> 1299:Atlanta, GA 15280
+1299:Herndon, VA -> 1299:New York, NY 17045
+1299:London, UnitedKingdom -> 1299:Amsterdam, Netherlands 3228
+1299:London, UnitedKingdom -> 1299:Birmingham, UnitedKingdom 140
+1299:London, UnitedKingdom -> 1299:Copenhagen, Denmark 9318
+1299:London, UnitedKingdom -> 1299:Manchester, UnitedKingdom 214
+1299:London, UnitedKingdom -> 1299:New York, NY 17971
+1299:London, UnitedKingdom -> 1299:Paris, France 9973
+1299:Los Angeles, CA -> 1299:Dallas, TX 1350
+1299:Los Angeles, CA -> 1299:San Jose, CA 199
+1299:Los Angeles, CA -> 1299:Santa Clara, CA 2029
+1299:Madrid, Spain -> 1299:Paris, France 762
+1299:Manchester, UnitedKingdom -> 1299:London, UnitedKingdom 214
+1299:Miami, FL -> 1299:Atlanta, GA 1074
+1299:Miami, FL -> 1299:Dallas, TX 675
+1299:Milan, Italy -> 1299:Frankfurt, Germany 24129
+1299:Milan, Italy -> 1299:Hamburg, Germany 267
+1299:Milan, Italy -> 1299:Paris, France 382
+1299:Moscow, Russia -> 1299:Stockholm, Sweden 12130
+1299:New York, NY -> 1299:Chicago, IL 61345
+1299:New York, NY -> 1299:Copenhagen, Denmark 117486
+1299:New York, NY -> 1299:Herndon, VA 17045
+1299:New York, NY -> 1299:London, UnitedKingdom 17971
+1299:Oslo, Norway -> 1299:Stockholm, Sweden 5477
+1299:Palo Alto, CA -> 1299:Santa Clara, CA 2336
+1299:Paris, France -> 1299:Copenhagen, Denmark 1259
+1299:Paris, France -> 1299:Frankfurt, Germany 5324
+1299:Paris, France -> 1299:London, UnitedKingdom 9973
+1299:Paris, France -> 1299:Madrid, Spain 762
+1299:Paris, France -> 1299:Milan, Italy 382
+1299:Riga, Latvia -> 1299:Stockholm, Sweden 2817
+1299:Saint Petersburg, Russia -> 1299:Stockholm, Sweden 2043
+1299:San Jose, CA -> 1299:Chicago, IL 4519
+1299:San Jose, CA -> 1299:Los Angeles, CA 199
+1299:Santa Clara, CA -> 1299:Chicago, IL 31263
+1299:Santa Clara, CA -> 1299:Los Angeles, CA 2029
+1299:Santa Clara, CA -> 1299:Palo Alto, CA 2336
+1299:Stockholm, Sweden -> 1299:Amsterdam, Netherlands 2586
+1299:Stockholm, Sweden -> 1299:Copenhagen, Denmark 97013
+1299:Stockholm, Sweden -> 1299:Hamburg, Germany 5293
+1299:Stockholm, Sweden -> 1299:Helsinki, Finland 558
+1299:Stockholm, Sweden -> 1299:Moscow, Russia 12130
+1299:Stockholm, Sweden -> 1299:Oslo, Norway 5477
+1299:Stockholm, Sweden -> 1299:Riga, Latvia 2817
+1299:Stockholm, Sweden -> 1299:Saint Petersburg, Russia 2043
+1299:Stockholm, Sweden -> 1299:Sundsvell, Sweden 310
+1299:Sundsvell, Sweden -> 1299:Stockholm, Sweden 310
+1299:Vienna, Austria -> 1299:Frankfurt, Germany 2841
+1299:Warsaw, Poland -> 1299:Hamburg, Germany 9816
+1299:Zurich, Switzerland -> 1299:Frankfurt, Germany 1903

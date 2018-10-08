@@ -1,0 +1,32 @@
+2687:Auckland, NewZealand -> 2687:Los Angeles, CA 401
+2687:Auckland, NewZealand -> 2687:San Francisco, CA 4
+2687:Hong Kong -> 2687:Los Angeles, CA 183
+2687:Hong Kong -> 2687:Manila, Philippines 36
+2687:Hong Kong -> 2687:San Francisco, CA 4
+2687:Hong Kong -> 2687:Singapore 46
+2687:Hong Kong -> 2687:Tokyo, Japan 40
+2687:Los Angeles, CA -> 2687:Auckland, NewZealand 401
+2687:Los Angeles, CA -> 2687:Hong Kong 183
+2687:Los Angeles, CA -> 2687:Sydney, Australia 363
+2687:Los Angeles, CA -> 2687:Taipei, Taiwan 121
+2687:Los Angeles, CA -> 2687:Wellington, NewZealand 191
+2687:Manila, Philippines -> 2687:Hong Kong 36
+2687:Manila, Philippines -> 2687:Singapore 46
+2687:Melbourne, Australia -> 2687:Sydney, Australia 366
+2687:San Francisco, CA -> 2687:Auckland, NewZealand 4
+2687:San Francisco, CA -> 2687:Hong Kong 4
+2687:San Francisco, CA -> 2687:Sydney, Australia 4
+2687:San Francisco, CA -> 2687:Wellington, NewZealand 2
+2687:Singapore -> 2687:Hong Kong 46
+2687:Singapore -> 2687:Manila, Philippines 46
+2687:Sydney, Australia -> 2687:Los Angeles, CA 363
+2687:Sydney, Australia -> 2687:Melbourne, Australia 366
+2687:Sydney, Australia -> 2687:San Francisco, CA 4
+2687:Sydney, Australia -> 2687:Wellington, NewZealand 13
+2687:Taipei, Taiwan -> 2687:Los Angeles, CA 121
+2687:Taipei, Taiwan -> 2687:Tokyo, Japan 110
+2687:Tokyo, Japan -> 2687:Hong Kong 40
+2687:Tokyo, Japan -> 2687:Taipei, Taiwan 110
+2687:Wellington, NewZealand -> 2687:Los Angeles, CA 191
+2687:Wellington, NewZealand -> 2687:San Francisco, CA 2
+2687:Wellington, NewZealand -> 2687:Sydney, Australia 13

@@ -1,0 +1,86 @@
+7132:Washington, DC -> 7132:Herndon, VA 0.5
+7132:Washington, DC -> 7132:New York, NY 2.91419
+7132:El Paso, TX -> 7132:Dallas, TX 5.12609
+7132:El Paso, TX -> 7132:Richardson, TX 4.62609
+7132:Abilene, TX -> 7132:Richardson, TX 1.4324
+7132:Palo Alto, CA -> 7132:San Francisco, CA 0.261255
+7132:Vienna, VA -> 7132:Herndon, VA 0.0625802
+7132:Ashburn, VA -> 7132:Herndon, VA 0.0621431
+7132:Little Rock, AR -> 7132:Dallas, TX 2.33093
+7132:Little Rock, AR -> 7132:Kansas City, MO 2.62736
+7132:Waco, TX -> 7132:Dallas, TX 1.29696
+7132:Waco, TX -> 7132:Richardson, TX 0.79696
+7132:Springfield, MO -> 7132:Kansas City, MO 1.18957
+7132:Herndon, VA -> 7132:Washington, DC 0.5
+7132:Herndon, VA -> 7132:Vienna, VA 0.0625802
+7132:Herndon, VA -> 7132:Ashburn, VA 0.0621431
+7132:Herndon, VA -> 7132:Richardson, TX 9.08671
+7132:Herndon, VA -> 7132:New York, NY 2.41419
+7132:San Francisco, CA -> 7132:Palo Alto, CA 0.261255
+7132:Lauback, TX -> 7132:Dallas, TX 1.84187
+7132:Lauback, TX -> 7132:Richardson, TX 1.34187
+7132:Wichita, KS -> 7132:Dallas, TX 2.44663
+7132:Wichita, KS -> 7132:Kansas City, MO 1.5
+7132:Fayetteville, AR -> 7132:Dallas, TX 2.17525
+7132:Fayetteville, AR -> 7132:Kansas City, MO 1.77138
+7132:Austin, TX -> 7132:Dallas, TX 1.45877
+7132:Austin, TX -> 7132:Richardson, TX 0.95877
+7132:Richardson, TX -> 7132:Dallas, TX 0.5
+7132:Richardson, TX -> 7132:Abilene, TX 1.4324
+7132:Richardson, TX -> 7132:El Paso, TX 4.62609
+7132:Richardson, TX -> 7132:Kansas City, MO 2.44663
+7132:Richardson, TX -> 7132:Long View, TX 0.5
+7132:Richardson, TX -> 7132:Herndon, VA 9.08671
+7132:Richardson, TX -> 7132:New York, NY 10.5009
+7132:Richardson, TX -> 7132:Lauback, TX 1.34187
+7132:Richardson, TX -> 7132:Waco, TX 0.79696
+7132:Richardson, TX -> 7132:San Antonio, TX 2.1183
+7132:Richardson, TX -> 7132:Austin, TX 0.95877
+7132:Richardson, TX -> 7132:Corpus Christi, TX 2.87811
+7132:Dallas, TX -> 7132:Houston, TX 1.79734
+7132:Dallas, TX -> 7132:El Paso, TX 5.12609
+7132:Dallas, TX -> 7132:Long View, TX 1
+7132:Dallas, TX -> 7132:Oklahoma City, OK 1.53244
+7132:Dallas, TX -> 7132:Wichita, KS 2.44663
+7132:Dallas, TX -> 7132:New York, NY 11.0009
+7132:Dallas, TX -> 7132:Fayetteville, AR 2.17525
+7132:Dallas, TX -> 7132:Topeka, KS 2.44663
+7132:Dallas, TX -> 7132:Little Rock, AR 2.33093
+7132:Dallas, TX -> 7132:Lauback, TX 1.84187
+7132:Dallas, TX -> 7132:Tulsa, OK 2.18239
+7132:Dallas, TX -> 7132:Waco, TX 1.29696
+7132:Dallas, TX -> 7132:Austin, TX 1.45877
+7132:Dallas, TX -> 7132:Richardson, TX 0.5
+7132:Dallas, TX -> 7132:St Louis, MO 4.3803
+7132:Long View, TX -> 7132:Dallas, TX 1
+7132:Long View, TX -> 7132:Richardson, TX 0.5
+7132:Seattle, WA -> 7132:Topeka, KS 13.5984
+7132:Seattle, WA -> 7132:Kansas City, MO 12.0984
+7132:Houston, TX -> 7132:Dallas, TX 1.79734
+7132:Kansas City, MO -> 7132:Springfield, MO 1.18957
+7132:Kansas City, MO -> 7132:Oklahoma City, OK 2.41419
+7132:Kansas City, MO -> 7132:Wichita, KS 1.5
+7132:Kansas City, MO -> 7132:New York, NY 9.11915
+7132:Kansas City, MO -> 7132:Fayetteville, AR 1.77138
+7132:Kansas City, MO -> 7132:Seattle, WA 12.0984
+7132:Kansas City, MO -> 7132:Topeka, KS 1.5
+7132:Kansas City, MO -> 7132:Little Rock, AR 2.62736
+7132:Kansas City, MO -> 7132:Tulsa, OK 1.76424
+7132:Kansas City, MO -> 7132:Richardson, TX 2.44663
+7132:Kansas City, MO -> 7132:St Louis, MO 3.43367
+7132:Oklahoma City, OK -> 7132:Dallas, TX 1.53244
+7132:Oklahoma City, OK -> 7132:Kansas City, MO 2.41419
+7132:New York, NY -> 7132:Dallas, TX 11.0009
+7132:New York, NY -> 7132:Washington, DC 2.91419
+7132:New York, NY -> 7132:Kansas City, MO 9.11915
+7132:New York, NY -> 7132:Herndon, VA 2.41419
+7132:New York, NY -> 7132:Richardson, TX 10.5009
+7132:Topeka, KS -> 7132:Seattle, WA 13.5984
+7132:Topeka, KS -> 7132:Dallas, TX 2.44663
+7132:Topeka, KS -> 7132:Kansas City, MO 1.5
+7132:Tulsa, OK -> 7132:Dallas, TX 2.18239
+7132:Tulsa, OK -> 7132:Kansas City, MO 1.76424
+7132:St Louis, MO -> 7132:Dallas, TX 4.3803
+7132:St Louis, MO -> 7132:Kansas City, MO 3.43367
+7132:San Antonio, TX -> 7132:Richardson, TX 2.1183
+7132:Corpus Christi, TX -> 7132:Richardson, TX 2.87811

@@ -1,0 +1,86 @@
+7132:Abilene, TX -> 7132:Richardson, TX 159
+7132:Ashburn, VA -> 7132:Herndon, VA 1647
+7132:Austin, TX -> 7132:Dallas, TX 707
+7132:Austin, TX -> 7132:Richardson, TX 351
+7132:Corpus Christi, TX -> 7132:Richardson, TX 1285
+7132:Dallas, TX -> 7132:Austin, TX 707
+7132:Dallas, TX -> 7132:El Paso, TX 67
+7132:Dallas, TX -> 7132:Fayetteville, AR 1061
+7132:Dallas, TX -> 7132:Houston, TX 3231
+7132:Dallas, TX -> 7132:Lauback, TX 75
+7132:Dallas, TX -> 7132:Little Rock, AR 4652
+7132:Dallas, TX -> 7132:Long View, TX 56
+7132:Dallas, TX -> 7132:New York, NY 114
+7132:Dallas, TX -> 7132:Oklahoma City, OK 1025
+7132:Dallas, TX -> 7132:Richardson, TX 10350
+7132:Dallas, TX -> 7132:St Louis, MO 200
+7132:Dallas, TX -> 7132:Topeka, KS 721
+7132:Dallas, TX -> 7132:Tulsa, OK 764
+7132:Dallas, TX -> 7132:Waco, TX 55
+7132:Dallas, TX -> 7132:Wichita, KS 770
+7132:El Paso, TX -> 7132:Dallas, TX 67
+7132:El Paso, TX -> 7132:Richardson, TX 26
+7132:Fayetteville, AR -> 7132:Dallas, TX 1061
+7132:Fayetteville, AR -> 7132:Kansas City, MO 63
+7132:Herndon, VA -> 7132:Ashburn, VA 1647
+7132:Herndon, VA -> 7132:New York, NY 50
+7132:Herndon, VA -> 7132:Richardson, TX 4668
+7132:Herndon, VA -> 7132:Vienna, VA 119
+7132:Herndon, VA -> 7132:Washington, DC 1745
+7132:Houston, TX -> 7132:Dallas, TX 3231
+7132:Kansas City, MO -> 7132:Fayetteville, AR 63
+7132:Kansas City, MO -> 7132:Little Rock, AR 301
+7132:Kansas City, MO -> 7132:New York, NY 542
+7132:Kansas City, MO -> 7132:Oklahoma City, OK 39
+7132:Kansas City, MO -> 7132:Richardson, TX 1494
+7132:Kansas City, MO -> 7132:Seattle, WA 373
+7132:Kansas City, MO -> 7132:Springfield, MO 33
+7132:Kansas City, MO -> 7132:St Louis, MO 409
+7132:Kansas City, MO -> 7132:Topeka, KS 52
+7132:Kansas City, MO -> 7132:Tulsa, OK 41
+7132:Kansas City, MO -> 7132:Wichita, KS 50
+7132:Lauback, TX -> 7132:Dallas, TX 75
+7132:Lauback, TX -> 7132:Richardson, TX 20
+7132:Little Rock, AR -> 7132:Dallas, TX 4652
+7132:Little Rock, AR -> 7132:Kansas City, MO 301
+7132:Long View, TX -> 7132:Dallas, TX 56
+7132:Long View, TX -> 7132:Richardson, TX 25
+7132:New York, NY -> 7132:Dallas, TX 114
+7132:New York, NY -> 7132:Herndon, VA 50
+7132:New York, NY -> 7132:Kansas City, MO 542
+7132:New York, NY -> 7132:Richardson, TX 294
+7132:New York, NY -> 7132:Washington, DC 10
+7132:Oklahoma City, OK -> 7132:Dallas, TX 1025
+7132:Oklahoma City, OK -> 7132:Kansas City, MO 39
+7132:Palo Alto, CA -> 7132:San Francisco, CA 2815
+7132:Richardson, TX -> 7132:Abilene, TX 159
+7132:Richardson, TX -> 7132:Austin, TX 351
+7132:Richardson, TX -> 7132:Corpus Christi, TX 1285
+7132:Richardson, TX -> 7132:Dallas, TX 10350
+7132:Richardson, TX -> 7132:El Paso, TX 26
+7132:Richardson, TX -> 7132:Herndon, VA 4668
+7132:Richardson, TX -> 7132:Kansas City, MO 1494
+7132:Richardson, TX -> 7132:Lauback, TX 20
+7132:Richardson, TX -> 7132:Long View, TX 25
+7132:Richardson, TX -> 7132:New York, NY 294
+7132:Richardson, TX -> 7132:San Antonio, TX 536
+7132:Richardson, TX -> 7132:Waco, TX 47
+7132:San Antonio, TX -> 7132:Richardson, TX 536
+7132:San Francisco, CA -> 7132:Palo Alto, CA 2815
+7132:Seattle, WA -> 7132:Kansas City, MO 373
+7132:Seattle, WA -> 7132:Topeka, KS 2
+7132:Springfield, MO -> 7132:Kansas City, MO 33
+7132:St Louis, MO -> 7132:Dallas, TX 200
+7132:St Louis, MO -> 7132:Kansas City, MO 409
+7132:Topeka, KS -> 7132:Dallas, TX 721
+7132:Topeka, KS -> 7132:Kansas City, MO 52
+7132:Topeka, KS -> 7132:Seattle, WA 2
+7132:Tulsa, OK -> 7132:Dallas, TX 764
+7132:Tulsa, OK -> 7132:Kansas City, MO 41
+7132:Vienna, VA -> 7132:Herndon, VA 119
+7132:Waco, TX -> 7132:Dallas, TX 55
+7132:Waco, TX -> 7132:Richardson, TX 47
+7132:Washington, DC -> 7132:Herndon, VA 1745
+7132:Washington, DC -> 7132:New York, NY 10
+7132:Wichita, KS -> 7132:Dallas, TX 770
+7132:Wichita, KS -> 7132:Kansas City, MO 50

@@ -1,0 +1,438 @@
+701:London, UnitedKingdom -> 701:Toronto, Canada 0.5
+701:London, UnitedKingdom -> 701:London, Canada 29.363
+701:Anaheim, CA -> 701:Phoenix, AZ 2.7081
+701:Roachdale, IN -> 701:Indianapolis, IN 0.276384
+701:Cheyenne, WY -> 701:Chicago, IL 7.13002
+701:Albuquerque, NM -> 701:Dallas, TX 4.72639
+701:Scarborough, Canada -> 701:Toronto, Canada 0.0813949
+701:Detroit, MI -> 701:Cleveland, OH 0.754422
+701:Detroit, MI -> 701:Chicago, IL 1.723898
+701:Orlando, FL -> 701:Tampa, FL 0.624491
+701:Orlando, FL -> 701:Atlanta, GA 3.23559
+701:Pittsburgh, PA -> 701:Tyson Corner, VA 0.54074
+701:Pittsburgh, PA -> 701:Washington, DC 1.54074
+701:Ottawa, Canada -> 701:Toronto, Canada 5.99536
+701:Ottawa, Canada -> 701:Montreal, Canada 0.5
+701:Miami, FL -> 701:Atlanta, GA 4.87596
+701:Minneapolis, MN -> 701:Chicago, IL 2.85502
+701:Waterford, Ireland -> 701:Toronto, Canada 26.1652
+701:Hamilton, Canada -> 701:Toronto, Canada 0.302649
+701:Charlotte, NC -> 701:Raleigh, NC 1.04455
+701:Austin, TX -> 701:Houston, TX 1.5
+701:Austin, TX -> 701:Dallas, TX 1
+701:Vancouver, Canada -> 701:Salt Lake City, UT 12.42584
+701:Vancouver, Canada -> 701:Houston, TX 10.92584
+701:Vancouver, Canada -> 701:New York, NY 11.42584
+701:Vancouver, Canada -> 701:Washington, DC 11.92584
+701:Vancouver, Canada -> 701:Portland, OR 10.92584
+701:Vancouver, Canada -> 701:Edmonton, Canada 1.84447
+701:Vancouver, Canada -> 701:Sacramento, CA 12.42584
+701:Vancouver, Canada -> 701:Montreal, Canada 18.4212
+701:Vancouver, Canada -> 701:Chicago, IL 11.92584
+701:Vancouver, Canada -> 701:Los Angeles, CA 11.92584
+701:Vancouver, Canada -> 701:Dallas, TX 11.42584
+701:Vancouver, Canada -> 701:Atlanta, GA 11.42584
+701:Vancouver, Canada -> 701:Toronto, Canada 12.92584
+701:Vancouver, Canada -> 701:Santa Clara, CA 12.92584
+701:Vancouver, Canada -> 701:Seattle, WA 11.92584
+701:Vancouver, Canada -> 701:Calgary, Canada 3.36228
+701:Vancouver, Canada -> 701:Saint Louis, MO 12.42584
+701:Dallas, TX -> 701:Salt Lake City, UT 3
+701:Dallas, TX -> 701:New York, NY 3
+701:Dallas, TX -> 701:Portland, OR 2.5
+701:Dallas, TX -> 701:Los Angeles, CA 3.5
+701:Dallas, TX -> 701:Carrollton, TX 0.114973409205073
+701:Dallas, TX -> 701:Albuquerque, NM 4.72639
+701:Dallas, TX -> 701:Toronto, Canada 3.5
+701:Dallas, TX -> 701:Santa Clara, CA 3.5
+701:Dallas, TX -> 701:Seattle, WA 2.5
+701:Dallas, TX -> 701:Calgary, Canada 10.7525
+701:Dallas, TX -> 701:Saint Louis, MO 2
+701:Dallas, TX -> 701:Houston, TX 1.5
+701:Dallas, TX -> 701:Washington, DC 2.5
+701:Dallas, TX -> 701:Vancouver, Canada 11.42584
+701:Dallas, TX -> 701:Austin, TX 1
+701:Dallas, TX -> 701:Chicago, IL 2.5
+701:Dallas, TX -> 701:Montreal, Canada 8.99536
+701:Dallas, TX -> 701:Sacramento, CA 3
+701:Dallas, TX -> 701:Atlanta, GA 3
+701:Dallas, TX -> 701:New Orleans, LA 3.13736
+701:Dallas, TX -> 701:San Antonio, TX 2.03046
+701:Memphis, TN -> 701:Saint Louis, MO 1.9331
+701:New York, NY -> 701:Farmingdale, NJ 1
+701:New York, NY -> 701:Salt Lake City, UT 3
+701:New York, NY -> 701:Portland, OR 1.5
+701:New York, NY -> 701:Los Angeles, CA 2.5
+701:New York, NY -> 701:Boston, MA 1.52819
+701:New York, NY -> 701:Toronto, Canada 2.5
+701:New York, NY -> 701:Santa Clara, CA 3.5
+701:New York, NY -> 701:Seattle, WA 2.5
+701:New York, NY -> 701:Calgary, Canada 10.7525
+701:New York, NY -> 701:Newark, NJ 0.0710685
+701:New York, NY -> 701:Saint Louis, MO 2
+701:New York, NY -> 701:Houston, TX 1.5
+701:New York, NY -> 701:Washington, DC 1.5
+701:New York, NY -> 701:Vancouver, Canada 11.42584
+701:New York, NY -> 701:Ashburn, VA 1.5
+701:New York, NY -> 701:Chicago, IL 1.5
+701:New York, NY -> 701:Montreal, Canada 7.99536
+701:New York, NY -> 701:Sacramento, CA 3
+701:New York, NY -> 701:Atlanta, GA 1
+701:New York, NY -> 701:Dallas, TX 3
+701:New York, NY -> 701:Hartford, CT 2.02819
+701:New York, NY -> 701:Stockholm, Sweden 31.5490664881065
+701:New York, NY -> 701:Buffalo, NY 2.35087
+701:Portland, OR -> 701:Salt Lake City, UT 2.5
+701:Portland, OR -> 701:New York, NY 1.5
+701:Portland, OR -> 701:Los Angeles, CA 3
+701:Portland, OR -> 701:Toronto, Canada 3
+701:Portland, OR -> 701:Santa Clara, CA 3
+701:Portland, OR -> 701:Seattle, WA 1
+701:Portland, OR -> 701:Calgary, Canada 11.2525
+701:Portland, OR -> 701:Saint Louis, MO 2.5
+701:Portland, OR -> 701:Houston, TX 2
+701:Portland, OR -> 701:Kirkland, WA 1.5
+701:Portland, OR -> 701:Washington, DC 2
+701:Portland, OR -> 701:Vancouver, Canada 10.92584
+701:Portland, OR -> 701:Chicago, IL 2
+701:Portland, OR -> 701:Montreal, Canada 8.49536
+701:Portland, OR -> 701:Sacramento, CA 2.5
+701:Portland, OR -> 701:Atlanta, GA 1.5
+701:Portland, OR -> 701:Dallas, TX 2.5
+701:Sunnyvale, CA -> 701:Santa Clara, CA 0.0288213
+701:Philadelphia, PA -> 701:Tyson Corner, VA 2.00741
+701:Philadelphia, PA -> 701:Washington, DC 1.00741
+701:Santa Clara, CA -> 701:Salt Lake City, UT 1.5
+701:Santa Clara, CA -> 701:New York, NY 3.5
+701:Santa Clara, CA -> 701:Portland, OR 3
+701:Santa Clara, CA -> 701:Palo Alto, CA 0.5
+701:Santa Clara, CA -> 701:Sunnyvale, CA 0.0288213
+701:Santa Clara, CA -> 701:Los Angeles, CA 2
+701:Santa Clara, CA -> 701:Seattle, WA 4
+701:Santa Clara, CA -> 701:San Francisco, CA 0.5
+701:Santa Clara, CA -> 701:Calgary, Canada 12.2525
+701:Santa Clara, CA -> 701:Saint Louis, MO 4.5
+701:Santa Clara, CA -> 701:Houston, TX 4
+701:Santa Clara, CA -> 701:Stockton, CA 0.450989
+701:Santa Clara, CA -> 701:Washington, DC 3
+701:Santa Clara, CA -> 701:Vancouver, Canada 12.92584
+701:Santa Clara, CA -> 701:Chicago, IL 4
+701:Santa Clara, CA -> 701:Sacramento, CA 0.5
+701:Santa Clara, CA -> 701:Atlanta, GA 3.5
+701:Santa Clara, CA -> 701:Dallas, TX 3.5
+701:Santa Clara, CA -> 701:San Jose, CA 0.5
+701:Santa Clara, CA -> 701:Kansas City, MO 4.5
+701:Hayward, CA -> 701:Sacramento, CA 0.568556
+701:St Louis, MO -> 701:Chicago, IL 2.09611
+701:Calgary, Canada -> 701:Salt Lake City, UT 11.7525
+701:Calgary, Canada -> 701:Houston, TX 10.2525
+701:Calgary, Canada -> 701:New York, NY 10.7525
+701:Calgary, Canada -> 701:Washington, DC 11.2525
+701:Calgary, Canada -> 701:Vancouver, Canada 3.36228
+701:Calgary, Canada -> 701:Portland, OR 11.2525
+701:Calgary, Canada -> 701:Edmonton, Canada 2.51781
+701:Calgary, Canada -> 701:Winnipeg, Canada 6.01032
+701:Calgary, Canada -> 701:Sacramento, CA 11.7525
+701:Calgary, Canada -> 701:Regina, Canada 3.33373
+701:Calgary, Canada -> 701:Chicago, IL 11.2525
+701:Calgary, Canada -> 701:Los Angeles, CA 11.2525
+701:Calgary, Canada -> 701:Dallas, TX 10.7525
+701:Calgary, Canada -> 701:Atlanta, GA 10.7525
+701:Calgary, Canada -> 701:Santa Clara, CA 12.2525
+701:Calgary, Canada -> 701:Seattle, WA 11.2525
+701:Calgary, Canada -> 701:Saint Louis, MO 11.5838
+701:Washington, DC -> 701:Salt Lake City, UT 2.5
+701:Washington, DC -> 701:New York, NY 1.5
+701:Washington, DC -> 701:Baltimore, MD 0.281323
+701:Washington, DC -> 701:Portland, OR 2
+701:Washington, DC -> 701:Los Angeles, CA 3
+701:Washington, DC -> 701:Philadelphia, PA 1.00741
+701:Washington, DC -> 701:Greensboro, NC 2.36162
+701:Washington, DC -> 701:Toronto, Canada 2
+701:Washington, DC -> 701:Santa Clara, CA 3
+701:Washington, DC -> 701:Seattle, WA 2
+701:Washington, DC -> 701:Pittsburgh, PA 1.54074
+701:Washington, DC -> 701:Calgary, Canada 11.2525
+701:Washington, DC -> 701:Saint Louis, MO 1.5
+701:Washington, DC -> 701:Tyson Corner, VA 1
+701:Washington, DC -> 701:Houston, TX 2
+701:Washington, DC -> 701:Vancouver, Canada 11.92584
+701:Washington, DC -> 701:Sacramento, CA 2.5
+701:Washington, DC -> 701:Ashburn, VA 1
+701:Washington, DC -> 701:Chicago, IL 2
+701:Washington, DC -> 701:Montreal, Canada 7.49536
+701:Washington, DC -> 701:Raleigh, NC 1.86162
+701:Washington, DC -> 701:Atlanta, GA 1.5
+701:Washington, DC -> 701:Dallas, TX 2.5
+701:Washington, DC -> 701:Relay, MD 0.22235770619305
+701:Washington, DC -> 701:Alexandria, VA 0.0567554
+701:Washington, DC -> 701:Richmond, VA 3.47741
+701:Washington, DC -> 701:Reston, VA 0.146741
+701:Raleigh, NC -> 701:Charlotte, NC 1.04455
+701:Raleigh, NC -> 701:Washington, DC 1.86162
+701:Raleigh, NC -> 701:Greensboro, NC 0.5
+701:Sacramento, CA -> 701:Salt Lake City, UT 1
+701:Sacramento, CA -> 701:New York, NY 3
+701:Sacramento, CA -> 701:Portland, OR 2.5
+701:Sacramento, CA -> 701:Palo Alto, CA 2
+701:Sacramento, CA -> 701:Los Angeles, CA 1.5
+701:Sacramento, CA -> 701:Toronto, Canada 2.5
+701:Sacramento, CA -> 701:Santa Clara, CA 0.5
+701:Sacramento, CA -> 701:Seattle, WA 3.5
+701:Sacramento, CA -> 701:Hayward, CA 0.568556
+701:Sacramento, CA -> 701:San Francisco, CA 1
+701:Sacramento, CA -> 701:Calgary, Canada 11.7525
+701:Sacramento, CA -> 701:Honolulu, HI 19.7551
+701:Sacramento, CA -> 701:Houston, TX 2.5
+701:Sacramento, CA -> 701:Washington, DC 2.5
+701:Sacramento, CA -> 701:Vancouver, Canada 12.42584
+701:Sacramento, CA -> 701:Chicago, IL 3.5
+701:Sacramento, CA -> 701:Montreal, Canada 7.99536
+701:Sacramento, CA -> 701:Atlanta, GA 3
+701:Sacramento, CA -> 701:Dallas, TX 3
+701:Sacramento, CA -> 701:San Jose, CA 1
+701:Ashburn, VA -> 701:New York, NY 1.5
+701:Ashburn, VA -> 701:Washington, DC 1
+701:Relay, MD -> 701:Washington, DC 0.22235770619305
+701:Atlanta, GA -> 701:Salt Lake City, UT 3
+701:Atlanta, GA -> 701:New York, NY 1
+701:Atlanta, GA -> 701:Portland, OR 1.5
+701:Atlanta, GA -> 701:Jacksonville, FL 2.30231
+701:Atlanta, GA -> 701:Los Angeles, CA 2.5
+701:Atlanta, GA -> 701:Toronto, Canada 2.5
+701:Atlanta, GA -> 701:Santa Clara, CA 3.5
+701:Atlanta, GA -> 701:Seattle, WA 2.5
+701:Atlanta, GA -> 701:Orlando, FL 3.23559
+701:Atlanta, GA -> 701:Calgary, Canada 10.7525
+701:Atlanta, GA -> 701:Miami, FL 4.87596
+701:Atlanta, GA -> 701:Saint Louis, MO 2
+701:Atlanta, GA -> 701:Houston, TX 1.5
+701:Atlanta, GA -> 701:Washington, DC 1.5
+701:Atlanta, GA -> 701:Vancouver, Canada 11.42584
+701:Atlanta, GA -> 701:Chicago, IL 1.5
+701:Atlanta, GA -> 701:Montreal, Canada 7.99536
+701:Atlanta, GA -> 701:Sacramento, CA 3
+701:Atlanta, GA -> 701:Dallas, TX 3
+701:Atlanta, GA -> 701:New Orleans, LA 4.13736
+701:Dayton, OH -> 701:Indianapolis, ID 12.6039
+701:Dayton, OH -> 701:Indianapolis, IN 20.59707
+701:San Jose, CA -> 701:Santa Clara, CA 0.5
+701:San Jose, CA -> 701:San Francisco, CA 1
+701:San Jose, CA -> 701:Palo Alto, CA 1
+701:San Jose, CA -> 701:Sacramento, CA 1
+701:Farmingdale, NJ -> 701:New York, NY 1
+701:Farmingdale, NJ -> 701:Boston, MA 1.52819
+701:Salt Lake City, UT -> 701:Houston, TX 2.5
+701:Salt Lake City, UT -> 701:New York, NY 3
+701:Salt Lake City, UT -> 701:Washington, DC 2.5
+701:Salt Lake City, UT -> 701:Vancouver, Canada 12.42584
+701:Salt Lake City, UT -> 701:Portland, OR 2.5
+701:Salt Lake City, UT -> 701:Sacramento, CA 1
+701:Salt Lake City, UT -> 701:Montreal, Canada 7.99536
+701:Salt Lake City, UT -> 701:Los Angeles, CA 1.5
+701:Salt Lake City, UT -> 701:Dallas, TX 3
+701:Salt Lake City, UT -> 701:Atlanta, GA 3
+701:Salt Lake City, UT -> 701:Toronto, Canada 2.5
+701:Salt Lake City, UT -> 701:Santa Clara, CA 1.5
+701:Salt Lake City, UT -> 701:Denver, CO 1
+701:Salt Lake City, UT -> 701:Seattle, WA 3.5
+701:Salt Lake City, UT -> 701:Calgary, Canada 11.7525
+701:Salt Lake City, UT -> 701:Saint Louis, MO 2
+701:Salt Lake City, UT -> 701:Kansas City, MO 2
+701:Baltimore, MD -> 701:Washington, DC 0.281323
+701:Jacksonville, FL -> 701:Atlanta, GA 2.30231
+701:Carrollton, TX -> 701:Dallas, TX 0.114973409205073
+701:Los Angeles, CA -> 701:Salt Lake City, UT 1.5
+701:Los Angeles, CA -> 701:New York, NY 2.5
+701:Los Angeles, CA -> 701:Portland, OR 3
+701:Los Angeles, CA -> 701:Toronto, Canada 2
+701:Los Angeles, CA -> 701:Santa Clara, CA 2
+701:Los Angeles, CA -> 701:Seattle, WA 4
+701:Los Angeles, CA -> 701:Calgary, Canada 11.2525
+701:Los Angeles, CA -> 701:Saint Louis, MO 2.5
+701:Los Angeles, CA -> 701:San Diego, CA 0.930875
+701:Los Angeles, CA -> 701:Houston, TX 3
+701:Los Angeles, CA -> 701:Washington, DC 3
+701:Los Angeles, CA -> 701:Vancouver, Canada 11.92584
+701:Los Angeles, CA -> 701:Burbank, CA 0.0601057321085238
+701:Los Angeles, CA -> 701:Chicago, IL 3
+701:Los Angeles, CA -> 701:Montreal, Canada 7.49536
+701:Los Angeles, CA -> 701:Sacramento, CA 1.5
+701:Los Angeles, CA -> 701:Atlanta, GA 2.5
+701:Los Angeles, CA -> 701:Dallas, TX 3.5
+701:Los Angeles, CA -> 701:Las Vegas, NV 1.85801
+701:Los Angeles, CA -> 701:Phoenix, AZ 2.21855
+701:Windsor, Canada -> 701:Toronto, Canada 1.66375
+701:Waterloo, Canada -> 701:Toronto, Canada 100000
+701:Quebec, Canada -> 701:Montreal, Canada 1.14749
+701:Newark, NJ -> 701:New York, NY 0.0710685
+701:Honolulu, HI -> 701:Sacramento, CA 19.7551
+701:Columbus, OH -> 701:Indianapolis, ID 10.3521
+701:Columbus, OH -> 701:Indianapolis, IN 1.35893
+701:Columbus, OH -> 701:Chicago, IL 0.5
+701:Stockton, CA -> 701:Santa Clara, CA 0.450989
+701:Kirkland, WA -> 701:Seattle, WA 0.5
+701:Kirkland, WA -> 701:Portland, OR 1.5
+701:Edmonton, Canada -> 701:Vancouver, Canada 1.84447
+701:Edmonton, Canada -> 701:Calgary, Canada 2.51781
+701:Burbank, CA -> 701:Los Angeles, CA 0.0601057321085238
+701:Regina, Canada -> 701:Calgary, Canada 3.33373
+701:Montreal, Canada -> 701:Salt Lake City, UT 7.99536
+701:Montreal, Canada -> 701:New York, NY 7.99536
+701:Montreal, Canada -> 701:Halifax, Canada 3.93646
+701:Montreal, Canada -> 701:Washington, DC 7.49536
+701:Montreal, Canada -> 701:Vancouver, Canada 18.4212
+701:Montreal, Canada -> 701:Portland, OR 8.49536
+701:Montreal, Canada -> 701:Sacramento, CA 7.99536
+701:Montreal, Canada -> 701:Chicago, IL 8.49536
+701:Montreal, Canada -> 701:Los Angeles, CA 7.49536
+701:Montreal, Canada -> 701:Dallas, TX 8.99536
+701:Montreal, Canada -> 701:Atlanta, GA 7.99536
+701:Montreal, Canada -> 701:Seattle, WA 8.49536
+701:Montreal, Canada -> 701:Quebec, Canada 1.14749
+701:Montreal, Canada -> 701:Ottawa, Canada 0.5
+701:New Orleans, LA -> 701:Houston, TX 2.63736
+701:New Orleans, LA -> 701:Dallas, TX 3.13736
+701:New Orleans, LA -> 701:Atlanta, GA 4.13736
+701:Denver, CO -> 701:Salt Lake City, UT 1
+701:Denver, CO -> 701:Phoenix, AZ 4.71855
+701:Denver, CO -> 701:Saint Louis, MO 3
+701:Denver, CO -> 701:Kansas City, MO 2
+701:Cleveland, OH -> 701:Detroit, MI 0.754422
+701:Cleveland, OH -> 701:Chicago, IL 2.47832
+701:Hartford, CT -> 701:New York, NY 2.02819
+701:Hartford, CT -> 701:Boston, MA 0.5
+701:Phoenix, AZ -> 701:Denver, CO 4.71855
+701:Phoenix, AZ -> 701:Anaheim, CA 2.7081
+701:Phoenix, AZ -> 701:Los Angeles, CA 2.21855
+701:Alexandria, VA -> 701:Washington, DC 0.0567554
+701:Richmond, VA -> 701:Tyson Corner, VA 2.47741
+701:Richmond, VA -> 701:Washington, DC 3.47741
+701:Reston, VA -> 701:Washington, DC 0.146741
+701:Kansas City, MO -> 701:Santa Clara, CA 4.5
+701:Kansas City, MO -> 701:Denver, CO 2
+701:Kansas City, MO -> 701:Salt Lake City, UT 2
+701:Kansas City, MO -> 701:Saint Louis, MO 1
+701:Buffalo, NY -> 701:New York, NY 2.35087
+701:London, Canada -> 701:Toronto, Canada 29.863
+701:London, Canada -> 701:London, UnitedKingdom 29.363
+701:Palo Alto, CA -> 701:Santa Clara, CA 0.5
+701:Palo Alto, CA -> 701:San Jose, CA 1
+701:Palo Alto, CA -> 701:Sacramento, CA 2
+701:Greensboro, NC -> 701:Washington, DC 2.36162
+701:Greensboro, NC -> 701:Raleigh, NC 0.5
+701:Boston, MA -> 701:Farmingdale, NJ 1.52819
+701:Boston, MA -> 701:New York, NY 1.52819
+701:Boston, MA -> 701:Hartford, CT 0.5
+701:Toronto, Canada -> 701:London, Canada 29.863
+701:Toronto, Canada -> 701:Salt Lake City, UT 2.5
+701:Toronto, Canada -> 701:London, UnitedKingdom 0.5
+701:Toronto, Canada -> 701:New York, NY 2.5
+701:Toronto, Canada -> 701:Portland, OR 3
+701:Toronto, Canada -> 701:Los Angeles, CA 2
+701:Toronto, Canada -> 701:Windsor, Canada 1.66375
+701:Toronto, Canada -> 701:Waterloo, Canada 100000
+701:Toronto, Canada -> 701:Seattle, WA 3
+701:Toronto, Canada -> 701:Scarborough, Canada 0.0813949
+701:Toronto, Canada -> 701:Ottawa, Canada 5.99536
+701:Toronto, Canada -> 701:Hamilton, Canada 0.302649
+701:Toronto, Canada -> 701:Waterford, Ireland 26.1652
+701:Toronto, Canada -> 701:Vancouver, Canada 12.92584
+701:Toronto, Canada -> 701:Washington, DC 2
+701:Toronto, Canada -> 701:Chicago, IL 3
+701:Toronto, Canada -> 701:Sacramento, CA 2.5
+701:Toronto, Canada -> 701:Atlanta, GA 2.5
+701:Toronto, Canada -> 701:Dallas, TX 3.5
+701:Seattle, WA -> 701:Salt Lake City, UT 3.5
+701:Seattle, WA -> 701:Houston, TX 2
+701:Seattle, WA -> 701:New York, NY 2.5
+701:Seattle, WA -> 701:Kirkland, WA 0.5
+701:Seattle, WA -> 701:Washington, DC 2
+701:Seattle, WA -> 701:Vancouver, Canada 11.92584
+701:Seattle, WA -> 701:Portland, OR 1
+701:Seattle, WA -> 701:Sacramento, CA 3.5
+701:Seattle, WA -> 701:Montreal, Canada 8.49536
+701:Seattle, WA -> 701:Chicago, IL 3
+701:Seattle, WA -> 701:Los Angeles, CA 4
+701:Seattle, WA -> 701:Dallas, TX 2.5
+701:Seattle, WA -> 701:Atlanta, GA 2.5
+701:Seattle, WA -> 701:Toronto, Canada 3
+701:Seattle, WA -> 701:Santa Clara, CA 4
+701:Seattle, WA -> 701:Calgary, Canada 11.2525
+701:Seattle, WA -> 701:Saint Louis, MO 2.5
+701:San Francisco, CA -> 701:Santa Clara, CA 0.5
+701:San Francisco, CA -> 701:San Jose, CA 1
+701:San Francisco, CA -> 701:Sacramento, CA 1
+701:Tampa, FL -> 701:Orlando, FL 0.624491
+701:Saint Louis, MO -> 701:Salt Lake City, UT 2
+701:Saint Louis, MO -> 701:New York, NY 2
+701:Saint Louis, MO -> 701:Washington, DC 1.5
+701:Saint Louis, MO -> 701:Vancouver, Canada 12.42584
+701:Saint Louis, MO -> 701:Portland, OR 2.5
+701:Saint Louis, MO -> 701:Chicago, IL 1.5
+701:Saint Louis, MO -> 701:Los Angeles, CA 2.5
+701:Saint Louis, MO -> 701:Dallas, TX 2
+701:Saint Louis, MO -> 701:Atlanta, GA 2
+701:Saint Louis, MO -> 701:Santa Clara, CA 4.5
+701:Saint Louis, MO -> 701:Denver, CO 3
+701:Saint Louis, MO -> 701:Seattle, WA 2.5
+701:Saint Louis, MO -> 701:Memphis, TN 1.9331
+701:Saint Louis, MO -> 701:Calgary, Canada 11.5838
+701:Saint Louis, MO -> 701:Kansas City, MO 1
+701:San Diego, CA -> 701:Los Angeles, CA 0.930875
+701:Tyson Corner, VA -> 701:Washington, DC 1
+701:Tyson Corner, VA -> 701:Pittsburgh, PA 0.54074
+701:Tyson Corner, VA -> 701:Richmond, VA 2.47741
+701:Tyson Corner, VA -> 701:Philadelphia, PA 2.00741
+701:Indianapolis, ID -> 701:Dayton, OH 12.6039
+701:Indianapolis, ID -> 701:Chicago, IL 10.8521
+701:Indianapolis, ID -> 701:Columbus, OH 10.3521
+701:Houston, TX -> 701:Salt Lake City, UT 2.5
+701:Houston, TX -> 701:New York, NY 1.5
+701:Houston, TX -> 701:Washington, DC 2
+701:Houston, TX -> 701:Vancouver, Canada 10.92584
+701:Houston, TX -> 701:Portland, OR 2
+701:Houston, TX -> 701:Austin, TX 1.5
+701:Houston, TX -> 701:Sacramento, CA 2.5
+701:Houston, TX -> 701:Chicago, IL 2
+701:Houston, TX -> 701:Los Angeles, CA 3
+701:Houston, TX -> 701:Dallas, TX 1.5
+701:Houston, TX -> 701:Atlanta, GA 1.5
+701:Houston, TX -> 701:New Orleans, LA 2.63736
+701:Houston, TX -> 701:Santa Clara, CA 4
+701:Houston, TX -> 701:Seattle, WA 2
+701:Houston, TX -> 701:San Antonio, TX 2.53046
+701:Houston, TX -> 701:Calgary, Canada 10.2525
+701:Halifax, Canada -> 701:Montreal, Canada 3.93646
+701:Winnipeg, Canada -> 701:Calgary, Canada 6.01032
+701:Chicago, IL -> 701:Minneapolis, MN 2.85502
+701:Chicago, IL -> 701:Indianapolis, ID 10.8521
+701:Chicago, IL -> 701:Houston, TX 2
+701:Chicago, IL -> 701:New York, NY 1.5
+701:Chicago, IL -> 701:Washington, DC 2
+701:Chicago, IL -> 701:Vancouver, Canada 11.92584
+701:Chicago, IL -> 701:Portland, OR 2
+701:Chicago, IL -> 701:Cheyenne, WY 7.13002
+701:Chicago, IL -> 701:Sacramento, CA 3.5
+701:Chicago, IL -> 701:Montreal, Canada 8.49536
+701:Chicago, IL -> 701:Los Angeles, CA 3
+701:Chicago, IL -> 701:Dallas, TX 2.5
+701:Chicago, IL -> 701:Atlanta, GA 1.5
+701:Chicago, IL -> 701:Toronto, Canada 3
+701:Chicago, IL -> 701:Santa Clara, CA 4
+701:Chicago, IL -> 701:Cleveland, OH 2.47832
+701:Chicago, IL -> 701:St Louis, MO 2.09611
+701:Chicago, IL -> 701:Seattle, WA 3
+701:Chicago, IL -> 701:Detroit, MI 1.723898
+701:Chicago, IL -> 701:Calgary, Canada 11.2525
+701:Chicago, IL -> 701:Indianapolis, IN 1.85893
+701:Chicago, IL -> 701:Saint Louis, MO 1.5
+701:Chicago, IL -> 701:Columbus, OH 0.5
+701:Las Vegas, NV -> 701:Los Angeles, CA 1.85801
+701:San Antonio, TX -> 701:Houston, TX 2.53046
+701:San Antonio, TX -> 701:Dallas, TX 2.03046
+701:Indianapolis, IN -> 701:Dayton, OH 20.59707
+701:Indianapolis, IN -> 701:Roachdale, IN 0.276384
+701:Indianapolis, IN -> 701:Chicago, IL 1.85893
+701:Indianapolis, IN -> 701:Columbus, OH 1.35893
+701:Stockholm, Sweden -> 701:New York, NY 31.5490664881065

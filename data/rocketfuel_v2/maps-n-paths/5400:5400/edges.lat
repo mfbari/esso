@@ -1,0 +1,90 @@
+5400:Amsterdam, Netherlands -> 5400:Ashburn, VA 31.2427358333483
+5400:Amsterdam, Netherlands -> 5400:Brussels, Belgium 0.699743613611879
+5400:Amsterdam, Netherlands -> 5400:Dublin, Ireland 3.98095319078649
+5400:Amsterdam, Netherlands -> 5400:Frankfurt, Germany 1.55963394775673
+5400:Amsterdam, Netherlands -> 5400:London, UnitedKingdom 1.88532911009081
+5400:Amsterdam, Netherlands -> 5400:Madrid, Spain 7.26851105212116
+5400:Amsterdam, Netherlands -> 5400:San Francisco, CA 44.136156646504
+5400:Amsterdam, Netherlands -> 5400:Stockholm, Sweden 5.71029230615779
+5400:Ashburn, VA -> 5400:Amsterdam, Netherlands 31.2427358333483
+5400:Ashburn, VA -> 5400:Atlanta, GA 4.26986836312155
+5400:Ashburn, VA -> 5400:McLean, VA 0.147031412914132
+5400:Ashburn, VA -> 5400:New York, NY 1.75053383532763
+5400:Ashburn, VA -> 5400:San Francisco, CA 19.4275039892143
+5400:Ashburn, VA -> 5400:Washington, DC 0.225316255475169
+5400:Atlanta, GA -> 5400:Ashburn, VA 4.26986836312155
+5400:Brussels, Belgium -> 5400:Amsterdam, Netherlands 0.699743613611879
+5400:Budapest, Hungary -> 5400:London, UnitedKingdom 7.32607913912526
+5400:Chicago, IL -> 5400:New York, NY 5.72539765160039
+5400:Dublin, Ireland -> 5400:Amsterdam, Netherlands 3.98095319078649
+5400:Dublin, Ireland -> 5400:London, UnitedKingdom 2.329340820098
+5400:Frankfurt, Germany -> 5400:Amsterdam, Netherlands 1.55963394775673
+5400:Frankfurt, Germany -> 5400:London, UnitedKingdom 3.15804073417278
+5400:Frankfurt, Germany -> 5400:Madrid, Spain 7.15087408784109
+5400:Frankfurt, Germany -> 5400:Milan, Italy 2.52989648876757
+5400:Frankfurt, Germany -> 5400:Stockholm, Sweden 6.00851418900465
+5400:Frankfurt, Germany -> 5400:Vienna, Austria 3.00603025209055
+5400:Goonhilly, UnitedKingdom -> 5400:London, UnitedKingdom 0
+5400:Hayward, CA -> 5400:San Francisco, CA 0.215787514562012
+5400:Hong Kong -> 5400:Los Angeles, CA 58.1674895599584
+5400:Hong Kong -> 5400:Singapore 12.915469710535
+5400:Hong Kong -> 5400:Sydney, Australia 36.8321699099001
+5400:Hong Kong -> 5400:Tokyo, Japan 14.1254042821176
+5400:London, UnitedKingdom -> 5400:Amsterdam, Netherlands 1.88532911009081
+5400:London, UnitedKingdom -> 5400:Budapest, Hungary 7.32607913912526
+5400:London, UnitedKingdom -> 5400:Dublin, Ireland 2.329340820098
+5400:London, UnitedKingdom -> 5400:Frankfurt, Germany 3.15804073417278
+5400:London, UnitedKingdom -> 5400:Goonhilly, UnitedKingdom 0
+5400:London, UnitedKingdom -> 5400:Madley, UnitedKingdom 0.986217355641721
+5400:London, UnitedKingdom -> 5400:Madrid, Spain 6.31536032045267
+5400:London, UnitedKingdom -> 5400:Milan, Italy 4.78915796529137
+5400:London, UnitedKingdom -> 5400:New York, NY 27.8377559786444
+5400:London, UnitedKingdom -> 5400:Paris, France 1.71246693397065
+5400:London, UnitedKingdom -> 5400:Reading, UnitedKingdom 0.309936508320865
+5400:London, UnitedKingdom -> 5400:Stockholm, Sweden 7.14458851462163
+5400:London, UnitedKingdom -> 5400:Zurich, Switzerland 3.87862930965681
+5400:Los Angeles, CA -> 5400:Hong Kong 58.1674895599584
+5400:Los Angeles, CA -> 5400:San Francisco, CA 2.76945681575568
+5400:Los Angeles, CA -> 5400:Singapore 70.5016479724363
+5400:Los Angeles, CA -> 5400:Sydney, Australia 60.3095464758688
+5400:Los Angeles, CA -> 5400:Tokyo, Japan 44.3434837672523
+5400:Madley, UnitedKingdom -> 5400:London, UnitedKingdom 0.986217355641721
+5400:Madrid, Spain -> 5400:Amsterdam, Netherlands 7.26851105212116
+5400:Madrid, Spain -> 5400:Frankfurt, Germany 7.15087408784109
+5400:Madrid, Spain -> 5400:London, UnitedKingdom 6.31536032045267
+5400:McLean, VA -> 5400:Ashburn, VA 0.147031412914132
+5400:Milan, Italy -> 5400:Frankfurt, Germany 2.52989648876757
+5400:Milan, Italy -> 5400:London, UnitedKingdom 4.78915796529137
+5400:Milan, Italy -> 5400:Vienna, Austria 3.1163439446195
+5400:New York, NY -> 5400:Ashburn, VA 1.75053383532763
+5400:New York, NY -> 5400:Chicago, IL 5.72539765160039
+5400:New York, NY -> 5400:London, UnitedKingdom 27.8377559786444
+5400:New York, NY -> 5400:San Francisco, CA 20.6843954593898
+5400:Paris, France -> 5400:London, UnitedKingdom 1.71246693397065
+5400:Reading, UnitedKingdom -> 5400:London, UnitedKingdom 0.309936508320865
+5400:San Francisco, CA -> 5400:Amsterdam, Netherlands 44.136156646504
+5400:San Francisco, CA -> 5400:Ashburn, VA 19.4275039892143
+5400:San Francisco, CA -> 5400:Hayward, CA 0.215787514562012
+5400:San Francisco, CA -> 5400:Los Angeles, CA 2.76945681575568
+5400:San Francisco, CA -> 5400:New York, NY 20.6843954593898
+5400:San Francisco, CA -> 5400:San Jose, CA 0.381420811600469
+5400:San Francisco, CA -> 5400:Tokyo, Japan 41.6524449787285
+5400:San Jose, CA -> 5400:San Francisco, CA 0.381420811600469
+5400:Singapore -> 5400:Hong Kong 12.915469710535
+5400:Singapore -> 5400:Los Angeles, CA 70.5016479724363
+5400:Singapore -> 5400:Sydney, Australia 31.4685366546149
+5400:Singapore -> 5400:Tokyo, Japan 26.1900160757687
+5400:Stockholm, Sweden -> 5400:Amsterdam, Netherlands 5.71029230615779
+5400:Stockholm, Sweden -> 5400:Frankfurt, Germany 6.00851418900465
+5400:Stockholm, Sweden -> 5400:London, UnitedKingdom 7.14458851462163
+5400:Sydney, Australia -> 5400:Hong Kong 36.8321699099001
+5400:Sydney, Australia -> 5400:Los Angeles, CA 60.3095464758688
+5400:Sydney, Australia -> 5400:Singapore 31.4685366546149
+5400:Tokyo, Japan -> 5400:Hong Kong 14.1254042821176
+5400:Tokyo, Japan -> 5400:Los Angeles, CA 44.3434837672523
+5400:Tokyo, Japan -> 5400:San Francisco, CA 41.6524449787285
+5400:Tokyo, Japan -> 5400:Singapore 26.1900160757687
+5400:Vienna, Austria -> 5400:Frankfurt, Germany 3.00603025209055
+5400:Vienna, Austria -> 5400:Milan, Italy 3.1163439446195
+5400:Washington, DC -> 5400:Ashburn, VA 0.225316255475169
+5400:Zurich, Switzerland -> 5400:London, UnitedKingdom 3.87862930965681

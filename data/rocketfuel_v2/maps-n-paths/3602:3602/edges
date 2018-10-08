@@ -1,0 +1,30 @@
+3602:Calgary, Canada -> 3602:Chicago, IL 3112
+3602:Calgary, Canada -> 3602:Montreal, Canada 2
+3602:Calgary, Canada -> 3602:Toronto, Canada 381
+3602:Calgary, Canada -> 3602:Vancouver, Canada 46
+3602:Chicago, IL -> 3602:Calgary, Canada 3112
+3602:Chicago, IL -> 3602:Toronto, Canada 106
+3602:Montreal, Canada -> 3602:Calgary, Canada 2
+3602:Montreal, Canada -> 3602:New York, NY 282
+3602:Montreal, Canada -> 3602:Ottawa, Canada 32
+3602:Montreal, Canada -> 3602:Pennsauken, NJ 4598
+3602:Montreal, Canada -> 3602:Toronto, Canada 104
+3602:New York, NY -> 3602:Montreal, Canada 282
+3602:New York, NY -> 3602:Toronto, Canada 16112
+3602:New York, NY -> 3602:Vancouver, Canada 236
+3602:Ottawa, Canada -> 3602:Montreal, Canada 32
+3602:Pennsauken, NJ -> 3602:Montreal, Canada 4598
+3602:Seattle, WA -> 3602:Toronto, Canada 75
+3602:Seattle, WA -> 3602:Vancouver, Canada 2615
+3602:Toronto, Canada -> 3602:Calgary, Canada 381
+3602:Toronto, Canada -> 3602:Chicago, IL 106
+3602:Toronto, Canada -> 3602:Montreal, Canada 104
+3602:Toronto, Canada -> 3602:New York, NY 16112
+3602:Toronto, Canada -> 3602:Seattle, WA 75
+3602:Toronto, Canada -> 3602:Vancouver, Canada 27
+3602:Vancouver, Canada -> 3602:Calgary, Canada 46
+3602:Vancouver, Canada -> 3602:New York, NY 236
+3602:Vancouver, Canada -> 3602:Seattle, WA 2615
+3602:Vancouver, Canada -> 3602:Toronto, Canada 27
+3602:Vancouver, Canada -> 3602:Victoria, Canada 77
+3602:Victoria, Canada -> 3602:Vancouver, Canada 77

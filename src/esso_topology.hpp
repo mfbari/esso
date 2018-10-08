@@ -147,6 +147,8 @@ struct esso_co {
 
   void set_residual_cpu(const int server_id, const int cpu_count) {
     dynamic_pointer_cast<esso_server>(
+        intra_nodes.at(server_id))->cpu_capacity = cpu_count;
+    dynamic_pointer_cast<esso_server>(
         intra_nodes.at(server_id))->cpu_residual = cpu_count;
   }
 
@@ -181,25 +183,46 @@ struct esso_co {
   }
 
   double get_carbon_fp(int time_slot) const {
-    double brown_power{0.0};
+    double co_energy{0.0};
     for (const auto& node : intra_nodes) {
-        brown_power += node->get_power();
+        co_energy += node->get_power();
     }
     for (const auto& edge : intra_topo.edges()) {
       if (edge.consumed_bandwidth() > 0) {
         if (edge.consumed_bandwidth() <= 1000) {
-          brown_power += 0.0012; 
+          co_energy += 0.0012; 
         }
         else {
-          brown_power += 0.0043;
+          co_energy += 0.0043;
         }
       }
     }
-    brown_power = max(0.0, brown_power - green_residual[time_slot]);
-    return brown_power * carbon;
+    co_energy = max(0.0, co_energy - green_residual[time_slot]);
+    return co_energy * carbon;
   }
 
-  int add_server(int cpu_capacity = 16, double per_cpu_power = 0.165, 
+  double get_carbon_fp(int time_slot, 
+      double& brown_energy, double& green_energy) const {
+    double co_energy{0.0};
+    for (const auto& node : intra_nodes) {
+        co_energy += node->get_power();
+    }
+    for (const auto& edge : intra_topo.edges()) {
+      if (edge.consumed_bandwidth() > 0) {
+        if (edge.consumed_bandwidth() <= 1000) {
+          co_energy += 0.0012; 
+        }
+        else {
+          co_energy += 0.0043;
+        }
+      }
+    }
+    brown_energy = max(0.0, co_energy - green_residual[time_slot]);
+    green_energy = co_energy - brown_energy;
+    return brown_energy * carbon;
+  }
+
+  int add_server(int cpu_capacity = 640, double per_cpu_power = 0.165, 
                  double base_power = 0.0805, double sleep_power = 0.02415) {
     shared_ptr<esso_node> ptr = make_shared<esso_server>(intra_nodes.size(), 
         cpu_capacity, per_cpu_power, base_power, sleep_power);
@@ -224,13 +247,15 @@ struct esso_co {
     for (int i = 0; i < count; ++i) {
       int server_id = add_server();
       add_server_info(server_id);
-      add_intra_edge(switch_id, server_id, 1, 10000); //10Gbps link
+      add_intra_edge(switch_id, server_id, 1, 100000); //100Gbps link
     }
   }
 
   void compute_embedding_cost(const vector<int> cpu_reqs, 
     const int bandwidth, const int time_slot, 
     vector<vector<double>>& cost_matrix, vector<vector<int>>& node_matrix) {
+
+    //cerr << "esso_topo: bandwidth: " << bandwidth << endl;
 
     // cost_matrix is used to hold the cost of all partial 
     // allocations
@@ -262,7 +287,7 @@ struct esso_co {
         //embedding_found = true;
         // if the last node is not the border router then 
         // we have embedded at least one vnf, then the last
-        // server is out first candidate
+        // server is our first candidate
         vector<int> candidate_servers;
         if (last_node != border_router && 
             get_residual_cpu(last_node) >= cpu_reqs[j]) {
@@ -272,8 +297,16 @@ struct esso_co {
         copy_if(server_ids.begin(), server_ids.end(),
             back_inserter(candidate_servers), 
             [&] (int server_id) {
-                return get_residual_cpu(server_id) >= cpu_reqs[j];
+                return (get_residual_cpu(server_id) >= cpu_reqs[j]);
             });
+        /*
+        for (auto sid : server_ids) {
+          if (sid == last_node) continue;
+          if (get_residual_cpu(sid) >= cpu_reqs[j])
+            candidate_servers.push_back(sid);
+        }
+        */
+
         if (candidate_servers.empty()) {
           break;
         }
@@ -290,6 +323,7 @@ struct esso_co {
           intra_topo.shortest_path(cs, border_router, r_path, bandwidth);
           if (!r_path.is_valid()) continue;
           // embedding found
+          //cerr << f_path << endl << r_path << endl;
           server_id = cs;
           break;
         }
@@ -369,7 +403,7 @@ struct esso_topology {
     inter_co_topo.add_edge(u, v, latency, capacity);
   }
 
-  double get_backbone_carbon_fp(int time_slot) const {
+  double get_backbone_carbon_fp(int time_slot, double& brown_energy) const {
     double brown_power{0.0};
     for (const auto& edge : inter_co_topo.edges()) {
       if (edge.consumed_bandwidth() > 0) {
@@ -381,15 +415,25 @@ struct esso_topology {
         }
       }
     }
+    brown_energy = brown_power;
     return brown_power * carbon;
   }
 
-  double get_carbon_fp(int time_slot) {
-    double carbon_fp{0};
-    carbon_fp += get_backbone_carbon_fp(time_slot);
+  double get_carbon_fp(int time_slot, 
+      double& brown_energy, double& green_energy ) {
+    double carbon_fp{0}, be, ge;
+    brown_energy = 0;
+    green_energy = 0;
+    carbon_fp += get_backbone_carbon_fp(time_slot, be);
+    brown_energy += be;
+    //cerr << "b: " << carbon_fp << " ";
     for(const auto& c : cos) {
-      carbon_fp += c.get_carbon_fp(time_slot);
+      carbon_fp += c.get_carbon_fp(time_slot, be, ge);
+      brown_energy += be;
+      green_energy += ge;
+      //cerr << c.id << ": " << c.get_carbon_fp(time_slot) << " ";
     }
+    //cerr << endl;
     return carbon_fp;
   }
 };

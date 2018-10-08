@@ -7,6 +7,9 @@ import subprocess
 import shutil
 from timeit import default_timer as timer
 from collections import defaultdict
+import json
+import numpy as np
+from scipy import stats
 
 def int_or_float(s):
     try:
@@ -65,6 +68,9 @@ class EssoServer:
     def dec_cpu_count(self, val):
         self.data[EssoServer.cpu_idx] -= val
 
+    def inc_cpu_count(self, val):
+        self.data[EssoServer.cpu_idx] += val
+
     def __str__(self):
         return " ".join([str(x) for x in self.data])
 
@@ -75,13 +81,47 @@ class EssoEdge:
         self.data[EssoEdge.bw_idx] = int(self.data[EssoEdge.bw_idx])
 
     def dec_bandwidth(self, val):
+        assert(self.data[EssoEdge.bw_idx] >= val);
         self.data[EssoEdge.bw_idx] -= val
+
+    def inc_bandwidth(self, val):
+        self.data[EssoEdge.bw_idx] += val
 
     def __str__(self):
         return " ".join(str(x) for x in self.data)
 
+class SfcMapping:
+    def __init__(self, data):
+        data = [int_or_float(x) for x in data.split()]
+        self.code = data[0]
+        if self.code == 200:
+            self.vnf_count = data[5]
+            self.cpu_counts = data[6:6+self.vnf_count]
+            self.bandwidth = data[6+self.vnf_count]
+            self.emb_cost = data[8+self.vnf_count]
+            self.emb_servers = data[10+self.vnf_count:10+2*self.vnf_count]
+            paths_data = data[10+2*self.vnf_count:-1] 
+            self.path_stretch = 0
+            itr = iter(paths_data)
+            path_count = itr.next()
+            self.emb_paths = [[] for i in range(path_count)]
+            for p in range(path_count):
+                edge_count = itr.next()
+                self.path_stretch += edge_count
+                u = itr.next()
+                for e in range(edge_count - 1):
+                    v = itr.next()
+                    self.emb_paths[p].append((u, v))
+                    u = v
+            self.run_time = data[-3]
+            self.brown_energy = data[-2]
+            self.green_energy = data[-1]
+    def toJSON(self):
+        return json.dumps(self, default=lambda o: o.__dict__)
+
 vnf_flavor_to_cpu = {}
 sfcs = []
+sfc_mappings = []
 sfc_in = [set()]
 sfc_out = [set()]
 sfc_count = 0
@@ -89,30 +129,94 @@ timeslot_count = 0
 co_list = []
 node_list = []
 edge_list = []
-edge_dir = defaultdict(lambda: defaultdict(int))
+#edge_dir = defaultdict(lambda: defaultdict(int))
+edge_dir = {}
+carbon_fp = 0
+brown_energy = 0
+green_energy = 0
 
-def update_write_topology_file(t, mapping):
-    if mapping:
-        mv = [int_or_float(x) for x in mapping.split()]
-        if mv[0] == 200:
-            vc = mv[5]
-            cpus = mv[6:6+vc]
-            servers = mv[10+vc:10+2*vc]
-            bw = mv[6+vc]
-            paths_data = mv[10+2*vc:]
-            for i in range(vc):
-                node_list[servers[i]].dec_cpu_count(cpus[i])
-            itr = iter(paths_data)
-            path_count = itr.next()
-            for p in range(path_count):
-                edge_count = itr.next()
-                u = itr.next()
-                for e in range(edge_count-1):
-                    v = itr.next()
-                    edge_list[edge_dir[u][v]].dec_bandwidth(bw)
-                    u = v
+def allocate_resource(sfc_id):
+    global node_list
+    global edge_list
+    global edge_dir
+    global carbon_fp
+    global brown_energy
+    global green_energy
+    sfc_map = sfc_mappings[sfc_id]
+    if sfc_map:
+        for i in range(sfc_map.vnf_count):
+            node_list[sfc_map.emb_servers[i]].dec_cpu_count(
+                    sfc_map.cpu_counts[i])
+        for path in sfc_map.emb_paths:
+            for (u, v) in path:
+                if u != v:
+                    str_u, str_v = str(u), str(v)
+                    edge_list[edge_dir[str_u][str_v]].dec_bandwidth(
+                            sfc_map.bandwidth)
+        carbon_fp += sfc_map.emb_cost
+        brown_energy += sfc_map.brown_energy
+        green_energy += sfc_map.green_energy
+    #else:
+        #print "ERROR: failed to find sfc", sfc_id, "mapping"
 
-    with open('res_topology_'+str(t)+'.dat', 'w') as f:
+def release_resource(sfc_id):
+    global node_list
+    global edge_list
+    global edge_dir
+    global carbon_fp
+    global brown_energy
+    global green_energy
+    sfc_map = sfc_mappings[sfc_id]
+    if sfc_map:
+        for i in range(sfc_map.vnf_count):
+            node_list[sfc_map.emb_servers[i]].inc_cpu_count(
+                    sfc_map.cpu_counts[i])
+        for path in sfc_map.emb_paths:
+            for (u, v) in path:
+                if u != v:
+                    str_u, str_v = str(u), str(v)
+                    edge_list[edge_dir[str_u][str_v]].inc_bandwidth(
+                            sfc_map.bandwidth)
+        carbon_fp -= sfc_map.emb_cost
+        brown_energy -= sfc_map.brown_energy
+        green_energy -= sfc_map.green_energy
+    #else:
+        #print "ERROR: failed to find sfc", sfc_id, "mapping"
+
+def update_write_topology_file():
+    global co_list
+    global node_list
+    global edge_dir
+    global edge_list
+
+    #if mapping:
+    #    m = SfcMapping(mapping)
+    #    print m.toJSON()
+    #    mv = [int_or_float(x) for x in mapping.split()]
+    #    if mv[0] == 200:
+    #        vc = mv[5]
+    #        cpus = mv[6:6+vc]
+    #        servers = mv[10+vc:10+2*vc]
+    #        bw = mv[6+vc]
+    #        paths_data = mv[10+2*vc:]
+    #        for i in range(vc):
+    #            node_list[servers[i]].dec_cpu_count(cpus[i])
+    #        itr = iter(paths_data)
+    #        path_count = itr.next()
+    #        for p in range(path_count):
+    #            edge_count = itr.next()
+    #            u = itr.next()
+    #            for e in range(edge_count-1):
+    #                v = itr.next()
+    #                print u, v
+    #                if u != v:
+    #                    str_u, str_v = str(u), str(v)
+    #                    edge_list[edge_dir[str_u][str_v]].dec_bandwidth(bw)
+    #                u = v
+    #        ms_time = itr.next()
+    #        print 'emb time: ', ms_time
+
+    with open('res_topology.dat', 'w') as f:
         f.write(str(len(co_list)) + '\n')
         for co in co_list:
             f.write(str(co) + '\n')
@@ -123,6 +227,10 @@ def update_write_topology_file(t, mapping):
             f.write(str(edge) + '\n')
 
 def read_topology_file(dataset_path):
+    global co_list
+    global node_list
+    global edge_dir
+    global edge_list
     with open(os.path.join(dataset_path, 'init_topology.dat')) as f:
         co_count = int(f.readline())
         for c in range(co_count):
@@ -140,6 +248,8 @@ def read_topology_file(dataset_path):
             line = f.readline()
             values = line.split()
             u, v = values[1:3]
+            if u not in edge_dir:
+                edge_dir[u] = {}
             edge_dir[u][v] = len(edge_list)
             edge_list.append(EssoEdge(line))
 
@@ -161,8 +271,11 @@ def read_timeslots_file(dataset_path):
     global timeslot_count
     global sfc_in
     global sfc_out
+    global sfcs
+    global sfc_mappings
     with open(os.path.join(dataset_path, "timeslots.dat")) as f:
         sfc_count = int(f.readline())
+        sfc_mappings = [None] * sfc_count
         timeslot_count = int(f.readline())
         sfc_in = [set() for t in range(timeslot_count)]
         sfc_out = [set() for t in range(timeslot_count)]
@@ -233,7 +346,7 @@ if __name__ == '__main__':
     # create run directory
     try:
         os.mkdir(run_path)
-    except OSError:
+    except OSError as e:
         pass
 
     # copy data files to the run folder
@@ -261,27 +374,47 @@ if __name__ == '__main__':
     # change path to the run folder
     cdir = os.getcwd()
     os.chdir(run_path)
-    update_write_topology_file(0, None)
+    topo_filename = 'res_topology.dat'
+    carbon_fp = 0
+    embed_sfc_count = 0
+    prced_sfc_count = 0
+    running_times = []
     for t in range(timeslot_count):
         x_sfcs = x_sfcs.difference(sfc_out[t])
         # x_sfcs represent alive sfcs that arrived between [0,t)
         # --- --- start code for simulation
-        print "timeslot:", t, "n_sfc:", list(sfc_in[t]), "x_sfc:", list(x_sfcs)
+        #print "timeslot:", t, "n_sfc:", list(sfc_in[t]), "x_sfc:", list(x_sfcs)
+
+
+        # to store the path stretch
+        path_stretches = []
+        # to count migrations
+        migration_count = 0
+
+        # release resource for expired sfcs
+        for s in sfc_out[t]:
+            release_resource(s)
+        update_write_topology_file()
+  
+        print t, round(carbon_fp, 3), round(brown_energy, 3), \
+                round(green_energy, 3),
+
+        ########################################
         # write files for cplex/heuristic code
-        n_sfc_filename = 'n_sfc_t' + str(t)
-        with open(n_sfc_filename, 'w') as f:
-            f.write(str(len(sfc_in[t])) + "\n")
-            for s in sfc_in[t]:
-                f.write(str(sfcs[s]) + "\n")
-        x_sfc_filename = 'x_sfc_t' + str(t)
-        with open(x_sfc_filename, 'w') as f:
-            f.write(str(len(x_sfcs)) + "\n")
-            for s in x_sfcs:
-                f.write(str(sfcs[s]) + "\n")
+        #n_sfc_filename = 'n_sfc_t' + str(t)
+        #with open(n_sfc_filename, 'w') as f:
+        #    f.write(str(len(sfc_in[t])) + "\n")
+        #    for s in sfc_in[t]:
+        #        f.write(str(sfcs[s]) + "\n")
+        #x_sfc_filename = 'x_sfc_t' + str(t)
+        #with open(x_sfc_filename, 'w') as f:
+        #    f.write(str(len(x_sfcs)) + "\n")
+        #    for s in x_sfcs:
+        #        f.write(str(sfcs[s]) + "\n")
+        ########################################        
         # invoke cplex/heuristic code if not dryrun
         if not args.dryrun:
             with open('run.log', 'w') as exe_log:
-                topo_filename = 'res_topology_' + str(t) + '.dat'
                 if args.cplex:
                     exe_path = './' + executable + ' ' + \
                             topo_filename + ' paths.dat'
@@ -296,6 +429,8 @@ if __name__ == '__main__':
                 ts_sfcs = list(sfc_in[t])
                 ts_sfcs.extend(list(x_sfcs))
                 for s in ts_sfcs:
+                    if s in sfc_in[t]:
+                        prced_sfc_count += 1
                     exe_proc = subprocess.Popen(exe_path, shell=True,
                             stdout=subprocess.PIPE,
                             stdin=subprocess.PIPE,
@@ -313,17 +448,45 @@ if __name__ == '__main__':
                     #print mapping.strip()
                     mapping_values = [int_or_float(x) for x in mapping.split()]
                     if mapping_values[0] == 200:
-                        sfcs[s].curr_emb_cost = mapping_values[8+mapping_values[5]]
+                        smp = SfcMapping(mapping)
+                        sfcs[s].curr_emb_cost = smp.emb_cost
+                        running_times.append(smp.run_time)
+                        if s in sfc_in[t]: # new sfc
+                            embed_sfc_count += 1
+                            path_stretches.append(smp.path_stretch)
+                        if s in x_sfcs: # migration
+                            migration_count += 1
+                            release_resource(s)
+                        sfc_mappings[s] = smp
+                        allocate_resource(s)
                     exe_proc.stdin.close()
-                    print mapping.strip()
+                    #print mapping.strip()
                     if exe_proc.wait() != 0:
                         print 'failed to execute code'
                         exit()
-                    update_write_topology_file(t+1, mapping)
+                    update_write_topology_file()
+                    #print embed_sfc_count, '/', prced_sfc_count, \
+                    #        '/', sfc_count
                 #print "took", (timer()-start), "sec."
         # end of cplex/heuristic code execution
+        print embed_sfc_count*100.0/prced_sfc_count
+        # print migration count and path stretch stat
+        print t, migration_count, 
+        if path_stretches:
+            print min(path_stretches), np.percentile(path_stretches, 5), \
+                    np.mean(path_stretches), \
+                    np.percentile(path_stretches, 95), max(path_stretches)
+        else:
+            print "0 0 0 0 0"
         x_sfcs = x_sfcs.union(sfc_in[t])
+        #if t == 1: break
         # --- --- end code for simulation
+
+    # print stat data
+    print min(running_times), np.percentile(running_times, 5), \
+            np.mean(running_times), np.median(running_times), \
+            stats.mode(running_times)[0][0], \
+            np.percentile(running_times, 95), max(running_times)
 
     # change pwd to esso/src
     os.chdir(cdir)

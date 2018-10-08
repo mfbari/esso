@@ -29,9 +29,9 @@ def get_timeslot_index(ts, slot_width):
 def generate_traffic_matrix():
     parser = argparse.ArgumentParser(formatter_class=argparse.ArgumentDefaultsHelpFormatter)
     parser.add_argument("--as_no", type = str, required = True)
-    parser.add_argument('--arrival_rate', type=float, default=0.04)
-    parser.add_argument('--max_simulation_time', type=int, default=1000)
-    parser.add_argument('--sfc_lifetime', type=int, default=100)
+    parser.add_argument('--arrival_rate', type=float, default=0.003) # 10 sfc per hour
+    parser.add_argument('--max_simulation_time', type=int, default=86400) # 24 hour
+    parser.add_argument('--sfc_lifetime', type=int, default=5400) # 1 hour 30 minute
     parser.add_argument('--num_time_slots', type=int, default=24)
 
     args = parser.parse_args()
@@ -51,17 +51,17 @@ def generate_traffic_matrix():
     sources = random.sample(range(0, len(co_topology.nodes()) - 1), len(co_topology.nodes())/2)
     destinations = random.sample(range(0, len(co_topology.nodes()) - 1), len(co_topology.nodes())/2)
     topology = fnss.Topology(co_topology)
-    fnss.set_capacities_constant(topology, 40000, 'Mbps')
+    fnss.set_capacities_constant(topology, 10000, 'Mbps')
     tmc = fnss.sin_cyclostationary_traffic_matrix(
            topology, 
-           mean=0.5, # average flow in TM is 0,5 Gbps 
-           stddev=0.9, # this is the std among average flows of different OD pairs 
+           mean=0.1, # average flow in TM is 100 Mbps 
+           stddev=0.03, # this is the std among average flows of different OD pairs 
            gamma=0.8,     # gamma and log_psi are parameters for fitting the std of 
-           log_psi=-0.33, # volume fluctuations over time. Look at Nucci et al. paper
+           log_psi=-0.033, # volume fluctuations over time. Look at Nucci et al. paper
            delta=0.2, # traffic variation from period max and avg as fraction of average
            n=1, # number of samples per each period
            periods=args.num_time_slots, # number of periods
-           max_u=0.70, # max link utilization desired 
+           max_u=0.50, # max link utilization desired 
            origin_nodes=sources, 
            destination_nodes=destinations)
     flow_id = 0
@@ -86,7 +86,7 @@ def generate_traffic_matrix():
         flow["dst"] = destination
         flow["bw"] = int(round(traffic, 0))
         flow["mbox_seq"] = mbox_seq
-        flow["delay"] = 35
+        flow["delay"] = int(round(random.uniform(1000, 2000), 0))
         all_flows.append(flow)
         flow_id += 1 
     # traffic_file.write(str(current_time) + "," + str(source) + "," +

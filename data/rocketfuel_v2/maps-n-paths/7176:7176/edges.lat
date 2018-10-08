@@ -1,0 +1,34 @@
+7176:Amsterdam, Netherlands -> 7176:Brussels, Belgium 0.699743613611879
+7176:Amsterdam, Netherlands -> 7176:Frankfurt, Germany 1.55963394775673
+7176:Brussels, Belgium -> 7176:Amsterdam, Netherlands 0.699743613611879
+7176:Brussels, Belgium -> 7176:London, UnitedKingdom 1.59576807051388
+7176:Brussels, Belgium -> 7176:Manchester, UnitedKingdom 2.6721507092671
+7176:Copenhagen, Denmark -> 7176:Stockholm, Sweden 2.62276937481765
+7176:Dublin, Ireland -> 7176:London, UnitedKingdom 2.329340820098
+7176:Dusseldorf, Germany -> 7176:Frankfurt, Germany 0.944468343206374
+7176:Frankfurt, Germany -> 7176:Amsterdam, Netherlands 1.55963394775673
+7176:Frankfurt, Germany -> 7176:Dusseldorf, Germany 0.944468343206374
+7176:Frankfurt, Germany -> 7176:Milan, Italy 2.52989648876757
+7176:Frankfurt, Germany -> 7176:Paris, France 2.34012884016252
+7176:Frankfurt, Germany -> 7176:Stockholm, Sweden 6.00851418900465
+7176:Hong Kong -> 7176:Tokyo, Japan 14.1254042821176
+7176:London, UnitedKingdom -> 7176:Brussels, Belgium 1.59576807051388
+7176:London, UnitedKingdom -> 7176:Dublin, Ireland 2.329340820098
+7176:London, UnitedKingdom -> 7176:Manchester, UnitedKingdom 1.30596358165561
+7176:London, UnitedKingdom -> 7176:Paris, France 1.71246693397065
+7176:London, UnitedKingdom -> 7176:Reading, UnitedKingdom 0.309936508320865
+7176:Madrid, Spain -> 7176:Paris, France 5.25377044095577
+7176:Manchester, UnitedKingdom -> 7176:Brussels, Belgium 2.6721507092671
+7176:Manchester, UnitedKingdom -> 7176:London, UnitedKingdom 1.30596358165561
+7176:Manchester, UnitedKingdom -> 7176:Reading, UnitedKingdom 1.18301385626054
+7176:Milan, Italy -> 7176:Frankfurt, Germany 2.52989648876757
+7176:Paris, France -> 7176:Frankfurt, Germany 2.34012884016252
+7176:Paris, France -> 7176:London, UnitedKingdom 1.71246693397065
+7176:Paris, France -> 7176:Madrid, Spain 5.25377044095577
+7176:Reading, UnitedKingdom -> 7176:London, UnitedKingdom 0.309936508320865
+7176:Reading, UnitedKingdom -> 7176:Manchester, UnitedKingdom 1.18301385626054
+7176:Rio de Janeiro, Brazil -> 7176:Sao Paolo, Brazil 1.76305872730283
+7176:Sao Paolo, Brazil -> 7176:Rio de Janeiro, Brazil 1.76305872730283
+7176:Stockholm, Sweden -> 7176:Copenhagen, Denmark 2.62276937481765
+7176:Stockholm, Sweden -> 7176:Frankfurt, Germany 6.00851418900465
+7176:Tokyo, Japan -> 7176:Hong Kong 14.1254042821176

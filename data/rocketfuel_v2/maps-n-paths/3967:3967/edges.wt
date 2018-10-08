@@ -1,0 +1,12 @@
+3967:Sunnyvale, CA -> 3967:Santa Clara, CA 0.0288213
+3967:Irvine, CA -> 3967:El Segundo, CA 0.302952
+3967:El Segundo, CA -> 3967:Irvine, CA 0.302952
+3967:El Segundo, CA -> 3967:Santa Clara, CA 2.49858
+3967:New York, NY -> 3967:Santa Clara, CA 20.527
+3967:Santa Clara, CA -> 3967:Palo Alto, CA 0.092685
+3967:Santa Clara, CA -> 3967:Sunnyvale, CA 0.0288213
+3967:Santa Clara, CA -> 3967:El Segundo, CA 2.49858
+3967:Santa Clara, CA -> 3967:San Jose, CA 0.0331658
+3967:Santa Clara, CA -> 3967:New York, NY 20.527
+3967:San Jose, CA -> 3967:Santa Clara, CA 0.0331658
+3967:Palo Alto, CA -> 3967:Santa Clara, CA 0.092685

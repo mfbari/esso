@@ -1,0 +1,26 @@
+6539:Calgary, Canada -> 6539:Toronto, Canada 13.5517615742068
+6539:Calgary, Canada -> 6539:Vancouver, Canada 3.36227637339117
+6539:Halifax, Canada -> 6539:Montreal, Canada 3.93645550738428
+6539:Halifax, Canada -> 6539:Saint Johns, Canada 6.29862701371149
+6539:Halifax, Canada -> 6539:Seattle, WA 22.1336957710203
+6539:Halifax, Canada -> 6539:Toronto, Canada 6.29862701371149
+6539:Halifax, Canada -> 6539:Vancouver, Canada 22.1266951275386
+6539:Montreal, Canada -> 6539:Halifax, Canada 3.93645550738428
+6539:Montreal, Canada -> 6539:Saint Johns, Canada 2.51034994506104
+6539:Montreal, Canada -> 6539:Seattle, WA 18.3654269062992
+6539:Montreal, Canada -> 6539:Toronto, Canada 2.51034994506104
+6539:Montreal, Canada -> 6539:Vancouver, Canada 18.4211910947875
+6539:Saint Johns, Canada -> 6539:Halifax, Canada 6.29862701371149
+6539:Saint Johns, Canada -> 6539:Montreal, Canada 2.51034994506104
+6539:Seattle, WA -> 6539:Halifax, Canada 22.1336957710203
+6539:Seattle, WA -> 6539:Montreal, Canada 18.3654269062992
+6539:Seattle, WA -> 6539:Vancouver, Canada 0.959333136541764
+6539:Toronto, Canada -> 6539:Calgary, Canada 13.5517615742068
+6539:Toronto, Canada -> 6539:Halifax, Canada 6.29862701371149
+6539:Toronto, Canada -> 6539:Montreal, Canada 2.51034994506104
+6539:Toronto, Canada -> 6539:Vancouver, Canada 16.786157343387
+6539:Vancouver, Canada -> 6539:Calgary, Canada 3.36227637339117
+6539:Vancouver, Canada -> 6539:Halifax, Canada 22.1266951275386
+6539:Vancouver, Canada -> 6539:Montreal, Canada 18.4211910947875
+6539:Vancouver, Canada -> 6539:Seattle, WA 0.959333136541764
+6539:Vancouver, Canada -> 6539:Toronto, Canada 16.786157343387

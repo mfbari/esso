@@ -1,0 +1,88 @@
+7911:Herndon, VA -> 7911:Washington, DC 1
+7911:Herndon, VA -> 7911:Relay, MD 1.5
+7911:Herndon, VA -> 7911:Doraville, GA 4.17484
+7911:Herndon, VA -> 7911:Dallas, TX 7.99042
+7911:Herndon, VA -> 7911:New York, NY 0.5
+7911:Herndon, VA -> 7911:Ashburn, VA 0.0621431
+7911:Herndon, VA -> 7911:Anaheim, CA 8.49042
+7911:Doraville, GA -> 7911:Washington, DC 5.17484
+7911:Doraville, GA -> 7911:Relay, MD 4.67484
+7911:Doraville, GA -> 7911:Dallas, TX 5.81558
+7911:Doraville, GA -> 7911:Chicago, IL 6.31558
+7911:Doraville, GA -> 7911:Herndon, VA 4.17484
+7911:Doraville, GA -> 7911:Atlanta, GA 1
+7911:Doraville, GA -> 7911:Miami, FL 4.08868
+7911:Miami, FL -> 7911:Doraville, GA 4.08868
+7911:Miami, FL -> 7911:Dallas, TX 8.90426
+7911:New York, NY -> 7911:Cleveland, OH 6.5121
+7911:New York, NY -> 7911:Chicago, IL 7.99042
+7911:New York, NY -> 7911:London, UnitedKingdom 27.8378
+7911:New York, NY -> 7911:Herndon, VA 0.5
+7911:Phoenix, AZ -> 7911:Anaheim, CA 2.7081
+7911:Seattle, WA -> 7911:Chicago, IL 5.96426
+7911:Seattle, WA -> 7911:San Francisco, CA 5.46426
+7911:Seattle, WA -> 7911:Santa Clara, CA 5.96426
+7911:Houston, TX -> 7911:Dallas, TX 1.79734
+7911:San Jose, CA -> 7911:San Francisco, CA 2.14832
+7911:San Jose, CA -> 7911:Anaheim, CA 2.64832
+7911:Chicago, IL -> 7911:Tulsa, OK 4.79079
+7911:Chicago, IL -> 7911:Broadview, IL 0.0842842
+7911:Chicago, IL -> 7911:Topeka, KS 3.73222
+7911:Chicago, IL -> 7911:Atlanta, GA 6.31558
+7911:Chicago, IL -> 7911:San Francisco, CA 1.5
+7911:Chicago, IL -> 7911:Seattle, WA 5.96426
+7911:Chicago, IL -> 7911:Doraville, GA 6.31558
+7911:Chicago, IL -> 7911:Cleveland, OH 2.47832
+7911:Chicago, IL -> 7911:Dallas, TX 1.5
+7911:Chicago, IL -> 7911:New York, NY 7.99042
+7911:Chicago, IL -> 7911:Santa Clara, CA 2
+7911:Anaheim, CA -> 7911:El Paso, TX 5.10764
+7911:Anaheim, CA -> 7911:San Jose, CA 2.64832
+7911:Anaheim, CA -> 7911:Herndon, VA 8.49042
+7911:Anaheim, CA -> 7911:San Francisco, CA 1.5
+7911:Anaheim, CA -> 7911:Dallas, TX 1.5
+7911:Anaheim, CA -> 7911:Phoenix, AZ 2.7081
+7911:Anaheim, CA -> 7911:Los Angeles, CA 0.268084
+7911:Anaheim, CA -> 7911:Santa Clara, CA 2
+7911:Relay, MD -> 7911:Washington, DC 1.5
+7911:Relay, MD -> 7911:Doraville, GA 4.67484
+7911:Relay, MD -> 7911:Dallas, TX 9.49042
+7911:Relay, MD -> 7911:Herndon, VA 1.5
+7911:Broadview, IL -> 7911:Chicago, IL 0.0842842
+7911:London, UnitedKingdom -> 7911:New York, NY 27.8378
+7911:San Francisco, CA -> 7911:Seattle, WA 5.46426
+7911:San Francisco, CA -> 7911:San Jose, CA 2.14832
+7911:San Francisco, CA -> 7911:Chicago, IL 1.5
+7911:San Francisco, CA -> 7911:Santa Clara, CA 0.5
+7911:San Francisco, CA -> 7911:Palo Alto, CA 0.261255
+7911:San Francisco, CA -> 7911:Anaheim, CA 1.5
+7911:Cleveland, OH -> 7911:Chicago, IL 2.47832
+7911:Cleveland, OH -> 7911:New York, NY 6.5121
+7911:Santa Clara, CA -> 7911:Seattle, WA 5.96426
+7911:Santa Clara, CA -> 7911:Chicago, IL 2
+7911:Santa Clara, CA -> 7911:San Francisco, CA 0.5
+7911:Santa Clara, CA -> 7911:Anaheim, CA 2
+7911:El Paso, TX -> 7911:Dallas, TX 4.60764
+7911:El Paso, TX -> 7911:Anaheim, CA 5.10764
+7911:Tulsa, OK -> 7911:Dallas, TX 4.29079
+7911:Tulsa, OK -> 7911:Chicago, IL 4.79079
+7911:Palo Alto, CA -> 7911:San Francisco, CA 0.261255
+7911:Dallas, TX -> 7911:Washington, DC 8.99042
+7911:Dallas, TX -> 7911:Relay, MD 9.49042
+7911:Dallas, TX -> 7911:Houston, TX 1.79734
+7911:Dallas, TX -> 7911:El Paso, TX 4.60764
+7911:Dallas, TX -> 7911:Tulsa, OK 4.29079
+7911:Dallas, TX -> 7911:Chicago, IL 1.5
+7911:Dallas, TX -> 7911:Herndon, VA 7.99042
+7911:Dallas, TX -> 7911:Miami, FL 8.90426
+7911:Dallas, TX -> 7911:Doraville, GA 5.81558
+7911:Dallas, TX -> 7911:Anaheim, CA 1.5
+7911:Washington, DC -> 7911:Relay, MD 1.5
+7911:Washington, DC -> 7911:Doraville, GA 5.17484
+7911:Washington, DC -> 7911:Dallas, TX 8.99042
+7911:Washington, DC -> 7911:Herndon, VA 1
+7911:Los Angeles, CA -> 7911:Anaheim, CA 0.268084
+7911:Topeka, KS -> 7911:Chicago, IL 3.73222
+7911:Ashburn, VA -> 7911:Herndon, VA 0.0621431
+7911:Atlanta, GA -> 7911:Doraville, GA 1
+7911:Atlanta, GA -> 7911:Chicago, IL 6.31558

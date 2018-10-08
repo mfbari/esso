@@ -1,0 +1,100 @@
+5511:Amsterdam, Netherlands -> 5511:Brussels, Belgium 832
+5511:Amsterdam, Netherlands -> 5511:Frankfurt, Germany 26852
+5511:Amsterdam, Netherlands -> 5511:New York, NY 30729
+5511:Ashburn, VA -> 5511:Herndon, VA 45
+5511:Ashburn, VA -> 5511:New York, NY 63224
+5511:Athens, Greece -> 5511:Paris, France 1019
+5511:Atlanta, GA -> 5511:Miami, FL 14286
+5511:Atlanta, GA -> 5511:Oak Hill, VA 16967
+5511:Aubervilliers, France -> 5511:Paris, France 2660
+5511:Barcelona, Spain -> 5511:Paris, France 1445
+5511:Brussels, Belgium -> 5511:Amsterdam, Netherlands 832
+5511:Brussels, Belgium -> 5511:London, UnitedKingdom 1612
+5511:Caracas, Venezuela -> 5511:New York, NY 2647
+5511:Chicago, IL -> 5511:Dallas, TX 435
+5511:Chicago, IL -> 5511:New York, NY 13163
+5511:Chicago, IL -> 5511:Seattle, WA 110
+5511:Copenhagen, Denmark -> 5511:Frankfurt, Germany 22417
+5511:Copenhagen, Denmark -> 5511:Stockholm, Sweden 22359
+5511:Dallas, TX -> 5511:Chicago, IL 435
+5511:Dallas, TX -> 5511:Miami, FL 7210
+5511:Dallas, TX -> 5511:San Jose, CA 7642
+5511:Frankfurt, Germany -> 5511:Amsterdam, Netherlands 26852
+5511:Frankfurt, Germany -> 5511:Copenhagen, Denmark 22417
+5511:Frankfurt, Germany -> 5511:Paris, France 3684
+5511:Frankfurt, Germany -> 5511:Zurich, Switzerland 62
+5511:Geneva, Switzerland -> 5511:Paris, France 3067
+5511:Geneva, Switzerland -> 5511:Zurich, Switzerland 62
+5511:Herndon, VA -> 5511:Ashburn, VA 45
+5511:Hong Kong -> 5511:San Jose, CA 6586
+5511:Hong Kong -> 5511:Singapore 1300
+5511:Hong Kong -> 5511:Tokyo, Japan 11
+5511:Lamentin, Martinique -> 5511:Miami, FL 6106
+5511:Lisbon, Portugal -> 5511:Paris, France 2041
+5511:London, UnitedKingdom -> 5511:Brussels, Belgium 1612
+5511:London, UnitedKingdom -> 5511:Milan, Italy 457
+5511:London, UnitedKingdom -> 5511:New York, NY 16645
+5511:London, UnitedKingdom -> 5511:Paris, France 1075
+5511:London, UnitedKingdom -> 5511:Prague, CzechRepublic 123
+5511:London, UnitedKingdom -> 5511:Singapore 2
+5511:Madrid, Spain -> 5511:Paris, France 6456
+5511:Miami, FL -> 5511:Atlanta, GA 14286
+5511:Miami, FL -> 5511:Dallas, TX 7210
+5511:Miami, FL -> 5511:Lamentin, Martinique 6106
+5511:Milan, Italy -> 5511:London, UnitedKingdom 457
+5511:Milan, Italy -> 5511:Paris, France 193
+5511:New York, NY -> 5511:Amsterdam, Netherlands 30729
+5511:New York, NY -> 5511:Ashburn, VA 63224
+5511:New York, NY -> 5511:Caracas, Venezuela 2647
+5511:New York, NY -> 5511:Chicago, IL 13163
+5511:New York, NY -> 5511:London, UnitedKingdom 16645
+5511:New York, NY -> 5511:Oak Hill, VA 18908
+5511:New York, NY -> 5511:Paris, France 93188
+5511:New York, NY -> 5511:San Jose, CA 67689
+5511:New York, NY -> 5511:Washington, DC 3216
+5511:Oak Hill, VA -> 5511:Atlanta, GA 16967
+5511:Oak Hill, VA -> 5511:New York, NY 18908
+5511:Oak Hill, VA -> 5511:Pennsauken, NJ 153
+5511:Oak Hill, VA -> 5511:Washington, DC 687
+5511:Oslo, Norway -> 5511:Stockholm, Sweden 757
+5511:Palo Alto, CA -> 5511:San Jose, CA 20376
+5511:Palo Alto, CA -> 5511:Stockton, CA 2206
+5511:Paris, France -> 5511:Athens, Greece 1019
+5511:Paris, France -> 5511:Aubervilliers, France 2660
+5511:Paris, France -> 5511:Barcelona, Spain 1445
+5511:Paris, France -> 5511:Frankfurt, Germany 3684
+5511:Paris, France -> 5511:Geneva, Switzerland 3067
+5511:Paris, France -> 5511:Lisbon, Portugal 2041
+5511:Paris, France -> 5511:London, UnitedKingdom 1075
+5511:Paris, France -> 5511:Madrid, Spain 6456
+5511:Paris, France -> 5511:Milan, Italy 193
+5511:Paris, France -> 5511:New York, NY 93188
+5511:Paris, France -> 5511:Prague, CzechRepublic 12
+5511:Paris, France -> 5511:Singapore 526
+5511:Paris, France -> 5511:Stockholm, Sweden 1632
+5511:Pennsauken, NJ -> 5511:Oak Hill, VA 153
+5511:Pennsauken, NJ -> 5511:Washington, DC 36
+5511:Prague, CzechRepublic -> 5511:London, UnitedKingdom 123
+5511:Prague, CzechRepublic -> 5511:Paris, France 12
+5511:San Jose, CA -> 5511:Dallas, TX 7642
+5511:San Jose, CA -> 5511:Hong Kong 6586
+5511:San Jose, CA -> 5511:New York, NY 67689
+5511:San Jose, CA -> 5511:Palo Alto, CA 20376
+5511:San Jose, CA -> 5511:Seattle, WA 108
+5511:San Jose, CA -> 5511:Tokyo, Japan 3708
+5511:Seattle, WA -> 5511:Chicago, IL 110
+5511:Seattle, WA -> 5511:San Jose, CA 108
+5511:Singapore -> 5511:Hong Kong 1300
+5511:Singapore -> 5511:London, UnitedKingdom 2
+5511:Singapore -> 5511:Paris, France 526
+5511:Stockholm, Sweden -> 5511:Copenhagen, Denmark 22359
+5511:Stockholm, Sweden -> 5511:Oslo, Norway 757
+5511:Stockholm, Sweden -> 5511:Paris, France 1632
+5511:Stockton, CA -> 5511:Palo Alto, CA 2206
+5511:Tokyo, Japan -> 5511:Hong Kong 11
+5511:Tokyo, Japan -> 5511:San Jose, CA 3708
+5511:Washington, DC -> 5511:New York, NY 3216
+5511:Washington, DC -> 5511:Oak Hill, VA 687
+5511:Washington, DC -> 5511:Pennsauken, NJ 36
+5511:Zurich, Switzerland -> 5511:Frankfurt, Germany 62
+5511:Zurich, Switzerland -> 5511:Geneva, Switzerland 62

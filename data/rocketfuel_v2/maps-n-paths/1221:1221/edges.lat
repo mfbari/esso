@@ -1,0 +1,88 @@
+1221:Adelaide, Australia -> 1221:Darwin, Australia 13.0551821715223
+1221:Adelaide, Australia -> 1221:Melbourne, Australia 3.34149401363677
+1221:Adelaide, Australia -> 1221:Mount Gambier, Australia 1.93693659855756
+1221:Adelaide, Australia -> 1221:Perth, Australia 10.5991388284493
+1221:Adelaide, Australia -> 1221:Port Pirie, Australia 0.960883749376704
+1221:Adelaide, Australia -> 1221:Victor Harbour, Australia 0.383932481584038
+1221:Adelaide, Australia -> 1221:Yorketown, Australia 0.410934338251794
+1221:Albury, Australia -> 1221:Melbourne, Australia 1.27987987754245
+1221:Armidale, Australia -> 1221:Sydney, Australia 1.91300161321378
+1221:Ballarat, Australia -> 1221:Melbourne, Australia 0.536172633029843
+1221:Bathurst, Australia -> 1221:Sydney, Australia 0.789418423716399
+1221:Bendigo, Australia -> 1221:Melbourne, Australia 0.685562165323106
+1221:Brisbane, Australia -> 1221:Cairns, Australia 6.91499935344374
+1221:Brisbane, Australia -> 1221:Mackay, Australia 3.74195445826965
+1221:Brisbane, Australia -> 1221:Maroochydore, Australia 0.42692206811024
+1221:Brisbane, Australia -> 1221:Rockhampton, Australia 2.5828562440869
+1221:Brisbane, Australia -> 1221:Southport, Australia 0.359674776933853
+1221:Brisbane, Australia -> 1221:Sydney, Australia 3.72002011770336
+1221:Brisbane, Australia -> 1221:Toowoomba, Australia 0.54020828706131
+1221:Brisbane, Australia -> 1221:Townsville, Australia 5.61884494538457
+1221:Bunbury, Australia -> 1221:Perth, Australia 0.77275760811344
+1221:Cairns, Australia -> 1221:Brisbane, Australia 6.91499935344374
+1221:Campbelltown, Australia -> 1221:Sydney, Australia 0.178550628109316
+1221:Canberra, Australia -> 1221:Melbourne, Australia 2.33602797836195
+1221:Canberra, Australia -> 1221:Sydney, Australia 1.18918741582091
+1221:Darwin, Australia -> 1221:Adelaide, Australia 13.0551821715223
+1221:Gosford, Australia -> 1221:Sydney, Australia 0.285103664740644
+1221:Hobart, Australia -> 1221:Launceston, Tazmania 0.782996980464399
+1221:Hobart, Australia -> 1221:Melbourne, Australia 2.95228122867468
+1221:Hobart, Australia -> 1221:Ulverstone, Tasmania 1.05109173852561
+1221:Kalgoorlie, Australia -> 1221:Perth, Australia 2.73985845598126
+1221:Launceston, Tazmania -> 1221:Hobart, Australia 0.782996980464399
+1221:Lismore, Australia -> 1221:Sydney, Australia 3.00806372808892
+1221:Los Angeles, CA -> 1221:Sydney, Australia 60.3095464758688
+1221:Mackay, Australia -> 1221:Brisbane, Australia 3.74195445826965
+1221:Maroochydore, Australia -> 1221:Brisbane, Australia 0.42692206811024
+1221:Melbourne, Australia -> 1221:Adelaide, Australia 3.34149401363677
+1221:Melbourne, Australia -> 1221:Albury, Australia 1.27987987754245
+1221:Melbourne, Australia -> 1221:Ballarat, Australia 0.536172633029843
+1221:Melbourne, Australia -> 1221:Bendigo, Australia 0.685562165323106
+1221:Melbourne, Australia -> 1221:Canberra, Australia 2.33602797836195
+1221:Melbourne, Australia -> 1221:Hobart, Australia 2.95228122867468
+1221:Melbourne, Australia -> 1221:Mildura, Australia 2.39388186575196
+1221:Melbourne, Australia -> 1221:Shepparton, Australia 0.824637748542658
+1221:Melbourne, Australia -> 1221:Sydney, Australia 3.52506386753417
+1221:Melbourne, Australia -> 1221:Warnambool, Australia 1.14234917045032
+1221:Mildura, Australia -> 1221:Melbourne, Australia 2.39388186575196
+1221:Moree, Australia -> 1221:Sydney, Australia 2.5513700638689
+1221:Mount Gambier, Australia -> 1221:Adelaide, Australia 1.93693659855756
+1221:Newcastle, Australia -> 1221:Sydney, Australia 0.651636612713129
+1221:Orange, Australia -> 1221:Sydney, Australia 1.20103333687123
+1221:Palo Alto, CA -> 1221:Sydney, Australia 59.74640888143
+1221:Penrith, Australia -> 1221:Sydney, Australia 0.230796679506136
+1221:Perth, Australia -> 1221:Adelaide, Australia 10.5991388284493
+1221:Perth, Australia -> 1221:Bunbury, Australia 0.77275760811344
+1221:Perth, Australia -> 1221:Kalgoorlie, Australia 2.73985845598126
+1221:Port Maquarie, Australia -> 1221:Sydney, Australia 0
+1221:Port Pirie, Australia -> 1221:Adelaide, Australia 0.960883749376704
+1221:Rockhampton, Australia -> 1221:Brisbane, Australia 2.5828562440869
+1221:San Jose, CA -> 1221:Sydney, Australia 59.8122862074532
+1221:Shepparton, Australia -> 1221:Melbourne, Australia 0.824637748542658
+1221:Southport, Australia -> 1221:Brisbane, Australia 0.359674776933853
+1221:Sydney, Australia -> 1221:Armidale, Australia 1.91300161321378
+1221:Sydney, Australia -> 1221:Bathurst, Australia 0.789418423716399
+1221:Sydney, Australia -> 1221:Brisbane, Australia 3.72002011770336
+1221:Sydney, Australia -> 1221:Campbelltown, Australia 0.178550628109316
+1221:Sydney, Australia -> 1221:Canberra, Australia 1.18918741582091
+1221:Sydney, Australia -> 1221:Gosford, Australia 0.285103664740644
+1221:Sydney, Australia -> 1221:Lismore, Australia 3.00806372808892
+1221:Sydney, Australia -> 1221:Los Angeles, CA 60.3095464758688
+1221:Sydney, Australia -> 1221:Melbourne, Australia 3.52506386753417
+1221:Sydney, Australia -> 1221:Moree, Australia 2.5513700638689
+1221:Sydney, Australia -> 1221:Newcastle, Australia 0.651636612713129
+1221:Sydney, Australia -> 1221:Orange, Australia 1.20103333687123
+1221:Sydney, Australia -> 1221:Palo Alto, CA 59.74640888143
+1221:Sydney, Australia -> 1221:Penrith, Australia 0.230796679506136
+1221:Sydney, Australia -> 1221:Port Maquarie, Australia 0
+1221:Sydney, Australia -> 1221:San Jose, CA 59.8122862074532
+1221:Sydney, Australia -> 1221:Tamworth, Australia 1.57467284056897
+1221:Sydney, Australia -> 1221:Wollongong, Australia 0.303548497283278
+1221:Tamworth, Australia -> 1221:Sydney, Australia 1.57467284056897
+1221:Toowoomba, Australia -> 1221:Brisbane, Australia 0.54020828706131
+1221:Townsville, Australia -> 1221:Brisbane, Australia 5.61884494538457
+1221:Ulverstone, Tasmania -> 1221:Hobart, Australia 1.05109173852561
+1221:Victor Harbour, Australia -> 1221:Adelaide, Australia 0.383932481584038
+1221:Warnambool, Australia -> 1221:Melbourne, Australia 1.14234917045032
+1221:Wollongong, Australia -> 1221:Sydney, Australia 0.303548497283278
+1221:Yorketown, Australia -> 1221:Adelaide, Australia 0.410934338251794

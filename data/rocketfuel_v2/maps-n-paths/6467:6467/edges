@@ -1,0 +1,74 @@
+6467:Albuquerque, NM -> 6467:Colorado Springs, CO 1175
+6467:Albuquerque, NM -> 6467:El Paso, TX 782
+6467:Atlanta, GA -> 6467:Columbus, GA 644
+6467:Atlanta, GA -> 6467:Dallas, TX 217
+6467:Atlanta, GA -> 6467:Fort Lauderdale, FL 143
+6467:Atlanta, GA -> 6467:Fort Worth, TX 1457
+6467:Atlanta, GA -> 6467:Jacksonville, FL 22
+6467:Atlanta, GA -> 6467:Las Vegas, NV 333
+6467:Atlanta, GA -> 6467:Montgomery, AL 88
+6467:Atlanta, GA -> 6467:Tampa, FL 125
+6467:Atlanta, GA -> 6467:Washington, DC 786
+6467:Baltimore, MD -> 6467:Washington, DC 145
+6467:Chicago, IL -> 6467:Kansas City, MO 82
+6467:Colorado Springs, CO -> 6467:Albuquerque, NM 1175
+6467:Colorado Springs, CO -> 6467:Dallas, TX 120
+6467:Colorado Springs, CO -> 6467:Fort Worth, TX 138
+6467:Colorado Springs, CO -> 6467:Kansas City, MO 1052
+6467:Colorado Springs, CO -> 6467:Las Vegas, NV 652
+6467:Columbus, GA -> 6467:Atlanta, GA 644
+6467:Dallas, TX -> 6467:Atlanta, GA 217
+6467:Dallas, TX -> 6467:Colorado Springs, CO 120
+6467:Dallas, TX -> 6467:El Paso, TX 255
+6467:Dallas, TX -> 6467:Fort Worth, TX 47
+6467:Dallas, TX -> 6467:Las Vegas, NV 87
+6467:Dallas, TX -> 6467:Tucson, AZ 26
+6467:Dallas, TX -> 6467:Tulsa, OK 133
+6467:El Paso, TX -> 6467:Albuquerque, NM 782
+6467:El Paso, TX -> 6467:Dallas, TX 255
+6467:El Paso, TX -> 6467:Fort Worth, TX 775
+6467:El Paso, TX -> 6467:Las Vegas, NV 11
+6467:Fort Lauderdale, FL -> 6467:Atlanta, GA 143
+6467:Fort Lauderdale, FL -> 6467:Washington, DC 89
+6467:Fort Worth, TX -> 6467:Atlanta, GA 1457
+6467:Fort Worth, TX -> 6467:Colorado Springs, CO 138
+6467:Fort Worth, TX -> 6467:Dallas, TX 47
+6467:Fort Worth, TX -> 6467:El Paso, TX 775
+6467:Fort Worth, TX -> 6467:Jacksonville, FL 27
+6467:Fort Worth, TX -> 6467:Kansas City, MO 69
+6467:Fort Worth, TX -> 6467:Las Vegas, NV 104
+6467:Fort Worth, TX -> 6467:Tucson, AZ 105
+6467:Fort Worth, TX -> 6467:Tulsa, OK 464
+6467:Jacksonville, FL -> 6467:Atlanta, GA 22
+6467:Jacksonville, FL -> 6467:Fort Worth, TX 27
+6467:Jacksonville, FL -> 6467:Washington, DC 101
+6467:Kansas City, MO -> 6467:Chicago, IL 82
+6467:Kansas City, MO -> 6467:Colorado Springs, CO 1052
+6467:Kansas City, MO -> 6467:Fort Worth, TX 69
+6467:Kansas City, MO -> 6467:Las Vegas, NV 139
+6467:Kansas City, MO -> 6467:Washington, DC 1233
+6467:Las Vegas, NV -> 6467:Atlanta, GA 333
+6467:Las Vegas, NV -> 6467:Colorado Springs, CO 652
+6467:Las Vegas, NV -> 6467:Dallas, TX 87
+6467:Las Vegas, NV -> 6467:El Paso, TX 11
+6467:Las Vegas, NV -> 6467:Fort Worth, TX 104
+6467:Las Vegas, NV -> 6467:Kansas City, MO 139
+6467:Las Vegas, NV -> 6467:San Jose, CA 754
+6467:Las Vegas, NV -> 6467:Tucson, AZ 35
+6467:Las Vegas, NV -> 6467:Washington, DC 46
+6467:Lexington, KY -> 6467:Washington, DC 79
+6467:Montgomery, AL -> 6467:Atlanta, GA 88
+6467:San Jose, CA -> 6467:Las Vegas, NV 754
+6467:Tampa, FL -> 6467:Atlanta, GA 125
+6467:Tucson, AZ -> 6467:Dallas, TX 26
+6467:Tucson, AZ -> 6467:Fort Worth, TX 105
+6467:Tucson, AZ -> 6467:Las Vegas, NV 35
+6467:Tulsa, OK -> 6467:Dallas, TX 133
+6467:Tulsa, OK -> 6467:Fort Worth, TX 464
+6467:Washington, DC -> 6467:Atlanta, GA 786
+6467:Washington, DC -> 6467:Baltimore, MD 145
+6467:Washington, DC -> 6467:Fort Lauderdale, FL 89
+6467:Washington, DC -> 6467:Jacksonville, FL 101
+6467:Washington, DC -> 6467:Kansas City, MO 1233
+6467:Washington, DC -> 6467:Las Vegas, NV 46
+6467:Washington, DC -> 6467:Lexington, KY 79

@@ -1,0 +1,18 @@
+7543:Adelaide, Australia -> 7543:Sydney, Australia 83
+7543:Melbourne, Australia -> 7543:Sydney, Australia 915
+7543:Newcastle, Australia -> 7543:Sydney, Australia 444
+7543:Palo Alto, CA -> 7543:San Jose, CA 6047
+7543:Palo Alto, CA -> 7543:Singapore 14560
+7543:Palo Alto, CA -> 7543:Taipei, Taiwan 7061
+7543:San Jose, CA -> 7543:Palo Alto, CA 6047
+7543:San Jose, CA -> 7543:Singapore 3752
+7543:San Jose, CA -> 7543:Taipei, Taiwan 1918
+7543:Singapore -> 7543:Palo Alto, CA 14560
+7543:Singapore -> 7543:San Jose, CA 3752
+7543:Singapore -> 7543:Taipei, Taiwan 3264
+7543:Sydney, Australia -> 7543:Adelaide, Australia 83
+7543:Sydney, Australia -> 7543:Melbourne, Australia 915
+7543:Sydney, Australia -> 7543:Newcastle, Australia 444
+7543:Taipei, Taiwan -> 7543:Palo Alto, CA 7061
+7543:Taipei, Taiwan -> 7543:San Jose, CA 1918
+7543:Taipei, Taiwan -> 7543:Singapore 3264

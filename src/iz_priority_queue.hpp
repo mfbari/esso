@@ -20,6 +20,11 @@ namespace izlib {
         key_type key;
         pq_item(const item_type& item, const key_type& key) :
             item(item), key(key) {}
+        bool operator<(const pq_item& rhs) {
+          if (key < rhs.key) return true;
+          else if (key == rhs.key && item < rhs.item) return true;
+          else return false;
+        }
       }; 
 
       std::vector<pq_item> heap;
@@ -45,7 +50,8 @@ namespace izlib {
     
       void shift_up(const int heap_index) {
         int p{parent(heap_index)}, larger{heap_index};
-        if (p >= 0 && compare()(key(larger), key(p))) {
+        //if (p >= 0 && compare()(key(larger), key(p))) {
+        if (p >= 0 && heap[larger] < heap[p]) {
           larger = p;
         }
         if (larger != heap_index) {
@@ -56,10 +62,12 @@ namespace izlib {
       void shift_down(const int heap_index) {
         int lc{left_child(heap_index)}, rc{right_child(heap_index)},
             smaller{heap_index};
-        if (lc < size() && compare()(key(lc), key(smaller))) {
+        //if (lc < size() && compare()(key(lc), key(smaller))) {
+        if (lc < size() && heap[lc] < heap[smaller]) {
           smaller = lc;
         }
-        if (rc < size() && compare()(key(rc), key(smaller))) {
+        //if (rc < size() && compare()(key(rc), key(smaller))) {
+        if (rc < size() && heap[rc] < heap[smaller]) {
           smaller = rc;
         }
         if (smaller != heap_index) {

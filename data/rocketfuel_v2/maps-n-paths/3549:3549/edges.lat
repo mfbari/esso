@@ -1,0 +1,972 @@
+3549:Amsterdam, Netherlands -> 3549:Birmingham, UnitedKingdom 2.50790564326609
+3549:Amsterdam, Netherlands -> 3549:Blackbush, UnitedKingdom 2.179397482339
+3549:Amsterdam, Netherlands -> 3549:Boston, MA 27.9913568572646
+3549:Amsterdam, Netherlands -> 3549:Chicago, IL 33.282501312707
+3549:Amsterdam, Netherlands -> 3549:Cleveland, OH 31.6296583063247
+3549:Amsterdam, Netherlands -> 3549:Copenhagen, Denmark 3.1318247112441
+3549:Amsterdam, Netherlands -> 3549:Frankfurt, Germany 1.55963394775673
+3549:Amsterdam, Netherlands -> 3549:Hamburg, Germany 1.81739812413358
+3549:Amsterdam, Netherlands -> 3549:Hong Kong 46.3686642280668
+3549:Amsterdam, Netherlands -> 3549:Leeds, UnitedKingdom 2.51009039161438
+3549:Amsterdam, Netherlands -> 3549:London, UnitedKingdom 1.88532911009081
+3549:Amsterdam, Netherlands -> 3549:Los Angeles, CA 44.9530956623524
+3549:Amsterdam, Netherlands -> 3549:Milan, Italy 3.86118168906959
+3549:Amsterdam, Netherlands -> 3549:New York, NY 29.5172132632674
+3549:Amsterdam, Netherlands -> 3549:Palo Alto, CA 44.2117612046894
+3549:Amsterdam, Netherlands -> 3549:Paris, France 2.01525285021424
+3549:Amsterdam, Netherlands -> 3549:Phoenix, AZ 43.6420434016178
+3549:Amsterdam, Netherlands -> 3549:San Francisco, CA 44.136156646504
+3549:Amsterdam, Netherlands -> 3549:Santa Ana, CA 44.9932231703006
+3549:Amsterdam, Netherlands -> 3549:Seattle, WA 39.3778548307268
+3549:Amsterdam, Netherlands -> 3549:Tokyo, Japan 46.9451982219303
+3549:Amsterdam, Netherlands -> 3549:Washington, DC 31.1416562118511
+3549:Anaheim, CA -> 3549:Santa Ana, CA 0.0544337159300715
+3549:Ashburn, VA -> 3549:Boston, MA 3.27300094551689
+3549:Ashburn, VA -> 3549:Washington, DC 0.225316255475169
+3549:Atlanta, GA -> 3549:Boston, MA 7.53546924433115
+3549:Atlanta, GA -> 3549:Chicago, IL 4.71810812635976
+3549:Atlanta, GA -> 3549:Copenhagen, Denmark 36.7996254439907
+3549:Atlanta, GA -> 3549:Dallas, TX 5.75137875158028
+3549:Atlanta, GA -> 3549:Frankfurt, Germany 36.9789550658062
+3549:Atlanta, GA -> 3549:Houston, TX 5.6298814446364
+3549:Atlanta, GA -> 3549:London, UnitedKingdom 33.8418867059318
+3549:Atlanta, GA -> 3549:Los Angeles, CA 15.5956600742354
+3549:Atlanta, GA -> 3549:Miami, FL 4.87595735153362
+3549:Atlanta, GA -> 3549:Milan, Italy 38.3038499217684
+3549:Atlanta, GA -> 3549:New York, NY 6.00743024175476
+3549:Atlanta, GA -> 3549:Palo Alto, CA 17.0534467653525
+3549:Atlanta, GA -> 3549:Philadelphia, PA 5.38755930854701
+3549:Atlanta, GA -> 3549:San Francisco, CA 17.2177866349203
+3549:Atlanta, GA -> 3549:Santa Ana, CA 15.3845193166865
+3549:Atlanta, GA -> 3549:Seattle, WA 17.5143459791053
+3549:Atlanta, GA -> 3549:Tampa, FL 3.35395232434651
+3549:Atlanta, GA -> 3549:Washington, DC 4.38018878263173
+3549:Auckland, NewZealand -> 3549:Sydney, Australia 10.7861523674496
+3549:Austin, TX -> 3549:Dallas, TX 1.45877351431596
+3549:Biggin Hill, UnitedKingdom -> 3549:Blackbush, UnitedKingdom 0.323493781817637
+3549:Birmingham, UnitedKingdom -> 3549:Amsterdam, Netherlands 2.50790564326609
+3549:Birmingham, UnitedKingdom -> 3549:Boston, MA 25.5615511225818
+3549:Birmingham, UnitedKingdom -> 3549:Chicago, IL 30.990117273135
+3549:Birmingham, UnitedKingdom -> 3549:Copenhagen, Denmark 5.07390363037729
+3549:Birmingham, UnitedKingdom -> 3549:London, UnitedKingdom 0.779261348086866
+3549:Birmingham, UnitedKingdom -> 3549:Los Angeles, CA 42.9958757719559
+3549:Birmingham, UnitedKingdom -> 3549:Milan, Italy 5.56399388811656
+3549:Birmingham, UnitedKingdom -> 3549:New York, NY 27.0890760482753
+3549:Birmingham, UnitedKingdom -> 3549:Palo Alto, CA 42.3816591257717
+3549:Birmingham, UnitedKingdom -> 3549:San Francisco, CA 42.3200027935877
+3549:Birmingham, UnitedKingdom -> 3549:Seattle, WA 37.7295233886701
+3549:Birmingham, UnitedKingdom -> 3549:Washington, DC 28.7154376820448
+3549:Blackbush, UnitedKingdom -> 3549:Amsterdam, Netherlands 2.179397482339
+3549:Blackbush, UnitedKingdom -> 3549:Biggin Hill, UnitedKingdom 0.323493781817637
+3549:Blackbush, UnitedKingdom -> 3549:Boston, MA 26.0868303658383
+3549:Blackbush, UnitedKingdom -> 3549:Chicago, IL 31.5773899770199
+3549:Blackbush, UnitedKingdom -> 3549:Copenhagen, Denmark 5.03610268179518
+3549:Blackbush, UnitedKingdom -> 3549:London, UnitedKingdom 0.302735728208173
+3549:Blackbush, UnitedKingdom -> 3549:Los Angeles, CA 43.6456270096212
+3549:Blackbush, UnitedKingdom -> 3549:Milan, Italy 4.92484141868445
+3549:Blackbush, UnitedKingdom -> 3549:New York, NY 27.6149134119669
+3549:Blackbush, UnitedKingdom -> 3549:Palo Alto, CA 43.042828026956
+3549:Blackbush, UnitedKingdom -> 3549:San Francisco, CA 42.9821330841373
+3549:Blackbush, UnitedKingdom -> 3549:Seattle, WA 38.3996841815923
+3549:Blackbush, UnitedKingdom -> 3549:Washington, DC 29.2419952635059
+3549:Boston, MA -> 3549:Amsterdam, Netherlands 27.9913568572646
+3549:Boston, MA -> 3549:Ashburn, VA 3.27300094551689
+3549:Boston, MA -> 3549:Atlanta, GA 7.53546924433115
+3549:Boston, MA -> 3549:Birmingham, UnitedKingdom 25.5615511225818
+3549:Boston, MA -> 3549:Blackbush, UnitedKingdom 26.0868303658383
+3549:Boston, MA -> 3549:Buenos Aires, Argentina 43.2386531513941
+3549:Boston, MA -> 3549:Chicago, IL 6.83381142072769
+3549:Boston, MA -> 3549:Cleveland, OH 4.4192102440479
+3549:Boston, MA -> 3549:Copenhagen, Denmark 29.370896575099
+3549:Boston, MA -> 3549:Dallas, TX 12.4363734730694
+3549:Boston, MA -> 3549:Denver, CO 14.1420447163401
+3549:Boston, MA -> 3549:Frankfurt, Germany 29.4505851012539
+3549:Boston, MA -> 3549:Hamburg, Germany 29.119839580991
+3549:Boston, MA -> 3549:Hong Kong 64.0144192749492
+3549:Boston, MA -> 3549:Houston, TX 12.900435070856
+3549:Boston, MA -> 3549:Kansas City, MO 10.018416469223
+3549:Boston, MA -> 3549:Leeds, UnitedKingdom 25.4944452999054
+3549:Boston, MA -> 3549:London, UnitedKingdom 26.3098829444621
+3549:Boston, MA -> 3549:Los Angeles, CA 20.8864181920654
+3549:Boston, MA -> 3549:Miami, FL 10.1132853023755
+3549:Boston, MA -> 3549:Milan, Italy 30.7728420041962
+3549:Boston, MA -> 3549:Minneapolis, MN 9.01241211704843
+3549:Boston, MA -> 3549:Nagoya, Japan 54.6522143002398
+3549:Boston, MA -> 3549:New York, NY 1.52818775993091
+3549:Boston, MA -> 3549:Osaka, Japan 55.1341468169357
+3549:Boston, MA -> 3549:Palo Alto, CA 21.6163783470716
+3549:Boston, MA -> 3549:Paris, France 27.6311638571456
+3549:Boston, MA -> 3549:Philadelphia, PA 2.14857505949722
+3549:Boston, MA -> 3549:Phoenix, AZ 18.4314405175688
+3549:Boston, MA -> 3549:Rochester, NY 2.70452275789603
+3549:Boston, MA -> 3549:Sacramento, CA 21.1075772142122
+3549:Boston, MA -> 3549:San Diego, CA 20.702970636782
+3549:Boston, MA -> 3549:San Francisco, CA 21.7051140175425
+3549:Boston, MA -> 3549:Santa Ana, CA 20.7577786795748
+3549:Boston, MA -> 3549:Sao Paolo, Brazil 38.6998017258545
+3549:Boston, MA -> 3549:Seattle, WA 19.993175944005
+3549:Boston, MA -> 3549:Seoul, SouthKorea 54.6858523870822
+3549:Boston, MA -> 3549:Sunnyvale, CA 21.5788966745425
+3549:Boston, MA -> 3549:Taipei, Taiwan 62.0083525162337
+3549:Boston, MA -> 3549:Tokyo, Japan 54.4384121175228
+3549:Boston, MA -> 3549:Washington, DC 3.15550474307128
+3549:Buenos Aires, Argentina -> 3549:Boston, MA 43.2386531513941
+3549:Buenos Aires, Argentina -> 3549:Chicago, IL 45.0075534322913
+3549:Buenos Aires, Argentina -> 3549:Copenhagen, Denmark 60.2909143999859
+3549:Buenos Aires, Argentina -> 3549:Dallas, TX 42.4340585712526
+3549:Buenos Aires, Argentina -> 3549:Frankfurt, Germany 57.3479361607603
+3549:Buenos Aires, Argentina -> 3549:London, UnitedKingdom 55.6318333850811
+3549:Buenos Aires, Argentina -> 3549:Los Angeles, CA 49.2752128795823
+3549:Buenos Aires, Argentina -> 3549:Milan, Italy 55.9442653376664
+3549:Buenos Aires, Argentina -> 3549:New York, NY 42.5964421212253
+3549:Buenos Aires, Argentina -> 3549:Palo Alto, CA 51.7764190663208
+3549:Buenos Aires, Argentina -> 3549:San Francisco, CA 52.0369257434722
+3549:Buenos Aires, Argentina -> 3549:Santa Ana, CA 48.9618356982299
+3549:Buenos Aires, Argentina -> 3549:Seattle, WA 55.6169749735884
+3549:Buenos Aires, Argentina -> 3549:Washington, DC 41.9380966356737
+3549:Charlotte, NC -> 3549:Chicago, IL 4.71814798605358
+3549:Chicago, IL -> 3549:Amsterdam, Netherlands 33.282501312707
+3549:Chicago, IL -> 3549:Atlanta, GA 4.71810812635976
+3549:Chicago, IL -> 3549:Birmingham, UnitedKingdom 30.990117273135
+3549:Chicago, IL -> 3549:Blackbush, UnitedKingdom 31.5773899770199
+3549:Chicago, IL -> 3549:Boston, MA 6.83381142072769
+3549:Chicago, IL -> 3549:Buenos Aires, Argentina 45.0075534322913
+3549:Chicago, IL -> 3549:Charlotte, NC 4.71814798605358
+3549:Chicago, IL -> 3549:Cleveland, OH 2.47832477920296
+3549:Chicago, IL -> 3549:Copenhagen, Denmark 34.1518681577092
+3549:Chicago, IL -> 3549:Dallas, TX 6.43760504337832
+3549:Chicago, IL -> 3549:Denver, CO 7.31964781963753
+3549:Chicago, IL -> 3549:Detroit, MI 1.89714357641037
+3549:Chicago, IL -> 3549:Frankfurt, Germany 34.8113763068339
+3549:Chicago, IL -> 3549:Hamburg, Germany 34.1537136689401
+3549:Chicago, IL -> 3549:Hong Kong 62.6713244214677
+3549:Chicago, IL -> 3549:Houston, TX 7.55619251202906
+3549:Chicago, IL -> 3549:Kansas City, MO 3.28632854191965
+3549:Chicago, IL -> 3549:Leeds, UnitedKingdom 30.7783401498669
+3549:Chicago, IL -> 3549:London, UnitedKingdom 31.7641191210355
+3549:Chicago, IL -> 3549:Los Angeles, CA 14.0526484629278
+3549:Chicago, IL -> 3549:Miami, FL 9.56272458116584
+3549:Chicago, IL -> 3549:Milan, Italy 36.4372210641038
+3549:Chicago, IL -> 3549:Minneapolis, MN 2.85501508977803
+3549:Chicago, IL -> 3549:Nagoya, Japan 51.5846422201176
+3549:Chicago, IL -> 3549:New York, NY 5.72539765160039
+3549:Chicago, IL -> 3549:Osaka, Japan 52.15597081096
+3549:Chicago, IL -> 3549:Palo Alto, CA 14.8563076754215
+3549:Chicago, IL -> 3549:Paris, France 33.2397701065739
+3549:Chicago, IL -> 3549:Philadelphia, PA 5.3491117284948
+3549:Chicago, IL -> 3549:Phoenix, AZ 11.6351669582945
+3549:Chicago, IL -> 3549:Rochester, NY 4.17824965831485
+3549:Chicago, IL -> 3549:Sacramento, CA 14.379523395025
+3549:Chicago, IL -> 3549:San Diego, CA 13.8786751988483
+3549:Chicago, IL -> 3549:San Francisco, CA 14.960010383025
+3549:Chicago, IL -> 3549:Santa Ana, CA 13.924657069193
+3549:Chicago, IL -> 3549:Sao Paolo, Brazil 42.0027936660023
+3549:Chicago, IL -> 3549:Seattle, WA 13.9413353089448
+3549:Chicago, IL -> 3549:Seoul, SouthKorea 52.5367813029884
+3549:Chicago, IL -> 3549:Sunnyvale, CA 14.8158519174366
+3549:Chicago, IL -> 3549:Taipei, Taiwan 59.9356660517554
+3549:Chicago, IL -> 3549:Tokyo, Japan 51.1508518835743
+3549:Chicago, IL -> 3549:Washington, DC 4.79269864527852
+3549:Cleveland, OH -> 3549:Amsterdam, Netherlands 31.6296583063247
+3549:Cleveland, OH -> 3549:Boston, MA 4.4192102440479
+3549:Cleveland, OH -> 3549:Chicago, IL 2.47832477920296
+3549:Cleveland, OH -> 3549:Copenhagen, Denmark 32.7092464914963
+3549:Cleveland, OH -> 3549:Dallas, TX 8.22107498325243
+3549:Cleveland, OH -> 3549:Detroit, MI 0.754422048450058
+3549:Cleveland, OH -> 3549:Frankfurt, Germany 33.1345624248872
+3549:Cleveland, OH -> 3549:London, UnitedKingdom 30.0389092690491
+3549:Cleveland, OH -> 3549:Los Angeles, CA 16.4971634786592
+3549:Cleveland, OH -> 3549:Milan, Italy 34.636196650809
+3549:Cleveland, OH -> 3549:New York, NY 3.24743960868072
+3549:Cleveland, OH -> 3549:Palo Alto, CA 17.3345657539169
+3549:Cleveland, OH -> 3549:Roachdale, IN 2.34147366798983
+3549:Cleveland, OH -> 3549:San Francisco, CA 17.4382515867408
+3549:Cleveland, OH -> 3549:Santa Ana, CA 16.3607070086129
+3549:Cleveland, OH -> 3549:Seattle, WA 16.2545272881117
+3549:Cleveland, OH -> 3549:Washington, DC 2.46048098729345
+3549:Copenhagen, Denmark -> 3549:Amsterdam, Netherlands 3.1318247112441
+3549:Copenhagen, Denmark -> 3549:Atlanta, GA 36.7996254439907
+3549:Copenhagen, Denmark -> 3549:Birmingham, UnitedKingdom 5.07390363037729
+3549:Copenhagen, Denmark -> 3549:Blackbush, UnitedKingdom 5.03610268179518
+3549:Copenhagen, Denmark -> 3549:Boston, MA 29.370896575099
+3549:Copenhagen, Denmark -> 3549:Buenos Aires, Argentina 60.2909143999859
+3549:Copenhagen, Denmark -> 3549:Chicago, IL 34.1518681577092
+3549:Copenhagen, Denmark -> 3549:Cleveland, OH 32.7092464914963
+3549:Copenhagen, Denmark -> 3549:Dallas, TX 40.5846798823339
+3549:Copenhagen, Denmark -> 3549:Denver, CO 39.3056641278088
+3549:Copenhagen, Denmark -> 3549:Frankfurt, Germany 3.4231207792731
+3549:Copenhagen, Denmark -> 3549:Hamburg, Germany 1.42488508853435
+3549:Copenhagen, Denmark -> 3549:Hong Kong 43.3687994702683
+3549:Copenhagen, Denmark -> 3549:Houston, TX 41.617519819329
+3549:Copenhagen, Denmark -> 3549:Kansas City, MO 37.1306040233321
+3549:Copenhagen, Denmark -> 3549:London, UnitedKingdom 4.73788667198909
+3549:Copenhagen, Denmark -> 3549:Los Angeles, CA 44.9504069690649
+3549:Copenhagen, Denmark -> 3549:Miami, FL 39.101644664819
+3549:Copenhagen, Denmark -> 3549:Milan, Italy 5.79861585126638
+3549:Copenhagen, Denmark -> 3549:Minneapolis, MN 34.2077951715522
+3549:Copenhagen, Denmark -> 3549:New York, NY 30.8780506318754
+3549:Copenhagen, Denmark -> 3549:Osaka, Japan 43.0322750361086
+3549:Copenhagen, Denmark -> 3549:Oslo, Norway 2.40026624275592
+3549:Copenhagen, Denmark -> 3549:Palo Alto, CA 43.9741088031523
+3549:Copenhagen, Denmark -> 3549:Paris, France 5.11875370269689
+3549:Copenhagen, Denmark -> 3549:Philadelphia, PA 31.4931843702695
+3549:Copenhagen, Denmark -> 3549:Phoenix, AZ 43.9081591915888
+3549:Copenhagen, Denmark -> 3549:Rochester, NY 30.8951203563055
+3549:Copenhagen, Denmark -> 3549:Sacramento, CA 43.2800769712654
+3549:Copenhagen, Denmark -> 3549:San Diego, CA 45.345187798997
+3549:Copenhagen, Denmark -> 3549:San Francisco, CA 43.8739625653726
+3549:Copenhagen, Denmark -> 3549:Santa Ana, CA 45.0214180038109
+3549:Copenhagen, Denmark -> 3549:Sao Paolo, Brazil 52.0592697192333
+3549:Copenhagen, Denmark -> 3549:Seattle, WA 38.8684695919106
+3549:Copenhagen, Denmark -> 3549:Seoul, SouthKorea 39.6953417538177
+3549:Copenhagen, Denmark -> 3549:Taipei, Taiwan 44.1381637093221
+3549:Copenhagen, Denmark -> 3549:Tokyo, Japan 43.852185841165
+3549:Copenhagen, Denmark -> 3549:Washington, DC 32.4827492980019
+3549:Dallas, TX -> 3549:Atlanta, GA 5.75137875158028
+3549:Dallas, TX -> 3549:Austin, TX 1.45877351431596
+3549:Dallas, TX -> 3549:Boston, MA 12.4363734730694
+3549:Dallas, TX -> 3549:Buenos Aires, Argentina 42.4340585712526
+3549:Dallas, TX -> 3549:Chicago, IL 6.43760504337832
+3549:Dallas, TX -> 3549:Cleveland, OH 8.22107498325243
+3549:Dallas, TX -> 3549:Copenhagen, Denmark 40.5846798823339
+3549:Dallas, TX -> 3549:Denver, CO 5.31257916564315
+3549:Dallas, TX -> 3549:Frankfurt, Germany 41.2305530122737
+3549:Dallas, TX -> 3549:Hong Kong 65.3143415738912
+3549:Dallas, TX -> 3549:Houston, TX 1.79734274874247
+3549:Dallas, TX -> 3549:London, UnitedKingdom 38.1674006550285
+3549:Dallas, TX -> 3549:Los Angeles, CA 10.0456672433203
+3549:Dallas, TX -> 3549:Miami, FL 8.90426431888901
+3549:Dallas, TX -> 3549:Milan, Italy 42.8106435724488
+3549:Dallas, TX -> 3549:Minneapolis, MN 6.94067535851738
+3549:Dallas, TX -> 3549:New York, NY 11.0009242092306
+3549:Dallas, TX -> 3549:Palo Alto, CA 11.7890826854885
+3549:Dallas, TX -> 3549:Phoenix, AZ 7.13022347450063
+3549:Dallas, TX -> 3549:San Francisco, CA 11.9855228230229
+3549:Dallas, TX -> 3549:Santa Ana, CA 9.80790529053763
+3549:Dallas, TX -> 3549:Seattle, WA 13.5297009811618
+3549:Dallas, TX -> 3549:Seoul, SouthKorea 54.8562793963793
+3549:Dallas, TX -> 3549:Taipei, Taiwan 62.033397522208
+3549:Dallas, TX -> 3549:Tokyo, Japan 52.4007450226075
+3549:Dallas, TX -> 3549:Washington, DC 9.49836499313979
+3549:Denver, CO -> 3549:Boston, MA 14.1420447163401
+3549:Denver, CO -> 3549:Chicago, IL 7.31964781963753
+3549:Denver, CO -> 3549:Copenhagen, Denmark 39.3056641278088
+3549:Denver, CO -> 3549:Dallas, TX 5.31257916564315
+3549:Denver, CO -> 3549:Frankfurt, Germany 40.5161019118694
+3549:Denver, CO -> 3549:London, UnitedKingdom 37.6341495125377
+3549:Denver, CO -> 3549:Los Angeles, CA 6.77495897647902
+3549:Denver, CO -> 3549:Milan, Italy 42.4105842955862
+3549:Denver, CO -> 3549:New York, NY 13.0319252204767
+3549:Denver, CO -> 3549:Palo Alto, CA 7.59899223936147
+3549:Denver, CO -> 3549:Phoenix, AZ 4.71855022803752
+3549:Denver, CO -> 3549:San Francisco, CA 7.72580873446228
+3549:Denver, CO -> 3549:Santa Ana, CA 6.67446904934105
+3549:Denver, CO -> 3549:Seattle, WA 8.23946958515862
+3549:Denver, CO -> 3549:Washington, DC 11.9373254278376
+3549:Detroit, MI -> 3549:Chicago, IL 1.89714357641037
+3549:Detroit, MI -> 3549:Cleveland, OH 0.754422048450058
+3549:Detroit, MI -> 3549:Milan, Italy 34.7995927747869
+3549:Frankfurt, Germany -> 3549:Amsterdam, Netherlands 1.55963394775673
+3549:Frankfurt, Germany -> 3549:Atlanta, GA 36.9789550658062
+3549:Frankfurt, Germany -> 3549:Boston, MA 29.4505851012539
+3549:Frankfurt, Germany -> 3549:Buenos Aires, Argentina 57.3479361607603
+3549:Frankfurt, Germany -> 3549:Chicago, IL 34.8113763068339
+3549:Frankfurt, Germany -> 3549:Cleveland, OH 33.1345624248872
+3549:Frankfurt, Germany -> 3549:Copenhagen, Denmark 3.4231207792731
+3549:Frankfurt, Germany -> 3549:Dallas, TX 41.2305530122737
+3549:Frankfurt, Germany -> 3549:Denver, CO 40.5161019118694
+3549:Frankfurt, Germany -> 3549:Hamburg, Germany 2.0357355149515
+3549:Frankfurt, Germany -> 3549:Hong Kong 45.8496730377986
+3549:Frankfurt, Germany -> 3549:Houston, TX 42.0955429561005
+3549:Frankfurt, Germany -> 3549:Kansas City, MO 37.9309527459625
+3549:Frankfurt, Germany -> 3549:London, UnitedKingdom 3.15804073417278
+3549:Frankfurt, Germany -> 3549:Los Angeles, CA 46.5098014180807
+3549:Frankfurt, Germany -> 3549:Miami, FL 38.7693835433764
+3549:Frankfurt, Germany -> 3549:Milan, Italy 2.52989648876757
+3549:Frankfurt, Germany -> 3549:Minneapolis, MN 35.2025712932679
+3549:Frankfurt, Germany -> 3549:New York, NY 30.9779065131767
+3549:Frankfurt, Germany -> 3549:Osaka, Japan 46.2322073046334
+3549:Frankfurt, Germany -> 3549:Palo Alto, CA 45.7567140993137
+3549:Frankfurt, Germany -> 3549:Paris, France 2.34012884016252
+3549:Frankfurt, Germany -> 3549:Philadelphia, PA 31.5984865595583
+3549:Frankfurt, Germany -> 3549:San Francisco, CA 45.6793639182476
+3549:Frankfurt, Germany -> 3549:Santa Ana, CA 46.5507987407493
+3549:Frankfurt, Germany -> 3549:Sao Paolo, Brazil 49.0378139613856
+3549:Frankfurt, Germany -> 3549:Seattle, WA 40.8959132963692
+3549:Frankfurt, Germany -> 3549:Seoul, SouthKorea 42.7920001411581
+3549:Frankfurt, Germany -> 3549:Taipei, Taiwan 46.8942879174224
+3549:Frankfurt, Germany -> 3549:Tokyo, Japan 47.1104348927669
+3549:Frankfurt, Germany -> 3549:Washington, DC 32.6040058370753
+3549:Frankfurt, Germany -> 3549:Zurich, Switzerland 1.47245906075377
+3549:Hamburg, Germany -> 3549:Amsterdam, Netherlands 1.81739812413358
+3549:Hamburg, Germany -> 3549:Boston, MA 29.119839580991
+3549:Hamburg, Germany -> 3549:Chicago, IL 34.1537136689401
+3549:Hamburg, Germany -> 3549:Copenhagen, Denmark 1.42488508853435
+3549:Hamburg, Germany -> 3549:Frankfurt, Germany 2.0357355149515
+3549:Hamburg, Germany -> 3549:London, UnitedKingdom 3.60467312251354
+3549:Hamburg, Germany -> 3549:Los Angeles, CA 45.3619105607786
+3549:Hamburg, Germany -> 3549:Milan, Italy 4.50126584026716
+3549:Hamburg, Germany -> 3549:New York, NY 30.638522691464
+3549:Hamburg, Germany -> 3549:Oslo, Norway 3.54297607993863
+3549:Hamburg, Germany -> 3549:Palo Alto, CA 44.4856695499951
+3549:Hamburg, Germany -> 3549:San Francisco, CA 44.3958462191821
+3549:Hamburg, Germany -> 3549:Santa Ana, CA 45.4195318558876
+3549:Hamburg, Germany -> 3549:Seattle, WA 39.487993179256
+3549:Hamburg, Germany -> 3549:Washington, DC 32.255255283917
+3549:Hong Kong -> 3549:Amsterdam, Netherlands 46.3686642280668
+3549:Hong Kong -> 3549:Boston, MA 64.0144192749492
+3549:Hong Kong -> 3549:Chicago, IL 62.6713244214677
+3549:Hong Kong -> 3549:Copenhagen, Denmark 43.3687994702683
+3549:Hong Kong -> 3549:Dallas, TX 65.3143415738912
+3549:Hong Kong -> 3549:Frankfurt, Germany 45.8496730377986
+3549:Hong Kong -> 3549:London, UnitedKingdom 48.1036572435778
+3549:Hong Kong -> 3549:Los Angeles, CA 58.1674895599584
+3549:Hong Kong -> 3549:Milan, Italy 46.7405336462016
+3549:Hong Kong -> 3549:New York, NY 64.7739111372343
+3549:Hong Kong -> 3549:Palo Alto, CA 55.6848940567159
+3549:Hong Kong -> 3549:San Francisco, CA 55.426292526608
+3549:Hong Kong -> 3549:Santa Ana, CA 58.4824000067647
+3549:Hong Kong -> 3549:Seattle, WA 52.0613124915154
+3549:Hong Kong -> 3549:Singapore 12.915469710535
+3549:Hong Kong -> 3549:Tokyo, Japan 14.1254042821176
+3549:Hong Kong -> 3549:Washington, DC 65.5425166001429
+3549:Houston, TX -> 3549:Atlanta, GA 5.6298814446364
+3549:Houston, TX -> 3549:Boston, MA 12.900435070856
+3549:Houston, TX -> 3549:Chicago, IL 7.55619251202906
+3549:Houston, TX -> 3549:Copenhagen, Denmark 41.617519819329
+3549:Houston, TX -> 3549:Dallas, TX 1.79734274874247
+3549:Houston, TX -> 3549:Frankfurt, Germany 42.0955429561005
+3549:Houston, TX -> 3549:London, UnitedKingdom 38.9963996277964
+3549:Houston, TX -> 3549:Los Angeles, CA 11.0914798639502
+3549:Houston, TX -> 3549:Milan, Italy 43.5711952812878
+3549:Houston, TX -> 3549:New York, NY 11.4027441257575
+3549:Houston, TX -> 3549:Palo Alto, CA 13.0432514602762
+3549:Houston, TX -> 3549:San Francisco, CA 13.2566655600974
+3549:Houston, TX -> 3549:Santa Ana, CA 10.8265480813346
+3549:Houston, TX -> 3549:Seattle, WA 15.1947572412764
+3549:Houston, TX -> 3549:Tampa, FL 6.36254081342179
+3549:Houston, TX -> 3549:Tucson, AZ 7.52028537321198
+3549:Houston, TX -> 3549:Washington, DC 9.81518726240613
+3549:Kansas City, MO -> 3549:Boston, MA 10.018416469223
+3549:Kansas City, MO -> 3549:Chicago, IL 3.28632854191965
+3549:Kansas City, MO -> 3549:Copenhagen, Denmark 37.1306040233321
+3549:Kansas City, MO -> 3549:Frankfurt, Germany 37.9309527459625
+3549:Kansas City, MO -> 3549:London, UnitedKingdom 34.9144327982384
+3549:Kansas City, MO -> 3549:Los Angeles, CA 10.9611915606202
+3549:Kansas City, MO -> 3549:Milan, Italy 39.6176150817955
+3549:Kansas City, MO -> 3549:New York, NY 8.77953531035692
+3549:Kansas City, MO -> 3549:Palo Alto, CA 12.0242590209304
+3549:Kansas City, MO -> 3549:San Francisco, CA 12.1581598341962
+3549:Kansas City, MO -> 3549:Santa Ana, CA 10.8079314738952
+3549:Kansas City, MO -> 3549:Seattle, WA 12.0984029953721
+3549:Kansas City, MO -> 3549:Washington, DC 7.56638412849038
+3549:Las Vegas, NV -> 3549:Santa Ana, CA 1.82069020946263
+3549:Leeds, UnitedKingdom -> 3549:Amsterdam, Netherlands 2.51009039161438
+3549:Leeds, UnitedKingdom -> 3549:Boston, MA 25.4944452999054
+3549:Leeds, UnitedKingdom -> 3549:Chicago, IL 30.7783401498669
+3549:Leeds, UnitedKingdom -> 3549:London, UnitedKingdom 1.34845542695101
+3549:Leeds, UnitedKingdom -> 3549:Los Angeles, CA 42.580583795837
+3549:Leeds, UnitedKingdom -> 3549:Milan, Italy 6.00130751015147
+3549:Leeds, UnitedKingdom -> 3549:New York, NY 27.0193390702353
+3549:Leeds, UnitedKingdom -> 3549:Palo Alto, CA 41.9095958745414
+3549:Leeds, UnitedKingdom -> 3549:San Francisco, CA 41.8421572094469
+3549:Leeds, UnitedKingdom -> 3549:Seattle, WA 37.1861457601408
+3549:Leeds, UnitedKingdom -> 3549:Washington, DC 28.6427743843662
+3549:London, UnitedKingdom -> 3549:Amsterdam, Netherlands 1.88532911009081
+3549:London, UnitedKingdom -> 3549:Atlanta, GA 33.8418867059318
+3549:London, UnitedKingdom -> 3549:Birmingham, UnitedKingdom 0.779261348086866
+3549:London, UnitedKingdom -> 3549:Blackbush, UnitedKingdom 0.302735728208173
+3549:London, UnitedKingdom -> 3549:Boston, MA 26.3098829444621
+3549:London, UnitedKingdom -> 3549:Buenos Aires, Argentina 55.6318333850811
+3549:London, UnitedKingdom -> 3549:Chicago, IL 31.7641191210355
+3549:London, UnitedKingdom -> 3549:Cleveland, OH 30.0389092690491
+3549:London, UnitedKingdom -> 3549:Copenhagen, Denmark 4.73788667198909
+3549:London, UnitedKingdom -> 3549:Dallas, TX 38.1674006550285
+3549:London, UnitedKingdom -> 3549:Denver, CO 37.6341495125377
+3549:London, UnitedKingdom -> 3549:Frankfurt, Germany 3.15804073417278
+3549:London, UnitedKingdom -> 3549:Hamburg, Germany 3.60467312251354
+3549:London, UnitedKingdom -> 3549:Hong Kong 48.1036572435778
+3549:London, UnitedKingdom -> 3549:Houston, TX 38.9963996277964
+3549:London, UnitedKingdom -> 3549:Kansas City, MO 34.9144327982384
+3549:London, UnitedKingdom -> 3549:Leeds, UnitedKingdom 1.34845542695101
+3549:London, UnitedKingdom -> 3549:Los Angeles, CA 43.7680541865784
+3549:London, UnitedKingdom -> 3549:Miami, FL 35.6140944703164
+3549:London, UnitedKingdom -> 3549:Milan, Italy 4.78915796529137
+3549:London, UnitedKingdom -> 3549:Minneapolis, MN 32.2556653606146
+3549:London, UnitedKingdom -> 3549:Nagoya, Japan 47.4949817159672
+3549:London, UnitedKingdom -> 3549:New York, NY 27.8377559786444
+3549:London, UnitedKingdom -> 3549:Osaka, Japan 47.4672423456055
+3549:London, UnitedKingdom -> 3549:Palo Alto, CA 43.1432888051472
+3549:London, UnitedKingdom -> 3549:Paris, France 1.71246693397065
+3549:London, UnitedKingdom -> 3549:Philadelphia, PA 28.4583092639498
+3549:London, UnitedKingdom -> 3549:Phoenix, AZ 42.3390288738251
+3549:London, UnitedKingdom -> 3549:Rochester, NY 28.1512514564955
+3549:London, UnitedKingdom -> 3549:Sacramento, CA 42.4573312053083
+3549:London, UnitedKingdom -> 3549:San Diego, CA 44.036210089046
+3549:London, UnitedKingdom -> 3549:San Francisco, CA 43.0802583000777
+3549:London, UnitedKingdom -> 3549:Santa Ana, CA 43.793577975818
+3549:London, UnitedKingdom -> 3549:Sao Paolo, Brazil 47.4576112891091
+3549:London, UnitedKingdom -> 3549:Seattle, WA 38.4696116871562
+3549:London, UnitedKingdom -> 3549:Seoul, SouthKorea 44.2515799289507
+3549:London, UnitedKingdom -> 3549:Sunnyvale, CA 43.1408102208973
+3549:London, UnitedKingdom -> 3549:Taipei, Taiwan 48.8568683169969
+3549:London, UnitedKingdom -> 3549:Tokyo, Japan 48.1934863386829
+3549:London, UnitedKingdom -> 3549:Washington, DC 29.4645463284345
+3549:Los Angeles, CA -> 3549:Amsterdam, Netherlands 44.9530956623524
+3549:Los Angeles, CA -> 3549:Atlanta, GA 15.5956600742354
+3549:Los Angeles, CA -> 3549:Birmingham, UnitedKingdom 42.9958757719559
+3549:Los Angeles, CA -> 3549:Blackbush, UnitedKingdom 43.6456270096212
+3549:Los Angeles, CA -> 3549:Boston, MA 20.8864181920654
+3549:Los Angeles, CA -> 3549:Buenos Aires, Argentina 49.2752128795823
+3549:Los Angeles, CA -> 3549:Chicago, IL 14.0526484629278
+3549:Los Angeles, CA -> 3549:Cleveland, OH 16.4971634786592
+3549:Los Angeles, CA -> 3549:Copenhagen, Denmark 44.9504069690649
+3549:Los Angeles, CA -> 3549:Dallas, TX 10.0456672433203
+3549:Los Angeles, CA -> 3549:Denver, CO 6.77495897647902
+3549:Los Angeles, CA -> 3549:Frankfurt, Germany 46.5098014180807
+3549:Los Angeles, CA -> 3549:Hamburg, Germany 45.3619105607786
+3549:Los Angeles, CA -> 3549:Hong Kong 58.1674895599584
+3549:Los Angeles, CA -> 3549:Houston, TX 11.0914798639502
+3549:Los Angeles, CA -> 3549:Kansas City, MO 10.9611915606202
+3549:Los Angeles, CA -> 3549:Leeds, UnitedKingdom 42.580583795837
+3549:Los Angeles, CA -> 3549:London, UnitedKingdom 43.7680541865784
+3549:Los Angeles, CA -> 3549:Miami, FL 18.8519227076216
+3549:Los Angeles, CA -> 3549:Milan, Italy 48.556302961506
+3549:Los Angeles, CA -> 3549:Minneapolis, MN 12.2770619574204
+3549:Los Angeles, CA -> 3549:Nagoya, Japan 45.1704567591585
+3549:Los Angeles, CA -> 3549:New York, NY 19.7210147124792
+3549:Los Angeles, CA -> 3549:Osaka, Japan 45.8551058266026
+3549:Los Angeles, CA -> 3549:Palo Alto, CA 2.50820183694084
+3549:Los Angeles, CA -> 3549:Paris, France 45.4093076409131
+3549:Los Angeles, CA -> 3549:Philadelphia, PA 19.27296065188
+3549:Los Angeles, CA -> 3549:Phoenix, AZ 2.94005274291922
+3549:Los Angeles, CA -> 3549:Rochester, NY 18.2143010965483
+3549:Los Angeles, CA -> 3549:Sacramento, CA 2.84864363952102
+3549:Los Angeles, CA -> 3549:San Diego, CA 0.930875068217323
+3549:Los Angeles, CA -> 3549:San Francisco, CA 2.76945681575568
+3549:Los Angeles, CA -> 3549:Santa Ana, CA 0.315105365306395
+3549:Los Angeles, CA -> 3549:Sao Paolo, Brazil 49.5772297469242
+3549:Los Angeles, CA -> 3549:Seattle, WA 7.68872484627139
+3549:Los Angeles, CA -> 3549:Seoul, SouthKorea 47.8383764810155
+3549:Los Angeles, CA -> 3549:Sunnyvale, CA 2.44667549882439
+3549:Los Angeles, CA -> 3549:Taipei, Taiwan 54.4405827762869
+3549:Los Angeles, CA -> 3549:Tokyo, Japan 44.3434837672523
+3549:Los Angeles, CA -> 3549:Washington, DC 18.5226753489951
+3549:Madrid, Spain -> 3549:Paris, France 5.25377044095577
+3549:Manila, Philippines -> 3549:Taipei, Taiwan 5.82139512676565
+3549:Mexico City, Mexico -> 3549:Milan, Italy 49.0940268162637
+3549:Mexico City, Mexico -> 3549:Santa Ana, CA 12.2101807710945
+3549:Miami, FL -> 3549:Atlanta, GA 4.87595735153362
+3549:Miami, FL -> 3549:Boston, MA 10.1132853023755
+3549:Miami, FL -> 3549:Chicago, IL 9.56272458116584
+3549:Miami, FL -> 3549:Copenhagen, Denmark 39.101644664819
+3549:Miami, FL -> 3549:Dallas, TX 8.90426431888901
+3549:Miami, FL -> 3549:Frankfurt, Germany 38.7693835433764
+3549:Miami, FL -> 3549:London, UnitedKingdom 35.6140944703164
+3549:Miami, FL -> 3549:Los Angeles, CA 18.8519227076216
+3549:Miami, FL -> 3549:Milan, Italy 39.7466418879771
+3549:Miami, FL -> 3549:New York, NY 8.77880309119896
+3549:Miami, FL -> 3549:Palo Alto, CA 20.69070611356
+3549:Miami, FL -> 3549:Panama City, Panama 9.32056922707763
+3549:Miami, FL -> 3549:San Francisco, CA 20.8890335250618
+3549:Miami, FL -> 3549:Santa Ana, CA 18.5938686393807
+3549:Miami, FL -> 3549:Seattle, WA 21.9693515292004
+3549:Miami, FL -> 3549:Tampa, FL 1.65248982374511
+3549:Miami, FL -> 3549:Washington, DC 7.44426393180017
+3549:Milan, Italy -> 3549:Amsterdam, Netherlands 3.86118168906959
+3549:Milan, Italy -> 3549:Atlanta, GA 38.3038499217684
+3549:Milan, Italy -> 3549:Birmingham, UnitedKingdom 5.56399388811656
+3549:Milan, Italy -> 3549:Blackbush, UnitedKingdom 4.92484141868445
+3549:Milan, Italy -> 3549:Boston, MA 30.7728420041962
+3549:Milan, Italy -> 3549:Buenos Aires, Argentina 55.9442653376664
+3549:Milan, Italy -> 3549:Chicago, IL 36.4372210641038
+3549:Milan, Italy -> 3549:Cleveland, OH 34.636196650809
+3549:Milan, Italy -> 3549:Copenhagen, Denmark 5.79861585126638
+3549:Milan, Italy -> 3549:Dallas, TX 42.8106435724488
+3549:Milan, Italy -> 3549:Denver, CO 42.4105842955862
+3549:Milan, Italy -> 3549:Detroit, MI 34.7995927747869
+3549:Milan, Italy -> 3549:Frankfurt, Germany 2.52989648876757
+3549:Milan, Italy -> 3549:Hamburg, Germany 4.50126584026716
+3549:Milan, Italy -> 3549:Hong Kong 46.7405336462016
+3549:Milan, Italy -> 3549:Houston, TX 43.5711952812878
+3549:Milan, Italy -> 3549:Kansas City, MO 39.6176150817955
+3549:Milan, Italy -> 3549:Leeds, UnitedKingdom 6.00130751015147
+3549:Milan, Italy -> 3549:London, UnitedKingdom 4.78915796529137
+3549:Milan, Italy -> 3549:Los Angeles, CA 48.556302961506
+3549:Milan, Italy -> 3549:Mexico City, Mexico 49.0940268162637
+3549:Milan, Italy -> 3549:Miami, FL 39.7466418879771
+3549:Milan, Italy -> 3549:Minneapolis, MN 37.0101008102912
+3549:Milan, Italy -> 3549:Nagoya, Japan 48.0932660508402
+3549:Milan, Italy -> 3549:New York, NY 32.2992312999969
+3549:Milan, Italy -> 3549:Osaka, Japan 47.9610411235082
+3549:Milan, Italy -> 3549:Oslo, Norway 8.04379302947805
+3549:Milan, Italy -> 3549:Palo Alto, CA 47.9101944423244
+3549:Milan, Italy -> 3549:Paris, France 3.20129362158168
+3549:Milan, Italy -> 3549:Philadelphia, PA 32.9179703418344
+3549:Milan, Italy -> 3549:Phoenix, AZ 47.1189627113254
+3549:Milan, Italy -> 3549:Rochester, NY 32.7329011501813
+3549:Milan, Italy -> 3549:Sacramento, CA 47.2227390124391
+3549:Milan, Italy -> 3549:San Diego, CA 48.8251855238203
+3549:Milan, Italy -> 3549:San Francisco, CA 47.8433037926909
+3549:Milan, Italy -> 3549:San Jose, CA 47.9026082872128
+3549:Milan, Italy -> 3549:Santa Ana, CA 48.5825180295793
+3549:Milan, Italy -> 3549:Sao Paolo, Brazil 47.5702223492724
+3549:Milan, Italy -> 3549:Seattle, WA 43.1659102027254
+3549:Milan, Italy -> 3549:Seoul, SouthKorea 44.3866523994281
+3549:Milan, Italy -> 3549:Sunnyvale, CA 47.908644706945
+3549:Milan, Italy -> 3549:Taipei, Taiwan 48.0666159426358
+3549:Milan, Italy -> 3549:Tokyo, Japan 48.9288696029279
+3549:Milan, Italy -> 3549:Washington, DC 33.9252207063578
+3549:Milan, Italy -> 3549:Zurich, Switzerland 1.07711497718376
+3549:Minneapolis, MN -> 3549:Boston, MA 9.01241211704843
+3549:Minneapolis, MN -> 3549:Chicago, IL 2.85501508977803
+3549:Minneapolis, MN -> 3549:Copenhagen, Denmark 34.2077951715522
+3549:Minneapolis, MN -> 3549:Dallas, TX 6.94067535851738
+3549:Minneapolis, MN -> 3549:Frankfurt, Germany 35.2025712932679
+3549:Minneapolis, MN -> 3549:London, UnitedKingdom 32.2556653606146
+3549:Minneapolis, MN -> 3549:Los Angeles, CA 12.2770619574204
+3549:Minneapolis, MN -> 3549:Milan, Italy 37.0101008102912
+3549:Minneapolis, MN -> 3549:New York, NY 8.17236160928336
+3549:Minneapolis, MN -> 3549:Palo Alto, CA 12.6964815390868
+3549:Minneapolis, MN -> 3549:San Francisco, CA 12.7660993275408
+3549:Minneapolis, MN -> 3549:Santa Ana, CA 12.2019508598512
+3549:Minneapolis, MN -> 3549:Seattle, WA 11.1944979526771
+3549:Minneapolis, MN -> 3549:Washington, DC 7.50419086797768
+3549:Nagoya, Japan -> 3549:Boston, MA 54.6522143002398
+3549:Nagoya, Japan -> 3549:Chicago, IL 51.5846422201176
+3549:Nagoya, Japan -> 3549:London, UnitedKingdom 47.4949817159672
+3549:Nagoya, Japan -> 3549:Los Angeles, CA 45.1704567591585
+3549:Nagoya, Japan -> 3549:Milan, Italy 48.0932660508402
+3549:Nagoya, Japan -> 3549:New York, NY 54.9885374699959
+3549:Nagoya, Japan -> 3549:Osaka, Japan 0.702605875505463
+3549:Nagoya, Japan -> 3549:Palo Alto, CA 42.7174292328421
+3549:Nagoya, Japan -> 3549:San Francisco, CA 42.4620748305816
+3549:Nagoya, Japan -> 3549:Seattle, WA 39.5424282575228
+3549:Nagoya, Japan -> 3549:Washington, DC 55.3241865722669
+3549:New York, NY -> 3549:Amsterdam, Netherlands 29.5172132632674
+3549:New York, NY -> 3549:Atlanta, GA 6.00743024175476
+3549:New York, NY -> 3549:Birmingham, UnitedKingdom 27.0890760482753
+3549:New York, NY -> 3549:Blackbush, UnitedKingdom 27.6149134119669
+3549:New York, NY -> 3549:Boston, MA 1.52818775993091
+3549:New York, NY -> 3549:Buenos Aires, Argentina 42.5964421212253
+3549:New York, NY -> 3549:Chicago, IL 5.72539765160039
+3549:New York, NY -> 3549:Cleveland, OH 3.24743960868072
+3549:New York, NY -> 3549:Copenhagen, Denmark 30.8780506318754
+3549:New York, NY -> 3549:Dallas, TX 11.0009242092306
+3549:New York, NY -> 3549:Denver, CO 13.0319252204767
+3549:New York, NY -> 3549:Frankfurt, Germany 30.9779065131767
+3549:New York, NY -> 3549:Hamburg, Germany 30.638522691464
+3549:New York, NY -> 3549:Hong Kong 64.7739111372343
+3549:New York, NY -> 3549:Houston, TX 11.4027441257575
+3549:New York, NY -> 3549:Kansas City, MO 8.77953531035692
+3549:New York, NY -> 3549:Leeds, UnitedKingdom 27.0193390702353
+3549:New York, NY -> 3549:London, UnitedKingdom 27.8377559786444
+3549:New York, NY -> 3549:Los Angeles, CA 19.7210147124792
+3549:New York, NY -> 3549:Miami, FL 8.77880309119896
+3549:New York, NY -> 3549:Milan, Italy 32.2992312999969
+3549:New York, NY -> 3549:Minneapolis, MN 8.17236160928336
+3549:New York, NY -> 3549:Nagoya, Japan 54.9885374699959
+3549:New York, NY -> 3549:Osaka, Japan 55.494123672788
+3549:New York, NY -> 3549:Palo Alto, CA 20.5816497996003
+3549:New York, NY -> 3549:Paris, France 29.1588945256645
+3549:New York, NY -> 3549:Philadelphia, PA 0.620583384672223
+3549:New York, NY -> 3549:Phoenix, AZ 17.184736870328
+3549:New York, NY -> 3549:Rochester, NY 2.01525033960335
+3549:New York, NY -> 3549:Sacramento, CA 20.1014066858336
+3549:New York, NY -> 3549:San Diego, CA 19.491370482797
+3549:New York, NY -> 3549:San Francisco, CA 20.6843954593898
+3549:New York, NY -> 3549:Santa Ana, CA 19.577637214335
+3549:New York, NY -> 3549:Sao Paolo, Brazil 38.399083712149
+3549:New York, NY -> 3549:Seattle, WA 19.3209613118993
+3549:New York, NY -> 3549:Seoul, SouthKorea 55.2375800487253
+3549:New York, NY -> 3549:Sunnyvale, CA 20.5412439160309
+3549:New York, NY -> 3549:Taipei, Taiwan 62.6049293925977
+3549:New York, NY -> 3549:Tokyo, Japan 54.7189289138994
+3549:New York, NY -> 3549:Washington, DC 1.62733364571067
+3549:Osaka, Japan -> 3549:Boston, MA 55.1341468169357
+3549:Osaka, Japan -> 3549:Chicago, IL 52.15597081096
+3549:Osaka, Japan -> 3549:Copenhagen, Denmark 43.0322750361086
+3549:Osaka, Japan -> 3549:Frankfurt, Germany 46.2322073046334
+3549:Osaka, Japan -> 3549:London, UnitedKingdom 47.4672423456055
+3549:Osaka, Japan -> 3549:Los Angeles, CA 45.8551058266026
+3549:Osaka, Japan -> 3549:Milan, Italy 47.9610411235082
+3549:Osaka, Japan -> 3549:Nagoya, Japan 0.702605875505463
+3549:Osaka, Japan -> 3549:New York, NY 55.494123672788
+3549:Osaka, Japan -> 3549:Palo Alto, CA 43.3993803527348
+3549:Osaka, Japan -> 3549:San Francisco, CA 43.1437280108543
+3549:Osaka, Japan -> 3549:Santa Ana, CA 46.1701191023809
+3549:Osaka, Japan -> 3549:Seattle, WA 40.190875334387
+3549:Osaka, Japan -> 3549:Washington, DC 55.8538335872576
+3549:Oslo, Norway -> 3549:Copenhagen, Denmark 2.40026624275592
+3549:Oslo, Norway -> 3549:Hamburg, Germany 3.54297607993863
+3549:Oslo, Norway -> 3549:Milan, Italy 8.04379302947805
+3549:Palo Alto, CA -> 3549:Amsterdam, Netherlands 44.2117612046894
+3549:Palo Alto, CA -> 3549:Atlanta, GA 17.0534467653525
+3549:Palo Alto, CA -> 3549:Birmingham, UnitedKingdom 42.3816591257717
+3549:Palo Alto, CA -> 3549:Blackbush, UnitedKingdom 43.042828026956
+3549:Palo Alto, CA -> 3549:Boston, MA 21.6163783470716
+3549:Palo Alto, CA -> 3549:Buenos Aires, Argentina 51.7764190663208
+3549:Palo Alto, CA -> 3549:Chicago, IL 14.8563076754215
+3549:Palo Alto, CA -> 3549:Cleveland, OH 17.3345657539169
+3549:Palo Alto, CA -> 3549:Copenhagen, Denmark 43.9741088031523
+3549:Palo Alto, CA -> 3549:Dallas, TX 11.7890826854885
+3549:Palo Alto, CA -> 3549:Denver, CO 7.59899223936147
+3549:Palo Alto, CA -> 3549:Frankfurt, Germany 45.7567140993137
+3549:Palo Alto, CA -> 3549:Hamburg, Germany 44.4856695499951
+3549:Palo Alto, CA -> 3549:Hong Kong 55.6848940567159
+3549:Palo Alto, CA -> 3549:Houston, TX 13.0432514602762
+3549:Palo Alto, CA -> 3549:Kansas City, MO 12.0242590209304
+3549:Palo Alto, CA -> 3549:Leeds, UnitedKingdom 41.9095958745414
+3549:Palo Alto, CA -> 3549:London, UnitedKingdom 43.1432888051472
+3549:Palo Alto, CA -> 3549:Los Angeles, CA 2.50820183694084
+3549:Palo Alto, CA -> 3549:Miami, FL 20.69070611356
+3549:Palo Alto, CA -> 3549:Milan, Italy 47.9101944423244
+3549:Palo Alto, CA -> 3549:Minneapolis, MN 12.6964815390868
+3549:Palo Alto, CA -> 3549:Nagoya, Japan 42.7174292328421
+3549:Palo Alto, CA -> 3549:New York, NY 20.5816497996003
+3549:Palo Alto, CA -> 3549:Osaka, Japan 43.3993803527348
+3549:Palo Alto, CA -> 3549:Paris, France 44.8175236101947
+3549:Palo Alto, CA -> 3549:Philadelphia, PA 20.1909862237356
+3549:Palo Alto, CA -> 3549:Phoenix, AZ 5.0452689606652
+3549:Palo Alto, CA -> 3549:Rochester, NY 18.912741538161
+3549:Palo Alto, CA -> 3549:Sacramento, CA 0.694034461214314
+3549:Palo Alto, CA -> 3549:San Diego, CA 3.43877328018719
+3549:Palo Alto, CA -> 3549:San Francisco, CA 0.261255074734326
+3549:Palo Alto, CA -> 3549:Santa Ana, CA 2.8188066149626
+3549:Palo Alto, CA -> 3549:Sao Paolo, Brazil 51.9429589629485
+3549:Palo Alto, CA -> 3549:Seattle, WA 5.65399697685604
+3549:Palo Alto, CA -> 3549:Seoul, SouthKorea 45.3400780578157
+3549:Palo Alto, CA -> 3549:Sunnyvale, CA 0.0641339826459877
+3549:Palo Alto, CA -> 3549:Taipei, Taiwan 51.9792733883556
+3549:Palo Alto, CA -> 3549:Tokyo, Japan 41.906115378052
+3549:Palo Alto, CA -> 3549:Washington, DC 19.5321255188175
+3549:Panama City, Panama -> 3549:Miami, FL 9.32056922707763
+3549:Panama City, Panama -> 3549:Santa Ana, CA 23.7094456133004
+3549:Paris, France -> 3549:Amsterdam, Netherlands 2.01525285021424
+3549:Paris, France -> 3549:Boston, MA 27.6311638571456
+3549:Paris, France -> 3549:Chicago, IL 33.2397701065739
+3549:Paris, France -> 3549:Copenhagen, Denmark 5.11875370269689
+3549:Paris, France -> 3549:Frankfurt, Germany 2.34012884016252
+3549:Paris, France -> 3549:London, UnitedKingdom 1.71246693397065
+3549:Paris, France -> 3549:Los Angeles, CA 45.4093076409131
+3549:Paris, France -> 3549:Madrid, Spain 5.25377044095577
+3549:Paris, France -> 3549:Milan, Italy 3.20129362158168
+3549:Paris, France -> 3549:New York, NY 29.1588945256645
+3549:Paris, France -> 3549:Palo Alto, CA 44.8175236101947
+3549:Paris, France -> 3549:San Francisco, CA 44.7573606756317
+3549:Paris, France -> 3549:Santa Ana, CA 45.4298539567553
+3549:Paris, France -> 3549:Seattle, WA 40.1722103705389
+3549:Paris, France -> 3549:Washington, DC 30.7859883557325
+3549:Paris, France -> 3549:Zurich, Switzerland 2.4455084125225
+3549:Philadelphia, PA -> 3549:Atlanta, GA 5.38755930854701
+3549:Philadelphia, PA -> 3549:Boston, MA 2.14857505949722
+3549:Philadelphia, PA -> 3549:Chicago, IL 5.3491117284948
+3549:Philadelphia, PA -> 3549:Copenhagen, Denmark 31.4931843702695
+3549:Philadelphia, PA -> 3549:Frankfurt, Germany 31.5984865595583
+3549:Philadelphia, PA -> 3549:London, UnitedKingdom 28.4583092639498
+3549:Philadelphia, PA -> 3549:Los Angeles, CA 19.27296065188
+3549:Philadelphia, PA -> 3549:Milan, Italy 32.9179703418344
+3549:Philadelphia, PA -> 3549:New York, NY 0.620583384672223
+3549:Philadelphia, PA -> 3549:Palo Alto, CA 20.1909862237356
+3549:Philadelphia, PA -> 3549:San Francisco, CA 20.2998046948592
+3549:Philadelphia, PA -> 3549:Santa Ana, CA 19.1230700315806
+3549:Philadelphia, PA -> 3549:Seattle, WA 19.0896785660613
+3549:Philadelphia, PA -> 3549:Washington, DC 1.00741082347545
+3549:Phoenix, AZ -> 3549:Amsterdam, Netherlands 43.6420434016178
+3549:Phoenix, AZ -> 3549:Boston, MA 18.4314405175688
+3549:Phoenix, AZ -> 3549:Chicago, IL 11.6351669582945
+3549:Phoenix, AZ -> 3549:Copenhagen, Denmark 43.9081591915888
+3549:Phoenix, AZ -> 3549:Dallas, TX 7.13022347450063
+3549:Phoenix, AZ -> 3549:Denver, CO 4.71855022803752
+3549:Phoenix, AZ -> 3549:London, UnitedKingdom 42.3390288738251
+3549:Phoenix, AZ -> 3549:Los Angeles, CA 2.94005274291922
+3549:Phoenix, AZ -> 3549:Milan, Italy 47.1189627113254
+3549:Phoenix, AZ -> 3549:New York, NY 17.184736870328
+3549:Phoenix, AZ -> 3549:Palo Alto, CA 5.0452689606652
+3549:Phoenix, AZ -> 3549:San Francisco, CA 5.2846294477827
+3549:Phoenix, AZ -> 3549:Santa Ana, CA 2.6851533658195
+3549:Phoenix, AZ -> 3549:Seattle, WA 8.92971964408383
+3549:Phoenix, AZ -> 3549:Tucson, AZ 0.902496652678034
+3549:Phoenix, AZ -> 3549:Washington, DC 15.8987822403206
+3549:Roachdale, IN -> 3549:Cleveland, OH 2.34147366798983
+3549:Rochester, NY -> 3549:Boston, MA 2.70452275789603
+3549:Rochester, NY -> 3549:Chicago, IL 4.17824965831485
+3549:Rochester, NY -> 3549:Copenhagen, Denmark 30.8951203563055
+3549:Rochester, NY -> 3549:London, UnitedKingdom 28.1512514564955
+3549:Rochester, NY -> 3549:Los Angeles, CA 18.2143010965483
+3549:Rochester, NY -> 3549:Milan, Italy 32.7329011501813
+3549:Rochester, NY -> 3549:New York, NY 2.01525033960335
+3549:Rochester, NY -> 3549:Palo Alto, CA 18.912741538161
+3549:Rochester, NY -> 3549:San Francisco, CA 19.0008060886041
+3549:Rochester, NY -> 3549:Santa Ana, CA 18.0926086834963
+3549:Rochester, NY -> 3549:Seattle, WA 17.3888011913789
+3549:Rochester, NY -> 3549:Washington, DC 2.38394912962654
+3549:Sacramento, CA -> 3549:Boston, MA 21.1075772142122
+3549:Sacramento, CA -> 3549:Chicago, IL 14.379523395025
+3549:Sacramento, CA -> 3549:Copenhagen, Denmark 43.2800769712654
+3549:Sacramento, CA -> 3549:London, UnitedKingdom 42.4573312053083
+3549:Sacramento, CA -> 3549:Los Angeles, CA 2.84864363952102
+3549:Sacramento, CA -> 3549:Milan, Italy 47.2227390124391
+3549:Sacramento, CA -> 3549:New York, NY 20.1014066858336
+3549:Sacramento, CA -> 3549:Palo Alto, CA 0.694034461214314
+3549:Sacramento, CA -> 3549:San Francisco, CA 0.640121114650093
+3549:Sacramento, CA -> 3549:San Jose, CA 0.714419239023442
+3549:Sacramento, CA -> 3549:Santa Ana, CA 3.14053987330046
+3549:Sacramento, CA -> 3549:Seattle, WA 5.03198520154489
+3549:Sacramento, CA -> 3549:Washington, DC 19.0869253442257
+3549:San Diego, CA -> 3549:Boston, MA 20.702970636782
+3549:San Diego, CA -> 3549:Chicago, IL 13.8786751988483
+3549:San Diego, CA -> 3549:Copenhagen, Denmark 45.345187798997
+3549:San Diego, CA -> 3549:London, UnitedKingdom 44.036210089046
+3549:San Diego, CA -> 3549:Los Angeles, CA 0.930875068217323
+3549:San Diego, CA -> 3549:Milan, Italy 48.8251855238203
+3549:San Diego, CA -> 3549:New York, NY 19.491370482797
+3549:San Diego, CA -> 3549:Palo Alto, CA 3.43877328018719
+3549:San Diego, CA -> 3549:San Francisco, CA 3.70002204887627
+3549:San Diego, CA -> 3549:Seattle, WA 8.51978747368999
+3549:San Diego, CA -> 3549:Washington, DC 18.2394468044859
+3549:San Francisco, CA -> 3549:Amsterdam, Netherlands 44.136156646504
+3549:San Francisco, CA -> 3549:Atlanta, GA 17.2177866349203
+3549:San Francisco, CA -> 3549:Birmingham, UnitedKingdom 42.3200027935877
+3549:San Francisco, CA -> 3549:Blackbush, UnitedKingdom 42.9821330841373
+3549:San Francisco, CA -> 3549:Boston, MA 21.7051140175425
+3549:San Francisco, CA -> 3549:Buenos Aires, Argentina 52.0369257434722
+3549:San Francisco, CA -> 3549:Chicago, IL 14.960010383025
+3549:San Francisco, CA -> 3549:Cleveland, OH 17.4382515867408
+3549:San Francisco, CA -> 3549:Copenhagen, Denmark 43.8739625653726
+3549:San Francisco, CA -> 3549:Dallas, TX 11.9855228230229
+3549:San Francisco, CA -> 3549:Denver, CO 7.72580873446228
+3549:San Francisco, CA -> 3549:Frankfurt, Germany 45.6793639182476
+3549:San Francisco, CA -> 3549:Hamburg, Germany 44.3958462191821
+3549:San Francisco, CA -> 3549:Hong Kong 55.426292526608
+3549:San Francisco, CA -> 3549:Houston, TX 13.2566655600974
+3549:San Francisco, CA -> 3549:Kansas City, MO 12.1581598341962
+3549:San Francisco, CA -> 3549:Leeds, UnitedKingdom 41.8421572094469
+3549:San Francisco, CA -> 3549:London, UnitedKingdom 43.0802583000777
+3549:San Francisco, CA -> 3549:Los Angeles, CA 2.76945681575568
+3549:San Francisco, CA -> 3549:Miami, FL 20.8890335250618
+3549:San Francisco, CA -> 3549:Milan, Italy 47.8433037926909
+3549:San Francisco, CA -> 3549:Minneapolis, MN 12.7660993275408
+3549:San Francisco, CA -> 3549:Nagoya, Japan 42.4620748305816
+3549:San Francisco, CA -> 3549:New York, NY 20.6843954593898
+3549:San Francisco, CA -> 3549:Osaka, Japan 43.1437280108543
+3549:San Francisco, CA -> 3549:Palo Alto, CA 0.261255074734326
+3549:San Francisco, CA -> 3549:Paris, France 44.7573606756317
+3549:San Francisco, CA -> 3549:Philadelphia, PA 20.2998046948592
+3549:San Francisco, CA -> 3549:Phoenix, AZ 5.2846294477827
+3549:San Francisco, CA -> 3549:Rochester, NY 19.0008060886041
+3549:San Francisco, CA -> 3549:Sacramento, CA 0.640121114650093
+3549:San Francisco, CA -> 3549:San Diego, CA 3.70002204887627
+3549:San Francisco, CA -> 3549:San Jose, CA 0.381420811600469
+3549:San Francisco, CA -> 3549:Santa Ana, CA 3.08000955163992
+3549:San Francisco, CA -> 3549:Sao Paolo, Brazil 52.1892470743481
+3549:San Francisco, CA -> 3549:Seattle, WA 5.46425584185052
+3549:San Francisco, CA -> 3549:Seoul, SouthKorea 45.0798867744711
+3549:San Francisco, CA -> 3549:Sunnyvale, CA 0.323328237108265
+3549:San Francisco, CA -> 3549:Taipei, Taiwan 51.7229120177382
+3549:San Francisco, CA -> 3549:Tokyo, Japan 41.6524449787285
+3549:San Francisco, CA -> 3549:Washington, DC 19.6506122689107
+3549:San Jose, CA -> 3549:Milan, Italy 47.9026082872128
+3549:San Jose, CA -> 3549:Sacramento, CA 0.714419239023442
+3549:San Jose, CA -> 3549:San Francisco, CA 0.381420811600469
+3549:Santa Ana, CA -> 3549:Amsterdam, Netherlands 44.9932231703006
+3549:Santa Ana, CA -> 3549:Anaheim, CA 0.0544337159300715
+3549:Santa Ana, CA -> 3549:Atlanta, GA 15.3845193166865
+3549:Santa Ana, CA -> 3549:Boston, MA 20.7577786795748
+3549:Santa Ana, CA -> 3549:Buenos Aires, Argentina 48.9618356982299
+3549:Santa Ana, CA -> 3549:Chicago, IL 13.924657069193
+3549:Santa Ana, CA -> 3549:Cleveland, OH 16.3607070086129
+3549:Santa Ana, CA -> 3549:Copenhagen, Denmark 45.0214180038109
+3549:Santa Ana, CA -> 3549:Dallas, TX 9.80790529053763
+3549:Santa Ana, CA -> 3549:Denver, CO 6.67446904934105
+3549:Santa Ana, CA -> 3549:Frankfurt, Germany 46.5507987407493
+3549:Santa Ana, CA -> 3549:Hamburg, Germany 45.4195318558876
+3549:Santa Ana, CA -> 3549:Hong Kong 58.4824000067647
+3549:Santa Ana, CA -> 3549:Houston, TX 10.8265480813346
+3549:Santa Ana, CA -> 3549:Kansas City, MO 10.8079314738952
+3549:Santa Ana, CA -> 3549:Las Vegas, NV 1.82069020946263
+3549:Santa Ana, CA -> 3549:London, UnitedKingdom 43.793577975818
+3549:Santa Ana, CA -> 3549:Los Angeles, CA 0.315105365306395
+3549:Santa Ana, CA -> 3549:Mexico City, Mexico 12.2101807710945
+3549:Santa Ana, CA -> 3549:Miami, FL 18.5938686393807
+3549:Santa Ana, CA -> 3549:Milan, Italy 48.5825180295793
+3549:Santa Ana, CA -> 3549:Minneapolis, MN 12.2019508598512
+3549:Santa Ana, CA -> 3549:New York, NY 19.577637214335
+3549:Santa Ana, CA -> 3549:Osaka, Japan 46.1701191023809
+3549:Santa Ana, CA -> 3549:Palo Alto, CA 2.8188066149626
+3549:Santa Ana, CA -> 3549:Panama City, Panama 23.7094456133004
+3549:Santa Ana, CA -> 3549:Paris, France 45.4298539567553
+3549:Santa Ana, CA -> 3549:Philadelphia, PA 19.1230700315806
+3549:Santa Ana, CA -> 3549:Phoenix, AZ 2.6851533658195
+3549:Santa Ana, CA -> 3549:Rochester, NY 18.0926086834963
+3549:Santa Ana, CA -> 3549:Sacramento, CA 3.14053987330046
+3549:Santa Ana, CA -> 3549:San Francisco, CA 3.08000955163992
+3549:Santa Ana, CA -> 3549:Sao Paolo, Brazil 49.2661027306995
+3549:Santa Ana, CA -> 3549:Seattle, WA 7.93174543208085
+3549:Santa Ana, CA -> 3549:Sydney, Australia 60.4298504659064
+3549:Santa Ana, CA -> 3549:Taipei, Taiwan 54.755652291099
+3549:Santa Ana, CA -> 3549:Tokyo, Japan 44.6580810898745
+3549:Santa Ana, CA -> 3549:Washington, DC 18.362479686644
+3549:Sao Paolo, Brazil -> 3549:Boston, MA 38.6998017258545
+3549:Sao Paolo, Brazil -> 3549:Chicago, IL 42.0027936660023
+3549:Sao Paolo, Brazil -> 3549:Copenhagen, Denmark 52.0592697192333
+3549:Sao Paolo, Brazil -> 3549:Frankfurt, Germany 49.0378139613856
+3549:Sao Paolo, Brazil -> 3549:London, UnitedKingdom 47.4576112891091
+3549:Sao Paolo, Brazil -> 3549:Los Angeles, CA 49.5772297469242
+3549:Sao Paolo, Brazil -> 3549:Milan, Italy 47.5702223492724
+3549:Sao Paolo, Brazil -> 3549:New York, NY 38.399083712149
+3549:Sao Paolo, Brazil -> 3549:Palo Alto, CA 51.9429589629485
+3549:Sao Paolo, Brazil -> 3549:San Francisco, CA 52.1892470743481
+3549:Sao Paolo, Brazil -> 3549:Santa Ana, CA 49.2661027306995
+3549:Sao Paolo, Brazil -> 3549:Seattle, WA 54.5624059556382
+3549:Sao Paolo, Brazil -> 3549:Washington, DC 38.118991952266
+3549:Seattle, WA -> 3549:Amsterdam, Netherlands 39.3778548307268
+3549:Seattle, WA -> 3549:Atlanta, GA 17.5143459791053
+3549:Seattle, WA -> 3549:Birmingham, UnitedKingdom 37.7295233886701
+3549:Seattle, WA -> 3549:Blackbush, UnitedKingdom 38.3996841815923
+3549:Seattle, WA -> 3549:Boston, MA 19.993175944005
+3549:Seattle, WA -> 3549:Buenos Aires, Argentina 55.6169749735884
+3549:Seattle, WA -> 3549:Chicago, IL 13.9413353089448
+3549:Seattle, WA -> 3549:Cleveland, OH 16.2545272881117
+3549:Seattle, WA -> 3549:Copenhagen, Denmark 38.8684695919106
+3549:Seattle, WA -> 3549:Dallas, TX 13.5297009811618
+3549:Seattle, WA -> 3549:Denver, CO 8.23946958515862
+3549:Seattle, WA -> 3549:Frankfurt, Germany 40.8959132963692
+3549:Seattle, WA -> 3549:Hamburg, Germany 39.487993179256
+3549:Seattle, WA -> 3549:Hong Kong 52.0613124915154
+3549:Seattle, WA -> 3549:Houston, TX 15.1947572412764
+3549:Seattle, WA -> 3549:Kansas City, MO 12.0984029953721
+3549:Seattle, WA -> 3549:Leeds, UnitedKingdom 37.1861457601408
+3549:Seattle, WA -> 3549:London, UnitedKingdom 38.4696116871562
+3549:Seattle, WA -> 3549:Los Angeles, CA 7.68872484627139
+3549:Seattle, WA -> 3549:Miami, FL 21.9693515292004
+3549:Seattle, WA -> 3549:Milan, Italy 43.1659102027254
+3549:Seattle, WA -> 3549:Minneapolis, MN 11.1944979526771
+3549:Seattle, WA -> 3549:Nagoya, Japan 39.5424282575228
+3549:Seattle, WA -> 3549:New York, NY 19.3209613118993
+3549:Seattle, WA -> 3549:Osaka, Japan 40.190875334387
+3549:Seattle, WA -> 3549:Palo Alto, CA 5.65399697685604
+3549:Seattle, WA -> 3549:Paris, France 40.1722103705389
+3549:Seattle, WA -> 3549:Philadelphia, PA 19.0896785660613
+3549:Seattle, WA -> 3549:Phoenix, AZ 8.92971964408383
+3549:Seattle, WA -> 3549:Rochester, NY 17.3888011913789
+3549:Seattle, WA -> 3549:Sacramento, CA 5.03198520154489
+3549:Seattle, WA -> 3549:San Diego, CA 8.51978747368999
+3549:Seattle, WA -> 3549:San Francisco, CA 5.46425584185052
+3549:Seattle, WA -> 3549:Santa Ana, CA 7.93174543208085
+3549:Seattle, WA -> 3549:Sao Paolo, Brazil 54.5624059556382
+3549:Seattle, WA -> 3549:Seoul, SouthKorea 41.586454458162
+3549:Seattle, WA -> 3549:Taipei, Taiwan 48.6175254655555
+3549:Seattle, WA -> 3549:Tokyo, Japan 38.8771697463987
+3549:Seattle, WA -> 3549:Washington, DC 18.6918595751372
+3549:Seoul, SouthKorea -> 3549:Boston, MA 54.6858523870822
+3549:Seoul, SouthKorea -> 3549:Chicago, IL 52.5367813029884
+3549:Seoul, SouthKorea -> 3549:Copenhagen, Denmark 39.6953417538177
+3549:Seoul, SouthKorea -> 3549:Dallas, TX 54.8562793963793
+3549:Seoul, SouthKorea -> 3549:Frankfurt, Germany 42.7920001411581
+3549:Seoul, SouthKorea -> 3549:London, UnitedKingdom 44.2515799289507
+3549:Seoul, SouthKorea -> 3549:Los Angeles, CA 47.8383764810155
+3549:Seoul, SouthKorea -> 3549:Milan, Italy 44.3866523994281
+3549:Seoul, SouthKorea -> 3549:New York, NY 55.2375800487253
+3549:Seoul, SouthKorea -> 3549:Palo Alto, CA 45.3400780578157
+3549:Seoul, SouthKorea -> 3549:San Francisco, CA 45.0798867744711
+3549:Seoul, SouthKorea -> 3549:Seattle, WA 41.586454458162
+3549:Seoul, SouthKorea -> 3549:Tokyo, Japan 5.82920134598124
+3549:Seoul, SouthKorea -> 3549:Washington, DC 55.8034946817644
+3549:Singapore -> 3549:Hong Kong 12.915469710535
+3549:Sunnyvale, CA -> 3549:Boston, MA 21.5788966745425
+3549:Sunnyvale, CA -> 3549:Chicago, IL 14.8158519174366
+3549:Sunnyvale, CA -> 3549:London, UnitedKingdom 43.1408102208973
+3549:Sunnyvale, CA -> 3549:Los Angeles, CA 2.44667549882439
+3549:Sunnyvale, CA -> 3549:Milan, Italy 47.908644706945
+3549:Sunnyvale, CA -> 3549:New York, NY 20.5412439160309
+3549:Sunnyvale, CA -> 3549:Palo Alto, CA 0.0641339826459877
+3549:Sunnyvale, CA -> 3549:San Francisco, CA 0.323328237108265
+3549:Sunnyvale, CA -> 3549:Washington, DC 19.4885076728611
+3549:Sydney, Australia -> 3549:Auckland, NewZealand 10.7861523674496
+3549:Sydney, Australia -> 3549:Santa Ana, CA 60.4298504659064
+3549:Sydney, Australia -> 3549:Tokyo, Japan 38.6332013684815
+3549:Taipei, Taiwan -> 3549:Boston, MA 62.0083525162337
+3549:Taipei, Taiwan -> 3549:Chicago, IL 59.9356660517554
+3549:Taipei, Taiwan -> 3549:Copenhagen, Denmark 44.1381637093221
+3549:Taipei, Taiwan -> 3549:Dallas, TX 62.033397522208
+3549:Taipei, Taiwan -> 3549:Frankfurt, Germany 46.8942879174224
+3549:Taipei, Taiwan -> 3549:London, UnitedKingdom 48.8568683169969
+3549:Taipei, Taiwan -> 3549:Los Angeles, CA 54.4405827762869
+3549:Taipei, Taiwan -> 3549:Manila, Philippines 5.82139512676565
+3549:Taipei, Taiwan -> 3549:Milan, Italy 48.0666159426358
+3549:Taipei, Taiwan -> 3549:New York, NY 62.6049293925977
+3549:Taipei, Taiwan -> 3549:Palo Alto, CA 51.9792733883556
+3549:Taipei, Taiwan -> 3549:San Francisco, CA 51.7229120177382
+3549:Taipei, Taiwan -> 3549:Santa Ana, CA 54.755652291099
+3549:Taipei, Taiwan -> 3549:Seattle, WA 48.6175254655555
+3549:Taipei, Taiwan -> 3549:Tokyo, Japan 10.1835162102325
+3549:Taipei, Taiwan -> 3549:Washington, DC 63.2015262347788
+3549:Tampa, FL -> 3549:Atlanta, GA 3.35395232434651
+3549:Tampa, FL -> 3549:Houston, TX 6.36254081342179
+3549:Tampa, FL -> 3549:Miami, FL 1.65248982374511
+3549:Tokyo, Japan -> 3549:Amsterdam, Netherlands 46.9451982219303
+3549:Tokyo, Japan -> 3549:Boston, MA 54.4384121175228
+3549:Tokyo, Japan -> 3549:Chicago, IL 51.1508518835743
+3549:Tokyo, Japan -> 3549:Copenhagen, Denmark 43.852185841165
+3549:Tokyo, Japan -> 3549:Dallas, TX 52.4007450226075
+3549:Tokyo, Japan -> 3549:Frankfurt, Germany 47.1104348927669
+3549:Tokyo, Japan -> 3549:Hong Kong 14.1254042821176
+3549:Tokyo, Japan -> 3549:London, UnitedKingdom 48.1934863386829
+3549:Tokyo, Japan -> 3549:Los Angeles, CA 44.3434837672523
+3549:Tokyo, Japan -> 3549:Milan, Italy 48.9288696029279
+3549:Tokyo, Japan -> 3549:New York, NY 54.7189289138994
+3549:Tokyo, Japan -> 3549:Palo Alto, CA 41.906115378052
+3549:Tokyo, Japan -> 3549:San Francisco, CA 41.6524449787285
+3549:Tokyo, Japan -> 3549:Santa Ana, CA 44.6580810898745
+3549:Tokyo, Japan -> 3549:Seattle, WA 38.8771697463987
+3549:Tokyo, Japan -> 3549:Seoul, SouthKorea 5.82920134598124
+3549:Tokyo, Japan -> 3549:Sydney, Australia 38.6332013684815
+3549:Tokyo, Japan -> 3549:Taipei, Taiwan 10.1835162102325
+3549:Tokyo, Japan -> 3549:Washington, DC 54.9955742888178
+3549:Tucson, AZ -> 3549:Houston, TX 7.52028537321198
+3549:Tucson, AZ -> 3549:Phoenix, AZ 0.902496652678034
+3549:Washington, DC -> 3549:Amsterdam, Netherlands 31.1416562118511
+3549:Washington, DC -> 3549:Ashburn, VA 0.225316255475169
+3549:Washington, DC -> 3549:Atlanta, GA 4.38018878263173
+3549:Washington, DC -> 3549:Birmingham, UnitedKingdom 28.7154376820448
+3549:Washington, DC -> 3549:Blackbush, UnitedKingdom 29.2419952635059
+3549:Washington, DC -> 3549:Boston, MA 3.15550474307128
+3549:Washington, DC -> 3549:Buenos Aires, Argentina 41.9380966356737
+3549:Washington, DC -> 3549:Chicago, IL 4.79269864527852
+3549:Washington, DC -> 3549:Cleveland, OH 2.46048098729345
+3549:Washington, DC -> 3549:Copenhagen, Denmark 32.4827492980019
+3549:Washington, DC -> 3549:Dallas, TX 9.49836499313979
+3549:Washington, DC -> 3549:Denver, CO 11.9373254278376
+3549:Washington, DC -> 3549:Frankfurt, Germany 32.6040058370753
+3549:Washington, DC -> 3549:Hamburg, Germany 32.255255283917
+3549:Washington, DC -> 3549:Hong Kong 65.5425166001429
+3549:Washington, DC -> 3549:Houston, TX 9.81518726240613
+3549:Washington, DC -> 3549:Kansas City, MO 7.56638412849038
+3549:Washington, DC -> 3549:Leeds, UnitedKingdom 28.6427743843662
+3549:Washington, DC -> 3549:London, UnitedKingdom 29.4645463284345
+3549:Washington, DC -> 3549:Los Angeles, CA 18.5226753489951
+3549:Washington, DC -> 3549:Miami, FL 7.44426393180017
+3549:Washington, DC -> 3549:Milan, Italy 33.9252207063578
+3549:Washington, DC -> 3549:Minneapolis, MN 7.50419086797768
+3549:Washington, DC -> 3549:Nagoya, Japan 55.3241865722669
+3549:Washington, DC -> 3549:New York, NY 1.62733364571067
+3549:Washington, DC -> 3549:Osaka, Japan 55.8538335872576
+3549:Washington, DC -> 3549:Palo Alto, CA 19.5321255188175
+3549:Washington, DC -> 3549:Paris, France 30.7859883557325
+3549:Washington, DC -> 3549:Philadelphia, PA 1.00741082347545
+3549:Washington, DC -> 3549:Phoenix, AZ 15.8987822403206
+3549:Washington, DC -> 3549:Rochester, NY 2.38394912962654
+3549:Washington, DC -> 3549:Sacramento, CA 19.0869253442257
+3549:Washington, DC -> 3549:San Diego, CA 18.2394468044859
+3549:Washington, DC -> 3549:San Francisco, CA 19.6506122689107
+3549:Washington, DC -> 3549:Santa Ana, CA 18.362479686644
+3549:Washington, DC -> 3549:Sao Paolo, Brazil 38.118991952266
+3549:Washington, DC -> 3549:Seattle, WA 18.6918595751372
+3549:Washington, DC -> 3549:Seoul, SouthKorea 55.8034946817644
+3549:Washington, DC -> 3549:Sunnyvale, CA 19.4885076728611
+3549:Washington, DC -> 3549:Taipei, Taiwan 63.2015262347788
+3549:Washington, DC -> 3549:Tokyo, Japan 54.9955742888178
+3549:Zurich, Switzerland -> 3549:Frankfurt, Germany 1.47245906075377
+3549:Zurich, Switzerland -> 3549:Milan, Italy 1.07711497718376
+3549:Zurich, Switzerland -> 3549:Paris, France 2.4455084125225

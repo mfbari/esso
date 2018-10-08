@@ -1,0 +1,40 @@
+2497:Ariake, Japan -> 2497:Milan, Italy 4
+2497:Ariake, Japan -> 2497:New York, NY 74
+2497:Ariake, Japan -> 2497:Osaka, Japan 4748
+2497:Ariake, Japan -> 2497:Palo Alto, CA 749
+2497:Ariake, Japan -> 2497:San Jose, CA 777
+2497:Ariake, Japan -> 2497:Tokyo, Japan 3179
+2497:Ashburn, VA -> 2497:Los Angeles, CA 3891
+2497:Los Angeles, CA -> 2497:Ashburn, VA 3891
+2497:Los Angeles, CA -> 2497:New York, NY 4
+2497:Los Angeles, CA -> 2497:Osaka, Japan 6997
+2497:Los Angeles, CA -> 2497:San Jose, CA 55
+2497:Los Angeles, CA -> 2497:Washington, DC 2023
+2497:Milan, Italy -> 2497:Ariake, Japan 4
+2497:Milan, Italy -> 2497:Tokyo, Japan 4
+2497:New York, NY -> 2497:Ariake, Japan 74
+2497:New York, NY -> 2497:Los Angeles, CA 4
+2497:New York, NY -> 2497:Osaka, Japan 103
+2497:New York, NY -> 2497:Palo Alto, CA 323
+2497:New York, NY -> 2497:Tokyo, Japan 278
+2497:Osaka, Japan -> 2497:Ariake, Japan 4748
+2497:Osaka, Japan -> 2497:Los Angeles, CA 6997
+2497:Osaka, Japan -> 2497:New York, NY 103
+2497:Osaka, Japan -> 2497:Palo Alto, CA 1237
+2497:Osaka, Japan -> 2497:San Jose, CA 826
+2497:Palo Alto, CA -> 2497:Ariake, Japan 749
+2497:Palo Alto, CA -> 2497:New York, NY 323
+2497:Palo Alto, CA -> 2497:Osaka, Japan 1237
+2497:Palo Alto, CA -> 2497:San Jose, CA 15
+2497:Palo Alto, CA -> 2497:Tokyo, Japan 2357
+2497:San Jose, CA -> 2497:Ariake, Japan 777
+2497:San Jose, CA -> 2497:Los Angeles, CA 55
+2497:San Jose, CA -> 2497:Osaka, Japan 826
+2497:San Jose, CA -> 2497:Palo Alto, CA 15
+2497:San Jose, CA -> 2497:Tokyo, Japan 1385
+2497:Tokyo, Japan -> 2497:Ariake, Japan 3179
+2497:Tokyo, Japan -> 2497:Milan, Italy 4
+2497:Tokyo, Japan -> 2497:New York, NY 278
+2497:Tokyo, Japan -> 2497:Palo Alto, CA 2357
+2497:Tokyo, Japan -> 2497:San Jose, CA 1385
+2497:Washington, DC -> 2497:Los Angeles, CA 2023

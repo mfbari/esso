@@ -1,0 +1,108 @@
+6395:Anaheim, CA -> 6395:Hayward, CA 1141
+6395:Anaheim, CA -> 6395:Los Angeles, CA 594
+6395:Atlanta, GA -> 6395:Dallas, TX 2059
+6395:Atlanta, GA -> 6395:Fort Worth, TX 5259
+6395:Atlanta, GA -> 6395:Kansas City, MO 379
+6395:Atlanta, GA -> 6395:New York, NY 334
+6395:Atlanta, GA -> 6395:Vienna, VA 2
+6395:Atlanta, GA -> 6395:Washington, DC 10485
+6395:Baltimore, MD -> 6395:Washington, DC 408
+6395:Boston, MA -> 6395:New York, NY 214
+6395:Boston, MA -> 6395:Washington, DC 27
+6395:Buffalo, NY -> 6395:Newark, NJ 6471
+6395:Buffalo, NY -> 6395:Washington, DC 13697
+6395:Chicago, IL -> 6395:Cincinnati, OH 124
+6395:Chicago, IL -> 6395:Denver, CO 8
+6395:Chicago, IL -> 6395:Kansas City, MO 10329
+6395:Chicago, IL -> 6395:New York, NY 3481
+6395:Chicago, IL -> 6395:Salt Lake City, UT 212
+6395:Cincinnati, OH -> 6395:Chicago, IL 124
+6395:Cincinnati, OH -> 6395:Kansas City, MO 141
+6395:Cincinnati, OH -> 6395:New York, NY 1074
+6395:Cincinnati, OH -> 6395:Washington, DC 78
+6395:Dallas, TX -> 6395:Atlanta, GA 2059
+6395:Dallas, TX -> 6395:Fort Worth, TX 9357
+6395:Denver, CO -> 6395:Chicago, IL 8
+6395:Denver, CO -> 6395:Salt Lake City, UT 14
+6395:Fort Worth, TX -> 6395:Atlanta, GA 5259
+6395:Fort Worth, TX -> 6395:Dallas, TX 9357
+6395:Fort Worth, TX -> 6395:Hayward, CA 3684
+6395:Fort Worth, TX -> 6395:Kansas City, MO 4625
+6395:Fort Worth, TX -> 6395:Phoenix, AZ 167
+6395:Fort Worth, TX -> 6395:Salt Lake City, UT 1764
+6395:Hayward, CA -> 6395:Anaheim, CA 1141
+6395:Hayward, CA -> 6395:Fort Worth, TX 3684
+6395:Hayward, CA -> 6395:Kansas City, MO 418
+6395:Hayward, CA -> 6395:Los Angeles, CA 319
+6395:Hayward, CA -> 6395:New York, NY 1687
+6395:Hayward, CA -> 6395:Phoenix, AZ 135
+6395:Hayward, CA -> 6395:Salt Lake City, UT 1120
+6395:Hayward, CA -> 6395:San Francisco, CA 2232
+6395:Hayward, CA -> 6395:San Jose, CA 5884
+6395:Hayward, CA -> 6395:Santa Clara, CA 6118
+6395:Hayward, CA -> 6395:Seattle, WA 26
+6395:Hayward, CA -> 6395:Washington, DC 10095
+6395:Kansas City, MO -> 6395:Atlanta, GA 379
+6395:Kansas City, MO -> 6395:Chicago, IL 10329
+6395:Kansas City, MO -> 6395:Cincinnati, OH 141
+6395:Kansas City, MO -> 6395:Fort Worth, TX 4625
+6395:Kansas City, MO -> 6395:Hayward, CA 418
+6395:Kansas City, MO -> 6395:New York, NY 2614
+6395:Kansas City, MO -> 6395:Phoenix, AZ 27
+6395:Kansas City, MO -> 6395:Salt Lake City, UT 906
+6395:Kansas City, MO -> 6395:Washington, DC 823
+6395:Los Angeles, CA -> 6395:Anaheim, CA 594
+6395:Los Angeles, CA -> 6395:Hayward, CA 319
+6395:Los Angeles, CA -> 6395:Salt Lake City, UT 4427
+6395:New York, NY -> 6395:Atlanta, GA 334
+6395:New York, NY -> 6395:Boston, MA 214
+6395:New York, NY -> 6395:Chicago, IL 3481
+6395:New York, NY -> 6395:Cincinnati, OH 1074
+6395:New York, NY -> 6395:Hayward, CA 1687
+6395:New York, NY -> 6395:Kansas City, MO 2614
+6395:New York, NY -> 6395:Newark, NJ 21060
+6395:New York, NY -> 6395:Salt Lake City, UT 1997
+6395:New York, NY -> 6395:Washington, DC 44294
+6395:Newark, NJ -> 6395:Buffalo, NY 6471
+6395:Newark, NJ -> 6395:New York, NY 21060
+6395:Newark, NJ -> 6395:Rochester, NY 3
+6395:Newark, NJ -> 6395:Vienna, VA 3
+6395:Newark, NJ -> 6395:Washington, DC 2679
+6395:Phoenix, AZ -> 6395:Fort Worth, TX 167
+6395:Phoenix, AZ -> 6395:Hayward, CA 135
+6395:Phoenix, AZ -> 6395:Kansas City, MO 27
+6395:Relay, MD -> 6395:Washington, DC 11307
+6395:Rochester, NY -> 6395:Newark, NJ 3
+6395:Rochester, NY -> 6395:Washington, DC 11
+6395:Salt Lake City, UT -> 6395:Chicago, IL 212
+6395:Salt Lake City, UT -> 6395:Denver, CO 14
+6395:Salt Lake City, UT -> 6395:Fort Worth, TX 1764
+6395:Salt Lake City, UT -> 6395:Hayward, CA 1120
+6395:Salt Lake City, UT -> 6395:Kansas City, MO 906
+6395:Salt Lake City, UT -> 6395:Los Angeles, CA 4427
+6395:Salt Lake City, UT -> 6395:New York, NY 1997
+6395:Salt Lake City, UT -> 6395:Santa Clara, CA 147
+6395:Salt Lake City, UT -> 6395:Seattle, WA 168
+6395:Salt Lake City, UT -> 6395:Washington, DC 265
+6395:San Francisco, CA -> 6395:Hayward, CA 2232
+6395:San Jose, CA -> 6395:Hayward, CA 5884
+6395:San Jose, CA -> 6395:Santa Clara, CA 1709
+6395:Santa Clara, CA -> 6395:Hayward, CA 6118
+6395:Santa Clara, CA -> 6395:Salt Lake City, UT 147
+6395:Santa Clara, CA -> 6395:San Jose, CA 1709
+6395:Seattle, WA -> 6395:Hayward, CA 26
+6395:Seattle, WA -> 6395:Salt Lake City, UT 168
+6395:Vienna, VA -> 6395:Atlanta, GA 2
+6395:Vienna, VA -> 6395:Newark, NJ 3
+6395:Washington, DC -> 6395:Atlanta, GA 10485
+6395:Washington, DC -> 6395:Baltimore, MD 408
+6395:Washington, DC -> 6395:Boston, MA 27
+6395:Washington, DC -> 6395:Buffalo, NY 13697
+6395:Washington, DC -> 6395:Cincinnati, OH 78
+6395:Washington, DC -> 6395:Hayward, CA 10095
+6395:Washington, DC -> 6395:Kansas City, MO 823
+6395:Washington, DC -> 6395:New York, NY 44294
+6395:Washington, DC -> 6395:Newark, NJ 2679
+6395:Washington, DC -> 6395:Relay, MD 11307
+6395:Washington, DC -> 6395:Rochester, NY 11
+6395:Washington, DC -> 6395:Salt Lake City, UT 265

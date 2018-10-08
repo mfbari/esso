@@ -1,0 +1,156 @@
+174:Dallas, TX -> 174:Boston, MA 11.8984
+174:Dallas, TX -> 174:San Francisco, CA 11.9855
+174:Dallas, TX -> 174:Chicago, IL 6.43761
+174:Dallas, TX -> 174:Los Angeles, CA 10.21604
+174:Dallas, TX -> 174:Atlanta, GA 6.37966
+174:Dallas, TX -> 174:New York, NY 11.0009
+174:Dallas, TX -> 174:Washington, DC 9.49836
+174:Antwerp, Netherlands -> 174:London, UnitedKingdom 2.03857
+174:Antwerp, Netherlands -> 174:Zurich, Switzerland 2.794
+174:Antwerp, Netherlands -> 174:Paris, France 2.01525
+174:Antwerp, Netherlands -> 174:New York, NY 29.36435
+174:Dublin, Ireland -> 174:London, UnitedKingdom 2.32934
+174:Munich, Germany -> 174:Berlin, Germany 2.51316
+174:Ashburn, VA -> 174:Washington, DC 0.225316
+174:Chicago, IL -> 174:Dallas, TX 6.43761
+174:Chicago, IL -> 174:San Francisco, CA 15.1515
+174:Chicago, IL -> 174:Los Angeles, CA 14.73
+174:Chicago, IL -> 174:Atlanta, GA 4.71811
+174:Chicago, IL -> 174:New York, NY 5.991
+174:Chicago, IL -> 174:Albany, NY 5.72486
+174:Chicago, IL -> 174:San Jose, CA 15.6515
+174:Chicago, IL -> 174:Washington, DC 4.7927
+174:Atlanta, GA -> 174:Dallas, TX 6.37966
+174:Atlanta, GA -> 174:San Francisco, CA 17.2178
+174:Atlanta, GA -> 174:Chicago, IL 4.71811
+174:Atlanta, GA -> 174:Los Angeles, CA 15.5957
+174:Atlanta, GA -> 174:New York, NY 6.00743
+174:Atlanta, GA -> 174:Washington, DC 4.38019
+174:Geneva, Switzerland -> 174:London, UnitedKingdom 3.70272
+174:Geneva, Switzerland -> 174:Zurich, Switzerland 1.12985
+174:Geneva, Switzerland -> 174:New York, NY 31.0285
+174:Hamburg, Germany -> 174:Frankfurt, Germany 2.03574
+174:Bedford, MA -> 174:Boston, MA 100000
+174:Paris, France -> 174:Antwerp, Netherlands 2.01525
+174:Boston, MA -> 174:Bedford, MA 100000
+174:Boston, MA -> 174:Dallas, TX 11.8984
+174:Boston, MA -> 174:Albany, NY 1.16364
+174:Boston, MA -> 174:San Jose, CA 21.54
+174:Boston, MA -> 174:New York, NY 1.8975
+174:Cityreach, UnitedKingdom -> 174:London, UnitedKingdom 0
+174:San Francisco, CA -> 174:Dallas, TX 11.9855
+174:San Francisco, CA -> 174:San Jose, CA 0.5
+174:San Francisco, CA -> 174:Chicago, IL 15.1515
+174:San Francisco, CA -> 174:Los Angeles, CA 2.76946
+174:San Francisco, CA -> 174:Atlanta, GA 17.2178
+174:San Francisco, CA -> 174:New York, NY 20.1425
+174:San Francisco, CA -> 174:Washington, DC 18.9442
+174:Santa Ana, CA -> 174:Los Angeles, CA 0.315105
+174:Birmingham, UnitedKingdom -> 174:London, UnitedKingdom 0.779261
+174:New York, NY -> 174:Dallas, TX 11.0009
+174:New York, NY -> 174:Antwerp, Netherlands 29.36435
+174:New York, NY -> 174:Chicago, IL 5.991
+174:New York, NY -> 174:Los Angeles, CA 19.721
+174:New York, NY -> 174:Atlanta, GA 6.00743
+174:New York, NY -> 174:Geneva, Switzerland 31.0285
+174:New York, NY -> 174:Frankfurt, Germany 29.7887
+174:New York, NY -> 174:Westchester, NY 0.0969057
+174:New York, NY -> 174:San Jose, CA 20.6425
+174:New York, NY -> 174:Washington, DC 3.62724
+174:New York, NY -> 174:Boston, MA 1.8975
+174:New York, NY -> 174:San Francisco, CA 20.1425
+174:New York, NY -> 174:Berlin, Germany 31.95023
+174:New York, NY -> 174:Brussels, Belgium 29.4237
+174:New York, NY -> 174:Amsterdam, Netherlands 29.5172
+174:New York, NY -> 174:London, UnitedKingdom 28.63187
+174:New York, NY -> 174:Newark, NJ 0.0710685
+174:New York, NY -> 174:Budapest, Hungary 35.10617
+174:Brussels, Belgium -> 174:London, UnitedKingdom 1.79183
+174:Brussels, Belgium -> 174:New York, NY 29.4237
+174:Brussels, Belgium -> 174:Luxembourg, Luxembourg 0.949637
+174:Detroit, MI -> 174:Pontiac, MI 0.170411
+174:Innsbruck, Austria -> 174:Vienna, Austria 1.95574
+174:Zaragoza, Spain -> 174:Barcelona, Spain 1.34495
+174:Cologne, Germany -> 174:Koeln, Germany 8.29717
+174:Cologne, Germany -> 174:Frankfurt, Germany 8.85562
+174:Dusseldorf, Germany -> 174:Frankfurt, Germany 0.944468
+174:Barcelona, Spain -> 174:London, UnitedKingdom 5.68255
+174:Barcelona, Spain -> 174:Amsterdam, Netherlands 4.79722
+174:Barcelona, Spain -> 174:Zaragoza, Spain 1.34495
+174:Vienna, Austria -> 174:London, UnitedKingdom 6.16286
+174:Vienna, Austria -> 174:Innsbruck, Austria 1.95574
+174:Vienna, Austria -> 174:Frankfurt, Germany 3.00603
+174:Los Angeles, CA -> 174:Dallas, TX 10.21604
+174:Los Angeles, CA -> 174:San Francisco, CA 2.76946
+174:Los Angeles, CA -> 174:Santa Ana, CA 0.315105
+174:Los Angeles, CA -> 174:Chicago, IL 14.73
+174:Los Angeles, CA -> 174:Atlanta, GA 15.5957
+174:Los Angeles, CA -> 174:New York, NY 19.721
+174:Los Angeles, CA -> 174:San Jose, CA 3.26946
+174:Los Angeles, CA -> 174:Washington, DC 18.5227
+174:Frankfurt, Germany -> 174:London, UnitedKingdom 3.15683
+174:Frankfurt, Germany -> 174:Hamburg, Germany 2.03574
+174:Frankfurt, Germany -> 174:Dusseldorf, Germany 0.944468
+174:Frankfurt, Germany -> 174:Vienna, Austria 3.00603
+174:Frankfurt, Germany -> 174:Cologne, Germany 8.85562
+174:Frankfurt, Germany -> 174:Berlin, Germany 2.16153
+174:Frankfurt, Germany -> 174:New York, NY 29.7887
+174:Stuttgart, Germany -> 174:Berlin, Germany 2.5157
+174:Albany, NY -> 174:Boston, MA 1.16364
+174:Albany, NY -> 174:Chicago, IL 5.72486
+174:Westchester, NY -> 174:New York, NY 0.0969057
+174:Pontiac, MI -> 174:Detroit, MI 0.170411
+174:San Jose, CA -> 174:Boston, MA 21.54
+174:San Jose, CA -> 174:San Francisco, CA 0.5
+174:San Jose, CA -> 174:Chicago, IL 15.6515
+174:San Jose, CA -> 174:Los Angeles, CA 3.26946
+174:San Jose, CA -> 174:New York, NY 20.6425
+174:San Jose, CA -> 174:Washington, DC 19.4442
+174:Reading, UnitedKingdom -> 174:London, UnitedKingdom 0.309937
+174:Luxembourg, Luxembourg -> 174:Brussels, Belgium 0.949637
+174:Washington, DC -> 174:Dallas, TX 9.49836
+174:Washington, DC -> 174:San Francisco, CA 18.9442
+174:Washington, DC -> 174:San Jose, CA 19.4442
+174:Washington, DC -> 174:Chicago, IL 4.7927
+174:Washington, DC -> 174:Ashburn, VA 0.225316
+174:Washington, DC -> 174:Los Angeles, CA 18.5227
+174:Washington, DC -> 174:Atlanta, GA 4.38019
+174:Washington, DC -> 174:New York, NY 3.62724
+174:Basel, Switzerland -> 174:Zurich, Switzerland 0.36668
+174:Cambridge, UnitedKingdom -> 174:London, UnitedKingdom 0.376595
+174:Berlin, Germany -> 174:London, UnitedKingdom 4.31836
+174:Berlin, Germany -> 174:Amsterdam, Netherlands 3.43303
+174:Berlin, Germany -> 174:Stuttgart, Germany 2.5157
+174:Berlin, Germany -> 174:Munich, Germany 2.51316
+174:Berlin, Germany -> 174:New York, NY 31.95023
+174:Berlin, Germany -> 174:Frankfurt, Germany 2.16153
+174:Koeln, Germany -> 174:Cologne, Germany 8.29717
+174:London, UnitedKingdom -> 174:Antwerp, Netherlands 2.03857
+174:London, UnitedKingdom -> 174:Cityreach, UnitedKingdom 0
+174:London, UnitedKingdom -> 174:Cambridge, UnitedKingdom 0.376595
+174:London, UnitedKingdom -> 174:Dublin, Ireland 2.32934
+174:London, UnitedKingdom -> 174:Barcelona, Spain 5.68255
+174:London, UnitedKingdom -> 174:Vienna, Austria 6.16286
+174:London, UnitedKingdom -> 174:Birmingham, UnitedKingdom 0.779261
+174:London, UnitedKingdom -> 174:Berlin, Germany 4.31836
+174:London, UnitedKingdom -> 174:New York, NY 28.63187
+174:London, UnitedKingdom -> 174:Geneva, Switzerland 3.70272
+174:London, UnitedKingdom -> 174:Frankfurt, Germany 3.15683
+174:London, UnitedKingdom -> 174:Amsterdam, Netherlands 1.88533
+174:London, UnitedKingdom -> 174:Brussels, Belgium 1.79183
+174:London, UnitedKingdom -> 174:Reading, UnitedKingdom 0.309937
+174:London, UnitedKingdom -> 174:Edinburgh, UnitedKingdom 2.66206
+174:London, UnitedKingdom -> 174:Budapest, Hungary 7.4743
+174:Amsterdam, Netherlands -> 174:London, UnitedKingdom 1.88533
+174:Amsterdam, Netherlands -> 174:Barcelona, Spain 4.79722
+174:Amsterdam, Netherlands -> 174:Berlin, Germany 3.43303
+174:Amsterdam, Netherlands -> 174:New York, NY 29.5172
+174:Amsterdam, Netherlands -> 174:Budapest, Hungary 5.58897
+174:Newark, NJ -> 174:New York, NY 0.0710685
+174:Zurich, Switzerland -> 174:Basel, Switzerland 0.36668
+174:Zurich, Switzerland -> 174:Antwerp, Netherlands 2.794
+174:Zurich, Switzerland -> 174:Geneva, Switzerland 1.12985
+174:Edinburgh, UnitedKingdom -> 174:London, UnitedKingdom 2.66206
+174:Budapest, Hungary -> 174:London, UnitedKingdom 7.4743
+174:Budapest, Hungary -> 174:Amsterdam, Netherlands 5.58897
+174:Budapest, Hungary -> 174:New York, NY 35.10617

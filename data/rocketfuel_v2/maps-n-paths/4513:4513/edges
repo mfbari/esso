@@ -1,0 +1,26 @@
+4513:Amsterdam, Netherlands -> 4513:London, UnitedKingdom 5
+4513:Atlanta, GA -> 4513:Washington, DC 1212
+4513:Boston, MA -> 4513:New York, NY 81
+4513:Chicago, IL -> 4513:New York, NY 6215
+4513:Chicago, IL -> 4513:San Jose, CA 5661
+4513:Frankfurt, Germany -> 4513:London, UnitedKingdom 79
+4513:Fullerton, CA -> 4513:San Jose, CA 1253
+4513:Fullerton, CA -> 4513:Washington, DC 1193
+4513:London, UnitedKingdom -> 4513:Amsterdam, Netherlands 5
+4513:London, UnitedKingdom -> 4513:Frankfurt, Germany 79
+4513:London, UnitedKingdom -> 4513:New York, NY 2855
+4513:New York, NY -> 4513:Boston, MA 81
+4513:New York, NY -> 4513:Chicago, IL 6215
+4513:New York, NY -> 4513:London, UnitedKingdom 2855
+4513:New York, NY -> 4513:Washington, DC 1830
+4513:Palo Alto, CA -> 4513:San Jose, CA 4993
+4513:San Francisco, CA -> 4513:San Jose, CA 50
+4513:San Jose, CA -> 4513:Chicago, IL 5661
+4513:San Jose, CA -> 4513:Fullerton, CA 1253
+4513:San Jose, CA -> 4513:Palo Alto, CA 4993
+4513:San Jose, CA -> 4513:San Francisco, CA 50
+4513:San Jose, CA -> 4513:Seattle, WA 4116
+4513:Seattle, WA -> 4513:San Jose, CA 4116
+4513:Washington, DC -> 4513:Atlanta, GA 1212
+4513:Washington, DC -> 4513:Fullerton, CA 1193
+4513:Washington, DC -> 4513:New York, NY 1830

@@ -1,0 +1,120 @@
+7170:Alexandria, VA -> 7170:Chicago, IL 5
+7170:Alexandria, VA -> 7170:San Jose, CA 8
+7170:Alexandria, VA -> 7170:Seattle, WA 31
+7170:Annapolis, MD -> 7170:Cambridge, MA 24
+7170:Annapolis, MD -> 7170:Chicago, IL 6
+7170:Annapolis, MD -> 7170:Seattle, WA 23
+7170:Annapolis, MD -> 7170:Washington, DC 15
+7170:Arlington, VA -> 7170:Chicago, IL 20
+7170:Arlington, VA -> 7170:San Jose, CA 22
+7170:Arlington, VA -> 7170:Seattle, WA 102
+7170:Arlington, VA -> 7170:Washington, DC 7
+7170:Atlanta, GA -> 7170:Cambridge, MA 240
+7170:Atlanta, GA -> 7170:Chicago, IL 71
+7170:Atlanta, GA -> 7170:Dahlgren, VA 138
+7170:Atlanta, GA -> 7170:Denver, CO 72
+7170:Atlanta, GA -> 7170:Los Angeles, CA 70
+7170:Atlanta, GA -> 7170:Milan, Italy 3
+7170:Atlanta, GA -> 7170:Norfolk, VA 30
+7170:Atlanta, GA -> 7170:San Jose, CA 23
+7170:Atlanta, GA -> 7170:Seattle, WA 109
+7170:Atlanta, GA -> 7170:Washington, DC 261
+7170:Cambridge, MA -> 7170:Annapolis, MD 24
+7170:Cambridge, MA -> 7170:Atlanta, GA 240
+7170:Cambridge, MA -> 7170:Chicago, IL 11
+7170:Cambridge, MA -> 7170:Denver, CO 292
+7170:Cambridge, MA -> 7170:Los Angeles, CA 381
+7170:Cambridge, MA -> 7170:New Orleans, LA 239
+7170:Cambridge, MA -> 7170:Salisbury, MD 68
+7170:Cambridge, MA -> 7170:Washington, DC 843
+7170:Charleston, SC -> 7170:Chicago, IL 22
+7170:Charleston, SC -> 7170:San Jose, CA 34
+7170:Charleston, SC -> 7170:Seattle, WA 71
+7170:Chicago, IL -> 7170:Alexandria, VA 5
+7170:Chicago, IL -> 7170:Annapolis, MD 6
+7170:Chicago, IL -> 7170:Arlington, VA 20
+7170:Chicago, IL -> 7170:Atlanta, GA 71
+7170:Chicago, IL -> 7170:Cambridge, MA 11
+7170:Chicago, IL -> 7170:Charleston, SC 22
+7170:Chicago, IL -> 7170:China Lake, CA 7
+7170:Chicago, IL -> 7170:Dahlgren, VA 14
+7170:Chicago, IL -> 7170:Denver, CO 8
+7170:Chicago, IL -> 7170:Los Angeles, CA 2
+7170:Chicago, IL -> 7170:New Orleans, LA 48
+7170:Chicago, IL -> 7170:Norfolk, VA 29
+7170:Chicago, IL -> 7170:Salisbury, MD 16
+7170:Chicago, IL -> 7170:Seattle, WA 18
+7170:China Lake, CA -> 7170:Chicago, IL 7
+7170:China Lake, CA -> 7170:Denver, CO 16
+7170:China Lake, CA -> 7170:Los Angeles, CA 45
+7170:China Lake, CA -> 7170:San Jose, CA 15
+7170:China Lake, CA -> 7170:Seattle, WA 45
+7170:Dahlgren, VA -> 7170:Atlanta, GA 138
+7170:Dahlgren, VA -> 7170:Chicago, IL 14
+7170:Dahlgren, VA -> 7170:Seattle, WA 81
+7170:Denver, CO -> 7170:Atlanta, GA 72
+7170:Denver, CO -> 7170:Cambridge, MA 292
+7170:Denver, CO -> 7170:Chicago, IL 8
+7170:Denver, CO -> 7170:China Lake, CA 16
+7170:Denver, CO -> 7170:Los Angeles, CA 5
+7170:Denver, CO -> 7170:San Jose, CA 86
+7170:Denver, CO -> 7170:Seattle, WA 329
+7170:Denver, CO -> 7170:Washington, DC 287
+7170:Los Angeles, CA -> 7170:Atlanta, GA 70
+7170:Los Angeles, CA -> 7170:Cambridge, MA 381
+7170:Los Angeles, CA -> 7170:Chicago, IL 2
+7170:Los Angeles, CA -> 7170:China Lake, CA 45
+7170:Los Angeles, CA -> 7170:Denver, CO 5
+7170:Los Angeles, CA -> 7170:New Orleans, LA 3
+7170:Los Angeles, CA -> 7170:San Jose, CA 102
+7170:Los Angeles, CA -> 7170:Seattle, WA 392
+7170:Los Angeles, CA -> 7170:Washington, DC 365
+7170:Milan, Italy -> 7170:Atlanta, GA 3
+7170:Milan, Italy -> 7170:Seattle, WA 2
+7170:New Orleans, LA -> 7170:Cambridge, MA 239
+7170:New Orleans, LA -> 7170:Chicago, IL 48
+7170:New Orleans, LA -> 7170:Los Angeles, CA 3
+7170:New Orleans, LA -> 7170:San Jose, CA 2
+7170:New Orleans, LA -> 7170:Seattle, WA 25
+7170:New Orleans, LA -> 7170:Washington, DC 272
+7170:Norfolk, VA -> 7170:Atlanta, GA 30
+7170:Norfolk, VA -> 7170:Chicago, IL 29
+7170:Norfolk, VA -> 7170:San Jose, CA 28
+7170:Norfolk, VA -> 7170:Seattle, WA 147
+7170:Salisbury, MD -> 7170:Cambridge, MA 68
+7170:Salisbury, MD -> 7170:Chicago, IL 16
+7170:Salisbury, MD -> 7170:Seattle, WA 80
+7170:Salisbury, MD -> 7170:Washington, DC 60
+7170:San Jose, CA -> 7170:Alexandria, VA 8
+7170:San Jose, CA -> 7170:Arlington, VA 22
+7170:San Jose, CA -> 7170:Atlanta, GA 23
+7170:San Jose, CA -> 7170:Charleston, SC 34
+7170:San Jose, CA -> 7170:China Lake, CA 15
+7170:San Jose, CA -> 7170:Denver, CO 86
+7170:San Jose, CA -> 7170:Los Angeles, CA 102
+7170:San Jose, CA -> 7170:New Orleans, LA 2
+7170:San Jose, CA -> 7170:Norfolk, VA 28
+7170:San Jose, CA -> 7170:Seattle, WA 27
+7170:Seattle, WA -> 7170:Alexandria, VA 31
+7170:Seattle, WA -> 7170:Annapolis, MD 23
+7170:Seattle, WA -> 7170:Arlington, VA 102
+7170:Seattle, WA -> 7170:Atlanta, GA 109
+7170:Seattle, WA -> 7170:Charleston, SC 71
+7170:Seattle, WA -> 7170:Chicago, IL 18
+7170:Seattle, WA -> 7170:China Lake, CA 45
+7170:Seattle, WA -> 7170:Dahlgren, VA 81
+7170:Seattle, WA -> 7170:Denver, CO 329
+7170:Seattle, WA -> 7170:Los Angeles, CA 392
+7170:Seattle, WA -> 7170:Milan, Italy 2
+7170:Seattle, WA -> 7170:New Orleans, LA 25
+7170:Seattle, WA -> 7170:Norfolk, VA 147
+7170:Seattle, WA -> 7170:Salisbury, MD 80
+7170:Seattle, WA -> 7170:San Jose, CA 27
+7170:Washington, DC -> 7170:Annapolis, MD 15
+7170:Washington, DC -> 7170:Arlington, VA 7
+7170:Washington, DC -> 7170:Atlanta, GA 261
+7170:Washington, DC -> 7170:Cambridge, MA 843
+7170:Washington, DC -> 7170:Denver, CO 287
+7170:Washington, DC -> 7170:Los Angeles, CA 365
+7170:Washington, DC -> 7170:New Orleans, LA 272
+7170:Washington, DC -> 7170:Salisbury, MD 60

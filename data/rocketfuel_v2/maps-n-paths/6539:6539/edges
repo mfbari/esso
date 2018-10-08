@@ -1,0 +1,26 @@
+6539:Calgary, Canada -> 6539:Toronto, Canada 1556
+6539:Calgary, Canada -> 6539:Vancouver, Canada 10386
+6539:Halifax, Canada -> 6539:Montreal, Canada 1034
+6539:Halifax, Canada -> 6539:Saint Johns, Canada 701
+6539:Halifax, Canada -> 6539:Seattle, WA 40
+6539:Halifax, Canada -> 6539:Toronto, Canada 391
+6539:Halifax, Canada -> 6539:Vancouver, Canada 58
+6539:Montreal, Canada -> 6539:Halifax, Canada 1034
+6539:Montreal, Canada -> 6539:Saint Johns, Canada 543
+6539:Montreal, Canada -> 6539:Seattle, WA 174
+6539:Montreal, Canada -> 6539:Toronto, Canada 1172
+6539:Montreal, Canada -> 6539:Vancouver, Canada 126
+6539:Saint Johns, Canada -> 6539:Halifax, Canada 701
+6539:Saint Johns, Canada -> 6539:Montreal, Canada 543
+6539:Seattle, WA -> 6539:Halifax, Canada 40
+6539:Seattle, WA -> 6539:Montreal, Canada 174
+6539:Seattle, WA -> 6539:Vancouver, Canada 445
+6539:Toronto, Canada -> 6539:Calgary, Canada 1556
+6539:Toronto, Canada -> 6539:Halifax, Canada 391
+6539:Toronto, Canada -> 6539:Montreal, Canada 1172
+6539:Toronto, Canada -> 6539:Vancouver, Canada 565
+6539:Vancouver, Canada -> 6539:Calgary, Canada 10386
+6539:Vancouver, Canada -> 6539:Halifax, Canada 58
+6539:Vancouver, Canada -> 6539:Montreal, Canada 126
+6539:Vancouver, Canada -> 6539:Seattle, WA 445
+6539:Vancouver, Canada -> 6539:Toronto, Canada 565

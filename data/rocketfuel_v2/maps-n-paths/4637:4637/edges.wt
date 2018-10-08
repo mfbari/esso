@@ -1,0 +1,114 @@
+4637:Auckland, NewZealand -> 4637:Los Angeles, CA 71.2524
+4637:Auckland, NewZealand -> 4637:Sydney, Australia 2
+4637:Miami, FL -> 4637:Ashburn, VA 7.48039
+4637:Miami, FL -> 4637:Relay, MD 7.6503
+4637:Miami, FL -> 4637:Washington, DC 7.44426
+4637:Miami, FL -> 4637:Dallas, TX 99996.715
+4637:car -> 4637:tmhs 100001.5
+4637:car -> 4637:hhts 100000
+4637:Newark, NJ -> 4637:Ashburn, VA 1.19509
+4637:Newark, NJ -> 4637:Relay, MD 1.365
+4637:Newark, NJ -> 4637:xeig 100000
+4637:Newark, NJ -> 4637:Washington, DC 1.15896
+4637:hhts -> 4637:Los Angeles, CA 74.2524
+4637:hhts -> 4637:London, UnitedKingdom 100081.3
+4637:hhts -> 4637:tmhs 1.5
+4637:hhts -> 4637:hht 99999.5
+4637:hhts -> 4637:Sydney, Australia 3
+4637:hhts -> 4637:car 100000
+4637:hhts -> 4637:San Francisco, CA 100000
+4637:hhts -> 4637:tmh 100001.5
+4637:hhts -> 4637:Perth, Australia 1
+4637:hhts -> 4637:Palo Alto, CA 73.7524
+4637:Chicago, IL -> 4637:San Jose, CA 9.5457
+4637:Chicago, IL -> 4637:xeig 0.5
+4637:Chicago, IL -> 4637:New York, NY 100000.5
+4637:Chicago, IL -> 4637:Dallas, TX 3.5
+4637:tmhs -> 4637:San Jose, CA 72.7524
+4637:tmhs -> 4637:Los Angeles, CA 74.7524
+4637:tmhs -> 4637:yck 200000
+4637:tmhs -> 4637:hht 100000
+4637:tmhs -> 4637:Sydney, Australia 2.5
+4637:tmhs -> 4637:hhts 1.5
+4637:tmhs -> 4637:car 100001.5
+4637:tmhs -> 4637:San Francisco, CA 99999.5
+4637:tmhs -> 4637:tmh 100000
+4637:tmhs -> 4637:Palo Alto, CA 73.2524
+4637:Hong Kong -> 4637:Tokyo, Japan 31.9324
+4637:Hong Kong -> 4637:Sydney, Australia 0.5
+4637:Relay, MD -> 4637:Miami, FL 7.6503
+4637:Relay, MD -> 4637:Newark, NJ 1.365
+4637:New York, NY -> 4637:xeig 100000
+4637:New York, NY -> 4637:Chicago, IL 100000.5
+4637:Anaheim, CA -> 4637:Los Angeles, CA 0.5
+4637:Anaheim, CA -> 4637:Sydney, Australia 72.7524
+4637:xeig -> 4637:New York, NY 100000
+4637:xeig -> 4637:Newark, NJ 100000
+4637:xeig -> 4637:London, UnitedKingdom 100000
+4637:xeig -> 4637:Chicago, IL 0.5
+4637:tmh -> 4637:yck 100000
+4637:tmh -> 4637:tmhs 100000
+4637:tmh -> 4637:hht 1
+4637:tmh -> 4637:hhts 100001.5
+4637:San Francisco, CA -> 4637:San Jose, CA 99926.748
+4637:San Francisco, CA -> 4637:tmhs 99999.5
+4637:San Francisco, CA -> 4637:hhts 100000
+4637:San Jose, CA -> 4637:Los Angeles, CA 5
+4637:San Jose, CA -> 4637:Kyoto, Japan 43.32
+4637:San Jose, CA -> 4637:tmhs 72.7524
+4637:San Jose, CA -> 4637:Tokyo, Japan 42.82
+4637:San Jose, CA -> 4637:Sydney, Australia 74.2524
+4637:San Jose, CA -> 4637:San Francisco, CA 99926.748
+4637:San Jose, CA -> 4637:Palo Alto, CA 0.5
+4637:San Jose, CA -> 4637:Chicago, IL 9.5457
+4637:London, UnitedKingdom -> 4637:xeig 100000
+4637:London, UnitedKingdom -> 4637:hhts 100081.3
+4637:Palo Alto, CA -> 4637:San Jose, CA 0.5
+4637:Palo Alto, CA -> 4637:Los Angeles, CA 4.5
+4637:Palo Alto, CA -> 4637:tmhs 73.2524
+4637:Palo Alto, CA -> 4637:Sydney, Australia 74.7524
+4637:Palo Alto, CA -> 4637:hhts 73.7524
+4637:Palo Alto, CA -> 4637:Perth, Australia 73.7524
+4637:Sydney, Australia -> 4637:San Jose, CA 74.2524
+4637:Sydney, Australia -> 4637:Auckland, NewZealand 2
+4637:Sydney, Australia -> 4637:Los Angeles, CA 72.2524
+4637:Sydney, Australia -> 4637:tmhs 2.5
+4637:Sydney, Australia -> 4637:Hong Kong 0.5
+4637:Sydney, Australia -> 4637:Perth, Australia 3
+4637:Sydney, Australia -> 4637:Palo Alto, CA 74.7524
+4637:Sydney, Australia -> 4637:Anaheim, CA 72.7524
+4637:Sydney, Australia -> 4637:hhts 3
+4637:Kyoto, Japan -> 4637:San Jose, CA 43.32
+4637:Kyoto, Japan -> 4637:Tokyo, Japan 0.5
+4637:yck -> 4637:tmhs 200000
+4637:yck -> 4637:hht 100000
+4637:yck -> 4637:tmh 100000
+4637:Tokyo, Japan -> 4637:San Jose, CA 42.82
+4637:Tokyo, Japan -> 4637:Los Angeles, CA 40.82
+4637:Tokyo, Japan -> 4637:Kyoto, Japan 0.5
+4637:Tokyo, Japan -> 4637:Hong Kong 31.9324
+4637:Ashburn, VA -> 4637:Miami, FL 7.48039
+4637:Ashburn, VA -> 4637:Newark, NJ 1.19509
+4637:Los Angeles, CA -> 4637:San Jose, CA 5
+4637:Los Angeles, CA -> 4637:Auckland, NewZealand 71.2524
+4637:Los Angeles, CA -> 4637:tmhs 74.7524
+4637:Los Angeles, CA -> 4637:Tokyo, Japan 40.82
+4637:Los Angeles, CA -> 4637:Dallas, TX 10.0457
+4637:Los Angeles, CA -> 4637:Perth, Australia 74.2524
+4637:Los Angeles, CA -> 4637:Palo Alto, CA 4.5
+4637:Los Angeles, CA -> 4637:Anaheim, CA 0.5
+4637:Los Angeles, CA -> 4637:Sydney, Australia 72.2524
+4637:Los Angeles, CA -> 4637:hhts 74.2524
+4637:Dallas, TX -> 4637:Miami, FL 99996.715
+4637:Dallas, TX -> 4637:Los Angeles, CA 10.0457
+4637:Dallas, TX -> 4637:Chicago, IL 3.5
+4637:Perth, Australia -> 4637:Los Angeles, CA 74.2524
+4637:Perth, Australia -> 4637:Sydney, Australia 3
+4637:Perth, Australia -> 4637:hhts 1
+4637:Perth, Australia -> 4637:Palo Alto, CA 73.7524
+4637:Washington, DC -> 4637:Miami, FL 7.44426
+4637:Washington, DC -> 4637:Newark, NJ 1.15896
+4637:hht -> 4637:yck 100000
+4637:hht -> 4637:tmhs 100000
+4637:hht -> 4637:hhts 99999.5
+4637:hht -> 4637:tmh 1

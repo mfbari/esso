@@ -290,6 +290,7 @@ int main(int argc, char **argv) {
 
     IloExprArray co_powers(env, ds.co_count);
     IloExpr backbone_power(env);
+    IloExpr total_brown_power(env), total_green_power(env);
     for (int _c = 0; _c < ds.co_count; ++_c) {
       //IloExpr co_power(env);
       co_powers[_c] = IloExpr(env);
@@ -318,8 +319,12 @@ int main(int argc, char **argv) {
                      0.0043 * cap_1g_inf[_l]; 
         }
       }
-      objective += ds.carbon_per_watt[_c] * IloMax(0, co_powers[_c] - 
-          ds.renewable_energy[_c][timeslot]);
+      IloExpr brown_power(env);
+      brown_power = IloMax(0, co_powers[_c] - 
+          ds.renewable_energy[_c][timeslot]); 
+      total_brown_power += brown_power;
+      total_green_power += co_powers[_c] - brown_power;
+      objective += ds.carbon_per_watt[_c] * brown_power;
     }
     // add power for backbone links
     // no green energy is considered here
@@ -327,8 +332,13 @@ int main(int argc, char **argv) {
       backbone_power += 0.0012 * cap_0_1g[_l] +
                  0.0043 * cap_1g_inf[_l]; 
     }
+    total_brown_power += backbone_power;
     objective += 1.12 * backbone_power; //carbon_per_watt for backbone 1.12
 
+    if (current_cost > 0) {
+      model.add(objective <= (1 - migration_threshold) * current_cost);
+    }
+    
     /*Objective --> model*/
     model.add(objective >= 0);
     model.add(IloMinimize(env, objective));
@@ -347,6 +357,7 @@ int main(int argc, char **argv) {
 
     if(!cplex.solve()) {
       //timer.stop();
+      /*
       if (cplex.getStatus() == IloAlgorithm::Infeasible) {
         cout << "404 " << sfc << endl;
       }
@@ -355,6 +366,9 @@ int main(int argc, char **argv) {
         cerr << "status: " << cplex.getStatus() << endl;
       }
       throw(-1);
+      */
+      cout << "404 " << sfc << endl;
+      return 0;
     }
 
     double time = ctimer.time();
@@ -391,7 +405,8 @@ int main(int argc, char **argv) {
       copy(path_nodes.begin(), path_nodes.end(),
           ostream_iterator<int>(cout, " "));
     }
-    cout << time << endl;
+    cout << time << " " << cplex.getValue(total_brown_power) << 
+      " " << cplex.getValue(total_green_power) << endl;
 
     // print per co cost
     /*

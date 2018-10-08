@@ -1,0 +1,438 @@
+701:Albuquerque, NM -> 701:Dallas, TX 4.72639082904732
+701:Alexandria, VA -> 701:Washington, DC 0.0567553571512788
+701:Anaheim, CA -> 701:Phoenix, AZ 2.70810040111643
+701:Ashburn, VA -> 701:New York, NY 1.75053383532763
+701:Ashburn, VA -> 701:Washington, DC 0.225316255475169
+701:Atlanta, GA -> 701:Calgary, Canada 15.3323848563631
+701:Atlanta, GA -> 701:Chicago, IL 4.71810812635976
+701:Atlanta, GA -> 701:Dallas, TX 5.75137875158028
+701:Atlanta, GA -> 701:Houston, TX 5.6298814446364
+701:Atlanta, GA -> 701:Jacksonville, FL 2.30230902274313
+701:Atlanta, GA -> 701:Los Angeles, CA 15.5956600742354
+701:Atlanta, GA -> 701:Miami, FL 4.87595735153362
+701:Atlanta, GA -> 701:Montreal, Canada 7.99536375441909
+701:Atlanta, GA -> 701:New Orleans, LA 3.30920241966361
+701:Atlanta, GA -> 701:New York, NY 6.00743024175476
+701:Atlanta, GA -> 701:Orlando, FL 3.23558877686677
+701:Atlanta, GA -> 701:Portland, OR 17.4196812564722
+701:Atlanta, GA -> 701:Sacramento, CA 16.7313622273439
+701:Atlanta, GA -> 701:Saint Louis, MO 3.74855255257849
+701:Atlanta, GA -> 701:Salt Lake City, UT 12.7097389467991
+701:Atlanta, GA -> 701:Santa Clara, CA 16.9805122698195
+701:Atlanta, GA -> 701:Seattle, WA 17.5143459791053
+701:Atlanta, GA -> 701:Toronto, Canada 5.92599892048915
+701:Atlanta, GA -> 701:Vancouver, Canada 17.9967069766244
+701:Atlanta, GA -> 701:Washington, DC 4.38018878263173
+701:Austin, TX -> 701:Dallas, TX 1.45877351431596
+701:Austin, TX -> 701:Houston, TX 1.17633330140073
+701:Baltimore, MD -> 701:Washington, DC 0.281322687176047
+701:Boston, MA -> 701:Farmingdale, NJ 1.76822877129424
+701:Boston, MA -> 701:Hartford, CT 0.747443455416426
+701:Boston, MA -> 701:New York, NY 1.52818775993091
+701:Buffalo, NY -> 701:New York, NY 2.35086963279073
+701:Burbank, CA -> 701:Los Angeles, CA 0.0601057321085238
+701:Calgary, Canada -> 701:Atlanta, GA 15.3323848563631
+701:Calgary, Canada -> 701:Chicago, IL 11.252475595133
+701:Calgary, Canada -> 701:Dallas, TX 12.3570861237559
+701:Calgary, Canada -> 701:Edmonton, Canada 1.40476322288213
+701:Calgary, Canada -> 701:Houston, TX 14.1385151342549
+701:Calgary, Canada -> 701:Los Angeles, CA 9.577784875343
+701:Calgary, Canada -> 701:New York, NY 16.2919263033417
+701:Calgary, Canada -> 701:Portland, OR 4.40197691447734
+701:Calgary, Canada -> 701:Regina, Canada 3.33372686086895
+701:Calgary, Canada -> 701:Sacramento, CA 7.50889267219727
+701:Calgary, Canada -> 701:Saint Louis, MO 11.5838460740416
+701:Calgary, Canada -> 701:Salt Lake City, UT 5.77406943712779
+701:Calgary, Canada -> 701:Santa Clara, CA 8.22289411202125
+701:Calgary, Canada -> 701:Seattle, WA 3.54622119361288
+701:Calgary, Canada -> 701:Vancouver, Canada 3.36227637339117
+701:Calgary, Canada -> 701:Washington, DC 15.8460421583365
+701:Calgary, Canada -> 701:Winnipeg, Canada 6.01032098873542
+701:Carrollton, TX -> 701:Dallas, TX 0.114973409205073
+701:Charlotte, NC -> 701:Raleigh, NC 1.04455456166962
+701:Cheyenne, WY -> 701:Chicago, IL 7.13002155731012
+701:Chicago, IL -> 701:Atlanta, GA 4.71810812635976
+701:Chicago, IL -> 701:Calgary, Canada 11.252475595133
+701:Chicago, IL -> 701:Cheyenne, WY 7.13002155731012
+701:Chicago, IL -> 701:Cleveland, OH 2.47832477920296
+701:Chicago, IL -> 701:Columbus, OH 2.21649503462653
+701:Chicago, IL -> 701:Dallas, TX 6.43760504337832
+701:Chicago, IL -> 701:Detroit, MI 1.89714357641037
+701:Chicago, IL -> 701:Houston, TX 7.55619251202906
+701:Chicago, IL -> 701:Indianapolis, ID 10.8520963933392
+701:Chicago, IL -> 701:Indianapolis, IN 1.31580076013171
+701:Chicago, IL -> 701:Los Angeles, CA 14.0526484629278
+701:Chicago, IL -> 701:Minneapolis, MN 2.85501508977803
+701:Chicago, IL -> 701:Montreal, Canada 6.00222462528161
+701:Chicago, IL -> 701:New York, NY 5.72539765160039
+701:Chicago, IL -> 701:Portland, OR 14.0955362554105
+701:Chicago, IL -> 701:Sacramento, CA 14.379523395025
+701:Chicago, IL -> 701:Saint Louis, MO 2.09175251062512
+701:Chicago, IL -> 701:Santa Clara, CA 14.8016488559537
+701:Chicago, IL -> 701:Seattle, WA 13.9413353089448
+701:Chicago, IL -> 701:St Louis, MO 2.09610867496233
+701:Chicago, IL -> 701:Toronto, Canada 3.52496412161527
+701:Chicago, IL -> 701:Vancouver, Canada 14.2525814427402
+701:Chicago, IL -> 701:Washington, DC 4.79269864527852
+701:Cleveland, OH -> 701:Chicago, IL 2.47832477920296
+701:Cleveland, OH -> 701:Detroit, MI 0.754422048450058
+701:Columbus, OH -> 701:Chicago, IL 2.21649503462653
+701:Columbus, OH -> 701:Indianapolis, ID 13.0385425526433
+701:Columbus, OH -> 701:Indianapolis, IN 1.35893126151679
+701:Dallas, TX -> 701:Albuquerque, NM 4.72639082904732
+701:Dallas, TX -> 701:Atlanta, GA 5.75137875158028
+701:Dallas, TX -> 701:Austin, TX 1.45877351431596
+701:Dallas, TX -> 701:Calgary, Canada 12.3570861237559
+701:Dallas, TX -> 701:Carrollton, TX 0.114973409205073
+701:Dallas, TX -> 701:Chicago, IL 6.43760504337832
+701:Dallas, TX -> 701:Houston, TX 1.79734274874247
+701:Dallas, TX -> 701:Los Angeles, CA 10.0456672433203
+701:Dallas, TX -> 701:Montreal, Canada 12.1638831579491
+701:Dallas, TX -> 701:New Orleans, LA 3.57736641480122
+701:Dallas, TX -> 701:New York, NY 11.0009242092306
+701:Dallas, TX -> 701:Portland, OR 13.1265206356876
+701:Dallas, TX -> 701:Sacramento, CA 11.582016414369
+701:Dallas, TX -> 701:Saint Louis, MO 4.38806354614214
+701:Dallas, TX -> 701:Salt Lake City, UT 8.0588108384029
+701:Dallas, TX -> 701:San Antonio, TX 2.0304558691511
+701:Dallas, TX -> 701:Santa Clara, CA 11.7075770478765
+701:Dallas, TX -> 701:Seattle, WA 13.5297009811618
+701:Dallas, TX -> 701:Toronto, Canada 9.66817120621256
+701:Dallas, TX -> 701:Vancouver, Canada 14.2241252572767
+701:Dallas, TX -> 701:Washington, DC 9.49836499313979
+701:Dayton, OH -> 701:Indianapolis, ID 12.603938430143
+701:Dayton, OH -> 701:Indianapolis, IN 0.843364279030902
+701:Denver, CO -> 701:Kansas City, MO 4.43904533913298
+701:Denver, CO -> 701:Phoenix, AZ 4.71855022803752
+701:Denver, CO -> 701:Saint Louis, MO 6.34055200842884
+701:Denver, CO -> 701:Salt Lake City, UT 3.03927743798862
+701:Detroit, MI -> 701:Chicago, IL 1.89714357641037
+701:Detroit, MI -> 701:Cleveland, OH 0.754422048450058
+701:Edmonton, Canada -> 701:Calgary, Canada 1.40476322288213
+701:Edmonton, Canada -> 701:Vancouver, Canada 4.09924879725225
+701:Farmingdale, NJ -> 701:Boston, MA 1.76822877129424
+701:Farmingdale, NJ -> 701:New York, NY 0.295806369104554
+701:Greensboro, NC -> 701:Raleigh, NC 0.533086693128193
+701:Greensboro, NC -> 701:Washington, DC 1.99566142506829
+701:Halifax, Canada -> 701:Montreal, Canada 3.93645550738428
+701:Hamilton, Canada -> 701:Toronto, Canada 0.302648704352747
+701:Hartford, CT -> 701:Boston, MA 0.747443455416426
+701:Hartford, CT -> 701:New York, NY 0.802792522556184
+701:Hayward, CA -> 701:Sacramento, CA 0.56855614300765
+701:Honolulu, HI -> 701:Sacramento, CA 19.7550797633374
+701:Houston, TX -> 701:Atlanta, GA 5.6298814446364
+701:Houston, TX -> 701:Austin, TX 1.17633330140073
+701:Houston, TX -> 701:Calgary, Canada 14.1385151342549
+701:Houston, TX -> 701:Chicago, IL 7.55619251202906
+701:Houston, TX -> 701:Dallas, TX 1.79734274874247
+701:Houston, TX -> 701:Los Angeles, CA 11.0914798639502
+701:Houston, TX -> 701:New Orleans, LA 2.63735820936562
+701:Houston, TX -> 701:New York, NY 11.4027441257575
+701:Houston, TX -> 701:Portland, OR 14.7329354782789
+701:Houston, TX -> 701:Sacramento, CA 12.9062667777647
+701:Houston, TX -> 701:Salt Lake City, UT 9.64609623609381
+701:Houston, TX -> 701:San Antonio, TX 1.51577808645583
+701:Houston, TX -> 701:Santa Clara, CA 12.957497303603
+701:Houston, TX -> 701:Seattle, WA 15.1947572412764
+701:Houston, TX -> 701:Vancouver, Canada 15.9182940212386
+701:Houston, TX -> 701:Washington, DC 9.81518726240613
+701:Indianapolis, ID -> 701:Chicago, IL 10.8520963933392
+701:Indianapolis, ID -> 701:Columbus, OH 13.0385425526433
+701:Indianapolis, ID -> 701:Dayton, OH 12.603938430143
+701:Indianapolis, IN -> 701:Chicago, IL 1.31580076013171
+701:Indianapolis, IN -> 701:Columbus, OH 1.35893126151679
+701:Indianapolis, IN -> 701:Dayton, OH 0.843364279030902
+701:Indianapolis, IN -> 701:Roachdale, IN 0.276384305658571
+701:Jacksonville, FL -> 701:Atlanta, GA 2.30230902274313
+701:Kansas City, MO -> 701:Denver, CO 4.43904533913298
+701:Kansas City, MO -> 701:Saint Louis, MO 1.90173969390865
+701:Kansas City, MO -> 701:Salt Lake City, UT 7.44230789246274
+701:Kansas City, MO -> 701:Santa Clara, CA 11.9604772788171
+701:Kirkland, WA -> 701:Portland, OR 1.20779646445934
+701:Kirkland, WA -> 701:Seattle, WA 0.0725518185273687
+701:Las Vegas, NV -> 701:Los Angeles, CA 1.85801368545196
+701:London, Canada -> 701:London, UnitedKingdom 29.3630015719432
+701:London, Canada -> 701:Toronto, Canada 0.844626536352842
+701:London, UnitedKingdom -> 701:London, Canada 29.3630015719432
+701:London, UnitedKingdom -> 701:Toronto, Canada 28.5377808008974
+701:Los Angeles, CA -> 701:Atlanta, GA 15.5956600742354
+701:Los Angeles, CA -> 701:Burbank, CA 0.0601057321085238
+701:Los Angeles, CA -> 701:Calgary, Canada 9.577784875343
+701:Los Angeles, CA -> 701:Chicago, IL 14.0526484629278
+701:Los Angeles, CA -> 701:Dallas, TX 10.0456672433203
+701:Los Angeles, CA -> 701:Houston, TX 11.0914798639502
+701:Los Angeles, CA -> 701:Las Vegas, NV 1.85801368545196
+701:Los Angeles, CA -> 701:Montreal, Canada 19.8693115883818
+701:Los Angeles, CA -> 701:New York, NY 19.7210147124792
+701:Los Angeles, CA -> 701:Phoenix, AZ 2.94005274291922
+701:Los Angeles, CA -> 701:Portland, OR 6.60391289813038
+701:Los Angeles, CA -> 701:Sacramento, CA 2.84864363952102
+701:Los Angeles, CA -> 701:Saint Louis, MO 12.8133031824199
+701:Los Angeles, CA -> 701:Salt Lake City, UT 4.67700418361009
+701:Los Angeles, CA -> 701:San Diego, CA 0.930875068217323
+701:Los Angeles, CA -> 701:Santa Clara, CA 2.41808124152145
+701:Los Angeles, CA -> 701:Seattle, WA 7.68872484627139
+701:Los Angeles, CA -> 701:Toronto, Canada 17.5177182304494
+701:Los Angeles, CA -> 701:Vancouver, Canada 8.64684859093796
+701:Los Angeles, CA -> 701:Washington, DC 18.5226753489951
+701:Memphis, TN -> 701:Saint Louis, MO 1.9331000323608
+701:Miami, FL -> 701:Atlanta, GA 4.87595735153362
+701:Minneapolis, MN -> 701:Chicago, IL 2.85501508977803
+701:Montreal, Canada -> 701:Atlanta, GA 7.99536375441909
+701:Montreal, Canada -> 701:Chicago, IL 6.00222462528161
+701:Montreal, Canada -> 701:Dallas, TX 12.1638831579491
+701:Montreal, Canada -> 701:Halifax, Canada 3.93645550738428
+701:Montreal, Canada -> 701:Los Angeles, CA 19.8693115883818
+701:Montreal, Canada -> 701:New York, NY 2.66507712286384
+701:Montreal, Canada -> 701:Ottawa, Canada 0.832690451912977
+701:Montreal, Canada -> 701:Portland, OR 18.8026262074886
+701:Montreal, Canada -> 701:Quebec, Canada 1.1474880133731
+701:Montreal, Canada -> 701:Sacramento, CA 19.8430165697863
+701:Montreal, Canada -> 701:Salt Lake City, UT 15.6182351714686
+701:Montreal, Canada -> 701:Seattle, WA 18.3654269062992
+701:Montreal, Canada -> 701:Vancouver, Canada 18.4211910947875
+701:Montreal, Canada -> 701:Washington, DC 3.92899644807211
+701:New Orleans, LA -> 701:Atlanta, GA 3.30920241966361
+701:New Orleans, LA -> 701:Dallas, TX 3.57736641480122
+701:New Orleans, LA -> 701:Houston, TX 2.63735820936562
+701:New York, NY -> 701:Ashburn, VA 1.75053383532763
+701:New York, NY -> 701:Atlanta, GA 6.00743024175476
+701:New York, NY -> 701:Boston, MA 1.52818775993091
+701:New York, NY -> 701:Buffalo, NY 2.35086963279073
+701:New York, NY -> 701:Calgary, Canada 16.2919263033417
+701:New York, NY -> 701:Chicago, IL 5.72539765160039
+701:New York, NY -> 701:Dallas, TX 11.0009242092306
+701:New York, NY -> 701:Farmingdale, NJ 0.295806369104554
+701:New York, NY -> 701:Hartford, CT 0.802792522556184
+701:New York, NY -> 701:Houston, TX 11.4027441257575
+701:New York, NY -> 701:Los Angeles, CA 19.7210147124792
+701:New York, NY -> 701:Montreal, Canada 2.66507712286384
+701:New York, NY -> 701:Newark, NJ 0.0710684956979026
+701:New York, NY -> 701:Portland, OR 19.6027951370426
+701:New York, NY -> 701:Sacramento, CA 20.1014066858336
+701:New York, NY -> 701:Saint Louis, MO 7.01114591812451
+701:New York, NY -> 701:Salt Lake City, UT 15.8327352787206
+701:New York, NY -> 701:Santa Clara, CA 20.5270464743481
+701:New York, NY -> 701:Seattle, WA 19.3209613118993
+701:New York, NY -> 701:Stockholm, Sweden 31.5490664881065
+701:New York, NY -> 701:Toronto, Canada 2.74867344921157
+701:New York, NY -> 701:Vancouver, Canada 19.5082274325517
+701:New York, NY -> 701:Washington, DC 1.62733364571067
+701:Newark, NJ -> 701:New York, NY 0.0710684956979026
+701:Orlando, FL -> 701:Atlanta, GA 3.23558877686677
+701:Orlando, FL -> 701:Tampa, FL 0.624491474490011
+701:Ottawa, Canada -> 701:Montreal, Canada 0.832690451912977
+701:Ottawa, Canada -> 701:Toronto, Canada 1.747267844019
+701:Palo Alto, CA -> 701:Sacramento, CA 0.694034461214314
+701:Palo Alto, CA -> 701:San Jose, CA 0.124477546789977
+701:Palo Alto, CA -> 701:Santa Clara, CA 0.0926850068982159
+701:Philadelphia, PA -> 701:Tyson Corner, VA 1.99556590837627
+701:Philadelphia, PA -> 701:Washington, DC 1.00741082347545
+701:Phoenix, AZ -> 701:Anaheim, CA 2.70810040111643
+701:Phoenix, AZ -> 701:Denver, CO 4.71855022803752
+701:Phoenix, AZ -> 701:Los Angeles, CA 2.94005274291922
+701:Pittsburgh, PA -> 701:Tyson Corner, VA 1.71742792062942
+701:Pittsburgh, PA -> 701:Washington, DC 1.54074081627117
+701:Portland, OR -> 701:Atlanta, GA 17.4196812564722
+701:Portland, OR -> 701:Calgary, Canada 4.40197691447734
+701:Portland, OR -> 701:Chicago, IL 14.0955362554105
+701:Portland, OR -> 701:Dallas, TX 13.1265206356876
+701:Portland, OR -> 701:Houston, TX 14.7329354782789
+701:Portland, OR -> 701:Kirkland, WA 1.20779646445934
+701:Portland, OR -> 701:Los Angeles, CA 6.60391289813038
+701:Portland, OR -> 701:Montreal, Canada 18.8026262074886
+701:Portland, OR -> 701:New York, NY 19.6027951370426
+701:Portland, OR -> 701:Sacramento, CA 3.89174598879456
+701:Portland, OR -> 701:Saint Louis, MO 13.8165686718383
+701:Portland, OR -> 701:Salt Lake City, UT 5.08717513933687
+701:Portland, OR -> 701:Santa Clara, CA 4.55571905757627
+701:Portland, OR -> 701:Seattle, WA 1.1632071890148
+701:Portland, OR -> 701:Toronto, Canada 16.946616310413
+701:Portland, OR -> 701:Vancouver, Canada 2.08173530046794
+701:Portland, OR -> 701:Washington, DC 18.8799867814807
+701:Quebec, Canada -> 701:Montreal, Canada 1.1474880133731
+701:Raleigh, NC -> 701:Charlotte, NC 1.04455456166962
+701:Raleigh, NC -> 701:Greensboro, NC 0.533086693128193
+701:Raleigh, NC -> 701:Washington, DC 1.8616231104935
+701:Regina, Canada -> 701:Calgary, Canada 3.33372686086895
+701:Relay, MD -> 701:Washington, DC 0.22235770619305
+701:Reston, VA -> 701:Washington, DC 0.146741247293788
+701:Richmond, VA -> 701:Tyson Corner, VA 2.47740948594903
+701:Richmond, VA -> 701:Washington, DC 1.49060940405506
+701:Roachdale, IN -> 701:Indianapolis, IN 0.276384305658571
+701:Sacramento, CA -> 701:Atlanta, GA 16.7313622273439
+701:Sacramento, CA -> 701:Calgary, Canada 7.50889267219727
+701:Sacramento, CA -> 701:Chicago, IL 14.379523395025
+701:Sacramento, CA -> 701:Dallas, TX 11.582016414369
+701:Sacramento, CA -> 701:Hayward, CA 0.56855614300765
+701:Sacramento, CA -> 701:Honolulu, HI 19.7550797633374
+701:Sacramento, CA -> 701:Houston, TX 12.9062667777647
+701:Sacramento, CA -> 701:Los Angeles, CA 2.84864363952102
+701:Sacramento, CA -> 701:Montreal, Canada 19.8430165697863
+701:Sacramento, CA -> 701:New York, NY 20.1014066858336
+701:Sacramento, CA -> 701:Palo Alto, CA 0.694034461214314
+701:Sacramento, CA -> 701:Portland, OR 3.89174598879456
+701:Sacramento, CA -> 701:Salt Lake City, UT 4.26907628430229
+701:Sacramento, CA -> 701:San Francisco, CA 0.640121114650093
+701:Sacramento, CA -> 701:San Jose, CA 0.714419239023442
+701:Sacramento, CA -> 701:Santa Clara, CA 0.715084624091081
+701:Sacramento, CA -> 701:Seattle, WA 5.03198520154489
+701:Sacramento, CA -> 701:Toronto, Canada 17.6634539281603
+701:Sacramento, CA -> 701:Vancouver, Canada 5.97189198656893
+701:Sacramento, CA -> 701:Washington, DC 19.0869253442257
+701:Saint Louis, MO -> 701:Atlanta, GA 3.74855255257849
+701:Saint Louis, MO -> 701:Calgary, Canada 11.5838460740416
+701:Saint Louis, MO -> 701:Chicago, IL 2.09175251062512
+701:Saint Louis, MO -> 701:Dallas, TX 4.38806354614214
+701:Saint Louis, MO -> 701:Denver, CO 6.34055200842884
+701:Saint Louis, MO -> 701:Kansas City, MO 1.90173969390865
+701:Saint Louis, MO -> 701:Los Angeles, CA 12.8133031824199
+701:Saint Louis, MO -> 701:Memphis, TN 1.9331000323608
+701:Saint Louis, MO -> 701:New York, NY 7.01114591812451
+701:Saint Louis, MO -> 701:Portland, OR 13.8165686718383
+701:Saint Louis, MO -> 701:Salt Lake City, UT 9.33639465949257
+701:Saint Louis, MO -> 701:Santa Clara, CA 13.8601314905346
+701:Saint Louis, MO -> 701:Seattle, WA 13.8417556259976
+701:Saint Louis, MO -> 701:Vancouver, Canada 14.2881914256118
+701:Saint Louis, MO -> 701:Washington, DC 5.71526045139685
+701:Salt Lake City, UT -> 701:Atlanta, GA 12.7097389467991
+701:Salt Lake City, UT -> 701:Calgary, Canada 5.77406943712779
+701:Salt Lake City, UT -> 701:Dallas, TX 8.0588108384029
+701:Salt Lake City, UT -> 701:Denver, CO 3.03927743798862
+701:Salt Lake City, UT -> 701:Houston, TX 9.64609623609381
+701:Salt Lake City, UT -> 701:Kansas City, MO 7.44230789246274
+701:Salt Lake City, UT -> 701:Los Angeles, CA 4.67700418361009
+701:Salt Lake City, UT -> 701:Montreal, Canada 15.6182351714686
+701:Salt Lake City, UT -> 701:New York, NY 15.8327352787206
+701:Salt Lake City, UT -> 701:Portland, OR 5.08717513933687
+701:Salt Lake City, UT -> 701:Sacramento, CA 4.26907628430229
+701:Salt Lake City, UT -> 701:Saint Louis, MO 9.33639465949257
+701:Salt Lake City, UT -> 701:Santa Clara, CA 4.72962062541796
+701:Salt Lake City, UT -> 701:Seattle, WA 5.62676654420176
+701:Salt Lake City, UT -> 701:Toronto, Canada 13.4039540439448
+701:Salt Lake City, UT -> 701:Vancouver, Canada 6.44077137757741
+701:Salt Lake City, UT -> 701:Washington, DC 14.8356694118214
+701:San Antonio, TX -> 701:Dallas, TX 2.0304558691511
+701:San Antonio, TX -> 701:Houston, TX 1.51577808645583
+701:San Diego, CA -> 701:Los Angeles, CA 0.930875068217323
+701:San Francisco, CA -> 701:Sacramento, CA 0.640121114650093
+701:San Francisco, CA -> 701:San Jose, CA 0.381420811600469
+701:San Francisco, CA -> 701:Santa Clara, CA 0.352097076827034
+701:San Jose, CA -> 701:Palo Alto, CA 0.124477546789977
+701:San Jose, CA -> 701:Sacramento, CA 0.714419239023442
+701:San Jose, CA -> 701:San Francisco, CA 0.381420811600469
+701:San Jose, CA -> 701:Santa Clara, CA 0.0331657604143426
+701:Santa Clara, CA -> 701:Atlanta, GA 16.9805122698195
+701:Santa Clara, CA -> 701:Calgary, Canada 8.22289411202125
+701:Santa Clara, CA -> 701:Chicago, IL 14.8016488559537
+701:Santa Clara, CA -> 701:Dallas, TX 11.7075770478765
+701:Santa Clara, CA -> 701:Houston, TX 12.957497303603
+701:Santa Clara, CA -> 701:Kansas City, MO 11.9604772788171
+701:Santa Clara, CA -> 701:Los Angeles, CA 2.41808124152145
+701:Santa Clara, CA -> 701:New York, NY 20.5270464743481
+701:Santa Clara, CA -> 701:Palo Alto, CA 0.0926850068982159
+701:Santa Clara, CA -> 701:Portland, OR 4.55571905757627
+701:Santa Clara, CA -> 701:Sacramento, CA 0.715084624091081
+701:Santa Clara, CA -> 701:Saint Louis, MO 13.8601314905346
+701:Santa Clara, CA -> 701:Salt Lake City, UT 4.72962062541796
+701:Santa Clara, CA -> 701:San Francisco, CA 0.352097076827034
+701:Santa Clara, CA -> 701:San Jose, CA 0.0331657604143426
+701:Santa Clara, CA -> 701:Seattle, WA 5.70656457984477
+701:Santa Clara, CA -> 701:Stockton, CA 0.45098869611435
+701:Santa Clara, CA -> 701:Sunnyvale, CA 0.0288213047287407
+701:Santa Clara, CA -> 701:Vancouver, Canada 6.63729528745541
+701:Santa Clara, CA -> 701:Washington, DC 19.4726798275468
+701:Scarborough, Canada -> 701:Toronto, Canada 0.0813949383372524
+701:Seattle, WA -> 701:Atlanta, GA 17.5143459791053
+701:Seattle, WA -> 701:Calgary, Canada 3.54622119361288
+701:Seattle, WA -> 701:Chicago, IL 13.9413353089448
+701:Seattle, WA -> 701:Dallas, TX 13.5297009811618
+701:Seattle, WA -> 701:Houston, TX 15.1947572412764
+701:Seattle, WA -> 701:Kirkland, WA 0.0725518185273687
+701:Seattle, WA -> 701:Los Angeles, CA 7.68872484627139
+701:Seattle, WA -> 701:Montreal, Canada 18.3654269062992
+701:Seattle, WA -> 701:New York, NY 19.3209613118993
+701:Seattle, WA -> 701:Portland, OR 1.1632071890148
+701:Seattle, WA -> 701:Sacramento, CA 5.03198520154489
+701:Seattle, WA -> 701:Saint Louis, MO 13.8417556259976
+701:Seattle, WA -> 701:Salt Lake City, UT 5.62676654420176
+701:Seattle, WA -> 701:Santa Clara, CA 5.70656457984477
+701:Seattle, WA -> 701:Toronto, Canada 16.6241318477377
+701:Seattle, WA -> 701:Vancouver, Canada 0.959333136541764
+701:Seattle, WA -> 701:Washington, DC 18.6918595751372
+701:St Louis, MO -> 701:Chicago, IL 2.09610867496233
+701:Stockholm, Sweden -> 701:New York, NY 31.5490664881065
+701:Stockton, CA -> 701:Santa Clara, CA 0.45098869611435
+701:Sunnyvale, CA -> 701:Santa Clara, CA 0.0288213047287407
+701:Tampa, FL -> 701:Orlando, FL 0.624491474490011
+701:Toronto, Canada -> 701:Atlanta, GA 5.92599892048915
+701:Toronto, Canada -> 701:Chicago, IL 3.52496412161527
+701:Toronto, Canada -> 701:Dallas, TX 9.66817120621256
+701:Toronto, Canada -> 701:Hamilton, Canada 0.302648704352747
+701:Toronto, Canada -> 701:London, Canada 0.844626536352842
+701:Toronto, Canada -> 701:London, UnitedKingdom 28.5377808008974
+701:Toronto, Canada -> 701:Los Angeles, CA 17.5177182304494
+701:Toronto, Canada -> 701:New York, NY 2.74867344921157
+701:Toronto, Canada -> 701:Ottawa, Canada 1.747267844019
+701:Toronto, Canada -> 701:Portland, OR 16.946616310413
+701:Toronto, Canada -> 701:Sacramento, CA 17.6634539281603
+701:Toronto, Canada -> 701:Salt Lake City, UT 13.4039540439448
+701:Toronto, Canada -> 701:Scarborough, Canada 0.0813949383372524
+701:Toronto, Canada -> 701:Seattle, WA 16.6241318477377
+701:Toronto, Canada -> 701:Vancouver, Canada 16.786157343387
+701:Toronto, Canada -> 701:Washington, DC 2.82647665423147
+701:Toronto, Canada -> 701:Waterford, Ireland 26.1652191259998
+701:Toronto, Canada -> 701:Waterloo, Canada 100000
+701:Toronto, Canada -> 701:Windsor, Canada 1.66374566111016
+701:Tyson Corner, VA -> 701:Philadelphia, PA 1.99556590837627
+701:Tyson Corner, VA -> 701:Pittsburgh, PA 1.71742792062942
+701:Tyson Corner, VA -> 701:Richmond, VA 2.47740948594903
+701:Tyson Corner, VA -> 701:Washington, DC 0.99518237095816
+701:Vancouver, Canada -> 701:Atlanta, GA 17.9967069766244
+701:Vancouver, Canada -> 701:Calgary, Canada 3.36227637339117
+701:Vancouver, Canada -> 701:Chicago, IL 14.2525814427402
+701:Vancouver, Canada -> 701:Dallas, TX 14.2241252572767
+701:Vancouver, Canada -> 701:Edmonton, Canada 4.09924879725225
+701:Vancouver, Canada -> 701:Houston, TX 15.9182940212386
+701:Vancouver, Canada -> 701:Los Angeles, CA 8.64684859093796
+701:Vancouver, Canada -> 701:Montreal, Canada 18.4211910947875
+701:Vancouver, Canada -> 701:New York, NY 19.5082274325517
+701:Vancouver, Canada -> 701:Portland, OR 2.08173530046794
+701:Vancouver, Canada -> 701:Sacramento, CA 5.97189198656893
+701:Vancouver, Canada -> 701:Saint Louis, MO 14.2881914256118
+701:Vancouver, Canada -> 701:Salt Lake City, UT 6.44077137757741
+701:Vancouver, Canada -> 701:Santa Clara, CA 6.63729528745541
+701:Vancouver, Canada -> 701:Seattle, WA 0.959333136541764
+701:Vancouver, Canada -> 701:Toronto, Canada 16.786157343387
+701:Vancouver, Canada -> 701:Washington, DC 18.9577042808779
+701:Washington, DC -> 701:Alexandria, VA 0.0567553571512788
+701:Washington, DC -> 701:Ashburn, VA 0.225316255475169
+701:Washington, DC -> 701:Atlanta, GA 4.38018878263173
+701:Washington, DC -> 701:Baltimore, MD 0.281322687176047
+701:Washington, DC -> 701:Calgary, Canada 15.8460421583365
+701:Washington, DC -> 701:Chicago, IL 4.79269864527852
+701:Washington, DC -> 701:Dallas, TX 9.49836499313979
+701:Washington, DC -> 701:Greensboro, NC 1.99566142506829
+701:Washington, DC -> 701:Houston, TX 9.81518726240613
+701:Washington, DC -> 701:Los Angeles, CA 18.5226753489951
+701:Washington, DC -> 701:Montreal, Canada 3.92899644807211
+701:Washington, DC -> 701:New York, NY 1.62733364571067
+701:Washington, DC -> 701:Philadelphia, PA 1.00741082347545
+701:Washington, DC -> 701:Pittsburgh, PA 1.54074081627117
+701:Washington, DC -> 701:Portland, OR 18.8799867814807
+701:Washington, DC -> 701:Raleigh, NC 1.8616231104935
+701:Washington, DC -> 701:Relay, MD 0.22235770619305
+701:Washington, DC -> 701:Reston, VA 0.146741247293788
+701:Washington, DC -> 701:Richmond, VA 1.49060940405506
+701:Washington, DC -> 701:Sacramento, CA 19.0869253442257
+701:Washington, DC -> 701:Saint Louis, MO 5.71526045139685
+701:Washington, DC -> 701:Salt Lake City, UT 14.8356694118214
+701:Washington, DC -> 701:Santa Clara, CA 19.4726798275468
+701:Washington, DC -> 701:Seattle, WA 18.6918595751372
+701:Washington, DC -> 701:Toronto, Canada 2.82647665423147
+701:Washington, DC -> 701:Tyson Corner, VA 0.99518237095816
+701:Washington, DC -> 701:Vancouver, Canada 18.9577042808779
+701:Waterford, Ireland -> 701:Toronto, Canada 26.1652191259998
+701:Waterloo, Canada -> 701:Toronto, Canada 100000
+701:Windsor, Canada -> 701:Toronto, Canada 1.66374566111016
+701:Winnipeg, Canada -> 701:Calgary, Canada 6.01032098873542

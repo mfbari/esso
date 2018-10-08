@@ -1,0 +1,54 @@
+5650:Salt Lake City, UT -> 5650:Chicago, IL 10.1123
+5650:Salt Lake City, UT -> 5650:Las Vegas, NV 2.9146
+5650:Salt Lake City, UT -> 5650:Boise, ID 4.77261
+5650:Washington, DC -> 5650:McLean, VA 0.0791793
+5650:Portland, OR -> 5650:Spokane, WA 2.32778
+5650:Portland, OR -> 5650:Tukwila, WA 1.08416
+5650:Portland, OR -> 5650:Boise, ID 0.5
+5650:Portland, OR -> 5650:San Jose, CA 0.5
+5650:Sacramento, CA -> 5650:San Jose, CA 0.5
+5650:Sacramento, CA -> 5650:Stockton, CA 0.5
+5650:Dallas, TX -> 5650:Chicago, IL 4.71446
+5650:Dallas, TX -> 5650:Phoenix, AZ 6.24933
+5650:Dallas, TX -> 5650:Houston, TX 1.79734
+5650:Dallas, TX -> 5650:McLean, VA 9.42907
+5650:Tukwila, WA -> 5650:Tacoma, WA 0.138759
+5650:Tukwila, WA -> 5650:Seattle, WA 0.0890104
+5650:Tukwila, WA -> 5650:Portland, OR 1.08416
+5650:Los Angeles, CA -> 5650:Phoenix, AZ 2.92112
+5650:Los Angeles, CA -> 5650:Las Vegas, NV 1.85801
+5650:Los Angeles, CA -> 5650:San Jose, CA 2.39033852037053
+5650:Tacoma, WA -> 5650:Tukwila, WA 0.138759
+5650:San Jose, CA -> 5650:Palo Alto, CA 0.124478
+5650:San Jose, CA -> 5650:Sacramento, CA 0.5
+5650:San Jose, CA -> 5650:Los Angeles, CA 2.39033852037053
+5650:San Jose, CA -> 5650:Stockton, CA 1
+5650:San Jose, CA -> 5650:San Francisco, CA 0.381421
+5650:San Jose, CA -> 5650:Portland, OR 0.5
+5650:Ashburn, VA -> 5650:McLean, VA 0.147031
+5650:San Francisco, CA -> 5650:San Jose, CA 0.381421
+5650:Rochester, NY -> 5650:Chicago, IL 6.07291
+5650:Rochester, NY -> 5650:McLean, VA 2.3583
+5650:Stockton, CA -> 5650:Sacramento, CA 0.5
+5650:Stockton, CA -> 5650:San Jose, CA 1
+5650:Boise, ID -> 5650:Salt Lake City, UT 4.77261
+5650:Boise, ID -> 5650:Portland, OR 0.5
+5650:Spokane, WA -> 5650:Portland, OR 2.32778
+5650:Palo Alto, CA -> 5650:San Jose, CA 0.124478
+5650:Phoenix, AZ -> 5650:Los Angeles, CA 2.92112
+5650:Phoenix, AZ -> 5650:Dallas, TX 6.24933
+5650:Phoenix, AZ -> 5650:Las Vegas, NV 2.06311
+5650:Las Vegas, NV -> 5650:Phoenix, AZ 2.06311
+5650:Las Vegas, NV -> 5650:Los Angeles, CA 1.85801
+5650:Las Vegas, NV -> 5650:Salt Lake City, UT 2.9146
+5650:Seattle, WA -> 5650:Tukwila, WA 0.0890104
+5650:McLean, VA -> 5650:Chicago, IL 4.71461
+5650:McLean, VA -> 5650:Ashburn, VA 0.147031
+5650:McLean, VA -> 5650:Dallas, TX 9.42907
+5650:McLean, VA -> 5650:Rochester, NY 2.3583
+5650:McLean, VA -> 5650:Washington, DC 0.0791793
+5650:Houston, TX -> 5650:Dallas, TX 1.79734
+5650:Chicago, IL -> 5650:Dallas, TX 4.71446
+5650:Chicago, IL -> 5650:Salt Lake City, UT 10.1123
+5650:Chicago, IL -> 5650:Rochester, NY 6.07291
+5650:Chicago, IL -> 5650:McLean, VA 4.71461

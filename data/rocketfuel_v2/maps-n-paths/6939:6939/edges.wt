@@ -1,0 +1,28 @@
+6939:Washington, DC -> 6939:New York, NY 1.62733
+6939:Washington, DC -> 6939:Palo Alto, CA 19.5321
+6939:Ashburn, VA -> 6939:New York, NY 0.85003
+6939:Ashburn, VA -> 6939:Palo Alto, CA 19.3094
+6939:Palo Alto, CA -> 6939:New York, NY 20.15943
+6939:Palo Alto, CA -> 6939:McLean, VA 19.48343
+6939:Palo Alto, CA -> 6939:San Jose, CA 1
+6939:Palo Alto, CA -> 6939:Washington, DC 19.5321
+6939:Palo Alto, CA -> 6939:Fremont, CA 1.5
+6939:Palo Alto, CA -> 6939:Chicago, IL 15.7744
+6939:Palo Alto, CA -> 6939:Ashburn, VA 19.3094
+6939:New York, NY -> 6939:McLean, VA 1.676
+6939:New York, NY -> 6939:Palo Alto, CA 20.15943
+6939:New York, NY -> 6939:Washington, DC 1.62733
+6939:New York, NY -> 6939:Chicago, IL 7.38503
+6939:New York, NY -> 6939:Ashburn, VA 0.85003
+6939:Fremont, CA -> 6939:Palo Alto, CA 1.5
+6939:Fremont, CA -> 6939:San Jose, CA 1.5
+6939:Fremont, CA -> 6939:Chicago, IL 15.2744
+6939:Chicago, IL -> 6939:New York, NY 7.38503
+6939:Chicago, IL -> 6939:Palo Alto, CA 15.7744
+6939:Chicago, IL -> 6939:San Jose, CA 14.7744
+6939:Chicago, IL -> 6939:Fremont, CA 15.2744
+6939:San Jose, CA -> 6939:Palo Alto, CA 1
+6939:San Jose, CA -> 6939:Fremont, CA 1.5
+6939:San Jose, CA -> 6939:Chicago, IL 14.7744
+6939:McLean, VA -> 6939:New York, NY 1.676
+6939:McLean, VA -> 6939:Palo Alto, CA 19.48343

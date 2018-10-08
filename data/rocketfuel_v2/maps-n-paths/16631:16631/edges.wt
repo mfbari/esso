@@ -1,0 +1,64 @@
+16631:San Francisco, CA -> 16631:Seattle, WA 5.46426
+16631:San Francisco, CA -> 16631:San Jose, CA 0.381420811600469
+16631:San Francisco, CA -> 16631:Chicago, IL 14.96
+16631:San Francisco, CA -> 16631:Dallas, TX 12.876175
+16631:San Francisco, CA -> 16631:Washington, DC 15.96
+16631:San Francisco, CA -> 16631:Palo Alto, CA 0.261255
+16631:San Francisco, CA -> 16631:Denver, CO 1.5
+16631:Kansas City, MO -> 16631:Chicago, IL 3.583825
+16631:Kansas City, MO -> 16631:Dallas, TX 0.5
+16631:Kansas City, MO -> 16631:Denver, CO 10.876175
+16631:Orlando, FL -> 16631:Tampa, FL 0.624491474490011
+16631:Orlando, FL -> 16631:Jacksonville, FL 1
+16631:Toronto, Canada -> 16631:Chicago, IL 4.47868
+16631:Toronto, Canada -> 16631:Boston, MA 3.45049
+16631:New York, NY -> 16631:Philadelphia, PA 0.5
+16631:New York, NY -> 16631:Chicago, IL 1.5
+16631:New York, NY -> 16631:Boston, MA 1.52819
+16631:New York, NY -> 16631:Washington, DC 0.5
+16631:Dallas, TX -> 16631:San Francisco, CA 12.876175
+16631:Dallas, TX -> 16631:Kansas City, MO 0.5
+16631:Dallas, TX -> 16631:Houston, TX 1
+16631:Dallas, TX -> 16631:Washington, DC 6.083825
+16631:Denver, CO -> 16631:Seattle, WA 4.96426
+16631:Denver, CO -> 16631:San Francisco, CA 1.5
+16631:Denver, CO -> 16631:Kansas City, MO 10.876175
+16631:Washington, DC -> 16631:San Francisco, CA 15.96
+16631:Washington, DC -> 16631:Philadelphia, PA 1
+16631:Washington, DC -> 16631:New York, NY 0.5
+16631:Washington, DC -> 16631:Baltimore, MD 0.281323
+16631:Washington, DC -> 16631:Dallas, TX 6.083825
+16631:Washington, DC -> 16631:Atlanta, GA 4.583825
+16631:Jacksonville, FL -> 16631:Orlando, FL 1
+16631:Jacksonville, FL -> 16631:Miami, FL 2.63194
+16631:Jacksonville, FL -> 16631:Atlanta, GA 0.5
+16631:Palo Alto, CA -> 16631:San Francisco, CA 0.261255
+16631:Miami, FL -> 16631:Tampa, FL 2.63194
+16631:Miami, FL -> 16631:Jacksonville, FL 2.63194
+16631:Boston, MA -> 16631:Toronto, Canada 3.45049
+16631:Boston, MA -> 16631:New York, NY 1.52819
+16631:Boston, MA -> 16631:Chicago, IL 2.02819
+16631:San Jose, CA -> 16631:San Francisco, CA 0.381420811600469
+16631:San Jose, CA -> 16631:Los Angeles, CA 2.5
+16631:San Diego, CA -> 16631:Los Angeles, CA 0.930875
+16631:San Diego, CA -> 16631:Houston, TX 10.4453
+16631:Los Angeles, CA -> 16631:San Jose, CA 2.5
+16631:Los Angeles, CA -> 16631:San Diego, CA 0.930875
+16631:Seattle, WA -> 16631:San Francisco, CA 5.46426
+16631:Seattle, WA -> 16631:Denver, CO 4.96426
+16631:Houston, TX -> 16631:Tampa, FL 6.36254081342179
+16631:Houston, TX -> 16631:San Diego, CA 10.4453
+16631:Houston, TX -> 16631:Dallas, TX 1
+16631:Philadelphia, PA -> 16631:New York, NY 0.5
+16631:Philadelphia, PA -> 16631:Washington, DC 1
+16631:Chicago, IL -> 16631:San Francisco, CA 14.96
+16631:Chicago, IL -> 16631:Kansas City, MO 3.583825
+16631:Chicago, IL -> 16631:Toronto, Canada 4.47868
+16631:Chicago, IL -> 16631:New York, NY 1.5
+16631:Chicago, IL -> 16631:Boston, MA 2.02819
+16631:Baltimore, MD -> 16631:Washington, DC 0.281323
+16631:Atlanta, GA -> 16631:Jacksonville, FL 0.5
+16631:Atlanta, GA -> 16631:Washington, DC 4.583825
+16631:Tampa, FL -> 16631:Houston, TX 6.36254081342179
+16631:Tampa, FL -> 16631:Orlando, FL 0.624491474490011
+16631:Tampa, FL -> 16631:Miami, FL 2.63194

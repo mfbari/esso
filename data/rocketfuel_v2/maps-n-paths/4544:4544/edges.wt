@@ -1,0 +1,36 @@
+4544:Denver, CO -> 4544:Palo Alto, CA 7.59899
+4544:Denver, CO -> 4544:Chicago, IL 7.31965
+4544:Washington, DC -> 4544:Ashburn, VA 2
+4544:Washington, DC -> 4544:Herndon, VA 1.5
+4544:Washington, DC -> 4544:Atlanta, GA 5.26987
+4544:Sacramento, CA -> 4544:Sunnyvale, CA 0.704184
+4544:Sacramento, CA -> 4544:San Francisco, CA 1
+4544:Ashburn, VA -> 4544:Herndon, VA 0.5
+4544:Ashburn, VA -> 4544:Atlanta, GA 4.26987
+4544:Ashburn, VA -> 4544:Washington, DC 2
+4544:Ashburn, VA -> 4544:New York, NY 1.75053
+4544:Palo Alto, CA -> 4544:Denver, CO 7.59899
+4544:Palo Alto, CA -> 4544:Sunnyvale, CA 0.064134
+4544:Palo Alto, CA -> 4544:Los Angeles, CA 2.5082
+4544:Atlanta, GA -> 4544:Dallas, TX 7.5708
+4544:Atlanta, GA -> 4544:Ashburn, VA 4.26987
+4544:Atlanta, GA -> 4544:Washington, DC 5.26987
+4544:Herndon, VA -> 4544:Ashburn, VA 0.5
+4544:Herndon, VA -> 4544:Washington, DC 1.5
+4544:Dallas, TX -> 4544:Atlanta, GA 7.5708
+4544:Dallas, TX -> 4544:Los Angeles, CA 10.0457
+4544:Dallas, TX -> 4544:Chicago, IL 6.43761
+4544:San Francisco, CA -> 4544:Sunnyvale, CA 0.704184
+4544:San Francisco, CA -> 4544:Sacramento, CA 1
+4544:San Francisco, CA -> 4544:Seattle, WA 5.46426
+4544:Seattle, WA -> 4544:San Francisco, CA 5.46426
+4544:Los Angeles, CA -> 4544:Dallas, TX 10.0457
+4544:Los Angeles, CA -> 4544:Palo Alto, CA 2.5082
+4544:Chicago, IL -> 4544:Dallas, TX 6.43761
+4544:Chicago, IL -> 4544:Denver, CO 7.31965
+4544:Chicago, IL -> 4544:New York, NY 5.7254
+4544:Sunnyvale, CA -> 4544:Palo Alto, CA 0.064134
+4544:Sunnyvale, CA -> 4544:Sacramento, CA 0.704184
+4544:Sunnyvale, CA -> 4544:San Francisco, CA 0.704184
+4544:New York, NY -> 4544:Ashburn, VA 1.75053
+4544:New York, NY -> 4544:Chicago, IL 5.7254

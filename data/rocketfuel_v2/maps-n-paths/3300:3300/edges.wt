@@ -1,0 +1,112 @@
+3300:Tokyo, Japan -> 3300:San Jose, CA 33.07074
+3300:Tokyo, Japan -> 3300:Kuala Lumpur, Malaysia 0.5
+3300:Lyon, France -> 3300:Paris, France 1.98542
+3300:Dusseldorf, Germany -> 3300:Frankfurt, Germany 0.944468
+3300:Barcelona, Spain -> 3300:Paris, France 4.13992
+3300:Sulzer, Switzerland -> 3300:Zurich, Switzerland 100000
+3300:Singapore -> 3300:Kuala Lumpur, Malaysia 1.58751
+3300:Budapest, Hungary -> 3300:Frankfurt, Germany 4.16982
+3300:Luxembourg, Luxembourg -> 3300:Frankfurt, Germany 1.63117
+3300:Luxembourg, Luxembourg -> 3300:Paris, France 1.5
+3300:Athens, Greece -> 3300:London, UnitedKingdom 11.9371
+3300:Kuala Lumpur, Malaysia -> 3300:Jakarta, Indonesia 5.90757
+3300:Kuala Lumpur, Malaysia -> 3300:Singapore 1.58751
+3300:Kuala Lumpur, Malaysia -> 3300:Tokyo, Japan 0.5
+3300:Kuala Lumpur, Malaysia -> 3300:London, UnitedKingdom 21.721
+3300:Kuala Lumpur, Malaysia -> 3300:Hong Kong 1
+3300:Kuala Lumpur, Malaysia -> 3300:Sydney, Australia 1
+3300:Chicago, IL -> 3300:San Jose, CA 15.06666
+3300:Chicago, IL -> 3300:Newark, NJ 5.65434
+3300:Los Angeles, CA -> 3300:San Jose, CA 1
+3300:Los Angeles, CA -> 3300:Dallas, TX 19.721
+3300:Los Angeles, CA -> 3300:New York, NY 19.721
+3300:Los Angeles, CA -> 3300:Mexico City, Mexico 12.5249
+3300:Los Angeles, CA -> 3300:Hong Kong 32.57074
+3300:Los Angeles, CA -> 3300:Sydney, Australia 32.57074
+3300:Hennig, Israel -> 3300:Tel Aviv, Israel 100000
+3300:Vienna, Austria -> 3300:Frankfurt, Germany 3.00603
+3300:Newark, NJ -> 3300:Toronto, Canada 2.68656
+3300:Newark, NJ -> 3300:San Jose, CA 19.721
+3300:Newark, NJ -> 3300:Dallas, TX 1
+3300:Newark, NJ -> 3300:New York, NY 1
+3300:Newark, NJ -> 3300:Chicago, IL 5.65434
+3300:Newark, NJ -> 3300:Bogota, Colombia 16.8641
+3300:Newark, NJ -> 3300:Washington, DC 1.5
+3300:Brussels, Belgium -> 3300:Amstelveen, Netherlands 0.852294
+3300:Geneva, Switzerland -> 3300:Frankfurt, Germany 2.29718
+3300:Mexico City, Mexico -> 3300:Los Angeles, CA 12.5249
+3300:Amstelveen, Netherlands -> 3300:Amsterdam, Netherlands 0.27326
+3300:Amstelveen, Netherlands -> 3300:Stockholm, Sweden 5.64171
+3300:Amstelveen, Netherlands -> 3300:Washington, DC 30.9127
+3300:Amstelveen, Netherlands -> 3300:London, UnitedKingdom 3.15804
+3300:Amstelveen, Netherlands -> 3300:Frankfurt, Germany 2
+3300:Amstelveen, Netherlands -> 3300:Brussels, Belgium 0.852294
+3300:Amstelveen, Netherlands -> 3300:Paris, France 2.13117
+3300:Warsaw, Poland -> 3300:Frankfurt, Germany 4.56922
+3300:Milan, Italy -> 3300:Frankfurt, Germany 2.5299
+3300:Milan, Italy -> 3300:Paris, France 2.39873
+3300:Sydney, Australia -> 3300:Kuala Lumpur, Malaysia 1
+3300:Sydney, Australia -> 3300:Los Angeles, CA 32.57074
+3300:Sydney, Australia -> 3300:Auckland, NewZealand 10.7862
+3300:Stockholm, Sweden -> 3300:Amstelveen, Netherlands 5.64171
+3300:Stockholm, Sweden -> 3300:London, UnitedKingdom 7.14459
+3300:Auckland, NewZealand -> 3300:Sydney, Australia 10.7862
+3300:Paris, France -> 3300:Tel Aviv, Israel 16.3843
+3300:Paris, France -> 3300:Zurich, Switzerland 2.44551
+3300:Paris, France -> 3300:Amstelveen, Netherlands 2.13117
+3300:Paris, France -> 3300:Milan, Italy 2.39873
+3300:Paris, France -> 3300:Lyon, France 1.98542
+3300:Paris, France -> 3300:Luxembourg, Luxembourg 1.5
+3300:Paris, France -> 3300:Frankfurt, Germany 2.13117
+3300:Paris, France -> 3300:Barcelona, Spain 4.13992
+3300:Bogota, Colombia -> 3300:Newark, NJ 16.8641
+3300:Washington, DC -> 3300:Newark, NJ 1.5
+3300:Washington, DC -> 3300:New York, NY 1.5
+3300:Washington, DC -> 3300:Amstelveen, Netherlands 30.9127
+3300:Washington, DC -> 3300:Atlanta, GA 4.38019
+3300:Toronto, Canada -> 3300:Newark, NJ 2.68656
+3300:Vancouver, Canada -> 3300:San Jose, CA 6.64754
+3300:Copenhagen, Denmark -> 3300:Amsterdam, Netherlands 3.13182
+3300:Santiago, Chile -> 3300:New York, NY 41.2431
+3300:New York, NY -> 3300:Santiago, Chile 41.2431
+3300:New York, NY -> 3300:Newark, NJ 1
+3300:New York, NY -> 3300:Washington, DC 1.5
+3300:New York, NY -> 3300:Los Angeles, CA 19.721
+3300:New York, NY -> 3300:London, UnitedKingdom 34.57074
+3300:New York, NY -> 3300:Frankfurt, Germany 31.4127
+3300:Atlanta, GA -> 3300:Washington, DC 4.38019
+3300:Amsterdam, Netherlands -> 3300:Amstelveen, Netherlands 0.27326
+3300:Amsterdam, Netherlands -> 3300:Copenhagen, Denmark 3.13182
+3300:Zurich, Switzerland -> 3300:Sulzer, Switzerland 100000
+3300:Zurich, Switzerland -> 3300:Paris, France 2.44551
+3300:Jakarta, Indonesia -> 3300:Kuala Lumpur, Malaysia 5.90757
+3300:Frankfurt, Germany -> 3300:Geneva, Switzerland 2.29718
+3300:Frankfurt, Germany -> 3300:Amstelveen, Netherlands 2
+3300:Frankfurt, Germany -> 3300:Warsaw, Poland 4.56922
+3300:Frankfurt, Germany -> 3300:Milan, Italy 2.5299
+3300:Frankfurt, Germany -> 3300:Hamburg, Germany 2.03574
+3300:Frankfurt, Germany -> 3300:Budapest, Hungary 4.16982
+3300:Frankfurt, Germany -> 3300:Luxembourg, Luxembourg 1.63117
+3300:Frankfurt, Germany -> 3300:London, UnitedKingdom 3.15804
+3300:Frankfurt, Germany -> 3300:Vienna, Austria 3.00603
+3300:Frankfurt, Germany -> 3300:New York, NY 31.4127
+3300:Frankfurt, Germany -> 3300:Dusseldorf, Germany 0.944468
+3300:Frankfurt, Germany -> 3300:Paris, France 2.13117
+3300:Tel Aviv, Israel -> 3300:Paris, France 16.3843
+3300:Tel Aviv, Israel -> 3300:Hennig, Israel 100000
+3300:San Jose, CA -> 3300:Vancouver, Canada 6.64754
+3300:San Jose, CA -> 3300:Newark, NJ 19.721
+3300:San Jose, CA -> 3300:Tokyo, Japan 33.07074
+3300:San Jose, CA -> 3300:Chicago, IL 15.06666
+3300:San Jose, CA -> 3300:Los Angeles, CA 1
+3300:Dallas, TX -> 3300:Newark, NJ 1
+3300:Dallas, TX -> 3300:Los Angeles, CA 19.721
+3300:Hamburg, Germany -> 3300:Frankfurt, Germany 2.03574
+3300:London, UnitedKingdom -> 3300:Kuala Lumpur, Malaysia 21.721
+3300:London, UnitedKingdom -> 3300:New York, NY 34.57074
+3300:London, UnitedKingdom -> 3300:Amstelveen, Netherlands 3.15804
+3300:London, UnitedKingdom -> 3300:Stockholm, Sweden 7.14459
+3300:London, UnitedKingdom -> 3300:Frankfurt, Germany 3.15804
+3300:London, UnitedKingdom -> 3300:Athens, Greece 11.9371
+3300:Hong Kong -> 3300:Kuala Lumpur, Malaysia 1
+3300:Hong Kong -> 3300:Los Angeles, CA 32.57074

@@ -1,0 +1,88 @@
+7911:Anaheim, CA -> 7911:Dallas, TX 7958
+7911:Anaheim, CA -> 7911:El Paso, TX 2477
+7911:Anaheim, CA -> 7911:Herndon, VA 16364
+7911:Anaheim, CA -> 7911:Los Angeles, CA 1161
+7911:Anaheim, CA -> 7911:Phoenix, AZ 726
+7911:Anaheim, CA -> 7911:San Francisco, CA 13711
+7911:Anaheim, CA -> 7911:San Jose, CA 7
+7911:Anaheim, CA -> 7911:Santa Clara, CA 4767
+7911:Ashburn, VA -> 7911:Herndon, VA 3497
+7911:Atlanta, GA -> 7911:Chicago, IL 36
+7911:Atlanta, GA -> 7911:Doraville, GA 237
+7911:Broadview, IL -> 7911:Chicago, IL 297
+7911:Chicago, IL -> 7911:Atlanta, GA 36
+7911:Chicago, IL -> 7911:Broadview, IL 297
+7911:Chicago, IL -> 7911:Cleveland, OH 44
+7911:Chicago, IL -> 7911:Dallas, TX 4530
+7911:Chicago, IL -> 7911:Doraville, GA 348
+7911:Chicago, IL -> 7911:New York, NY 18952
+7911:Chicago, IL -> 7911:San Francisco, CA 13556
+7911:Chicago, IL -> 7911:Santa Clara, CA 3735
+7911:Chicago, IL -> 7911:Seattle, WA 1217
+7911:Chicago, IL -> 7911:Topeka, KS 80
+7911:Chicago, IL -> 7911:Tulsa, OK 730
+7911:Cleveland, OH -> 7911:Chicago, IL 44
+7911:Cleveland, OH -> 7911:New York, NY 37
+7911:Dallas, TX -> 7911:Anaheim, CA 7958
+7911:Dallas, TX -> 7911:Chicago, IL 4530
+7911:Dallas, TX -> 7911:Doraville, GA 314
+7911:Dallas, TX -> 7911:El Paso, TX 7202
+7911:Dallas, TX -> 7911:Herndon, VA 8598
+7911:Dallas, TX -> 7911:Houston, TX 513
+7911:Dallas, TX -> 7911:Miami, FL 501
+7911:Dallas, TX -> 7911:Relay, MD 379
+7911:Dallas, TX -> 7911:Tulsa, OK 2783
+7911:Dallas, TX -> 7911:Washington, DC 339
+7911:Doraville, GA -> 7911:Atlanta, GA 237
+7911:Doraville, GA -> 7911:Chicago, IL 348
+7911:Doraville, GA -> 7911:Dallas, TX 314
+7911:Doraville, GA -> 7911:Herndon, VA 911
+7911:Doraville, GA -> 7911:Miami, FL 809
+7911:Doraville, GA -> 7911:Relay, MD 56
+7911:Doraville, GA -> 7911:Washington, DC 43
+7911:El Paso, TX -> 7911:Anaheim, CA 2477
+7911:El Paso, TX -> 7911:Dallas, TX 7202
+7911:Herndon, VA -> 7911:Anaheim, CA 16364
+7911:Herndon, VA -> 7911:Ashburn, VA 3497
+7911:Herndon, VA -> 7911:Dallas, TX 8598
+7911:Herndon, VA -> 7911:Doraville, GA 911
+7911:Herndon, VA -> 7911:New York, NY 16848
+7911:Herndon, VA -> 7911:Relay, MD 1178
+7911:Herndon, VA -> 7911:Washington, DC 19813
+7911:Houston, TX -> 7911:Dallas, TX 513
+7911:London, UnitedKingdom -> 7911:New York, NY 5604
+7911:Los Angeles, CA -> 7911:Anaheim, CA 1161
+7911:Miami, FL -> 7911:Dallas, TX 501
+7911:Miami, FL -> 7911:Doraville, GA 809
+7911:New York, NY -> 7911:Chicago, IL 18952
+7911:New York, NY -> 7911:Cleveland, OH 37
+7911:New York, NY -> 7911:Herndon, VA 16848
+7911:New York, NY -> 7911:London, UnitedKingdom 5604
+7911:Palo Alto, CA -> 7911:San Francisco, CA 6
+7911:Phoenix, AZ -> 7911:Anaheim, CA 726
+7911:Relay, MD -> 7911:Dallas, TX 379
+7911:Relay, MD -> 7911:Doraville, GA 56
+7911:Relay, MD -> 7911:Herndon, VA 1178
+7911:Relay, MD -> 7911:Washington, DC 79
+7911:San Francisco, CA -> 7911:Anaheim, CA 13711
+7911:San Francisco, CA -> 7911:Chicago, IL 13556
+7911:San Francisco, CA -> 7911:Palo Alto, CA 6
+7911:San Francisco, CA -> 7911:San Jose, CA 4
+7911:San Francisco, CA -> 7911:Santa Clara, CA 23944
+7911:San Francisco, CA -> 7911:Seattle, WA 226
+7911:San Jose, CA -> 7911:Anaheim, CA 7
+7911:San Jose, CA -> 7911:San Francisco, CA 4
+7911:Santa Clara, CA -> 7911:Anaheim, CA 4767
+7911:Santa Clara, CA -> 7911:Chicago, IL 3735
+7911:Santa Clara, CA -> 7911:San Francisco, CA 23944
+7911:Santa Clara, CA -> 7911:Seattle, WA 197
+7911:Seattle, WA -> 7911:Chicago, IL 1217
+7911:Seattle, WA -> 7911:San Francisco, CA 226
+7911:Seattle, WA -> 7911:Santa Clara, CA 197
+7911:Topeka, KS -> 7911:Chicago, IL 80
+7911:Tulsa, OK -> 7911:Chicago, IL 730
+7911:Tulsa, OK -> 7911:Dallas, TX 2783
+7911:Washington, DC -> 7911:Dallas, TX 339
+7911:Washington, DC -> 7911:Doraville, GA 43
+7911:Washington, DC -> 7911:Herndon, VA 19813
+7911:Washington, DC -> 7911:Relay, MD 79

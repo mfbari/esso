@@ -1,0 +1,36 @@
+15290:Calgary, Canada -> 15290:Edmonton, Canada 904
+15290:Calgary, Canada -> 15290:Red Deer, Canada 19
+15290:Calgary, Canada -> 15290:Regina, Canada 28
+15290:Calgary, Canada -> 15290:Toronto, Canada 348
+15290:Calgary, Canada -> 15290:Vancouver, Canada 2213
+15290:Edmonton, Canada -> 15290:Calgary, Canada 904
+15290:Halifax, Canada -> 15290:Montreal, Canada 882
+15290:Hamilton, Canada -> 15290:Toronto, Canada 135
+15290:London, Canada -> 15290:Toronto, Canada 553
+15290:Montreal, Canada -> 15290:Halifax, Canada 882
+15290:Montreal, Canada -> 15290:Quebec, Canada 560
+15290:Montreal, Canada -> 15290:Toronto, Canada 5484
+15290:Montreal, Canada -> 15290:Vancouver, Canada 340
+15290:New Market, Canada -> 15290:Toronto, Canada 30
+15290:Ottawa, Canada -> 15290:Toronto, Canada 11381
+15290:Quebec, Canada -> 15290:Montreal, Canada 560
+15290:Red Deer, Canada -> 15290:Calgary, Canada 19
+15290:Regina, Canada -> 15290:Calgary, Canada 28
+15290:Sarnia, Canada -> 15290:Toronto, Canada 20
+15290:Seattle, WA -> 15290:Vancouver, Canada 1551
+15290:Toronto, Canada -> 15290:Calgary, Canada 348
+15290:Toronto, Canada -> 15290:Hamilton, Canada 135
+15290:Toronto, Canada -> 15290:London, Canada 553
+15290:Toronto, Canada -> 15290:Montreal, Canada 5484
+15290:Toronto, Canada -> 15290:New Market, Canada 30
+15290:Toronto, Canada -> 15290:Ottawa, Canada 11381
+15290:Toronto, Canada -> 15290:Sarnia, Canada 20
+15290:Toronto, Canada -> 15290:Vancouver, Canada 3719
+15290:Toronto, Canada -> 15290:Windsor, Canada 61
+15290:Toronto, Canada -> 15290:Winnipeg, Canada 687
+15290:Vancouver, Canada -> 15290:Calgary, Canada 2213
+15290:Vancouver, Canada -> 15290:Montreal, Canada 340
+15290:Vancouver, Canada -> 15290:Seattle, WA 1551
+15290:Vancouver, Canada -> 15290:Toronto, Canada 3719
+15290:Windsor, Canada -> 15290:Toronto, Canada 61
+15290:Winnipeg, Canada -> 15290:Toronto, Canada 687

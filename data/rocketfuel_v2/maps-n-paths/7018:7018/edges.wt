@@ -1,0 +1,296 @@
+7018:Arlington, VA -> 7018:Richmond, VA 1.52763
+7018:Arlington, VA -> 7018:Washington, DC 1
+7018:Plymouth, MI -> 7018:Detroit, MI 0.5
+7018:Plymouth, MI -> 7018:Chicago, IL 2.5
+7018:Manchester, NH -> 7018:Cambridge, MA 0.373153
+7018:Spokane, WA -> 7018:Seattle, WA 1.85298
+7018:Palo Alto, CA -> 7018:San Francisco, CA 0.261255
+7018:Champaign, IL -> 7018:Chicago, IL 0.99485
+7018:Tulsa, OK -> 7018:Dallas, TX 1.90463
+7018:Norfolk, VA -> 7018:Washington, DC 1.15209
+7018:Rolling Meadows, IL -> 7018:Chicago, IL 0.200836
+7018:Portland, OR -> 7018:Seattle, WA 1.16321
+7018:San Antonio, TX -> 7018:Dallas, TX 3
+7018:San Antonio, TX -> 7018:Austin, TX 2
+7018:New York, NY -> 7018:Syracuse, NY 1.57033
+7018:New York, NY -> 7018:Chicago, IL 1.5
+7018:New York, NY -> 7018:Newark, NJ 0.0710685
+7018:New York, NY -> 7018:Hartford, CT 0.802793
+7018:New York, NY -> 7018:Cambridge, MA 6.31452
+7018:New York, NY -> 7018:Washington, DC 1
+7018:New York, NY -> 7018:New Brunswick, NJ 0.226788
+7018:New York, NY -> 7018:Buffalo, NY 2.35087
+7018:New York, NY -> 7018:Cedar Knolls, NJ 0.197135
+7018:New York, NY -> 7018:Philadelphia, PA 1
+7018:New York, NY -> 7018:New Brusnwick, NJ 0.37865
+7018:New York, NY -> 7018:Stamford, CT 0.280724
+7018:New York, NY -> 7018:White Plains, NY 0.204904
+7018:New York, NY -> 7018:Rochelle Park, NJ 0.111109
+7018:New York, NY -> 7018:Freehold, NJ 0.286278
+7018:New York, NY -> 7018:Albany, NY 1.08194
+7018:New York, NY -> 7018:Bohemia, NY 0.378247
+7018:New York, NY -> 7018:Rochester, NY 2.01525
+7018:New York, NY -> 7018:Bridgeport, CT 0.419904
+7018:Washington, DC -> 7018:Greensboro, NC 1.99566
+7018:Washington, DC -> 7018:Arlington, VA 1
+7018:Washington, DC -> 7018:Baltimore, MD 0.281323
+7018:Washington, DC -> 7018:Raleigh, NC 1.86162
+7018:Washington, DC -> 7018:Ashburn, VA 0.225316
+7018:Washington, DC -> 7018:Richmond, VA 1.52763
+7018:Washington, DC -> 7018:Atlanta, GA 1.5
+7018:Washington, DC -> 7018:Norfolk, VA 1.15209
+7018:Washington, DC -> 7018:Madison Heights, VA 1.2199
+7018:Washington, DC -> 7018:New York, NY 1
+7018:Washington, DC -> 7018:Philadelphia, PA 1
+7018:Washington, DC -> 7018:St Louis, MO 1.5
+7018:Washington, DC -> 7018:Abingdon, VA 2.50062
+7018:Washington, DC -> 7018:Silver Springs, MD 0.354151
+7018:Washington, DC -> 7018:McLean, VA 0.0791793
+7018:Washington, DC -> 7018:Akron, OH 2.27328
+7018:New Brunswick, NJ -> 7018:New York, NY 0.226788
+7018:Jacksonville, FL -> 7018:Orlando, FL 1.00604
+7018:Austin, TX -> 7018:Dallas, TX 1
+7018:Austin, TX -> 7018:Houston, TX 2.5
+7018:Austin, TX -> 7018:San Antonio, TX 2
+7018:Sacramento, CA -> 7018:Los Angeles, CA 2.84864
+7018:Harrisburg, PA -> 7018:Philadelphia, PA 0.759304
+7018:Phoenix, AZ -> 7018:Dallas, TX 8.6772
+7018:Phoenix, AZ -> 7018:San Diego, CA 2.39123
+7018:Phoenix, AZ -> 7018:St Louis, MO 10.1772
+7018:Phoenix, AZ -> 7018:Albuquerque, NM 2.65057
+7018:Buffalo, NY -> 7018:New York, NY 2.35087
+7018:Dallas, TX -> 7018:Denver, CO 5.31258
+7018:Dallas, TX -> 7018:St Louis, MO 1.5
+7018:Dallas, TX -> 7018:Houston, TX 2.5
+7018:Dallas, TX -> 7018:Chicago, IL 2.5
+7018:Dallas, TX -> 7018:Atlanta, GA 1.5
+7018:Dallas, TX -> 7018:Los Angeles, CA 3
+7018:Dallas, TX -> 7018:Tulsa, OK 1.90463
+7018:Dallas, TX -> 7018:Fort Worth, TX 0.268573
+7018:Dallas, TX -> 7018:Oklahoma City, OK 1.53244
+7018:Dallas, TX -> 7018:San Antonio, TX 3
+7018:Dallas, TX -> 7018:Austin, TX 1
+7018:Dallas, TX -> 7018:Phoenix, AZ 8.6772
+7018:San Diego, CA -> 7018:Los Angeles, CA 6.28597
+7018:San Diego, CA -> 7018:St Louis, MO 8.78597
+7018:San Diego, CA -> 7018:Phoenix, AZ 2.39123
+7018:St Louis, MO -> 7018:Dallas, TX 1.5
+7018:St Louis, MO -> 7018:Kansas City, MO 1.88626
+7018:St Louis, MO -> 7018:Springfield, MO 1.55715
+7018:St Louis, MO -> 7018:San Diego, CA 8.78597
+7018:St Louis, MO -> 7018:Omaha, NE 3.21408
+7018:St Louis, MO -> 7018:Chicago, IL 1
+7018:St Louis, MO -> 7018:Louisville, KY 1.95811
+7018:St Louis, MO -> 7018:Bridgeton, MO 0.103668
+7018:St Louis, MO -> 7018:Des Moines, IA 2.18488
+7018:St Louis, MO -> 7018:Little Rock, AR 2.34575
+7018:St Louis, MO -> 7018:Los Angeles, CA 2.5
+7018:St Louis, MO -> 7018:Florissant, MO 0.0948404
+7018:St Louis, MO -> 7018:Seattle, WA 14.15768
+7018:St Louis, MO -> 7018:Detroit, MI 3
+7018:St Louis, MO -> 7018:Washington, DC 1.5
+7018:St Louis, MO -> 7018:San Francisco, CA 2.5
+7018:St Louis, MO -> 7018:Memphis, TN 1.9375
+7018:St Louis, MO -> 7018:Phoenix, AZ 10.1772
+7018:Albuquerque, NM -> 7018:Phoenix, AZ 2.65057
+7018:Des Moines, IA -> 7018:St Louis, MO 2.18488
+7018:Columbia, SC -> 7018:Atlanta, GA 1.63715
+7018:Milwaukee, WI -> 7018:Chicago, IL 0.679271
+7018:San Bernadino, CA -> 7018:Los Angeles, CA 1.83959
+7018:Las Vegas, NV -> 7018:Los Angeles, CA 1.85801
+7018:Camden, NJ -> 7018:Philadelphia, PA 0.0416163
+7018:Oklahoma City, OK -> 7018:Dallas, TX 1.53244
+7018:Seattle, WA -> 7018:St Louis, MO 14.15768
+7018:Seattle, WA -> 7018:Detroit, MI 15.15768
+7018:Seattle, WA -> 7018:San Francisco, CA 11.65768
+7018:Seattle, WA -> 7018:Portland, OR 1.16321
+7018:Seattle, WA -> 7018:Spokane, WA 1.85298
+7018:Seattle, WA -> 7018:Chicago, IL 13.15768
+7018:Seattle, WA -> 7018:Cambridge, MA 19.9722
+7018:Framingham, MA -> 7018:Cambridge, MA 0.140711
+7018:Bridgeport, CT -> 7018:New York, NY 0.419904
+7018:Minneapolis, MN -> 7018:Omaha, NE 1
+7018:Minneapolis, MN -> 7018:Chicago, IL 2.21408
+7018:San Jose, CA -> 7018:Los Angeles, CA 1.5
+7018:San Jose, CA -> 7018:San Francisco, CA 0.5
+7018:Sherman Oaks, CA -> 7018:Los Angeles, CA 0.0317328
+7018:Houston, TX -> 7018:Dallas, TX 2.5
+7018:Houston, TX -> 7018:Boston, MA 12.900435070856
+7018:Houston, TX -> 7018:New Orleans, LA 2.63736
+7018:Houston, TX -> 7018:Austin, TX 2.5
+7018:Chicago, IL -> 7018:Minneapolis, MN 2.21408
+7018:Chicago, IL -> 7018:Plymouth, MI 2.5
+7018:Chicago, IL -> 7018:Indianapolis, IN 1.3158
+7018:Chicago, IL -> 7018:Champaign, IL 0.99485
+7018:Chicago, IL -> 7018:Cambridge, MA 6.81452
+7018:Chicago, IL -> 7018:South Bend, IN 0.58753
+7018:Chicago, IL -> 7018:Rolling Meadows, IL 0.200836
+7018:Chicago, IL -> 7018:San Francisco, CA 2.5
+7018:Chicago, IL -> 7018:Oak Brook, IL 0.12757
+7018:Chicago, IL -> 7018:New York, NY 1.5
+7018:Chicago, IL -> 7018:Dallas, TX 2.5
+7018:Chicago, IL -> 7018:St. Paul, MN 2.7891
+7018:Chicago, IL -> 7018:Dayton, OH 3.51419
+7018:Chicago, IL -> 7018:St Louis, MO 1
+7018:Chicago, IL -> 7018:Madison, WI 0.988412
+7018:Chicago, IL -> 7018:Los Angeles, CA 3.5
+7018:Chicago, IL -> 7018:Cleveland, OH 2.47832
+7018:Chicago, IL -> 7018:Brookhaven, MI 2.5
+7018:Chicago, IL -> 7018:Milwaukee, WI 0.679271
+7018:Chicago, IL -> 7018:Galva, IL 1.06623
+7018:Chicago, IL -> 7018:Grand Rapids, MI 1.0216
+7018:Chicago, IL -> 7018:Seattle, WA 13.15768
+7018:Chicago, IL -> 7018:Detroit, MI 2
+7018:Chicago, IL -> 7018:Davenport, IA 1.22812
+7018:Chicago, IL -> 7018:Cincinnati, OH 3.86991
+7018:Florissant, MO -> 7018:St Louis, MO 0.0948404
+7018:Tampa, FL -> 7018:Orlando, FL 2.03363
+7018:Tampa, FL -> 7018:Fort Lauderdale, FL 1.53363
+7018:Providence, RI -> 7018:Cambridge, MA 0.331363
+7018:Wayne, PA -> 7018:Philadelphia, PA 0.111114
+7018:Birmingham, AL -> 7018:Atlanta, GA 1.111
+7018:St. Paul, MN -> 7018:Chicago, IL 2.7891
+7018:Dayton, OH -> 7018:Detroit, MI 1.51419
+7018:Dayton, OH -> 7018:Chicago, IL 3.51419
+7018:New Brusnwick, NJ -> 7018:New York, NY 0.37865
+7018:Anaheim, CA -> 7018:Los Angeles, CA 0.268084
+7018:Charlotte, NC -> 7018:Atlanta, GA 1.83053
+7018:Madison, WI -> 7018:Chicago, IL 0.988412
+7018:Honolulu, HI -> 7018:San Francisco, CA 19.177
+7018:Worcester, MA -> 7018:Cambridge, MA 0.291355
+7018:Louisville, KY -> 7018:St Louis, MO 1.95811
+7018:Little Rock, AR -> 7018:St Louis, MO 2.34575
+7018:Freehold, NJ -> 7018:New York, NY 0.286278
+7018:Dunwoody, GA -> 7018:Atlanta, GA 0.115154
+7018:Santa Clara, CA -> 7018:Salt Lake City, UT 6.31258
+7018:Santa Clara, CA -> 7018:San Francisco, CA 3.03928
+7018:Abingdon, VA -> 7018:Washington, DC 2.50062
+7018:Portland, ME -> 7018:Cambridge, MA 0.806554
+7018:Detroit, MI -> 7018:Philadelphia, PA 1.5
+7018:Detroit, MI -> 7018:Dayton, OH 1.51419
+7018:Detroit, MI -> 7018:Plymouth, MI 0.5
+7018:Detroit, MI -> 7018:St Louis, MO 3
+7018:Detroit, MI -> 7018:Chicago, IL 2
+7018:Detroit, MI -> 7018:Brookhaven, MI 0.5
+7018:Detroit, MI -> 7018:Cleveland, OH 1.47832
+7018:Detroit, MI -> 7018:Seattle, WA 15.15768
+7018:Detroit, MI -> 7018:Cincinnati, OH 1.86991
+7018:Cincinnati, OH -> 7018:Detroit, MI 1.86991
+7018:Cincinnati, OH -> 7018:Chicago, IL 3.86991
+7018:Orlando, FL -> 7018:West Palm Beach, FL 1.20499
+7018:Orlando, FL -> 7018:Atlanta, GA 3.23559
+7018:Orlando, FL -> 7018:Tampa, FL 2.03363
+7018:Orlando, FL -> 7018:Fort Lauderdale, FL 0.5
+7018:Orlando, FL -> 7018:Jacksonville, FL 1.00604
+7018:Orlando, FL -> 7018:Ojus, FL 1.56178
+7018:Orlando, FL -> 7018:Miami, FL 1.64385
+7018:Colorado Springs, CO -> 7018:Denver, CO 0.511788
+7018:Greensboro, NC -> 7018:Washington, DC 1.99566
+7018:Springfield, MO -> 7018:St Louis, MO 1.55715
+7018:Indianapolis, IN -> 7018:Chicago, IL 1.3158
+7018:Newark, NJ -> 7018:New York, NY 0.0710685
+7018:Hartford, CT -> 7018:New York, NY 0.802793
+7018:Cambridge, MA -> 7018:Seattle, WA 19.9722
+7018:Cambridge, MA -> 7018:Providence, RI 0.331363
+7018:Cambridge, MA -> 7018:Portland, ME 0.806554
+7018:Cambridge, MA -> 7018:Manchester, NH 0.373153
+7018:Cambridge, MA -> 7018:New York, NY 6.31452
+7018:Cambridge, MA -> 7018:Framingham, MA 0.140711
+7018:Cambridge, MA -> 7018:Worcester, MA 0.291355
+7018:Cambridge, MA -> 7018:Chicago, IL 6.81452
+7018:Bridgeton, MO -> 7018:St Louis, MO 0.103668
+7018:West Palm Beach, FL -> 7018:Orlando, FL 1.20499
+7018:Richmond, VA -> 7018:Arlington, VA 1.52763
+7018:Richmond, VA -> 7018:Washington, DC 1.52763
+7018:Memphis, TN -> 7018:St Louis, MO 1.9375
+7018:Oak Brook, IL -> 7018:Chicago, IL 0.12757
+7018:Gardena, CA -> 7018:Los Angeles, CA 100000
+7018:Miami, FL -> 7018:Orlando, FL 1.64385
+7018:Denver, CO -> 7018:Dallas, TX 5.31258
+7018:Denver, CO -> 7018:Salt Lake City, UT 3.03928
+7018:Denver, CO -> 7018:San Francisco, CA 6.31258
+7018:Denver, CO -> 7018:Colorado Springs, CO 0.511788
+7018:Rochelle Park, NJ -> 7018:New York, NY 0.111109
+7018:Los Angeles, CA -> 7018:Dallas, TX 3
+7018:Los Angeles, CA -> 7018:San Diego, CA 6.28597
+7018:Los Angeles, CA -> 7018:San Jose, CA 1.5
+7018:Los Angeles, CA -> 7018:Anaheim, CA 0.268084
+7018:Los Angeles, CA -> 7018:St Louis, MO 2.5
+7018:Los Angeles, CA -> 7018:Sherman Oaks, CA 0.0317328
+7018:Los Angeles, CA -> 7018:Chicago, IL 3.5
+7018:Los Angeles, CA -> 7018:Atlanta, GA 4.5
+7018:Los Angeles, CA -> 7018:Las Vegas, NV 1.85801
+7018:Los Angeles, CA -> 7018:San Bernadino, CA 1.83959
+7018:Los Angeles, CA -> 7018:San Francisco, CA 1
+7018:Los Angeles, CA -> 7018:Gardena, CA 100000
+7018:Los Angeles, CA -> 7018:Sacramento, CA 2.84864
+7018:Brookhaven, MI -> 7018:Detroit, MI 0.5
+7018:Brookhaven, MI -> 7018:Chicago, IL 2.5
+7018:Oakland, CA -> 7018:San Francisco, CA 0.123628
+7018:Galva, IL -> 7018:Chicago, IL 1.06623
+7018:Silver Springs, MD -> 7018:Washington, DC 0.354151
+7018:McLean, VA -> 7018:Washington, DC 0.0791793
+7018:Akron, OH -> 7018:Washington, DC 2.27328
+7018:Boston, MA -> 7018:Houston, TX 12.900435070856
+7018:Syracuse, NY -> 7018:New York, NY 1.57033
+7018:Omaha, NE -> 7018:Kansas City, MO 1.32782
+7018:Omaha, NE -> 7018:Minneapolis, MN 1
+7018:Omaha, NE -> 7018:St Louis, MO 3.21408
+7018:Baltimore, MD -> 7018:Washington, DC 0.281323
+7018:Pittsburgh, PA -> 7018:Philadelphia, PA 2.07707
+7018:Raleigh, NC -> 7018:Atlanta, GA 2.36162
+7018:Raleigh, NC -> 7018:Washington, DC 1.86162
+7018:Ashburn, VA -> 7018:Washington, DC 0.225316
+7018:South Bend, IN -> 7018:Chicago, IL 0.58753
+7018:Atlanta, GA -> 7018:Dallas, TX 1.5
+7018:Atlanta, GA -> 7018:Birmingham, AL 1.111
+7018:Atlanta, GA -> 7018:Charlotte, NC 1.83053
+7018:Atlanta, GA -> 7018:Raleigh, NC 2.36162
+7018:Atlanta, GA -> 7018:Columbia, SC 1.63715
+7018:Atlanta, GA -> 7018:Dunwoody, GA 0.115154
+7018:Atlanta, GA -> 7018:Los Angeles, CA 4.5
+7018:Atlanta, GA -> 7018:Nashville, TN 1.72156
+7018:Atlanta, GA -> 7018:Washington, DC 1.5
+7018:Atlanta, GA -> 7018:Orlando, FL 3.23559
+7018:New Orleans, LA -> 7018:Houston, TX 2.63736
+7018:Fort Worth, TX -> 7018:Dallas, TX 0.268573
+7018:Nashville, TN -> 7018:Atlanta, GA 1.72156
+7018:Madison Heights, VA -> 7018:Washington, DC 1.2199
+7018:San Francisco, CA -> 7018:Denver, CO 6.31258
+7018:San Francisco, CA -> 7018:San Jose, CA 0.5
+7018:San Francisco, CA -> 7018:St Louis, MO 2.5
+7018:San Francisco, CA -> 7018:Palo Alto, CA 0.261255
+7018:San Francisco, CA -> 7018:Honolulu, HI 19.177
+7018:San Francisco, CA -> 7018:Chicago, IL 2.5
+7018:San Francisco, CA -> 7018:Los Angeles, CA 1
+7018:San Francisco, CA -> 7018:Riverside, CA 3.14734
+7018:San Francisco, CA -> 7018:Santa Clara, CA 3.03928
+7018:San Francisco, CA -> 7018:Oakland, CA 0.123628
+7018:San Francisco, CA -> 7018:Seattle, WA 11.65768
+7018:Cedar Knolls, NJ -> 7018:New York, NY 0.197135
+7018:Kansas City, MO -> 7018:St Louis, MO 1.88626
+7018:Kansas City, MO -> 7018:Omaha, NE 1.32782
+7018:Philadelphia, PA -> 7018:Hamilton Square, NJ 0.239772
+7018:Philadelphia, PA -> 7018:Camden, NJ 0.0416163
+7018:Philadelphia, PA -> 7018:Detroit, MI 1.5
+7018:Philadelphia, PA -> 7018:Wayne, PA 0.111114
+7018:Philadelphia, PA -> 7018:Washington, DC 1
+7018:Philadelphia, PA -> 7018:New York, NY 1
+7018:Philadelphia, PA -> 7018:Pittsburgh, PA 2.07707
+7018:Philadelphia, PA -> 7018:Harrisburg, PA 0.759304
+7018:Stamford, CT -> 7018:New York, NY 0.280724
+7018:White Plains, NY -> 7018:New York, NY 0.204904
+7018:Riverside, CA -> 7018:San Francisco, CA 3.14734
+7018:Cleveland, OH -> 7018:Detroit, MI 1.47832
+7018:Cleveland, OH -> 7018:Chicago, IL 2.47832
+7018:Albany, NY -> 7018:New York, NY 1.08194
+7018:Hamilton Square, NJ -> 7018:Philadelphia, PA 0.239772
+7018:Grand Rapids, MI -> 7018:Chicago, IL 1.0216
+7018:Bohemia, NY -> 7018:New York, NY 0.378247
+7018:Salt Lake City, UT -> 7018:Santa Clara, CA 6.31258
+7018:Salt Lake City, UT -> 7018:Denver, CO 3.03928
+7018:Rochester, NY -> 7018:New York, NY 2.01525
+7018:Davenport, IA -> 7018:Chicago, IL 1.22812
+7018:Fort Lauderdale, FL -> 7018:Tampa, FL 1.53363
+7018:Fort Lauderdale, FL -> 7018:Orlando, FL 0.5
+7018:Ojus, FL -> 7018:Orlando, FL 1.56178

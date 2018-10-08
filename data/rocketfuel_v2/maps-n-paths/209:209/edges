@@ -1,0 +1,216 @@
+209:Albuquerque, NM -> 209:Denver, CO 4221
+209:Anaheim, CA -> 209:Burbank, CA 3
+209:Arlington, VA -> 209:Washington, DC 22
+209:Ashburn, VA -> 209:Washington, DC 4
+209:Atlanta, GA -> 209:Chicago, IL 128608
+209:Atlanta, GA -> 209:Columbus, OH 69
+209:Atlanta, GA -> 209:Houston, TX 105394
+209:Atlanta, GA -> 209:Kansas City, MO 63737
+209:Atlanta, GA -> 209:Tampa, FL 24723
+209:Atlanta, GA -> 209:Washington, DC 340467
+209:Bellevue, WA -> 209:Seattle, WA 8134
+209:Billings, MT -> 209:Salt Lake City, UT 3791
+209:Bismark, ND -> 209:Minneapolis, MN 323
+209:Boise, ID -> 209:Salt Lake City, UT 1004
+209:Boise, ID -> 209:Seattle, WA 2924
+209:Boston, MA -> 209:Chicago, IL 198688
+209:Boston, MA -> 209:New York, NY 50937
+209:Burbank, CA -> 209:Anaheim, CA 3
+209:Burbank, CA -> 209:Hong Kong 2848
+209:Burbank, CA -> 209:Houston, TX 233132
+209:Burbank, CA -> 209:Los Angeles, CA 214269
+209:Burbank, CA -> 209:Sunnyvale, CA 149757
+209:Burbank, CA -> 209:Tokyo, Japan 59
+209:Cedar Rapids, IA -> 209:Chicago, IL 13162
+209:Cedar Rapids, IA -> 209:Kansas City, MO 1592
+209:Cedar Rapids, IA -> 209:Minneapolis, MN 1251
+209:Cedar Rapids, IA -> 209:Washington, DC 14646
+209:Cheyenne, WY -> 209:Denver, CO 2623
+209:Cheyenne, WY -> 209:Sioux Falls, SD 60
+209:Chicago, IL -> 209:Atlanta, GA 128608
+209:Chicago, IL -> 209:Boston, MA 198688
+209:Chicago, IL -> 209:Cedar Rapids, IA 13162
+209:Chicago, IL -> 209:Crescent City, CA 4
+209:Chicago, IL -> 209:Denver, CO 39719
+209:Chicago, IL -> 209:Kansas City, MO 46213
+209:Chicago, IL -> 209:Minneapolis, MN 4306
+209:Chicago, IL -> 209:New York, NY 45987
+209:Chicago, IL -> 209:Newark, NJ 38476
+209:Chicago, IL -> 209:Portland, OR 5218
+209:Chicago, IL -> 209:Sunnyvale, CA 85952
+209:Chicago, IL -> 209:Washington, DC 12460
+209:Colorado Springs, CO -> 209:Denver, CO 3077
+209:Columbus, OH -> 209:Atlanta, GA 69
+209:Columbus, OH -> 209:Washington, DC 173
+209:Crescent City, CA -> 209:Chicago, IL 4
+209:Dallas, TX -> 209:Denver, CO 14777
+209:Dallas, TX -> 209:Houston, TX 190367
+209:Dallas, TX -> 209:Kansas City, MO 113580
+209:Denver, CO -> 209:Albuquerque, NM 4221
+209:Denver, CO -> 209:Cheyenne, WY 2623
+209:Denver, CO -> 209:Chicago, IL 39719
+209:Denver, CO -> 209:Colorado Springs, CO 3077
+209:Denver, CO -> 209:Dallas, TX 14777
+209:Denver, CO -> 209:Englewood, CO 6138
+209:Denver, CO -> 209:Kansas City, MO 42718
+209:Denver, CO -> 209:Minneapolis, MN 17177
+209:Denver, CO -> 209:Omaha, NE 9799
+209:Denver, CO -> 209:Phoenix, AZ 16299
+209:Denver, CO -> 209:Portland, OR 1824
+209:Denver, CO -> 209:Salt Lake City, UT 114257
+209:Denver, CO -> 209:Seattle, WA 15101
+209:Denver, CO -> 209:Sunnyvale, CA 42700
+209:Des Moines, IA -> 209:Minneapolis, MN 971
+209:Des Moines, IA -> 209:Omaha, NE 2517
+209:Duluth, MN -> 209:Minneapolis, MN 688
+209:Englewood, CO -> 209:Denver, CO 6138
+209:Englewood, CO -> 209:Kansas City, MO 2270
+209:Englewood, CO -> 209:San Francisco, CA 1252
+209:Eugene, OR -> 209:Portland, OR 419
+209:Eugene, OR -> 209:Seattle, WA 1965
+209:Fargo, ND -> 209:Minneapolis, MN 2672
+209:Helena, MT -> 209:Seattle, WA 1351
+209:Hong Kong -> 209:Burbank, CA 2848
+209:Houston, TX -> 209:Atlanta, GA 105394
+209:Houston, TX -> 209:Burbank, CA 233132
+209:Houston, TX -> 209:Dallas, TX 190367
+209:Houston, TX -> 209:Los Angeles, CA 5202
+209:Houston, TX -> 209:Newark, NJ 39850
+209:Houston, TX -> 209:San Jose, CA 1078
+209:Houston, TX -> 209:Sunnyvale, CA 26919
+209:Houston, TX -> 209:Tampa, FL 32368
+209:Houston, TX -> 209:Washington, DC 124648
+209:Kansas City, MO -> 209:Atlanta, GA 63737
+209:Kansas City, MO -> 209:Cedar Rapids, IA 1592
+209:Kansas City, MO -> 209:Chicago, IL 46213
+209:Kansas City, MO -> 209:Dallas, TX 113580
+209:Kansas City, MO -> 209:Denver, CO 42718
+209:Kansas City, MO -> 209:Englewood, CO 2270
+209:Kansas City, MO -> 209:Minneapolis, MN 118
+209:Kansas City, MO -> 209:Newark, NJ 48165
+209:Kansas City, MO -> 209:Sunnyvale, CA 18411
+209:Kansas City, MO -> 209:Washington, DC 4841
+209:Las Vegas, NV -> 209:San Jose, CA 98
+209:Los Angeles, CA -> 209:Burbank, CA 214269
+209:Los Angeles, CA -> 209:Houston, TX 5202
+209:Los Angeles, CA -> 209:Orange, CA 952
+209:Los Angeles, CA -> 209:Portland, OR 806
+209:Los Angeles, CA -> 209:Salt Lake City, UT 40483
+209:Los Angeles, CA -> 209:San Diego, CA 443
+209:Los Angeles, CA -> 209:San Jose, CA 7035
+209:Miami, FL -> 209:Tampa, FL 1357
+209:Minneapolis, MN -> 209:Bismark, ND 323
+209:Minneapolis, MN -> 209:Cedar Rapids, IA 1251
+209:Minneapolis, MN -> 209:Chicago, IL 4306
+209:Minneapolis, MN -> 209:Denver, CO 17177
+209:Minneapolis, MN -> 209:Des Moines, IA 971
+209:Minneapolis, MN -> 209:Duluth, MN 688
+209:Minneapolis, MN -> 209:Fargo, ND 2672
+209:Minneapolis, MN -> 209:Kansas City, MO 118
+209:Minneapolis, MN -> 209:Rochester, MN 2705
+209:Minneapolis, MN -> 209:Seattle, WA 884
+209:Minneapolis, MN -> 209:Sioux Falls, SD 877
+209:Naples, FL -> 209:Tampa, FL 2075
+209:New York, NY -> 209:Boston, MA 50937
+209:New York, NY -> 209:Chicago, IL 45987
+209:New York, NY -> 209:Newark, NJ 30173
+209:New York, NY -> 209:Rochester, MN 690
+209:New York, NY -> 209:San Francisco, CA 4392
+209:New York, NY -> 209:Washington, DC 154516
+209:Newark, NJ -> 209:Chicago, IL 38476
+209:Newark, NJ -> 209:Houston, TX 39850
+209:Newark, NJ -> 209:Kansas City, MO 48165
+209:Newark, NJ -> 209:New York, NY 30173
+209:Newark, NJ -> 209:Philadelphia, PA 165
+209:Newark, NJ -> 209:Washington, DC 97309
+209:Omaha, NE -> 209:Denver, CO 9799
+209:Omaha, NE -> 209:Des Moines, IA 2517
+209:Omaha, NE -> 209:Rochester, MN 22
+209:Omaha, NE -> 209:Seattle, WA 100
+209:Omaha, NE -> 209:Sioux City, IA 719
+209:Omaha, NE -> 209:Sioux Falls, SD 2293
+209:Orange, CA -> 209:Los Angeles, CA 952
+209:Palo Alto, CA -> 209:Sunnyvale, CA 117784
+209:Philadelphia, PA -> 209:Newark, NJ 165
+209:Phoenix, AZ -> 209:Denver, CO 16299
+209:Phoenix, AZ -> 209:Seattle, WA 274
+209:Phoenix, AZ -> 209:Tucson, AZ 3582
+209:Portland, OR -> 209:Chicago, IL 5218
+209:Portland, OR -> 209:Denver, CO 1824
+209:Portland, OR -> 209:Eugene, OR 419
+209:Portland, OR -> 209:Los Angeles, CA 806
+209:Portland, OR -> 209:Salt Lake City, UT 4332
+209:Portland, OR -> 209:Seattle, WA 14066
+209:Rochester, MN -> 209:Minneapolis, MN 2705
+209:Rochester, MN -> 209:New York, NY 690
+209:Rochester, MN -> 209:Omaha, NE 22
+209:Sacramento, CA -> 209:Sunnyvale, CA 12
+209:Salt Lake City, UT -> 209:Billings, MT 3791
+209:Salt Lake City, UT -> 209:Boise, ID 1004
+209:Salt Lake City, UT -> 209:Denver, CO 114257
+209:Salt Lake City, UT -> 209:Los Angeles, CA 40483
+209:Salt Lake City, UT -> 209:Portland, OR 4332
+209:Salt Lake City, UT -> 209:Seattle, WA 736
+209:Salt Lake City, UT -> 209:Spokane, WA 608
+209:San Diego, CA -> 209:Los Angeles, CA 443
+209:San Francisco, CA -> 209:Englewood, CO 1252
+209:San Francisco, CA -> 209:New York, NY 4392
+209:San Francisco, CA -> 209:San Jose, CA 6251
+209:San Jose, CA -> 209:Houston, TX 1078
+209:San Jose, CA -> 209:Las Vegas, NV 98
+209:San Jose, CA -> 209:Los Angeles, CA 7035
+209:San Jose, CA -> 209:San Francisco, CA 6251
+209:San Jose, CA -> 209:Sunnyvale, CA 48558
+209:San Jose, CA -> 209:Washington, DC 734
+209:Seattle, WA -> 209:Bellevue, WA 8134
+209:Seattle, WA -> 209:Boise, ID 2924
+209:Seattle, WA -> 209:Denver, CO 15101
+209:Seattle, WA -> 209:Eugene, OR 1965
+209:Seattle, WA -> 209:Helena, MT 1351
+209:Seattle, WA -> 209:Minneapolis, MN 884
+209:Seattle, WA -> 209:Omaha, NE 100
+209:Seattle, WA -> 209:Phoenix, AZ 274
+209:Seattle, WA -> 209:Portland, OR 14066
+209:Seattle, WA -> 209:Salt Lake City, UT 736
+209:Seattle, WA -> 209:Spokane, WA 1845
+209:Seattle, WA -> 209:Tukwila, WA 10344
+209:Sioux City, IA -> 209:Omaha, NE 719
+209:Sioux Falls, SD -> 209:Cheyenne, WY 60
+209:Sioux Falls, SD -> 209:Minneapolis, MN 877
+209:Sioux Falls, SD -> 209:Omaha, NE 2293
+209:Spokane, WA -> 209:Salt Lake City, UT 608
+209:Spokane, WA -> 209:Seattle, WA 1845
+209:Sunnyvale, CA -> 209:Burbank, CA 149757
+209:Sunnyvale, CA -> 209:Chicago, IL 85952
+209:Sunnyvale, CA -> 209:Denver, CO 42700
+209:Sunnyvale, CA -> 209:Houston, TX 26919
+209:Sunnyvale, CA -> 209:Kansas City, MO 18411
+209:Sunnyvale, CA -> 209:Palo Alto, CA 117784
+209:Sunnyvale, CA -> 209:Sacramento, CA 12
+209:Sunnyvale, CA -> 209:San Jose, CA 48558
+209:Sunnyvale, CA -> 209:Sydney, Australia 80
+209:Sunnyvale, CA -> 209:Tokyo, Japan 103
+209:Sunnyvale, CA -> 209:Washington, DC 20716
+209:Sydney, Australia -> 209:Sunnyvale, CA 80
+209:Tampa, FL -> 209:Atlanta, GA 24723
+209:Tampa, FL -> 209:Houston, TX 32368
+209:Tampa, FL -> 209:Miami, FL 1357
+209:Tampa, FL -> 209:Naples, FL 2075
+209:Tampa, FL -> 209:Washington, DC 14392
+209:Tokyo, Japan -> 209:Burbank, CA 59
+209:Tokyo, Japan -> 209:Sunnyvale, CA 103
+209:Tucson, AZ -> 209:Phoenix, AZ 3582
+209:Tukwila, WA -> 209:Seattle, WA 10344
+209:Washington, DC -> 209:Arlington, VA 22
+209:Washington, DC -> 209:Ashburn, VA 4
+209:Washington, DC -> 209:Atlanta, GA 340467
+209:Washington, DC -> 209:Cedar Rapids, IA 14646
+209:Washington, DC -> 209:Chicago, IL 12460
+209:Washington, DC -> 209:Columbus, OH 173
+209:Washington, DC -> 209:Houston, TX 124648
+209:Washington, DC -> 209:Kansas City, MO 4841
+209:Washington, DC -> 209:New York, NY 154516
+209:Washington, DC -> 209:Newark, NJ 97309
+209:Washington, DC -> 209:San Jose, CA 734
+209:Washington, DC -> 209:Sunnyvale, CA 20716
+209:Washington, DC -> 209:Tampa, FL 14392

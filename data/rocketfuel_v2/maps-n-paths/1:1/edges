@@ -1,0 +1,110 @@
+1:Ashburn, VA -> 1:Chancetown, VA 21
+1:Ashburn, VA -> 1:Washington, DC 53528
+1:Atlanta, GA -> 1:Carrollton, TX 8202
+1:Atlanta, GA -> 1:Indianapolis, IN 9805
+1:Atlanta, GA -> 1:Jacksonville, FL 344
+1:Atlanta, GA -> 1:Tampa, FL 20317
+1:Atlanta, GA -> 1:Washington, DC 6078
+1:Austin, TX -> 1:Carrollton, TX 858
+1:Boston, MA -> 1:Burlington, MA 72
+1:Boston, MA -> 1:Cambridge, MA 115075
+1:Boston, MA -> 1:Chicago, IL 40989
+1:Boston, MA -> 1:Hartford, CT 3329
+1:Boston, MA -> 1:New York, NY 266295
+1:Burlington, MA -> 1:Boston, MA 72
+1:Burlington, MA -> 1:Cambridge, MA 5
+1:Cambridge, MA -> 1:Boston, MA 115075
+1:Cambridge, MA -> 1:Burlington, MA 5
+1:Carrollton, TX -> 1:Atlanta, GA 8202
+1:Carrollton, TX -> 1:Austin, TX 858
+1:Carrollton, TX -> 1:Dallas, TX 15593
+1:Carrollton, TX -> 1:Denver, CO 5662
+1:Carrollton, TX -> 1:Houston, TX 62242
+1:Carrollton, TX -> 1:Indianapolis, IN 67350
+1:Carrollton, TX -> 1:Phoenix, AZ 645
+1:Chancetown, VA -> 1:Ashburn, VA 21
+1:Chancetown, VA -> 1:Washington, DC 89
+1:Chicago, IL -> 1:Boston, MA 40989
+1:Chicago, IL -> 1:Cleveland, OH 4223
+1:Chicago, IL -> 1:Denver, CO 144884
+1:Chicago, IL -> 1:Indianapolis, IN 59691
+1:Chicago, IL -> 1:Minneapolis, MN 5045
+1:Chicago, IL -> 1:New York, NY 90307
+1:Cleveland, OH -> 1:Chicago, IL 4223
+1:Cleveland, OH -> 1:New York, NY 2262
+1:Dallas, TX -> 1:Carrollton, TX 15593
+1:Denver, CO -> 1:Carrollton, TX 5662
+1:Denver, CO -> 1:Chicago, IL 144884
+1:Denver, CO -> 1:Los Angeles, CA 1444
+1:Denver, CO -> 1:San Jose, CA 79795
+1:Denver, CO -> 1:Seattle, WA 60893
+1:Durham, NC -> 1:Washington, DC 162
+1:Everett, WA -> 1:Seattle, WA 8591
+1:Hartford, CT -> 1:Boston, MA 3329
+1:Honolulu, HI -> 1:Los Angeles, CA 5312
+1:Houston, TX -> 1:Carrollton, TX 62242
+1:Houston, TX -> 1:Los Angeles, CA 58882
+1:Indianapolis, IN -> 1:Atlanta, GA 9805
+1:Indianapolis, IN -> 1:Carrollton, TX 67350
+1:Indianapolis, IN -> 1:Chicago, IL 59691
+1:Indianapolis, IN -> 1:Philadelphia, PA 79317
+1:Jacksonville, FL -> 1:Atlanta, GA 344
+1:London, UnitedKingdom -> 1:Philadelphia, PA 53
+1:Los Angeles, CA -> 1:Denver, CO 1444
+1:Los Angeles, CA -> 1:Honolulu, HI 5312
+1:Los Angeles, CA -> 1:Houston, TX 58882
+1:Los Angeles, CA -> 1:Phoenix, AZ 760
+1:Los Angeles, CA -> 1:San Diego, CA 1131
+1:Los Angeles, CA -> 1:San Jose, CA 54034
+1:Los Angeles, CA -> 1:Sydney, Australia 224
+1:Miami, FL -> 1:Rio de Janeiro, Brazil 2
+1:Miami, FL -> 1:Sao Paolo, Brazil 18
+1:Miami, FL -> 1:Tampa, FL 10713
+1:Miami, FL -> 1:Washington, DC 9441
+1:Minneapolis, MN -> 1:Chicago, IL 5045
+1:Mountain View, CA -> 1:Palo Alto, CA 45
+1:Mountain View, CA -> 1:San Jose, CA 453
+1:New York, NY -> 1:Boston, MA 266295
+1:New York, NY -> 1:Chicago, IL 90307
+1:New York, NY -> 1:Cleveland, OH 2262
+1:New York, NY -> 1:Newark, NJ 70
+1:New York, NY -> 1:Philadelphia, PA 159078
+1:Newark, NJ -> 1:New York, NY 70
+1:Oakland, CA -> 1:San Francisco, CA 440
+1:Oakland, CA -> 1:San Jose, CA 2446
+1:Palo Alto, CA -> 1:Mountain View, CA 45
+1:Palo Alto, CA -> 1:San Jose, CA 79384
+1:Philadelphia, PA -> 1:Indianapolis, IN 79317
+1:Philadelphia, PA -> 1:London, UnitedKingdom 53
+1:Philadelphia, PA -> 1:New York, NY 159078
+1:Philadelphia, PA -> 1:Washington, DC 133750
+1:Phoenix, AZ -> 1:Carrollton, TX 645
+1:Phoenix, AZ -> 1:Los Angeles, CA 760
+1:Portland, OR -> 1:Seattle, WA 11
+1:Richmond, VA -> 1:Washington, DC 304
+1:Rio de Janeiro, Brazil -> 1:Miami, FL 2
+1:San Diego, CA -> 1:Los Angeles, CA 1131
+1:San Francisco, CA -> 1:Oakland, CA 440
+1:San Jose, CA -> 1:Denver, CO 79795
+1:San Jose, CA -> 1:Los Angeles, CA 54034
+1:San Jose, CA -> 1:Mountain View, CA 453
+1:San Jose, CA -> 1:Oakland, CA 2446
+1:San Jose, CA -> 1:Palo Alto, CA 79384
+1:San Jose, CA -> 1:Seattle, WA 41559
+1:Sao Paolo, Brazil -> 1:Miami, FL 18
+1:Seattle, WA -> 1:Denver, CO 60893
+1:Seattle, WA -> 1:Everett, WA 8591
+1:Seattle, WA -> 1:Portland, OR 11
+1:Seattle, WA -> 1:San Jose, CA 41559
+1:Sydney, Australia -> 1:Los Angeles, CA 224
+1:Tampa, FL -> 1:Atlanta, GA 20317
+1:Tampa, FL -> 1:Miami, FL 10713
+1:Vienna, VA -> 1:Washington, DC 3909
+1:Washington, DC -> 1:Ashburn, VA 53528
+1:Washington, DC -> 1:Atlanta, GA 6078
+1:Washington, DC -> 1:Chancetown, VA 89
+1:Washington, DC -> 1:Durham, NC 162
+1:Washington, DC -> 1:Miami, FL 9441
+1:Washington, DC -> 1:Philadelphia, PA 133750
+1:Washington, DC -> 1:Richmond, VA 304
+1:Washington, DC -> 1:Vienna, VA 3909

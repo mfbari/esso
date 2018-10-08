@@ -1,0 +1,48 @@
+11537:Houston, TX -> 11537:Los Angeles, CA 1
+11537:Houston, TX -> 11537:Kansas City, MO 2
+11537:Houston, TX -> 11537:Atlanta, GA 1
+11537:Chicago, IL -> 11537:Winnipeg, Canada 5.77269
+11537:Chicago, IL -> 11537:New York, NY 5.7254
+11537:Chicago, IL -> 11537:Boston, MA 6.83381
+11537:Chicago, IL -> 11537:Indianapolis, IN 0.5
+11537:Atlanta, GA -> 11537:Houston, TX 1
+11537:Atlanta, GA -> 11537:Washington, DC 6.2254
+11537:Atlanta, GA -> 11537:Indianapolis, IN 2
+11537:Sunnyvale, CA -> 11537:Seattle, WA 5.68752
+11537:Sunnyvale, CA -> 11537:Los Angeles, CA 1.5
+11537:Sunnyvale, CA -> 11537:Kansas City, MO 0.5
+11537:Sunnyvale, CA -> 11537:Denver, CO 0.5
+11537:Boston, MA -> 11537:New York, NY 2.10841
+11537:Boston, MA -> 11537:Chicago, IL 6.83381
+11537:Kansas City, MO -> 11537:Houston, TX 2
+11537:Kansas City, MO -> 11537:Denver, CO 1
+11537:Kansas City, MO -> 11537:Sunnyvale, CA 0.5
+11537:Kansas City, MO -> 11537:Indianapolis, IN 3.61767861366973
+11537:Winnipeg, Canada -> 11537:New York, NY 10.3198
+11537:Winnipeg, Canada -> 11537:Chicago, IL 5.77269
+11537:Winnipeg, Canada -> 11537:Indianapolis, IN 5.27269
+11537:Pittsburgh, PA -> 11537:New York, NY 1.54074
+11537:Pittsburgh, PA -> 11537:Washington, DC 1.54074
+11537:Indianapolis, IN -> 11537:Cleveland, OH 3.97796
+11537:Indianapolis, IN -> 11537:Winnipeg, Canada 5.27269
+11537:Indianapolis, IN -> 11537:Kansas City, MO 3.61767861366973
+11537:Indianapolis, IN -> 11537:Chicago, IL 0.5
+11537:Indianapolis, IN -> 11537:Atlanta, GA 2
+11537:Los Angeles, CA -> 11537:Houston, TX 1
+11537:Los Angeles, CA -> 11537:Sunnyvale, CA 1.5
+11537:Seattle, WA -> 11537:Denver, CO 5.18752
+11537:Seattle, WA -> 11537:Sunnyvale, CA 5.68752
+11537:Cleveland, OH -> 11537:New York, NY 3.24744
+11537:Cleveland, OH -> 11537:Indianapolis, IN 3.97796
+11537:New York, NY -> 11537:Cleveland, OH 3.24744
+11537:New York, NY -> 11537:Winnipeg, Canada 10.3198
+11537:New York, NY -> 11537:Chicago, IL 5.7254
+11537:New York, NY -> 11537:Boston, MA 2.10841
+11537:New York, NY -> 11537:Washington, DC 1
+11537:New York, NY -> 11537:Pittsburgh, PA 1.54074
+11537:Denver, CO -> 11537:Seattle, WA 5.18752
+11537:Denver, CO -> 11537:Kansas City, MO 1
+11537:Denver, CO -> 11537:Sunnyvale, CA 0.5
+11537:Washington, DC -> 11537:New York, NY 1
+11537:Washington, DC -> 11537:Atlanta, GA 6.2254
+11537:Washington, DC -> 11537:Pittsburgh, PA 1.54074

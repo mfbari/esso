@@ -1,0 +1,128 @@
+8220:Amsterdam, Netherlands -> 8220:London, UnitedKingdom 27
+8220:Barcelona, Spain -> 8220:Madrid, Spain 539
+8220:Barcelona, Spain -> 8220:Valencia, Spain 30
+8220:Berlin, Germany -> 8220:Frankfurt, Germany 6
+8220:Berlin, Germany -> 8220:London, UnitedKingdom 229
+8220:Berlin, Germany -> 8220:Munich, Germany 4
+8220:Berlin, Germany -> 8220:New York, NY 662
+8220:Berlin, Germany -> 8220:Stockholm, Sweden 60
+8220:Brussels, Belgium -> 8220:London, UnitedKingdom 279
+8220:Brussels, Belgium -> 8220:New York, NY 571
+8220:Brussels, Belgium -> 8220:Stockholm, Sweden 52
+8220:Cologne, Germany -> 8220:London, UnitedKingdom 94
+8220:Cologne, Germany -> 8220:New York, NY 204
+8220:Cologne, Germany -> 8220:Stockholm, Sweden 19
+8220:Copenhagen, Denmark -> 8220:London, UnitedKingdom 100
+8220:Copenhagen, Denmark -> 8220:New York, NY 218
+8220:Copenhagen, Denmark -> 8220:Stockholm, Sweden 19
+8220:Dublin, Ireland -> 8220:London, UnitedKingdom 34
+8220:Dublin, Ireland -> 8220:New York, NY 21
+8220:Dublin, Ireland -> 8220:Stockholm, Sweden 2
+8220:Dusseldorf, Germany -> 8220:London, UnitedKingdom 148
+8220:Dusseldorf, Germany -> 8220:New York, NY 421
+8220:Dusseldorf, Germany -> 8220:Stockholm, Sweden 46
+8220:Frankfurt, Germany -> 8220:Berlin, Germany 6
+8220:Frankfurt, Germany -> 8220:London, UnitedKingdom 617
+8220:Frankfurt, Germany -> 8220:New York, NY 1123
+8220:Frankfurt, Germany -> 8220:Stockholm, Sweden 158
+8220:Frankfurt, Germany -> 8220:Syracuse, NY 2
+8220:Geneva, Switzerland -> 8220:London, UnitedKingdom 201
+8220:Geneva, Switzerland -> 8220:New York, NY 68
+8220:Geneva, Switzerland -> 8220:Stockholm, Sweden 10
+8220:Geneva, Switzerland -> 8220:Zurich, Switzerland 230
+8220:Hamburg, Germany -> 8220:London, UnitedKingdom 137
+8220:Hamburg, Germany -> 8220:New York, NY 385
+8220:Hamburg, Germany -> 8220:Stockholm, Sweden 37
+8220:Hanover, Germany -> 8220:London, UnitedKingdom 218
+8220:Hanover, Germany -> 8220:New York, NY 907
+8220:Hanover, Germany -> 8220:Stockholm, Sweden 66
+8220:London, UnitedKingdom -> 8220:Amsterdam, Netherlands 27
+8220:London, UnitedKingdom -> 8220:Berlin, Germany 229
+8220:London, UnitedKingdom -> 8220:Brussels, Belgium 279
+8220:London, UnitedKingdom -> 8220:Cologne, Germany 94
+8220:London, UnitedKingdom -> 8220:Copenhagen, Denmark 100
+8220:London, UnitedKingdom -> 8220:Dublin, Ireland 34
+8220:London, UnitedKingdom -> 8220:Dusseldorf, Germany 148
+8220:London, UnitedKingdom -> 8220:Frankfurt, Germany 617
+8220:London, UnitedKingdom -> 8220:Geneva, Switzerland 201
+8220:London, UnitedKingdom -> 8220:Hamburg, Germany 137
+8220:London, UnitedKingdom -> 8220:Hanover, Germany 218
+8220:London, UnitedKingdom -> 8220:Madrid, Spain 526
+8220:London, UnitedKingdom -> 8220:Milan, Italy 249
+8220:London, UnitedKingdom -> 8220:Munich, Germany 105
+8220:London, UnitedKingdom -> 8220:New York, NY 808
+8220:London, UnitedKingdom -> 8220:Paris, France 781
+8220:London, UnitedKingdom -> 8220:Stockholm, Sweden 155
+8220:London, UnitedKingdom -> 8220:Strasburg, Germany 208
+8220:London, UnitedKingdom -> 8220:Vienna, Austria 2246
+8220:London, UnitedKingdom -> 8220:Zurich, Switzerland 60
+8220:Lund, Sweden -> 8220:New York, NY 4
+8220:Lund, Sweden -> 8220:Stockholm, Sweden 22
+8220:Madrid, Spain -> 8220:Barcelona, Spain 539
+8220:Madrid, Spain -> 8220:London, UnitedKingdom 526
+8220:Madrid, Spain -> 8220:New York, NY 898
+8220:Madrid, Spain -> 8220:Stockholm, Sweden 107
+8220:Madrid, Spain -> 8220:Valencia, Spain 35
+8220:Milan, Italy -> 8220:London, UnitedKingdom 249
+8220:Milan, Italy -> 8220:New York, NY 650
+8220:Milan, Italy -> 8220:Stockholm, Sweden 61
+8220:Munich, Germany -> 8220:Berlin, Germany 4
+8220:Munich, Germany -> 8220:London, UnitedKingdom 105
+8220:Munich, Germany -> 8220:New York, NY 265
+8220:Munich, Germany -> 8220:Stockholm, Sweden 30
+8220:New York, NY -> 8220:Berlin, Germany 662
+8220:New York, NY -> 8220:Brussels, Belgium 571
+8220:New York, NY -> 8220:Cologne, Germany 204
+8220:New York, NY -> 8220:Copenhagen, Denmark 218
+8220:New York, NY -> 8220:Dublin, Ireland 21
+8220:New York, NY -> 8220:Dusseldorf, Germany 421
+8220:New York, NY -> 8220:Frankfurt, Germany 1123
+8220:New York, NY -> 8220:Geneva, Switzerland 68
+8220:New York, NY -> 8220:Hamburg, Germany 385
+8220:New York, NY -> 8220:Hanover, Germany 907
+8220:New York, NY -> 8220:London, UnitedKingdom 808
+8220:New York, NY -> 8220:Lund, Sweden 4
+8220:New York, NY -> 8220:Madrid, Spain 898
+8220:New York, NY -> 8220:Milan, Italy 650
+8220:New York, NY -> 8220:Munich, Germany 265
+8220:New York, NY -> 8220:Paris, France 1690
+8220:New York, NY -> 8220:Stockholm, Sweden 335
+8220:New York, NY -> 8220:Strasburg, Germany 675
+8220:New York, NY -> 8220:Vienna, Austria 4235
+8220:New York, NY -> 8220:Zurich, Switzerland 523
+8220:Paris, France -> 8220:London, UnitedKingdom 781
+8220:Paris, France -> 8220:New York, NY 1690
+8220:Paris, France -> 8220:Stockholm, Sweden 169
+8220:Stockholm, Sweden -> 8220:Berlin, Germany 60
+8220:Stockholm, Sweden -> 8220:Brussels, Belgium 52
+8220:Stockholm, Sweden -> 8220:Cologne, Germany 19
+8220:Stockholm, Sweden -> 8220:Copenhagen, Denmark 19
+8220:Stockholm, Sweden -> 8220:Dublin, Ireland 2
+8220:Stockholm, Sweden -> 8220:Dusseldorf, Germany 46
+8220:Stockholm, Sweden -> 8220:Frankfurt, Germany 158
+8220:Stockholm, Sweden -> 8220:Geneva, Switzerland 10
+8220:Stockholm, Sweden -> 8220:Hamburg, Germany 37
+8220:Stockholm, Sweden -> 8220:Hanover, Germany 66
+8220:Stockholm, Sweden -> 8220:London, UnitedKingdom 155
+8220:Stockholm, Sweden -> 8220:Lund, Sweden 22
+8220:Stockholm, Sweden -> 8220:Madrid, Spain 107
+8220:Stockholm, Sweden -> 8220:Milan, Italy 61
+8220:Stockholm, Sweden -> 8220:Munich, Germany 30
+8220:Stockholm, Sweden -> 8220:New York, NY 335
+8220:Stockholm, Sweden -> 8220:Paris, France 169
+8220:Stockholm, Sweden -> 8220:Strasburg, Germany 55
+8220:Stockholm, Sweden -> 8220:Vienna, Austria 444
+8220:Stockholm, Sweden -> 8220:Zurich, Switzerland 55
+8220:Strasburg, Germany -> 8220:London, UnitedKingdom 208
+8220:Strasburg, Germany -> 8220:New York, NY 675
+8220:Strasburg, Germany -> 8220:Stockholm, Sweden 55
+8220:Syracuse, NY -> 8220:Frankfurt, Germany 2
+8220:Valencia, Spain -> 8220:Barcelona, Spain 30
+8220:Valencia, Spain -> 8220:Madrid, Spain 35
+8220:Vienna, Austria -> 8220:London, UnitedKingdom 2246
+8220:Vienna, Austria -> 8220:New York, NY 4235
+8220:Vienna, Austria -> 8220:Stockholm, Sweden 444
+8220:Zurich, Switzerland -> 8220:Geneva, Switzerland 230
+8220:Zurich, Switzerland -> 8220:London, UnitedKingdom 60
+8220:Zurich, Switzerland -> 8220:New York, NY 523
+8220:Zurich, Switzerland -> 8220:Stockholm, Sweden 55

@@ -134,7 +134,7 @@ bool write_path_link(string& dataset_dir, izlib::iz_topology& topo,
         }
       }
     }
-    cout << u << " done." << '\r' << flush;
+    cout << u + 1 << "/" << node_count << " done." << '\r' << flush;
   }
   cout << endl;
   cout << "total paths: " << phy_paths.size() << endl;

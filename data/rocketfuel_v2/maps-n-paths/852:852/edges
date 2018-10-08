@@ -1,0 +1,68 @@
+852:Bonaventure, Canada -> 852:Rimouski, Canada 33
+852:Calgary, Canada -> 852:Edmonton, Canada 8724
+852:Calgary, Canada -> 852:Vancouver, Canada 53981
+852:Calgary, Canada -> 852:Winnipeg, Canada 62049
+852:Chicago, IL -> 852:Toronto, Canada 28673
+852:Chicago, IL -> 852:Winnipeg, Canada 62821
+852:Edmonton, Canada -> 852:Calgary, Canada 8724
+852:Edmonton, Canada -> 852:Grande Prairie, Canada 206
+852:Edmonton, Canada -> 852:Winnipeg, Canada 23331
+852:Grande Prairie, Canada -> 852:Edmonton, Canada 206
+852:Halifax, Canada -> 852:Moncton, Canada 162
+852:Halifax, Canada -> 852:Montreal, Canada 2112
+852:Halifax, Canada -> 852:Sydney, Canada 321
+852:Hauterive, Canada -> 852:Rimouski, Canada 82
+852:Kamloops, Canada -> 852:New Westminster, Canada 640
+852:Kingston, Canada -> 852:Ottawa, Canada 3
+852:Markham, Canada -> 852:New Market, Canada 274
+852:Markham, Canada -> 852:Toronto, Canada 757
+852:Matane, Canada -> 852:Rimouski, Canada 242
+852:Moncton, Canada -> 852:Halifax, Canada 162
+852:Montreal, Canada -> 852:Halifax, Canada 2112
+852:Montreal, Canada -> 852:New York, NY 388
+852:Montreal, Canada -> 852:Ottawa, Canada 1092
+852:Montreal, Canada -> 852:Quebec, Canada 1930
+852:Montreal, Canada -> 852:Rimouski, Canada 678
+852:Montreal, Canada -> 852:Saint Georges de Beauce, Canada 175
+852:Montreal, Canada -> 852:Saint Margaret Bay, Canada 323
+852:Montreal, Canada -> 852:Thetford Mines, Canada 32
+852:Montreal, Canada -> 852:Toronto, Canada 16275
+852:New Market, Canada -> 852:Markham, Canada 274
+852:New Westminster, Canada -> 852:Kamloops, Canada 640
+852:New Westminster, Canada -> 852:Seattle, WA 45266
+852:New Westminster, Canada -> 852:Surrey, Canada 83
+852:New Westminster, Canada -> 852:Vancouver, Canada 67611
+852:New York, NY -> 852:Montreal, Canada 388
+852:New York, NY -> 852:Toronto, Canada 578
+852:Ottawa, Canada -> 852:Kingston, Canada 3
+852:Ottawa, Canada -> 852:Montreal, Canada 1092
+852:Palo Alto, CA -> 852:Seattle, WA 13761
+852:Quebec, Canada -> 852:Montreal, Canada 1930
+852:Rimouski, Canada -> 852:Bonaventure, Canada 33
+852:Rimouski, Canada -> 852:Hauterive, Canada 82
+852:Rimouski, Canada -> 852:Matane, Canada 242
+852:Rimouski, Canada -> 852:Montreal, Canada 678
+852:Saint Georges de Beauce, Canada -> 852:Montreal, Canada 175
+852:Saint Margaret Bay, Canada -> 852:Montreal, Canada 323
+852:Seattle, WA -> 852:New Westminster, Canada 45266
+852:Seattle, WA -> 852:Palo Alto, CA 13761
+852:Seattle, WA -> 852:Vancouver, Canada 14153
+852:Surrey, Canada -> 852:New Westminster, Canada 83
+852:Surrey, Canada -> 852:Vancouver, Canada 62
+852:Sydney, Canada -> 852:Halifax, Canada 321
+852:Thetford Mines, Canada -> 852:Montreal, Canada 32
+852:Toronto, Canada -> 852:Chicago, IL 28673
+852:Toronto, Canada -> 852:Markham, Canada 757
+852:Toronto, Canada -> 852:Montreal, Canada 16275
+852:Toronto, Canada -> 852:New York, NY 578
+852:Toronto, Canada -> 852:Winnipeg, Canada 11687
+852:Vancouver, Canada -> 852:Calgary, Canada 53981
+852:Vancouver, Canada -> 852:New Westminster, Canada 67611
+852:Vancouver, Canada -> 852:Seattle, WA 14153
+852:Vancouver, Canada -> 852:Surrey, Canada 62
+852:Vancouver, Canada -> 852:Victoria, Canada 878
+852:Victoria, Canada -> 852:Vancouver, Canada 878
+852:Winnipeg, Canada -> 852:Calgary, Canada 62049
+852:Winnipeg, Canada -> 852:Chicago, IL 62821
+852:Winnipeg, Canada -> 852:Edmonton, Canada 23331
+852:Winnipeg, Canada -> 852:Toronto, Canada 11687

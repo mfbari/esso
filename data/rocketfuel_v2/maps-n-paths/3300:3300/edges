@@ -1,0 +1,112 @@
+3300:Amstelveen, Netherlands -> 3300:Amsterdam, Netherlands 1420
+3300:Amstelveen, Netherlands -> 3300:Brussels, Belgium 108
+3300:Amstelveen, Netherlands -> 3300:Frankfurt, Germany 462
+3300:Amstelveen, Netherlands -> 3300:London, UnitedKingdom 5814
+3300:Amstelveen, Netherlands -> 3300:Paris, France 907
+3300:Amstelveen, Netherlands -> 3300:Stockholm, Sweden 373
+3300:Amstelveen, Netherlands -> 3300:Washington, DC 7685
+3300:Amsterdam, Netherlands -> 3300:Amstelveen, Netherlands 1420
+3300:Amsterdam, Netherlands -> 3300:Copenhagen, Denmark 92
+3300:Athens, Greece -> 3300:London, UnitedKingdom 1424
+3300:Atlanta, GA -> 3300:Washington, DC 48
+3300:Auckland, NewZealand -> 3300:Sydney, Australia 30
+3300:Barcelona, Spain -> 3300:Paris, France 50
+3300:Bogota, Colombia -> 3300:Newark, NJ 79
+3300:Brussels, Belgium -> 3300:Amstelveen, Netherlands 108
+3300:Budapest, Hungary -> 3300:Frankfurt, Germany 97
+3300:Chicago, IL -> 3300:Newark, NJ 48
+3300:Chicago, IL -> 3300:San Jose, CA 15
+3300:Copenhagen, Denmark -> 3300:Amsterdam, Netherlands 92
+3300:Dallas, TX -> 3300:Los Angeles, CA 48
+3300:Dallas, TX -> 3300:Newark, NJ 52
+3300:Dusseldorf, Germany -> 3300:Frankfurt, Germany 87
+3300:Frankfurt, Germany -> 3300:Amstelveen, Netherlands 462
+3300:Frankfurt, Germany -> 3300:Budapest, Hungary 97
+3300:Frankfurt, Germany -> 3300:Dusseldorf, Germany 87
+3300:Frankfurt, Germany -> 3300:Geneva, Switzerland 48
+3300:Frankfurt, Germany -> 3300:Hamburg, Germany 127
+3300:Frankfurt, Germany -> 3300:London, UnitedKingdom 721
+3300:Frankfurt, Germany -> 3300:Luxembourg, Luxembourg 353
+3300:Frankfurt, Germany -> 3300:Milan, Italy 46
+3300:Frankfurt, Germany -> 3300:New York, NY 5190
+3300:Frankfurt, Germany -> 3300:Paris, France 963
+3300:Frankfurt, Germany -> 3300:Vienna, Austria 850
+3300:Frankfurt, Germany -> 3300:Warsaw, Poland 47
+3300:Geneva, Switzerland -> 3300:Frankfurt, Germany 48
+3300:Hamburg, Germany -> 3300:Frankfurt, Germany 127
+3300:Hennig, Israel -> 3300:Tel Aviv, Israel 48
+3300:Hong Kong -> 3300:Kuala Lumpur, Malaysia 126
+3300:Hong Kong -> 3300:Los Angeles, CA 1899
+3300:Jakarta, Indonesia -> 3300:Kuala Lumpur, Malaysia 49
+3300:Kuala Lumpur, Malaysia -> 3300:Hong Kong 126
+3300:Kuala Lumpur, Malaysia -> 3300:Jakarta, Indonesia 49
+3300:Kuala Lumpur, Malaysia -> 3300:London, UnitedKingdom 34
+3300:Kuala Lumpur, Malaysia -> 3300:Singapore 157
+3300:Kuala Lumpur, Malaysia -> 3300:Sydney, Australia 140
+3300:Kuala Lumpur, Malaysia -> 3300:Tokyo, Japan 66
+3300:London, UnitedKingdom -> 3300:Amstelveen, Netherlands 5814
+3300:London, UnitedKingdom -> 3300:Athens, Greece 1424
+3300:London, UnitedKingdom -> 3300:Frankfurt, Germany 721
+3300:London, UnitedKingdom -> 3300:Kuala Lumpur, Malaysia 34
+3300:London, UnitedKingdom -> 3300:New York, NY 5080
+3300:London, UnitedKingdom -> 3300:Stockholm, Sweden 9
+3300:Los Angeles, CA -> 3300:Dallas, TX 48
+3300:Los Angeles, CA -> 3300:Hong Kong 1899
+3300:Los Angeles, CA -> 3300:Mexico City, Mexico 75
+3300:Los Angeles, CA -> 3300:New York, NY 5412
+3300:Los Angeles, CA -> 3300:San Jose, CA 3344
+3300:Los Angeles, CA -> 3300:Sydney, Australia 110
+3300:Luxembourg, Luxembourg -> 3300:Frankfurt, Germany 353
+3300:Luxembourg, Luxembourg -> 3300:Paris, France 38
+3300:Lyon, France -> 3300:Paris, France 66
+3300:Mexico City, Mexico -> 3300:Los Angeles, CA 75
+3300:Milan, Italy -> 3300:Frankfurt, Germany 46
+3300:Milan, Italy -> 3300:Paris, France 3
+3300:New York, NY -> 3300:Frankfurt, Germany 5190
+3300:New York, NY -> 3300:London, UnitedKingdom 5080
+3300:New York, NY -> 3300:Los Angeles, CA 5412
+3300:New York, NY -> 3300:Newark, NJ 2755
+3300:New York, NY -> 3300:Santiago, Chile 4
+3300:New York, NY -> 3300:Washington, DC 7360
+3300:Newark, NJ -> 3300:Bogota, Colombia 79
+3300:Newark, NJ -> 3300:Chicago, IL 48
+3300:Newark, NJ -> 3300:Dallas, TX 52
+3300:Newark, NJ -> 3300:New York, NY 2755
+3300:Newark, NJ -> 3300:San Jose, CA 2207
+3300:Newark, NJ -> 3300:Toronto, Canada 153
+3300:Newark, NJ -> 3300:Washington, DC 2488
+3300:Paris, France -> 3300:Amstelveen, Netherlands 907
+3300:Paris, France -> 3300:Barcelona, Spain 50
+3300:Paris, France -> 3300:Frankfurt, Germany 963
+3300:Paris, France -> 3300:Luxembourg, Luxembourg 38
+3300:Paris, France -> 3300:Lyon, France 66
+3300:Paris, France -> 3300:Milan, Italy 3
+3300:Paris, France -> 3300:Tel Aviv, Israel 631
+3300:Paris, France -> 3300:Zurich, Switzerland 665
+3300:San Jose, CA -> 3300:Chicago, IL 15
+3300:San Jose, CA -> 3300:Los Angeles, CA 3344
+3300:San Jose, CA -> 3300:Newark, NJ 2207
+3300:San Jose, CA -> 3300:Tokyo, Japan 130
+3300:San Jose, CA -> 3300:Vancouver, Canada 44
+3300:Santiago, Chile -> 3300:New York, NY 4
+3300:Singapore -> 3300:Kuala Lumpur, Malaysia 157
+3300:Stockholm, Sweden -> 3300:Amstelveen, Netherlands 373
+3300:Stockholm, Sweden -> 3300:London, UnitedKingdom 9
+3300:Sulzer, Switzerland -> 3300:Zurich, Switzerland 42
+3300:Sydney, Australia -> 3300:Auckland, NewZealand 30
+3300:Sydney, Australia -> 3300:Kuala Lumpur, Malaysia 140
+3300:Sydney, Australia -> 3300:Los Angeles, CA 110
+3300:Tel Aviv, Israel -> 3300:Hennig, Israel 48
+3300:Tel Aviv, Israel -> 3300:Paris, France 631
+3300:Tokyo, Japan -> 3300:Kuala Lumpur, Malaysia 66
+3300:Tokyo, Japan -> 3300:San Jose, CA 130
+3300:Toronto, Canada -> 3300:Newark, NJ 153
+3300:Vancouver, Canada -> 3300:San Jose, CA 44
+3300:Vienna, Austria -> 3300:Frankfurt, Germany 850
+3300:Warsaw, Poland -> 3300:Frankfurt, Germany 47
+3300:Washington, DC -> 3300:Amstelveen, Netherlands 7685
+3300:Washington, DC -> 3300:Atlanta, GA 48
+3300:Washington, DC -> 3300:New York, NY 7360
+3300:Washington, DC -> 3300:Newark, NJ 2488
+3300:Zurich, Switzerland -> 3300:Paris, France 665
+3300:Zurich, Switzerland -> 3300:Sulzer, Switzerland 42

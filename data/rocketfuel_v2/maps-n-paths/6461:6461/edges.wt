@@ -1,0 +1,68 @@
+6461:London, UnitedKingdom -> 6461:Washington, DC 28.7492
+6461:London, UnitedKingdom -> 6461:Amsterdam, Netherlands 2
+6461:London, UnitedKingdom -> 6461:Vienna, Austria 6.16286
+6461:London, UnitedKingdom -> 6461:Frankfurt, Germany 2
+6461:London, UnitedKingdom -> 6461:Relay, MD 29.2492
+6461:London, UnitedKingdom -> 6461:New York, NY 28.7492
+6461:London, UnitedKingdom -> 6461:Paris, France 2.5
+6461:Dallas, TX -> 6461:Washington, DC 6.75138
+6461:Dallas, TX -> 6461:San Jose, CA 12.56962
+6461:Dallas, TX -> 6461:Houston, TX 1.8785
+6461:Dallas, TX -> 6461:Relay, MD 8.25138
+6461:Dallas, TX -> 6461:Chicago, IL 2
+6461:Dallas, TX -> 6461:Atlanta, GA 5.75138
+6461:Palo Alto, CA -> 6461:San Jose, CA 0.124478
+6461:Atlanta, GA -> 6461:Washington, DC 2
+6461:Atlanta, GA -> 6461:Houston, TX 5.62988
+6461:Atlanta, GA -> 6461:New York, NY 2
+6461:Atlanta, GA -> 6461:Dallas, TX 5.75138
+6461:Napa, CA -> 6461:San Jose, CA 0.56128
+6461:New York, NY -> 6461:Washington, DC 1
+6461:New York, NY -> 6461:Seattle, WA 19.321
+6461:New York, NY -> 6461:London, UnitedKingdom 28.7492
+6461:New York, NY -> 6461:Chicago, IL 6.75138
+6461:New York, NY -> 6461:Boston, MA 1
+6461:New York, NY -> 6461:Atlanta, GA 2
+6461:Amsterdam, Netherlands -> 6461:Frankfurt, Germany 3
+6461:Amsterdam, Netherlands -> 6461:London, UnitedKingdom 2
+6461:San Jose, CA -> 6461:Washington, DC 19.321
+6461:San Jose, CA -> 6461:Tokyo, Japan 42.0302
+6461:San Jose, CA -> 6461:Napa, CA 0.56128
+6461:San Jose, CA -> 6461:Seattle, WA 2
+6461:San Jose, CA -> 6461:Los Angeles, CA 2.39034
+6461:San Jose, CA -> 6461:Relay, MD 19.821
+6461:San Jose, CA -> 6461:Dallas, TX 12.56962
+6461:San Jose, CA -> 6461:Palo Alto, CA 0.124478
+6461:Washington, DC -> 6461:San Jose, CA 19.321
+6461:Washington, DC -> 6461:London, UnitedKingdom 28.7492
+6461:Washington, DC -> 6461:Relay, MD 1.5
+6461:Washington, DC -> 6461:New York, NY 1
+6461:Washington, DC -> 6461:Dallas, TX 6.75138
+6461:Washington, DC -> 6461:Boston, MA 1
+6461:Washington, DC -> 6461:Atlanta, GA 2
+6461:Relay, MD -> 6461:Washington, DC 1.5
+6461:Relay, MD -> 6461:San Jose, CA 19.821
+6461:Relay, MD -> 6461:London, UnitedKingdom 29.2492
+6461:Relay, MD -> 6461:Chicago, IL 7.25138
+6461:Relay, MD -> 6461:Dallas, TX 8.25138
+6461:Tokyo, Japan -> 6461:San Jose, CA 42.0302
+6461:Los Angeles, CA -> 6461:San Jose, CA 2.39034
+6461:Vienna, Austria -> 6461:Frankfurt, Germany 4.16286
+6461:Vienna, Austria -> 6461:London, UnitedKingdom 6.16286
+6461:Seattle, WA -> 6461:San Jose, CA 2
+6461:Seattle, WA -> 6461:New York, NY 19.321
+6461:Seattle, WA -> 6461:Chicago, IL 12.56962
+6461:Frankfurt, Germany -> 6461:Amsterdam, Netherlands 3
+6461:Frankfurt, Germany -> 6461:Vienna, Austria 4.16286
+6461:Frankfurt, Germany -> 6461:London, UnitedKingdom 2
+6461:Frankfurt, Germany -> 6461:Paris, France 2.5
+6461:Boston, MA -> 6461:Washington, DC 1
+6461:Boston, MA -> 6461:New York, NY 1
+6461:Houston, TX -> 6461:Dallas, TX 1.8785
+6461:Houston, TX -> 6461:Atlanta, GA 5.62988
+6461:Chicago, IL -> 6461:Seattle, WA 12.56962
+6461:Chicago, IL -> 6461:Relay, MD 7.25138
+6461:Chicago, IL -> 6461:New York, NY 6.75138
+6461:Chicago, IL -> 6461:Dallas, TX 2
+6461:Paris, France -> 6461:Frankfurt, Germany 2.5
+6461:Paris, France -> 6461:London, UnitedKingdom 2.5

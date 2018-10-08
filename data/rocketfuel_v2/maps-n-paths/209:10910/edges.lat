@@ -1,0 +1,16 @@
+209:Atlanta, GA -> 10910:Atlanta, GA 0
+209:Boston, MA -> 10910:Boston, MA 0
+209:Chicago, IL -> 10910:Chicago, IL 0
+209:Dallas, TX -> 10910:Dallas, TX 0
+209:Los Angeles, CA -> 10910:Los Angeles, CA 0
+209:Miami, FL -> 10910:Miami, FL 0
+209:New York, NY -> 10910:Boston, MA 1.52818775993091
+209:New York, NY -> 10910:New York, NY 0
+209:New York, NY -> 10910:Philadelphia, PA 0.620583384672223
+209:Orange, CA -> 10910:Orange County, CA 2.09432505488179
+209:San Diego, CA -> 10910:San Diego, CA 0
+209:San Francisco, CA -> 10910:San Francisco, CA 0
+209:San Jose, CA -> 10910:San Francisco, CA 0.381420811600469
+209:San Jose, CA -> 10910:San Jose, CA 0
+209:Sunnyvale, CA -> 10910:San Francisco, CA 0.323328237108265
+209:Washington, DC -> 10910:Washington, DC 0

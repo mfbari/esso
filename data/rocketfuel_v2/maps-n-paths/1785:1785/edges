@@ -1,0 +1,44 @@
+1785:Albany, NY -> 1785:New York, NY 136512
+1785:Albany, NY -> 1785:Newark, NJ 40
+1785:Albany, NY -> 1785:Syracuse, NY 137922
+1785:Albany, NY -> 1785:Washington, DC 1256
+1785:Atlanta, GA -> 1785:Charlotte, NC 764
+1785:Boston, MA -> 1785:New York, NY 948
+1785:Buffalo, NY -> 1785:New York, NY 12404
+1785:Buffalo, NY -> 1785:Rochester, NY 34133
+1785:Charlotte, NC -> 1785:Atlanta, GA 764
+1785:Charlotte, NC -> 1785:Raleigh, NC 761
+1785:Ithaca, NY -> 1785:Syracuse, NY 406
+1785:Kansas City, MO -> 1785:New York, NY 3
+1785:Kansas City, MO -> 1785:Rochester, NY 3
+1785:New York, NY -> 1785:Albany, NY 136512
+1785:New York, NY -> 1785:Boston, MA 948
+1785:New York, NY -> 1785:Buffalo, NY 12404
+1785:New York, NY -> 1785:Kansas City, MO 3
+1785:New York, NY -> 1785:Newark, NJ 389
+1785:New York, NY -> 1785:Philadelpha, PA 9659
+1785:New York, NY -> 1785:Rochester, NY 1903
+1785:New York, NY -> 1785:Washington, DC 16351
+1785:Newark, NJ -> 1785:Albany, NY 40
+1785:Newark, NJ -> 1785:New York, NY 389
+1785:Newark, NJ -> 1785:Toronto, Canada 12
+1785:Philadelpha, PA -> 1785:New York, NY 9659
+1785:Philadelpha, PA -> 1785:Toronto, Canada 12
+1785:Philadelpha, PA -> 1785:Washington, DC 7717
+1785:Raleigh, NC -> 1785:Charlotte, NC 761
+1785:Raleigh, NC -> 1785:Washington, DC 303
+1785:Rochester, NY -> 1785:Buffalo, NY 34133
+1785:Rochester, NY -> 1785:Kansas City, MO 3
+1785:Rochester, NY -> 1785:New York, NY 1903
+1785:Rochester, NY -> 1785:Syracuse, NY 34496
+1785:Sacramento, CA -> 1785:San Francisco, CA 102
+1785:San Francisco, CA -> 1785:Sacramento, CA 102
+1785:Syracuse, NY -> 1785:Albany, NY 137922
+1785:Syracuse, NY -> 1785:Ithaca, NY 406
+1785:Syracuse, NY -> 1785:Rochester, NY 34496
+1785:Toronto, Canada -> 1785:Newark, NJ 12
+1785:Toronto, Canada -> 1785:Philadelpha, PA 12
+1785:Washington, DC -> 1785:Albany, NY 1256
+1785:Washington, DC -> 1785:New York, NY 16351
+1785:Washington, DC -> 1785:Philadelpha, PA 7717
+1785:Washington, DC -> 1785:Raleigh, NC 303

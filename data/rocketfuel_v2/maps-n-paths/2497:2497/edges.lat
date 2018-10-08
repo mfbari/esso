@@ -1,0 +1,40 @@
+2497:Ariake, Japan -> 2497:Milan, Italy 100000
+2497:Ariake, Japan -> 2497:New York, NY 100000
+2497:Ariake, Japan -> 2497:Osaka, Japan 100000
+2497:Ariake, Japan -> 2497:Palo Alto, CA 100000
+2497:Ariake, Japan -> 2497:San Jose, CA 100000
+2497:Ariake, Japan -> 2497:Tokyo, Japan 100000
+2497:Ashburn, VA -> 2497:Los Angeles, CA 18.3062497069338
+2497:Los Angeles, CA -> 2497:Ashburn, VA 18.3062497069338
+2497:Los Angeles, CA -> 2497:New York, NY 19.7210147124792
+2497:Los Angeles, CA -> 2497:Osaka, Japan 45.8551058266026
+2497:Los Angeles, CA -> 2497:San Jose, CA 2.39033852037053
+2497:Los Angeles, CA -> 2497:Washington, DC 18.5226753489951
+2497:Milan, Italy -> 2497:Ariake, Japan 100000
+2497:Milan, Italy -> 2497:Tokyo, Japan 48.9288696029279
+2497:New York, NY -> 2497:Ariake, Japan 100000
+2497:New York, NY -> 2497:Los Angeles, CA 19.7210147124792
+2497:New York, NY -> 2497:Osaka, Japan 55.494123672788
+2497:New York, NY -> 2497:Palo Alto, CA 20.5816497996003
+2497:New York, NY -> 2497:Tokyo, Japan 54.7189289138994
+2497:Osaka, Japan -> 2497:Ariake, Japan 100000
+2497:Osaka, Japan -> 2497:Los Angeles, CA 45.8551058266026
+2497:Osaka, Japan -> 2497:New York, NY 55.494123672788
+2497:Osaka, Japan -> 2497:Palo Alto, CA 43.3993803527348
+2497:Osaka, Japan -> 2497:San Jose, CA 43.5230646482607
+2497:Palo Alto, CA -> 2497:Ariake, Japan 100000
+2497:Palo Alto, CA -> 2497:New York, NY 20.5816497996003
+2497:Palo Alto, CA -> 2497:Osaka, Japan 43.3993803527348
+2497:Palo Alto, CA -> 2497:San Jose, CA 0.124477546789977
+2497:Palo Alto, CA -> 2497:Tokyo, Japan 41.906115378052
+2497:San Jose, CA -> 2497:Ariake, Japan 100000
+2497:San Jose, CA -> 2497:Los Angeles, CA 2.39033852037053
+2497:San Jose, CA -> 2497:Osaka, Japan 43.5230646482607
+2497:San Jose, CA -> 2497:Palo Alto, CA 0.124477546789977
+2497:San Jose, CA -> 2497:Tokyo, Japan 42.030205069196
+2497:Tokyo, Japan -> 2497:Ariake, Japan 100000
+2497:Tokyo, Japan -> 2497:Milan, Italy 48.9288696029279
+2497:Tokyo, Japan -> 2497:New York, NY 54.7189289138994
+2497:Tokyo, Japan -> 2497:Palo Alto, CA 41.906115378052
+2497:Tokyo, Japan -> 2497:San Jose, CA 42.030205069196
+2497:Washington, DC -> 2497:Los Angeles, CA 18.5226753489951

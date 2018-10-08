@@ -1,0 +1,33 @@
+a note on deciphering the policy-dist.tar.gz file
+
+'tar zxvf policy-dist.tar.gz' creates a top-level directory called
+maps-n-paths. this file is contained in that directory.
+
+maps-n-paths will have sub-directories of the form "x:y". 
+
+when x=y:
+	this directory contains the internal topology of the ISP with
+	AS number = x.	the following files should be in directory.
+	
+	1. edges: the topology itself (the number at the end of each
+	edge is the number of times that edges was observed in out
+	traceroutes).
+
+	2. edges.lat: the edges along with their (geographical)
+	latency in milliseconds.
+
+	3. edges.wt: the edges along with their inferred weights.
+
+when x!=y
+	this directory contains the edges observed between the two
+	ISPs with AS numbers x and y. two files in each such
+	directory.
+
+	1. edges: the peering edges between the two ISPs along with
+	the number of times they were observed in our traces.
+
+	2. edges.lat: the edges along with their (geographical)
+	latency in milliseconds. this should be zero in most cases,
+	but it is non-zero when the two ISPs use different city names
+	at the two ends of the link.
+

@@ -1,0 +1,24 @@
+16631:Atlanta, GA -> 174:Atlanta, GA 0
+16631:Baltimore, MD -> 174:Baltimore, MD 0
+16631:Boston, MA -> 174:Albany, NY 1.11646443455727
+16631:Boston, MA -> 174:Boston, MA 0
+16631:Chicago, IL -> 174:Chicago, IL 0
+16631:Chicago, IL -> 174:Cleveland, OH 2.47832477920296
+16631:Chicago, IL -> 174:Detroit, MI 1.89714357641037
+16631:Chicago, IL -> 174:Milwaukee, WI 0.679271467429091
+16631:Chicago, IL -> 174:Toledo, OH 1.70017254039482
+16631:Dallas, TX -> 174:Dallas, TX 0
+16631:Houston, TX -> 174:Austin, TX 1.17633330140073
+16631:Houston, TX -> 174:Phoenix, AZ 8.15341009606808
+16631:Jacksonville, FL -> 174:Atlanta, GA 2.30230902274313
+16631:Los Angeles, CA -> 174:Los Angeles, CA 0
+16631:Miami, FL -> 174:Miami, FL 0
+16631:New York, NY -> 174:New York, NY 0
+16631:Philadelphia, PA -> 174:Baltimore, MD 0.738203608092174
+16631:Philadelphia, PA -> 174:Philadelphia, PA 0
+16631:San Diego, CA -> 174:Austin, TX 9.26895387020283
+16631:San Diego, CA -> 174:Phoenix, AZ 2.3912331017529
+16631:San Francisco, CA -> 174:San Francisco, CA 0
+16631:San Jose, CA -> 174:San Jose, CA 0
+16631:Washington, DC -> 174:Atlanta, GA 4.38018878263173
+16631:Washington, DC -> 174:Washington, DC 0
