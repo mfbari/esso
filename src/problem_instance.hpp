@@ -100,21 +100,22 @@ struct problem_instance {
     //read_vnf_info_file(prob_input.vnf_info_filename) &&
     //read_time_slot_file(prob_input.time_slot_filename) &&
     read_topology_file(prob_input.topology_filename);
+
   }
 
   bool read_topology_file(const string& filename) {
     fstream fin(filename.c_str());
     if (!fin) {
-      cout << "ERROR: failes to open topology file" << endl;
+      cout << "ERROR: failed to open topology file" << endl;
       return false;
     }
     fstream fgc("../data/greencap.dat");
     if (!fgc) {
       fgc.open("../../data/greencap.dat");
-      if (!fgc) {
+    }
+    else {
         cout << "ERROR: failed to open greencap.dat" << endl;
         return false;
-      }
     }
     int node_count{0}, edge_count{0};
     fin >> node_count >> edge_count;
