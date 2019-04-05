@@ -9,9 +9,9 @@
 
 using namespace std;
 
-const char* join_path(string& dir, const string& file) {
+string join_path(string& dir, const string& file) {
   if (dir.back() != '/') dir += "/";
-  return (dir+file).c_str();
+  return dir + file;
 }
 
 bool write_init_topology(string& dataset_dir, 
@@ -191,7 +191,7 @@ int main(int argc, char**argv) {
 
   // check for the correct usage
   if (argc != 2) {
-    cerr << "usage: ./generate_full_topology.o <relative-path-to-dataset-dir>" << endl;
+    cerr << "usage: ./process_topology.o <relative-path-to-dataset-dir>" << endl;
     return -1;
   }
 
