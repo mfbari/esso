@@ -1,6 +1,6 @@
 <co-count>
 .
-co-count lines, each containing renewable-energy data for 24 time-instances
+[co-count lines, each containing renewable-energy data for 24 time-instances]
 .
 <node-count> <edge-cout>
 .
