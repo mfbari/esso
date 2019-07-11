@@ -6,7 +6,7 @@ The [run_simulation.ipynb](run_simulation.ipynb) notebook demonstrates how to ru
 
 Repository directory/file structure:
 * `data`: contains rocketfuel raw data, code to generate SFC requests, and generated datasets used in the paper
-  * Each dataset is contained in its own directory under `data`. Each dataset directory **must** contain the following files to run a simulation 
+  * Each dataset is contained in its own directory under `data`. Each dataset directory (`data/<dataset-name>`) **must** contain the following files to run a simulation 
     * `co_topology.dat`: contains the inter-NFV-POD/inter-CO topology, CO2 emission rates, and flag to denote whether renewable energy is available at a NFV-POD
     * `timeslots.dat`: contains SFC arrival events and their details (number of VNF, their type, bandwidth, latency) distributed over timeslots. 
     * `vnf_types.dat`: contains information about VNF types. The `flavor-id` listed in this file is referenced from the SFCs in `timeslots.dat`. 
