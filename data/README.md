@@ -1,4 +1,4 @@
-_The terms NFV-POD and CO are used interchangeably in this repository._
+_The terms NFV-POD and CO are used interchangeably in this repository._  
 _`#` denotes a comment within the file descriptions._
 
 ## co_topology.dat
@@ -12,7 +12,7 @@ Network topology for the NFV-POD/CO level (or inter-CO) network
 # for each edge in (0, 2*edge-count]
 <edge-u> <edge-v> <latency> <capacity in mbps> # each edge is listed twice
 ````
-A sample file with 6 nodes and 8 edges is as follows. Each edge is listed twice (there are 16 edge items after the nodes data) to easily handle edge mappings in the CPLEX code.  
+A sample file with 6 nodes and 8 edges is as follows. Each edge is listed twice (there are 16 edge items after node data) to easily handle edge mappings in the CPLEX code.  
 
 ````
 6 8
