@@ -14,4 +14,4 @@ Repository directory/file structure:
     
     File formats with samples are explained in detail in [data/README.md](data/README.md). The `data` directory also contains a file named `greencap.dat`. This file lists randomized renewabel energy data for 24 hours. In each run of the simulation the file is shuffled, and renewable energy for NFV-PODs are selected from it based on the flag included in the `co_topology.dat` file. 
 * `runs`: conatins files and directories generated during a simulation (additional details in [run_simulation.ipynb](run_simulation.ipynb))
-* `src`: some randomly typed files!
+* `src`: contains some randomly typed files!
