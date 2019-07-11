@@ -1,5 +1,4 @@
 ## Source code for the 'Energy Smart SFC Orchestrator (ESSO)' paper
----
 
 *Note:* _The terms NFV-POD and CO are used interchangeably in this repository._
 
