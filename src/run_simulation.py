@@ -35,7 +35,9 @@ def int_or_float(s):
 
 class EssoSfc:
     """
-
+    EssoSfc represents an SFC in ESSO.
+    This class is used to store the input SFC and
+    the TTL value of an SFC during the simulation.
     """
     def __init__(self):
         self.curr_emb_cost = -1.0 # current embedding cost
@@ -43,11 +45,12 @@ class EssoSfc:
         pass
 
     # global settings
+    # index of SFC-id and SFC-TTL in the input sting.split()
     id_idx = 0
     ttl_idx = 3
 
     # reads data for an SFC from a stream that 
-    # provides a readline() function
+    # supports a readline() function
     def read(self, strm):
         # save all sfc data as ints
         self.data = [int(x) for x in strm.readline().split()]
@@ -71,14 +74,25 @@ class EssoSfc:
 
 
 class EssoObject:
+    """
+    EssoObject is a generic class just to store input data
+    without any parsing (e.g., CO data)
+    """
     def __init__(self, data):
         self.data = data.strip()
 
     def __str__(self):
         return self.data
 
+
 class EssoServer:
+    """
+    Class to represent ESSO Server instances.
+    Provides functions to increase and decrease available CPU counts
+    during simulation.
+    """
     # global settings
+    # index for the CPU count in the input string
     cpu_idx = 5
 
     def __init__(self, data):
@@ -95,7 +109,15 @@ class EssoServer:
     def __str__(self):
         return " ".join([str(x) for x in self.data])
 
+
 class EssoEdge:
+    """
+    This class represents an ESSO edge in the simulation.
+    Provides functions to increase and decrease the available
+    bandwidth on an edge during simulation.
+    """
+    # global setting
+    # index of bandwidth in the input string.split()
     bw_idx = 5
     def __init__(self, data):
         self.data = data.split()
@@ -111,7 +133,14 @@ class EssoEdge:
     def __str__(self):
         return " ".join(str(x) for x in self.data)
 
+
 class SfcMapping:
+    """
+    Class to store the SFC to infrastructure mapping.
+    The constructor takes as input the output of an
+    optimization algorithm and parses the data. It
+    provided a function to retrieve the data as JSON.
+    """
     def __init__(self, data):
         data = [int_or_float(x) for x in data.split()]
         self.code = data[0]
@@ -137,26 +166,40 @@ class SfcMapping:
             self.run_time = data[-3]
             self.brown_energy = data[-2]
             self.green_energy = data[-1]
+
     def toJSON(self):
         return json.dumps(self, default=lambda o: o.__dict__)
 
-vnf_flavor_to_cpu = {}
-sfcs = []
-sfc_mappings = []
-sfc_in = [set()]
-sfc_out = [set()]
-sfc_count = 0
-timeslot_count = 0
-co_list = []
-node_list = []
-edge_list = []
+
+# global data structures
+# from vnf_types file
+vnf_flavor_to_cpu = {} # stores a mapping between a VNF flavor and how many CPU it needs
+
+# from timeslots file
+sfcs = [] # list of all SFCs across timeslots, ordered according to their position in the input file
+sfc_mappings = [] # list of `SfcMapping` instances represeting the mapping of SFC in `sfcs`
+sfc_in = [set()] # a set to keep track of the inbound SFCs for a timeslot
+sfc_out = [set()] # a set to keep track of the outbound SFCs for a timeslot
+sfc_count = 0 # # number of total SFCs in the input file, counting across all timeslots
+timeslot_count = 0 # number of timeslots in the input
+
+# from co_topology/init_topology file
+co_list = [] # list of COs in the topology
+node_list = [] # list contains all nodes (switch and server)
+edge_list = [] # all edges (inter and intra)
 #edge_dir = defaultdict(lambda: defaultdict(int))
-edge_dir = {}
-carbon_fp = 0
-brown_energy = 0
-green_energy = 0
+edge_dir = {} # a dict to store edge-id to `EssoEdge` instance mapping
+carbon_fp = 0 # variable to keep track of carbon footprint during simulation
+brown_energy = 0 # tracks brown energy during simulation
+green_energy = 0 # tracks green energy during simulation
+
 
 def allocate_resource(sfc_id):
+    """
+
+    :param sfc_id:
+    :return:
+    """
     global node_list
     global edge_list
     global edge_dir
@@ -319,6 +362,7 @@ def read_timeslots_file(dataset_path):
                 sfc_out[t+sfc.ttl()].add(sfc.id())
 
                 sfcs.append(sfc)
+
 
 if __name__ == '__main__':
 
