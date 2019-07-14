@@ -111,11 +111,11 @@ struct problem_instance {
     }
     fstream fgc("../data/greencap.dat");
     if (!fgc) {
-      fgc.open("../../data/greencap.dat");
-    }
-    else {
-        cout << "ERROR: failed to open greencap.dat" << endl;
-        return false;
+        fgc.open("../../data/greencap.dat");
+        if (fgc == NULL) {
+            cout << "ERROR: failed to open greencap.dat" << endl;
+            return false;
+        }
     }
     int node_count{0}, edge_count{0};
     fin >> node_count >> edge_count;
