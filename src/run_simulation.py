@@ -11,15 +11,35 @@ import json
 import numpy as np
 from scipy import stats
 
+
 def int_or_float(s):
+    """
+    Converts `s` into either int or float and returns the value.
+    First tries to convert `s` to int, if there is an ValueError
+    exception, catches the error and tries to convert `s` to float.
+
+    Args:
+        s (string): A string representing numerical value
+
+    Returns:
+        int or float: The numerical value of the provided string
+
+    Raises:
+        ValueError: If fails to convert s into both int and float
+    """
     try:
         return int(s)
     except ValueError:
         return float(s)
 
+
 class EssoSfc:
+    """
+
+    """
     def __init__(self):
         self.curr_emb_cost = -1.0 # current embedding cost
+        self.data = []
         pass
 
     # global settings
@@ -48,6 +68,7 @@ class EssoSfc:
 
     def __str__(self):
         return " ".join([str(x) for x in self.data])
+
 
 class EssoObject:
     def __init__(self, data):
@@ -303,7 +324,7 @@ if __name__ == '__main__':
 
     # parse command line arguments
     parser = argparse.ArgumentParser()
-    parser.add_argument('path', help = "path to dataset folder")
+    parser.add_argument('dataset_path', help = "path to dataset folder (e.g., ../data/set0")
     group = parser.add_mutually_exclusive_group(required=True)
     group.add_argument('-c', '--cplex', action='store_true',
             help="run CPLEX code")
@@ -316,14 +337,14 @@ if __name__ == '__main__':
     parser.add_argument('-d', '--dryrun', action='store_true',
             help="only generate data")
     parser.add_argument('-m', '--migthr', type=float, default=0.3,
-            help='migration threshold')
+            help='migration threshold (default=0.3)')
     args = parser.parse_args()
 
     # set the migration_threshold
     migration_threshold = args.migthr
 
     # path to the dataset and run folder
-    dataset_path = args.path
+    dataset_path = args.dataset_path
     run_path = '../runs/'
     if args.cplex:
         run_path += 'c_'
