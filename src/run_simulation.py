@@ -196,7 +196,10 @@ green_energy = 0 # tracks green energy during simulation
 
 def allocate_resource(sfc_id):
     """
-
+    This function allocates resources for an SFC.
+    It assumes that the mapping for this SFC is already available through
+    the list sfc_mappings. It reads the mapping from the list and allocates
+    resources according to the mapping
     :param sfc_id:
     :return:
     """
@@ -208,22 +211,36 @@ def allocate_resource(sfc_id):
     global green_energy
     sfc_map = sfc_mappings[sfc_id]
     if sfc_map:
+        # allocate resource for VNF
         for i in range(sfc_map.vnf_count):
             node_list[sfc_map.emb_servers[i]].dec_cpu_count(
                     sfc_map.cpu_counts[i])
+        # allocate resource for inter-VNF links on physical paths
         for path in sfc_map.emb_paths:
             for (u, v) in path:
                 if u != v:
                     str_u, str_v = str(u), str(v)
                     edge_list[edge_dir[str_u][str_v]].dec_bandwidth(
                             sfc_map.bandwidth)
+        # update the global variable related to
+        # carbon footprint, brown and green energy
         carbon_fp += sfc_map.emb_cost
         brown_energy += sfc_map.brown_energy
         green_energy += sfc_map.green_energy
     #else:
         #print "ERROR: failed to find sfc", sfc_id, "mapping"
 
+
 def release_resource(sfc_id):
+    """
+    This function releases the previously allocated resources for an SFC.
+    There is no mechanism to ensure that resources for this SFC was actually
+    allocated in an previous iteration. So, calling this function will either
+    cause an assertion to fail somewhere in the code or give wrong results.
+    TODO: add a check to ensure that resource was actually allocated for an SFC before freeing it.
+    :param sfc_id:
+    :return:
+    """
     global node_list
     global edge_list
     global edge_dir
@@ -247,7 +264,15 @@ def release_resource(sfc_id):
     #else:
         #print "ERROR: failed to find sfc", sfc_id, "mapping"
 
+
 def update_write_topology_file():
+    """
+    This function updated the res_topology file based on the allocation
+    and deallocation (release) of resources. The initial topology of the
+    network is read from the init_topology file. After that the updated
+    resource status is always writen and read from the res_topology file.
+    :return:
+    """
     global co_list
     global node_list
     global edge_dir
@@ -280,6 +305,11 @@ def update_write_topology_file():
     #        ms_time = itr.next()
     #        print 'emb time: ', ms_time
 
+    # the class representation of objects greatly simplifies this code
+    # the __str__ method of the EssoXYZ classes return a representation
+    # that matches exactly with the format of the init_topology and
+    # res_topology file hence the following code writes the updated resource
+    # status of the network to the res_topology file.
     with open('res_topology.dat', 'w') as f:
         f.write(str(len(co_list)) + '\n')
         for co in co_list:
@@ -290,7 +320,15 @@ def update_write_topology_file():
         for edge in edge_list:
             f.write(str(edge) + '\n')
 
+
 def read_topology_file(dataset_path):
+    """
+    Read the init_topology file, parses the data, and stores the information
+    into EssoXYZ classes in different lists like
+    co_list, node_list, edge_list and edge_dir
+    :param dataset_path:
+    :return:
+    """
     global co_list
     global node_list
     global edge_dir
@@ -317,7 +355,14 @@ def read_topology_file(dataset_path):
             edge_dir[u][v] = len(edge_list)
             edge_list.append(EssoEdge(line))
 
+
 def read_vnf_types_file(dataset_path):
+    """
+    Reads in the vnf_type file
+    :param dataset_path:
+    :return:
+    """
+    global vnf_flavor_to_cpu
     with open(os.path.join(dataset_path, "vnf_types.dat")) as f:
         type_count = int(f.readline())
         # skip over the types
@@ -330,7 +375,13 @@ def read_vnf_types_file(dataset_path):
                     'cpu_count':cpu,
                     'proc_delay': pd}
 
+
 def read_timeslots_file(dataset_path):
+    """
+    Reads the timeslots file
+    :param dataset_path:
+    :return:
+    """
     global sfc_count
     global timeslot_count
     global sfc_in
@@ -365,21 +416,38 @@ def read_timeslots_file(dataset_path):
 
 
 if __name__ == '__main__':
+    """
+    Main function for the simulation...
+    """
 
     # parse command line arguments
     parser = argparse.ArgumentParser()
+    # dataset path (must be relative to pwd) for the simulation
     parser.add_argument('dataset_path', help = "path to dataset folder (e.g., ../data/set0")
+
+    # param group for selecting optimization algorithm
     group = parser.add_mutually_exclusive_group(required=True)
     group.add_argument('-c', '--cplex', action='store_true',
             help="run CPLEX code")
     group.add_argument('-t', '--tabusearch', action='store_true',
             help="run tabu search code")
+
+    # the `id` is used as the folder name for the current simulation
+    # under the `runs` folder
     parser.add_argument('-i', '--id', required=True,
             help="unique id for this run")
+
+    # if the `-r` option is provide then any existing directory under
+    # the `runs` folder with the same run id will be replaced
     parser.add_argument('-r', '--replace', action='store_true',
             help="replace existing run dir")
+
+    # the `-d` option is for generating the data only, no optimizer is run
     parser.add_argument('-d', '--dryrun', action='store_true',
             help="only generate data")
+
+    # migration threshold determines the % reduction is cost to
+    # trigger a migration
     parser.add_argument('-m', '--migthr', type=float, default=0.3,
             help='migration threshold (default=0.3)')
     args = parser.parse_args()
