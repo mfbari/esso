@@ -23,3 +23,6 @@ debug
 
 # log files
 *.log
+
+# python compiled files
+*.pyc
