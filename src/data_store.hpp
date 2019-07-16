@@ -11,6 +11,7 @@
 
 using namespace std;
 
+// assuming that all simulations run for 24 hours
 constexpr int time_inst_count = 24;
 
 //=========data structures to hold input data=========//
@@ -31,6 +32,8 @@ struct node_info {
   bool is_server() {return node_category == 'c';}
 };
 
+// edge_info.t == 'i' for intra-co links or internal links to a co
+// edge_info.t == 'b' for inter-co links or backbone links
 struct edge_info {
   int id, u, v;
   char type;
