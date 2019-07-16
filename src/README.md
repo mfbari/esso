@@ -5,6 +5,12 @@
 * `run_acceptance_ratio_experiment.sh`: executes the `run_simulation.py` file in a batch mode with different parameter settings.
 * `runsim.cpp`: deprecated  
 
+## Output of run_simulation.py
+````
+<timeslot> <carbon-footprint> <brown-energy> <green-energy> <acceptance-ratio>
+<timeslot> <migration-count> <path-stretch min 5th-percentile mean 95th-percentile max> 
+````
+
 ## CPLEX implementation
 
 * `esso_cplex.cpp`
