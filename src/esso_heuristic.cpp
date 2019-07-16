@@ -483,17 +483,19 @@ bool read_res_topology_file(const string& res_topology_filename,
 
 int main(int argc, char **argv) {
 
+  // check the number of arguments are print help if it is not three
   if (argc != 3) {
     cerr << "usage: ./esso_heuristic.o <relative-path-to co_topology.dat> " << 
         "<relative-path-to res_topology.dat>" << endl;
     return -1;
   }
-  // directory for the dataset
-  //string dataset_dir {argv[1]};
+
+  // filenames for co_topology and res_topology
   string co_topology_filename {argv[1]};
   string res_topology_filename {argv[2]};
 
-  // prob_inst contains all the input data
+  // prob_inst contains topology data and iz_topology object to
+  // compute shostest paths
   problem_instance prob_inst;
   problem_input prob_input;
   //prob_input.vnf_info_filename = join_path(dataset_dir, "vnf_types.dat");
@@ -509,11 +511,17 @@ int main(int argc, char **argv) {
       return -1;
     }
 
+    // at this point we have read all the input files successfully
+
+
+    // read in the timeslot, sfc-request, curr_cost, and mig_threshold
+    // from stdin. This data is provided by run_simulation.py script
     sfc_request sfc;
     int timeslot;
     double current_cost, migration_threshold;
     cin >> timeslot >> sfc >> current_cost >> migration_threshold;
 
+    // this time calculates the running time of the heuristic
     iz_timer htimer;
 
     /* commentedout this block to check for all paths instead of one
@@ -529,11 +537,11 @@ int main(int argc, char **argv) {
     }
     */
 
-    //// check all paths instead of just one
+    // check all paths instead of just one
     double time;
     iz_path_list paths;
     iz_path embedding_path;
-    int k = 10;
+    int k = 10; // 10 alternate paths are explored here
     auto& inter_co_topo = prob_inst.topology.inter_co_topo;
     inter_co_topo.k_shortest_paths(sfc.ingress_co, sfc.egress_co, k, paths,
         sfc.bandwidth);
@@ -542,6 +550,8 @@ int main(int argc, char **argv) {
       cerr << "no embedding path" << endl;
       return 0;
     }
+
+    // data structure for the best solution and its cost
     vector<vector<int>> best_solution;
     double best_cost{numeric_limits<double>::max()};
 
@@ -820,6 +830,7 @@ int main(int argc, char **argv) {
     oss << time << " " << brown_energy << " " << green_energy << endl;
     cout << oss.str();
   }
+  // failed to read the input files so return error
   else {
     cerr << "failed to read input files for porblem instance" << endl;
     return -1;
