@@ -1,5 +1,6 @@
 #!/usr/bin/python
 
+import logging
 import sys
 import os
 import argparse
@@ -11,6 +12,7 @@ import json
 import numpy as np
 from scipy import stats
 
+logging.basicConfig(stream=sys.stderr, level=logging.INFO)
 
 def int_or_float(s):
     """
@@ -468,14 +470,14 @@ if __name__ == '__main__':
 
     # check whether dataset folder exists
     if not os.path.isdir(dataset_path):
-        print "error: dataset folder " + dataset_path + " not found"
+        logging.ERROR("dataset folder " + dataset_path + " not found")
         exit()
 
     # check whether run folder exists
     # if the 'replace' or '-r' option is provided then the following
     # check will not be done
     if not args.replace and os.path.isdir(run_path):
-        print "error: run folder " + run_path + " already exists"
+        logging.ERROR("run folder " + run_path + " already exists")
         exit()
 
     # create/replace run directory
@@ -566,7 +568,8 @@ if __name__ == '__main__':
                             '../' + os.path.join(dataset_path, 
                                 'co_topology.dat') + \
                             ' ' + topo_filename
-                #print 'run_sim: exe_path:', exe_path 
+                logging.debug('run_sim: exe_path: %s', exe_path)
+                # make sure that the stdout it written
                 sys.stdout.flush()
                 #start = timer()
                 # ts_sfcs: sfcs (new and old) to be processed in this timestamp
@@ -597,11 +600,21 @@ if __name__ == '__main__':
                     stdin_str = str(t) + ' ' + str(sfcs[s]) + ' ' + \
                             str(sfcs[s].curr_emb_cost) + ' ' + \
                             str(mt) + '\n'
-                    #print 'input', stdin_str.strip()
+                    logging.debug('input to optimizer ' + stdin_str.strip())
+
+                    # run the optimizer
                     exe_proc.stdin.write(stdin_str)
                     # get the output from the optimizer
                     mapping = exe_proc.communicate()[0]
-                    #print mapping.strip()
+                    logging.debug(mapping.strip())
+                    # close the stdin of the exe_proc process
+                    exe_proc.stdin.close()
+                    # if failure to execute optimizer code then exit
+                    if exe_proc.wait() != 0:
+                        logging.error('failed to execute code')
+                        exit()
+
+                    # convert the string values in the mapping to int or float
                     mapping_values = [int_or_float(x) for x in mapping.split()]
                     # if the sfc was embedded, 200 indicates Okay.
                     if mapping_values[0] == 200:
@@ -618,6 +631,7 @@ if __name__ == '__main__':
                         allocate_resource(s)
                     # update the res_topology.dat file after resource allocation
                     update_write_topology_file()
+
                     #print embed_sfc_count, '/', prced_sfc_count, \
                     #        '/', sfc_count
                 #print "took", (timer()-start), "sec."
