@@ -26,3 +26,9 @@ debug
 
 # python compiled files
 *.pyc
+
+# python virtual environment
+venv
+
+# jupyter notebook checkpoint files
+*.ipynb_checkpoints
