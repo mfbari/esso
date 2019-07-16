@@ -472,11 +472,13 @@ if __name__ == '__main__':
         exit()
 
     # check whether run folder exists
+    # if the 'replace' or '-r' option is provided then the following
+    # check will not be done
     if not args.replace and os.path.isdir(run_path):
         print "error: run folder " + run_path + " already exists"
         exit()
 
-    # create run directory
+    # create/replace run directory
     try:
         os.mkdir(run_path)
     except OSError as e:
@@ -497,27 +499,44 @@ if __name__ == '__main__':
     read_vnf_types_file(dataset_path)
     #print vnf_flavor_to_cpu
 
+    # read the timeslots file
     read_timeslots_file(dataset_path)
 
+    # read the init_topology file
     read_topology_file(dataset_path)
 
-    # main simulation loop
+    ########################
+    # main simulation loop #
+    ########################
     # x_sfcs: sfcs that can be considered for migration at a time instance
     x_sfcs = set()
-    # change path to the run folder
+    # change path to the run folder, save the current pwd in cdir
+    # will switch back to cdir at the end of the loop
     cdir = os.getcwd()
     os.chdir(run_path)
+    # res_topology.dat is used to keep track of resources
+    # during the simulation
     topo_filename = 'res_topology.dat'
+    # to keep track of carbon footprint during the simulation
     carbon_fp = 0
+    # counter to track how many SFCs were successfully embedded
     embed_sfc_count = 0
+    # counter to track how many SFCs were attempted for embedding
+    # the ratio of these two counters provide the acceptance ratio
     prced_sfc_count = 0
+    # this list keeps track of the running times for each SFC
     running_times = []
+    # loop over the timeslots
     for t in range(timeslot_count):
-        x_sfcs = x_sfcs.difference(sfc_out[t])
+        # remove the SFCs that are expiring at this timestamp
+        # from the set x_sfcs
         # x_sfcs represent alive sfcs that arrived between [0,t)
-        # --- --- start code for simulation
-        #print "timeslot:", t, "n_sfc:", list(sfc_in[t]), "x_sfc:", list(x_sfcs)
+        x_sfcs = x_sfcs.difference(sfc_out[t])
+        logging.debug("timeslot: " + str(t) + " n_sfc: " + str(list(sfc_in[t])) + " x_sfc: " + str(list(x_sfcs)))
 
+        #############################
+        # start code for simulation #
+        #############################
 
         # to store the path stretch
         path_stretches = []
@@ -527,26 +546,17 @@ if __name__ == '__main__':
         # release resource for expired sfcs
         for s in sfc_out[t]:
             release_resource(s)
+        # update the res_topology.dat file after releasing resources
         update_write_topology_file()
-  
+
+        # print <timeslot> <carbon-footprint> <brown-energy> <green-energy>
+        # for each timeslot
         print t, round(carbon_fp, 3), round(brown_energy, 3), \
                 round(green_energy, 3),
 
-        ########################################
-        # write files for cplex/heuristic code
-        #n_sfc_filename = 'n_sfc_t' + str(t)
-        #with open(n_sfc_filename, 'w') as f:
-        #    f.write(str(len(sfc_in[t])) + "\n")
-        #    for s in sfc_in[t]:
-        #        f.write(str(sfcs[s]) + "\n")
-        #x_sfc_filename = 'x_sfc_t' + str(t)
-        #with open(x_sfc_filename, 'w') as f:
-        #    f.write(str(len(x_sfcs)) + "\n")
-        #    for s in x_sfcs:
-        #        f.write(str(sfcs[s]) + "\n")
-        ########################################        
         # invoke cplex/heuristic code if not dryrun
         if not args.dryrun:
+            # the `run.log` file within the `run` folder contains
             with open('run.log', 'w') as exe_log:
                 if args.cplex:
                     exe_path = './' + executable + ' ' + \
@@ -559,27 +569,41 @@ if __name__ == '__main__':
                 #print 'run_sim: exe_path:', exe_path 
                 sys.stdout.flush()
                 #start = timer()
+                # ts_sfcs: sfcs (new and old) to be processed in this timestamp
+                # first get the new ones
                 ts_sfcs = list(sfc_in[t])
+                # then get the old ones
                 ts_sfcs.extend(list(x_sfcs))
+                # for each sfc s...
                 for s in ts_sfcs:
+                    # if s is a new sfc increament the prced_sfc_count
                     if s in sfc_in[t]:
                         prced_sfc_count += 1
+
+                    # popen the cplex/heuristic program
                     exe_proc = subprocess.Popen(exe_path, shell=True,
                             stdout=subprocess.PIPE,
                             stdin=subprocess.PIPE,
                             stderr=exe_log)
+
+                    # for new sfc migration threshold is zero
+                    # otherwise we use the default/provided value during run
                     if s in sfc_in[t]:
                         mt = 0.0
                     else:
                         mt = migration_threshold
+
+                    # build the stdin string to process the sfc
                     stdin_str = str(t) + ' ' + str(sfcs[s]) + ' ' + \
                             str(sfcs[s].curr_emb_cost) + ' ' + \
                             str(mt) + '\n'
                     #print 'input', stdin_str.strip()
                     exe_proc.stdin.write(stdin_str)
+                    # get the output from the optimizer
                     mapping = exe_proc.communicate()[0]
                     #print mapping.strip()
                     mapping_values = [int_or_float(x) for x in mapping.split()]
+                    # if the sfc was embedded, 200 indicates Okay.
                     if mapping_values[0] == 200:
                         smp = SfcMapping(mapping)
                         sfcs[s].curr_emb_cost = smp.emb_cost
@@ -592,18 +616,16 @@ if __name__ == '__main__':
                             release_resource(s)
                         sfc_mappings[s] = smp
                         allocate_resource(s)
-                    exe_proc.stdin.close()
-                    #print mapping.strip()
-                    if exe_proc.wait() != 0:
-                        print 'failed to execute code'
-                        exit()
+                    # update the res_topology.dat file after resource allocation
                     update_write_topology_file()
                     #print embed_sfc_count, '/', prced_sfc_count, \
                     #        '/', sfc_count
                 #print "took", (timer()-start), "sec."
         # end of cplex/heuristic code execution
+        # print the acceptance rate on the same line as carbon footprint,
+        # brown & green energy
         print embed_sfc_count*100.0/prced_sfc_count
-        # print migration count and path stretch stat
+        # print timestamp, migration count and path stretch stat
         print t, migration_count, 
         if path_stretches:
             print min(path_stretches), np.percentile(path_stretches, 5), \
@@ -611,9 +633,15 @@ if __name__ == '__main__':
                     np.percentile(path_stretches, 95), max(path_stretches)
         else:
             print "0 0 0 0 0"
+        # get the sfcs for the next timeslot and add them into x_sfcs
         x_sfcs = x_sfcs.union(sfc_in[t])
+
+        # for testing purpose
         #if t == 1: break
-        # --- --- end code for simulation
+
+        ###########################
+        # end code for simulation #
+        ###########################
 
     # print stat data
     print min(running_times), np.percentile(running_times, 5), \
