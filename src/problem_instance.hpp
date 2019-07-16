@@ -61,7 +61,7 @@ struct problem_input {
   string time_slot_filename;
 };
 
-struct sfc_mapping {
+/*struct sfc_mapping {
   struct node_mapping {
     int co_id, server_id;
     node_mapping(int co_id, int server_id) :
@@ -76,21 +76,21 @@ struct sfc_mapping {
   struct edge_mapping {
     edge_mapping_type ee_type;
     std::vector<int> path;
-    edge_mapping(edge_mapping_type ee_type = 
-        edge_mapping_type::in_server, std::vector<int> path = 
+    edge_mapping(edge_mapping_type ee_type =
+        edge_mapping_type::in_server, std::vector<int> path =
         std::vector<int> {}) {}
   };
   std::vector<node_mapping> node_mappings; // location where vnf is embedded
   std::vector<edge_mapping> edge_mappings;
-};
+};*/
 
-using sfc_mapping_set = std::vector<sfc_mapping>;
+//using sfc_mapping_set = std::vector<sfc_mapping>;
 
 struct problem_instance {
   vector<vnf_type> vnf_types;
   vector<vnf_flavor> vnf_flavors;
   vector<sfc_request_set> time_slots;
-  vector<sfc_mapping_set> solution;
+//  vector<sfc_mapping_set> solution;
   esso_topology topology;
 
   int time_slot_count() {return time_slots.size();}
@@ -112,7 +112,7 @@ struct problem_instance {
     fstream fgc("../data/greencap.dat");
     if (!fgc) {
         fgc.open("../../data/greencap.dat");
-        if (fgc == NULL) {
+        if (!fgc.is_open()) {
             cout << "ERROR: failed to open greencap.dat" << endl;
             return false;
         }
@@ -146,7 +146,7 @@ struct problem_instance {
     return true;
   }
 
-  bool read_time_slot_file(const string& filename) {
+/*  bool read_time_slot_file(const string& filename) {
     fstream fin(filename.c_str());
     if (!fin) {
       cout << "ERROR: failed to open timeslot file" << endl;
@@ -200,7 +200,7 @@ struct problem_instance {
     }
     fin.close();
     return true;
-  }
+  }*/
 };
 
 ostream& operator<<(ostream& out, const sfc_request& sfc) {
