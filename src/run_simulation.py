@@ -528,6 +528,12 @@ if __name__ == '__main__':
     prced_sfc_count = 0
     # this list keeps track of the running times for each SFC
     running_times = []
+
+    # open files for writing simulation output
+    sim_data_file = open('sim_data.csv', 'w')
+    sim_data_file.write('timeslot,carbon_footprint,brown_energy,green_energy,' +
+                        'acceptance_ratio,migration_count,' +
+                        'ps_min,ps_5th,ps_mean,ps_95th,ps_max\n')
     # loop over the timeslots
     for t in range(timeslot_count):
         # remove the SFCs that are expiring at this timestamp
@@ -553,8 +559,8 @@ if __name__ == '__main__':
 
         # print <timeslot> <carbon-footprint> <brown-energy> <green-energy>
         # for each timeslot
-        print t, round(carbon_fp, 3), round(brown_energy, 3), \
-                round(green_energy, 3),
+        sim_data_file.write("{},{},{},{},".format(t, round(carbon_fp, 3),
+                            round(brown_energy, 3), round(green_energy, 3)))
 
         # invoke cplex/heuristic code if not dryrun
         if not args.dryrun:
@@ -638,15 +644,17 @@ if __name__ == '__main__':
         # end of cplex/heuristic code execution
         # print the acceptance rate on the same line as carbon footprint,
         # brown & green energy
-        print embed_sfc_count*100.0/prced_sfc_count
+        sim_data_file.write('{},'.format(embed_sfc_count*100.0/prced_sfc_count))
         # print timestamp, migration count and path stretch stat
-        print t, migration_count, 
+        sim_data_file.write('{},'.format(migration_count))
         if path_stretches:
-            print min(path_stretches), np.percentile(path_stretches, 5), \
-                    np.mean(path_stretches), \
-                    np.percentile(path_stretches, 95), max(path_stretches)
+            sim_data_file.write('{},{},{},{},{}'.format(min(path_stretches),
+                                np.percentile(path_stretches, 5), np.mean(path_stretches),
+                                np.percentile(path_stretches, 95), max(path_stretches)))
         else:
-            print "0 0 0 0 0"
+            sim_data_file.write('0.0,0.0,0.0,0.0,0.0')
+        sim_data_file.write('\n')
+
         # get the sfcs for the next timeslot and add them into x_sfcs
         x_sfcs = x_sfcs.union(sfc_in[t])
 
@@ -658,6 +666,7 @@ if __name__ == '__main__':
         ###########################
 
     # print stat data
+    sim_data_file.close()
     print min(running_times), np.percentile(running_times, 5), \
             np.mean(running_times), np.median(running_times), \
             stats.mode(running_times)[0][0], \
