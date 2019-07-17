@@ -61,6 +61,8 @@ void stage_two(const int co_id, const sfc_request& sfc, const iz_path& path,
       timeslot, cost_matrix, node_matrix);
 }
 
+
+// find a first fit solution based on the cost matrix
 bool first_fit(const sfc_request& sfc, const iz_path& path, 
     const vector<vector<vector<double>>>& cost_matrices,
     vector<vector<int>>& embedding_table) {
@@ -81,6 +83,8 @@ bool first_fit(const sfc_request& sfc, const iz_path& path,
   return false;
 }
 
+
+// random fit solution for tabu search seed
 bool random_fit(const sfc_request& sfc, const iz_path& path,
     vector<vector<int>>& embedding_table) {
   default_random_engine rnd_engine;
@@ -227,12 +231,14 @@ bool tabu_search(const sfc_request& sfc, const iz_path& path,
     const vector<vector<vector<double>>>& cost_matrices,
     vector<vector<int>>& best_solution,
     double& best_solution_cost) {
+
     // initial solution from first-fit
     vector<vector<int>> current_solution = vector<vector<int>>(
         path.size(), vector<int>(sfc.vnf_count, 0));
     auto res = first_fit(sfc, path, cost_matrices, 
         current_solution);
-    // if no fist-fit solution, then random fit 
+
+    // if no fist-fit solution, then random fit
     if (!res) {
       for(auto& row : current_solution) {
         for (auto& e : row) e = 0;
@@ -495,7 +501,7 @@ int main(int argc, char **argv) {
   string res_topology_filename {argv[2]};
 
   // prob_inst contains topology data and iz_topology object to
-  // compute shostest paths
+  // compute shortest paths
   problem_instance prob_inst;
   problem_input prob_input;
   //prob_input.vnf_info_filename = join_path(dataset_dir, "vnf_types.dat");
@@ -555,10 +561,19 @@ int main(int argc, char **argv) {
     vector<vector<int>> best_solution;
     double best_cost{numeric_limits<double>::max()};
 
-    // added this for loop to iterate over all paths
+
+    // added the following for loop to iterate over all paths
+    // instead of calling stage-1 explicitly, this loop iterates
+    // over the first 10 paths that have enough bandwidth to support
+    // the chain.
+
+    // best_cost_matrices and best_node_matrices track the best
+    // cost_matrix and corresponding nodes for the path selected
+    // after computing the embedding cost over all paths
     vector<vector<vector<double>>> best_cost_matrices;
     vector<vector<vector<int>>> best_node_matrices;
     bool solution_found = false;
+
     for (auto& path : paths) {
       if (path.latency > sfc.latency) continue;
       htimer.reset();
