@@ -12,7 +12,7 @@ import json
 import numpy as np
 from scipy import stats
 
-logging.basicConfig(stream=sys.stderr, level=logging.INFO)
+logging.basicConfig(stream=sys.stderr, level=logging.DEBUG)
 
 def int_or_float(s):
     """
@@ -152,7 +152,8 @@ class SfcMapping:
             self.bandwidth = data[6+self.vnf_count]
             self.emb_cost = data[8+self.vnf_count]
             self.emb_servers = data[10+self.vnf_count:10+2*self.vnf_count]
-            paths_data = data[10+2*self.vnf_count:-1] 
+            self.co_stretch = data[10+2*self.vnf_count]
+            paths_data = data[11+2*self.vnf_count:-1]
             self.path_stretch = 0
             itr = iter(paths_data)
             path_count = itr.next()
@@ -606,13 +607,13 @@ if __name__ == '__main__':
                     stdin_str = str(t) + ' ' + str(sfcs[s]) + ' ' + \
                             str(sfcs[s].curr_emb_cost) + ' ' + \
                             str(mt) + '\n'
-                    logging.debug('input to optimizer ' + stdin_str.strip())
+                    logging.debug('input to optimizer: ' + stdin_str.strip())
 
                     # run the optimizer
                     exe_proc.stdin.write(stdin_str)
                     # get the output from the optimizer
                     mapping = exe_proc.communicate()[0]
-                    logging.debug(mapping.strip())
+                    logging.debug('output from optimizer: ' + mapping.strip())
                     # close the stdin of the exe_proc process
                     exe_proc.stdin.close()
                     # if failure to execute optimizer code then exit
@@ -625,6 +626,7 @@ if __name__ == '__main__':
                     # if the sfc was embedded, 200 indicates Okay.
                     if mapping_values[0] == 200:
                         smp = SfcMapping(mapping)
+                        logging.debug('co_stretch: ' + str(smp.co_stretch))
                         sfcs[s].curr_emb_cost = smp.emb_cost
                         running_times.append(smp.run_time)
                         if s in sfc_in[t]: # new sfc

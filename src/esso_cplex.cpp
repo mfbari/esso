@@ -1,5 +1,6 @@
 #include <ilcplex/ilocplex.h>
 #include <iterator>
+#include <set>
 
 #include "data_store.hpp"
 #include "iz_timer.hpp"
@@ -378,7 +379,8 @@ int main(int argc, char **argv) {
     //cout << "Objective value = " << cplex.getObjValue() << endl;
     cout << "200 " << sfc << " " << cplex.getObjValue() << " ";
 
-    // get value for x
+    // get value for x and co stretch
+    set<int> uniq_cos;
     cout << sfc.vnf_count << " ";
     for (int n = 1; n < sfc.node_count() - 1; ++n) {
       for (int _n = 0; _n < ds.node_count; ++_n) {
@@ -386,9 +388,12 @@ int main(int argc, char **argv) {
         //  cplex.getValue(x[n][_n]) << endl;
         if (IloRound(cplex.getValue(x[n][_n])) == 1) {
           cout << _n << " ";
+          uniq_cos.insert(ds.node_infos[_n].co_id);
         }
       }
     }
+    // output the co stretch
+    cout << uniq_cos.size() << " ";
     // get value for y
     vector<vector<int>> all_paths;
     for (int l = 0; l < sfc.edge_count(); ++l) {

@@ -1,5 +1,6 @@
 #include <limits>
 #include <sstream>
+#include <set>
 
 //#include "esso_heuristic.hpp"
 #include "iz_topology.hpp"
@@ -800,6 +801,9 @@ int main(int argc, char **argv) {
     // OUTPUT the number of nodes followed by the nodes
     oss << sfc.vnf_count << " "; 
     for (auto node : emb_nodes) oss << node << " ";
+
+    // co stretcy
+    oss << set<int>(emb_cos.begin(), emb_cos.end()).size() << " ";
 
     // generate full topology
     iz_topology full_topo;
