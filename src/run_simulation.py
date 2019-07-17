@@ -12,7 +12,7 @@ import json
 import numpy as np
 from scipy import stats
 
-logging.basicConfig(stream=sys.stderr, level=logging.DEBUG)
+logging.basicConfig(stream=sys.stderr, level=logging.INFO)
 
 def int_or_float(s):
     """
@@ -531,10 +531,12 @@ if __name__ == '__main__':
     running_times = []
 
     # open files for writing simulation output
-    sim_data_file = open('sim_data.csv', 'w')
-    sim_data_file.write('timeslot,carbon_footprint,brown_energy,green_energy,' +
+    timeslot_data_file = open('timeslot_data.csv', 'w')
+    sfc_data_file = open('sfc_data.csv', 'w')
+    timeslot_data_file.write('timeslot,carbon_footprint,brown_energy,green_energy,' +
                         'acceptance_ratio,migration_count,' +
                         'ps_min,ps_5th,ps_mean,ps_95th,ps_max\n')
+    sfc_data_file.write('timeslot,sfc_id,co_stretch,path_stretch\n')
     # loop over the timeslots
     for t in range(timeslot_count):
         # remove the SFCs that are expiring at this timestamp
@@ -560,7 +562,7 @@ if __name__ == '__main__':
 
         # print <timeslot> <carbon-footprint> <brown-energy> <green-energy>
         # for each timeslot
-        sim_data_file.write("{},{},{},{},".format(t, round(carbon_fp, 3),
+        timeslot_data_file.write("{},{},{},{},".format(t, round(carbon_fp, 3),
                             round(brown_energy, 3), round(green_energy, 3)))
 
         # invoke cplex/heuristic code if not dryrun
@@ -586,7 +588,7 @@ if __name__ == '__main__':
                 ts_sfcs.extend(list(x_sfcs))
                 # for each sfc s...
                 for s in ts_sfcs:
-                    # if s is a new sfc increament the prced_sfc_count
+                    # if s is a new sfc increment the prced_sfc_count
                     if s in sfc_in[t]:
                         prced_sfc_count += 1
 
@@ -632,6 +634,9 @@ if __name__ == '__main__':
                         if s in sfc_in[t]: # new sfc
                             embed_sfc_count += 1
                             path_stretches.append(smp.path_stretch)
+                            sfc_data_file.write('{},{},{},{}\n'.format(t, s,
+                                                smp.co_stretch, smp.path_stretch))
+                            #sfc_data_file.flush()
                         if s in x_sfcs: # migration
                             migration_count += 1
                             release_resource(s)
@@ -646,16 +651,17 @@ if __name__ == '__main__':
         # end of cplex/heuristic code execution
         # print the acceptance rate on the same line as carbon footprint,
         # brown & green energy
-        sim_data_file.write('{},'.format(embed_sfc_count*100.0/prced_sfc_count))
+        timeslot_data_file.write('{},'.format(embed_sfc_count*100.0/prced_sfc_count))
         # print timestamp, migration count and path stretch stat
-        sim_data_file.write('{},'.format(migration_count))
+        timeslot_data_file.write('{},'.format(migration_count))
         if path_stretches:
-            sim_data_file.write('{},{},{},{},{}'.format(min(path_stretches),
+            timeslot_data_file.write('{},{},{},{},{}'.format(min(path_stretches),
                                 np.percentile(path_stretches, 5), np.mean(path_stretches),
                                 np.percentile(path_stretches, 95), max(path_stretches)))
         else:
-            sim_data_file.write('0.0,0.0,0.0,0.0,0.0')
-        sim_data_file.write('\n')
+            timeslot_data_file.write('0.0,0.0,0.0,0.0,0.0')
+        timeslot_data_file.write('\n')
+        #timeslot_data_file.flush()
 
         # get the sfcs for the next timeslot and add them into x_sfcs
         x_sfcs = x_sfcs.union(sfc_in[t])
@@ -668,7 +674,8 @@ if __name__ == '__main__':
         ###########################
 
     # print stat data
-    sim_data_file.close()
+    timeslot_data_file.close()
+    sfc_data_file.close()
     print min(running_times), np.percentile(running_times, 5), \
             np.mean(running_times), np.median(running_times), \
             stats.mode(running_times)[0][0], \
