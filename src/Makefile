@@ -17,11 +17,17 @@ cplex: esso_cplex.cpp data_store.hpp
 heuristic: esso_heuristic.cpp
 	$(CC) $(OPZFLAGS) $(CPPFLAGS) $< -o esso_heuristic.o 
 
-dbg_heuristic: esso_heuristic.cpp 
+firstfit: esso_firstfit.cpp
+	$(CC) $(OPZFLAGS) $(CPPFLAGS) $< -o esso_firstfit.o
+
+dbg_heuristic: esso_heuristic.cpp
 	$(CC) $(DBGFLAGS) $(CPPFLAGS) $< -o esso_heuristic.o
 
 dbg_cplex: esso_cplex.cpp data_store.hpp
 	$(CC) $(DBGFLAGS) $(CPPFLAGS) $(CPLEXINC) $< $(CPLEXLIB) -o esso_cplex.o
+
+dbg_firstfit: esso_firstfit.cpp
+	$(CC) $(DBGFLAGS) $(CPPFLAGS) $< -o esso_firstfit.o
 
 
 tk_cplex: esso_cplex.cpp data_store.hpp
