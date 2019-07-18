@@ -32,3 +32,6 @@ venv
 
 # jupyter notebook checkpoint files
 *.ipynb_checkpoints
+
+# idea files
+.idea/*
