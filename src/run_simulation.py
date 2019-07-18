@@ -434,6 +434,8 @@ if __name__ == '__main__':
             help="run CPLEX code")
     group.add_argument('-t', '--tabusearch', action='store_true',
             help="run tabu search code")
+    group.add_argument('-f', '--firstfit', action='store_true',
+                       help="run first fit code")
 
     # the `id` is used as the folder name for the current simulation
     # under the `runs` folder
@@ -464,9 +466,12 @@ if __name__ == '__main__':
     if args.cplex:
         run_path += 'c_'
         executable = 'esso_cplex.o'
-    else:
+    elif args.tabusearch:
         run_path += 'h_'
         executable = 'esso_heuristic.o'
+    else:
+        run_path += 'f_'
+        executable = 'esso_firstfit.o'
     run_path += args.id
 
     # check whether dataset folder exists
@@ -495,8 +500,10 @@ if __name__ == '__main__':
     # copy the executable to the run folder
     if args.cplex:
         shutil.copy('esso_cplex.o', run_path)
-    else:
+    elif args.tabusearch:
         shutil.copy('esso_heuristic.o', run_path)
+    else:
+        shutil.copy('esso_firstfit.o', run_path)
 
     # read input files
     read_vnf_types_file(dataset_path)
