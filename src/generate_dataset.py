@@ -50,6 +50,8 @@ def execute(cmd):
         raise subprocess.CalledProcessError(return_code, cmd)
 
 
+already_processed_topologies = {}
+
 def generate_dataset(as_num, arrival_rate, sfc_lifetime, replace=False):
     """
     check whether dataset dir exists.
@@ -101,8 +103,25 @@ def generate_dataset(as_num, arrival_rate, sfc_lifetime, replace=False):
 
     # run process_topology.o
     try:
-        for output in execute(["./process_topology.o", dataset_dir_path]):
-            pass
+        # check if the topology was previously processed
+        # if it was copy the init_topology and path file from that directory
+        if as_num in already_processed_topologies:
+            copy_file_if_not_present_or_older(
+                os.path.join(already_processed_topologies[as_num],
+                             'init_topology.dat'),
+                os.path.join(dataset_dir_path, 'init_topology.dat'))
+            copy_file_if_not_present_or_older(
+                os.path.join(already_processed_topologies[as_num],
+                             'paths.dat'),
+                os.path.join(dataset_dir_path, 'paths.dat'))
+        else:
+            # run the process
+            for output in execute(["./process_topology.o", dataset_dir_path]):
+                pass
+
+        # save the already processed topology dirname in the dict
+        if as_num not in already_processed_topologies:
+            already_processed_topologies[as_num] = dataset_dir_path
     except:
         logging.error('Failed to process topology for {} {} {} {}'.format(
             as_num, arrival_rate, sfc_lifetime, replace))
@@ -118,6 +137,7 @@ def generate_dataset(as_num, arrival_rate, sfc_lifetime, replace=False):
                       format(as_num, arrival_rate, sfc_lifetime, replace))
         raise
 
+    # generate traffic
     try:
         for output in execute(['python', 'traffic_generator.py',
                            '--as_no', as_num,
@@ -129,6 +149,7 @@ def generate_dataset(as_num, arrival_rate, sfc_lifetime, replace=False):
             as_num, arrival_rate, sfc_lifetime, replace))
         raise
 
+    # change dir to rocketfuel
     try:
         os.chdir(current_dir)
     except:
