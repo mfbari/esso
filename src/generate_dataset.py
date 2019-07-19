@@ -8,7 +8,7 @@ import logging
 
 logging.basicConfig(
     format="[%(filename)s:%(lineno)s - %(funcName)20s() ] %(message)s",
-    stream=sys.stderr, level=logging.DEBUG)
+    stream=sys.stderr, level=logging.INFO)
 
 # Assumptions
 # 1. this file will be executed from within the src folder
@@ -29,6 +29,7 @@ def copy_file_if_not_present_or_older(base_path, new_path):
     except:
         logging.error('Failed to copy file for {} {}'.format(
             base_path, new_path))
+        raise
 
 
 def execute(cmd):
@@ -73,6 +74,7 @@ def generate_dataset(as_num, arrival_rate, sfc_lifetime, replace=False):
     except:
         logging.error('Failed to check dataset dir existence for {} {} {} {}'.
             format(as_num, arrival_rate, sfc_lifetime, replace))
+        raise
 
     #############################
     # now moving onto the tasks #
@@ -85,6 +87,7 @@ def generate_dataset(as_num, arrival_rate, sfc_lifetime, replace=False):
     except:
         logging.error('Failed to check or create dataset dir for {} {} {} {}'.
                       format(as_num, arrival_rate, sfc_lifetime, replace))
+        raise
 
     # check for vnf_type file
     vnf_type_file_path = os.path.join(dataset_dir_path, 'vnf_types.dat')
@@ -103,6 +106,7 @@ def generate_dataset(as_num, arrival_rate, sfc_lifetime, replace=False):
     except:
         logging.error('Failed to process topology for {} {} {} {}'.format(
             as_num, arrival_rate, sfc_lifetime, replace))
+        raise
 
 
     # run traffic_generator
@@ -112,6 +116,7 @@ def generate_dataset(as_num, arrival_rate, sfc_lifetime, replace=False):
     except:
         logging.error('Failed to store and change dir for {} {} {} {}'.
                       format(as_num, arrival_rate, sfc_lifetime, replace))
+        raise
 
     try:
         for output in execute(['python', 'traffic_generator.py',
@@ -122,12 +127,14 @@ def generate_dataset(as_num, arrival_rate, sfc_lifetime, replace=False):
     except:
         logging.error('Failed to generate traffic for {} {} {} {}'.format(
             as_num, arrival_rate, sfc_lifetime, replace))
+        raise
 
     try:
         os.chdir(current_dir)
     except:
         logging.error('Failed to chage dir back to src for {} {} {} {}'.
                       format(as_num, arrival_rate, sfc_lifetime, replace))
+        raise
 
     # copy timeslot file
     timeslots_file_path = os.path.join(dataset_dir_path, 'timeslots.dat')
