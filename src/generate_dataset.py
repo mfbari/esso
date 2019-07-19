@@ -186,6 +186,8 @@ if __name__ == "__main__":
                 generate_dataset(args.as_num,
                                  '{:4.2f}'.format(sfc_arrival_rate * 0.01),
                                  str(sfc_lifetime), args.replace)
+                logging.info('finished with arrival_rate {} - sfc_lifetime {}'.format(
+                    sfc_arrival_rate*0.01, sfc_lifetime))
             except Exception as e:
                 logging.error('Failed for {} {}'.format(
                     sfc_arrival_rate*0.01, sfc_lifetime))
