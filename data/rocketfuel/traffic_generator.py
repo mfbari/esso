@@ -7,7 +7,7 @@ middleboxes = ['0', '1', '2', '3', '4', '5']
 def GenerateMiddleboxSequence(n):
   random.shuffle(middleboxes)
   return middleboxes[0:n]
-  
+
 def read_co_topology(co_file):
     g = nx.Graph()
     with open(co_file, "r") as f:
@@ -20,7 +20,7 @@ def read_co_topology(co_file):
         for line in f:
             tokens = line.strip("\n\r").split(",")
             u, v, lat, bw = int(tokens[0]), int(tokens[1]), float(tokens[2]), int(tokens[3])
-            g.add_edge(u, v, {'bw':int(bw), 'latency':int(lat)})
+            g.add_edge(u, v, bw=int(bw), latency=int(lat))
     return g
 
 def get_timeslot_index(ts, slot_width):
