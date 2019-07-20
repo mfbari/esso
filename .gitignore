@@ -12,6 +12,7 @@ tags
 data/*/n_sfc_t*
 data/*/x_sfc_t*
 data/*/paths.dat
+data/*
 
 # everything inside runs folder
 runs/*
