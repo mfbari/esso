@@ -423,7 +423,7 @@ int main(int argc, char **argv) {
     double time;
     iz_path_list paths;
     iz_path embedding_path;
-    int k = 10; // 10 alternate paths are explored here
+    int k = 2; // 10 alternate paths are explored here
     auto& inter_co_topo = prob_inst.topology.inter_co_topo;
     inter_co_topo.k_shortest_paths(sfc.ingress_co, sfc.egress_co, k, paths,
         sfc.bandwidth);
@@ -432,6 +432,8 @@ int main(int argc, char **argv) {
       cerr << "no embedding path" << endl;
       return 0;
     }
+
+    if (paths.size() == 2) paths.pop_back();
 
     // data structure for the best solution and its cost
     vector<vector<int>> best_solution;
