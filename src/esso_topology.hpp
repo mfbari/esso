@@ -255,9 +255,7 @@ struct esso_co {
     const int bandwidth, const int time_slot, 
     vector<vector<double>>& cost_matrix, vector<vector<int>>& node_matrix) {
 
-    //cerr << "esso_topo: bandwidth: " << bandwidth << endl;
-
-    // cost_matrix is used to hold the cost of all partial 
+    // cost_matrix is used to hold the cost of all partial
     // allocations
     cost_matrix.resize(cpu_reqs.size(), vector<double>(cpu_reqs.size(), -1.0));
     node_matrix.resize(cpu_reqs.size(), vector<int>(cpu_reqs.size(), -1));
@@ -416,24 +414,21 @@ struct esso_topology {
       }
     }
     brown_energy = brown_power;
-    return brown_power * carbon;
+    return brown_power * 1.12;
   }
 
   double get_carbon_fp(int time_slot, 
       double& brown_energy, double& green_energy ) {
-    double carbon_fp{0}, be, ge;
+    double carbon_fp{0}, be, ge, bge;
     brown_energy = 0;
     green_energy = 0;
-    carbon_fp += get_backbone_carbon_fp(time_slot, be);
-    brown_energy += be;
-    //cerr << "b: " << carbon_fp << " ";
+    carbon_fp += get_backbone_carbon_fp(time_slot, bge);
+    brown_energy += bge;
     for(const auto& c : cos) {
       carbon_fp += c.get_carbon_fp(time_slot, be, ge);
       brown_energy += be;
       green_energy += ge;
-      //cerr << c.id << ": " << c.get_carbon_fp(time_slot) << " ";
     }
-    //cerr << endl;
     return carbon_fp;
   }
 };
