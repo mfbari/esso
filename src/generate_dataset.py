@@ -149,11 +149,22 @@ def generate_dataset(as_num, arrival_rate, sfc_lifetime, replace=False):
             as_num, arrival_rate, sfc_lifetime, replace))
         raise
 
+    # add the tailing zeros in the timeslot files
+    try:
+        for output in execute(['python', 'fix_timeslots_file.py',
+                               as_num+'.timeslots']):
+            pass
+    except:
+        logging.error('Failed to fix timeslots file for {} {} {} {}'.format(
+            as_num, arrival_rate, sfc_lifetime, replace))
+        raise
+
+
     # change dir to rocketfuel
     try:
         os.chdir(current_dir)
     except:
-        logging.error('Failed to chage dir back to src for {} {} {} {}'.
+        logging.error('Failed to change dir back to src for {} {} {} {}'.
                       format(as_num, arrival_rate, sfc_lifetime, replace))
         raise
 
@@ -181,16 +192,16 @@ if __name__ == "__main__":
     #################################
 
     # arrival rates will be divided by 100
-    sfc_arrival_rate_start = 1
+    sfc_arrival_rate_start = 2
     sfc_arrival_rate_increment = 1
-    sfc_arrival_rate_datapoints = 10 # 10? how many data points
+    sfc_arrival_rate_datapoints = 9 # 10? how many data points
     sfc_arrival_rate_end = sfc_arrival_rate_start + \
                            sfc_arrival_rate_increment * \
                            sfc_arrival_rate_datapoints
 
     sfc_lifetime_start = 3600
     sfc_lifetime_increment = 1800
-    sfc_lifetime_datapoints = 20 # 20?
+    sfc_lifetime_datapoints = 1 # 20?
     sfc_lifetime_end = sfc_lifetime_start + \
                        sfc_lifetime_increment * sfc_lifetime_datapoints
 
