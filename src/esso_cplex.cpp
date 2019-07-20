@@ -247,9 +247,9 @@ int main(int argc, char **argv) {
     // zero cost is not considered for migration
     // positive current_cost indicate pre-existing sfc and
     // is considered for migration
-    //if (current_cost > 0) {
-    //  model.add(cost <= (1 - migration_threshold) * current_cost);
-    //}
+//    if (current_cost > 0) {
+//      model.add(cost <= (1 - migration_threshold) * current_cost);
+//    }
 
 
     //=========Objective=========//
@@ -291,10 +291,12 @@ int main(int argc, char **argv) {
 
     IloExprArray co_powers(env, ds.co_count);
     IloExpr backbone_power(env);
+    IloExprArray co_brown_power(env, ds.co_count);
     IloExpr total_brown_power(env), total_green_power(env);
     for (int _c = 0; _c < ds.co_count; ++_c) {
       //IloExpr co_power(env);
       co_powers[_c] = IloExpr(env);
+      co_brown_power[_c] = IloExpr(env);
       // 1. server power on a per co basis
       for (int _n : ds.co_server_ids[_c]) {
         // server base/sleep power
@@ -302,7 +304,7 @@ int main(int argc, char **argv) {
           (1 - z[_n]) * ds.node_infos[_n].sleep_power;
         // server cpu power
         for (int n = 1; n < sfc.node_count() - 1; ++n) {
-          co_powers[_c] += x[n][_n] * (sfc.cpu_reqs[n-1] * 
+          co_powers[_c] += x[n][_n] * (sfc.cpu_reqs[n-1] *
               ds.node_infos[_n].per_cpu_power);
         }
       }
@@ -320,12 +322,15 @@ int main(int argc, char **argv) {
                      0.0043 * cap_1g_inf[_l]; 
         }
       }
-      IloExpr brown_power(env);
-      brown_power = IloMax(0, co_powers[_c] - 
+      //IloExpr brown_power(env);
+      co_brown_power[_c] = IloMax(0, co_powers[_c] -
           ds.renewable_energy[_c][timeslot]); 
-      total_brown_power += brown_power;
-      total_green_power += co_powers[_c] - brown_power;
-      objective += ds.carbon_per_watt[_c] * brown_power;
+      total_brown_power += co_brown_power[_c];
+      total_green_power += co_powers[_c] - co_brown_power[_c];
+      objective += co_brown_power[_c] * ds.carbon_per_watt[_c];
+
+      //cerr << _c << " " << ds.carbon_per_watt[_c] << endl;
+
     }
     // add power for backbone links
     // no green energy is considered here
@@ -334,7 +339,7 @@ int main(int argc, char **argv) {
                  0.0043 * cap_1g_inf[_l]; 
     }
     total_brown_power += backbone_power;
-    objective += 1.12 * backbone_power; //carbon_per_watt for backbone 1.12
+    objective += backbone_power * 1.12; //carbon_per_watt for backbone 1.12
 
     if (current_cost > 0) {
       model.add(objective <= (1 - migration_threshold) * current_cost);
@@ -414,12 +419,12 @@ int main(int argc, char **argv) {
       " " << cplex.getValue(total_green_power) << endl;
 
     // print per co cost
-    /*
-    for (int _c = 0; _c < ds.co_count; ++_c) {
-      cout << cplex.getValue(co_powers[_c]) << " ";
-    }
-    cout << cplex.getValue(backbone_power) << " " << endl;
-    */
+//    for (int _c = 0; _c < ds.co_count; ++_c) {
+//      cerr << cplex.getValue(co_brown_power[_c]) << " " <<
+//        cplex.getValue(co_brown_power[_c] * ds.carbon_per_watt[_c]) << " ";
+//    }
+//    cerr << cplex.getValue(backbone_power) << " " <<
+//        cplex.getValue(backbone_power * 1.12) <<endl;
   }
   catch (IloException& e) {
     cerr << "Concert expection: " << e << endl;
