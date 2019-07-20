@@ -165,9 +165,11 @@ void data_store::read_res_topology_data(const string& filename) {
   co_switch_ids.resize(co_count);
   co_edge_ids.resize(co_count);
   // read renewable energy data from file
+  double carbon;
   for (int i = 0; i < co_count; ++i) {
     fin >> co_id;
-    fin >> carbon_per_watt[co_id];
+    fin >> carbon;
+    carbon_per_watt[i] = carbon;
     for (auto& re : renewable_energy[co_id]) {
       fin >> re;
     }
