@@ -101,7 +101,7 @@ double embedding_cost(problem_instance& prob_inst,
     const sfc_request& sfc, const iz_path& path,
     const vector<vector<vector<double>>>& cost_matrices,
     const vector<vector<int>>& embedding_table) {
-  auto& inter_co_topo = prob_inst.topology.inter_co_topo;
+  //auto& inter_co_topo = prob_inst.topology.inter_co_topo;
   double cost{0.0};
   for (int c = 0; c < path.size(); ++c) {
     // find starting 1 in embedding table
