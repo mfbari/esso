@@ -575,7 +575,7 @@ if __name__ == '__main__':
         # invoke cplex/heuristic code if not dryrun
         if not args.dryrun:
             # the `run.log` file within the `run` folder contains
-            with open('run.log', 'w') as exe_log:
+            with open('run.log', 'a+') as exe_log:
                 if args.cplex:
                     exe_path = './' + executable + ' ' + \
                             topo_filename + ' paths.dat'
