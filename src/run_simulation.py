@@ -152,7 +152,7 @@ class SfcMapping:
             self.bandwidth = data[6+self.vnf_count]
             self.emb_cost = data[8+self.vnf_count]
             self.emb_servers = data[10+self.vnf_count:10+2*self.vnf_count]
-            self.co_stretch = data[10+2*self.vnf_count]
+            self.co_count = data[10+2*self.vnf_count]
             paths_data = data[11+2*self.vnf_count:-1]
             self.path_stretch = 0
             itr = iter(paths_data)
@@ -169,6 +169,7 @@ class SfcMapping:
             self.run_time = data[-3]
             self.brown_energy = data[-2]
             self.green_energy = data[-1]
+            self.server_count = len(set(self.emb_servers))
 
     def toJSON(self):
         return json.dumps(self, default=lambda o: o.__dict__)
@@ -543,7 +544,7 @@ if __name__ == '__main__':
     timeslot_data_file.write('timeslot,carbon_footprint,brown_energy,green_energy,' +
                         'acceptance_ratio,migration_count,' +
                         'ps_min,ps_5th,ps_mean,ps_95th,ps_max\n')
-    sfc_data_file.write('timeslot,sfc_id,co_stretch,path_stretch\n')
+    sfc_data_file.write('timeslot,sfc_id,vnf_count,server_count,co_count,path_stretch\n')
     # loop over the timeslots
     for t in range(timeslot_count):
         # remove the SFCs that are expiring at this timestamp
@@ -635,14 +636,17 @@ if __name__ == '__main__':
                     # if the sfc was embedded, 200 indicates Okay.
                     if mapping_values[0] == 200:
                         smp = SfcMapping(mapping)
-                        logging.debug('co_stretch: ' + str(smp.co_stretch))
+                        logging.debug('co_count: ' + str(smp.co_count))
                         sfcs[s].curr_emb_cost = smp.emb_cost
                         running_times.append(smp.run_time)
                         if s in sfc_in[t]: # new sfc
                             embed_sfc_count += 1
                             path_stretches.append(smp.path_stretch)
-                            sfc_data_file.write('{},{},{},{}\n'.format(t, s,
-                                                smp.co_stretch, smp.path_stretch))
+                            sfc_data_file.write('{},{},{},{},{},{}\n'.format(t, s,
+                                                smp.vnf_count,
+                                                smp.server_count,
+                                                smp.co_count,
+                                                smp.path_stretch))
                             #sfc_data_file.flush()
                         if s in x_sfcs: # migration
                             migration_count += 1
