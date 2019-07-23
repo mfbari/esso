@@ -544,7 +544,9 @@ if __name__ == '__main__':
     timeslot_data_file.write('timeslot,carbon_footprint,brown_energy,green_energy,' +
                         'acceptance_ratio,migration_count,' +
                         'ps_min,ps_5th,ps_mean,ps_95th,ps_max\n')
+    timeslot_data_file.flush();
     sfc_data_file.write('timeslot,sfc_id,vnf_count,server_count,co_count,path_stretch\n')
+    sfc_data_file.flush()
     # loop over the timeslots
     for t in range(timeslot_count):
         # remove the SFCs that are expiring at this timestamp
