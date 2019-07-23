@@ -300,7 +300,7 @@ void data_store::read_x_sfc_data(const string& x_sfc_filename,
 
 int data_store::path_latency(int _p) {
   int latency{0}, u{path_nodes[_p].front()}, v;
-  for (int i = 1; i < path_nodes[_p].size(); ++i) {
+  for (size_t i = 1; i < path_nodes[_p].size(); ++i) {
     v = path_nodes[_p].at(i);
     if (u == v) continue;
     auto edge_id = edge_uv_to_id[make_pair(u, v)];
