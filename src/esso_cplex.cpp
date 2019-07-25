@@ -11,6 +11,11 @@ using IloIntVarArray2D = IloArray<IloIntVarArray>;
 using IloIntVarArray3D = IloArray<IloIntVarArray2D>;
 using IloIntVarArray4D = IloArray<IloIntVarArray3D>;
 
+// if this flag is set to false then, the switch cost will not be
+// part of the objective function. However, the switch cost will
+// be calculated and added to the final cost output
+constexpr bool use_switch_cost_in_objective = true;
+
 int main(int argc, char **argv) {
 
   data_store ds;
@@ -290,12 +295,14 @@ int main(int argc, char **argv) {
     // as done in the following code block
 
     IloExprArray co_powers(env, ds.co_count);
+    IloExprArray switch_powers(env, ds.co_count);
     IloExpr backbone_power(env);
     IloExprArray co_brown_power(env, ds.co_count);
     IloExpr total_brown_power(env), total_green_power(env);
     for (int _c = 0; _c < ds.co_count; ++_c) {
       //IloExpr co_power(env);
       co_powers[_c] = IloExpr(env);
+      switch_powers[_c] = IloExpr(env);
       co_brown_power[_c] = IloExpr(env);
       // 1. server power on a per co basis
       for (int _n : ds.co_server_ids[_c]) {
@@ -310,7 +317,7 @@ int main(int argc, char **argv) {
       }
       // 2. switch power on a per co basis
       for (int _s : ds.co_switch_ids[_c]) {
-        co_powers[_c] += w[_s] * ds.node_infos[_s].base_power +
+        switch_powers[_c] += w[_s] * ds.node_infos[_s].base_power +
             (1 - w[_s]) * ds.node_infos[_s].sleep_power;
       }
       // 3. edge power on a per co basis
@@ -318,11 +325,14 @@ int main(int argc, char **argv) {
         // compute power for (u->v) only
         // not for both (u->v) and (v->u)
         if (ds.edges[_l].u <= ds.edges[_l].v) {
-          co_powers[_c] += 0.0012 * cap_0_1g[_l] +
+          switch_powers[_c] += 0.0012 * cap_0_1g[_l] +
                      0.0043 * cap_1g_inf[_l]; 
         }
       }
       //IloExpr brown_power(env);
+      if (use_switch_cost_in_objective) {
+        co_powers[_c] += switch_powers[_c];
+      }
       co_brown_power[_c] = IloMax(0, co_powers[_c] -
           ds.renewable_energy[_c][timeslot]); 
       total_brown_power += co_brown_power[_c];
@@ -339,7 +349,8 @@ int main(int argc, char **argv) {
                  0.0043 * cap_1g_inf[_l]; 
     }
     total_brown_power += backbone_power;
-    objective += backbone_power * 1.12; //carbon_per_watt for backbone 1.12
+    if (use_switch_cost_in_objective)
+      objective += backbone_power * 1.12; //carbon_per_watt for backbone 1.12
 
     if (current_cost > 0) {
       model.add(objective <= (1 - migration_threshold) * current_cost);
@@ -382,7 +393,14 @@ int main(int argc, char **argv) {
     //timer.stop();
     //cout << "ILP solved in " << timer.getTime() << " sec" << endl;
     //cout << "Objective value = " << cplex.getObjValue() << endl;
-    cout << "200 " << sfc << " " << cplex.getObjValue() << " ";
+    double final_cost = cplex.getObjValue();
+    if (!use_switch_cost_in_objective) {
+      final_cost += cplex.getValue(backbone_power);
+      for (int _c = 0; _c < ds.co_count; ++_c) {
+        final_cost += cplex.getValue(switch_powers[_c]);
+      }
+    }
+    cout << "200 " << sfc << " " << final_cost << " ";
 
     // get value for x and co stretch
     set<int> uniq_cos;
