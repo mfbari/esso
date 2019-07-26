@@ -33,6 +33,7 @@ def generate_traffic_matrix():
     parser.add_argument('--max_simulation_time', type=int, default=86400) # 24 hour
     parser.add_argument('--sfc_lifetime', type=int, default=5400) # 1 hour 30 minute
     parser.add_argument('--num_time_slots', type=int, default=24)
+    parser.add_argument('--stddev', type=float, default=0.03)
 
     args = parser.parse_args()
     co_file = args.as_no + ".co"
@@ -55,7 +56,7 @@ def generate_traffic_matrix():
     tmc = fnss.sin_cyclostationary_traffic_matrix(
            topology, 
            mean=0.1, # average flow in TM is 100 Mbps 
-           stddev=0.03, # this is the std among average flows of different OD pairs 
+           stddev=args.stddev, # this is the std among average flows of different OD pairs
            gamma=0.8,     # gamma and log_psi are parameters for fitting the std of 
            log_psi=-0.033, # volume fluctuations over time. Look at Nucci et al. paper
            delta=0.2, # traffic variation from period max and avg as fraction of average
