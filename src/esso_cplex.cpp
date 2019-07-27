@@ -14,7 +14,7 @@ using IloIntVarArray4D = IloArray<IloIntVarArray3D>;
 // if this flag is set to false then, the switch cost will not be
 // part of the objective function. However, the switch cost will
 // be calculated and added to the final cost output
-constexpr bool use_switch_cost_in_objective = false;
+constexpr bool use_switch_cost_in_objective = true;
 
 int main(int argc, char **argv) {
 
