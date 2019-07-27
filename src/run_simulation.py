@@ -468,7 +468,7 @@ if __name__ == '__main__':
         run_path += 'c_'
         executable = 'esso_cplex.o'
     elif args.tabusearch:
-        run_path += 'h_'
+        run_path += 't_'
         executable = 'esso_heuristic.o'
     else:
         run_path += 'f_'
