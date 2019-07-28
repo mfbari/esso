@@ -193,7 +193,7 @@ if __name__ == "__main__":
     #################################
 
     # arrival rates will be divided by 100
-    sfc_arrival_rate_start = 3
+    sfc_arrival_rate_start = 1
     sfc_arrival_rate_increment = 1
     sfc_arrival_rate_datapoints = 1 # 10? how many data points
     sfc_arrival_rate_end = sfc_arrival_rate_start + \
