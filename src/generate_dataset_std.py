@@ -193,7 +193,7 @@ if __name__ == "__main__":
     #################################
 
     # arrival rates will be divided by 100
-    sfc_arrival_rate_start = 1
+    sfc_arrival_rate_start = 2
     sfc_arrival_rate_increment = 1
     sfc_arrival_rate_datapoints = 1 # 10? how many data points
     sfc_arrival_rate_end = sfc_arrival_rate_start + \
@@ -228,13 +228,13 @@ if __name__ == "__main__":
                                  std_dev_increment):
                 try:
                     generate_dataset(args.as_num,
-                                     '{:5.3f}'.format(sfc_arrival_rate * 0.001),
+                                     '{:6.4f}'.format(sfc_arrival_rate * 0.0001),
                                      str(sfc_lifetime),
                                      '{:4.2f}'.format(std_dev*0.01),
                                      args.replace)
                     logging.info('finished with arrival_rate {} - ' +
                                  'sfc_lifetime {} - std_dev {}'.format(
-                        sfc_arrival_rate*0.001, sfc_lifetime, std_dev*0.01))
+                        sfc_arrival_rate*0.0001, sfc_lifetime, std_dev*0.01))
                 except Exception as e:
                     logging.error('Failed for {} {}'.format(
                         sfc_arrival_rate*0.001, sfc_lifetime))
