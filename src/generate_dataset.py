@@ -192,12 +192,15 @@ if __name__ == "__main__":
     #################################
 
     # arrival rates will be divided by 100
-    sfc_arrival_rate_start = 2
+    sfc_arrival_rate_start = 1
     sfc_arrival_rate_increment = 1
-    sfc_arrival_rate_datapoints = 9 # 10? how many data points
+    sfc_arrival_rate_datapoints = 10 # 10? how many data points
     sfc_arrival_rate_end = sfc_arrival_rate_start + \
                            sfc_arrival_rate_increment * \
                            sfc_arrival_rate_datapoints
+    arrival_time_multiplier = 0.01
+    arrival_time_format_str = '{:4.2f}'
+
 
     sfc_lifetime_start = 3600
     sfc_lifetime_increment = 1800
@@ -216,12 +219,15 @@ if __name__ == "__main__":
                                   sfc_lifetime_increment):
             try:
                 generate_dataset(args.as_num,
-                                 '{:4.2f}'.format(sfc_arrival_rate * 0.01),
+                                 arrival_time_format_str.format(
+                                     sfc_arrival_rate *
+                                     arrival_time_multiplier),
                                  str(sfc_lifetime), args.replace)
-                logging.info('finished with arrival_rate {} - sfc_lifetime {}'.format(
-                    sfc_arrival_rate*0.01, sfc_lifetime))
+                logging.info('finished with arrival_rate {} - sfc_lifetime {}'.
+                    format(sfc_arrival_rate*arrival_time_multiplier,
+                           sfc_lifetime))
             except Exception as e:
                 logging.error('Failed for {} {}'.format(
-                    sfc_arrival_rate*0.01, sfc_lifetime))
+                    sfc_arrival_rate*arrival_time_multiplier, sfc_lifetime))
                 logging.error(str(e))
 

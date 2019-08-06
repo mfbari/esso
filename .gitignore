@@ -1,3 +1,7 @@
+# run output files in the src dir
+src/*.dat
+
+
 # vim temp files
 *.swp
 *.swo
