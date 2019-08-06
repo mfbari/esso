@@ -194,12 +194,12 @@ if __name__ == "__main__":
     # arrival rates will be divided by 100
     sfc_arrival_rate_start = 1
     sfc_arrival_rate_increment = 1
-    sfc_arrival_rate_datapoints = 1 # 10? how many data points
+    sfc_arrival_rate_datapoints = 10 # 10? how many data points
     sfc_arrival_rate_end = sfc_arrival_rate_start + \
                            sfc_arrival_rate_increment * \
                            sfc_arrival_rate_datapoints
-    arrival_time_multiplier = 0.0001
-    arrival_time_format_str = '{:5.4f}'
+    arrival_time_multiplier = 0.01
+    arrival_time_format_str = '{:4.2f}'
 
 
     sfc_lifetime_start = 3600
