@@ -11,29 +11,44 @@ TKCPLEXINC:= -L/home/mfbari/ILOG/CPLEX_Studio125/cplex/lib/x86-64_sles10_4.1/sta
 CPLEXLIB := -lilocplex -lconcert -lcplex -lm -lpthread -DIL_STD
 
 
-cplex: esso_cplex.cpp data_store.hpp 
+cplex: esso_cplex.cpp data_store.hpp problem_instance.hpp esso_topology.hpp \
+       stop_watch.hpp iz_topology.hpp iz_priority_queue.hpp
 	$(CC) $(OPZFLAGS) $(CPPFLAGS) $(CPLEXINC) $< $(CPLEXLIB) -o esso_cplex.o
 
-heuristic: esso_heuristic.cpp
+heuristic: esso_heuristic.cpp data_store.hpp problem_instance.hpp \
+           esso_topology.hpp stop_watch.hpp iz_topology.hpp \
+           iz_priority_queue.hpp
 	$(CC) $(OPZFLAGS) $(CPPFLAGS) $< -o esso_heuristic.o 
 
-firstfit: esso_firstfit.cpp
+firstfit: esso_firstfit.cpp data_store.hpp problem_instance.hpp \
+          esso_topology.hpp stop_watch.hpp iz_topology.hpp \
+          iz_priority_queue.hpp
 	$(CC) $(OPZFLAGS) $(CPPFLAGS) $< -o esso_firstfit.o
 
-dbg_heuristic: esso_heuristic.cpp
+dbg_heuristic: esso_heuristic.cpp data_store.hpp problem_instance.hpp \
+               esso_topology.hpp stop_watch.hpp iz_topology.hpp \
+               iz_priority_queue.hpp
 	$(CC) $(DBGFLAGS) $(CPPFLAGS) $< -o esso_heuristic.o
 
-dbg_cplex: esso_cplex.cpp data_store.hpp
+dbg_cplex: esso_cplex.cpp data_store.hpp problem_instance.hpp \
+           esso_topology.hpp stop_watch.hpp iz_topology.hpp \
+           iz_priority_queue.hpp
 	$(CC) $(DBGFLAGS) $(CPPFLAGS) $(CPLEXINC) $< $(CPLEXLIB) -o esso_cplex.o
 
-dbg_firstfit: esso_firstfit.cpp
+dbg_firstfit: esso_firstfit.cpp data_store.hpp problem_instance.hpp \
+              esso_topology.hpp stop_watch.hpp iz_topology.hpp \
+              iz_priority_queue.hpp
 	$(CC) $(DBGFLAGS) $(CPPFLAGS) $< -o esso_firstfit.o
 
 
-tk_cplex: esso_cplex.cpp data_store.hpp
+tk_cplex: esso_cplex.cpp data_store.hpp problem_instance.hpp \
+          esso_topology.hpp stop_watch.hpp iz_topology.hpp \
+          iz_priority_queue.hpp
 	$(CC) $(OPZFLAGS) $(CPPFLAGS) $(TKCPLEXINC) $< $(CPLEXLIB) -o esso_cplex.o
 
-tk_dbg_cplex: esso_cplex.cpp data_store.hpp
+tk_dbg_cplex: esso_cplex.cpp data_store.hpp problem_instance.hpp \
+              esso_topology.hpp stop_watch.hpp iz_topology.hpp \
+              iz_priority_queue.hpp
 	$(CC) $(DBGFLAGS) $(CPPFLAGS) $(TKCPLEXINC) $< $(CPLEXLIB) -o esso_cplex.o
 
 process_topology: process_topology.cpp problem_instance.hpp \
