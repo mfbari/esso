@@ -435,7 +435,7 @@ int main(int argc, char **argv) {
       return 0;
     }
 
-    if (paths.size() == 2) paths.pop_back();
+    //if (paths.size() == 2) paths.pop_back();
 
     // data structure for the best solution and its cost
     vector<vector<int>> best_solution;
