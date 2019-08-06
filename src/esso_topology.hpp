@@ -222,7 +222,7 @@ struct esso_co {
     return brown_energy * carbon;
   }
 
-  int add_server(int cpu_capacity = 6, double per_cpu_power = 0.165,
+  int add_server(int cpu_capacity = 640, double per_cpu_power = 0.165,
                  double base_power = 0.0805, double sleep_power = 0.02415) {
     shared_ptr<esso_node> ptr = make_shared<esso_server>(intra_nodes.size(), 
         cpu_capacity, per_cpu_power, base_power, sleep_power);
@@ -247,7 +247,7 @@ struct esso_co {
     for (int i = 0; i < count; ++i) {
       int server_id = add_server();
       add_server_info(server_id);
-      add_intra_edge(switch_id, server_id, 1, 100000); //100Gbps link
+      add_intra_edge(switch_id, server_id, 1, 100000000); //100Gbps link
     }
   }
 
