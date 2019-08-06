@@ -228,6 +228,6 @@ if __name__ == "__main__":
                            sfc_lifetime))
             except Exception as e:
                 logging.error('Failed for {} {}'.format(
-                    sfc_arrival_rate*0.01, sfc_lifetime))
+                    sfc_arrival_rate*arrival_time_multiplier, sfc_lifetime))
                 logging.error(str(e))
 
