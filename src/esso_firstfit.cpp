@@ -225,6 +225,7 @@ vector<int> magic_sequence(const int vnf_count) {
       if (!seq.empty() && n != seq.back()) seq.push_back(n);
     }
   }
+  return seq;
 }
 
 
