@@ -595,6 +595,7 @@ if __name__ == '__main__':
                 # first get the new ones
                 ts_sfcs = list(sfc_in[t])
                 # then get the old ones
+                # comment out the following line to ignore migration
                 ts_sfcs.extend(list(x_sfcs))
                 # for each sfc s...
                 for s in ts_sfcs:
@@ -676,7 +677,8 @@ if __name__ == '__main__':
         timeslot_data_file.write('\n')
         #timeslot_data_file.flush()
 
-        # get the sfcs for the next timeslot and add them into x_sfcs
+        # get the sfcs for the current timeslot and add them into x_sfcs
+        # they will be considered for migration in the next timeslot
         x_sfcs = x_sfcs.union(sfc_in[t])
 
         # for testing purpose
