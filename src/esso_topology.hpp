@@ -11,6 +11,12 @@
 
 using namespace std;
 
+constexpr int cpu_cap = 64;
+constexpr int link_cap = 1000000;
+
+//constexpr int cpu_cap = numeric_limits<int>::max()/2;
+//constexpr int link_cap = numeric_limits<int>::max()/2;
+
 struct esso_node {
   int id;
   double base_power;
@@ -126,14 +132,14 @@ struct esso_co {
     vector<int> aggr_switches(2);
     for (auto& agsw : aggr_switches) {
       agsw = add_switch();
-      add_intra_edge(core_switch, agsw, 1, numeric_limits<int>::max()/2);
+      add_intra_edge(core_switch, agsw, 1, link_cap);
     }
     // add tor switches and link them to the aggregate switches
     vector<int> tor_switches(2);
     for (auto& trsw : tor_switches) {
       trsw = add_switch();
       for (const auto& agsw : aggr_switches) {
-        add_intra_edge(agsw, trsw, 1, numeric_limits<int>::max()/2);
+        add_intra_edge(agsw, trsw, 1, link_cap);
       } 
     }
     for (auto& trsw : tor_switches) {
@@ -223,7 +229,7 @@ struct esso_co {
     return brown_energy * carbon;
   }
 
-  int add_server(int cpu_capacity = 640, double per_cpu_power = 0.165,
+  int add_server(int cpu_capacity = cpu_cap, double per_cpu_power = 0.165,
                  double base_power = 0.0805, double sleep_power = 0.02415) {
     shared_ptr<esso_node> ptr = make_shared<esso_server>(intra_nodes.size(), 
         cpu_capacity, per_cpu_power, base_power, sleep_power);
@@ -248,7 +254,7 @@ struct esso_co {
     for (int i = 0; i < count; ++i) {
       int server_id = add_server();
       add_server_info(server_id);
-      add_intra_edge(switch_id, server_id, 1, numeric_limits<int>::max()/2); //100Gbps link
+      add_intra_edge(switch_id, server_id, 1, link_cap); //100Gbps link
     }
   }
 
