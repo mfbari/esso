@@ -40,6 +40,12 @@ int main(int argc, char **argv) {
     double migration_threshold; 
     cin >> timeslot >> sfc >> current_cost >> migration_threshold;
 
+    // the following code block is for no consolidation case
+//    if (current_cost > 0) {
+//      cout << "404 " << sfc << endl;
+//      return 0;
+//    }
+
     iz_timer ctimer;
 
     // decision variable x, indices: n, _n
