@@ -447,6 +447,17 @@ int main(int argc, char **argv) {
 //    }
 //    cerr << cplex.getValue(backbone_power) << " " <<
 //        cplex.getValue(backbone_power * 1.12) <<endl;
+
+
+    // output to cerr for computing green energy utilization
+    cerr << timeslot << " " << sfc.id << " " << " " << ds.co_count << " ";
+    for (int _c = 0; _c < ds.co_count; ++_c) {
+      cerr << cplex.getValue(co_powers[_c]) << " ";
+    }
+    for (int _c = 0; _c < ds.co_count; ++_c) {
+      cerr << cplex.getValue(co_brown_power[_c]) << " ";
+    }
+    cerr << endl;
   }
   catch (IloException& e) {
     cerr << "Concert expection: " << e << endl;
