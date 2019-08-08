@@ -334,11 +334,11 @@ int main(int argc, char **argv) {
         co_powers[_c] += switch_powers[_c];
       }
 
-      //co_brown_power[_c] = IloMax(0, co_powers[_c] -
-      //    ds.renewable_energy[_c][timeslot]);
+      co_brown_power[_c] = IloMax(0, co_powers[_c] -
+          ds.renewable_energy[_c][timeslot]);
       // comment out the above eqn and use the following eqn
       // to ignore green energy
-      co_brown_power[_c] = co_powers[_c];
+      //co_brown_power[_c] = co_powers[_c];
       total_brown_power += co_brown_power[_c];
       total_green_power += co_powers[_c] - co_brown_power[_c];
       objective += co_brown_power[_c] * ds.carbon_per_watt[_c];
